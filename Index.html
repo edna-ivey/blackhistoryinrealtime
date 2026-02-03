@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black History in Real Time</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cream: #FFF8E7;
+            --deep-brown: #2D1B0E;
+            --rust: #A0522D;
+            --gold: #D4AF37;
+            --sage: #87A96B;
+            --burnt-orange: #CC5500;
+        }
+
+```
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Crimson Pro', serif;
+        background: var(--cream);
+        color: var(--deep-brown);
+        line-height: 1.7;
+        overflow-x: hidden;
+    }
+
+    /* Decorative background elements */
+    body::before {
+        content: '';
+        position: fixed;
+        top: -50%;
+        right: -20%;
+        width: 80%;
+        height: 100%;
+        background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    body::after {
+        content: '';
+        position: fixed;
+        bottom: -30%;
+        left: -10%;
+        width: 60%;
+        height: 80%;
+        background: radial-gradient(circle, rgba(135, 169, 107, 0.06) 0%, transparent 70%);
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    /* Header */
+    header {
+        padding: 3rem 0;
+        border-bottom: 3px solid var(--deep-brown);
+        margin-bottom: 4rem;
+        position: relative;
+        animation: slideDown 0.8s ease-out;
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .logo-section {
+        text-align: center;
+    }
+
+    h1 {
+        font-family: 'Space Mono', monospace;
+        font-size: clamp(2rem, 5vw, 4rem);
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin-bottom: 0.5rem;
+        position: relative;
+        display: inline-block;
+    }
+
+    h1::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, var(--burnt-orange), var(--gold));
+        animation: expandWidth 1.2s ease-out 0.3s both;
+    }
+
+    @keyframes expandWidth {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    .tagline {
+        font-size: 1.3rem;
+        color: var(--rust);
+        margin-top: 1.5rem;
+        font-style: italic;
+        animation: fadeIn 0.8s ease-out 0.5s both;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    nav {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        animation: fadeIn 0.8s ease-out 0.7s both;
+    }
+
+    nav a {
+        font-family: 'Space Mono', monospace;
+        text-decoration: none;
+        color: var(--deep-brown);
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        padding: 0.5rem 1rem;
+        border: 2px solid var(--deep-brown);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    nav a::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--deep-brown);
+        transition: left 0.3s ease;
+        z-index: -1;
+    }
+
+    nav a:hover::before {
+        left: 0;
+    }
+
+    nav a:hover {
+        color: var(--cream);
+    }
+
+    /* Hero Section */
+    .hero {
+        text-align: center;
+        padding: 4rem 0;
+        margin-bottom: 4rem;
+        animation: fadeIn 1s ease-out 0.9s both;
+    }
+
+    .hero h2 {
+        font-size: clamp(2rem, 4vw, 3.5rem);
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+        color: var(--deep-brown);
+    }
+
+    .hero p {
+        font-size: 1.4rem;
+        max-width: 700px;
+        margin: 0 auto 2rem;
+        color: var(--rust);
+    }
+
+    .cta-button {
+        display: inline-block;
+        font-family: 'Space Mono', monospace;
+        background: var(--burnt-orange);
+        color: var(--cream);
+        padding: 1rem 2.5rem;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 8px 8px 0 var(--deep-brown);
+    }
+
+    .cta-button:hover {
+        transform: translate(4px, 4px);
+        box-shadow: 4px 4px 0 var(--deep-brown);
+    }
+
+    /* Section Styling */
+    section {
+        margin-bottom: 6rem;
+        animation: fadeInUp 0.8s ease-out both;
+    }
+
+    section:nth-child(even) {
+        animation-delay: 0.2s;
+    }
+
+    section:nth-child(odd) {
+        animation-delay: 0.4s;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    h2 {
+        font-family: 'Space Mono', monospace;
+        font-size: clamp(2rem, 3vw, 2.8rem);
+        margin-bottom: 2rem;
+        position: relative;
+        padding-bottom: 1rem;
+    }
+
+    h2::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 80px;
+        height: 3px;
+        background: var(--gold);
+    }
+
+    /* Quiz Section */
+    .quiz-container {
+        background: white;
+        padding: 3rem;
+        border: 4px solid var(--deep-brown);
+        box-shadow: 12px 12px 0 var(--sage);
+        margin-bottom: 2rem;
+    }
+
+    .quiz-question {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        font-weight: 600;
+    }
+
+    .quiz-options {
+        display: grid;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .quiz-option {
+        background: var(--cream);
+        border: 2px solid var(--deep-brown);
+        padding: 1.2rem;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: left;
+        font-family: 'Crimson Pro', serif;
+    }
+
+    .quiz-option:hover {
+        background: var(--sage);
+        color: white;
+        transform: translateX(8px);
+    }
+
+    .quiz-option.selected {
+        background: var(--gold);
+        border-color: var(--burnt-orange);
+        font-weight: 600;
+    }
+
+    .quiz-option.correct {
+        background: var(--sage);
+        color: white;
+        border-color: var(--sage);
+    }
+
+    .quiz-option.incorrect {
+        background: #D88C8C;
+        color: white;
+        border-color: #A05555;
+    }
+
+    .quiz-result {
+        background: var(--gold);
+        padding: 2rem;
+        margin-top: 2rem;
+        border: 3px solid var(--deep-brown);
+        display: none;
+    }
+
+    .quiz-result.show {
+        display: block;
+        animation: slideIn 0.5s ease-out;
+    }
+
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .quiz-result h3 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .quiz-result p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+
+    /* Facts Archive */
+    .facts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+
+    .fact-card {
+        background: white;
+        border: 3px solid var(--deep-brown);
+        padding: 2rem;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .fact-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, var(--burnt-orange), var(--gold));
+        transition: left 0.5s ease;
+    }
+
+    .fact-card:hover::before {
+        left: 0;
+    }
+
+    .fact-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 12px 12px 0 var(--sage);
+    }
+
+    .fact-date {
+        font-family: 'Space Mono', monospace;
+        font-size: 0.9rem;
+        color: var(--burnt-orange);
+        margin-bottom: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+    .fact-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .fact-description {
+        font-size: 1.1rem;
+        color: var(--rust);
+    }
+
+    /* About Section */
+    .about-content {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .about-content p {
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.9;
+    }
+
+    .social-links {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .social-links a {
+        font-family: 'Space Mono', monospace;
+        font-size: 1.2rem;
+        color: var(--deep-brown);
+        text-decoration: none;
+        padding: 0.8rem 1.5rem;
+        border: 3px solid var(--deep-brown);
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+    .social-links a:hover {
+        background: var(--burnt-orange);
+        color: var(--cream);
+        border-color: var(--burnt-orange);
+    }
+
+    /* Footer */
+    footer {
+        border-top: 3px solid var(--deep-brown);
+        padding: 3rem 0;
+        text-align: center;
+        margin-top: 6rem;
+        font-family: 'Space Mono', monospace;
+        font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .container {
+            padding: 0 1.5rem;
+        }
+
+        .quiz-container {
+            padding: 2rem 1.5rem;
+        }
+
+        .facts-grid {
+            grid-template-columns: 1fr;
+        }
+
+        nav {
+            gap: 1rem;
+        }
+    }
+</style>
+```
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-section">
+                <h1>Black History<br>in Real Time</h1>
+                <p class="tagline">Because history happens every day</p>
+            </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#quiz">Quiz</a>
+                <a href="#archive">Archive</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+```
+<main class="container">
+    <section class="hero" id="home">
+        <h2>Test Your Knowledge.<br>Discover the Truth.</h2>
+        <p>Daily quizzes and deep dives into Black history they didn't teach you in school.</p>
+        <a href="#quiz" class="cta-button">Take Today's Quiz</a>
+    </section>
+
+    <section id="quiz">
+        <h2>Today's Quiz</h2>
+        <div class="quiz-container">
+            <div class="quiz-question" id="question">
+                Who was the first Black woman to travel to space?
+            </div>
+            <div class="quiz-options">
+                <button class="quiz-option" data-answer="wrong">Sally Ride</button>
+                <button class="quiz-option" data-answer="correct">Mae Jemison</button>
+                <button class="quiz-option" data-answer="wrong">Katherine Johnson</button>
+                <button class="quiz-option" data-answer="wrong">Dorothy Vaughan</button>
+            </div>
+            <div class="quiz-result" id="result">
+                <h3>Correct!</h3>
+                <p>Dr. Mae Jemison became the first Black woman to travel to space on September 12, 1992, aboard the Space Shuttle Endeavour. A physician and engineer, she spent more than a week in space conducting experiments. Before NASA, she served in the Peace Corps in West Africa. She continues to advocate for science education and has started multiple companies focused on technology and social issues.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="archive">
+        <h2>History Archive</h2>
+        <div class="facts-grid">
+            <div class="fact-card">
+                <div class="fact-date">February 1, 1960</div>
+                <h3 class="fact-title">Greensboro Sit-Ins Begin</h3>
+                <p class="fact-description">Four Black college students staged a sit-in at a segregated Woolworth's lunch counter in Greensboro, North Carolina, sparking a movement that spread to 55 cities across 13 states.</p>
+            </div>
+
+            <div class="fact-card">
+                <div class="fact-date">March 2, 1955</div>
+                <h3 class="fact-title">Claudette Colvin's Stand</h3>
+                <p class="fact-description">15-year-old Claudette Colvin refused to give up her seat on a Montgomery bus, nine months before Rosa Parks. Her case became one of four used to challenge segregation in Browder v. Gayle.</p>
+            </div>
+
+            <div class="fact-card">
+                <div class="fact-date">August 28, 1963</div>
+                <h3 class="fact-title">March on Washington</h3>
+                <p class="fact-description">Over 250,000 people gathered for the March on Washington for Jobs and Freedom, where Dr. Martin Luther King Jr. delivered his iconic "I Have a Dream" speech.</p>
+            </div>
+
+            <div class="fact-card">
+                <div class="fact-date">June 21, 1964</div>
+                <h3 class="fact-title">Freedom Summer Murders</h3>
+                <p class="fact-description">Civil rights workers James Chaney, Andrew Goodman, and Michael Schwerner were murdered by the KKK in Mississippi while registering Black voters during Freedom Summer.</p>
+            </div>
+
+            <div class="fact-card">
+                <div class="fact-date">May 17, 1954</div>
+                <h3 class="fact-title">Brown v. Board of Education</h3>
+                <p class="fact-description">The Supreme Court unanimously ruled that racial segregation in public schools was unconstitutional, overturning Plessy v. Ferguson and its "separate but equal" doctrine.</p>
+            </div>
+
+            <div class="fact-card">
+                <div class="fact-date">December 1, 1955</div>
+                <h3 class="fact-title">Rosa Parks' Arrest</h3>
+                <p class="fact-description">Rosa Parks was arrested for refusing to give up her seat to a white passenger on a Montgomery bus, catalyzing the 381-day Montgomery Bus Boycott.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>Black History in Real Time is dedicated to sharing the stories, achievements, and struggles of Black people throughout history.</p>
+            <p>We believe history isn't just February. It's every day, every moment, every story that shaped our world.</p>
+            <p>Through interactive quizzes and deep dives, we're building a community committed to learning, sharing, and honoring the full scope of Black history.</p>
+            
+            <div class="social-links">
+                <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">Instagram</a>
+                <a href="mailto:contact@blackhistoryinrealtime.com">Contact</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Black History in Real Time | they/them</p>
+        <p style="margin-top: 0.5rem;">History happens every day 📚✊🏾</p>
+    </div>
+</footer>
+
+<script>
+    // Quiz functionality
+    const options = document.querySelectorAll('.quiz-option');
+    const result = document.getElementById('result');
+    let answered = false;
+
+    options.forEach(option => {
+        option.addEventListener('click', function() {
+            if (answered) return;
+            
+            answered = true;
+            const isCorrect = this.dataset.answer === 'correct';
+            
+            this.classList.add('selected');
+            
+            setTimeout(() => {
+                if (isCorrect) {
+                    this.classList.add('correct');
+                    result.innerHTML = `
+                        <h3>Correct! 🎉</h3>
+                        <p>Dr. Mae Jemison became the first Black woman to travel to space on September 12, 1992, aboard the Space Shuttle Endeavour. A physician and engineer, she spent more than a week in space conducting experiments. Before NASA, she served in the Peace Corps in West Africa. She continues to advocate for science education and has started multiple companies focused on technology and social issues.</p>
+                    `;
+                } else {
+                    this.classList.add('incorrect');
+                    options.forEach(opt => {
+                        if (opt.dataset.answer === 'correct') {
+                            opt.classList.add('correct');
+                        }
+                    });
+                    result.innerHTML = `
+                        <h3>Not quite!</h3>
+                        <p>The correct answer is <strong>Mae Jemison</strong>. Dr. Mae Jemison became the first Black woman to travel to space on September 12, 1992, aboard the Space Shuttle Endeavour. A physician and engineer, she spent more than a week in space conducting experiments. Before NASA, she served in the Peace Corps in West Africa.</p>
+                    `;
+                }
+                result.classList.add('show');
+            }, 300);
+        });
+    });
+
+    // Smooth scrolling for navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+</script>
+```
+
+</body>
+</html>
