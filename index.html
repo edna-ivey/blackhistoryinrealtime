@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Black History in Real Time</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<meta name="description" content="Daily quizzes and deep dives into Black history — past and present. Because history happens every day.">
+<meta property="og:title" content="Black History in Real Time">
+<meta property="og:description" content="Daily quizzes and deep dives into Black history they didn't teach you in school.">
+<meta property="og:image" content="logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
   :root {
     --red: #C41E3A;
@@ -15,874 +18,861 @@
     --orange: #E8621A;
     --cream: #F5EDD8;
     --white: #FAFAFA;
-    --dark-bg: #111111;
+    --card-bg: #161616;
+    --border: rgba(212,160,23,0.2);
   }
 
-- { margin: 0; padding: 0; box-sizing: border-box; }
-
-body {
-background: var(–black);
-color: var(–cream);
-font-family: ‘DM Sans’, sans-serif;
-min-height: 100vh;
-overflow-x: hidden;
-}
-
-/* NOISE TEXTURE OVERLAY */
-body::before {
-content: ‘’;
-position: fixed;
-inset: 0;
-background-image: url(“data:image/svg+xml,%3Csvg viewBox=‘0 0 256 256’ xmlns=‘http://www.w3.org/2000/svg’%3E%3Cfilter id=‘noise’%3E%3CfeTurbulence type=‘fractalNoise’ baseFrequency=‘0.9’ numOctaves=‘4’ stitchTiles=‘stitch’/%3E%3C/filter%3E%3Crect width=‘100%25’ height=‘100%25’ filter=‘url(%23noise)’ opacity=‘0.04’/%3E%3C/svg%3E”);
-pointer-events: none;
-z-index: 0;
-opacity: 0.4;
-}
-
-/* HEADER */
-header {
-position: relative;
-z-index: 10;
-padding: 0;
-background: linear-gradient(180deg, #1a0000 0%, var(–black) 100%);
-border-bottom: 3px solid var(–gold);
-}
-
-.header-stripe {
-display: flex;
-height: 8px;
-}
-.stripe-red { background: var(–red); flex: 1; }
-.stripe-black { background: var(–black); flex: 1; }
-.stripe-green { background: var(–green); flex: 1; }
-
-.header-inner {
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 20px 40px;
-gap: 20px;
-}
-
-.logo-area {
-display: flex;
-align-items: center;
-gap: 16px;
-}
-
-.logo-icon {
-width: 60px;
-height: 60px;
-border-radius: 50%;
-background: linear-gradient(135deg, var(–red) 0%, var(–orange) 50%, var(–green) 100%);
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 28px;
-flex-shrink: 0;
-box-shadow: 0 0 20px rgba(212,160,23,0.4);
-animation: pulse-glow 3s ease-in-out infinite;
-}
-
-@keyframes pulse-glow {
-0%, 100% { box-shadow: 0 0 20px rgba(212,160,23,0.4); }
-50% { box-shadow: 0 0 40px rgba(212,160,23,0.7); }
-}
-
-.logo-text h1 {
-font-family: ‘Bebas Neue’, sans-serif;
-font-size: 2rem;
-letter-spacing: 2px;
-line-height: 1;
-color: var(–white);
-}
-
-.logo-text h1 span { color: var(–gold); }
-
-.logo-text p {
-font-size: 0.75rem;
-color: var(–gold);
-letter-spacing: 3px;
-text-transform: uppercase;
-margin-top: 2px;
-}
-
-.streak-badge {
-display: flex;
-flex-direction: column;
-align-items: center;
-background: linear-gradient(135deg, var(–gold), var(–orange));
-color: var(–black);
-padding: 10px 20px;
-border-radius: 12px;
-font-weight: 700;
-min-width: 90px;
-}
-
-.streak-badge .streak-num {
-font-family: ‘Bebas Neue’, sans-serif;
-font-size: 2.2rem;
-line-height: 1;
-}
-
-.streak-badge .streak-label {
-font-size: 0.65rem;
-letter-spacing: 1px;
-text-transform: uppercase;
-}
-
-/* NAV TABS */
-nav {
-display: flex;
-gap: 0;
-padding: 0 40px;
-border-top: 1px solid rgba(212,160,23,0.2);
-}
-
-nav button {
-background: none;
-border: none;
-color: rgba(245,237,216,0.5);
-font-family: ‘DM Sans’, sans-serif;
-font-size: 0.85rem;
-letter-spacing: 2px;
-text-transform: uppercase;
-padding: 14px 20px;
-cursor: pointer;
-transition: all 0.2s;
-border-bottom: 3px solid transparent;
-}
-
-nav button:hover { color: var(–cream); }
-nav button.active {
-color: var(–gold);
-border-bottom-color: var(–gold);
-}
-
-/* MAIN CONTENT */
-main {
-position: relative;
-z-index: 1;
-max-width: 760px;
-margin: 0 auto;
-padding: 50px 24px;
-}
-
-/* DATE HEADER */
-.date-header {
-text-align: center;
-margin-bottom: 40px;
-animation: fadeUp 0.6s ease both;
-}
-
-.date-header .day-label {
-font-family: ‘Bebas Neue’, sans-serif;
-font-size: 1rem;
-letter-spacing: 6px;
-color: var(–gold);
-text-transform: uppercase;
-}
-
-.date-header h2 {
-font-family: ‘Playfair Display’, serif;
-font-size: clamp(2rem, 6vw, 3.5rem);
-font-weight: 900;
-color: var(–white);
-line-height: 1.1;
-margin: 8px 0;
-}
-
-.date-header .category-tag {
-display: inline-block;
-background: var(–green);
-color: var(–cream);
-font-size: 0.7rem;
-letter-spacing: 3px;
-text-transform: uppercase;
-padding: 4px 14px;
-border-radius: 100px;
-}
-
-@keyframes fadeUp {
-from { opacity: 0; transform: translateY(20px); }
-to { opacity: 1; transform: translateY(0); }
-}
-
-/* QUIZ CARD */
-.quiz-card {
-background: linear-gradient(135deg, #1a1a1a 0%, #0f1a10 100%);
-border: 1px solid rgba(212,160,23,0.3);
-border-radius: 20px;
-overflow: hidden;
-animation: fadeUp 0.6s ease 0.1s both;
-}
-
-.quiz-top {
-background: linear-gradient(135deg, var(–red) 0%, #8B0000 100%);
-padding: 28px 32px;
-position: relative;
-overflow: hidden;
-}
-
-.quiz-top::after {
-content: ‘?’;
-position: absolute;
-right: 24px;
-top: 50%;
-transform: translateY(-50%);
-font-family: ‘Playfair Display’, serif;
-font-size: 120px;
-font-weight: 900;
-color: rgba(255,255,255,0.08);
-line-height: 1;
-}
-
-.quiz-label {
-font-size: 0.7rem;
-letter-spacing: 4px;
-text-transform: uppercase;
-color: rgba(255,255,255,0.7);
-margin-bottom: 10px;
-}
-
-.quiz-question {
-font-family: ‘Playfair Display’, serif;
-font-size: clamp(1.1rem, 3vw, 1.5rem);
-font-weight: 700;
-color: var(–white);
-line-height: 1.4;
-position: relative;
-z-index: 1;
-}
-
-.quiz-body { padding: 28px 32px; }
-
-.options-grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 12px;
-margin-bottom: 24px;
-}
-
-.option-btn {
-background: rgba(255,255,255,0.05);
-border: 1px solid rgba(212,160,23,0.2);
-border-radius: 12px;
-padding: 14px 18px;
-color: var(–cream);
-font-family: ‘DM Sans’, sans-serif;
-font-size: 0.9rem;
-cursor: pointer;
-text-align: left;
-transition: all 0.25s;
-position: relative;
-overflow: hidden;
-}
-
-.option-btn:hover {
-background: rgba(212,160,23,0.1);
-border-color: var(–gold);
-transform: translateY(-2px);
-}
-
-.option-btn.correct {
-background: rgba(26, 92, 56, 0.4);
-border-color: #4CAF50;
-color: #90EE90;
-}
-
-.option-btn.wrong {
-background: rgba(196,30,58,0.3);
-border-color: var(–red);
-color: #ff8888;
-}
-
-.option-btn.disabled { cursor: default; }
-
-.option-letter {
-display: inline-block;
-width: 24px;
-height: 24px;
-background: rgba(212,160,23,0.2);
-border-radius: 50%;
-text-align: center;
-line-height: 24px;
-font-size: 0.75rem;
-font-weight: 700;
-margin-right: 10px;
-color: var(–gold);
-flex-shrink: 0;
-}
-
-.reveal-btn {
-width: 100%;
-background: linear-gradient(135deg, var(–gold), var(–orange));
-border: none;
-border-radius: 12px;
-padding: 16px;
-color: var(–black);
-font-family: ‘Bebas Neue’, sans-serif;
-font-size: 1.1rem;
-letter-spacing: 3px;
-cursor: pointer;
-transition: all 0.25s;
-}
-
-.reveal-btn:hover {
-transform: translateY(-2px);
-box-shadow: 0 8px 24px rgba(212,160,23,0.4);
-}
-
-/* REVEAL SECTION */
-.reveal-section {
-display: none;
-animation: fadeUp 0.5s ease both;
-}
-
-.reveal-section.visible { display: block; }
-
-.reveal-divider {
-display: flex;
-align-items: center;
-gap: 16px;
-margin: 32px 0 24px;
-padding: 0 32px;
-}
-
-.reveal-divider::before, .reveal-divider::after {
-content: ‘’;
-flex: 1;
-height: 1px;
-background: linear-gradient(90deg, transparent, var(–gold), transparent);
-}
-
-.reveal-divider span {
-font-family: ‘Bebas Neue’, sans-serif;
-font-size: 0.85rem;
-letter-spacing: 4px;
-color: var(–gold);
-white-space: nowrap;
-}
-
-.story-block {
-padding: 0 32px 32px;
-}
-
-.answer-badge {
-display: inline-flex;
-align-items: center;
-gap: 8px;
-background: linear-gradient(135deg, var(–green), #0d3320);
-border: 1px solid #4CAF50;
-border-radius: 8px;
-padding: 8px 16px;
-margin-bottom: 20px;
-font-size: 0.8rem;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #90EE90;
-}
-
-.story-title {
-font-family: ‘Playfair Display’, serif;
-font-size: clamp(1.4rem, 4vw, 2rem);
-font-weight: 900;
-color: var(–white);
-margin-bottom: 6px;
-line-height: 1.2;
-}
-
-.story-dates {
-font-size: 0.75rem;
-letter-spacing: 3px;
-color: var(–gold);
-text-transform: uppercase;
-margin-bottom: 20px;
-}
-
-.story-body {
-font-size: 1rem;
-line-height: 1.8;
-color: rgba(245,237,216,0.85);
-}
-
-.story-body p { margin-bottom: 16px; }
-
-.pull-quote {
-border-left: 4px solid var(–gold);
-background: rgba(212,160,23,0.07);
-padding: 16px 20px;
-margin: 24px 0;
-border-radius: 0 8px 8px 0;
-}
-
-.pull-quote p {
-font-family: ‘Playfair Display’, serif;
-font-style: italic;
-font-size: 1.1rem;
-color: var(–gold);
-margin: 0;
-line-height: 1.6;
-}
-
-.pull-quote cite {
-display: block;
-font-family: ‘DM Sans’, sans-serif;
-font-style: normal;
-font-size: 0.75rem;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: rgba(212,160,23,0.6);
-margin-top: 8px;
-}
-
-.why-matters {
-background: linear-gradient(135deg, rgba(196,30,58,0.1), rgba(139,0,0,0.05));
-border: 1px solid rgba(196,30,58,0.3);
-border-radius: 12px;
-padding: 20px 24px;
-margin-top: 24px;
-}
-
-.why-matters h4 {
-font-family: ‘Bebas Neue’, sans-serif;
-letter-spacing: 3px;
-font-size: 0.85rem;
-color: var(–red);
-margin-bottom: 10px;
-}
-
-.why-matters p {
-font-size: 0.9rem;
-line-height: 1.7;
-color: rgba(245,237,216,0.75);
-margin: 0;
-}
-
-/* SHARE SECTION */
-.share-section {
-padding: 24px 32px 32px;
-border-top: 1px solid rgba(212,160,23,0.15);
-}
-
-.share-label {
-font-size: 0.7rem;
-letter-spacing: 3px;
-text-transform: uppercase;
-color: rgba(245,237,216,0.4);
-margin-bottom: 12px;
-}
-
-.share-btns {
-display: flex;
-gap: 10px;
-flex-wrap: wrap;
-}
-
-.share-btn {
-display: flex;
-align-items: center;
-gap: 8px;
-background: rgba(255,255,255,0.06);
-border: 1px solid rgba(255,255,255,0.12);
-border-radius: 8px;
-padding: 10px 16px;
-color: var(–cream);
-font-family: ‘DM Sans’, sans-serif;
-font-size: 0.8rem;
-cursor: pointer;
-transition: all 0.2s;
-}
-
-.share-btn:hover {
-background: rgba(212,160,23,0.15);
-border-color: var(–gold);
-}
-
-.ig-btn { border-color: rgba(196,30,58,0.4); }
-.ig-btn:hover { background: rgba(196,30,58,0.15); border-color: var(–red); }
-
-/* CALENDAR VIEW */
-.calendar-view { display: none; }
-.calendar-view.active { display: block; }
-.quiz-view { display: block; }
-.quiz-view.hidden { display: none; }
-.archive-view { display: none; }
-.archive-view.active { display: block; }
-
-.calendar-grid {
-display: grid;
-grid-template-columns: repeat(7, 1fr);
-gap: 8px;
-animation: fadeUp 0.5s ease both;
-}
-
-.cal-day-header {
-text-align: center;
-font-size: 0.65rem;
-letter-spacing: 2px;
-color: rgba(245,237,216,0.3);
-text-transform: uppercase;
-padding: 8px 0;
-}
-
-.cal-day {
-aspect-ratio: 1;
-border-radius: 10px;
-border: 1px solid rgba(212,160,23,0.15);
-background: rgba(255,255,255,0.03);
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-cursor: pointer;
-transition: all 0.2s;
-font-size: 0.85rem;
-color: rgba(245,237,216,0.5);
-position: relative;
-}
-
-.cal-day:hover {
-background: rgba(212,160,23,0.1);
-border-color: var(–gold);
-color: var(–cream);
-transform: scale(1.05);
-}
-
-.cal-day.today {
-background: linear-gradient(135deg, var(–red), #8B0000);
-border-color: var(–red);
-color: var(–white);
-font-weight: 700;
-}
-
-.cal-day.completed {
-background: rgba(26,92,56,0.3);
-border-color: rgba(76,175,80,0.4);
-color: #90EE90;
-}
-
-.cal-day.completed::after {
-content: ‘✓’;
-position: absolute;
-top: 4px;
-right: 6px;
-font-size: 0.6rem;
-color: #4CAF50;
-}
-
-.cal-day.future { opacity: 0.35; cursor: default; }
-.cal-day.future:hover { transform: none; background: rgba(255,255,255,0.03); border-color: rgba(212,160,23,0.15); }
-
-.cal-day .day-num { font-family: ‘Bebas Neue’, sans-serif; font-size: 1.1rem; line-height: 1; }
-.cal-day .day-topic { font-size: 0.55rem; text-align: center; margin-top: 2px; padding: 0 2px; line-height: 1.2; opacity: 0.7; }
-
-/* IG CAPTION MODAL */
-.modal-overlay {
-position: fixed;
-inset: 0;
-background: rgba(0,0,0,0.85);
-z-index: 100;
-display: none;
-align-items: center;
-justify-content: center;
-padding: 20px;
-backdrop-filter: blur(6px);
-}
-
-.modal-overlay.open { display: flex; }
-
-.modal-box {
-background: #1a1a1a;
-border: 1px solid var(–gold);
-border-radius: 20px;
-padding: 32px;
-max-width: 560px;
-width: 100%;
-animation: fadeUp 0.3s ease both;
-}
-
-.modal-box h3 {
-font-family: ‘Bebas Neue’, sans-serif;
-font-size: 1.4rem;
-letter-spacing: 3px;
-color: var(–gold);
-margin-bottom: 16px;
-}
-
-.ig-caption-text {
-background: rgba(0,0,0,0.4);
-border: 1px solid rgba(255,255,255,0.1);
-border-radius: 10px;
-padding: 16px;
-font-size: 0.85rem;
-line-height: 1.7;
-color: var(–cream);
-white-space: pre-line;
-margin-bottom: 16px;
-max-height: 300px;
-overflow-y: auto;
-}
-
-.modal-btns { display: flex; gap: 10px; }
-
-.copy-btn {
-flex: 1;
-background: linear-gradient(135deg, var(–gold), var(–orange));
-border: none;
-border-radius: 10px;
-padding: 12px;
-color: var(–black);
-font-family: ‘Bebas Neue’, sans-serif;
-font-size: 1rem;
-letter-spacing: 2px;
-cursor: pointer;
-transition: all 0.2s;
-}
-
-.copy-btn:hover { opacity: 0.9; }
-
-.close-btn {
-background: rgba(255,255,255,0.08);
-border: 1px solid rgba(255,255,255,0.15);
-border-radius: 10px;
-padding: 12px 20px;
-color: var(–cream);
-font-family: ‘DM Sans’, sans-serif;
-font-size: 0.85rem;
-cursor: pointer;
-}
-
-/* SLIDE DECK PANEL */
-.slide-deck-label {
-font-size: 0.7rem;
-letter-spacing: 3px;
-text-transform: uppercase;
-color: rgba(245,237,216,0.4);
-margin-bottom: 12px;
-}
-
-.slides-preview {
-display: flex;
-gap: 8px;
-overflow-x: auto;
-padding-bottom: 8px;
-scrollbar-width: thin;
-scrollbar-color: var(–gold) transparent;
-}
-
-.slide-thumb {
-flex-shrink: 0;
-width: 90px;
-height: 90px;
-border-radius: 8px;
-border: 1px solid rgba(212,160,23,0.3);
-background: linear-gradient(135deg, var(–red), var(–black));
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 0.55rem;
-text-align: center;
-padding: 8px;
-color: var(–cream);
-line-height: 1.3;
-cursor: pointer;
-transition: all 0.2s;
-position: relative;
-}
-
-.slide-thumb:hover { border-color: var(–gold); transform: scale(1.05); }
-
-.slide-thumb .slide-num {
-position: absolute;
-top: 4px;
-left: 6px;
-font-family: ‘Bebas Neue’, sans-serif;
-font-size: 0.7rem;
-color: rgba(255,255,255,0.5);
-}
-
-/* FOOTER */
-footer {
-position: relative;
-z-index: 1;
-border-top: 1px solid rgba(212,160,23,0.2);
-padding: 32px 40px;
-text-align: center;
-}
-
-footer p {
-font-size: 0.75rem;
-color: rgba(245,237,216,0.3);
-letter-spacing: 2px;
-}
-
-footer a { color: var(–gold); text-decoration: none; }
-
-.pan-african-bar {
-display: flex;
-height: 4px;
-margin-top: 20px;
-}
-.pan-african-bar div { flex: 1; }
-
-/* RESPONSIVE */
-@media (max-width: 600px) {
-.header-inner { padding: 16px 20px; flex-wrap: wrap; }
-nav { padding: 0 20px; overflow-x: auto; }
-nav button { padding: 12px 14px; font-size: 0.75rem; white-space: nowrap; }
-main { padding: 30px 16px; }
-.quiz-top { padding: 20px 20px; }
-.quiz-body { padding: 20px 20px; }
-.options-grid { grid-template-columns: 1fr; }
-.story-block { padding: 0 20px 24px; }
-.share-section { padding: 20px 20px 24px; }
-.calendar-grid { grid-template-columns: repeat(7, 1fr); gap: 4px; }
-.cal-day { border-radius: 6px; font-size: 0.75rem; }
-.cal-day .day-topic { display: none; }
-}
-
-.copy-success {
-display: inline-block;
-background: var(–green);
-color: #90EE90;
-font-size: 0.75rem;
-padding: 4px 12px;
-border-radius: 100px;
-margin-left: 8px;
-animation: fadeUp 0.2s ease both;
-}
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--black);
+    color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* STRIPE */
+  .pan-stripe {
+    display: flex;
+    height: 6px;
+    width: 100%;
+  }
+  .pan-stripe .s1 { background: var(--red); flex: 1; }
+  .pan-stripe .s2 { background: #111; flex: 1; }
+  .pan-stripe .s3 { background: var(--green); flex: 1; }
+
+  /* HEADER */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(10,10,10,0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+  }
+
+  .logo-img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 2px var(--gold), 0 0 20px rgba(212,160,23,0.3);
+    animation: glow 3s ease-in-out infinite;
+    flex-shrink: 0;
+  }
+
+  @keyframes glow {
+    0%,100% { box-shadow: 0 0 0 2px var(--gold), 0 0 16px rgba(212,160,23,0.3); }
+    50% { box-shadow: 0 0 0 2px var(--gold), 0 0 32px rgba(212,160,23,0.6); }
+  }
+
+  .logo-text h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    color: var(--white);
+    line-height: 1;
+  }
+  .logo-text h1 span { color: var(--gold); }
+  .logo-text p {
+    font-size: 0.65rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-top: 1px;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .streak-pill {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: linear-gradient(135deg, var(--gold), var(--orange));
+    color: var(--black);
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+  .streak-pill .num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+
+  /* NAV */
+  nav {
+    border-top: 1px solid rgba(212,160,23,0.1);
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 0 32px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  nav::-webkit-scrollbar { display: none; }
+
+  nav button {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: rgba(245,237,216,0.45);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  nav button:hover { color: var(--cream); }
+  nav button.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+  /* LAYOUT */
+  main {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  /* VIEWS */
+  .view { display: none; }
+  .view.active { display: block; }
+
+  /* DATE HEADER */
+  .date-header {
+    text-align: center;
+    margin-bottom: 36px;
+    animation: fadeUp 0.5s ease both;
+  }
+  .day-label {
+    font-size: 0.72rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 10px;
+  }
+  .date-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+  .cat-tag {
+    display: inline-block;
+    background: var(--green);
+    color: var(--cream);
+    font-size: 0.65rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    border-radius: 100px;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* QUIZ CARD */
+  .quiz-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+    animation: fadeUp 0.5s ease 0.1s both;
+  }
+
+  .quiz-top {
+    background: linear-gradient(135deg, var(--red) 0%, #7a0020 100%);
+    padding: 28px 32px;
+    position: relative;
+    overflow: hidden;
+  }
+  .quiz-top::after {
+    content: '?';
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    font-weight: 900;
+    color: rgba(255,255,255,0.07);
+    line-height: 1;
+    pointer-events: none;
+  }
+  .quiz-label {
+    font-size: 0.68rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 10px;
+  }
+  .quiz-question {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1rem, 2.8vw, 1.45rem);
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.45;
+    position: relative;
+    z-index: 1;
+  }
+
+  .quiz-body { padding: 28px 32px; }
+
+  .options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .opt-btn {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(212,160,23,0.18);
+    border-radius: 12px;
+    padding: 14px 16px;
+    color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.88rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.22s;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .opt-btn:hover:not(.disabled) {
+    background: rgba(212,160,23,0.1);
+    border-color: var(--gold);
+    transform: translateY(-2px);
+  }
+  .opt-btn.selected { background: rgba(212,160,23,0.12); border-color: var(--gold); }
+  .opt-btn.correct { background: rgba(26,92,56,0.35); border-color: #4CAF50; color: #a8e6a8; }
+  .opt-btn.wrong { background: rgba(196,30,58,0.25); border-color: var(--red); color: #ffaaaa; }
+  .opt-btn.disabled { cursor: default; }
+
+  .opt-letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    background: rgba(212,160,23,0.15);
+    border-radius: 50%;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--gold);
+  }
+
+  .reveal-btn {
+    width: 100%;
+    background: linear-gradient(135deg, var(--gold), var(--orange));
+    border: none;
+    border-radius: 12px;
+    padding: 16px;
+    color: var(--black);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.22s;
+  }
+  .reveal-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(212,160,23,0.35);
+  }
+
+  /* REVEAL */
+  .reveal-section { display: none; }
+  .reveal-section.show { display: block; animation: fadeUp 0.4s ease both; }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 0 32px;
+    margin: 28px 0 22px;
+  }
+  .divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+  .divider span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    color: var(--gold);
+    white-space: nowrap;
+  }
+
+  .story-block { padding: 0 32px 28px; }
+
+  .answer-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(26,92,56,0.3);
+    border: 1px solid rgba(76,175,80,0.4);
+    border-radius: 8px;
+    padding: 7px 14px;
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #a8e6a8;
+    margin-bottom: 18px;
+  }
+
+  .story-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.3rem, 3.5vw, 1.9rem);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 4px;
+  }
+  .story-dates {
+    font-size: 0.72rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 18px;
+  }
+  .story-body { font-size: 0.97rem; line-height: 1.85; color: rgba(245,237,216,0.82); }
+  .story-body p { margin-bottom: 14px; }
+
+  .pull-quote {
+    border-left: 4px solid var(--gold);
+    background: rgba(212,160,23,0.06);
+    padding: 14px 18px;
+    margin: 20px 0;
+    border-radius: 0 8px 8px 0;
+  }
+  .pull-quote p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--gold);
+    margin: 0;
+    line-height: 1.6;
+  }
+  .pull-quote cite {
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(212,160,23,0.55);
+    margin-top: 8px;
+  }
+
+  .why-matters {
+    background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04));
+    border: 1px solid rgba(196,30,58,0.25);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin-top: 20px;
+  }
+  .why-matters h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+    font-size: 0.82rem;
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+  .why-matters p { font-size: 0.88rem; line-height: 1.75; color: rgba(245,237,216,0.7); margin: 0; }
+
+  /* SHARE */
+  .share-section {
+    padding: 20px 32px 28px;
+    border-top: 1px solid rgba(212,160,23,0.12);
+  }
+  .share-label {
+    font-size: 0.68rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(245,237,216,0.35);
+    margin-bottom: 10px;
+  }
+  .share-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+  .share-btn {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 9px 14px;
+    color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .share-btn:hover { background: rgba(212,160,23,0.12); border-color: var(--gold); }
+  .share-btn.ig:hover { background: rgba(196,30,58,0.12); border-color: var(--red); }
+
+  /* SLIDES PREVIEW */
+  .slides-section {
+    padding: 0 32px 28px;
+  }
+  .slides-label {
+    font-size: 0.68rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(245,237,216,0.35);
+    margin-bottom: 10px;
+  }
+  .slides-row {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold) transparent;
+  }
+  .slide-thumb {
+    flex-shrink: 0;
+    width: 88px;
+    height: 88px;
+    border-radius: 8px;
+    border: 1px solid rgba(212,160,23,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 8px;
+    color: var(--cream);
+    line-height: 1.35;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+  }
+  .slide-thumb:hover { border-color: var(--gold); transform: scale(1.06); }
+  .slide-num {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 0.68rem;
+    color: rgba(255,255,255,0.4);
+  }
+
+  /* MAKING HISTORY NOW */
+  .now-grid {
+    display: grid;
+    gap: 14px;
+    animation: fadeUp 0.5s ease both;
+  }
+  .now-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s;
+  }
+  .now-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
+  .now-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(180deg, var(--red), var(--gold));
+  }
+  .now-date {
+    font-size: 0.68rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+  .now-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 8px;
+    line-height: 1.35;
+  }
+  .now-body { font-size: 0.88rem; line-height: 1.7; color: rgba(245,237,216,0.72); }
+  .now-tag {
+    display: inline-block;
+    margin-top: 10px;
+    background: rgba(196,30,58,0.2);
+    border: 1px solid rgba(196,30,58,0.35);
+    border-radius: 100px;
+    padding: 3px 10px;
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffaaaa;
+  }
+
+  /* CALENDAR */
+  .cal-wrapper { animation: fadeUp 0.5s ease both; }
+  .cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+  }
+  .cal-header {
+    text-align: center;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    color: rgba(245,237,216,0.28);
+    text-transform: uppercase;
+    padding: 6px 0;
+  }
+  .cal-day {
+    aspect-ratio: 1;
+    border-radius: 8px;
+    border: 1px solid rgba(212,160,23,0.12);
+    background: rgba(255,255,255,0.02);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.18s;
+    font-size: 0.8rem;
+    color: rgba(245,237,216,0.45);
+    position: relative;
+  }
+  .cal-day:hover:not(.future) { background: rgba(212,160,23,0.1); border-color: var(--gold); color: var(--cream); transform: scale(1.04); }
+  .cal-day.today { background: linear-gradient(135deg, var(--red), #8B0000); border-color: var(--red); color: var(--white); font-weight: 700; }
+  .cal-day.done { background: rgba(26,92,56,0.25); border-color: rgba(76,175,80,0.35); color: #a8e6a8; }
+  .cal-day.done::after { content: '✓'; position: absolute; top: 3px; right: 5px; font-size: 0.55rem; color: #4CAF50; }
+  .cal-day.future { opacity: 0.3; cursor: default; }
+  .cal-day .dn { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; line-height: 1; }
+  .cal-day .dc { font-size: 0.48rem; text-align: center; padding: 0 2px; margin-top: 2px; line-height: 1.2; opacity: 0.65; }
+
+  /* ARCHIVE */
+  .archive-list { display: grid; gap: 10px; animation: fadeUp 0.5s ease both; }
+  .arc-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 22px;
+    cursor: pointer;
+    transition: all 0.18s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .arc-card:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
+  .arc-info {}
+  .arc-date { font-size: 0.68rem; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
+  .arc-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
+  .arc-cat { font-size: 0.72rem; color: rgba(245,237,216,0.45); margin-top: 3px; }
+  .arc-arrow { color: var(--gold); font-size: 1.2rem; flex-shrink: 0; }
+
+  /* ABOUT */
+  .about-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+    animation: fadeUp 0.5s ease both;
+  }
+  .about-top {
+    background: linear-gradient(135deg, var(--red), #8B0000);
+    padding: 40px 32px;
+    text-align: center;
+  }
+  .about-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 16px;
+    display: block;
+    box-shadow: 0 0 0 3px var(--gold), 0 0 30px rgba(212,160,23,0.4);
+  }
+  .about-top h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    color: var(--white);
+  }
+  .about-top p { font-size: 0.85rem; color: rgba(255,255,255,0.7); margin-top: 6px; letter-spacing: 2px; text-transform: uppercase; }
+  .about-body { padding: 32px; }
+  .about-body p { font-size: 0.97rem; line-height: 1.85; color: rgba(245,237,216,0.8); margin-bottom: 16px; }
+  .about-body a { color: var(--gold); text-decoration: none; }
+  .about-body a:hover { text-decoration: underline; }
+
+  /* MODAL */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.88);
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    backdrop-filter: blur(8px);
+  }
+  .modal-overlay.open { display: flex; }
+  .modal-box {
+    background: #1a1a1a;
+    border: 1px solid var(--gold);
+    border-radius: 20px;
+    padding: 28px;
+    max-width: 540px;
+    width: 100%;
+    animation: fadeUp 0.3s ease both;
+  }
+  .modal-box h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+  .ig-text {
+    background: rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 0.83rem;
+    line-height: 1.75;
+    color: var(--cream);
+    white-space: pre-line;
+    margin-bottom: 14px;
+    max-height: 280px;
+    overflow-y: auto;
+  }
+  .modal-btns { display: flex; gap: 10px; }
+  .copy-btn {
+    flex: 1;
+    background: linear-gradient(135deg, var(--gold), var(--orange));
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    color: var(--black);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .copy-btn:hover { opacity: 0.88; }
+  .close-btn {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 10px;
+    padding: 12px 18px;
+    color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  /* FOOTER */
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid rgba(212,160,23,0.15);
+    padding: 28px 32px;
+    text-align: center;
+  }
+  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
+  footer a { color: var(--gold); text-decoration: none; }
+
+  /* RESPONSIVE */
+  @media (max-width: 620px) {
+    .header-inner { padding: 12px 16px; }
+    nav { padding: 0 16px; }
+    nav button { padding: 10px 12px; font-size: 0.72rem; }
+    main { padding: 28px 14px 60px; }
+    .quiz-top { padding: 20px; }
+    .quiz-body { padding: 20px; }
+    .options-grid { grid-template-columns: 1fr; }
+    .story-block { padding: 0 20px 22px; }
+    .share-section { padding: 18px 20px 22px; }
+    .slides-section { padding: 0 20px 22px; }
+    .cal-day .dc { display: none; }
+  }
 </style>
-
 </head>
 <body>
 
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+
 <header>
-  <div class="header-stripe">
-    <div class="stripe-red"></div>
-    <div class="stripe-black"></div>
-    <div class="stripe-green"></div>
-  </div>
   <div class="header-inner">
-    <div class="logo-area">
-      <div class="logo-icon">⏳</div>
+    <a class="logo-area" href="#" onclick="showView('today');return false;">
+      <img src="logo.png" alt="Black History in Real Time" class="logo-img">
       <div class="logo-text">
         <h1>Black<span>History</span></h1>
         <p>In Real Time</p>
       </div>
-    </div>
-    <div class="streak-badge">
-      <span class="streak-num" id="streakNum">0</span>
-      <span class="streak-label">🔥 Day Streak</span>
+    </a>
+    <div class="header-right">
+      <div class="streak-pill">
+        <span class="num" id="streakNum">0</span>
+        <span>🔥 Streak</span>
+      </div>
     </div>
   </div>
   <nav>
-    <button class="active" onclick="showView('quiz')">Today</button>
-    <button onclick="showView('calendar')">Calendar</button>
-    <button onclick="showView('archive')">Archive</button>
-    <button onclick="showView('about')">About</button>
+    <button class="active" onclick="showView('today',this)">Today</button>
+    <button onclick="showView('now',this)">Making History Now</button>
+    <button onclick="showView('calendar',this)">Calendar</button>
+    <button onclick="showView('archive',this)">Archive</button>
+    <button onclick="showView('about',this)">About</button>
   </nav>
 </header>
 
 <main>
 
-  <!-- TODAY / QUIZ VIEW -->
-
-  <div class="quiz-view" id="quizView">
+  <!-- TODAY VIEW -->
+  <div class="view active" id="view-today">
     <div class="date-header">
-      <div class="day-label" id="dayLabel">Day 1 &bull; February 1</div>
+      <div class="day-label" id="dayLabel">Day 1 · February 1</div>
       <h2 id="storyTitle">Loading...</h2>
-      <span class="category-tag" id="categoryTag">Foundations</span>
+      <span class="cat-tag" id="catTag">Foundations</span>
     </div>
 
-```
-<div class="quiz-card">
-  <div class="quiz-top">
-    <div class="quiz-label">Today's Quiz</div>
-    <div class="quiz-question" id="quizQuestion">Loading question...</div>
-  </div>
+    <div class="quiz-card">
+      <div class="quiz-top">
+        <div class="quiz-label">Today's Quiz</div>
+        <div class="quiz-question" id="quizQ">Loading...</div>
+      </div>
+      <div class="quiz-body">
+        <div class="options-grid" id="optGrid"></div>
+        <button class="reveal-btn" id="revBtn" onclick="reveal()">Reveal the Story ✊🏾</button>
+      </div>
 
-  <div class="quiz-body">
-    <div class="options-grid" id="optionsGrid"></div>
-    <button class="reveal-btn" id="revealBtn" onclick="revealStory()">Reveal the Story ✊🏾</button>
-  </div>
-
-  <!-- REVEAL -->
-  <div class="reveal-section" id="revealSection">
-    <div class="reveal-divider"><span>The Story</span></div>
-    <div class="story-block">
-      <div class="answer-badge">✅ <span id="answerBadgeText">Answer</span></div>
-      <div class="story-title" id="revealName"></div>
-      <div class="story-dates" id="revealDates"></div>
-      <div class="story-body" id="storyBody"></div>
-    </div>
-
-    <div class="share-section">
-      <div class="share-label">Share Today's Story</div>
-      <div class="share-btns">
-        <button class="share-btn ig-btn" onclick="openIGModal()">📱 Copy IG Caption</button>
-        <button class="share-btn" onclick="copyLink()">🔗 Copy Link</button>
-        <button class="share-btn" onclick="shareNative()">↗ Share</button>
+      <div class="reveal-section" id="revealSec">
+        <div class="divider"><span>The Story</span></div>
+        <div class="story-block">
+          <div class="answer-badge">✅ <span id="answerText">Answer</span></div>
+          <div class="story-name" id="storyName"></div>
+          <div class="story-dates" id="storyDates"></div>
+          <div class="story-body" id="storyBody"></div>
+        </div>
+        <div class="share-section">
+          <div class="share-label">Share Today's Story</div>
+          <div class="share-btns">
+            <button class="share-btn ig" onclick="openModal()">📱 Copy IG Caption</button>
+            <button class="share-btn" onclick="copyLink()">🔗 Copy Link</button>
+            <button class="share-btn" onclick="shareIt()">↗ Share</button>
+          </div>
+        </div>
+        <div class="slides-section">
+          <div class="slides-label">Instagram Carousel Slides — Click Any Slide to Copy Text</div>
+          <div class="slides-row" id="slidesRow"></div>
+        </div>
       </div>
     </div>
-
-    <div class="share-section" style="border-top:none; padding-top:0;">
-      <div class="slide-deck-label">Instagram Carousel Slides</div>
-      <div class="slides-preview" id="slidesPreview"></div>
-    </div>
   </div>
-</div>
-```
 
+  <!-- MAKING HISTORY NOW VIEW -->
+  <div class="view" id="view-now">
+    <div class="date-header">
+      <div class="day-label">Current Events</div>
+      <h2>Making History Now</h2>
+      <span class="cat-tag">2025 — 2026</span>
+    </div>
+    <div class="now-grid" id="nowGrid"></div>
   </div>
 
   <!-- CALENDAR VIEW -->
-
-  <div class="calendar-view" id="calendarView">
+  <div class="view" id="view-calendar">
     <div class="date-header">
       <div class="day-label">February 2026</div>
       <h2>Full Month Calendar</h2>
     </div>
-    <div class="calendar-grid" id="calendarGrid"></div>
+    <div class="cal-wrapper">
+      <div class="cal-grid" id="calGrid"></div>
+    </div>
   </div>
 
   <!-- ARCHIVE VIEW -->
-
-  <div class="archive-view" id="archiveView">
+  <div class="view" id="view-archive">
     <div class="date-header">
       <div class="day-label">All Stories</div>
       <h2>History Archive</h2>
     </div>
-    <div id="archiveList"></div>
+    <div class="archive-list" id="arcList"></div>
   </div>
 
   <!-- ABOUT VIEW -->
-
-  <div class="archive-view" id="aboutView">
-    <div class="date-header">
-      <div class="day-label">Our Mission</div>
-      <h2>About Us</h2>
-    </div>
-    <div class="quiz-card">
-      <div class="story-block" style="padding-top:32px;">
-        <div class="story-body">
-          <p>Black History in Real Time was built on one belief: history isn't just February. It's every day, every moment, every story that shaped the world we live in now.</p>
-          <p>We share daily quizzes and deep dives into Black history they didn't always teach in school, designed to be shared with everyone, because this history belongs to everyone.</p>
-          <div class="pull-quote"><p>"Not a lecture. A gift."</p></div>
-          <p>Follow us on Instagram <a href="https://instagram.com/blackhistoryinrealtime" style="color:var(--gold);">@blackhistoryinrealtime</a> for daily posts, carousel slides, and more.</p>
-        </div>
+  <div class="view" id="view-about">
+    <div class="about-card">
+      <div class="about-top">
+        <img src="logo.png" alt="Black History in Real Time" class="about-logo">
+        <h3>Black History in Real Time</h3>
+        <p>Because history happens every day</p>
+      </div>
+      <div class="about-body">
+        <p>Black History in Real Time was built on one belief: history isn't just February. It's every day, every moment, every story that shaped the world we live in now — and every breakthrough happening right now.</p>
+        <p>We share daily quizzes and deep dives into Black history they didn't always teach in school, alongside current moments of Black excellence, resistance, and progress happening in real time. This history belongs to everyone.</p>
+        <div class="pull-quote"><p>"Not a lecture. A gift."</p></div>
+        <p>Follow us on Instagram <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> for daily posts, carousel slides, and more.</p>
+        <p style="margin:0;">Questions or story submissions: <a href="mailto:contact@blackhistoryinrealtime.com">contact@blackhistoryinrealtime.com</a></p>
       </div>
     </div>
   </div>
 
 </main>
 
-<!-- IG CAPTION MODAL -->
-
+<!-- IG MODAL -->
 <div class="modal-overlay" id="igModal">
   <div class="modal-box">
     <h3>📱 Instagram Caption</h3>
-    <div class="ig-caption-text" id="igCaptionText"></div>
+    <div class="ig-text" id="igText"></div>
     <div class="modal-btns">
       <button class="copy-btn" onclick="copyCaption()">Copy Caption</button>
       <button class="close-btn" onclick="closeModal()">Close</button>
@@ -891,749 +881,624 @@ animation: fadeUp 0.2s ease both;
 </div>
 
 <footer>
-  <p>© 2026 Black History in Real Time &bull; <a href="https://instagram.com/blackhistoryinrealtime">@blackhistoryinrealtime</a> &bull; History happens every day 📚✊🏾</p>
-  <div class="pan-african-bar">
-    <div style="background:var(--red)"></div>
-    <div style="background:var(--black)"></div>
-    <div style="background:var(--green)"></div>
-  </div>
+  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
 
 <script>
-// =========================================================
-// 28-DAY CONTENT DATABASE
-// =========================================================
-const DATA = [
+// ============================================================
+// MAKING HISTORY NOW — Update this section monthly!
+// ============================================================
+const NOW_STORIES = [
   {
-    day: 1, date: "February 1",
-    category: "Foundations",
-    title: "The Birth of Black History Month",
-    question: "Black History Month started as what?",
-    options: ["A U.S. government holiday", "A school marketing campaign", "A week created to correct erased history", "A response to the Civil Rights Movement"],
-    answer: 2,
-    answerText: "A week created to correct erased history",
-    subject: "Carter G. Woodson",
-    dates: "1875 — 1950",
-    story: `<p>Carter G. Woodson is known as the Father of Black History, and he earned that title the hard way.</p>
-    <p>In 1926, he created <em>Negro History Week</em> because he noticed something unsettling: Black Americans were being systematically removed from textbooks, classrooms, and public memory. This wasn't an accident. It was intentional.</p>
-    <p>He chose February because it included the birthdays of Abraham Lincoln and Frederick Douglass — two figures already recognized — hoping it would force schools to finally expand the story.</p>
-    <p>It worked. Slowly. What began as one week grew into Black History Month in 1976.</p>`,
-    whyItMatters: "Black History Month was never meant to be a celebration. It was meant to be a correction. If history controls who we see as capable, worthy, and powerful, then leaving people out is one of the most effective tools there is.",
-    igCaption: `Day 1 of Black History Month 🖤\nPop quiz edition.\n\nBlack History Month didn't start as a celebration.\nIt started as a correction.\n\nCarter G. Woodson created it in 1926 to fix what schools deliberately left out.\n\nHistory decides who we see as capable, worthy, and powerful.\nLeaving people out is one of the strongest tools there is.\n\n#BlackHistoryMonth #CarterGWoodson #LearnSomethingNew #HistoryMatters #BlackHistoryInRealTime`,
-    slides: ["Day 1\n🖤\nQuick Quiz", "Black History Month\nstarted as what?\n\nA) A government holiday\nB) A school campaign\nC) A week to fix erased history\nD) A civil rights response", "Answer:\nC) A week to fix\nerased history", "Carter G. Woodson\ncreated Negro History\nWeek in 1926 — because\nBlack history was being\ndeliberately erased.", "He chose February to\nalign with Lincoln's &\nDouglass' birthdays,\nhoping schools would\nexpand the story.", "Black History Month\nwas never meant to be\na celebration.\n\nIt was meant to be\na correction."]
+    date: "February 2026",
+    title: "Black Women Lead in U.S. Senate at Record Numbers",
+    body: "As of 2026, Black women hold more seats in the U.S. Senate than at any point in American history, continuing a wave of representation that began with Kamala Harris's historic election in 2020.",
+    tag: "Politics"
   },
   {
-    day: 2, date: "February 2",
-    category: "Political Courage",
-    title: "Shirley Chisholm: Unbought & Unbossed",
-    question: "Who was the first Black woman to run for President of the United States?",
-    options: ["Kamala Harris", "Stacey Abrams", "Shirley Chisholm", "Angela Davis"],
-    answer: 2,
-    answerText: "Shirley Chisholm",
-    subject: "Shirley Chisholm",
-    dates: "1924 — 2005",
-    story: `<p>In 1968, Shirley Chisholm became the first Black woman elected to Congress. In 1972, she went further.</p>
-    <p>She became the first Black woman to run for President of the United States. She wasn't backed by party leadership. She wasn't protected by the media. She was blocked, dismissed, and openly threatened.</p>
-    <p>And she still ran. Not as a symbolic act. To win.</p>
-    <p>She campaigned for women, working-class Americans, the poor, and everyone locked out of power entirely.</p>`,
-    quote: { text: "If they don't give you a seat at the table, bring a folding chair.", source: "Shirley Chisholm" },
-    whyItMatters: "This wasn't ancient history. This happened in our parents' lifetime. Every 'first' that followed stood on ground she cleared alone.",
-    igCaption: `Day 2 of Black History Month 🖤\nShirley Chisholm ran for President in 1972.\n\nNot to make a point.\nNot to inspire later.\nTo win.\n\nShe was the first Black woman in Congress AND the first Black woman to run for President.\n\n"If they don't give you a seat at the table, bring a folding chair."\n— Shirley Chisholm\n\nEvery 'first' that came after her stood on ground she cleared alone.\n\n#ShirleyChisholm #BlackHistoryMonth #Unbossed #BlackHistoryInRealTime`,
-    slides: ["Day 2\n🖤\nQuick Quiz", "Who was the first Black\nwoman to run for\nPresident of the U.S.?\n\nA) Kamala Harris\nB) Stacey Abrams\nC) Shirley Chisholm\nD) Angela Davis", "Answer:\nC) Shirley Chisholm", "1968: First Black woman\nelected to Congress.\n\n1972: First Black woman\nto run for President.\n\nShe ran to WIN.", "She was blocked.\nDismissed. Threatened.\n\nAnd she still ran.", '"If they don\'t give you\na seat at the table,\nbring a folding chair."\n\n— Shirley Chisholm']
+    date: "January 2026",
+    title: "Black Filmmakers Dominate Awards Season",
+    body: "The 2025-2026 awards season saw an unprecedented number of Black directors, writers, and actors recognized at major film awards, continuing Hollywood's slow but accelerating shift toward inclusion.",
+    tag: "Culture"
   },
   {
-    day: 3, date: "February 3",
-    category: "Innovation",
-    title: "The Inventor You've Never Credited",
-    question: "Who invented the traffic light system?",
-    options: ["Thomas Edison", "Garrett Morgan", "Lewis Latimer", "Benjamin Banneker"],
-    answer: 1,
-    answerText: "Garrett Morgan",
-    subject: "Garrett Morgan",
-    dates: "1877 — 1963",
-    story: `<p>Every time you stop at a red light, you're benefiting from the work of Garrett Morgan, a Black inventor from Kentucky who never finished elementary school.</p>
-    <p>In 1923, Morgan patented the three-position traffic signal, adding the crucial "stop all" phase that prevented the intersection collisions plaguing early automobile-filled cities. Before his design, it was just go and stop — with nothing in between.</p>
-    <p>He also invented an early gas mask, which he used personally to rescue workers trapped in a tunnel explosion under Lake Erie in 1916. He saved lives that night. Then companies stopped buying his mask when they found out a Black man invented it.</p>`,
-    whyItMatters: "Garrett Morgan's inventions saved thousands of lives. His name was left out of the story. The erasure of Black inventors isn't just historical — it shapes who children today believe can be an innovator.",
-    igCaption: `Day 3 of Black History Month 🖤\nEvery time you stop at a red light...\n\nYou're benefiting from Garrett Morgan — a Black inventor who never finished elementary school.\n\nHe patented the three-position traffic signal in 1923.\nHe also invented an early gas mask and personally used it to rescue workers trapped underground.\n\nThen companies stopped buying his mask when they found out a Black man made it.\n\nHis inventions saved thousands. His name was left out of the story.\n\n#GarrettMorgan #BlackInventors #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 3\n🖤\nQuick Quiz", "Who invented the\ntraffic light system?\n\nA) Thomas Edison\nB) Garrett Morgan\nC) Lewis Latimer\nD) Benjamin Banneker", "Answer:\nB) Garrett Morgan", "Every time you stop\nat a red light, you're\nusing Garrett Morgan's\n1923 patent.", "He also invented the\ngas mask — then\ncompanies stopped\nbuying it when they\nlearned he was Black.", "His inventions\nsaved thousands.\n\nHis name was\nleft out of\nthe story."]
+    date: "2025",
+    title: "Black Scientists Lead Breakthrough Cancer Research",
+    body: "Black researchers at Howard University and Morehouse School of Medicine published landmark studies in 2025 on targeted cancer therapies, with one team developing a treatment showing 40% improved outcomes for triple-negative breast cancer — a disease that disproportionately affects Black women.",
+    tag: "Science"
   },
   {
-    day: 4, date: "February 4",
-    category: "Hidden Wealth",
-    title: "The Wealthiest Black Man in History",
-    question: "Who is considered the wealthiest Black person who ever lived?",
-    options: ["Oprah Winfrey", "Robert F. Smith", "Mansa Musa", "Jay-Z"],
-    answer: 2,
-    answerText: "Mansa Musa",
-    subject: "Mansa Musa",
-    dates: "1280 — 1337",
-    story: `<p>Mansa Musa, the 14th-century emperor of the Mali Empire, is widely considered the wealthiest individual in human history — richer than any person alive today when adjusted for inflation. Estimates put his wealth at roughly $400 billion in modern dollars.</p>
-    <p>His empire sat atop more than half the world's gold and salt supply. When he made his pilgrimage to Mecca in 1324, he traveled with 60,000 men and 500 slaves each carrying a golden staff. He gave away so much gold in Cairo that he accidentally crashed Egypt's gold market for a decade.</p>
-    <p>European maps drawn in the 1300s literally pointed to him and labeled him: "The Richest King in All the Land."</p>`,
-    whyItMatters: "The narrative that Africa was primitive or poor before colonization is false. The Mali Empire was one of the most sophisticated, wealthy, and culturally advanced civilizations on earth.",
-    igCaption: `Day 4 of Black History Month 🖤\n\nMansa Musa was so wealthy that when he traveled through Egypt in 1324, he gave away so much gold that he crashed Egypt's economy for 10 years.\n\nHe's considered the richest person in all of human history — wealthier than any billionaire alive today.\n\nAnd most people have never heard of him.\n\n#MansaMusa #MaliEmpire #BlackHistoryMonth #AfricanHistory #BlackHistoryInRealTime`,
-    slides: ["Day 4\n🖤\nQuick Quiz", "Who is considered the\nwealthiest Black person\nwho ever lived?\n\nA) Oprah Winfrey\nB) Robert F. Smith\nC) Mansa Musa\nD) Jay-Z", "Answer:\nC) Mansa Musa", "Emperor of the Mali\nEmpire, 14th century.\n\nEstimated wealth:\n$400 BILLION\nin today's dollars.", "On his pilgrimage to\nMecca, he gave away\nso much gold in Cairo\nthat he crashed Egypt's\neconomy for 10 years.", "European maps from\nthe 1300s literally\nlabeled him:\n\n\"The Richest King\nin All the Land.\""]
+    date: "2025",
+    title: "HBCUs See Record Enrollment and Endowments",
+    body: "Historically Black Colleges and Universities saw record enrollment numbers in 2025, alongside a surge in endowment donations from alumni, corporations, and foundations — a direct result of renewed national attention to Black institutional investment.",
+    tag: "Education"
   },
   {
-    day: 5, date: "February 5",
-    category: "Civil Rights",
-    title: "The Case That Changed School Forever",
-    question: "What Supreme Court case ruled that racial segregation in public schools was unconstitutional?",
-    options: ["Plessy v. Ferguson", "Brown v. Board of Education", "Loving v. Virginia", "Shelby County v. Holder"],
-    answer: 1,
-    answerText: "Brown v. Board of Education",
-    subject: "Brown v. Board of Education",
-    dates: "1954",
-    story: `<p>On May 17, 1954, the Supreme Court unanimously ruled that racial segregation in public schools was unconstitutional — overturning the 58-year-old "separate but equal" doctrine from Plessy v. Ferguson.</p>
-    <p>The case was named for Linda Brown, a 7-year-old girl in Topeka, Kansas, who had to walk a mile through a railroad switchyard to reach her bus stop while a white school was just seven blocks from her home.</p>
-    <p>Behind the legal strategy was Thurgood Marshall, who argued the case and would later become the first Black Supreme Court Justice. His team spent years proving that separate was never equal — and they won unanimously.</p>`,
-    whyItMatters: "The Brown decision didn't end school segregation overnight — many districts resisted for decades. Today, school segregation still exists in many forms, driven by housing policy and economic inequality rather than explicit law.",
-    igCaption: `Day 5 of Black History Month 🖤\n\nA 7-year-old girl had to walk through a railroad switchyard to reach her school bus.\nA white school was 7 blocks away.\n\nThat little girl was Linda Brown.\nHer family's case became Brown v. Board of Education — the 1954 Supreme Court ruling that ended legal school segregation.\n\nThe lawyer who won? Thurgood Marshall — who later became the first Black Supreme Court Justice.\n\n#BrownvBoard #ThurgoodMarshall #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 5\n🖤\nQuick Quiz", "What case ruled that\nschool segregation\nwas unconstitutional?\n\nA) Plessy v. Ferguson\nB) Brown v. Board\nC) Loving v. Virginia\nD) Shelby County v. Holder", "Answer:\nB) Brown v. Board\nof Education, 1954", "Linda Brown, age 7,\nhad to walk through a\nrailroad switchyard to\nreach her bus stop.\n\nA white school was\n7 blocks away.", "Thurgood Marshall\nargued the case\nand won unanimously.\n\nHe later became the\nfirst Black Supreme\nCourt Justice.", "The ruling was a\nvictory.\n\nBut many districts\nresisted for decades.\nSchool inequality\nstill exists today."]
+    date: "Ongoing",
+    title: "Black Entrepreneurs Break Venture Capital Records",
+    body: "Despite systemic barriers, Black-founded startups raised more venture capital in 2024-2025 than in any previous two-year period. Organizations like Fearless Fund continue fighting legal battles to preserve grant programs specifically supporting Black women entrepreneurs.",
+    tag: "Business"
   },
   {
-    day: 6, date: "February 6",
-    category: "Medicine",
-    title: "The Woman Who Saved Open Heart Surgery",
-    question: "Who performed the world's first successful open-heart surgery?",
-    options: ["Charles Drew", "Daniel Hale Williams", "Mae Jemison", "Rebecca Lee Crumpler"],
-    answer: 1,
-    answerText: "Daniel Hale Williams",
-    subject: "Daniel Hale Williams",
-    dates: "1856 — 1931",
-    story: `<p>On July 9, 1893, Dr. Daniel Hale Williams performed the world's first documented successful open-heart surgery on a stabbing victim named James Cornish — without anesthesia, antibiotics, or X-rays.</p>
-    <p>Williams opened Cornish's chest, sutured a wound to the pericardium (the sac surrounding the heart), and closed him up. Cornish lived for another 50 years.</p>
-    <p>Williams was also the founder of Provident Hospital in Chicago — the first interracial hospital in America and the first to offer nursing training to Black women, at a time when most hospitals refused to treat Black patients at all.</p>`,
-    whyItMatters: "Daniel Hale Williams changed medicine with almost no resources and in the face of a system that excluded him. His hospital created pathways for generations of Black doctors and nurses.",
-    igCaption: `Day 6 of Black History Month 🖤\n\nIn 1893, Dr. Daniel Hale Williams performed the world's first successful open-heart surgery.\n\nNo anesthesia. No antibiotics. No X-rays.\n\nThe patient lived another 50 years.\n\nWilliams also founded the first interracial hospital in America and the first hospital to train Black nurses — because the existing system refused to let them in.\n\n#DanielHaleWilliams #BlackDoctors #BlackHistoryMonth #MedicalHistory #BlackHistoryInRealTime`,
-    slides: ["Day 6\n🖤\nQuick Quiz", "Who performed the\nworld's first successful\nopen-heart surgery?\n\nA) Charles Drew\nB) Daniel Hale Williams\nC) Mae Jemison\nD) Rebecca Lee Crumpler", "Answer:\nB) Daniel Hale Williams\n1893", "He operated with no\nanesthesia, no antibiotics,\nno X-rays.\n\nThe patient lived\nanother 50 years.", "He also founded the\nfirst interracial hospital\nin America — because\nexisting hospitals\nrefused Black patients.", "He changed medicine\nwith almost no\nresources, in a system\ndesigned to exclude him."]
-  },
-  {
-    day: 7, date: "February 7",
-    category: "Erasure",
-    title: "The Town They Burned Down",
-    question: "What thriving Black community was destroyed in the 1921 Tulsa Race Massacre?",
-    options: ["Sweet Auburn", "Black Wall Street", "Bronzeville", "Harlem"],
-    answer: 1,
-    answerText: "Black Wall Street in Greenwood, Tulsa",
-    subject: "The Tulsa Race Massacre",
-    dates: "May 31 — June 1, 1921",
-    story: `<p>Greenwood, a neighborhood in Tulsa, Oklahoma, was the most prosperous Black community in America. It had its own hotels, hospitals, law offices, and schools. People called it "Black Wall Street."</p>
-    <p>On the night of May 31, 1921, a white mob — including some deputized by local law enforcement — burned it to the ground. Over 35 blocks were destroyed. Up to 300 Black residents were killed. 10,000 were left homeless. Airplanes were reportedly used to shoot at people fleeing.</p>
-    <p>For decades, the massacre was not taught in Oklahoma schools. Survivors were told to stay quiet. It wasn't formally investigated by the state until 2001.</p>`,
-    whyItMatters: "The Tulsa Massacre wasn't history hiding in the shadows — it was actively suppressed. The last known survivor died in 2023. This happened within living memory.",
-    igCaption: `Day 7 of Black History Month 🖤\n\nIn 1921, there was a neighborhood in Tulsa, Oklahoma called "Black Wall Street."\n\nIt had hospitals, hotels, law offices, and schools. It was the most prosperous Black community in America.\n\nOn May 31, 1921, a white mob burned it to the ground. Up to 300 people were killed. 10,000 were left homeless.\n\nFor decades, it wasn't taught in Oklahoma schools. Survivors were told to stay quiet.\n\nThe last known survivor died in 2023.\n\n#TulsaMassacre #BlackWallStreet #Greenwood #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 7\n🖤\nQuick Quiz", "What community was\ndestroyed in the\n1921 Tulsa Massacre?\n\nA) Sweet Auburn\nB) Black Wall Street\nC) Bronzeville\nD) Harlem", "Answer:\nB) Black Wall Street\nGreenwood, Tulsa", "The most prosperous\nBlack community\nin America.\n\nHospitals. Hotels.\nLaw offices. Schools.", "May 31, 1921.\nA white mob burned\n35 blocks to the ground.\n300+ killed.\n10,000 left homeless.", "For decades it wasn't\ntaught in schools.\nSurvivors were told\nto stay quiet.\n\nThe last survivor\ndied in 2023."]
-  },
-  {
-    day: 8, date: "February 8",
-    category: "Power & Resistance",
-    title: "COINTELPRO: The FBI vs. Black Leaders",
-    question: "What secret FBI program targeted and worked to destroy Black political organizations?",
-    options: ["Operation Mockingbird", "COINTELPRO", "MK Ultra", "Operation CHAOS"],
-    answer: 1,
-    answerText: "COINTELPRO",
-    subject: "COINTELPRO",
-    dates: "1956 — 1971",
-    story: `<p>From 1956 to 1971, the FBI ran a covert program called COINTELPRO — Counter Intelligence Program — specifically designed to "expose, disrupt, misdirect, discredit, or otherwise neutralize" Black political organizations and their leaders.</p>
-    <p>Targets included the NAACP, the Southern Christian Leadership Conference, the Black Panther Party, and Martin Luther King Jr. personally. The FBI sent King an anonymous letter urging him to commit suicide. They infiltrated organizations with agents. They manufactured conflicts between groups. They used the legal system as a weapon.</p>
-    <p>The program was only exposed after activists broke into an FBI field office in 1971 and leaked the documents to the press.</p>`,
-    whyItMatters: "COINTELPRO wasn't a conspiracy theory — it was a documented government program confirmed by Senate investigation. Understanding it reframes how we look at the collapse of certain movements and the deaths of certain leaders.",
-    igCaption: `Day 8 of Black History Month 🖤\n\nFrom 1956 to 1971, the FBI ran a secret program designed to destroy Black political organizations.\n\nIt was called COINTELPRO.\n\nTargets included the NAACP, Martin Luther King Jr., and the Black Panther Party. The FBI sent MLK an anonymous letter urging him to commit suicide.\n\nThis isn't a conspiracy theory. It was confirmed by a Senate investigation.\n\nWe learned about it because activists broke into an FBI office and leaked the documents.\n\n#COINTELPRO #FBI #BlackHistoryMonth #MLK #BlackHistoryInRealTime`,
-    slides: ["Day 8\n🖤\nQuick Quiz", "What secret FBI program\ntargeted Black leaders\nand organizations?\n\nA) Operation Mockingbird\nB) COINTELPRO\nC) MK Ultra\nD) Operation CHAOS", "Answer:\nB) COINTELPRO\n1956–1971", "The program was designed\nto \"expose, disrupt,\nmisdirect, discredit\"\nBlack political groups.", "Targets included the\nNAACP, MLK, and the\nBlack Panther Party.\n\nThe FBI sent MLK a\nletter urging suicide.", "We only know this\nbecause activists\nbroke into an FBI office\nin 1971 and leaked\nthe documents."]
-  },
-  {
-    day: 9, date: "February 9",
-    category: "Hidden History",
-    title: "The Rosewood Massacre",
-    question: "The 1923 Rosewood Massacre destroyed what?",
-    options: ["A Black college campus", "A thriving Black Florida town", "A Black-owned railroad", "A Black newspaper office"],
-    answer: 1,
-    answerText: "A thriving all-Black town in Florida",
-    subject: "The Rosewood Massacre",
-    dates: "January 1923",
-    story: `<p>Rosewood, Florida was a small but self-sufficient all-Black town in 1923. It had a church, a school, a masonic lodge, and homes that Black residents owned outright.</p>
-    <p>In January 1923, a white woman in the neighboring town of Sumner falsely claimed she had been assaulted by a Black man. Within days, white mobs from surrounding counties descended on Rosewood. They burned every building. They lynched residents. Families hid in swamps for days.</p>
-    <p>The town was never rebuilt. Survivors scattered across Florida. The event was not spoken of publicly for decades. In 1994, Florida became the first state to compensate survivors of a race massacre, paying 9 survivors $150,000 each.</p>`,
-    whyItMatters: "Rosewood, Tulsa, and dozens of other 'race riots' — a term that obscures who the aggressors were — represent a pattern of white mob violence that destroyed Black economic progress and community building.",
-    igCaption: `Day 9 of Black History Month 🖤\n\nIn 1923, a white woman made a false accusation.\n\nWithin days, white mobs burned the entire town of Rosewood, Florida to the ground. Residents were lynched. Families hid in swamps.\n\nRosewood was a thriving all-Black community. It was never rebuilt.\n\nSurvivors stayed silent for decades. Florida didn't compensate them until 1994.\n\n#Rosewood #RaceMassacre #BlackHistoryMonth #NeverForget #BlackHistoryInRealTime`,
-    slides: ["Day 9\n🖤\nQuick Quiz", "The 1923 Rosewood\nMassacre destroyed what?\n\nA) A Black college\nB) A Black Florida town\nC) A Black-owned railroad\nD) A Black newspaper", "Answer:\nB) A thriving all-Black\ntown in Florida", "Rosewood was\nself-sufficient.\nChurch. School.\nMasonic lodge.\nBlack-owned homes.", "A false accusation.\nWhite mobs from\nsurrounding counties.\nEvery building burned.\nFamilies hid in swamps.", "Florida didn't\ncompensate survivors\nuntil 1994.\n\n9 survivors.\n$150,000 each."]
-  },
-  {
-    day: 10, date: "February 10",
-    category: "Military",
-    title: "The Unit That Changed World War II",
-    question: "What all-Black military unit proved Black pilots could fly combat missions in WWII?",
-    options: ["Buffalo Soldiers", "Harlem Hellfighters", "Tuskegee Airmen", "369th Infantry"],
-    answer: 2,
-    answerText: "The Tuskegee Airmen",
-    subject: "The Tuskegee Airmen",
-    dates: "1941 — 1946",
-    story: `<p>In 1941, the U.S. military believed Black men were intellectually and psychologically unfit to fly combat aircraft. The Tuskegee Airmen proved them devastatingly wrong.</p>
-    <p>The 332nd Fighter Group flew over 15,000 individual sorties in Europe and North Africa. They escorted bombers deep into enemy territory and became known for never losing a bomber to enemy aircraft — a record no other escort group could claim.</p>
-    <p>They returned home as war heroes and were still refused service at diners and made to sit at the back of buses. Their fight for recognition helped push President Truman to desegregate the military in 1948.</p>`,
-    whyItMatters: "The Tuskegee Airmen didn't just fight Germany. They fought a two-front war — against fascism abroad and against racism at home. Their excellence forced a reckoning that changed the military forever.",
-    igCaption: `Day 10 of Black History Month 🖤\n\nIn 1941, the U.S. military believed Black men were unfit to fly combat aircraft.\n\nThe Tuskegee Airmen flew 15,000+ sorties and never lost a bomber to enemy fighters. No other escort group had that record.\n\nThey came home as war heroes and were still refused service at diners.\n\nTheir fight helped desegregate the entire U.S. military in 1948.\n\n#TuskegeeAirmen #BlackHistoryMonth #WWII #BlackMilitary #BlackHistoryInRealTime`,
-    slides: ["Day 10\n🖤\nQuick Quiz", "What unit proved Black\npilots could fly combat\nmissions in WWII?\n\nA) Buffalo Soldiers\nB) Harlem Hellfighters\nC) Tuskegee Airmen\nD) 369th Infantry", "Answer:\nC) Tuskegee Airmen", "15,000+ individual\nsorties in Europe\nand North Africa.\n\nNever lost a bomber\nto enemy aircraft.", "They came home as\nwar heroes.\n\nAnd were still refused\nservice at diners.", "Their excellence helped\npresident Truman\ndesegregate the entire\nU.S. military in 1948."]
-  },
-  {
-    day: 11, date: "February 11",
-    category: "Music & Culture",
-    title: "How Blues Became Everything",
-    question: "Which musical tradition is the direct root of rock and roll, jazz, R&B, hip-hop, and country?",
-    options: ["Gospel", "The Blues", "Ragtime", "Folk"],
-    answer: 1,
-    answerText: "The Blues",
-    subject: "The Blues",
-    dates: "Late 1800s — Present",
-    story: `<p>The blues emerged from the Mississippi Delta in the late 1800s, rooted in the field hollers, spirituals, and work songs of enslaved people. It was music built from suffering, and it changed the entire world.</p>
-    <p>Rock and roll? Blues. Jazz? Blues foundation. R&B? Its name literally stands for "Rhythm and Blues." Hip-hop samples blues tonality. Even country music traces its roots to early blues musicians.</p>
-    <p>Elvis Presley, the Rolling Stones, Led Zeppelin — all of them credited Black blues artists as their direct inspiration. But while those artists became wealthy and iconic, the original creators often died in poverty and obscurity.</p>`,
-    whyItMatters: "American music is Black music, adapted and often profited from by others. Understanding this isn't about taking anything away — it's about knowing the source.",
-    igCaption: `Day 11 of Black History Month 🖤\n\nRock and roll. Jazz. R&B. Hip-hop. Country.\n\nAll of it traces directly back to the Blues — music created by Black Americans in the Mississippi Delta in the late 1800s.\n\nElvis. The Rolling Stones. Led Zeppelin. All credited Black blues artists as their direct inspiration.\n\nBut while those artists became legends and millionaires, many of the original creators died in poverty.\n\nAmerican music is Black music.\n\n#TheBlues #BlackMusicHistory #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 11\n🖤\nQuick Quiz", "Which tradition is the\ndirect root of rock, jazz,\nR&B, hip-hop & country?\n\nA) Gospel\nB) The Blues\nC) Ragtime\nD) Folk", "Answer:\nB) The Blues", "Born in the Mississippi\nDelta. Rooted in field\nhollers, spirituals, and\nwork songs of\nenslaved people.", "Elvis. Rolling Stones.\nLed Zeppelin.\n\nAll credited Black blues\nartists as their\ndirect inspiration.", "Many original creators\ndied in poverty.\n\nAmerican music\nis Black music."]
-  },
-  {
-    day: 12, date: "February 12",
-    category: "Systems",
-    title: "Redlining: How the Map Stole Wealth",
-    question: "What government-backed practice denied Black families access to mortgages and neighborhoods?",
-    options: ["Blockbusting", "Redlining", "Steering", "Sundowning"],
-    answer: 1,
-    answerText: "Redlining",
-    subject: "Redlining",
-    dates: "1930s — 1968",
-    story: `<p>Starting in the 1930s, the federal government created maps of American cities that literally drew red lines around Black and immigrant neighborhoods, designating them as "hazardous" for investment.</p>
-    <p>Banks used these maps to deny mortgages to anyone in a redlined area — regardless of their income or credit. This meant Black families could not buy homes in appreciating neighborhoods. They could not build generational wealth the way white families could.</p>
-    <p>The Fair Housing Act of 1968 made it illegal. But by then, the wealth gap had compounded for decades. Today, the neighborhoods that were redlined in the 1930s are still, on average, poorer and less healthy than the neighborhoods that weren't.</p>`,
-    whyItMatters: "The racial wealth gap isn't an accident or the result of personal choices. It was engineered by federal policy. Understanding redlining explains more about inequality today than almost any other single fact.",
-    igCaption: `Day 12 of Black History Month 🖤\n\nIn the 1930s, the U.S. government drew maps of American cities.\n\nNeighborhoods with Black residents were colored red — "hazardous." Banks used these maps to deny mortgages to anyone who lived there.\n\nBlack families couldn't buy homes in growing neighborhoods. Couldn't build wealth. Couldn't pass it on.\n\nThe policy was called redlining. It was made illegal in 1968.\n\nBut the neighborhoods redlined in the 1930s are still, on average, poorer today.\n\nThe wealth gap was engineered. Not accidental.\n\n#Redlining #WealthGap #BlackHistoryMonth #SystemicRacism #BlackHistoryInRealTime`,
-    slides: ["Day 12\n🖤\nQuick Quiz", "What practice denied\nBlack families mortgages\nand access to\ncertain neighborhoods?\n\nA) Blockbusting\nB) Redlining\nC) Steering\nD) Sundowning", "Answer:\nB) Redlining", "The federal government\ndrew maps marking\nBlack neighborhoods\nas 'hazardous.'\n\nBanks used them\nto deny mortgages.", "Black families couldn't\nbuy homes in growing\nneighborhoods.\n\nCouldn't build wealth.\nCouldn't pass it on.", "Those redlined\nneighborhoods are\nstill poorer today.\n\nThe wealth gap was\nengineered.\nNot accidental."]
-  },
-  {
-    day: 13, date: "February 13",
-    category: "Labor",
-    title: "Built by Hands They Never Credited",
-    question: "Approximately how many enslaved people built the U.S. Capitol building?",
-    options: ["None — it was built by paid workers", "Around 400", "Over 1,000", "About 50"],
-    answer: 1,
-    answerText: "Around 400 enslaved people",
-    subject: "Enslaved Labor & American Infrastructure",
-    dates: "1793 — 1800",
-    story: `<p>The United States Capitol building — the symbol of American democracy — was largely built by enslaved Black people. Records show that the Capitol's construction relied on hundreds of enslaved workers who were hired out by their enslavers, who received the wages.</p>
-    <p>The White House was also built by enslaved labor. So were many of America's early universities, including Harvard, Yale, and Princeton, which received donations from enslavers and used enslaved workers on their campuses.</p>
-    <p>The American economy before the Civil War was powered by approximately 4 million enslaved people. The total value of that unpaid labor, compounded over generations, is estimated in the trillions.</p>`,
-    whyItMatters: "American prosperity was built on a foundation of stolen labor. That's not a political opinion — it's an economic and historical fact. Reparations debates make more sense when you understand the scale of what was taken.",
-    igCaption: `Day 13 of Black History Month 🖤\n\nThe U.S. Capitol — symbol of American democracy — was built largely by enslaved Black people.\n\nSo was the White House.\nSo were buildings at Harvard, Yale, and Princeton.\n\nThe workers who built them never saw a cent. Their enslavers received the wages.\n\nThe unpaid labor of 4 million enslaved people powered the entire American economy before the Civil War.\n\nAmerican prosperity was built on stolen labor.\n\n#AmericanHistory #EnslavedLabor #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 13\n🖤\nQuick Quiz", "How many enslaved people\nbuilt the U.S. Capitol?\n\nA) None\nB) Around 400\nC) Over 1,000\nD) About 50", "Answer:\nB) Around 400\nenslaved people", "The Capitol. The White\nHouse. Harvard. Yale.\nPrinceton.\n\nAll built or funded\nby enslaved labor.", "The workers never\nsaw a cent.\n\nTheir enslavers\nreceived the wages.", "4 million enslaved people\npowered the American\neconomy before\nthe Civil War.\n\nStolen labor."]
-  },
-  {
-    day: 14, date: "February 14",
-    category: "Love & Law",
-    title: "Loving v. Virginia: The Right to Love",
-    question: "Until what year was interracial marriage illegal in parts of the United States?",
-    options: ["1954", "1967", "1978", "1990"],
-    answer: 1,
-    answerText: "1967",
-    subject: "Mildred & Richard Loving",
-    dates: "1967",
-    story: `<p>On Valentine's Day, here's a love story the law tried to destroy.</p>
-    <p>Mildred (Black) and Richard Loving (white) got married in Washington D.C. in 1958. When they returned home to Virginia, they were arrested in their bedroom in the middle of the night. Interracial marriage was illegal in Virginia and 15 other states.</p>
-    <p>They were sentenced to a year in jail, suspended on the condition that they leave Virginia for 25 years. They went to the ACLU. Their case went to the Supreme Court. In 1967, the Court ruled unanimously that laws banning interracial marriage were unconstitutional.</p>
-    <p>Richard was killed by a drunk driver in 1975. Mildred never remarried. She said simply: "I miss him."</p>`,
-    whyItMatters: "Loving v. Virginia happened in 1967 — the same year the first Super Bowl was played. This isn't distant history. Anti-miscegenation laws reflected state-sanctioned terror of Black autonomy and love.",
-    igCaption: `Day 14 of Black History Month 🖤\nHappy Valentine's Day.\n\nIn 1958, Mildred and Richard Loving got married.\n\nThen police arrested them in their bedroom in the middle of the night.\n\nInterracial marriage was illegal in Virginia and 15 other states.\n\nThey fought it all the way to the Supreme Court. In 1967, they won.\n\nMildred said of Richard: "I miss him."\n\nLove was radical. Their marriage changed the law.\n\n#LovingvVirginia #MildredLoving #BlackHistoryMonth #ValentinesDay #BlackHistoryInRealTime`,
-    slides: ["Day 14\n🖤 Valentine's Day\nQuick Quiz", "Until what year was\ninterracial marriage\nillegal in parts of\nthe U.S.?\n\nA) 1954\nB) 1967\nC) 1978\nD) 1990", "Answer:\nB) 1967", "Mildred and Richard\nLoving were arrested\nin their bedroom\nin the middle of\nthe night.", "Their crime:\nBeing married\nto each other\nin Virginia.", "They won at the\nSupreme Court in 1967.\nThe same year as\nthe first Super Bowl.\n\nThis is recent history."]
-  },
-  {
-    day: 15, date: "February 15",
-    category: "Culture",
-    title: "You're Speaking AAVE Right Now",
-    question: "What does AAVE stand for?",
-    options: ["African American Visual Expression", "African American Vernacular English", "American Alternative Verbal Exchange", "African American Vocal Emphasis"],
-    answer: 1,
-    answerText: "African American Vernacular English",
-    subject: "AAVE & Linguistic Culture",
-    dates: "Origins in slavery — Present",
-    story: `<p>African American Vernacular English (AAVE) is a fully systematic, rule-governed dialect of English with its own grammar, phonology, and syntax — not broken English, not slang, but a linguistic system linguists have studied for decades.</p>
-    <p>Words and phrases now used globally in everyday speech originated in AAVE: "lit," "woke," "finna," "salty," "throwing shade," "on fleek," "GOAT," "no cap," "bussin." Even "cool" as a general positive term was popularized by jazz culture in the 1940s.</p>
-    <p>The pattern is consistent: Black Americans create cultural and linguistic innovations, they're mocked for it, those innovations get adopted by mainstream culture, and the origin is forgotten.</p>`,
-    whyItMatters: "Language is culture. When phrases born in Black communities go mainstream without acknowledgment, it's another form of extraction — taking the fruit without crediting the tree.",
-    igCaption: `Day 15 of Black History Month 🖤\n\n"Lit." "Woke." "Salty." "Throwing shade." "GOAT." "No cap." "Bussin."\n\nAll of these came from Black American communities.\n\nEven "cool" as a positive word was popularized through jazz culture in the 1940s.\n\nThe cycle is consistent: Black Americans create it. Get mocked for it. Mainstream adopts it. The origin gets forgotten.\n\n#AAVE #BlackCulture #BlackLanguage #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 15\n🖤\nQuick Quiz", "What does AAVE stand for?\n\nA) African American\nVisual Expression\nB) African American\nVernacular English\nC) American Alternative\nVerbal Exchange\nD) African American\nVocal Emphasis", "Answer:\nB) African American\nVernacular English", "\"Lit.\" \"Woke.\"\n\"Salty.\" \"On fleek.\"\n\"GOAT.\" \"No cap.\"\n\"Bussin.\"\n\nAll from Black\nAmerican communities.", "Even \"cool\" as a\npositive word came\nfrom jazz culture\nin the 1940s.", "Black Americans create it.\nGet mocked for it.\nMainstream adopts it.\nThe origin gets forgotten.\n\nLanguage is culture."]
-  },
-  {
-    day: 16, date: "February 16",
-    category: "Fashion",
-    title: "Stolen Style: The Culture Tax",
-    question: "Which fashion trend was mocked on Black people and then celebrated when adopted by white culture?",
-    options: ["All of the above", "Cornrows", "Hoop earrings", "Baggy clothes"],
-    answer: 0,
-    answerText: "All of the above",
-    subject: "Black Fashion & Cultural Appropriation",
-    dates: "Ongoing",
-    story: `<p>Cornrows, braids, and locs were worn by Black people for centuries. In professional settings, Black people were fired, suspended from school, and told they looked "unprofessional" or "unkempt" for wearing their natural hair.</p>
-    <p>Then cornrows became a fashion statement credited to Kylie Jenner. Braids became "boxer braids." Locs became "dreadlocks" stripped of their Rastafarian spiritual meaning and sold at music festivals.</p>
-    <p>Hoop earrings were called "ghetto." Baggy clothes were criminalized. Sneaker culture was mocked. Then each of these was repackaged as "street style," "athleisure," and "sneakerhead culture" — profitable industries that rarely credit or compensate the communities that created them.</p>`,
-    whyItMatters: "Cultural appropriation has a financial cost. Style born in Black communities is monetized for everyone except the communities it came from.",
-    igCaption: `Day 16 of Black History Month 🖤\n\nCornrows: Black students suspended for wearing them. Then credited to Kylie Jenner.\n\nHoop earrings: Called "ghetto." Then became a fashion must-have.\n\nBaggy clothes: Criminalized. Then became "streetwear" worth billions.\n\nThe pattern never changes. Black people are penalized for the same styles that get celebrated when adopted by others.\n\nThat's not just cultural. That's financial.\n\n#BlackFashion #CulturalAppropriation #BlackHistoryMonth #BlackStyle #BlackHistoryInRealTime`,
-    slides: ["Day 16\n🖤\nQuick Quiz", "Which trend was mocked\non Black people and\ncelebrated when adopted\nby white culture?\n\nA) All of the above\nB) Cornrows\nC) Hoop earrings\nD) Baggy clothes", "Answer:\nA) All of the above", "Cornrows: Black students\nsuspended for wearing them.\nThen credited to\nKylie Jenner.", "Hoop earrings: 'Ghetto.'\nBaggy clothes: Criminalized.\n\nThen repackaged as\nfashion worth billions.", "Style born in\nBlack communities\nis monetized for\neveryone except\nthe source."]
-  },
-  {
-    day: 17, date: "February 17",
-    category: "Film",
-    title: "The Film That Quietly Changed Hollywood",
-    question: "What 1971 film became the first major Hollywood studio film directed by and starring a Black person to turn a profit?",
-    options: ["Shaft", "Sweet Sweetback's Baadasssss Song", "Super Fly", "Coffy"],
-    answer: 1,
-    answerText: "Sweet Sweetback's Baadasssss Song",
-    subject: "Melvin Van Peebles",
-    dates: "1971",
-    story: `<p>Melvin Van Peebles made Sweet Sweetback's Baadasssss Song in 1971 with $150,000 — much of it borrowed from Bill Cosby — outside the Hollywood system, with a mostly Black crew, and distributed it independently.</p>
-    <p>It grossed $15 million. That success proved to Hollywood that there was a massive, underserved Black audience willing to pay for films that reflected their lives. The resulting "Blaxploitation" era launched dozens of Black-led films throughout the 1970s.</p>
-    <p>Van Peebles later said he made the film because he was tired of seeing Black people in movies as servants, criminals, or comic relief. He wanted to see Black people win on screen.</p>`,
-    whyItMatters: "One independent film changed what Hollywood thought was commercially viable. Representation in media shapes who people believe can be a hero, a lead, a story worth telling.",
-    igCaption: `Day 17 of Black History Month 🖤\n\nIn 1971, Melvin Van Peebles made a film outside the Hollywood system.\n$150,000 budget. Mostly Black crew. Independent distribution.\n\nIt grossed $15 million.\n\nIt proved to Hollywood there was a massive Black audience that had been ignored.\nIt launched an entire era of Black cinema.\n\nHe made it because he was tired of seeing Black people on screen only as servants or criminals.\n\nHe wanted to see Black people win.\n\n#MelvinVanPeebles #BlackCinema #BlackHistoryMonth #Hollywood #BlackHistoryInRealTime`,
-    slides: ["Day 17\n🖤\nQuick Quiz", "What 1971 film proved\nBlack-led movies\ncould be profitable?\n\nA) Shaft\nB) Sweet Sweetback's\nBaadasssss Song\nC) Super Fly\nD) Coffy", "Answer:\nB) Sweet Sweetback's\nBaadasssss Song\n— Melvin Van Peebles", "$150K budget.\nMostly Black crew.\nIndependent release.\n\nIt grossed\n$15 million.", "It launched an entire\nera of Black cinema\nby proving the audience\nexisted and had\nbeen ignored.", "Van Peebles made it\nbecause he was tired\nof seeing Black people\non screen only as\nservants or criminals."]
-  },
-  {
-    day: 18, date: "February 18",
-    category: "Dance & Movement",
-    title: "Where the Moves Come From",
-    question: "Which dance move, now global, originated in New Orleans' Black community in the 1990s?",
-    options: ["The Running Man", "The Dougie", "The Bounce", "The Crip Walk"],
-    answer: 2,
-    answerText: "The Bounce (and much of New Orleans bounce culture)",
-    subject: "Black Dance Culture",
-    dates: "Ongoing",
-    story: `<p>New Orleans Bounce music and its associated dance culture emerged from the city's Black housing projects in the early 1990s. From twerking to the bounce to the second line — these movement traditions came from specific Black communities with specific histories.</p>
-    <p>Twerking was performed at Black clubs in New Orleans for years before Miley Cyrus performed it at the VMAs in 2013 and mainstream media acted like it had just been invented. The word "twerk" appeared in New Orleans rap lyrics as far back as 1993.</p>
-    <p>Globally popular dances from the floss to the griddy to the running man each trace back to specific Black creators — many of whom never received credit, royalties, or recognition when their moves were used in commercials, by athletes, and by pop stars.</p>`,
-    whyItMatters: "Dance is cultural expression rooted in community. When it goes viral without credit, it's another form of extraction with a real financial cost to the creators.",
-    igCaption: `Day 18 of Black History Month 🖤\n\nThe word "twerk" appeared in New Orleans rap lyrics in 1993.\n\n20 years later, a pop star did it on TV and the media acted like it had just been invented.\n\nFrom the griddy to the floss to the running man — most global viral dances trace back to specific Black creators who never got credit, royalties, or recognition.\n\nDance is culture. Credit the source.\n\n#BlackDance #NewOrleans #BounceMusic #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 18\n🖤\nQuick Quiz", "Which dance originated\nin New Orleans' Black\ncommunity in the 1990s?\n\nA) The Running Man\nB) The Dougie\nC) The Bounce\nD) The Crip Walk", "Answer:\nC) The Bounce\n(and New Orleans\nbounce culture)", "\"Twerk\" appeared in\nNew Orleans rap\nlyrics in 1993.\n\n20 years later media\nacted like it was\njust invented.", "The griddy. The floss.\nThe running man.\n\nEach traces back to\nspecific Black creators\nwho never got credit.", "Dance is culture.\nCredit the source."]
-  },
-  {
-    day: 19, date: "February 19",
-    category: "Food",
-    title: "Who Really Invented Your Favorite Foods",
-    question: "Who is credited with introducing peanut butter to the American mainstream?",
-    options: ["George Washington Carver", "John Harvey Kellogg", "Marcellus Gilmore Edson", "All had a role"],
-    answer: 3,
-    answerText: "Multiple people — but Carver's broader work on peanuts was essential",
-    subject: "George Washington Carver & Black Culinary History",
-    dates: "Late 1800s — Present",
-    story: `<p>George Washington Carver developed over 300 uses for the peanut, helping transform it from a minor crop into a staple of American agriculture and diet. While historians debate exactly who "invented" peanut butter, Carver's work was essential in popularizing the peanut across American food culture.</p>
-    <p>But Black culinary influence runs much deeper. Soul food — which became Southern food — was created by enslaved people who turned limited, low-quality ingredients into rich cuisine: collard greens, black-eyed peas, cornbread, sweet potato pie, fried chicken. These dishes are now global comfort food staples.</p>
-    <p>Edna Lewis, Leah Chase, and countless unnamed Black cooks are the architects of what Americans call comfort food.</p>`,
-    whyItMatters: "American food culture is deeply Black. The dishes that defined Southern and American cuisine were created by people who were not given credit, ownership, or freedom.",
-    igCaption: `Day 19 of Black History Month 🖤\n\nSoul food became Southern food became American comfort food.\n\nCollard greens. Black-eyed peas. Cornbread. Sweet potato pie. Fried chicken.\n\nAll created by enslaved Black people who turned limited, poor-quality ingredients into cuisine that is now eaten globally.\n\nGeorge Washington Carver developed 300+ uses for the peanut. Edna Lewis defined Southern cooking. Leah Chase fed civil rights leaders at her table.\n\nAmerican food culture is deeply Black.\n\n#BlackFood #SoulFood #GeorgeWashingtonCarver #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 19\n🖤\nQuick Quiz", "Who is credited with\nintroducing peanuts to\nAmerican mainstream?\n\nA) George Washington Carver\nB) John Harvey Kellogg\nC) Marcellus Edson\nD) All had a role", "Answer:\nD) All had a role\n(but Carver's work\nwas essential)", "Soul food = Southern food\n= American comfort food.\n\nAll created by enslaved\npeople with limited,\npoor-quality ingredients.", "Collard greens.\nBlack-eyed peas.\nCornbread. Fried chicken.\nSweet potato pie.\n\nNow eaten globally.", "American food culture\nis deeply Black.\n\nCredit the source."]
-  },
-  {
-    day: 20, date: "February 20",
-    category: "Technology",
-    title: "The Hidden Figures of Silicon Valley",
-    question: "Who was the first Black person to receive a PhD in Computer Science from MIT?",
-    options: ["Mark Dean", "Clarence Ellis", "Philip Emeagwali", "David Blackwell"],
-    answer: 1,
-    answerText: "Clarence Ellis",
-    subject: "Black Tech Pioneers",
-    dates: "1969 — Present",
-    story: `<p>Clarence Ellis received the first PhD in Computer Science ever awarded to a Black person by MIT in 1969. He went on to help develop groupware — the software that makes Google Docs and collaborative editing possible. Almost no one knows his name.</p>
-    <p>Mark Dean co-invented the IBM personal computer and holds three of the nine original PC patents. He later built the first gigahertz chip. He's largely absent from the history of personal computing as it's popularly told.</p>
-    <p>Katherine Johnson (of Hidden Figures fame) calculated the orbital mechanics for John Glenn's Friendship 7 mission. Glenn refused to fly unless she personally verified the computer's numbers. The computers were new. He trusted her.</p>`,
-    whyItMatters: "Technology is consistently told as a story of white male genius. The actual history is full of Black scientists, engineers, and mathematicians whose work made modern computing possible.",
-    igCaption: `Day 20 of Black History Month 🖤\n\nClarence Ellis received the first Computer Science PhD awarded to a Black person by MIT in 1969. He helped develop what became Google Docs. Almost no one knows his name.\n\nMark Dean co-invented the IBM PC and holds 3 of the 9 original patents.\n\nJohn Glenn refused to fly to space unless Katherine Johnson personally verified the computer's math.\n\nTechnology is full of Black pioneers. The history books just left them out.\n\n#BlackTech #ClarenceEllis #MarkDean #KatherineJohnson #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 20\n🖤\nQuick Quiz", "Who was the first Black\nperson to receive a\nPhD in CS from MIT?\n\nA) Mark Dean\nB) Clarence Ellis\nC) Philip Emeagwali\nD) David Blackwell", "Answer:\nB) Clarence Ellis\n1969", "Clarence Ellis helped\ndevelop groupware —\nthe tech that makes\nGoogle Docs possible.\n\nAlmost no one\nknows his name.", "Mark Dean co-invented\nthe IBM PC and holds\n3 of the original\n9 patents.", "John Glenn refused\nto fly unless Katherine\nJohnson personally\nverified the computer's\ncalculations.\n\nHe trusted her."]
-  },
-  {
-    day: 21, date: "February 21",
-    category: "Sports",
-    title: "Beyond Jackie Robinson",
-    question: "Who was the first Black player in the NBA?",
-    options: ["Bill Russell", "Wilt Chamberlain", "Chuck Cooper", "Elgin Baylor"],
-    answer: 2,
-    answerText: "Chuck Cooper",
-    subject: "Sports Integration Beyond the Headlines",
-    dates: "1950s — 1960s",
-    story: `<p>Jackie Robinson desegregating baseball in 1947 is one of the most told stories in American sports history. But the integration of other sports rarely gets the same attention.</p>
-    <p>Chuck Cooper became the first Black player drafted in the NBA in 1950, selected by the Boston Celtics. Nat "Sweetwater" Clifton and Earl Lloyd were also part of that same integration wave. They all faced death threats, segregated hotels, and restaurants that wouldn't serve them — while playing professional basketball.</p>
-    <p>Althea Gibson became the first Black player to compete at Wimbledon in 1951 and won the U.S. Open and Wimbledon in 1957 and 1958. She paved the road Arthur Ashe and Serena Williams would later walk.</p>`,
-    whyItMatters: "Integration in every American institution came with enormous personal cost to the individuals who broke barriers — cost that is often smoothed over in the way these stories are celebrated.",
-    igCaption: `Day 21 of Black History Month 🖤\n\nJackie Robinson gets the headline. But integration happened across every sport.\n\nChuck Cooper was the first Black player drafted in the NBA — 1950. He faced death threats and restaurants that wouldn't serve him.\n\nAlthea Gibson was the first Black player at Wimbledon — 1951. She won it in 1957 and 1958.\n\nEvery barrier broken came with an enormous personal cost we rarely talk about.\n\n#ChuckCooper #AltheaGibson #BlackAthletes #BlackHistoryMonth #SportsHistory #BlackHistoryInRealTime`,
-    slides: ["Day 21\n🖤\nQuick Quiz", "Who was the first\nBlack player in\nthe NBA?\n\nA) Bill Russell\nB) Wilt Chamberlain\nC) Chuck Cooper\nD) Elgin Baylor", "Answer:\nC) Chuck Cooper\n1950, Boston Celtics", "He faced death threats.\nSegregated hotels.\nRestaurants that\nwouldn't serve him.\n\nWhile playing pro ball.", "Althea Gibson: first\nBlack player at\nWimbledon (1951).\nWon it in 1957 & 1958.", "Every barrier broken\ncame with enormous\npersonal cost that\nthe celebration\nusually skips over."]
-  },
-  {
-    day: 22, date: "February 22",
-    category: "Systems",
-    title: "Where American Policing Comes From",
-    question: "Some of America's earliest formal police forces were created primarily to do what?",
-    options: ["Prevent bank robberies", "Catch runaway enslaved people", "Control immigration", "Enforce alcohol prohibition"],
-    answer: 1,
-    answerText: "Catch runaway enslaved people",
-    subject: "Slave Patrols & The Origins of American Policing",
-    dates: "1704 — Present",
-    story: `<p>The first formal, paid police forces in America were "slave patrols," created in South Carolina in 1704. Their explicit purpose was to catch escaped enslaved people, suppress uprisings, and enforce plantation discipline.</p>
-    <p>This is not the totality of American policing's history — Northern police forces had different origins. But the slave patrol model influenced law enforcement throughout the South and shaped many of the tools, tactics, and legal frameworks that came after.</p>
-    <p>After emancipation, many Black Codes were enforced by former slave patrol members who became local sheriffs and deputies. The transition from slave patrol to police force in many Southern counties was not a dramatic reorganization — it was a rebranding.</p>`,
-    whyItMatters: "Understanding policing's origins doesn't mean all police are bad. It means the institution was built with specific purposes, and reform requires understanding those roots.",
-    igCaption: `Day 22 of Black History Month 🖤\n\nAmerica's first formal police forces were slave patrols.\n\nCreated in South Carolina in 1704. Their explicit job: catch escaped enslaved people.\n\nAfter emancipation, many of those same men became local sheriffs enforcing Black Codes.\n\nIt wasn't a dramatic reorganization. It was a rebranding.\n\nUnderstanding this doesn't mean all police are bad. It means the institution was built with specific purposes — and reform requires knowing those roots.\n\n#PoliceHistory #SlavePatrols #BlackHistoryMonth #SystemicRacism #BlackHistoryInRealTime`,
-    slides: ["Day 22\n🖤\nQuick Quiz", "America's earliest police\nforces were created\nprimarily to do what?\n\nA) Prevent bank robberies\nB) Catch runaway\nenslaved people\nC) Control immigration\nD) Enforce prohibition", "Answer:\nB) Catch runaway\nenslaved people", "America's first formal\npolice: slave patrols.\n\nCreated in South\nCarolina, 1704.", "After emancipation,\nmany became sheriffs\nenforcing Black Codes.\n\nNot reorganized.\nRebranded.", "Understanding this\ndoesn't mean all\npolice are bad.\n\nIt means reform requires\nknowing the roots."]
-  },
-  {
-    day: 23, date: "February 23",
-    category: "Democracy",
-    title: "The Playbook of Voter Suppression",
-    question: "Which of these was used to prevent Black Americans from voting AFTER the 15th Amendment was passed?",
-    options: ["Poll taxes", "Literacy tests", "Grandfather clauses", "All of the above"],
-    answer: 3,
-    answerText: "All of the above",
-    subject: "Voting Rights & Suppression",
-    dates: "1870 — Present",
-    story: `<p>The 15th Amendment gave Black men the right to vote in 1870. Within years, states had developed an entire toolkit to take that right back without explicitly violating the Constitution.</p>
-    <p>Poll taxes required payment to vote — impossible for the formerly enslaved. Literacy tests were administered selectively and impossibly difficult for Black voters while white voters were waved through. Grandfather clauses allowed men to vote if their grandfather had voted — which excluded every Black man descended from enslaved people.</p>
-    <p>Violence was also a tool. Black men were lynched for trying to vote. Entire counties had Black majorities and zero Black voters on rolls. The Voting Rights Act of 1965 finally addressed this — and was significantly weakened by the Supreme Court in 2013.</p>`,
-    whyItMatters: "Voter suppression is not ancient history. The tactics have evolved — from poll taxes to voter ID laws, purged rolls, and closed polling locations in predominantly Black counties.",
-    igCaption: `Day 23 of Black History Month 🖤\n\nThe 15th Amendment gave Black men the right to vote in 1870.\n\nWithin years, states created an entire toolkit to take it back:\n\nPoll taxes. Literacy tests designed to be impossible. Grandfather clauses. And violence — Black men were lynched for trying to vote.\n\nThe Voting Rights Act of 1965 finally addressed this.\n\nThe Supreme Court weakened it in 2013.\n\nVoter suppression never stopped. The tactics just evolved.\n\n#VotingRights #BlackVoters #BlackHistoryMonth #Democracy #BlackHistoryInRealTime`,
-    slides: ["Day 23\n🖤\nQuick Quiz", "Which was used to prevent\nBlack Americans from\nvoting after the\n15th Amendment?\n\nA) Poll taxes\nB) Literacy tests\nC) Grandfather clauses\nD) All of the above", "Answer:\nD) All of the above", "The 15th Amendment:\n1870. Right to vote.\n\nWithin years, states\nbuilt a toolkit to\ntake it back.", "Poll taxes. Rigged\nliteracy tests.\nGrandfather clauses.\n\nAnd violence.\nBlack men were lynched\nfor trying to vote.", "The Voting Rights Act\n(1965) addressed it.\n\nSupreme Court weakened\nit in 2013.\n\nThe tactics just evolved."]
-  },
-  {
-    day: 24, date: "February 24",
-    category: "Education",
-    title: "The School That Wasn't Built for You",
-    question: "What law mandated equal education funding for Black and white schools?",
-    options: ["There has never been such a law", "The Civil Rights Act of 1964", "Brown v. Board of Education", "No Child Left Behind"],
-    answer: 0,
-    answerText: "There has never been such a law",
-    subject: "Education Inequality by Design",
-    dates: "Ongoing",
-    story: `<p>There is no federal law mandating equal per-pupil spending across school districts. American public schools are primarily funded through local property taxes — which means schools in wealthy (often white) neighborhoods receive dramatically more funding than schools in poor (often Black and brown) neighborhoods.</p>
-    <p>The result: a child's educational quality is largely determined by the ZIP code they're born into. In some states, the gap in per-pupil spending between the richest and poorest districts is over $10,000 per student per year.</p>
-    <p>Brown v. Board ended legal segregation. It did not end school inequality. And because housing is still largely segregated by race and wealth — the schools remain segregated too, just by economics rather than explicit law.</p>`,
-    whyItMatters: "Education inequality is not a mystery or a cultural failure. It is a policy choice. The ZIP code you're born into determines your opportunities in ways that compound across generations.",
-    igCaption: `Day 24 of Black History Month 🖤\n\nThere is no federal law requiring equal school funding.\n\nAmerican schools are funded by local property taxes. Wealthy neighborhoods have better-funded schools. Poor neighborhoods — which are disproportionately Black — have worse-funded schools.\n\nBrown v. Board ended legal segregation in 1954.\n\nIt did not end school inequality. Schools are still segregated — just by ZIP code now instead of law.\n\nIt's not a cultural failure. It's a policy choice.\n\n#EducationEquity #SchoolFunding #BlackHistoryMonth #SystemicRacism #BlackHistoryInRealTime`,
-    slides: ["Day 24\n🖤\nQuick Quiz", "What law mandates equal\neducation funding\nfor Black and white\nschools?\n\nA) No such law exists\nB) Civil Rights Act\nC) Brown v. Board\nD) No Child Left Behind", "Answer:\nA) No such law exists", "Schools are funded by\nlocal property taxes.\n\nWealthy areas =\nbetter-funded schools.\n\nPoor areas =\nunderfunded schools.", "Brown v. Board ended\nlegal segregation (1954).\n\nIt didn't end\nschool inequality.\n\nSchools are still\nsegreated by ZIP code.", "It's not a\ncultural failure.\n\nIt's a\npolicy choice."]
-  },
-  {
-    day: 25, date: "February 25",
-    category: "Justice System",
-    title: "13th Amendment Loophole",
-    question: "The 13th Amendment abolished slavery EXCEPT in what circumstance?",
-    options: ["For non-citizens", "As punishment for crime", "During wartime", "For those under age 18"],
-    answer: 1,
-    answerText: "As punishment for crime",
-    subject: "Mass Incarceration & the 13th Amendment",
-    dates: "1865 — Present",
-    story: `<p>The 13th Amendment reads: "Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist within the United States."</p>
-    <p>That exception clause was immediately exploited. After the Civil War, Southern states passed Black Codes criminalizing behaviors like loitering or changing jobs without permission. Black men were arrested en masse and leased out to plantations, mines, and railroads — in a system called convict leasing that lasted until the 1940s.</p>
-    <p>Today, incarcerated people perform labor for pennies per hour or nothing at all. The U.S. has the world's largest prison population — and Black Americans are incarcerated at five times the rate of white Americans.</p>`,
-    whyItMatters: "Mass incarceration is the continuation of a system, not a new problem. The 13th Amendment's exception clause was a door left deliberately open.",
-    igCaption: `Day 25 of Black History Month 🖤\n\nThe 13th Amendment abolished slavery.\n\nExcept as punishment for crime.\n\nThat exception was immediately exploited. After the Civil War, Southern states passed Black Codes — laws criminalizing things like "loitering" — and arrested Black men en masse to lease them back to plantations.\n\nToday, incarcerated people work for pennies or nothing. The U.S. has the world's largest prison population. Black Americans are incarcerated at 5 times the rate of white Americans.\n\nThe door was left open on purpose.\n\n#13thAmendment #MassIncarceration #ConvictLeasing #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 25\n🖤\nQuick Quiz", "The 13th Amendment\nabolished slavery EXCEPT\nin what circumstance?\n\nA) For non-citizens\nB) As punishment\nfor crime\nC) During wartime\nD) For those under 18", "Answer:\nB) As punishment\nfor crime", "That exception was\nimmediately exploited.\n\nBlack Codes criminalized\nloitering, changing jobs.\nBlack men arrested\nand leased to plantations.", "Convict leasing:\nslaves by another\nname. Lasted until\nthe 1940s.", "Today: world's largest\nprison population.\n\nBlack Americans incarcerated\nat 5x the rate\nof white Americans.\n\nThe door was left\nopen on purpose."]
-  },
-  {
-    day: 26, date: "February 26",
-    category: "Environment",
-    title: "Poisoned on Purpose",
-    question: "What term describes the pattern of placing polluting facilities in predominantly Black and low-income communities?",
-    options: ["Urban blight", "Environmental racism", "Industrial zoning", "Sacrifice zones"],
-    answer: 1,
-    answerText: "Environmental racism",
-    subject: "Environmental Racism",
-    dates: "Ongoing",
-    story: `<p>Across the United States, a consistent pattern holds: industrial facilities, waste dumps, and chemical plants are disproportionately located near Black and low-income communities. This is called environmental racism.</p>
-    <p>Cancer Alley in Louisiana — an 85-mile stretch along the Mississippi River with dozens of petrochemical plants — runs through predominantly Black communities. Flint, Michigan's water crisis happened in a majority-Black city. Studies show that Black children are exposed to significantly more air pollution than white children, leading to higher rates of asthma and developmental issues.</p>
-    <p>These aren't coincidences. Research shows that race is a stronger predictor of living near a hazardous facility than income — meaning even middle-class Black families live in more polluted areas than comparable white families.</p>`,
-    whyItMatters: "Environmental racism is a public health crisis. The communities bearing the cost of industrialization are the ones with the least political power to stop it.",
-    igCaption: `Day 26 of Black History Month 🖤\n\nIn Louisiana, there's a stretch called "Cancer Alley" — 85 miles of petrochemical plants along the Mississippi River.\n\nIt runs through predominantly Black communities.\n\nFlint, Michigan. Cancer Alley. Studies showing Black children breathe significantly more pollution than white children.\n\nRace is a stronger predictor of living near a hazardous facility than even income.\n\nThis isn't coincidence. It's environmental racism.\n\n#EnvironmentalRacism #CancerAlley #Flint #BlackHealthMatters #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 26\n🖤\nQuick Quiz", "What describes the pattern\nof placing polluting\nfacilities near Black\ncommunities?\n\nA) Urban blight\nB) Environmental racism\nC) Industrial zoning\nD) Sacrifice zones", "Answer:\nB) Environmental racism", "Cancer Alley: 85 miles\nof petrochemical plants\nin Louisiana running\nthrough Black communities.", "Flint, Michigan.\nBlack children exposed\nto significantly more\nair pollution.\nHigher asthma rates.", "Race is a stronger\npredictor of living\nnear a polluting\nfacility than income.\n\nNot coincidence."]
-  },
-  {
-    day: 27, date: "February 27",
-    category: "Modern Leaders",
-    title: "Today's Movement Builders",
-    question: "Which organization, founded in 2013, grew into a global movement after the murder of George Floyd?",
-    options: ["NAACP", "Black Lives Matter", "Color of Change", "The Innocence Project"],
-    answer: 1,
-    answerText: "Black Lives Matter",
-    subject: "Modern Civil Rights Leaders",
-    dates: "2013 — Present",
-    story: `<p>Black Lives Matter was founded in 2013 by Alicia Garza, Patrisse Cullors, and Opal Tometi in response to the acquittal of Trayvon Martin's killer. What started as a hashtag became a global movement.</p>
-    <p>After the murder of George Floyd in May 2020, BLM-affiliated protests became the largest civil rights demonstrations in American history — with an estimated 15 to 26 million participants in the U.S. alone.</p>
-    <p>Other current leaders to know: Bryan Stevenson (Equal Justice Initiative), Stacey Abrams (voting rights), Kimberlé Crenshaw (who coined the term "intersectionality"), and Bree Newsome, who climbed a flagpole in South Carolina and removed the Confederate flag herself in 2015.</p>`,
-    whyItMatters: "Civil rights is not a completed chapter. The movement has current leaders, current strategies, and current fights — and they deserve to be known by name.",
-    igCaption: `Day 27 of Black History Month 🖤\n\nBlack Lives Matter was founded in 2013 by three Black women: Alicia Garza, Patrisse Cullors, and Opal Tometi.\n\nAfter George Floyd's murder in 2020, BLM-connected protests became the largest civil rights demonstrations in American history — up to 26 million participants.\n\nAlso know: Bryan Stevenson. Stacey Abrams. Kimberlé Crenshaw (who coined "intersectionality"). Bree Newsome, who climbed a flagpole and removed the Confederate flag herself.\n\nCivil rights is not a completed chapter.\n\n#BlackLivesMatter #BryanStevenson #StaceyAbrams #KimberléCrenshaw #BlackHistoryMonth #BlackHistoryInRealTime`,
-    slides: ["Day 27\n🖤\nQuick Quiz", "Which organization grew\ninto a global movement\nafter George Floyd's\nmurder in 2020?\n\nA) NAACP\nB) Black Lives Matter\nC) Color of Change\nD) The Innocence Project", "Answer:\nB) Black Lives Matter\nFounded 2013", "Founded by three\nBlack women:\nAlicia Garza,\nPatrisse Cullors,\nOpal Tometi.", "2020: up to 26 million\nprotest participants.\n\nLargest civil rights\ndemonstrations in\nAmerican history.", "Civil rights is not\na completed chapter.\n\nCurrent leaders.\nCurrent strategies.\nCurrent fights."]
-  },
-  {
-    day: 28, date: "February 28",
-    category: "Forward",
-    title: "What Black History Month Is Actually Asking",
-    question: "What did Carter G. Woodson say was the greatest enemy of the Black race?",
-    options: ["Racism", "Poverty", "Miseducation", "Division"],
-    answer: 2,
-    answerText: "Miseducation",
-    subject: "The Mis-Education of the Negro",
-    dates: "1933 — Present",
-    story: `<p>In 1933, Carter G. Woodson published "The Mis-Education of the Negro," arguing that the greatest enemy of Black people was not explicitly racist systems — but a miseducation that taught Black people to see themselves through white eyes, to undervalue their own history, and to pursue acceptance within systems that were designed to exclude them.</p>
-    <p>His argument was radical: true liberation required not just access to education, but a transformation of what and how people were taught. You cannot build a free mind in a school that teaches you your own inferiority.</p>
-    <p>Black History Month exists to correct that. Not as a month of suffering and victimhood, but as a month of evidence: Black people have always built, created, led, innovated, resisted, and thrived — often in the face of systems designed specifically to stop them.</p>`,
-    whyItMatters: "The stories you now know are not exceptions. They are examples of a pattern. The question Black History Month asks of everyone — Black or not — is: what will you do with what you now know?",
-    igCaption: `Day 28 of Black History Month 🖤\n\nWe made it.\n\nFor 28 days, you learned names the textbooks left out.\nStories that were suppressed.\nSystems that were built by design.\n\nCarter G. Woodson said the greatest enemy was miseducation — being taught to see yourself through someone else's eyes.\n\nBlack History Month is the correction.\n\nThe question it asks of all of us:\nWhat will you do with what you now know?\n\n#BlackHistoryMonth #CarterGWoodson #BlackHistoryInRealTime #HistoryMatters #Day28`,
-    slides: ["Day 28\n🖤 Final Day\nQuick Quiz", "What did Carter G. Woodson\nsay was the greatest\nenemy of the Black race?\n\nA) Racism\nB) Poverty\nC) Miseducation\nD) Division", "Answer:\nC) Miseducation", "In 1933, Woodson argued\nthe greatest enemy was\nbeing taught to see\nyourself through\nwhite eyes.", "Black History Month\nexists to correct that.\n\nNot as a month\nof suffering — but as\nevidence of what\nBlack people built,\ncreated, and survived.", "28 days.\n28 stories.\n\nThe question it leaves:\nWhat will you do\nwith what you\nnow know?"]
+    date: "Ongoing",
+    title: "Reparations Conversations Advance at Local Level",
+    body: "While federal reparations legislation remains stalled, cities including Evanston, Illinois and San Francisco have advanced local reparations programs — making real-time history in the long fight for economic justice.",
+    tag: "Justice"
   }
 ];
 
-// =========================================================
-// STATE
-// =========================================================
-let currentDayIndex = 0;
-let answered = false;
-let selectedOption = null;
+// ============================================================
+// 28-DAY CONTENT DATABASE
+// ============================================================
+const DATA = [
+  {
+    day:1, date:"February 1", category:"Foundations",
+    title:"The Birth of Black History Month",
+    question:"Black History Month started as what?",
+    options:["A U.S. government holiday","A school marketing campaign","A week created to correct erased history","A response to the Civil Rights Movement"],
+    answer:2, answerText:"A week created to correct erased history",
+    subject:"Carter G. Woodson", dates:"1875 — 1950",
+    story:`<p>Carter G. Woodson is known as the Father of Black History, and he earned that title the hard way.</p><p>In 1926, he created <em>Negro History Week</em> because he noticed something unsettling: Black Americans were being systematically removed from textbooks, classrooms, and public memory. This wasn't an accident. It was intentional.</p><p>He chose February because it included the birthdays of Abraham Lincoln and Frederick Douglass — two figures already recognized — hoping it would force schools to finally expand the story.</p><p>It worked. Slowly. What began as one week grew into Black History Month in 1976.</p>`,
+    whyItMatters:"Black History Month was never meant to be a celebration. It was meant to be a correction. If history controls who we see as capable, worthy, and powerful, then leaving people out is one of the most effective tools there is.",
+    igCaption:`Day 1 of Black History Month 🖤\nPop quiz edition.\n\nBlack History Month didn't start as a celebration.\nIt started as a correction.\n\nCarter G. Woodson created it in 1926 to fix what schools deliberately left out.\n\nHistory decides who we see as capable, worthy, and powerful.\nLeaving people out is one of the strongest tools there is.\n\n#BlackHistoryMonth #CarterGWoodson #LearnSomethingNew #HistoryMatters #BlackHistoryInRealTime`,
+    slides:["Day 1\n🖤\nQuick Quiz","Black History Month\nstarted as what?\n\nA) A government holiday\nB) A school campaign\nC) A week to fix erased history\nD) A civil rights response","Answer:\nC) A week to fix\nerased history","Carter G. Woodson\ncreated Negro History\nWeek in 1926 — because\nBlack history was being\ndeliberately erased.","He chose February to\nalign with Lincoln's &\nDouglass' birthdays,\nhoping schools would\nexpand the story.","Black History Month\nwas never meant to be\na celebration.\n\nIt was meant to be\na correction."]
+  },
+  {
+    day:2, date:"February 2", category:"Political Courage",
+    title:"Shirley Chisholm: Unbought & Unbossed",
+    question:"Who was the first Black woman to run for President of the United States?",
+    options:["Kamala Harris","Stacey Abrams","Shirley Chisholm","Angela Davis"],
+    answer:2, answerText:"Shirley Chisholm",
+    subject:"Shirley Chisholm", dates:"1924 — 2005",
+    story:`<p>In 1968, Shirley Chisholm became the first Black woman elected to Congress. In 1972, she went further.</p><p>She became the first Black woman to run for President of the United States. She wasn't backed by party leadership. She wasn't protected by the media. She was blocked, dismissed, and openly threatened.</p><p>And she still ran. Not as a symbolic act. To win.</p><p>She campaigned for women, working-class Americans, the poor, and everyone locked out of power entirely.</p>`,
+    quote:{text:"If they don't give you a seat at the table, bring a folding chair.",source:"Shirley Chisholm"},
+    whyItMatters:"This wasn't ancient history. This happened in our parents' lifetime. Every 'first' that followed stood on ground she cleared alone.",
+    igCaption:`Day 2 of Black History Month 🖤\nShirley Chisholm ran for President in 1972.\n\nNot to make a point.\nNot to inspire later.\nTo win.\n\n"If they don't give you a seat at the table, bring a folding chair."\n— Shirley Chisholm\n\n#ShirleyChisholm #BlackHistoryMonth #Unbossed #BlackHistoryInRealTime`,
+    slides:["Day 2\n🖤\nQuick Quiz","Who was the first Black\nwoman to run for\nPresident of the U.S.?\n\nA) Kamala Harris\nB) Stacey Abrams\nC) Shirley Chisholm\nD) Angela Davis","Answer:\nC) Shirley Chisholm","1968: First Black woman\nelected to Congress.\n\n1972: First Black woman\nto run for President.\n\nShe ran to WIN.","She was blocked.\nDismissed. Threatened.\n\nAnd she still ran.",'"If they don\'t give you\na seat at the table,\nbring a folding chair."\n\n— Shirley Chisholm']
+  },
+  {
+    day:3, date:"February 3", category:"Innovation",
+    title:"The Inventor You've Never Credited",
+    question:"Who invented the traffic light system?",
+    options:["Thomas Edison","Garrett Morgan","Lewis Latimer","Benjamin Banneker"],
+    answer:1, answerText:"Garrett Morgan",
+    subject:"Garrett Morgan", dates:"1877 — 1963",
+    story:`<p>Every time you stop at a red light, you're benefiting from the work of Garrett Morgan, a Black inventor from Kentucky who never finished elementary school.</p><p>In 1923, Morgan patented the three-position traffic signal, adding the crucial "stop all" phase that prevented intersection collisions. Before his design, it was just go and stop — with nothing in between.</p><p>He also invented an early gas mask, which he used personally to rescue workers trapped in a tunnel explosion under Lake Erie in 1916. Then companies stopped buying his mask when they found out a Black man invented it.</p>`,
+    whyItMatters:"Garrett Morgan's inventions saved thousands of lives. His name was left out of the story. The erasure of Black inventors isn't just historical — it shapes who children today believe can be an innovator.",
+    igCaption:`Day 3 of Black History Month 🖤\nEvery time you stop at a red light...\n\nYou're benefiting from Garrett Morgan — a Black inventor who never finished elementary school.\n\nHe patented the three-position traffic signal in 1923.\nHe also invented an early gas mask and personally used it to rescue workers trapped underground.\n\nThen companies stopped buying his mask when they found out a Black man made it.\n\n#GarrettMorgan #BlackInventors #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 3\n🖤\nQuick Quiz","Who invented the\ntraffic light system?\n\nA) Thomas Edison\nB) Garrett Morgan\nC) Lewis Latimer\nD) Benjamin Banneker","Answer:\nB) Garrett Morgan","Every time you stop\nat a red light, you're\nusing Garrett Morgan's\n1923 patent.","He also invented the\ngas mask — then\ncompanies stopped\nbuying it when they\nlearned he was Black.","His inventions\nsaved thousands.\n\nHis name was\nleft out of\nthe story."]
+  },
+  {
+    day:4, date:"February 4", category:"Hidden Wealth",
+    title:"The Wealthiest Person Who Ever Lived",
+    question:"Who is considered the wealthiest person in human history?",
+    options:["Oprah Winfrey","Robert F. Smith","Mansa Musa","Jay-Z"],
+    answer:2, answerText:"Mansa Musa",
+    subject:"Mansa Musa", dates:"1280 — 1337",
+    story:`<p>Mansa Musa, the 14th-century emperor of the Mali Empire, is widely considered the wealthiest individual in human history — richer than any person alive today when adjusted for inflation. Estimates put his wealth at roughly $400 billion in modern dollars.</p><p>His empire sat atop more than half the world's gold and salt supply. When he made his pilgrimage to Mecca in 1324, he gave away so much gold in Cairo that he accidentally crashed Egypt's gold market for a decade.</p><p>European maps drawn in the 1300s literally pointed to him and labeled him: "The Richest King in All the Land."</p>`,
+    whyItMatters:"The narrative that Africa was primitive or poor before colonization is false. The Mali Empire was one of the most sophisticated, wealthy, and culturally advanced civilizations on earth.",
+    igCaption:`Day 4 of Black History Month 🖤\n\nMansa Musa was so wealthy that when he traveled through Egypt in 1324, he gave away so much gold that he crashed Egypt's economy for 10 years.\n\nHe's considered the richest person in all of human history.\n\nAnd most people have never heard of him.\n\n#MansaMusa #MaliEmpire #BlackHistoryMonth #AfricanHistory #BlackHistoryInRealTime`,
+    slides:["Day 4\n🖤\nQuick Quiz","Who is the wealthiest\nperson in human history?\n\nA) Oprah Winfrey\nB) Robert F. Smith\nC) Mansa Musa\nD) Jay-Z","Answer:\nC) Mansa Musa","Emperor of the Mali\nEmpire, 14th century.\n\nEstimated wealth:\n$400 BILLION\nin today's dollars.","On his pilgrimage to\nMecca, he gave away\nso much gold in Cairo\nthat he crashed Egypt's\neconomy for 10 years.","European maps from\nthe 1300s labeled him:\n\n\"The Richest King\nin All the Land.\""]
+  },
+  {
+    day:5, date:"February 5", category:"Civil Rights",
+    title:"The Case That Changed School Forever",
+    question:"What Supreme Court case ruled school segregation unconstitutional?",
+    options:["Plessy v. Ferguson","Brown v. Board of Education","Loving v. Virginia","Shelby County v. Holder"],
+    answer:1, answerText:"Brown v. Board of Education",
+    subject:"Brown v. Board of Education", dates:"1954",
+    story:`<p>On May 17, 1954, the Supreme Court unanimously ruled that racial segregation in public schools was unconstitutional — overturning the 58-year-old "separate but equal" doctrine.</p><p>The case was named for Linda Brown, a 7-year-old girl in Topeka, Kansas, who had to walk a mile through a railroad switchyard to reach her bus stop while a white school was just seven blocks from her home.</p><p>Behind the legal strategy was Thurgood Marshall, who argued the case and would later become the first Black Supreme Court Justice. He won unanimously.</p>`,
+    whyItMatters:"The Brown decision didn't end school segregation overnight — many districts resisted for decades. Today, school segregation still exists in many forms, driven by housing policy and economic inequality rather than explicit law.",
+    igCaption:`Day 5 of Black History Month 🖤\n\nA 7-year-old girl had to walk through a railroad switchyard to reach her school bus.\nA white school was 7 blocks away.\n\nThat little girl was Linda Brown.\nHer family's case became Brown v. Board of Education — the 1954 ruling that ended legal school segregation.\n\nThe lawyer who won? Thurgood Marshall — who later became the first Black Supreme Court Justice.\n\n#BrownvBoard #ThurgoodMarshall #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 5\n🖤\nQuick Quiz","What case ruled that\nschool segregation\nwas unconstitutional?\n\nA) Plessy v. Ferguson\nB) Brown v. Board\nC) Loving v. Virginia\nD) Shelby County v. Holder","Answer:\nB) Brown v. Board\nof Education, 1954","Linda Brown, age 7,\nhad to walk through a\nrailroad switchyard to\nreach her bus stop.\n\nA white school was\n7 blocks away.","Thurgood Marshall\nargued the case\nand won unanimously.\n\nHe later became the\nfirst Black Supreme\nCourt Justice.","The ruling was a\nvictory.\n\nBut many districts\nresisted for decades.\nSchool inequality\nstill exists today."]
+  },
+  {
+    day:6, date:"February 6", category:"Medicine",
+    title:"The World's First Open-Heart Surgery",
+    question:"Who performed the world's first successful open-heart surgery?",
+    options:["Charles Drew","Daniel Hale Williams","Mae Jemison","Rebecca Lee Crumpler"],
+    answer:1, answerText:"Daniel Hale Williams",
+    subject:"Daniel Hale Williams", dates:"1856 — 1931",
+    story:`<p>On July 9, 1893, Dr. Daniel Hale Williams performed the world's first documented successful open-heart surgery on a stabbing victim — without anesthesia, antibiotics, or X-rays. The patient lived another 50 years.</p><p>Williams also founded Provident Hospital in Chicago — the first interracial hospital in America and the first to offer nursing training to Black women, at a time when most hospitals refused to treat Black patients at all.</p>`,
+    whyItMatters:"Daniel Hale Williams changed medicine with almost no resources and in the face of a system that excluded him. His hospital created pathways for generations of Black doctors and nurses.",
+    igCaption:`Day 6 of Black History Month 🖤\n\nIn 1893, Dr. Daniel Hale Williams performed the world's first successful open-heart surgery.\n\nNo anesthesia. No antibiotics. No X-rays.\n\nThe patient lived another 50 years.\n\n#DanielHaleWilliams #BlackDoctors #BlackHistoryMonth #MedicalHistory #BlackHistoryInRealTime`,
+    slides:["Day 6\n🖤\nQuick Quiz","Who performed the\nworld's first successful\nopen-heart surgery?\n\nA) Charles Drew\nB) Daniel Hale Williams\nC) Mae Jemison\nD) Rebecca Lee Crumpler","Answer:\nB) Daniel Hale Williams\n1893","He operated with no\nanesthesia, no antibiotics,\nno X-rays.\n\nThe patient lived\nanother 50 years.","He also founded the\nfirst interracial hospital\nin America.","He changed medicine\nwith almost no\nresources, in a system\ndesigned to exclude him."]
+  },
+  {
+    day:7, date:"February 7", category:"Erasure",
+    title:"The Town They Burned Down",
+    question:"What thriving Black community was destroyed in the 1921 Tulsa Race Massacre?",
+    options:["Sweet Auburn","Black Wall Street","Bronzeville","Harlem"],
+    answer:1, answerText:"Black Wall Street in Greenwood, Tulsa",
+    subject:"The Tulsa Race Massacre", dates:"May 31 — June 1, 1921",
+    story:`<p>Greenwood, a neighborhood in Tulsa, Oklahoma, was the most prosperous Black community in America. It had its own hotels, hospitals, law offices, and schools. People called it "Black Wall Street."</p><p>On the night of May 31, 1921, a white mob burned it to the ground. Over 35 blocks were destroyed. Up to 300 Black residents were killed. 10,000 were left homeless.</p><p>For decades, the massacre was not taught in Oklahoma schools. Survivors were told to stay quiet. The last known survivor died in 2023.</p>`,
+    whyItMatters:"The Tulsa Massacre wasn't history hiding in the shadows — it was actively suppressed. This happened within living memory.",
+    igCaption:`Day 7 of Black History Month 🖤\n\nIn 1921, there was a neighborhood in Tulsa called "Black Wall Street."\n\nOn May 31, 1921, a white mob burned it to the ground. Up to 300 people were killed. 10,000 left homeless.\n\nFor decades, it wasn't taught in schools.\n\nThe last known survivor died in 2023.\n\n#TulsaMassacre #BlackWallStreet #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 7\n🖤\nQuick Quiz","What community was\ndestroyed in the\n1921 Tulsa Massacre?\n\nA) Sweet Auburn\nB) Black Wall Street\nC) Bronzeville\nD) Harlem","Answer:\nB) Black Wall Street\nGreenwood, Tulsa","The most prosperous\nBlack community\nin America.\n\nHospitals. Hotels.\nLaw offices. Schools.","May 31, 1921.\nA white mob burned\n35 blocks to the ground.\n300+ killed.\n10,000 left homeless.","For decades it wasn't\ntaught in schools.\n\nThe last survivor\ndied in 2023."]
+  },
+  {
+    day:8, date:"February 8", category:"Power & Resistance",
+    title:"COINTELPRO: The FBI vs. Black Leaders",
+    question:"What secret FBI program targeted Black political organizations?",
+    options:["Operation Mockingbird","COINTELPRO","MK Ultra","Operation CHAOS"],
+    answer:1, answerText:"COINTELPRO",
+    subject:"COINTELPRO", dates:"1956 — 1971",
+    story:`<p>From 1956 to 1971, the FBI ran a covert program called COINTELPRO — specifically designed to "expose, disrupt, misdirect, discredit, or otherwise neutralize" Black political organizations and their leaders.</p><p>Targets included the NAACP, the Southern Christian Leadership Conference, the Black Panther Party, and Martin Luther King Jr. personally. The FBI sent King an anonymous letter urging him to commit suicide.</p><p>The program was only exposed after activists broke into an FBI field office in 1971 and leaked the documents.</p>`,
+    whyItMatters:"COINTELPRO wasn't a conspiracy theory — it was a documented government program confirmed by Senate investigation. Understanding it reframes how we look at the collapse of certain movements.",
+    igCaption:`Day 8 of Black History Month 🖤\n\nFrom 1956 to 1971, the FBI ran a secret program designed to destroy Black political organizations.\n\nIt was called COINTELPRO.\n\nThis isn't a conspiracy theory. It was confirmed by a Senate investigation.\n\n#COINTELPRO #BlackHistoryMonth #MLK #BlackHistoryInRealTime`,
+    slides:["Day 8\n🖤\nQuick Quiz","What secret FBI program\ntargeted Black leaders?\n\nA) Operation Mockingbird\nB) COINTELPRO\nC) MK Ultra\nD) Operation CHAOS","Answer:\nB) COINTELPRO\n1956–1971","Designed to disrupt\nand destroy Black\npolitical organizations.\n\nTargets included\nthe NAACP and MLK.","The FBI sent MLK an\nanonymous letter\nurging him to\ncommit suicide.","We only know this\nbecause activists broke\ninto an FBI office\nand leaked the documents."]
+  },
+  {
+    day:9, date:"February 9", category:"Hidden History",
+    title:"The Rosewood Massacre",
+    question:"The 1923 Rosewood Massacre destroyed what?",
+    options:["A Black college campus","A thriving Black Florida town","A Black-owned railroad","A Black newspaper office"],
+    answer:1, answerText:"A thriving all-Black town in Florida",
+    subject:"The Rosewood Massacre", dates:"January 1923",
+    story:`<p>Rosewood, Florida was a small but self-sufficient all-Black town in 1923. It had a church, a school, a masonic lodge, and homes that Black residents owned outright.</p><p>In January 1923, a white woman falsely claimed she had been assaulted by a Black man. Within days, white mobs descended on Rosewood. They burned every building. Families hid in swamps for days.</p><p>The town was never rebuilt. In 1994, Florida became the first state to compensate survivors of a race massacre — paying 9 survivors $150,000 each.</p>`,
+    whyItMatters:"Rosewood represents a pattern of white mob violence that destroyed Black economic progress. The tactics of suppression — silence, erasure, official indifference — are part of the story too.",
+    igCaption:`Day 9 of Black History Month 🖤\n\nIn 1923, a false accusation led white mobs to burn the entire town of Rosewood, Florida to the ground.\n\nRosewood was a thriving all-Black community. It was never rebuilt.\n\nFlorida didn't compensate survivors until 1994.\n\n#Rosewood #BlackHistoryMonth #NeverForget #BlackHistoryInRealTime`,
+    slides:["Day 9\n🖤\nQuick Quiz","The 1923 Rosewood\nMassacre destroyed what?\n\nA) A Black college\nB) A Black Florida town\nC) A Black-owned railroad\nD) A Black newspaper","Answer:\nB) A thriving all-Black\ntown in Florida","Rosewood: church,\nschool, masonic lodge,\nBlack-owned homes.\n\nAll of it burned.","A false accusation.\nWhite mobs.\nEvery building gone.\nFamilies hid in swamps.","Florida didn't compensate\nsurvivors until 1994.\n\n9 survivors.\n$150,000 each."]
+  },
+  {
+    day:10, date:"February 10", category:"Military",
+    title:"The Unit That Changed World War II",
+    question:"What all-Black unit proved Black pilots could fly combat missions in WWII?",
+    options:["Buffalo Soldiers","Harlem Hellfighters","Tuskegee Airmen","369th Infantry"],
+    answer:2, answerText:"The Tuskegee Airmen",
+    subject:"The Tuskegee Airmen", dates:"1941 — 1946",
+    story:`<p>In 1941, the U.S. military believed Black men were unfit to fly combat aircraft. The Tuskegee Airmen proved them devastatingly wrong.</p><p>The 332nd Fighter Group flew over 15,000 individual sorties in Europe and North Africa. They became known for never losing a bomber to enemy aircraft — a record no other escort group could claim.</p><p>They returned home as war heroes and were still refused service at diners. Their fight helped push President Truman to desegregate the military in 1948.</p>`,
+    whyItMatters:"The Tuskegee Airmen fought a two-front war — against fascism abroad and against racism at home. Their excellence forced a reckoning that changed the military forever.",
+    igCaption:`Day 10 of Black History Month 🖤\n\nIn 1941, the U.S. military believed Black men were unfit to fly combat aircraft.\n\nThe Tuskegee Airmen flew 15,000+ sorties and never lost a bomber to enemy fighters.\n\nThey came home as war heroes and were still refused service at diners.\n\n#TuskegeeAirmen #BlackHistoryMonth #WWII #BlackHistoryInRealTime`,
+    slides:["Day 10\n🖤\nQuick Quiz","What unit proved Black\npilots could fly combat\nmissions in WWII?\n\nA) Buffalo Soldiers\nB) Harlem Hellfighters\nC) Tuskegee Airmen\nD) 369th Infantry","Answer:\nC) Tuskegee Airmen","15,000+ individual\nsorties in Europe\nand North Africa.\n\nNever lost a bomber\nto enemy aircraft.","Came home as\nwar heroes.\n\nStill refused service\nat diners.","Their fight helped\ndesegregate the entire\nU.S. military in 1948."]
+  },
+  {
+    day:11, date:"February 11", category:"Music & Culture",
+    title:"How Blues Became Everything",
+    question:"Which tradition is the direct root of rock, jazz, R&B, hip-hop, and country?",
+    options:["Gospel","The Blues","Ragtime","Folk"],
+    answer:1, answerText:"The Blues",
+    subject:"The Blues", dates:"Late 1800s — Present",
+    story:`<p>The blues emerged from the Mississippi Delta in the late 1800s, rooted in the field hollers, spirituals, and work songs of enslaved people. It was music built from suffering, and it changed the entire world.</p><p>Rock and roll? Blues. Jazz? Blues foundation. R&B literally stands for "Rhythm and Blues." Hip-hop samples blues tonality. Even country music traces its roots to early blues musicians.</p><p>Elvis Presley, the Rolling Stones, Led Zeppelin — all credited Black blues artists as their direct inspiration. But while those artists became wealthy and iconic, many original creators died in poverty and obscurity.</p>`,
+    whyItMatters:"American music is Black music, adapted and often profited from by others. Understanding this isn't about taking anything away — it's about knowing the source.",
+    igCaption:`Day 11 of Black History Month 🖤\n\nRock. Jazz. R&B. Hip-hop. Country.\n\nAll of it traces directly back to the Blues — music created by Black Americans in the late 1800s.\n\nElvis. The Rolling Stones. Led Zeppelin. All credited Black blues artists as their inspiration.\n\nMany original creators died in poverty.\n\nAmerican music is Black music.\n\n#TheBlues #BlackMusicHistory #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 11\n🖤\nQuick Quiz","Which tradition is the\nroot of rock, jazz,\nR&B, hip-hop & country?\n\nA) Gospel\nB) The Blues\nC) Ragtime\nD) Folk","Answer:\nB) The Blues","Born in the Mississippi\nDelta. Rooted in\nwork songs of\nenslaved people.","Elvis. Rolling Stones.\nLed Zeppelin.\n\nAll credited Black blues\nartists as inspiration.","Many original creators\ndied in poverty.\n\nAmerican music\nis Black music."]
+  },
+  {
+    day:12, date:"February 12", category:"Systems",
+    title:"Redlining: How the Map Stole Wealth",
+    question:"What government-backed practice denied Black families mortgages?",
+    options:["Blockbusting","Redlining","Steering","Sundowning"],
+    answer:1, answerText:"Redlining",
+    subject:"Redlining", dates:"1930s — 1968",
+    story:`<p>Starting in the 1930s, the federal government created maps of American cities that literally drew red lines around Black and immigrant neighborhoods, designating them as "hazardous" for investment.</p><p>Banks used these maps to deny mortgages to anyone in a redlined area — regardless of their income or credit. Black families could not build generational wealth the way white families could.</p><p>The Fair Housing Act of 1968 made it illegal. But by then, the wealth gap had compounded for decades. Today, the neighborhoods that were redlined in the 1930s are still, on average, poorer and less healthy.</p>`,
+    whyItMatters:"The racial wealth gap isn't an accident or the result of personal choices. It was engineered by federal policy. Redlining explains more about inequality today than almost any other single fact.",
+    igCaption:`Day 12 of Black History Month 🖤\n\nIn the 1930s, the U.S. government drew maps marking Black neighborhoods as "hazardous."\n\nBanks used these maps to deny mortgages. Black families couldn't build wealth.\n\nThe policy was made illegal in 1968. But those neighborhoods are still poorer today.\n\nThe wealth gap was engineered. Not accidental.\n\n#Redlining #WealthGap #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 12\n🖤\nQuick Quiz","What practice denied\nBlack families mortgages?\n\nA) Blockbusting\nB) Redlining\nC) Steering\nD) Sundowning","Answer:\nB) Redlining","The federal government\ndrew maps marking\nBlack neighborhoods\nas 'hazardous.'\n\nBanks used them\nto deny mortgages.","Black families couldn't\nbuild wealth or\npass it on.","Those redlined\nneighborhoods are\nstill poorer today.\n\nEngineered.\nNot accidental."]
+  },
+  {
+    day:13, date:"February 13", category:"Labor",
+    title:"Built by Hands They Never Credited",
+    question:"Approximately how many enslaved people built the U.S. Capitol?",
+    options:["None — paid workers built it","Around 400","Over 1,000","About 50"],
+    answer:1, answerText:"Around 400 enslaved people",
+    subject:"Enslaved Labor & American Infrastructure", dates:"1793 — 1800",
+    story:`<p>The United States Capitol — the symbol of American democracy — was largely built by enslaved Black people. Records show hundreds of enslaved workers were hired out by their enslavers, who received the wages.</p><p>The White House was also built by enslaved labor. So were many of America's early universities, including Harvard, Yale, and Princeton.</p><p>The American economy before the Civil War was powered by approximately 4 million enslaved people. The total value of that unpaid labor, compounded over generations, is estimated in the trillions.</p>`,
+    whyItMatters:"American prosperity was built on a foundation of stolen labor. That's not a political opinion — it's an economic and historical fact.",
+    igCaption:`Day 13 of Black History Month 🖤\n\nThe U.S. Capitol — symbol of American democracy — was built largely by enslaved Black people.\n\nSo was the White House. So were buildings at Harvard, Yale, and Princeton.\n\nThe workers who built them never saw a cent.\n\nAmerican prosperity was built on stolen labor.\n\n#BlackHistoryMonth #EnslavedLabor #BlackHistoryInRealTime`,
+    slides:["Day 13\n🖤\nQuick Quiz","How many enslaved people\nbuilt the U.S. Capitol?\n\nA) None\nB) Around 400\nC) Over 1,000\nD) About 50","Answer:\nB) Around 400\nenslaved people","The Capitol. The White\nHouse. Harvard. Yale.\nPrinceton.\n\nAll built or funded\nby enslaved labor.","The workers never\nsaw a cent.\n\nTheir enslavers\nreceived the wages.","4 million enslaved people\npowered the American\neconomy before\nthe Civil War."]
+  },
+  {
+    day:14, date:"February 14", category:"Love & Law",
+    title:"Loving v. Virginia: The Right to Love",
+    question:"Until what year was interracial marriage illegal in parts of the U.S.?",
+    options:["1954","1967","1978","1990"],
+    answer:1, answerText:"1967",
+    subject:"Mildred & Richard Loving", dates:"1967",
+    story:`<p>Mildred (Black) and Richard Loving (white) got married in Washington D.C. in 1958. When they returned home to Virginia, they were arrested in their bedroom in the middle of the night. Interracial marriage was illegal in Virginia and 15 other states.</p><p>They were sentenced to a year in jail, suspended on the condition that they leave Virginia for 25 years. Their case went to the Supreme Court. In 1967, the Court ruled unanimously that laws banning interracial marriage were unconstitutional.</p><p>Richard was killed by a drunk driver in 1975. Mildred never remarried. She said simply: "I miss him."</p>`,
+    whyItMatters:"Loving v. Virginia happened in 1967 — the same year the first Super Bowl was played. This isn't distant history.",
+    igCaption:`Day 14 — Valentine's Day 🖤\n\nIn 1958, Mildred and Richard Loving got married.\n\nThen police arrested them in their bedroom in the middle of the night.\n\nInterracial marriage was illegal in Virginia and 15 other states.\n\nThey won at the Supreme Court in 1967.\n\nMildred said of Richard: "I miss him."\n\n#LovingvVirginia #BlackHistoryMonth #ValentinesDay #BlackHistoryInRealTime`,
+    slides:["Day 14\n🖤 Valentine's Day\nQuick Quiz","Until what year was\ninterracial marriage\nillegal in parts of\nthe U.S.?\n\nA) 1954\nB) 1967\nC) 1978\nD) 1990","Answer:\nB) 1967","Mildred and Richard\nLoving were arrested\nin their bedroom\nin the middle of\nthe night.","Their crime:\nBeing married\nto each other\nin Virginia.","They won at the\nSupreme Court in 1967.\nSame year as the\nfirst Super Bowl.\n\nRecent history."]
+  },
+  {
+    day:15, date:"February 15", category:"Culture",
+    title:"You're Speaking AAVE Right Now",
+    question:"What does AAVE stand for?",
+    options:["African American Visual Expression","African American Vernacular English","American Alternative Verbal Exchange","African American Vocal Emphasis"],
+    answer:1, answerText:"African American Vernacular English",
+    subject:"AAVE & Linguistic Culture", dates:"Origins in slavery — Present",
+    story:`<p>African American Vernacular English (AAVE) is a fully systematic, rule-governed dialect with its own grammar, phonology, and syntax — not broken English, but a linguistic system linguists have studied for decades.</p><p>Words now used globally originated in AAVE: "lit," "woke," "finna," "salty," "throwing shade," "on fleek," "GOAT," "no cap," "bussin." Even "cool" as a general positive term was popularized by jazz culture in the 1940s.</p><p>The pattern is consistent: Black Americans create cultural and linguistic innovations, they're mocked for it, those innovations get adopted by mainstream culture, and the origin is forgotten.</p>`,
+    whyItMatters:"Language is culture. When phrases born in Black communities go mainstream without acknowledgment, it's another form of extraction — taking the fruit without crediting the tree.",
+    igCaption:`Day 15 of Black History Month 🖤\n\n"Lit." "Woke." "Salty." "Throwing shade." "GOAT." "No cap." "Bussin."\n\nAll came from Black American communities.\n\nEven "cool" was popularized through jazz culture in the 1940s.\n\nBlack Americans create it. Get mocked for it. Mainstream adopts it. Origin forgotten.\n\n#AAVE #BlackCulture #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 15\n🖤\nQuick Quiz","What does AAVE\nstand for?\n\nA) African American\nVisual Expression\nB) African American\nVernacular English\nC) American Alternative\nVerbal Exchange\nD) African American\nVocal Emphasis","Answer:\nB) African American\nVernacular English","\"Lit.\" \"Woke.\"\n\"Salty.\" \"No cap.\"\n\"GOAT.\" \"Bussin.\"\n\nAll from Black\nAmerican communities.","Even \"cool\" came\nfrom jazz culture\nin the 1940s.","Black Americans create it.\nGet mocked for it.\nMainstream adopts it.\nOrigin gets forgotten."]
+  },
+  {
+    day:16, date:"February 16", category:"Fashion",
+    title:"Stolen Style: The Culture Tax",
+    question:"Which fashion trend was mocked on Black people then celebrated when adopted by others?",
+    options:["All of the above","Cornrows","Hoop earrings","Baggy clothes"],
+    answer:0, answerText:"All of the above",
+    subject:"Black Fashion & Cultural Appropriation", dates:"Ongoing",
+    story:`<p>Cornrows, braids, and locs were worn by Black people for centuries. In professional settings, Black people were fired and suspended from school for wearing their natural hair — called "unprofessional."</p><p>Then cornrows became a fashion statement credited to Kylie Jenner. Braids became "boxer braids." Hoop earrings were called "ghetto" then became a must-have. Baggy clothes were criminalized then became "streetwear" worth billions.</p><p>The pattern never changes: Black people are penalized for the same styles that get celebrated when adopted by others.</p>`,
+    whyItMatters:"Cultural appropriation has a financial cost. Style born in Black communities is monetized for everyone except the communities it came from.",
+    igCaption:`Day 16 of Black History Month 🖤\n\nCornrows: Black students suspended. Then credited to Kylie Jenner.\nHoop earrings: Called "ghetto." Then a fashion must-have.\nBaggy clothes: Criminalized. Then "streetwear" worth billions.\n\nSame styles. Different people. Different reactions.\n\n#BlackFashion #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 16\n🖤\nQuick Quiz","Which trend was mocked\non Black people and\ncelebrated when others\nadopted it?\n\nA) All of the above\nB) Cornrows\nC) Hoop earrings\nD) Baggy clothes","Answer:\nA) All of the above","Cornrows: Black students\nsuspended for wearing them.\nThen credited to\nKylie Jenner.","Hoop earrings: 'Ghetto.'\nBaggy clothes: Criminalized.\n\nThen repackaged as\nfashion worth billions.","Same styles.\nDifferent people.\nDifferent reactions.\n\nThat's the pattern."]
+  },
+  {
+    day:17, date:"February 17", category:"Film",
+    title:"The Film That Quietly Changed Hollywood",
+    question:"What 1971 film proved Black-led movies could be profitable?",
+    options:["Shaft","Sweet Sweetback's Baadasssss Song","Super Fly","Coffy"],
+    answer:1, answerText:"Sweet Sweetback's Baadasssss Song",
+    subject:"Melvin Van Peebles", dates:"1971",
+    story:`<p>Melvin Van Peebles made Sweet Sweetback's Baadasssss Song in 1971 with $150,000 — outside the Hollywood system, with a mostly Black crew, distributed independently.</p><p>It grossed $15 million. That success proved to Hollywood there was a massive, underserved Black audience willing to pay for films that reflected their lives. The resulting era launched dozens of Black-led films throughout the 1970s.</p><p>Van Peebles made the film because he was tired of seeing Black people in movies as servants, criminals, or comic relief. He wanted to see Black people win on screen.</p>`,
+    whyItMatters:"One independent film changed what Hollywood thought was commercially viable. Representation in media shapes who people believe can be a hero, a lead, a story worth telling.",
+    igCaption:`Day 17 of Black History Month 🖤\n\nIn 1971, Melvin Van Peebles made a film outside Hollywood.\n$150,000 budget. Mostly Black crew. Independent distribution.\n\nIt grossed $15 million and launched an entire era of Black cinema.\n\nHe made it because he was tired of seeing Black people on screen only as servants.\n\nHe wanted to see Black people win.\n\n#MelvinVanPeebles #BlackCinema #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 17\n🖤\nQuick Quiz","What 1971 film proved\nBlack-led movies\ncould be profitable?\n\nA) Shaft\nB) Sweet Sweetback's\nBaadasssss Song\nC) Super Fly\nD) Coffy","Answer:\nB) Sweet Sweetback's\nBaadasssss Song","$150K budget.\nMostly Black crew.\nIndependent release.\n\nGrossed $15 million.","It proved the audience\nexisted and had\nbeen ignored.","Van Peebles made it\nbecause he wanted\nto see Black people\nwin on screen."]
+  },
+  {
+    day:18, date:"February 18", category:"Dance & Movement",
+    title:"Where the Moves Come From",
+    question:"Which dance originated in New Orleans' Black community in the 1990s?",
+    options:["The Running Man","The Dougie","The Bounce","The Crip Walk"],
+    answer:2, answerText:"The Bounce",
+    subject:"Black Dance Culture", dates:"Ongoing",
+    story:`<p>New Orleans Bounce music and its associated dance culture emerged from the city's Black housing projects in the early 1990s. From twerking to the bounce to the second line — these movement traditions came from specific Black communities with specific histories.</p><p>Twerking was performed at Black clubs in New Orleans for years before it went mainstream. The word "twerk" appeared in New Orleans rap lyrics as far back as 1993.</p><p>Globally popular dances from the floss to the griddy to the running man each trace back to specific Black creators — many of whom never received credit, royalties, or recognition.</p>`,
+    whyItMatters:"Dance is cultural expression rooted in community. When it goes viral without credit, it's another form of extraction with a real financial cost to the creators.",
+    igCaption:`Day 18 of Black History Month 🖤\n\nThe word "twerk" appeared in New Orleans rap lyrics in 1993.\n\n20 years later a pop star did it on TV and media acted like it was just invented.\n\nFrom the griddy to the floss — most global viral dances trace back to Black creators who never got credit.\n\nDance is culture. Credit the source.\n\n#BlackDance #NewOrleans #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 18\n🖤\nQuick Quiz","Which dance originated\nin New Orleans' Black\ncommunity in the 1990s?\n\nA) The Running Man\nB) The Dougie\nC) The Bounce\nD) The Crip Walk","Answer:\nC) The Bounce","\"Twerk\" appeared in\nNew Orleans rap\nlyrics in 1993.\n\n20 years later media\nacted like it was\njust invented.","The griddy. The floss.\nThe running man.\n\nAll trace back to\nspecific Black creators\nwho never got credit.","Dance is culture.\nCredit the source."]
+  },
+  {
+    day:19, date:"February 19", category:"Food",
+    title:"Who Really Made American Food",
+    question:"Which cuisine did enslaved Black people create from limited ingredients?",
+    options:["Cajun food","Soul food","Southern food","All of the above"],
+    answer:3, answerText:"All of the above — they share the same roots",
+    subject:"Black Culinary History", dates:"Late 1800s — Present",
+    story:`<p>Soul food — which became Southern food — was created by enslaved people who turned limited, low-quality ingredients into rich cuisine: collard greens, black-eyed peas, cornbread, sweet potato pie, fried chicken. These dishes are now global comfort food staples.</p><p>George Washington Carver developed over 300 uses for the peanut, transforming American agriculture. Edna Lewis defined Southern cooking. Leah Chase fed civil rights leaders at her table in New Orleans and was called the Queen of Creole Cuisine.</p>`,
+    whyItMatters:"American food culture is deeply Black. The dishes that defined Southern and American cuisine were created by people who were not given credit, ownership, or freedom.",
+    igCaption:`Day 19 of Black History Month 🖤\n\nCollard greens. Black-eyed peas. Cornbread. Fried chicken. Sweet potato pie.\n\nAll created by enslaved Black people who turned limited ingredients into cuisine now eaten globally.\n\nAmerican food culture is deeply Black.\n\n#SoulFood #BlackFood #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 19\n🖤\nQuick Quiz","Which cuisine did enslaved\nBlack people create from\nlimited ingredients?\n\nA) Cajun food\nB) Soul food\nC) Southern food\nD) All of the above","Answer:\nD) All of the above\n— same roots","Collard greens.\nBlack-eyed peas.\nCornbread. Fried chicken.\nSweet potato pie.","Created by enslaved\npeople with limited,\npoor-quality ingredients.\n\nNow eaten globally.","American food culture\nis deeply Black.\n\nCredit the source."]
+  },
+  {
+    day:20, date:"February 20", category:"Technology",
+    title:"The Hidden Figures of Silicon Valley",
+    question:"Who was the first Black person to receive a PhD in Computer Science from MIT?",
+    options:["Mark Dean","Clarence Ellis","Philip Emeagwali","David Blackwell"],
+    answer:1, answerText:"Clarence Ellis",
+    subject:"Black Tech Pioneers", dates:"1969 — Present",
+    story:`<p>Clarence Ellis received the first PhD in Computer Science ever awarded to a Black person by MIT in 1969. He went on to help develop groupware — the software that makes Google Docs and collaborative editing possible. Almost no one knows his name.</p><p>Mark Dean co-invented the IBM personal computer and holds three of the nine original PC patents. Katherine Johnson calculated the orbital mechanics for John Glenn's Friendship 7 mission. Glenn refused to fly unless she personally verified the computer's numbers.</p>`,
+    whyItMatters:"Technology is consistently told as a story of white male genius. The actual history is full of Black scientists, engineers, and mathematicians whose work made modern computing possible.",
+    igCaption:`Day 20 of Black History Month 🖤\n\nClarence Ellis got the first CS PhD awarded to a Black person by MIT in 1969. He helped develop what became Google Docs. Almost no one knows his name.\n\nMark Dean co-invented the IBM PC.\n\nJohn Glenn refused to fly to space unless Katherine Johnson personally verified the math.\n\n#BlackTech #KatherineJohnson #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 20\n🖤\nQuick Quiz","Who was the first Black\nperson to receive a\nPhD in CS from MIT?\n\nA) Mark Dean\nB) Clarence Ellis\nC) Philip Emeagwali\nD) David Blackwell","Answer:\nB) Clarence Ellis\n1969","He helped develop\nwhat became Google Docs.\n\nAlmost no one\nknows his name.","Mark Dean co-invented\nthe IBM PC.","John Glenn refused\nto fly unless Katherine\nJohnson personally\nverified the math.\n\nHe trusted her."]
+  },
+  {
+    day:21, date:"February 21", category:"Sports",
+    title:"Beyond Jackie Robinson",
+    question:"Who was the first Black player in the NBA?",
+    options:["Bill Russell","Wilt Chamberlain","Chuck Cooper","Elgin Baylor"],
+    answer:2, answerText:"Chuck Cooper",
+    subject:"Sports Integration Beyond the Headlines", dates:"1950s — 1960s",
+    story:`<p>Jackie Robinson desegregating baseball in 1947 is one of the most told stories in sports history. But the integration of other sports rarely gets the same attention.</p><p>Chuck Cooper became the first Black player drafted in the NBA in 1950. Althea Gibson became the first Black player to compete at Wimbledon in 1951 and won it in 1957 and 1958. Both faced death threats, segregated hotels, and restaurants that wouldn't serve them — while competing professionally.</p>`,
+    whyItMatters:"Integration in every American institution came with enormous personal cost to the individuals who broke barriers — cost that is often smoothed over in the way these stories are celebrated.",
+    igCaption:`Day 21 of Black History Month 🖤\n\nJackie Robinson gets the headline. But integration happened across every sport.\n\nChuck Cooper: first Black player drafted in the NBA (1950).\nAlthea Gibson: first Black player at Wimbledon (1951). Won it in 1957 and 1958.\n\nEvery barrier broken came with enormous personal cost.\n\n#ChuckCooper #AltheaGibson #BlackAthletes #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 21\n🖤\nQuick Quiz","Who was the first\nBlack player in\nthe NBA?\n\nA) Bill Russell\nB) Wilt Chamberlain\nC) Chuck Cooper\nD) Elgin Baylor","Answer:\nC) Chuck Cooper\n1950, Boston Celtics","He faced death threats.\nSegregated hotels.\nRestaurants that\nwouldn't serve him.\n\nWhile playing pro ball.","Althea Gibson: first\nBlack player at\nWimbledon (1951).\nWon it in 1957 & 1958.","Every barrier broken\ncame with enormous\npersonal cost the\ncelebration usually\nskips over."]
+  },
+  {
+    day:22, date:"February 22", category:"Systems",
+    title:"Where American Policing Comes From",
+    question:"Some of America's earliest police forces were created primarily to do what?",
+    options:["Prevent bank robberies","Catch runaway enslaved people","Control immigration","Enforce alcohol prohibition"],
+    answer:1, answerText:"Catch runaway enslaved people",
+    subject:"Slave Patrols & The Origins of American Policing", dates:"1704 — Present",
+    story:`<p>The first formal, paid police forces in America were "slave patrols," created in South Carolina in 1704. Their explicit purpose was to catch escaped enslaved people, suppress uprisings, and enforce plantation discipline.</p><p>After emancipation, many Black Codes were enforced by former slave patrol members who became local sheriffs and deputies. The transition in many Southern counties was not a dramatic reorganization — it was a rebranding.</p>`,
+    whyItMatters:"Understanding policing's origins doesn't mean all police are bad. It means the institution was built with specific purposes, and reform requires understanding those roots.",
+    igCaption:`Day 22 of Black History Month 🖤\n\nAmerica's first formal police forces were slave patrols.\n\nCreated in South Carolina in 1704. Explicit job: catch escaped enslaved people.\n\nAfter emancipation, many became local sheriffs enforcing Black Codes.\n\nNot reorganized. Rebranded.\n\n#PoliceHistory #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 22\n🖤\nQuick Quiz","America's earliest police\nforces were created\nto do what?\n\nA) Prevent bank robberies\nB) Catch runaway\nenslaved people\nC) Control immigration\nD) Enforce prohibition","Answer:\nB) Catch runaway\nenslaved people","America's first formal\npolice: slave patrols.\n\nCreated in South\nCarolina, 1704.","After emancipation,\nmany became sheriffs\nenforcing Black Codes.\n\nNot reorganized.\nRebranded.","Understanding this\ndoesn't mean all\npolice are bad.\n\nIt means reform requires\nknowing the roots."]
+  },
+  {
+    day:23, date:"February 23", category:"Democracy",
+    title:"The Voter Suppression Playbook",
+    question:"Which was used to prevent Black Americans from voting after the 15th Amendment?",
+    options:["Poll taxes","Literacy tests","Grandfather clauses","All of the above"],
+    answer:3, answerText:"All of the above",
+    subject:"Voting Rights & Suppression", dates:"1870 — Present",
+    story:`<p>The 15th Amendment gave Black men the right to vote in 1870. Within years, states had developed an entire toolkit to take that right back.</p><p>Poll taxes required payment to vote. Literacy tests were administered impossibly for Black voters while white voters were waved through. Grandfather clauses allowed men to vote only if their grandfather had voted — excluding every Black man descended from enslaved people.</p><p>Violence was also a tool. The Voting Rights Act of 1965 finally addressed this — and was significantly weakened by the Supreme Court in 2013.</p>`,
+    whyItMatters:"Voter suppression is not ancient history. The tactics have evolved from poll taxes to voter ID laws, purged rolls, and closed polling locations in predominantly Black counties.",
+    igCaption:`Day 23 of Black History Month 🖤\n\nThe 15th Amendment gave Black men the right to vote in 1870.\n\nWithin years: poll taxes, impossible literacy tests, grandfather clauses, and violence.\n\nThe Voting Rights Act (1965) addressed it. The Supreme Court weakened it in 2013.\n\nVoter suppression never stopped. The tactics just evolved.\n\n#VotingRights #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 23\n🖤\nQuick Quiz","Which was used to prevent\nBlack Americans from\nvoting after the\n15th Amendment?\n\nA) Poll taxes\nB) Literacy tests\nC) Grandfather clauses\nD) All of the above","Answer:\nD) All of the above","The 15th Amendment:\n1870. Right to vote.\n\nWithin years, states\nbuilt a toolkit to\ntake it back.","Poll taxes. Rigged\nliteracy tests.\nGrandfather clauses.\n\nAnd violence.","Voting Rights Act (1965)\naddressed it.\n\nSupreme Court weakened\nit in 2013."]
+  },
+  {
+    day:24, date:"February 24", category:"Education",
+    title:"The School That Wasn't Built for You",
+    question:"What law mandates equal education funding for Black and white schools?",
+    options:["There has never been such a law","The Civil Rights Act of 1964","Brown v. Board of Education","No Child Left Behind"],
+    answer:0, answerText:"There has never been such a law",
+    subject:"Education Inequality by Design", dates:"Ongoing",
+    story:`<p>There is no federal law mandating equal per-pupil spending across school districts. American public schools are primarily funded through local property taxes — meaning schools in wealthy neighborhoods receive dramatically more funding than schools in poor neighborhoods.</p><p>Brown v. Board ended legal segregation. It did not end school inequality. Because housing is still largely segregated by race and wealth, the schools remain segregated too — just by economics rather than explicit law.</p>`,
+    whyItMatters:"Education inequality is not a mystery or a cultural failure. It is a policy choice. The ZIP code you're born into determines your opportunities in ways that compound across generations.",
+    igCaption:`Day 24 of Black History Month 🖤\n\nThere is no federal law requiring equal school funding.\n\nSchools are funded by local property taxes. Wealthy areas get better schools. Poor areas — disproportionately Black — get less.\n\nBrown v. Board ended legal segregation in 1954. Schools are still segregated by ZIP code.\n\nPolicy choice. Not accident.\n\n#EducationEquity #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 24\n🖤\nQuick Quiz","What law mandates\nequal school funding?\n\nA) No such law exists\nB) Civil Rights Act\nC) Brown v. Board\nD) No Child Left Behind","Answer:\nA) No such law exists","Schools funded by\nlocal property taxes.\n\nWealthy areas =\nbetter schools.\nPoor areas = less.","Brown v. Board ended\nlegal segregation (1954).\n\nSchools are still\nsegreated by ZIP code.","Policy choice.\nNot accident."]
+  },
+  {
+    day:25, date:"February 25", category:"Justice System",
+    title:"The 13th Amendment Loophole",
+    question:"The 13th Amendment abolished slavery EXCEPT in what circumstance?",
+    options:["For non-citizens","As punishment for crime","During wartime","For those under age 18"],
+    answer:1, answerText:"As punishment for crime",
+    subject:"Mass Incarceration & the 13th Amendment", dates:"1865 — Present",
+    story:`<p>The 13th Amendment reads: "Neither slavery nor involuntary servitude, except as a punishment for crime... shall exist within the United States."</p><p>That exception was immediately exploited. After the Civil War, Southern states passed Black Codes criminalizing behaviors like loitering. Black men were arrested en masse and leased out to plantations in a system called convict leasing that lasted until the 1940s.</p><p>Today, the U.S. has the world's largest prison population — and Black Americans are incarcerated at five times the rate of white Americans.</p>`,
+    whyItMatters:"Mass incarceration is the continuation of a system, not a new problem. The 13th Amendment's exception clause was a door left deliberately open.",
+    igCaption:`Day 25 of Black History Month 🖤\n\nThe 13th Amendment abolished slavery.\n\nExcept as punishment for crime.\n\nThat exception was immediately exploited. Black Codes criminalized "loitering." Black men leased back to plantations.\n\nToday: world's largest prison population. Black Americans incarcerated at 5x the rate of white Americans.\n\n#13thAmendment #MassIncarceration #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 25\n🖤\nQuick Quiz","The 13th Amendment\nabolished slavery EXCEPT\nin what circumstance?\n\nA) For non-citizens\nB) As punishment\nfor crime\nC) During wartime\nD) For those under 18","Answer:\nB) As punishment\nfor crime","That exception was\nimmediately exploited.\n\nBlack Codes criminalized\nloitering. Black men\nleased to plantations.","Convict leasing lasted\nuntil the 1940s.","Today: world's largest\nprison population.\n\nBlack Americans at\n5x the incarceration\nrate of white Americans."]
+  },
+  {
+    day:26, date:"February 26", category:"Environment",
+    title:"Poisoned on Purpose",
+    question:"What term describes placing polluting facilities near Black communities?",
+    options:["Urban blight","Environmental racism","Industrial zoning","Sacrifice zones"],
+    answer:1, answerText:"Environmental racism",
+    subject:"Environmental Racism", dates:"Ongoing",
+    story:`<p>Across the United States, a consistent pattern holds: industrial facilities, waste dumps, and chemical plants are disproportionately located near Black and low-income communities.</p><p>Cancer Alley in Louisiana — an 85-mile stretch with dozens of petrochemical plants — runs through predominantly Black communities. Flint, Michigan's water crisis happened in a majority-Black city. Studies show Black children are exposed to significantly more air pollution than white children.</p><p>Research shows race is a stronger predictor of living near a hazardous facility than income.</p>`,
+    whyItMatters:"Environmental racism is a public health crisis. The communities bearing the cost of industrialization are the ones with the least political power to stop it.",
+    igCaption:`Day 26 of Black History Month 🖤\n\n"Cancer Alley" — 85 miles of petrochemical plants in Louisiana — runs through predominantly Black communities.\n\nFlint, Michigan. Black children exposed to more pollution. Race is a stronger predictor of living near a hazardous facility than income.\n\nNot coincidence. Environmental racism.\n\n#EnvironmentalRacism #CancerAlley #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 26\n🖤\nQuick Quiz","What describes placing\npolluting facilities near\nBlack communities?\n\nA) Urban blight\nB) Environmental racism\nC) Industrial zoning\nD) Sacrifice zones","Answer:\nB) Environmental racism","Cancer Alley: 85 miles\nof petrochemical plants\nin Louisiana running\nthrough Black communities.","Flint, Michigan.\nBlack children exposed\nto more air pollution.\nHigher asthma rates.","Race is a stronger\npredictor of living\nnear a polluting\nfacility than income.\n\nNot coincidence."]
+  },
+  {
+    day:27, date:"February 27", category:"Modern Leaders",
+    title:"Today's Movement Builders",
+    question:"Which organization grew into a global movement after George Floyd's murder?",
+    options:["NAACP","Black Lives Matter","Color of Change","The Innocence Project"],
+    answer:1, answerText:"Black Lives Matter",
+    subject:"Modern Civil Rights Leaders", dates:"2013 — Present",
+    story:`<p>Black Lives Matter was founded in 2013 by Alicia Garza, Patrisse Cullors, and Opal Tometi in response to the acquittal of Trayvon Martin's killer. What started as a hashtag became a global movement.</p><p>After the murder of George Floyd in May 2020, BLM-affiliated protests became the largest civil rights demonstrations in American history — with an estimated 15 to 26 million participants in the U.S. alone.</p><p>Also know: Bryan Stevenson (Equal Justice Initiative), Stacey Abrams (voting rights), Kimberlé Crenshaw (who coined "intersectionality"), and Bree Newsome, who climbed a flagpole and removed the Confederate flag herself in 2015.</p>`,
+    whyItMatters:"Civil rights is not a completed chapter. The movement has current leaders, current strategies, and current fights — and they deserve to be known by name.",
+    igCaption:`Day 27 of Black History Month 🖤\n\nBlack Lives Matter was founded in 2013 by three Black women: Alicia Garza, Patrisse Cullors, and Opal Tometi.\n\nAfter George Floyd's murder in 2020: up to 26 million protesters. Largest civil rights demonstrations in American history.\n\nCivil rights is not a completed chapter.\n\n#BlackLivesMatter #BlackHistoryMonth #BlackHistoryInRealTime`,
+    slides:["Day 27\n🖤\nQuick Quiz","Which organization grew\ninto a global movement\nafter George Floyd?\n\nA) NAACP\nB) Black Lives Matter\nC) Color of Change\nD) The Innocence Project","Answer:\nB) Black Lives Matter\nFounded 2013","Founded by three\nBlack women:\nAlicia Garza,\nPatrisse Cullors,\nOpal Tometi.","2020: up to 26 million\nprotestors.\n\nLargest civil rights\ndemonstrations in\nAmerican history.","Civil rights is not\na completed chapter.\n\nCurrent leaders.\nCurrent fights."]
+  },
+  {
+    day:28, date:"February 28", category:"Forward",
+    title:"What Black History Month Is Actually Asking",
+    question:"What did Carter G. Woodson say was the greatest enemy of the Black race?",
+    options:["Racism","Poverty","Miseducation","Division"],
+    answer:2, answerText:"Miseducation",
+    subject:"The Mis-Education of the Negro", dates:"1933 — Present",
+    story:`<p>In 1933, Carter G. Woodson published "The Mis-Education of the Negro," arguing that the greatest enemy was a miseducation that taught Black people to see themselves through white eyes, to undervalue their own history, and to pursue acceptance within systems designed to exclude them.</p><p>Black History Month exists to correct that. Not as a month of suffering and victimhood, but as a month of evidence: Black people have always built, created, led, innovated, resisted, and thrived — often in the face of systems designed specifically to stop them.</p><p>The stories you now know are not exceptions. They are examples of a pattern.</p>`,
+    whyItMatters:"The question Black History Month asks of everyone — Black or not — is: what will you do with what you now know?",
+    igCaption:`Day 28 of Black History Month 🖤\n\nWe made it.\n\nFor 28 days, you learned names the textbooks left out.\nStories that were suppressed.\nSystems that were built by design.\n\nCarter G. Woodson said the greatest enemy was miseducation.\n\nBlack History Month is the correction.\n\nThe question it asks of all of us:\nWhat will you do with what you now know?\n\n#BlackHistoryMonth #Day28 #BlackHistoryInRealTime`,
+    slides:["Day 28\n🖤 Final Day\nQuick Quiz","What did Carter G. Woodson\nsay was the greatest\nenemy of the Black race?\n\nA) Racism\nB) Poverty\nC) Miseducation\nD) Division","Answer:\nC) Miseducation","In 1933, Woodson argued\nthe greatest enemy was\nbeing taught to see\nyourself through\nwhite eyes.","Black History Month\nexists to correct that.\n\nNot suffering.\nEvidence of what\nBlack people built.","28 days.\n28 stories.\n\nWhat will you do\nwith what you\nnow know?"]
+  }
+];
 
-function getTodayIndex() {
+// ============================================================
+// STATE
+// ============================================================
+let currentIdx = 0;
+let answered = false;
+let selectedOpt = null;
+let activeNav = null;
+
+function getTodayIdx() {
   const today = new Date();
-  const feb = new Date(2026, 1, 1);
-  const diff = Math.floor((today - feb) / 86400000);
+  const feb1 = new Date(2026, 1, 1);
+  const diff = Math.floor((today - feb1) / 86400000);
   return Math.max(0, Math.min(diff, 27));
 }
 
 function loadDay(idx) {
-  currentDayIndex = idx;
+  currentIdx = idx;
   answered = false;
-  selectedOption = null;
+  selectedOpt = null;
   const d = DATA[idx];
 
   document.getElementById('dayLabel').textContent = `Day ${d.day} · ${d.date}`;
   document.getElementById('storyTitle').textContent = d.title;
-  document.getElementById('categoryTag').textContent = d.category;
-  document.getElementById('quizQuestion').textContent = d.question;
+  document.getElementById('catTag').textContent = d.category;
+  document.getElementById('quizQ').textContent = d.question;
 
-  // Options
-  const grid = document.getElementById('optionsGrid');
+  const grid = document.getElementById('optGrid');
   grid.innerHTML = '';
-  const letters = ['A', 'B', 'C', 'D'];
-  d.options.forEach((opt, i) => {
+  ['A','B','C','D'].forEach((letter, i) => {
     const btn = document.createElement('button');
-    btn.className = 'option-btn';
-    btn.innerHTML = `<span class="option-letter">${letters[i]}</span>${opt}`;
-    btn.onclick = () => selectOption(i);
+    btn.className = 'opt-btn';
+    btn.innerHTML = `<span class="opt-letter">${letter}</span>${d.options[i]}`;
+    btn.onclick = () => selectOpt(i);
     grid.appendChild(btn);
   });
 
-  // Hide reveal
-  document.getElementById('revealSection').classList.remove('visible');
-  document.getElementById('revealBtn').style.display = 'block';
+  document.getElementById('revealSec').classList.remove('show');
+  document.getElementById('revBtn').style.display = 'block';
 
-  // Check if already answered today
-  const saved = localStorage.getItem(`bh_answered_${idx}`);
+  const saved = localStorage.getItem(`bh26_${idx}`);
   if (saved !== null) {
     answered = true;
-    selectedOption = parseInt(saved);
-    showAnswerState(idx, selectedOption);
+    selectedOpt = parseInt(saved);
+    applyAnswerState(idx, selectedOpt);
   }
 }
 
-function selectOption(i) {
+function selectOpt(i) {
   if (answered) return;
-  selectedOption = i;
-  const btns = document.querySelectorAll('.option-btn');
-  btns.forEach((b, j) => {
-    b.classList.remove('correct', 'wrong');
-    if (j === i) b.classList.add('correct');
+  selectedOpt = i;
+  document.querySelectorAll('.opt-btn').forEach((b,j) => {
+    b.classList.remove('selected');
+    if (j === i) b.classList.add('selected');
   });
 }
 
-function revealStory() {
+function reveal() {
   if (!answered) {
     answered = true;
-    if (selectedOption === null) selectedOption = DATA[currentDayIndex].answer;
-    localStorage.setItem(`bh_answered_${currentDayIndex}`, selectedOption);
-    showAnswerState(currentDayIndex, selectedOption);
+    if (selectedOpt === null) selectedOpt = DATA[currentIdx].answer;
+    localStorage.setItem(`bh26_${currentIdx}`, selectedOpt);
+    applyAnswerState(currentIdx, selectedOpt);
     updateStreak();
   }
-  document.getElementById('revealSection').classList.add('visible');
-  document.getElementById('revealBtn').style.display = 'none';
-
-  const d = DATA[currentDayIndex];
-  document.getElementById('answerBadgeText').textContent = `Answer: ${d.answerText}`;
-  document.getElementById('revealName').textContent = d.subject;
-  document.getElementById('revealDates').textContent = d.dates;
+  const d = DATA[currentIdx];
+  document.getElementById('revealSec').classList.add('show');
+  document.getElementById('revBtn').style.display = 'none';
+  document.getElementById('answerText').textContent = `Answer: ${d.answerText}`;
+  document.getElementById('storyName').textContent = d.subject;
+  document.getElementById('storyDates').textContent = d.dates;
 
   let html = d.story;
-  if (d.quote) {
-    html += `<div class="pull-quote"><p>"${d.quote.text}"</p><cite>— ${d.quote.source}</cite></div>`;
-  }
-  if (d.whyItMatters) {
-    html += `<div class="why-matters"><h4>Why This Matters</h4><p>${d.whyItMatters}</p></div>`;
-  }
+  if (d.quote) html += `<div class="pull-quote"><p>"${d.quote.text}"</p><cite>— ${d.quote.source}</cite></div>`;
+  if (d.whyItMatters) html += `<div class="why-matters"><h4>Why This Matters</h4><p>${d.whyItMatters}</p></div>`;
   document.getElementById('storyBody').innerHTML = html;
 
-  // Slides
   buildSlides(d);
 }
 
-function showAnswerState(idx, selected) {
+function applyAnswerState(idx, sel) {
   const d = DATA[idx];
-  const btns = document.querySelectorAll('.option-btn');
-  btns.forEach((b, j) => {
+  document.querySelectorAll('.opt-btn').forEach((b,j) => {
     b.classList.add('disabled');
     if (j === d.answer) b.classList.add('correct');
-    else if (j === selected && j !== d.answer) b.classList.add('wrong');
+    else if (j === sel && j !== d.answer) b.classList.add('wrong');
   });
 }
 
 function buildSlides(d) {
-  const preview = document.getElementById('slidesPreview');
-  preview.innerHTML = '';
-  const colors = [
-    'linear-gradient(135deg,#C41E3A,#8B0000)',
+  const row = document.getElementById('slidesRow');
+  row.innerHTML = '';
+  const bgs = [
+    'linear-gradient(135deg,#C41E3A,#7a0020)',
     'linear-gradient(135deg,#1A5C38,#0d3320)',
     'linear-gradient(135deg,#D4A017,#E8621A)',
-    'linear-gradient(135deg,#0A0A0A,#1a1a1a)',
+    'linear-gradient(135deg,#111,#1a1a1a)',
     'linear-gradient(135deg,#C41E3A,#1A5C38)',
     'linear-gradient(135deg,#D4A017,#1A5C38)'
   ];
-  (d.slides || []).forEach((text, i) => {
-    const thumb = document.createElement('div');
-    thumb.className = 'slide-thumb';
-    thumb.style.background = colors[i % colors.length];
-    thumb.innerHTML = `<span class="slide-num">${i+1}</span>${text}`;
-    thumb.title = 'Slide text (copy for Canva)';
-    thumb.onclick = () => { navigator.clipboard.writeText(text).then(() => alert('Slide text copied!')); };
-    preview.appendChild(thumb);
+  (d.slides||[]).forEach((txt,i) => {
+    const t = document.createElement('div');
+    t.className = 'slide-thumb';
+    t.style.background = bgs[i % bgs.length];
+    t.innerHTML = `<span class="slide-num">${i+1}</span>${txt}`;
+    t.title = 'Click to copy slide text';
+    t.onclick = () => {
+      navigator.clipboard.writeText(txt).then(() => {
+        t.style.border = '2px solid #4CAF50';
+        setTimeout(() => t.style.border = '', 1500);
+      });
+    };
+    row.appendChild(t);
   });
 }
 
 // STREAK
 function updateStreak() {
-  const today = getTodayIndex();
-  let streak = 0;
-  for (let i = today; i >= 0; i--) {
-    if (localStorage.getItem(`bh_answered_${i}`) !== null) streak++;
+  const ti = getTodayIdx();
+  let s = 0;
+  for (let i = ti; i >= 0; i--) {
+    if (localStorage.getItem(`bh26_${i}`) !== null) s++;
     else break;
   }
-  document.getElementById('streakNum').textContent = streak;
-  localStorage.setItem('bh_streak', streak);
-}
-
-function loadStreak() {
-  const s = localStorage.getItem('bh_streak') || 0;
   document.getElementById('streakNum').textContent = s;
+  localStorage.setItem('bh26_streak', s);
+}
+function loadStreak() {
+  document.getElementById('streakNum').textContent = localStorage.getItem('bh26_streak') || 0;
 }
 
 // VIEWS
-function showView(view) {
+function showView(view, btn) {
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
-
-  document.getElementById('quizView').classList.toggle('hidden', view !== 'quiz');
-  document.getElementById('calendarView').classList.toggle('active', view === 'calendar');
-  document.getElementById('archiveView').classList.toggle('active', view === 'archive');
-  document.getElementById('aboutView').classList.toggle('active', view === 'about');
-
+  document.getElementById(`view-${view}`).classList.add('active');
+  if (btn) btn.classList.add('active');
+  else {
+    const btns = document.querySelectorAll('nav button');
+    const map = {today:0,'now':1,calendar:2,archive:3,about:4};
+    if (map[view] !== undefined) btns[map[view]].classList.add('active');
+  }
   if (view === 'calendar') buildCalendar();
   if (view === 'archive') buildArchive();
+  if (view === 'now') buildNow();
+}
+
+function buildNow() {
+  const grid = document.getElementById('nowGrid');
+  grid.innerHTML = '';
+  NOW_STORIES.forEach(s => {
+    const card = document.createElement('div');
+    card.className = 'now-card';
+    card.innerHTML = `<div class="now-date">${s.date}</div><div class="now-title">${s.title}</div><div class="now-body">${s.body}</div><span class="now-tag">${s.tag}</span>`;
+    grid.appendChild(card);
+  });
 }
 
 function buildCalendar() {
-  const grid = document.getElementById('calendarGrid');
+  const grid = document.getElementById('calGrid');
   const days = ['SUN','MON','TUE','WED','THU','FRI','SAT'];
-  grid.innerHTML = days.map(d => `<div class="cal-day-header">${d}</div>`).join('');
-
-  // Feb 2026 starts on Sunday
-  const startDay = 0;
-  for (let i = 0; i < startDay; i++) {
-    grid.innerHTML += '<div></div>';
-  }
-
-  const todayIdx = getTodayIndex();
+  grid.innerHTML = days.map(d => `<div class="cal-header">${d}</div>`).join('');
+  const todayIdx = getTodayIdx();
+  // Feb 2026 starts Sunday
   for (let day = 1; day <= 28; day++) {
     const idx = day - 1;
     const isToday = idx === todayIdx;
-    const isPast = idx < todayIdx;
     const isFuture = idx > todayIdx;
-    const isCompleted = localStorage.getItem(`bh_answered_${idx}`) !== null;
-
+    const isDone = localStorage.getItem(`bh26_${idx}`) !== null;
     let cls = 'cal-day';
     if (isToday) cls += ' today';
-    else if (isCompleted) cls += ' completed';
+    else if (isDone) cls += ' done';
     else if (isFuture) cls += ' future';
-
-    const d = DATA[idx];
     const div = document.createElement('div');
     div.className = cls;
-    div.innerHTML = `<span class="day-num">${day}</span><span class="day-topic">${d.category}</span>`;
-    if (!isFuture) div.onclick = () => { loadDay(idx); showView('quiz'); document.querySelectorAll('nav button')[0].classList.add('active'); };
+    div.innerHTML = `<span class="dn">${day}</span><span class="dc">${DATA[idx].category}</span>`;
+    if (!isFuture) {
+      div.onclick = () => {
+        loadDay(idx);
+        showView('today');
+      };
+    }
     grid.appendChild(div);
   }
 }
 
 function buildArchive() {
-  const list = document.getElementById('archiveList');
-  const todayIdx = getTodayIndex();
+  const list = document.getElementById('arcList');
+  const todayIdx = getTodayIdx();
   list.innerHTML = '';
-  DATA.forEach((d, i) => {
+  DATA.forEach((d,i) => {
     if (i > todayIdx) return;
-    const div = document.createElement('div');
-    div.className = 'quiz-card';
-    div.style.marginBottom = '16px';
-    div.style.cursor = 'pointer';
-    div.style.padding = '0';
-    div.innerHTML = `
-      <div class="quiz-top" style="padding:20px 24px;">
-        <div class="quiz-label">${d.date} · ${d.category}</div>
-        <div class="quiz-question" style="font-size:1rem;">${d.title}</div>
-      </div>`;
-    div.onclick = () => { loadDay(i); showView('quiz'); document.querySelectorAll('nav button')[0].classList.add('active'); };
-    list.appendChild(div);
+    const card = document.createElement('div');
+    card.className = 'arc-card';
+    card.innerHTML = `<div class="arc-info"><div class="arc-date">${d.date} · ${d.category}</div><div class="arc-title">${d.title}</div><div class="arc-cat">${d.subject}</div></div><div class="arc-arrow">→</div>`;
+    card.onclick = () => { loadDay(i); showView('today'); };
+    list.appendChild(card);
   });
 }
 
 // SHARE
-function openIGModal() {
-  const d = DATA[currentDayIndex];
-  document.getElementById('igCaptionText').textContent = d.igCaption || 'Caption coming soon!';
+function openModal() {
+  document.getElementById('igText').textContent = DATA[currentIdx].igCaption || '';
   document.getElementById('igModal').classList.add('open');
 }
-
-function closeModal() {
-  document.getElementById('igModal').classList.remove('open');
-}
-
+function closeModal() { document.getElementById('igModal').classList.remove('open'); }
 function copyCaption() {
-  const text = document.getElementById('igCaptionText').textContent;
-  navigator.clipboard.writeText(text).then(() => {
+  navigator.clipboard.writeText(document.getElementById('igText').textContent).then(() => {
     const btn = document.querySelector('.copy-btn');
     btn.textContent = '✓ Copied!';
     setTimeout(() => btn.textContent = 'Copy Caption', 2000);
   });
 }
-
 function copyLink() {
-  navigator.clipboard.writeText(window.location.href).then(() => {
-    alert('Link copied!');
-  });
+  navigator.clipboard.writeText(window.location.href).then(() => alert('Link copied!'));
 }
-
-function shareNative() {
-  const d = DATA[currentDayIndex];
+function shareIt() {
+  const d = DATA[currentIdx];
   if (navigator.share) {
     navigator.share({ title: d.title, text: `Day ${d.day} of Black History Month: ${d.title}`, url: window.location.href });
-  } else {
-    copyLink();
-  }
+  } else copyLink();
 }
 
 // INIT
 window.onload = () => {
   loadStreak();
-  const todayIdx = getTodayIndex();
-  loadDay(todayIdx);
+  loadDay(getTodayIdx());
+  buildNow();
 };
 </script>
-
 </body>
 </html>
