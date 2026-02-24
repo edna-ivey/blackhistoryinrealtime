@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carter G. Woodson — Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Full biographical profile of Carter G. Woodson, the Father of Black History, who created what became Black History Month in 1926.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --red: #C41E3A;
+    --black: #0A0A0A;
+    --green: #1A5C38;
+    --gold: #D4A017;
+    --orange: #E8621A;
+    --cream: #F5EDD8;
+    --white: #FAFAFA;
+    --card-bg: #161616;
+    --border: rgba(212,160,23,0.2);
+    --purple: #6B2D8B;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--black);
+    color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .pan-stripe { display: flex; height: 6px; width: 100%; }
+  .pan-stripe .s1 { background: var(--red); flex: 1; }
+  .pan-stripe .s2 { background: #111; flex: 1; }
+  .pan-stripe .s3 { background: var(--green); flex: 1; }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(10,10,10,0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+  }
+  .logo-img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 2px var(--gold), 0 0 20px rgba(212,160,23,0.3);
+    animation: glow 3s ease-in-out infinite;
+    flex-shrink: 0;
+  }
+  @keyframes glow {
+    0%,100% { box-shadow: 0 0 0 2px var(--gold), 0 0 16px rgba(212,160,23,0.3); }
+    50% { box-shadow: 0 0 0 2px var(--gold), 0 0 32px rgba(212,160,23,0.6); }
+  }
+  .logo-text h1 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 2px; color: var(--white); line-height: 1; }
+  .logo-text h1 span { color: var(--gold); }
+  .logo-text p { font-size: 0.65rem; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-top: 1px; }
+
+  nav {
+    border-top: 1px solid rgba(212,160,23,0.1);
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 0 32px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  nav::-webkit-scrollbar { display: none; }
+  nav a {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: rgba(245,237,216,0.45);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline-block;
+  }
+  nav a:hover { color: var(--cream); }
+  nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+  /* BREADCRUMB */
+  .breadcrumb {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px 32px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    color: rgba(245,237,216,0.35);
+  }
+  .breadcrumb a { color: rgba(212,160,23,0.6); text-decoration: none; transition: color 0.2s; }
+  .breadcrumb a:hover { color: var(--gold); }
+  .breadcrumb span { color: rgba(245,237,216,0.25); }
+
+  /* ENTRY LAYOUT */
+  main {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 32px 32px 100px;
+  }
+
+  /* HERO HEADER */
+  .entry-hero {
+    margin-bottom: 40px;
+    animation: fadeUp 0.5s ease both;
+  }
+  .entry-vol-label {
+    font-size: 0.68rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+  .entry-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 6vw, 3.8rem);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.08;
+    margin-bottom: 14px;
+  }
+  .entry-tagline {
+    font-size: 1.05rem;
+    color: rgba(245,237,216,0.55);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  .entry-badges {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 100px;
+    padding: 6px 14px;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .badge-cat { background: rgba(26,92,56,0.25); border: 1px solid rgba(26,92,56,0.5); color: #7dd6a0; }
+  .badge-dates { background: rgba(212,160,23,0.1); border: 1px solid rgba(212,160,23,0.3); color: var(--gold); }
+  .badge-vol { background: rgba(196,30,58,0.1); border: 1px solid rgba(196,30,58,0.3); color: #ff9999; }
+
+  /* DIVIDER */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 36px 0 28px;
+  }
+  .section-divider::before, .section-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212,160,23,0.3), transparent);
+  }
+  .section-divider span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 5px;
+    color: rgba(212,160,23,0.5);
+    white-space: nowrap;
+  }
+
+  /* TIMELINE STRIP */
+  .timeline-strip {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold) transparent;
+    margin-bottom: 36px;
+    animation: fadeUp 0.5s ease 0.1s both;
+  }
+  .timeline-item {
+    flex: 1;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 0 12px;
+  }
+  .timeline-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60%;
+    background: rgba(212,160,23,0.2);
+  }
+  .tl-year {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .tl-event {
+    font-size: 0.7rem;
+    line-height: 1.4;
+    color: rgba(245,237,216,0.55);
+    text-align: center;
+  }
+
+  /* BIOGRAPHY */
+  .bio-section {
+    animation: fadeUp 0.5s ease 0.15s both;
+  }
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+    color: var(--gold);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .bio-body p {
+    font-size: 1rem;
+    line-height: 1.9;
+    color: rgba(245,237,216,0.82);
+    margin-bottom: 20px;
+  }
+  .bio-body p:last-child { margin-bottom: 0; }
+
+  /* PULL QUOTE */
+  .pull-quote {
+    border-left: 4px solid var(--gold);
+    background: rgba(212,160,23,0.05);
+    padding: 18px 22px;
+    margin: 32px 0;
+    border-radius: 0 10px 10px 0;
+    animation: fadeUp 0.5s ease 0.2s both;
+  }
+  .pull-quote p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--gold);
+    margin: 0 0 8px;
+    line-height: 1.65;
+  }
+  .pull-quote cite {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(212,160,23,0.5);
+  }
+
+  /* WHY IT MATTERS */
+  .why-matters {
+    background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04));
+    border: 1px solid rgba(196,30,58,0.25);
+    border-radius: 14px;
+    padding: 24px 26px;
+    margin: 36px 0;
+    animation: fadeUp 0.5s ease 0.25s both;
+  }
+  .why-matters h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.85rem;
+    color: var(--red);
+    margin-bottom: 10px;
+  }
+  .why-matters p {
+    font-size: 0.97rem;
+    line-height: 1.8;
+    color: rgba(245,237,216,0.72);
+    margin: 0;
+  }
+
+  /* CONNECTED TO */
+  .connected-section {
+    margin: 36px 0;
+    animation: fadeUp 0.5s ease 0.3s both;
+  }
+  .connected-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
+    margin-top: 18px;
+  }
+  .connected-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .connected-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--red), var(--gold));
+  }
+  .connected-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
+  .connected-type {
+    font-size: 0.6rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: rgba(212,160,23,0.55);
+    margin-bottom: 5px;
+  }
+  .connected-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+  .connected-desc {
+    font-size: 0.78rem;
+    color: rgba(245,237,216,0.45);
+    line-height: 1.5;
+  }
+
+  /* QUIZ LINK */
+  .quiz-link-card {
+    background: linear-gradient(135deg, rgba(196,30,58,0.12), rgba(139,0,0,0.06));
+    border: 1px solid rgba(196,30,58,0.3);
+    border-radius: 12px;
+    padding: 18px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin-top: 12px;
+  }
+  .quiz-link-card:hover { border-color: var(--red); transform: translateY(-2px); }
+  .quiz-link-left {}
+  .quiz-link-label { font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(196,30,58,0.7); margin-bottom: 4px; }
+  .quiz-link-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
+  .quiz-link-arrow { color: var(--red); font-size: 1.4rem; flex-shrink: 0; }
+
+  /* EXTERNAL LINKS */
+  .external-section {
+    margin: 36px 0;
+    animation: fadeUp 0.5s ease 0.35s both;
+  }
+  .external-links { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
+  .ext-link {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .ext-link:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
+  .ext-left {}
+  .ext-source { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 3px; }
+  .ext-title { font-size: 0.9rem; color: var(--cream); line-height: 1.35; }
+  .ext-arrow { color: var(--gold); opacity: 0.6; font-size: 1rem; flex-shrink: 0; }
+
+  /* BACK NAV */
+  .back-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+    animation: fadeUp 0.4s ease both;
+  }
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(212,160,23,0.2);
+    border-radius: 100px;
+    padding: 8px 18px;
+    color: rgba(245,237,216,0.6);
+    font-size: 0.78rem;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .back-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(212,160,23,0.06); }
+
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid rgba(212,160,23,0.15);
+    padding: 28px 32px;
+    text-align: center;
+  }
+  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
+  footer a { color: var(--gold); text-decoration: none; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 620px) {
+    .header-inner { padding: 12px 16px; }
+    nav { padding: 0 16px; }
+    nav a { padding: 10px 12px; font-size: 0.72rem; }
+    main { padding: 24px 16px 80px; }
+    .breadcrumb { padding: 16px 16px 0; }
+    .entry-name { font-size: 2rem; }
+    .connected-grid { grid-template-columns: 1fr; }
+    .timeline-strip { gap: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text">
+        <h1>Black<span>History</span></h1>
+        <p>In Real Time</p>
+      </div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
+
+<div class="breadcrumb">
+  <a href="../encyclopedia.html">Encyclopedia</a>
+  <span>›</span>
+  <span style="color:rgba(245,237,216,0.5)">Carter G. Woodson</span>
+</div>
+
+<main>
+
+  <div class="back-nav">
+    <a href="../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a>
+  </div>
+
+  <!-- ENTRY HERO -->
+  <div class="entry-hero">
+    <div class="entry-vol-label">February 1 · Volume I · Foundations &amp; Education</div>
+    <h1 class="entry-name">Carter G. Woodson</h1>
+    <p class="entry-tagline">The Father of Black History — the man who decided that if the world wouldn't remember his people, he would make sure they remembered themselves.</p>
+    <div class="entry-badges">
+      <span class="badge badge-dates">1875 — 1950</span>
+      <span class="badge badge-cat">People</span>
+      <span class="badge badge-vol">February Volume</span>
+    </div>
+  </div>
+
+  <!-- TIMELINE -->
+  <div class="timeline-strip">
+    <div class="timeline-item">
+      <div class="tl-year">1875</div>
+      <div class="tl-event">Born in New Canton, Virginia to formerly enslaved parents</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1912</div>
+      <div class="tl-event">Earns PhD from Harvard — only second Black person to do so</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1915</div>
+      <div class="tl-event">Co-founds the Association for the Study of Negro Life and History</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1926</div>
+      <div class="tl-event">Creates Negro History Week in February</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1933</div>
+      <div class="tl-event">Publishes The Mis-Education of the Negro</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1976</div>
+      <div class="tl-event">Negro History Week officially expanded to Black History Month</div>
+    </div>
+  </div>
+
+  <!-- BIOGRAPHY -->
+  <div class="bio-section">
+    <div class="section-title">Full Biography</div>
+    <div class="bio-body">
+      <p>Carter Godwin Woodson was born on December 19, 1875, in New Canton, Virginia, to James Henry Woodson and Eliza Riddle — both of whom had been enslaved. His parents were freed after the Civil War with no formal education, but they instilled in their children an understanding that learning was the one thing no one could take from you. The family was poor, and Carter did not begin formal schooling until his late teens. He was 20 years old when he entered high school, and he completed a four-year program in just two years. That relentless drive would define everything that came after.</p>
+
+      <p>He went on to earn a bachelor's degree from Berea College in Kentucky, then a second bachelor's and eventually a master's degree from the University of Chicago. In 1912, he received his PhD in History from Harvard University, making him only the second Black person in American history to earn a doctorate from that institution — after W.E.B. Du Bois. What he did with that credential set him apart from almost everyone. Rather than publishing mainstream academic work for white scholarly audiences, Woodson turned his entire career toward one mission: finding, preserving, and teaching Black history that the world was systematically erasing.</p>
+
+      <p>In 1915, he co-founded the Association for the Study of Negro Life and History (now the Association for the Study of African American Life and History, or ASALH). A year later he founded the Journal of Negro History, which published documented Black history at a time when most academic journals ignored or dismissed it. He was operating against a well-established system: the dominant historical narrative of early 20th century America portrayed Black people as having no meaningful history prior to slavery, and certainly no history worth teaching. Woodson knew this was not ignorance but a deliberate choice — and he spent his life building an infrastructure to counter it.</p>
+
+      <p>In February 1926, he launched Negro History Week, choosing the second week of February deliberately. It fell during the birthdays of both Abraham Lincoln (February 12) and Frederick Douglass (February 14, the date Douglass himself chose to celebrate his birthday) — two figures already recognized in many schools. His reasoning was strategic: if schools were already doing something in February, he could work within that momentum and expand the story. It worked. Schools across the country, particularly those with Black students and teachers, adopted the week enthusiastically. What began as a single week grew steadily over the following decades, and in 1976 — 50 years after Woodson created it — the United States officially recognized Black History Month.</p>
+
+      <p>Woodson never married, never became wealthy, and died in 1950 with his most important work still largely unrecognized by the mainstream academic establishment he had spent his life challenging. In 1933, he published what is arguably his most significant book, The Mis-Education of the Negro, arguing that the educational system was not just failing Black students — it was actively programming them to undervalue their own history, culture, and potential. The book remains in print and in active discussion nearly a century later. He is buried in Lincoln Memorial Cemetery in Suitland, Maryland, and his home in Washington D.C. is now a National Historic Site. He was nominated for a Nobel Peace Prize in 1946.</p>
+    </div>
+  </div>
+
+  <!-- PULL QUOTE -->
+  <div class="pull-quote">
+    <p>"Those who have no record of what their forebears have accomplished lose the inspiration which comes from the teaching of biography and history."</p>
+    <cite>— Carter G. Woodson, The Mis-Education of the Negro, 1933</cite>
+  </div>
+
+  <!-- WHY IT MATTERS -->
+  <div class="why-matters">
+    <h4>Why This Matters</h4>
+    <p>Black History Month was never designed to be a celebration — it was designed to be a correction. Woodson understood that history is not neutral. It is curated. And whoever controls what gets taught controls who children grow up believing can be capable, powerful, and worth remembering. The deliberate exclusion of Black history from American education was not an oversight — it was a tool. Woodson's entire life was an act of resistance against that tool. Every school that now teaches about Harriet Tubman, every curriculum that includes the Harlem Renaissance, every teacher who puts a Black scientist on a classroom wall — all of it traces directly back to one man who decided in 1926 that the record needed to be corrected, and didn't wait for anyone to give him permission to start.</p>
+  </div>
+
+  <div class="section-divider"><span>Connections</span></div>
+
+  <!-- CONNECTED TO -->
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <a href="../index.html?day=0" class="quiz-link-card">
+      <div class="quiz-link-left">
+        <div class="quiz-link-label">Take the Quiz · Day 1</div>
+        <div class="quiz-link-title">Test your knowledge on Carter G. Woodson</div>
+      </div>
+      <span class="quiz-link-arrow">✊🏾</span>
+    </a>
+
+    <div class="connected-grid" style="margin-top:16px;">
+      <a href="mis-education.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Mis-Education of the Negro</div>
+        <div class="connected-desc">Woodson's 1933 masterwork — the argument that shaped Black History Month's entire purpose.</div>
+      </a>
+
+      <a href="shirley-chisholm.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Shirley Chisholm</div>
+        <div class="connected-desc">A direct product of the world Woodson fought to create — Black people seeing themselves as capable of anything.</div>
+      </a>
+
+      <a href="brown-v-board.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Brown v. Board of Education</div>
+        <div class="connected-desc">The legal fight over school segregation that Woodson's work helped make legible and urgent.</div>
+      </a>
+
+      <a href="education-inequality.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Education Inequality by Design</div>
+        <div class="connected-desc">The structural problem Woodson identified in 1926 is still being documented and fought today.</div>
+      </a>
+
+      <a href="modern-civil-rights.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Modern Civil Rights Leaders</div>
+        <div class="connected-desc">Current movement leaders who build on the framework Woodson established — that knowing your history is power.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+
+  <!-- EXTERNAL LINKS -->
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+      <a href="https://asalh.org/about-us/history/" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">ASALH — Official Organization</div>
+          <div class="ext-title">The Association for the Study of African American Life and History — founded by Woodson in 1915</div>
+        </div>
+        <span class="ext-arrow">↗</span>
+      </a>
+      <a href="https://www.smithsonianmag.com/smithsonian-institution/carter-woodson-started-movement-celebrate-african-american-history-180968120/" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian Magazine</div>
+          <div class="ext-title">How Carter G. Woodson Started the Movement to Celebrate African American History</div>
+        </div>
+        <span class="ext-arrow">↗</span>
+      </a>
+      <a href="https://nps.gov/articles/carter-g-woodson.htm" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Carter G. Woodson — biographical profile and historical context</div>
+        </div>
+        <span class="ext-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+
+<script>
+  // If user came from main site with ?day=X, handle it gracefully
+  // The quiz link sends them to index.html?day=0 which the main site JS can pick up
+</script>
+</body>
+</html>
