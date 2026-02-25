@@ -359,14 +359,10 @@
     <button class="filter-btn" onclick="setFilter('Events', this)">Events</button>
     <button class="filter-btn" onclick="setFilter('Systems', this)">Systems & Policy</button>
     <button class="filter-btn" onclick="setFilter('Culture', this)">Culture</button>
+    <button class="filter-btn" id="sortBtn" style="margin-left:auto;" onclick="sortGrid(currentSort==='alpha'?'chrono':'alpha');document.getElementById('sortBtn').textContent=currentSort==='alpha'?'A\u2013Z \u2193':'By Date \u2193'">A–Z ↓</button>
   </div>
 
   <div id="entriesContainer">
-
-    <div class="vol-header">
-      <span class="vol-title">February — Volume I</span>
-      <div class="vol-line"></div>
-    </div>
 
     <div class="entries-grid" id="entriesGrid">
 
@@ -733,6 +729,26 @@
 
 <script>
   let activeFilter = 'all';
+  let currentSort = 'alpha'; // 'alpha' or 'chrono'
+
+  // Sort cards alphabetically on load
+  function sortGrid(mode) {
+    currentSort = mode;
+    const grid = document.getElementById('entriesGrid');
+    const cards = Array.from(grid.querySelectorAll('.entry-card'));
+    if (mode === 'alpha') {
+      cards.sort((a, b) => {
+        const na = a.querySelector('.entry-name')?.textContent.trim() || '';
+        const nb = b.querySelector('.entry-name')?.textContent.trim() || '';
+        return na.localeCompare(nb);
+      });
+    } else {
+      // Chronological = original DOM order; re-attach in data-order
+      cards.sort((a, b) => parseInt(a.dataset.order||0) - parseInt(b.dataset.order||0));
+    }
+    cards.forEach(c => grid.appendChild(c));
+    filterEntries();
+  }
 
   function setFilter(filter, btn) {
     activeFilter = filter;
@@ -765,6 +781,13 @@
 
     document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
   }
+
+  // Tag each card with original order and then sort alphabetically on load
+  document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.entry-card');
+    cards.forEach((c, i) => c.dataset.order = i);
+    sortGrid('alpha');
+  });
 </script>
 </body>
 </html>
