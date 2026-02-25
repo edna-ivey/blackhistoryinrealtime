@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shirley Chisholm — Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Full biographical profile of Shirley Chisholm, the first Black woman elected to Congress and the first Black major-party presidential candidate.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --red: #C41E3A;
+    --black: #0A0A0A;
+    --green: #1A5C38;
+    --gold: #D4A017;
+    --orange: #E8621A;
+    --cream: #F5EDD8;
+    --white: #FAFAFA;
+    --card-bg: #161616;
+    --border: rgba(212,160,23,0.2);
+    --purple: #6B2D8B;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--black);
+    color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .pan-stripe { display: flex; height: 6px; width: 100%; }
+  .pan-stripe .s1 { background: var(--red); flex: 1; }
+  .pan-stripe .s2 { background: #111; flex: 1; }
+  .pan-stripe .s3 { background: var(--green); flex: 1; }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(10,10,10,0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(212,160,23,0.12);
+  }
+  .header-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    color: var(--gold);
+    text-decoration: none;
+  }
+  .logo span { color: var(--red); }
+
+  nav {
+    display: flex;
+    border-bottom: 1px solid rgba(212,160,23,0.1);
+    overflow-x: auto;
+    scrollbar-width: none;
+    background: rgba(10,10,10,0.9);
+  }
+  nav::-webkit-scrollbar { display: none; }
+  nav a {
+    padding: 10px 20px;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(245,237,216,0.45);
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+  }
+  nav a:hover { color: var(--gold); border-bottom-color: var(--gold); }
+  nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+  .breadcrumb {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 24px 0;
+    font-size: 0.72rem;
+    color: rgba(245,237,216,0.35);
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    z-index: 1;
+  }
+  .breadcrumb a { color: rgba(212,160,23,0.6); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--gold); }
+
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 28px 24px 100px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .entry-hero {
+    margin-bottom: 36px;
+    animation: fadeUp 0.5s ease both;
+  }
+  .entry-vol-label {
+    font-size: 0.65rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(212,160,23,0.5);
+    margin-bottom: 12px;
+  }
+  .entry-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.05;
+    color: var(--white);
+    margin-bottom: 14px;
+  }
+  .entry-tagline {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: rgba(245,237,216,0.65);
+    max-width: 680px;
+    margin-bottom: 18px;
+  }
+  .entry-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .badge {
+    font-size: 0.62rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 100px;
+    font-weight: 500;
+  }
+  .badge-dates { background: rgba(212,160,23,0.1); color: var(--gold); border: 1px solid rgba(212,160,23,0.25); }
+  .badge-cat { background: rgba(196,30,58,0.1); color: #E8627A; border: 1px solid rgba(196,30,58,0.25); }
+  .badge-vol { background: rgba(26,92,56,0.15); color: #5BAF82; border: 1px solid rgba(26,92,56,0.3); }
+
+  .timeline-strip {
+    display: flex;
+    gap: 2px;
+    margin: 28px 0 36px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    animation: fadeUp 0.5s ease 0.1s both;
+  }
+  .timeline-strip::-webkit-scrollbar { display: none; }
+  .timeline-item {
+    flex: 1;
+    min-width: 130px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 14px 16px;
+    position: relative;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--red), var(--gold));
+    border-radius: 10px 10px 0 0;
+  }
+  .tl-year {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: var(--gold);
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+  }
+  .tl-event {
+    font-size: 0.72rem;
+    line-height: 1.5;
+    color: rgba(245,237,216,0.55);
+  }
+
+  .bio-section {
+    margin: 0 0 32px;
+    animation: fadeUp 0.5s ease 0.15s both;
+  }
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.85rem;
+    color: rgba(212,160,23,0.6);
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  .bio-body p {
+    font-size: 1rem;
+    line-height: 1.85;
+    color: rgba(245,237,216,0.78);
+    margin-bottom: 18px;
+  }
+  .bio-body p:last-child { margin-bottom: 0; }
+
+  .pull-quote {
+    border-left: 3px solid var(--red);
+    padding: 18px 24px;
+    margin: 32px 0;
+    background: rgba(196,30,58,0.04);
+    border-radius: 0 10px 10px 0;
+    animation: fadeUp 0.5s ease 0.2s both;
+  }
+  .pull-quote p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--cream);
+    margin-bottom: 10px;
+  }
+  .pull-quote cite {
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(212,160,23,0.5);
+  }
+
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 40px 0 28px;
+  }
+  .section-divider::before,
+  .section-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212,160,23,0.2), transparent);
+  }
+  .section-divider span {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.75rem;
+    color: rgba(212,160,23,0.5);
+  }
+
+  .why-matters {
+    background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04));
+    border: 1px solid rgba(196,30,58,0.25);
+    border-radius: 14px;
+    padding: 24px 26px;
+    margin: 36px 0;
+    animation: fadeUp 0.5s ease 0.25s both;
+  }
+  .why-matters h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.85rem;
+    color: var(--red);
+    margin-bottom: 10px;
+  }
+  .why-matters p {
+    font-size: 0.97rem;
+    line-height: 1.8;
+    color: rgba(245,237,216,0.72);
+    margin: 0;
+  }
+
+  .connected-section {
+    margin: 36px 0;
+    animation: fadeUp 0.5s ease 0.3s both;
+  }
+  .connected-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
+    margin-top: 18px;
+  }
+  .connected-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .connected-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--red), var(--gold));
+  }
+  .connected-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
+  .connected-type {
+    font-size: 0.6rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: rgba(212,160,23,0.55);
+    margin-bottom: 5px;
+  }
+  .connected-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+  .connected-desc {
+    font-size: 0.78rem;
+    color: rgba(245,237,216,0.45);
+    line-height: 1.5;
+  }
+
+  .quiz-link-card {
+    background: linear-gradient(135deg, rgba(196,30,58,0.12), rgba(139,0,0,0.06));
+    border: 1px solid rgba(196,30,58,0.3);
+    border-radius: 12px;
+    padding: 18px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin-top: 12px;
+  }
+  .quiz-link-card:hover { border-color: var(--red); transform: translateY(-2px); }
+  .quiz-link-left {}
+  .quiz-link-label { font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(196,30,58,0.7); margin-bottom: 4px; }
+  .quiz-link-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
+  .quiz-link-arrow { color: var(--red); font-size: 1.4rem; flex-shrink: 0; }
+
+  .external-section {
+    margin: 36px 0;
+    animation: fadeUp 0.5s ease 0.35s both;
+  }
+  .external-links { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
+  .ext-link {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .ext-link:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
+  .ext-left {}
+  .ext-source { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 3px; }
+  .ext-title { font-size: 0.9rem; color: var(--cream); line-height: 1.35; }
+  .ext-arrow { color: var(--gold); opacity: 0.6; font-size: 1rem; flex-shrink: 0; }
+
+  .back-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+    animation: fadeUp 0.4s ease both;
+  }
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(212,160,23,0.2);
+    border-radius: 100px;
+    padding: 8px 18px;
+    color: rgba(245,237,216,0.6);
+    font-size: 0.78rem;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .back-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(212,160,23,0.06); }
+
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid rgba(212,160,23,0.15);
+    padding: 28px 32px;
+    text-align: center;
+  }
+  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
+  footer a { color: var(--gold); text-decoration: none; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 620px) {
+    .header-inner { padding: 12px 16px; }
+    nav { padding: 0 16px; }
+    nav a { padding: 10px 12px; font-size: 0.72rem; }
+    main { padding: 24px 16px 80px; }
+    .breadcrumb { padding: 16px 16px 0; }
+    .entry-name { font-size: 2rem; }
+    .connected-grid { grid-template-columns: 1fr; }
+    .timeline-strip { gap: 0; }
+  }
+</style>
+</head>
+<body data-entry-id="shirley-chisholm">
+
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo">Black History <span>in Real Time</span></a>
+  </div>
+</header>
+
+<nav>
+  <a href="/">Daily Quiz</a>
+  <a href="/encyclopedia.html" class="active">Encyclopedia</a>
+  <a href="/#calendar">Calendar</a>
+  <a href="/#archive">Archive</a>
+</nav>
+
+<div class="breadcrumb">
+  <a href="../encyclopedia.html">Encyclopedia</a>
+  <span>›</span>
+  <span style="color:rgba(245,237,216,0.5)">Shirley Chisholm</span>
+</div>
+
+<main>
+
+  <div class="back-nav">
+    <a href="../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a>
+  </div>
+
+  <!-- ENTRY HERO -->
+  <div class="entry-hero">
+    <div class="entry-vol-label">February 2 · Volume I · Power &amp; Politics</div>
+    <h1 class="entry-name">Shirley Chisholm</h1>
+    <p class="entry-tagline">Unbought and Unbossed — the woman who walked into Congress, then the presidential race, at a time when America said neither was possible for someone like her.</p>
+    <div class="entry-badges">
+      <span class="badge badge-dates">1924 — 2005</span>
+      <span class="badge badge-cat">People</span>
+      <span class="badge badge-vol">February Volume</span>
+    </div>
+  </div>
+
+  <!-- TIMELINE -->
+  <div class="timeline-strip">
+    <div class="timeline-item">
+      <div class="tl-year">1924</div>
+      <div class="tl-event">Born in Brooklyn, New York to immigrant parents from Barbados and Guyana</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1964</div>
+      <div class="tl-event">Elected to the New York State Assembly</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1968</div>
+      <div class="tl-event">Becomes first Black woman elected to the U.S. Congress</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1971</div>
+      <div class="tl-event">Co-founds the Congressional Black Caucus</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1972</div>
+      <div class="tl-event">First Black major-party presidential candidate; wins 152 delegates</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">2015</div>
+      <div class="tl-event">Posthumously awarded the Presidential Medal of Freedom by President Obama</div>
+    </div>
+  </div>
+
+  <!-- BIOGRAPHY -->
+  <div class="bio-section">
+    <div class="section-title">Full Biography</div>
+    <div class="bio-body">
+      <p>Shirley Anita St. Hill was born on November 30, 1924, in Brownsville, Brooklyn, the oldest daughter of Charles St. Hill, a factory worker from British Guiana, and Ruby Seale St. Hill, a seamstress from Barbados. When she was three years old, her parents sent her and her sisters to live with their maternal grandmother, Emmeline Seale, in Barbados while they worked and saved money in New York. Those years in the Caribbean shaped her in ways she would describe for the rest of her life. Her grandmother gave her discipline, the King James Bible, and a deep sense of dignity. Chisholm returned to Brooklyn at age eleven and attended the prestigious Girls' High School in Bedford-Stuyvesant, where she excelled academically. She graduated from Brooklyn College in 1946 and earned her master's degree in elementary education from Columbia University in 1951.</p>
+
+      <p>She began her career as a teacher and childcare administrator, running the Hamilton-Madison Child Care Center in Manhattan before becoming an educational consultant for New York City's Bureau of Child Welfare. But politics was always calling. In 1964, she won a seat in the New York State Assembly, becoming one of the few Black women in Albany. She served there until 1968, when she ran for Congress from Brooklyn's 12th Congressional District. Her campaign was run largely on foot, block by block, with a budget that could not compete with the establishment candidates. She ran under the slogan that would follow her for the rest of her life: Unbought and Unbossed. She won. When she walked onto the floor of the House of Representatives in January 1969, she became the first Black woman in the history of the United States Congress.</p>
+
+      <p>What she did with that seat was not decorative. She was initially assigned to the House Agriculture Committee, an assignment widely understood as a deliberate slight — Brooklyn had no farmland. She protested loudly and publicly, demanding reassignment. She was eventually moved to the Veterans' Affairs Committee and later the Education and Labor Committee, where she spent the bulk of her Congressional career fighting for early childhood education, increased access to food assistance, and an end to the military draft. She introduced more than 50 pieces of legislation during her seven terms. She was a co-founder of the Congressional Black Caucus in 1971 and helped found the National Women's Political Caucus in the same year. Her work helped expand the Food Stamp program and laid groundwork for the creation of WIC — the Special Supplemental Nutrition Program for Women, Infants, and Children — which still feeds millions of families every year.</p>
+
+      <p>In January 1972, Chisholm announced she was running for president of the United States. The announcement was met with mockery, dismissal, and open hostility from white male political commentators who saw it as theatrical at best and presumptuous at worst. Even some factions of the Black political establishment and the feminist movement failed to fully support her candidacy, concerned she couldn't win and would fracture progressive coalitions. She knew she probably wouldn't win. She ran anyway. She survived three assassination attempts during the campaign, sued to appear in televised debates, and fought to get on the primary ballot in 12 states. At the 1972 Democratic National Convention, she walked away with 152 delegate votes — more than respected senators like Hubert Humphrey and Edmund Muskie. She did not win the nomination. George McGovern did. But she had done something that hadn't been done before, and she knew the value of that whether or not the press wrote about it properly.</p>
+
+      <p>She retired from Congress in 1983, taught at Mount Holyoke College, and remained a sought-after speaker on race, gender, and political power until her health declined. She died on January 1, 2005, in Ormond Beach, Florida, at age 80. Her epitaph, on her headstone, reads the same words she had on her campaign posters: Unbought and Unbossed. In 2015, President Barack Obama awarded her the Presidential Medal of Freedom posthumously. In 2018, New York City announced plans for a 32-foot sculpture of Chisholm to stand at the southeast entrance to Prospect Park in Brooklyn — the borough she spent her life fighting for.</p>
+    </div>
+  </div>
+
+  <!-- PULL QUOTE -->
+  <div class="pull-quote">
+    <p>"I want history to remember me not just as the first Black woman to be elected to the United States Congress, not as the first Black woman to have made a bid for the presidency of the United States, but as a Black woman who lived in the 20th century and dared to be herself."</p>
+    <cite>— Shirley Chisholm</cite>
+  </div>
+
+  <!-- WHY IT MATTERS -->
+  <div class="why-matters">
+    <h4>Why This Matters</h4>
+    <p>Chisholm didn't run for president to prove a point. She ran to change what was considered possible. In 1972, the idea of a Black woman as a serious presidential contender was not just unlikely — it was considered ridiculous by most of the American political establishment. She made them reckon with it anyway. Every candidate who came after her — Barack Obama, Hillary Clinton, Kamala Harris — walked through a door she opened. But her legacy isn't just about firsts. It's about what she did with the seat she earned: expanded food programs that still feed children, fought the draft, co-founded the Congressional Black Caucus, refused to be assigned to a useless committee and made noise until she got moved. She understood that representation without power is theater. She wanted both.</p>
+  </div>
+
+  <div class="section-divider"><span>Connections</span></div>
+
+  <!-- CONNECTED TO -->
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <a href="../index.html?day=2026-02-02" class="quiz-link-card">
+      <div class="quiz-link-left">
+        <div class="quiz-link-label">Take the Quiz · February 2</div>
+        <div class="quiz-link-title">Test your knowledge on Shirley Chisholm</div>
+      </div>
+      <span class="quiz-link-arrow">✊🏾</span>
+    </a>
+
+    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"><!-- connections auto-generated by encyclopedia-data.js --></div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+
+  <!-- EXTERNAL LINKS -->
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+      <a href="https://www.nps.gov/people/shirley-chisholm.htm" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Shirley Chisholm — biographical profile and Congressional legacy</div>
+        </div>
+        <span class="ext-arrow">↗</span>
+      </a>
+      <a href="https://www.history.com/articles/shirley-chisholm-career-milestones" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">HISTORY.com</div>
+          <div class="ext-title">Shirley Chisholm: Facts About Her Trailblazing Career</div>
+        </div>
+        <span class="ext-arrow">↗</span>
+      </a>
+      <a href="https://www.smithsonianmag.com/smart-news/tk-a-monument-honoring-shirley-chisholm-the-first-black-congresswoman-will-rise-in-brooklyns-prospect-park-180982567/" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian Magazine</div>
+          <div class="ext-title">A Monument Honoring Shirley Chisholm Is Coming to Brooklyn</div>
+        </div>
+        <span class="ext-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+
+</body>
+</html>

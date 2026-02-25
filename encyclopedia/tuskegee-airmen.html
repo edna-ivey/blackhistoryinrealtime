@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Tuskegee Airmen — Black History in Real Time Encyclopedia</title>
+<meta name="description" content="The U.S. military believed Black men couldn't be trained to fly combat aircraft. Between 1941 and 1946, more than 994 pilots proved them wrong — flyin">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+.pan-stripe{display:flex;height:6px;width:100%;}
+.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
+@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
+.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
+nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
+nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
+.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
+.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
+.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--green),#2d9e5f);}
+.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
+.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+.tl-item{}
+.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
+.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
+.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
+.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
+.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
+.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
+.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
+.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
+.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
+.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
+.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;margin-bottom:0;transition:all 0.2s;}
+.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
+.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
+.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
+.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
+.external-section{}
+.external-links{display:flex;flex-direction:column;gap:10px;}
+.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
+.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
+.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
+footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body data-entry-id="tuskegee-airmen">
+
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text">
+        <h1>Black<span>History</span></h1>
+        <p>In Real Time</p>
+      </div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
+
+<main>
+
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>›</span>
+    <span>February 10 · Military History</span>
+  </div>
+
+  <a href="../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">February 10 · Military History</div>
+    <h1>The Tuskegee Airmen</h1>
+    <p class="entry-tagline">The U.S. military believed Black men couldn't be trained to fly combat aircraft. Between 1941 and 1946, more than 994 pilots proved them wrong — flying over 15,000 sorties in WWII, earning 150+ Distinguished Flying Crosses, and coming home to a country that still treated them as second-class citizens.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1941 — 1946</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+      <div class="tl-item"><div class="tl-date">Pre-1940</div><div class="tl-event">African Americans barred from U.S. military aviation entirely</div></div>
+<div class="tl-item"><div class="tl-date">1938</div><div class="tl-event">Civil Aeronautics Act mandates training without racial exclusion</div></div>
+<div class="tl-item"><div class="tl-date">March 7, 1942</div><div class="tl-event">First class of 5 pilots graduate from Tuskegee Army Air Field</div></div>
+<div class="tl-item"><div class="tl-date">1943–45</div><div class="tl-event">99th & 332nd Fighter Groups fly combat over North Africa and Europe</div></div>
+<div class="tl-item"><div class="tl-date">March 24, 1945</div><div class="tl-event">Longest escort mission: Berlin, 1,600-mile round trip, no bombers lost</div></div>
+<div class="tl-item"><div class="tl-date">July 26, 1948</div><div class="tl-event">Truman signs Executive Order 9981 desegregating U.S. military</div></div>
+
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+    <p>Before 1940, no Black American had ever flown a military aircraft for the United States. The Army Air Corps had an explicit policy: African Americans lacked the intellectual and physical capacity for aviation. This was not fringe opinion — it was official military doctrine, codified in policy, backed by pseudoscience, and treated as settled fact by the War Department. When civil rights organizations and the Black press began pushing back in the late 1930s, the Army's response was to design a test: an isolated training program at Tuskegee Institute in Alabama, deep in the Jim Crow South, where a group of Black pilots would be trained under segregated conditions to see if they could perform. The expectation, clearly stated in internal memos, was that they would fail.</p>
+<p>They didn't fail. Between 1941 and 1945, approximately 994 pilots completed flight training at Tuskegee Army Air Field — many of them already college graduates or undergraduates when they arrived. The program trained not just pilots but nearly 14,000 support personnel: navigators, bombardiers, mechanics, control tower operators. The pilots who saw combat flew in two primary units: the 99th Fighter Squadron and the 332nd Fighter Group, which became known as the Red Tails because of the distinctive red markings on their aircraft. They flew over North Africa and Europe, escorting Allied bombers on dangerous runs into German-held territory. By the time the 332nd flew its last combat mission on April 26, 1945, the group had destroyed 36 enemy aircraft in the air, damaged or destroyed 237 on the ground, and taken out nearly 1,000 rail cars and transport vehicles.</p>
+<p>A legend developed during and after the war that the Tuskegee Airmen never lost a bomber they escorted. Historical analysis has since found that enemy aircraft did shoot down at least 25 bombers under their escort — but that rate was dramatically lower than the average of 46 bombers lost by other escort groups in the same theater. The reputation was not myth; it was earned. Their most celebrated mission was on March 24, 1945: Colonel Benjamin O. Davis Jr. led 43 P-51 Mustangs on a 1,600-mile round trip to Berlin to escort B-17 bombers targeting a Daimler-Benz tank factory. They faced Germany's most advanced interceptors, including the Me 262, history's first operational jet fighter. They completed the mission.</p>
+<p>Benjamin O. Davis Jr. deserves particular mention. His father had been the Army's first Black general. Davis Jr. attended West Point in the 1930s as one of the only Black students — his fellow cadets refused to room with him, speak to him, or sit with him at meals for four years, a coordinated program of social isolation. He graduated 35th in his class of 276. He went on to command both Tuskegee combat units, was promoted multiple times, and in the new U.S. Air Force became the first Black general in that branch. Eleanor Roosevelt visited Tuskegee in 1941, early in the program, and accepted an invitation to fly with Chief Anderson, the chief flight instructor. The 40-minute flight was photographed and published widely — providing political cover for the program's continuation at a critical moment.</p>
+<p>After the war, the Tuskegee Airmen returned to a country that still would not serve them in the same restaurants, seat them in the same sections of theaters, or allow them to vote without harassment in the South. Their military record had not changed America. But it had changed the argument. When President Truman issued Executive Order 9981 in 1948, officially desegregating the U.S. armed forces, the Tuskegee Airmen's documented record of excellence was part of what made that order possible. In 2007, the surviving Tuskegee Airmen were awarded the Congressional Gold Medal. Many of the men were in their 80s and 90s. Some came in wheelchairs. They had waited 60 years for that.</p>
+
+  </div>
+
+  <div class="pull-quote">
+<div class="pq-bar"></div>
+<blockquote>Before 1940, African Americans were barred from flying for the U.S. military. Civil rights organizations and the black press exerted pressure. The result was the Tuskegee Airmen.</blockquote>
+<cite>National Park Service, Tuskegee Airmen National Historic Site</cite>
+</div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+    <p>The Tuskegee Airmen matter not just as a military story but as a case study in how systemic exclusion works, and how evidence dismantles it. The Army did not believe Black men could fly. They were proven wrong with documented data, and that data eventually became part of the legal and political argument for military desegregation. But there's a harder lesson too: the Airmen's record didn't end racism in the military — integration came in 1948, and full equity is still not complete. Excellence does not automatically produce justice. What the Tuskegee Airmen's story shows is that excellence is necessary — but not sufficient — and that the work of making institutions live up to their stated values requires pressure, persistence, and organization, not just performance.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <a href="../index.html?day=2026-02-10" class="quiz-link-card">
+      <div class="quiz-link-left">
+        <div class="quiz-link-label">Take the Quiz · Day 10</div>
+        <div class="quiz-link-title">Test your knowledge on The Tuskegee Airmen</div>
+      </div>
+      <span class="quiz-link-arrow">✊🏾</span>
+    </a>
+
+    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;">
+      <!-- connections auto-generated by encyclopedia-data.js -->
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+      <a href="https://www.nps.gov/tuai/" target="_blank" rel="noopener" class="ext-link">
+  <div class="ext-left">
+    <div class="ext-source">National Park Service</div>
+    <div class="ext-title">Tuskegee Airmen National Historic Site — Official NPS Page</div>
+  </div>
+  <span class="ext-arrow">↗</span>
+</a>
+<a href="https://www.history.com/articles/tuskegee-airmen" target="_blank" rel="noopener" class="ext-link">
+  <div class="ext-left">
+    <div class="ext-source">HISTORY.com</div>
+    <div class="ext-title">The Tuskegee Airmen — History, Facts, and Legacy</div>
+  </div>
+  <span class="ext-arrow">↗</span>
+</a>
+<a href="https://www.history.com/articles/6-renowned-tuskegee-airmen-davis-brown-mcgee" target="_blank" rel="noopener" class="ext-link">
+  <div class="ext-left">
+    <div class="ext-source">HISTORY.com</div>
+    <div class="ext-title">6 Renowned Tuskegee Airmen — Davis, McGee, Brown, and More</div>
+  </div>
+  <span class="ext-arrow">↗</span>
+</a>
+
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+
+<script src="../encyclopedia-data.js"></script>
+<script>
+(function(){
+  var pageId = document.body.dataset.entryId;
+  if(!pageId) return;
+  var connections = getConnections(pageId, 5);
+  var grid = document.getElementById('connectedGrid');
+  if(!grid || !connections.length) return;
+  var html = '';
+  connections.forEach(function(e){
+    html += '<a href="'+e.url+'" class="connected-card">'
+          + '<div class="connected-type">Related Entry</div>'
+          + '<div class="connected-name">'+e.name+'</div>'
+          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
+          + '</a>';
+  });
+  grid.innerHTML = html;
+})();
+</script>
+</body>
+</html>

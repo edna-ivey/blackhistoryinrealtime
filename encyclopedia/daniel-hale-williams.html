@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Hale Williams — Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Full biographical profile of Daniel Hale Williams, the Black physician who performed one of the world's first open-heart surgeries in 1893 and founded America's first interracial hospital.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  :root { --red: #C41E3A; --black: #0A0A0A; --green: #1A5C38; --gold: #D4A017; --cream: #F5EDD8; --white: #FAFAFA; --card-bg: #161616; --border: rgba(212,160,23,0.2); }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--black); color: var(--cream); font-family: 'DM Sans', sans-serif; min-height: 100vh; overflow-x: hidden; }
+  body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); pointer-events: none; z-index: 0; }
+  .pan-stripe { display: flex; height: 6px; width: 100%; }
+  .pan-stripe .s1 { background: var(--red); flex: 1; } .pan-stripe .s2 { background: #111; flex: 1; } .pan-stripe .s3 { background: var(--green); flex: 1; }
+  header { position: sticky; top: 0; z-index: 50; background: rgba(10,10,10,0.97); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(212,160,23,0.12); }
+  .header-inner { max-width: 900px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+  .logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 3px; color: var(--gold); text-decoration: none; }
+  .logo span { color: var(--red); }
+  nav { display: flex; border-bottom: 1px solid rgba(212,160,23,0.1); overflow-x: auto; scrollbar-width: none; background: rgba(10,10,10,0.9); }
+  nav::-webkit-scrollbar { display: none; }
+  nav a { padding: 10px 20px; font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(245,237,216,0.45); text-decoration: none; white-space: nowrap; border-bottom: 2px solid transparent; transition: all 0.2s; }
+  nav a:hover, nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
+  .breadcrumb { max-width: 900px; margin: 0 auto; padding: 20px 24px 0; font-size: 0.72rem; color: rgba(245,237,216,0.35); letter-spacing: 1px; display: flex; align-items: center; gap: 8px; position: relative; z-index: 1; }
+  .breadcrumb a { color: rgba(212,160,23,0.6); text-decoration: none; }
+  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 100px; position: relative; z-index: 1; }
+  .entry-hero { margin-bottom: 36px; animation: fadeUp 0.5s ease both; }
+  .entry-vol-label { font-size: 0.65rem; letter-spacing: 4px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 12px; }
+  .entry-name { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 900; line-height: 1.05; color: var(--white); margin-bottom: 14px; }
+  .entry-tagline { font-size: 1.05rem; line-height: 1.7; color: rgba(245,237,216,0.65); max-width: 680px; margin-bottom: 18px; }
+  .entry-badges { display: flex; flex-wrap: wrap; gap: 8px; }
+  .badge { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; padding: 5px 12px; border-radius: 100px; font-weight: 500; }
+  .badge-dates { background: rgba(212,160,23,0.1); color: var(--gold); border: 1px solid rgba(212,160,23,0.25); }
+  .badge-cat { background: rgba(196,30,58,0.1); color: #E8627A; border: 1px solid rgba(196,30,58,0.25); }
+  .badge-vol { background: rgba(26,92,56,0.15); color: #5BAF82; border: 1px solid rgba(26,92,56,0.3); }
+  .timeline-strip { display: flex; gap: 2px; margin: 28px 0 36px; overflow-x: auto; scrollbar-width: none; animation: fadeUp 0.5s ease 0.1s both; }
+  .timeline-strip::-webkit-scrollbar { display: none; }
+  .timeline-item { flex: 1; min-width: 130px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 14px 16px; position: relative; }
+  .timeline-item::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--red), var(--gold)); border-radius: 10px 10px 0 0; }
+  .tl-year { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; color: var(--gold); letter-spacing: 2px; margin-bottom: 4px; }
+  .tl-event { font-size: 0.72rem; line-height: 1.5; color: rgba(245,237,216,0.55); }
+  .bio-section { margin: 0 0 32px; animation: fadeUp 0.5s ease 0.15s both; }
+  .section-title { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.85rem; color: rgba(212,160,23,0.6); margin-bottom: 16px; text-transform: uppercase; }
+  .bio-body p { font-size: 1rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin-bottom: 18px; }
+  .bio-body p:last-child { margin-bottom: 0; }
+  .pull-quote { border-left: 3px solid var(--red); padding: 18px 24px; margin: 32px 0; background: rgba(196,30,58,0.04); border-radius: 0 10px 10px 0; animation: fadeUp 0.5s ease 0.2s both; }
+  .pull-quote p { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.15rem; line-height: 1.7; color: var(--cream); margin-bottom: 10px; }
+  .pull-quote cite { font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(212,160,23,0.5); }
+  .section-divider { display: flex; align-items: center; gap: 16px; margin: 40px 0 28px; }
+  .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, rgba(212,160,23,0.2), transparent); }
+  .section-divider span { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.75rem; color: rgba(212,160,23,0.5); }
+  .why-matters { background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04)); border: 1px solid rgba(196,30,58,0.25); border-radius: 14px; padding: 24px 26px; margin: 36px 0; animation: fadeUp 0.5s ease 0.25s both; }
+  .why-matters h4 { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.85rem; color: var(--red); margin-bottom: 10px; }
+  .why-matters p { font-size: 0.97rem; line-height: 1.8; color: rgba(245,237,216,0.72); margin: 0; }
+  .connected-section { margin: 36px 0; animation: fadeUp 0.5s ease 0.3s both; }
+  .connected-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-top: 18px; }
+  .connected-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; text-decoration: none; display: block; transition: all 0.2s; position: relative; overflow: hidden; }
+  .connected-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, var(--red), var(--gold)); }
+  .connected-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
+  .connected-type { font-size: 0.6rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.55); margin-bottom: 5px; }
+  .connected-name { font-family: 'Playfair Display', serif; font-size: 0.95rem; font-weight: 700; color: var(--white); line-height: 1.3; margin-bottom: 4px; }
+  .connected-desc { font-size: 0.78rem; color: rgba(245,237,216,0.45); line-height: 1.5; }
+  .quiz-link-card { background: linear-gradient(135deg, rgba(196,30,58,0.12), rgba(139,0,0,0.06)); border: 1px solid rgba(196,30,58,0.3); border-radius: 12px; padding: 18px 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; text-decoration: none; transition: all 0.2s; margin-top: 12px; }
+  .quiz-link-card:hover { border-color: var(--red); transform: translateY(-2px); }
+  .quiz-link-label { font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(196,30,58,0.7); margin-bottom: 4px; }
+  .quiz-link-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
+  .quiz-link-arrow { color: var(--red); font-size: 1.4rem; flex-shrink: 0; }
+  .external-section { margin: 36px 0; animation: fadeUp 0.5s ease 0.35s both; }
+  .external-links { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
+  .ext-link { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; text-decoration: none; transition: all 0.2s; }
+  .ext-link:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
+  .ext-source { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 3px; }
+  .ext-title { font-size: 0.9rem; color: var(--cream); line-height: 1.35; }
+  .ext-arrow { color: var(--gold); opacity: 0.6; font-size: 1rem; flex-shrink: 0; }
+  .back-nav { display: flex; align-items: center; gap: 10px; margin-bottom: 32px; animation: fadeUp 0.4s ease both; }
+  .back-btn { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.04); border: 1px solid rgba(212,160,23,0.2); border-radius: 100px; padding: 8px 18px; color: rgba(245,237,216,0.6); font-size: 0.78rem; letter-spacing: 1.5px; text-decoration: none; transition: all 0.2s; }
+  .back-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(212,160,23,0.06); }
+  footer { position: relative; z-index: 1; border-top: 1px solid rgba(212,160,23,0.15); padding: 28px 32px; text-align: center; }
+  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
+  footer a { color: var(--gold); text-decoration: none; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+  @media (max-width: 620px) { .header-inner { padding: 12px 16px; } nav a { padding: 10px 12px; font-size: 0.72rem; } main { padding: 24px 16px 80px; } .entry-name { font-size: 2rem; } .connected-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body data-entry-id="daniel-hale-williams">
+
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+<header><div class="header-inner"><a href="/" class="logo">Black History <span>in Real Time</span></a></div></header>
+<nav>
+  <a href="/">Daily Quiz</a>
+  <a href="/encyclopedia.html" class="active">Encyclopedia</a>
+  <a href="/#calendar">Calendar</a>
+  <a href="/#archive">Archive</a>
+</nav>
+<div class="breadcrumb">
+  <a href="../encyclopedia.html">Encyclopedia</a>
+  <span>›</span>
+  <span style="color:rgba(245,237,216,0.5)">Daniel Hale Williams</span>
+</div>
+
+<main>
+  <div class="back-nav"><a href="../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a></div>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">February 6 · Volume I · Science &amp; Medicine</div>
+    <h1 class="entry-name">Daniel Hale Williams</h1>
+    <p class="entry-tagline">The Black physician who opened the human heart before the medical establishment believed it could be done — and then built a hospital so his community could actually get treated.</p>
+    <div class="entry-badges">
+      <span class="badge badge-dates">1856 — 1931</span>
+      <span class="badge badge-cat">People</span>
+      <span class="badge badge-vol">February Volume</span>
+    </div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-item">
+      <div class="tl-year">1856</div>
+      <div class="tl-event">Born in Hollidaysburg, Pennsylvania; worked as a shoemaker and barber before pursuing medicine</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1883</div>
+      <div class="tl-event">Graduates from Chicago Medical College; becomes one of only three Black physicians in Chicago</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1891</div>
+      <div class="tl-event">Founds Provident Hospital — the first interracial hospital and nursing school in the United States</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1893</div>
+      <div class="tl-event">Performs one of the world's first open-heart surgeries; patient James Cornish survives and lives 20 more years</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1894</div>
+      <div class="tl-event">Appointed chief surgeon at Freedmen's Hospital in Washington, D.C.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-year">1913</div>
+      <div class="tl-event">Becomes a charter member of the American College of Surgeons — the only Black founding member</div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Biography</div>
+    <div class="bio-body">
+      <p>Daniel Hale Williams was born on January 18, 1856, in Hollidaysburg, Pennsylvania, the fifth of seven children. His father died when he was eleven, and his mother, feeling unable to support the family, distributed the children among relatives and apprenticeships. Daniel ended up in Janesville, Wisconsin, working as a shoemaker's apprentice and later as a barber. It was in Janesville that he encountered Henry Palmer, a prominent physician who took an interest in him and invited him to read medicine. That mentorship changed everything. Williams moved to Chicago, worked to save money, and entered Chicago Medical College — now Northwestern University's Feinberg School of Medicine — graduating in 1883. He was one of only three Black physicians practicing in the entire city of Chicago at a time when most white-run hospitals refused to treat Black patients and wouldn't hire Black doctors regardless of their credentials.</p>
+
+      <p>Williams recognized immediately that the structural problem wasn't just personal. The entire medical infrastructure of the country was segregated — not just in the South, but in Chicago, in Northern cities, everywhere. Black people who were sick could not reliably get treated. Black people who wanted to become nurses had nowhere to train, because nursing schools and hospital training programs were white-only. In 1891, he did something audacious: he founded Provident Hospital and Training School for Nurses on Chicago's South Side. It was the first interracial hospital in the United States and the first nursing school for Black women in the country. It was staffed by both Black and white physicians and accepted patients of all races. The hospital opened with 12 beds. Williams was 35 years old.</p>
+
+      <p>Two years later, on the evening of July 9, 1893, a 24-year-old man named James Cornish was brought into Provident Hospital with a one-inch stab wound in his chest. The knife had gone deep. When Williams examined him the following morning, he found that the pericardium — the sac surrounding the heart — had been torn and was filling with blood. The medical consensus of the time held that wounds to the heart or the pericardium were essentially unsurvivable, and that surgical intervention on the heart was not possible. Williams disagreed. With six colleagues observing, he opened Cornish's chest with the surgical tools available — no X-ray, no modern anesthesia, no blood transfusion capabilities — threaded his way through the network of blood vessels and nerves surrounding the heart, and sutured the tear in the pericardium. He did not stop the heart. He operated on a beating heart. James Cornish left the hospital 51 days later and went on to live 20 more years.</p>
+
+      <p>The procedure was reported in medical journals as one of the first successful open-heart surgeries in American history. There is some historical debate about exact precedence — a doctor in St. Louis had performed a similar pericardium suture two years earlier but had not published his findings — but Williams's case is the one that appeared in the medical literature and entered the historical record. In 1894, he was appointed chief surgeon at Freedmen's Hospital in Washington, D.C., a federally funded hospital that served the large Black population of the capital. He reorganized it completely: establishing new departments, creating an internship program, and building one of the most respected surgical training programs for Black physicians in the country. He returned to Chicago in 1898 and continued surgical practice at Provident Hospital. In 1913, he became one of the charter members of the American College of Surgeons. He was the only Black founding member.</p>
+
+      <p>Williams died on August 4, 1931, in Idlewild, Michigan. Provident Hospital continued operating for decades after his death, serving Chicago's South Side through much of the 20th century. His Chicago home was designated a National Historic Landmark. The work he did at Provident — training Black nurses and physicians who had nowhere else to train — produced ripple effects through the Black medical community for generations.</p>
+    </div>
+  </div>
+
+  <div class="pull-quote">
+    <p>"He dared to do the unthinkable, risking his reputation and that of his fledgling hospital, to save his patient by operating on a beating heart."</p>
+    <cite>— National Park Service historical account of the 1893 surgery</cite>
+  </div>
+
+  <div class="why-matters">
+    <h4>Why This Matters</h4>
+    <p>Daniel Hale Williams understood something that most people miss when they talk about integration and access: the system doesn't fix itself. When he saw that Black people couldn't get treated at hospitals and Black women couldn't become nurses, he didn't petition the existing institutions — he built a new one. Provident Hospital wasn't just a workaround; it became a training ground, a proof of concept, and a model for what Black-run healthcare institutions could look like. His open-heart surgery is the story people remember, but the hospital is the legacy. The willingness to cut open a chest before medicine said it was possible is remarkable. The willingness to build an institution from scratch because the existing ones wouldn't serve your community is the harder, more lasting act.</p>
+  </div>
+
+  <div class="section-divider"><span>Connections</span></div>
+
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <a href="../index.html?day=2026-02-06" class="quiz-link-card">
+      <div class="quiz-link-left">
+        <div class="quiz-link-label">Take the Quiz · February 6</div>
+        <div class="quiz-link-title">Test your knowledge on Daniel Hale Williams</div>
+      </div>
+      <span class="quiz-link-arrow">✊🏾</span>
+    </a>
+
+    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"><!-- connections auto-generated by encyclopedia-data.js --></div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+      <a href="https://www.history.com/this-day-in-history/july-10/daniel-hale-williams-pioneering-black-doctor-open-heart-surgery" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">HISTORY.com</div>
+          <div class="ext-title">Pioneering Black Doctor Performs Successful Open-Heart Surgery — July 10, 1893</div>
+        </div>
+        <span class="ext-arrow">↗</span>
+      </a>
+      <a href="https://www.nps.gov/brvb/learn/news/garrettmorgan.htm" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Black Inventors and Medical Pioneers — NPS historical context</div>
+        </div>
+        <span class="ext-arrow">↗</span>
+      </a>
+      <a href="https://www.smithsonianmag.com/smithsonian-institution/tearing-down-barriers-black-inventors-honoring-historic-breakthroughs-180979652/" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian Magazine</div>
+          <div class="ext-title">Tearing Down the Barriers for Black Inventors — the history of Black innovation under racism</div>
+        </div>
+        <span class="ext-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+</body>
+</html>
