@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barack Obama &#x2014; Black History in Real Time Encyclopedia</title>
+<meta name="description" content="The 44th President of the United States and the first Black person to hold that office — elected November 4, 2008, serving two full terms.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
+@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
+.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
+nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
+nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
+.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+/* Honorary badge */
+.honorary-banner{background:linear-gradient(135deg,rgba(212,160,23,0.08),rgba(212,160,23,0.02));border:1px solid rgba(212,160,23,0.3);border-radius:16px;padding:20px 24px;margin-bottom:40px;display:flex;align-items:center;gap:16px;}
+.honorary-icon{font-size:2rem;flex-shrink:0;}
+.honorary-text{font-size:0.8rem;line-height:1.6;color:rgba(245,237,216,0.6);}
+.honorary-text strong{color:var(--gold);display:block;font-size:0.7rem;letter-spacing:3px;text-transform:uppercase;margin-bottom:4px;}
+.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
+.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
+.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--green),#2d9e5f);}
+.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
+.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
+.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
+.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
+.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
+.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
+.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
+.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
+.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
+.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
+.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
+.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+.external-links{display:flex;flex-direction:column;gap:10px;}
+.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
+.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
+.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
+footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body data-entry-id="barack-obama">
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
+
+<main>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>February 29&#x2605; &middot; Honorary Entry</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="honorary-banner">
+    <div class="honorary-icon">&#x2605;</div>
+    <div class="honorary-text">
+      <strong>Honorary February 29 Entry</strong>
+      February 29 appears only in leap years. This entry honors a figure whose impact transcends any single day &mdash; chosen to anchor the leap-year slot because his place in history is permanent, even when the date is not.
+    </div>
+  </div>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">February 29&#x2605; &middot; 44th &amp; Forever</div>
+    <h1>Barack Obama</h1>
+    <p class="entry-tagline">On November 4, 2008, Barack Obama was elected the 44th President of the United States — the first Black person ever to hold that office. He was 47 years old. He had won with 365 electoral votes, nearly 53 percent of the popular vote, and the largest voter turnout in 40 years. On election night in Grant Park, Chicago, hundreds of thousands of people stood in the cold and wept. The country had never seen anything like it. Neither had the world.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1961 &mdash; Present</span>
+      <span class="badge">&#x2605; Honorary Entry</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+      <div class="tl-item"><div class="tl-date">Aug 4, 1961</div><div class="tl-event">Born in Honolulu, Hawaii to Ann Dunham (Kansas) and Barack Obama Sr. (Kenya)</div></div>
+      <div class="tl-item"><div class="tl-date">1991</div><div class="tl-event">Graduates Harvard Law School; becomes first Black president of the Harvard Law Review (1990)</div></div>
+      <div class="tl-item"><div class="tl-date">2004</div><div class="tl-event">Delivers keynote address at the Democratic National Convention; elected to U.S. Senate from Illinois</div></div>
+      <div class="tl-item"><div class="tl-date">Nov 4, 2008</div><div class="tl-event">Elected 44th President of the United States — first Black person to hold the office</div></div>
+      <div class="tl-item"><div class="tl-date">Mar 23, 2010</div><div class="tl-event">Signs the Affordable Care Act — the most significant expansion of U.S. health coverage since Medicare</div></div>
+      <div class="tl-item"><div class="tl-date">Jan 20, 2017</div><div class="tl-event">Leaves office after two full terms; approval rating of 59% — higher than when he was inaugurated</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+
+    <p>Barack Hussein Obama Jr. was born on August 4, 1961, in Honolulu, Hawaii, to Ann Dunham, a white woman from Wichita, Kansas, and Barack Obama Sr., a Black man from the Luo ethnic group in Kenya. His parents met at the University of Hawaii and separated when Obama was two years old; his father returned to Kenya and Obama saw him only once more, briefly, before Barack Sr. died in a car accident in 1982. Obama was raised primarily by his mother and, later, his maternal grandparents in Hawaii. He was not raised in poverty. He was not raised in a Black community in the conventional sense of American Black experience. He was raised as a biracial child in Hawaii, attending the elite Punahou School on a scholarship, intellectually curious and somewhat rootless, working out on his own terms what his identity meant in a country that had very firm ideas about it. In America, he was Black. That clarity came early and shaped everything.</p>
+
+    <p>Obama attended Occidental College in California, then transferred to Columbia University in New York, graduating in 1983 with a degree in political science. He worked as a community organizer in Chicago's South Side from 1985 to 1988 — organizing residents of poor neighborhoods around issues of employment, housing, and asbestos removal in public housing. The experience shaped his understanding of how policy affected ordinary people's lives in ways that political theory alone could not. He then enrolled at Harvard Law School, where he was elected the first Black president of the Harvard Law Review in 1990 — a position that attracted national attention and a book deal before he had published anything. He graduated magna cum laude in 1991. He returned to Chicago, joined a civil rights law firm, and taught constitutional law at the University of Chicago Law School for 12 years.</p>
+
+    <p>Obama's political career moved quickly for someone who was still defining himself publicly. He was elected to the Illinois State Senate in 1996. He ran for a U.S. House seat in 2000 and lost badly. He ran for U.S. Senate in 2004 and won. His keynote address at the 2004 Democratic National Convention — in which he argued against the division of America into red states and blue states, declaring "there is not a Black America and a White America and Latino America and Asian America — there's the United States of America" — made him a national figure overnight. He was 42 years old. On February 10, 2007, he announced his candidacy for president in Springfield, Illinois. Sixteen months later, after defeating Hillary Clinton in a prolonged primary and John McCain in the general election, he became the first Black president of the United States.</p>
+
+    <p>Obama's two terms produced significant legislative achievements under difficult political conditions. In his first year, with the economy in free fall from the 2008 financial crisis, he signed the American Recovery and Reinvestment Act — an $800 billion economic stimulus — and the Lilly Ledbetter Fair Pay Act, which strengthened equal pay protections for women. On March 23, 2010, he signed the Affordable Care Act, which extended health insurance coverage to more than 20 million previously uninsured Americans and represented the most significant expansion of the U.S. health care system since Medicare was established in 1965. Seven presidents over 60 years had tried to pass comprehensive health care reform and failed. He succeeded. He also ended the combat mission in Iraq, ordered the operation that killed Osama bin Laden in 2011, signed the Dodd-Frank financial regulation law, normalized diplomatic relations with Cuba, and negotiated the Iran nuclear deal. In 2009, he was awarded the Nobel Peace Prize.</p>
+
+    <p>The meaning of Obama's presidency is contested and multi-layered, as it should be for any president. He governed as a pragmatic moderate, frustrating liberals who wanted more aggressive policy and conservatives who characterized him as a radical. His presidency did not end racism in America — a proposition he never advanced. What it did was demonstrate, empirically and viscerally, that a Black man could win a national majority in a country where Black people are 13 percent of the population, could govern with intelligence and dignity for two full terms, could leave office with a higher approval rating than when he entered, and could do it all while being scrutinized at a level of intensity that no previous president had experienced. He left office on January 20, 2017. His administration was notable for the absence of major ethical scandal. He returned to private life in Washington, D.C., and has remained engaged in civic life through the Obama Foundation, whose stated mission is training the next generation of civic leaders.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>It's been a long time coming, but tonight, because of what we did on this day, in this election, at this defining moment, change has come to America.</blockquote>
+    <cite>Barack Obama, Grant Park, Chicago, November 4, 2008</cite>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+    <p>Obama's presidency matters as a historical fact and as a stress test of American aspiration. The fact of his election was unprecedented and real. So was the backlash — the birther movement, the refusal to hold hearings on his Supreme Court nominee, the characterization of his signature achievement as a government takeover, and the systematic dismantling of his policies by his successor. Understanding what he accomplished, how he governed, and what happened to that work afterward is essential to understanding the gap between what American democracy claims to be and what it actually is. He did not solve the problem of race in America. He proved that a Black man could win the presidency. Those are two different things, and both are true.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <div class="connected-grid" id="connectedGrid" style="margin-top:0;"><!-- auto-generated --></div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+      <a href="https://www.history.com/articles/barack-obama" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">Barack Obama — Life, Presidency, Achievements, and Legacy</div></div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+      <a href="https://www.history.com/this-day-in-history/november-4/barack-obama-elected-as-americas-first-black-president" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">November 4, 2008 — Barack Obama Elected as America's First Black President</div></div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+      <a href="https://www.history.com/the-obama-years/legacy.html" target="_blank" rel="noopener" class="ext-link">
+        <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">The Obama Years — An Oral History of His Presidency and Legacy</div></div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+
+<script src="../encyclopedia-data.js"></script>
+<script>
+(function(){
+  var pageId = document.body.dataset.entryId;
+  if(!pageId) return;
+  var connections = getConnections(pageId, 5);
+  var grid = document.getElementById('connectedGrid');
+  if(!grid || !connections.length) return;
+  var html = '';
+  connections.forEach(function(e){
+    html += '<a href="'+e.url+'" class="connected-card">'
+          + '<div class="connected-type">Related Entry</div>'
+          + '<div class="connected-name">'+e.name+'</div>'
+          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
+          + '</a>';
+  });
+  grid.innerHTML = html;
+})();
+</script>
+</body>
+</html>
