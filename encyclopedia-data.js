@@ -351,6 +351,92 @@ const ENCYCLOPEDIA = [
     barClass: "politics",
     tags: ["politics", "presidency", "black-firsts", "2000s", "2010s", "civil-rights", "ongoing", "representation"],
     desc: "The 44th President of the United States and the first Black person to hold that office — elected November 4, 2008, serving two full terms."
+  },
+
+  // --- SECTION 4 (Days 15–21) ---
+  {
+    id: "aave",
+    name: "AAVE & Linguistic Culture",
+    url: "encyclopedia/aave.html",
+    quizDay: "2026-02-15",
+    vol: "Vol. 1 · Feb 2026",
+    dates: "Origins in slavery — Present",
+    category: "Culture",
+    barClass: "culture",
+    tags: ["culture", "language", "identity", "slavery", "1960s", "1990s", "ongoing", "education", "hip-hop", "appropriation", "civil-rights"],
+    desc: "AAVE is a fully rule-governed dialect with West African grammatical roots — not broken English, but a living language shaped by forced separation and 400 years of cultural survival."
+  },
+  {
+    id: "black-fashion",
+    name: "Black Fashion & Cultural Appropriation",
+    url: "encyclopedia/black-fashion.html",
+    quizDay: "2026-02-16",
+    vol: "Vol. 1 · Feb 2026",
+    dates: "Ongoing",
+    category: "Culture",
+    barClass: "culture",
+    tags: ["culture", "identity", "appropriation", "hip-hop", "1980s", "1990s", "2010s", "ongoing", "civil-rights", "economics", "representation"],
+    desc: "Cornrows, durags, the Afro — Black fashion has been criminalized, mocked, and then adopted by mainstream culture without credit or compensation across every generation."
+  },
+  {
+    id: "melvin-van-peebles",
+    name: "Melvin Van Peebles",
+    url: "encyclopedia/melvin-van-peebles.html",
+    quizDay: "2026-02-17",
+    vol: "Vol. 1 · Feb 2026",
+    dates: "1932 — 2021",
+    category: "People",
+    barClass: "culture",
+    tags: ["culture", "film", "black-firsts", "1970s", "identity", "representation", "arts", "independence", "black-business"],
+    desc: "Self-financed, self-distributed, and rated X by an all-white jury — Sweet Sweetback's Baadasssss Song (1971) proved a market for Black cinema existed and founded modern Black filmmaking."
+  },
+  {
+    id: "black-dance",
+    name: "Black Dance Culture",
+    url: "encyclopedia/black-dance.html",
+    quizDay: "2026-02-18",
+    vol: "Vol. 1 · Feb 2026",
+    dates: "Ongoing",
+    category: "Culture",
+    barClass: "culture",
+    tags: ["culture", "identity", "appropriation", "hip-hop", "1920s", "1970s", "ongoing", "arts", "slavery", "representation", "music"],
+    desc: "From the Ring Shout to the Renegade, every generation's most viral dances trace to Black communities — and every generation watches them go mainstream without the credit."
+  },
+  {
+    id: "black-culinary-history",
+    name: "Black Culinary History",
+    url: "encyclopedia/black-culinary-history.html",
+    quizDay: "2026-02-19",
+    vol: "Vol. 1 · Feb 2026",
+    dates: "Late 1600s — Present",
+    category: "Culture",
+    barClass: "culture",
+    tags: ["culture", "slavery", "identity", "economics", "appropriation", "1800s", "1960s", "ongoing", "arts", "representation"],
+    desc: "Gumbo, jambalaya, barbecue, soul food — American cuisine was built largely by enslaved and formerly enslaved Black hands whose contributions were systematically uncredited."
+  },
+  {
+    id: "black-tech-pioneers",
+    name: "Black Tech Pioneers",
+    url: "encyclopedia/black-tech-pioneers.html",
+    quizDay: "2026-02-20",
+    vol: "Vol. 1 · Feb 2026",
+    dates: "1940s — Present",
+    category: "People",
+    barClass: "innovation",
+    tags: ["innovation", "education", "black-firsts", "1940s", "1950s", "1960s", "1980s", "ongoing", "representation", "civil-rights", "economics"],
+    desc: "Katherine Johnson sent humans to the moon. Mark Dean co-invented the IBM PC. Clarence Ellis invented groupware. Their names should be as well known as the technologies they built."
+  },
+  {
+    id: "sports-integration",
+    name: "Sports Integration Beyond Jackie Robinson",
+    url: "encyclopedia/sports-integration.html",
+    quizDay: "2026-02-21",
+    vol: "Vol. 1 · Feb 2026",
+    dates: "1946 — Present",
+    category: "Events",
+    barClass: "politics",
+    tags: ["civil-rights", "sports", "black-firsts", "1940s", "1950s", "segregation", "representation", "violence", "legal", "1960s"],
+    desc: "Jackie Robinson integrated baseball in 1947. But the NBA wasn't integrated until 1950, the NFL had been resegregated for 13 years, and golf held out until 1961. The full story is longer."
   }
 ];
 
