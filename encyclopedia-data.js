@@ -343,8 +343,8 @@ const ENCYCLOPEDIA = [
   {
     id: "barack-obama",
     name: "Barack Obama",
-    url: "barack-obama.html",
-    quizDay: "0",
+    url: "encyclopedia/barack-obama.html",
+    quizDay: "2026-02-29",
     vol: "February 29* · 44th & Forever",
     dates: "1961 — Present",
     category: "People",
@@ -353,91 +353,92 @@ const ENCYCLOPEDIA = [
     desc: "The 44th President of the United States and the first Black person to hold that office — elected November 4, 2008, serving two full terms."
   },
 
-  // --- SECTION 4 (Days 15–21) ---
+  // --- SECTION 5 (Days 22–28) ---
   {
-    id: "aave",
-    name: "AAVE & Linguistic Culture",
-    url: "encyclopedia/aave.html",
-    quizDay: "2026-02-15",
+    id: "black-press",
+    name: "The Black Press & Media",
+    url: "encyclopedia/black-press.html",
+    quizDay: "2026-02-22",
     vol: "Vol. 1 · Feb 2026",
-    dates: "Origins in slavery — Present",
-    category: "Culture",
-    barClass: "culture",
-    tags: ["culture", "language", "identity", "slavery", "1960s", "1990s", "ongoing", "education", "hip-hop", "appropriation", "civil-rights"],
-    desc: "AAVE is a fully rule-governed dialect with West African grammatical roots — not broken English, but a living language shaped by forced separation and 400 years of cultural survival."
+    dates: "1827 — Present",
+    category: "Systems",
+    barClass: "systems",
+    tags: ["media", "civil-rights", "1800s", "1900s", "1920s", "1940s", "ongoing", "identity", "violence", "politics", "education", "culture"],
+    desc: "Freedom's Journal to the Chicago Defender to Black Twitter — the Black press has always provided coverage, context, and community that mainstream media would not."
   },
   {
-    id: "black-fashion",
-    name: "Black Fashion & Cultural Appropriation",
-    url: "encyclopedia/black-fashion.html",
-    quizDay: "2026-02-16",
+    id: "black-wall-street",
+    name: "Black Wall Street",
+    url: "encyclopedia/black-wall-street.html",
+    quizDay: "2026-02-23",
     vol: "Vol. 1 · Feb 2026",
-    dates: "Ongoing",
-    category: "Culture",
-    barClass: "culture",
-    tags: ["culture", "identity", "appropriation", "hip-hop", "1980s", "1990s", "2010s", "ongoing", "civil-rights", "economics", "representation"],
-    desc: "Cornrows, durags, the Afro — Black fashion has been criminalized, mocked, and then adopted by mainstream culture without credit or compensation across every generation."
+    dates: "Circa 1905 — Present",
+    category: "Systems",
+    barClass: "systems",
+    tags: ["economics", "black-business", "violence", "erasure", "1920s", "legal", "ongoing", "segregation", "civil-rights", "community"],
+    desc: "Greenwood District — 35 blocks, 600+ businesses, a hospital, a newspaper, a school system. Built in 20 years. Destroyed in one night. Rebuilt anyway."
   },
   {
-    id: "melvin-van-peebles",
-    name: "Melvin Van Peebles",
-    url: "encyclopedia/melvin-van-peebles.html",
-    quizDay: "2026-02-17",
+    id: "harlem-renaissance",
+    name: "The Harlem Renaissance",
+    url: "encyclopedia/harlem-renaissance.html",
+    quizDay: "2026-02-24",
     vol: "Vol. 1 · Feb 2026",
-    dates: "1932 — 2021",
+    dates: "Circa 1920 — 1935",
+    category: "Events",
+    barClass: "culture",
+    tags: ["culture", "arts", "music", "1920s", "identity", "literature", "politics", "hip-hop", "migration", "education"],
+    desc: "Between 1920 and 1935, Harlem became the capital of Black America — producing the most concentrated outpouring of Black art, music, and literature in history."
+  },
+  {
+    id: "black-women-in-politics",
+    name: "Black Women in Politics",
+    url: "encyclopedia/black-women-in-politics.html",
+    quizDay: "2026-02-25",
+    vol: "Vol. 1 · Feb 2026",
+    dates: "1868 — Present",
     category: "People",
-    barClass: "culture",
-    tags: ["culture", "film", "black-firsts", "1970s", "identity", "representation", "arts", "independence", "black-business"],
-    desc: "Self-financed, self-distributed, and rated X by an all-white jury — Sweet Sweetback's Baadasssss Song (1971) proved a market for Black cinema existed and founded modern Black filmmaking."
+    barClass: "politics",
+    tags: ["politics", "civil-rights", "black-firsts", "1960s", "1970s", "ongoing", "representation", "voting", "identity", "legal"],
+    desc: "Ida B. Wells, Fannie Lou Hamer, Shirley Chisholm, Carol Moseley Braun, Kamala Harris — Black women have built American democracy while being systematically excluded from governing it."
   },
   {
-    id: "black-dance",
-    name: "Black Dance Culture",
-    url: "encyclopedia/black-dance.html",
-    quizDay: "2026-02-18",
+    id: "hbcus",
+    name: "HBCUs",
+    url: "encyclopedia/hbcus.html",
+    quizDay: "2026-02-26",
     vol: "Vol. 1 · Feb 2026",
-    dates: "Ongoing",
-    category: "Culture",
-    barClass: "culture",
-    tags: ["culture", "identity", "appropriation", "hip-hop", "1920s", "1970s", "ongoing", "arts", "slavery", "representation", "music"],
-    desc: "From the Ring Shout to the Renegade, every generation's most viral dances trace to Black communities — and every generation watches them go mainstream without the credit."
+    dates: "1837 — Present",
+    category: "Systems",
+    barClass: "systems",
+    tags: ["education", "black-firsts", "1800s", "civil-rights", "1960s", "ongoing", "economics", "community", "identity", "representation"],
+    desc: "3% of colleges. 22% of Black college graduates. 27% of Black STEM graduates. HBCUs were built because every other institution refused Black students — and have outperformed ever since."
   },
   {
-    id: "black-culinary-history",
-    name: "Black Culinary History",
-    url: "encyclopedia/black-culinary-history.html",
-    quizDay: "2026-02-19",
+    id: "great-migration",
+    name: "The Great Migration",
+    url: "encyclopedia/great-migration.html",
+    quizDay: "2026-02-27",
     vol: "Vol. 1 · Feb 2026",
-    dates: "Late 1600s — Present",
-    category: "Culture",
-    barClass: "culture",
-    tags: ["culture", "slavery", "identity", "economics", "appropriation", "1800s", "1960s", "ongoing", "arts", "representation"],
-    desc: "Gumbo, jambalaya, barbecue, soul food — American cuisine was built largely by enslaved and formerly enslaved Black hands whose contributions were systematically uncredited."
-  },
-  {
-    id: "black-tech-pioneers",
-    name: "Black Tech Pioneers",
-    url: "encyclopedia/black-tech-pioneers.html",
-    quizDay: "2026-02-20",
-    vol: "Vol. 1 · Feb 2026",
-    dates: "1940s — Present",
-    category: "People",
-    barClass: "innovation",
-    tags: ["innovation", "education", "black-firsts", "1940s", "1950s", "1960s", "1980s", "ongoing", "representation", "civil-rights", "economics"],
-    desc: "Katherine Johnson sent humans to the moon. Mark Dean co-invented the IBM PC. Clarence Ellis invented groupware. Their names should be as well known as the technologies they built."
-  },
-  {
-    id: "sports-integration",
-    name: "Sports Integration Beyond Jackie Robinson",
-    url: "encyclopedia/sports-integration.html",
-    quizDay: "2026-02-21",
-    vol: "Vol. 1 · Feb 2026",
-    dates: "1946 — Present",
+    dates: "1916 — 1970",
     category: "Events",
     barClass: "politics",
-    tags: ["civil-rights", "sports", "black-firsts", "1940s", "1950s", "segregation", "representation", "violence", "legal", "1960s"],
-    desc: "Jackie Robinson integrated baseball in 1947. But the NBA wasn't integrated until 1950, the NFL had been resegregated for 13 years, and golf held out until 1961. The full story is longer."
-  }
+    tags: ["migration", "civil-rights", "1920s", "1940s", "economics", "culture", "politics", "violence", "segregation", "community", "music"],
+    desc: "Six million Black Americans left the rural South for Northern cities between 1916 and 1970 — fleeing terror, seeking opportunity, and transforming American culture in the process."
+  },
+  {
+    id: "juneteenth",
+    name: "Juneteenth",
+    url: "encyclopedia/juneteenth.html",
+    quizDay: "2026-02-28",
+    vol: "Vol. 1 · Feb 2026",
+    dates: "June 19, 1865 — Present",
+    category: "Events",
+    barClass: "politics",
+    tags: ["civil-rights", "slavery", "legal", "1800s", "ongoing", "culture", "identity", "politics", "community", "celebration"],
+    desc: "The Emancipation Proclamation was signed in 1863. The last enslaved Texans were told they were free on June 19, 1865 — two and a half years later. Black communities have celebrated that day ever since."
+  },
+
 ];
 
 // -----------------------------------------------------------------------
