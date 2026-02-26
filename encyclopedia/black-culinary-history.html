@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Black Culinary History — Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Gumbo comes from a West African stew. Jambalaya is a cousin of Jolof rice. George Washington's chef Hercules was one of the most technically accomplis">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
+@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
+.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
+nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
+nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
+.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
+.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
+.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--purple),var(--red));}
+.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
+.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
+.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
+.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
+.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
+.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
+.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
+.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
+.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
+.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
+.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
+.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;transition:all 0.2s;}
+.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
+.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
+.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
+.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
+.external-section{}
+.external-links{display:flex;flex-direction:column;gap:10px;}
+.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
+.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
+.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
+footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body data-entry-id="black-culinary-history">
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
+<main>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>February 19 · Food & Culture</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+  <div class="entry-hero">
+    <div class="entry-vol-label">February 19 · Food & Culture</div>
+    <h1>Black Culinary History</h1>
+    <p class="entry-tagline">Gumbo comes from a West African stew. Jambalaya is a cousin of Jolof rice. George Washington's chef Hercules was one of the most technically accomplished cooks in early America. James Hemings learned French cuisine at Thomas Jefferson's direction and brought it back to Monticello. America's food culture was largely built by Black hands that were rarely credited.</p>
+    <div class="entry-badges">
+      <span class="badge">Culture</span>
+      <span class="badge">Late 1600s — Present</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items"><div class="tl-item"><div class="tl-date">1600s–1800s</div><div class="tl-event">Enslaved Africans introduce okra, black-eyed peas, rice cultivation, and cooking techniques that shape American cuisine</div></div>
+<div class="tl-item"><div class="tl-date">Late 1700s</div><div class="tl-event">Hercules (Washington's chef) and James Hemings (Jefferson's chef) become America's first recognized fine-dining practitioners</div></div>
+<div class="tl-item"><div class="tl-date">1881</div><div class="tl-event">Abby Fisher, former enslaved person, publishes What Mrs. Fisher Knows About Old Southern Cooking — among first Black-authored American cookbooks</div></div>
+<div class="tl-item"><div class="tl-date">1960s–70s</div><div class="tl-event">Soul food restaurants in Northern cities become community anchors and cultural identity markers</div></div>
+<div class="tl-item"><div class="tl-date">2017</div><div class="tl-event">Michael Twitty publishes The Cooking Gene — first major book tracing soul food to its African origins</div></div>
+<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Farm-to-table movement traces roots to Black farmers and chefs; Black culinary contributions still underattributed in mainstream food culture</div></div>
+</div>
+  </div>
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+    <p>The food most Americans identify as distinctly American — barbecue, gumbo, jambalaya, collard greens, cornbread, fried chicken, black-eyed peas, rice dishes — has roots that run through Africa and through the hands of enslaved people who made those ingredients and techniques the foundation of American cooking. Okra arrived in America with enslaved Africans who had grown and eaten it in West and Central Africa; it became the defining ingredient in gumbo, which itself is an adaptation of West African stew traditions. Jambalaya shares a structure with Jolof rice, the West African rice and meat dish that remains central to Senegalese and Ghanaian cooking. The peanut — called a 'goober' from the Kikongo word 'nguba' — was brought by enslaved Africans and became one of the American South's most economically significant crops. The routes of the transatlantic slave trade are also the routes of American food culture.</p>
+<p>Hercules was an enslaved man who served as George Washington's personal chef in Philadelphia, where Washington was required by Pennsylvania law to rotate his enslaved workers back to Virginia every six months to prevent them from legally petitioning for freedom. Washington complied — including with Hercules, who had become one of the most skilled and technically accomplished cooks in early America. Visitors to Washington's table wrote descriptions of the food with the same reverence typically reserved for the finest European dining. Hercules escaped in 1797. James Hemings was enslaved by Thomas Jefferson and accompanied him to Paris, where Jefferson — who was there as U.S. Minister to France — had Hemings trained in French cuisine. Hemings became the first American to learn classical French cooking technique. He brought it back to Monticello. He was legally freed in 1796 on the condition that he teach his cooking techniques to another enslaved person. He died in 1801. Jefferson never publicly credited him for the food Monticello was famous for.</p>
+<p>After emancipation, newly freed Black Americans who entered the workforce legally found that cooking was one of the few occupations available to them. They worked as cooks, caterers, and domestic workers — often for wealthy white families — and their culinary skills built those families' social reputations. The Pullman porters who served on railroad dining cars from the 1860s onward were largely Black, and the dining car experience — considered a luxury marker of American rail travel — was built on Black labor and Black culinary skill. Thomas Downing, a free Black man, ran the most celebrated oyster cellar in 19th-century New York, catering to the city's elite and building significant wealth. His name is not in most histories of New York food culture.</p>
+<p>The term 'soul food' emerged in the 1960s as Black Americans explicitly claimed ownership of a culinary tradition that had long been credited to white Southern cooking. The dishes — chitlins, pig's feet, black-eyed peas, collard greens, cornbread, yams, fried chicken — had origins in the resourcefulness of enslaved people who were given the parts of animals and crops that enslavers didn't want. They transformed those ingredients into food with complex flavor, technique, and cultural meaning. Soul food restaurants in Northern cities during and after the Great Migration became community anchors — places where Black Americans could eat food that tasted like home, that connected them to their Southern roots, and that were insulated from segregation's reach. The Smithsonian's National Museum of African American History and Culture opened the Sweet Home Café in 2016 specifically to honor and contextualize this tradition at a national institutional level.</p>
+<p>Michael Twitty's 2017 book The Cooking Gene is the most comprehensive recent account of what is owed and what has been obscured. Twitty, a culinary historian and chef, retraced the Southern cooking landscape while simultaneously researching his own genealogy — he is descended from enslaved people, from enslavers, and from Native Americans — and documented the specific West African culinary traditions that became American food. His conclusion is direct: American food culture, particularly Southern food, is African American food culture, and the credit line has been systematically redirected away from its origins. Edna Lewis, who died in 2006, was the first Black chef to be credited in mainstream food media with building the canon of American Southern cooking — and she received that credit in the 1970s, more than a century after the food she was cooking had been developed.</p>
+
+  </div>
+  <div class="pull-quote">
+<div class="pq-bar"></div>
+<blockquote>Our food is our flag. It is the record of who we are, where we came from, and what we survived to make.</blockquote>
+<cite>Michael Twitty, culinary historian, The Cooking Gene</cite>
+</div>
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+    <p>Black culinary history matters because food is one of the most personal and persistent carriers of cultural identity, and because the story of American food has been systematically told in a way that erases its origins. When mainstream food media talks about Southern cooking, farm-to-table philosophy, or American comfort food, it is talking about a tradition built largely by enslaved and formerly enslaved Black people — without usually saying so. The farm-to-table movement, which celebrates fresh local ingredients and simple preparation, has roots in the practices of Black farmers and home cooks who had no choice but to work with what they grew. Edna Lewis was doing farm-to-table cooking in Virginia in the 1940s. The intellectual credit for the movement went elsewhere. Understanding Black culinary history doesn't change what the food tastes like. It changes whether the people who built the tradition get to be part of the story of what American food is.</p>
+  </div>
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../index.html?day=2026-02-19" class="quiz-link-card">
+      <div class="quiz-link-left">
+        <div class="quiz-link-label">Take the Quiz &middot; Day 19</div>
+        <div class="quiz-link-title">Test your knowledge on Black Culinary History</div>
+      </div>
+      <span class="quiz-link-arrow">&#x270A;&#x1F3FE;</span>
+    </a>
+    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;">
+      <!-- connections auto-generated by encyclopedia-data.js -->
+    </div>
+  </div>
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links"><a href="https://www.smithsonianmag.com/history/how-enslaved-chefs-helped-shape-american-cuisine-180969697/" target="_blank" rel="noopener" class="ext-link">
+  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">How Enslaved Chefs Helped Shape American Cuisine</div></div>
+  <span class="ext-arrow">&#x2197;</span>
+</a>
+<a href="https://www.smithsonianmag.com/arts-culture/food-historian-reckons-black-roots-southern-food-180964285/" target="_blank" rel="noopener" class="ext-link">
+  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">Food Historian Michael Twitty Reckons with the Black Roots of Southern Food</div></div>
+  <span class="ext-arrow">&#x2197;</span>
+</a>
+<a href="https://www.smithsonianmag.com/arts-culture/edna-lewis-the-mother-of-soul-food-180982117/" target="_blank" rel="noopener" class="ext-link">
+  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">What Made Edna Lewis the Mother of Soul Food</div></div>
+  <span class="ext-arrow">&#x2197;</span>
+</a>
+</div>
+  </div>
+</main>
+<footer>
+  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+<script src="../encyclopedia-data.js"></script>
+<script>
+(function(){
+  var pageId = document.body.dataset.entryId;
+  if(!pageId) return;
+  var connections = getConnections(pageId, 5);
+  var grid = document.getElementById('connectedGrid');
+  if(!grid || !connections.length) return;
+  var html = '';
+  connections.forEach(function(e){
+    html += '<a href="'+e.url+'" class="connected-card">'
+          + '<div class="connected-type">Related Entry</div>'
+          + '<div class="connected-name">'+e.name+'</div>'
+          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
+          + '</a>';
+  });
+  grid.innerHTML = html;
+})();
+</script>
+</body>
+</html>
