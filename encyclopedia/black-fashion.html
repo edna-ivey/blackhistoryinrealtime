@@ -187,7 +187,7 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   if(!grid || !connections.length) return;
   var html = '';
   connections.forEach(function(e){
-    html += '<a href="'+e.url+'" class="connected-card">'
+    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
           + '<div class="connected-type">Related Entry</div>'
           + '<div class="connected-name">'+e.name+'</div>'
           + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'

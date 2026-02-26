@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!connected.length) { grid.parentElement.style.display='none'; return; }
   connected.forEach(function(entry) {
     var card = document.createElement('a');
-    card.href = '../' + entry.url;
+    card.href = '../encyclopedia/' + entry.url;
     card.className = 'connected-card';
     card.innerHTML = '<div class="connected-type">Related Entry</div><div class="connected-name">' + entry.name + '</div><div class="connected-desc">' + entry.dates + ' &middot; ' + entry.category + '</div>';
     grid.appendChild(card);
