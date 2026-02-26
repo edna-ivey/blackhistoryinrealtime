@@ -452,7 +452,15 @@ function getConnections(currentId, maxResults) {
   const current = ENCYCLOPEDIA.find(e => e.id === currentId);
   if (!current) return [];
 
-  const scored = ENCYCLOPEDIA
+  // Deduplicate by id before scoring — safety net against duplicate entries
+  const seen = {};
+  const unique = ENCYCLOPEDIA.filter(e => {
+    if (seen[e.id]) return false;
+    seen[e.id] = true;
+    return true;
+  });
+
+  const scored = unique
     .filter(e => e.id !== currentId)
     .map(e => {
       const shared = e.tags.filter(t => current.tags.includes(t)).length;
