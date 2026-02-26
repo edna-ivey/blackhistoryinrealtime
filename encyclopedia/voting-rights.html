@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voting Rights and Suppression &#x2014; Black History in Real Time Encyclopedia</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+
+:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+.pan-stripe{display:flex;height:6px;width:100%;}
+.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
+@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
+.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
+nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
+nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
+.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
+.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
+.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,#333,var(--orange));}
+.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
+.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+.tl-item{}
+.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
+.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
+.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
+.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
+.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
+.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
+.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
+.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
+.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
+.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
+.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;margin-bottom:0;transition:all 0.2s;}
+.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
+.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
+.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
+.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
+.external-section{}
+.external-links{display:flex;flex-direction:column;gap:10px;}
+.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
+.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
+.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
+footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+
+</style>
+</head>
+<body data-entry-id="voting-rights">
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+<header>
+  <div class="header-inner">
+    <a href="../index.html" class="logo-area">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#now">Making History Now</a>
+  </nav>
+</header>
+<main>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>February 23 · Democracy & Power</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">February 23 · Democracy & Power</div>
+    <h1>Voting Rights and Suppression</h1>
+    <p class="entry-tagline">The 15th Amendment gave Black men the right to vote in 1870. Within a decade, states had built an entire machinery to take it back.</p>
+    <div class="entry-badges">
+      <span class="badge">Systems</span>
+<span class="badge">1870 — Present</span>
+<span class="badge">Ongoing</span>
+    </div>
+    <div class="hero-bar" style="background:linear-gradient(90deg,#333,#1A5C38);"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+      <div class="tl-item"><div class="tl-date">1870</div><div class="tl-event">15th Amendment ratified, granting Black men the right to vote</div></div>
+<div class="tl-item"><div class="tl-date">1870s-1900s</div><div class="tl-event">Poll taxes, literacy tests, grandfather clauses, and racial terror systematically eliminate Black voting across the South</div></div>
+<div class="tl-item"><div class="tl-date">1964</div><div class="tl-event">24th Amendment abolishes poll taxes in federal elections</div></div>
+<div class="tl-item"><div class="tl-date">Aug 6, 1965</div><div class="tl-event">Voting Rights Act signed into law, prohibiting discriminatory voting practices</div></div>
+<div class="tl-item"><div class="tl-date">2013</div><div class="tl-event">Supreme Court strikes down key enforcement provision of the Voting Rights Act in Shelby County v. Holder</div></div>
+<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Voter ID laws, polling place closures, and gerrymandering continue to disproportionately affect Black voters</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+
+    <p>The 15th Amendment to the U.S. Constitution was ratified on February 3, 1870.</p>
+
+    <p>It said that the right to vote could not be denied based on race, color, or previous condition of servitude.</p>
+
+    <p>It was a remarkable sentence for a country that had spent 250 years denying Black people nearly every legal right imaginable.</p>
+
+    <p>It lasted, in practice, about a decade.</p>
+
+    <p>By the 1880s, Southern states had developed what amounted to a second legal architecture designed to do what the 15th Amendment said they could not. Poll taxes required payment to vote, pricing out Black men who had been systematically excluded from economic opportunity. Literacy tests were administered selectively, with questions that were impossible by design for Black voters while white voters were waved through. Grandfather clauses allowed men to vote only if their grandfather had voted, which excluded every Black man descended from enslaved people.</p>
+
+    <p>Where legal barriers were not enough, violence filled the gap. The Ku Klux Klan and other groups murdered Black men who tried to register, burned their churches, and drove them from the polls. Local law enforcement looked the other way or participated directly.</p>
+
+    <p>The result was near-total disenfranchisement. In Mississippi in 1890, more than 190,000 Black men were eligible to vote. By 1892, fewer than 9,000 were registered.</p>
+
+    <p>This was not a failure of the Constitution. It was a deliberate dismantling of it.</p>
+
+    <p>The civil rights movement made voting rights central. Organizations like SNCC and the SCLC organized voter registration drives across the South, knowing that registration meant danger. Medgar Evers was murdered. Fannie Lou Hamer was beaten so severely after a registration attempt that she suffered permanent kidney damage. Four little girls were bombed in a Birmingham church. John Lewis's skull was fractured on the Edmund Pettus Bridge.</p>
+
+    <p>On August 6, 1965, President Lyndon Johnson signed the Voting Rights Act. It was among the most consequential pieces of legislation in American history. It prohibited discriminatory voting practices and required states with a history of suppression to get federal pre-clearance before changing their election laws.</p>
+
+    <p>For nearly fifty years, it worked.</p>
+
+    <p>In 2013, the Supreme Court struck down the pre-clearance provision in Shelby County v. Holder, ruling that the conditions that had justified it no longer existed. Within hours of the ruling, several states began implementing new restrictions.</p>
+
+    <p>The fight over voting rights is not finished. It was never finished.</p>
+
+    <p>Every generation has had to defend what the previous generation thought was settled.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>They gave us the right to vote, and then spent the next hundred years making sure we could not use it.</blockquote>
+    <cite>A recurring theme in the history of Black political participation</cite>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+    <p>Voting rights are not a historical topic. They are a present-day reality.</p>
+    <p>Since the 2013 Shelby County decision, states have closed polling places, implemented strict voter ID requirements, purged voter rolls, and drawn district lines that dilute Black political power. These measures are legal. They are also, by documented evidence, disproportionately applied in ways that affect Black voters.</p>
+    <p>The argument against seeing this as suppression is that the laws apply to everyone. The argument for it is that they do not affect everyone equally, and the history of who gets to vote in America is too specific to pretend otherwise.</p>
+    <p>What is not disputed is this: the right to vote is the foundation of every other right in a democracy. It is how communities protect themselves from policy, demand accountability, and participate in the decisions that shape their lives.</p>
+    <p>Black Americans have fought, bled, and died for that right. Repeatedly. In every generation.</p>
+    <p>That history deserves to be remembered by everyone who shows up to vote.</p>
+  </div>
+
+  <div class="section-divider"><span>Take the Quiz</span></div>
+  <a href="../index.html?day=2026-02-23" class="quiz-link-card">
+    <div>
+      <div class="quiz-link-label">Take the Quiz &middot; February 23 · Democracy & Power</div>
+      <div class="quiz-link-title">Test your knowledge on Voting Rights and Suppression</div>
+    </div>
+    <span class="quiz-link-arrow">&#x2192;</span>
+  </a>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <div class="connected-grid" id="connectedGrid" style="margin-top:0;"><!-- auto-generated --></div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.history.com/articles/voting-rights-act" target="_blank" rel="noopener" class="ext-link">
+  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">The Voting Rights Act of 1965 — History, Significance, and Legacy</div></div>
+  <span class="ext-arrow">&#x2197;</span>
+</a>
+<a href="https://www.smithsonianmag.com/history/long-painful-history-black-voting-rights-america-180956390/" target="_blank" rel="noopener" class="ext-link">
+  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">The Long, Painful History of Black Voting Rights in America</div></div>
+  <span class="ext-arrow">&#x2197;</span>
+</a>
+<a href="https://www.nps.gov/subjects/travelcivilrights/voting-rights.htm" target="_blank" rel="noopener" class="ext-link">
+  <div class="ext-left"><div class="ext-source">NPS</div><div class="ext-title">Voting Rights and the Civil Rights Movement — National Park Service</div></div>
+  <span class="ext-arrow">&#x2197;</span>
+</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+</footer>
+<script src="../encyclopedia-data.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var grid = document.getElementById('connectedGrid');
+  if (!grid) return;
+  var entryId = document.querySelector('[data-entry-id]');
+  if (!entryId) return;
+  var currentId = entryId.getAttribute('data-entry-id');
+  var connected = getConnections(currentId, 5);
+  if (!connected.length) { grid.parentElement.style.display='none'; return; }
+  connected.forEach(function(entry) {
+    var card = document.createElement('a');
+    card.href = '../' + entry.url;
+    card.className = 'connected-card';
+    card.innerHTML = '<div class="connected-type">Related Entry</div><div class="connected-name">' + entry.name + '</div><div class="connected-desc">' + entry.dates + ' &middot; ' + entry.category + '</div>';
+    grid.appendChild(card);
+  });
+});
+</script>
+</body>
+</html>
