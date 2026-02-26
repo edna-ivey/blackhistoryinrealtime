@@ -439,6 +439,92 @@ const ENCYCLOPEDIA = [
     desc: "The Emancipation Proclamation was signed in 1863. The last enslaved Texans were told they were free on June 19, 1865 — two and a half years later. Black communities have celebrated that day ever since."
   },
 
+
+  // Section 6: Days 22-28 (Systems, Modern Movement, Mis-Education)
+  {
+    id: "slave-patrols",
+    name: "Slave Patrols and the Origins of American Policing",
+    url: "encyclopedia/slave-patrols.html",
+    quizDay: "2026-02-22",
+    vol: "February 22",
+    dates: "1704 — Present",
+    category: "Systems",
+    barClass: "bar-red",
+    tags: ["slavery", "policing", "systems", "civil-rights", "ongoing", "1700s", "reconstruction", "jim-crow", "mass-incarceration"],
+    desc: "The first formal police forces in America were slave patrols. Their origins shaped an institution still reckoning with that history."
+  },
+  {
+    id: "voting-rights",
+    name: "Voting Rights and Suppression",
+    url: "encyclopedia/voting-rights.html",
+    quizDay: "2026-02-23",
+    vol: "February 23",
+    dates: "1870 — Present",
+    category: "Democracy",
+    barClass: "bar-green",
+    tags: ["voting", "civil-rights", "democracy", "jim-crow", "reconstruction", "systems", "ongoing", "1960s", "politics", "black-firsts"],
+    desc: "The 15th Amendment gave Black men the right to vote. It took another century of struggle to make that right real."
+  },
+  {
+    id: "education-inequality",
+    name: "Education Inequality by Design",
+    url: "encyclopedia/education-inequality.html",
+    quizDay: "2026-02-24",
+    vol: "February 24",
+    dates: "Ongoing",
+    category: "Education",
+    barClass: "bar-gold",
+    tags: ["education", "systems", "ongoing", "redlining", "civil-rights", "economics", "policy"],
+    desc: "There is no federal law requiring equal school funding. The ZIP code you are born into still shapes your educational future."
+  },
+  {
+    id: "13th-amendment",
+    name: "Mass Incarceration and the 13th Amendment",
+    url: "encyclopedia/13th-amendment.html",
+    quizDay: "2026-02-25",
+    vol: "February 25",
+    dates: "1865 — Present",
+    category: "Justice",
+    barClass: "bar-red",
+    tags: ["slavery", "systems", "ongoing", "reconstruction", "mass-incarceration", "policing", "jim-crow", "civil-rights", "1860s"],
+    desc: "The 13th Amendment abolished slavery except as punishment for crime. That exception became the foundation of a new system."
+  },
+  {
+    id: "environmental-racism",
+    name: "Environmental Racism",
+    url: "encyclopedia/environmental-racism.html",
+    quizDay: "2026-02-26",
+    vol: "February 26",
+    dates: "Ongoing",
+    category: "Environment",
+    barClass: "bar-green",
+    tags: ["systems", "ongoing", "redlining", "economics", "civil-rights", "policy", "health"],
+    desc: "In America, the most polluted places are rarely wealthy and rarely white. That pattern has a name."
+  },
+  {
+    id: "modern-civil-rights",
+    name: "Modern Civil Rights Leaders",
+    url: "encyclopedia/modern-civil-rights.html",
+    quizDay: "2026-02-27",
+    vol: "February 27",
+    dates: "2013 — Present",
+    category: "Movement",
+    barClass: "bar-purple",
+    tags: ["civil-rights", "ongoing", "policing", "politics", "black-firsts", "representation", "2010s", "voting", "systems"],
+    desc: "Black Lives Matter. Equal Justice Initiative. Fair Fight. The civil rights movement did not end in 1965. It continued."
+  },
+  {
+    id: "mis-education",
+    name: "The Mis-Education of the Negro",
+    url: "encyclopedia/mis-education.html",
+    quizDay: "2026-02-28",
+    vol: "February 28",
+    dates: "1933 — Present",
+    category: "Education",
+    barClass: "bar-gold",
+    tags: ["education", "ongoing", "identity", "civil-rights", "culture", "systems", "1930s"],
+    desc: "Carter G. Woodson argued that the greatest threat was not oppression from outside but the loss of self from within."
+  },
 ];
 
 // -----------------------------------------------------------------------
