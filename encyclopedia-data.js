@@ -343,7 +343,7 @@ const ENCYCLOPEDIA = [
   {
     id: "barack-obama",
     name: "Barack Obama",
-    url: "encyclopedia/barack-obama.html",
+    url: "barack-obama.html",
     quizDay: "2026-02-29",
     vol: "February 29* · 44th & Forever",
     dates: "1961 — Present",
@@ -357,7 +357,7 @@ const ENCYCLOPEDIA = [
   {
     id: "black-press",
     name: "The Black Press & Media",
-    url: "encyclopedia/black-press.html",
+    url: "black-press.html",
     quizDay: "2026-02-22",
     vol: "Vol. 1 · Feb 2026",
     dates: "1827 — Present",
@@ -369,7 +369,7 @@ const ENCYCLOPEDIA = [
   {
     id: "black-wall-street",
     name: "Black Wall Street",
-    url: "encyclopedia/black-wall-street.html",
+    url: "black-wall-street.html",
     quizDay: "2026-02-23",
     vol: "Vol. 1 · Feb 2026",
     dates: "Circa 1905 — Present",
@@ -381,7 +381,7 @@ const ENCYCLOPEDIA = [
   {
     id: "harlem-renaissance",
     name: "The Harlem Renaissance",
-    url: "encyclopedia/harlem-renaissance.html",
+    url: "harlem-renaissance.html",
     quizDay: "2026-02-24",
     vol: "Vol. 1 · Feb 2026",
     dates: "Circa 1920 — 1935",
@@ -393,7 +393,7 @@ const ENCYCLOPEDIA = [
   {
     id: "black-women-in-politics",
     name: "Black Women in Politics",
-    url: "encyclopedia/black-women-in-politics.html",
+    url: "black-women-in-politics.html",
     quizDay: "2026-02-25",
     vol: "Vol. 1 · Feb 2026",
     dates: "1868 — Present",
@@ -405,7 +405,7 @@ const ENCYCLOPEDIA = [
   {
     id: "hbcus",
     name: "HBCUs",
-    url: "encyclopedia/hbcus.html",
+    url: "hbcus.html",
     quizDay: "2026-02-26",
     vol: "Vol. 1 · Feb 2026",
     dates: "1837 — Present",
@@ -417,7 +417,7 @@ const ENCYCLOPEDIA = [
   {
     id: "great-migration",
     name: "The Great Migration",
-    url: "encyclopedia/great-migration.html",
+    url: "great-migration.html",
     quizDay: "2026-02-27",
     vol: "Vol. 1 · Feb 2026",
     dates: "1916 — 1970",
@@ -429,7 +429,7 @@ const ENCYCLOPEDIA = [
   {
     id: "juneteenth",
     name: "Juneteenth",
-    url: "encyclopedia/juneteenth.html",
+    url: "juneteenth.html",
     quizDay: "2026-02-28",
     vol: "Vol. 1 · Feb 2026",
     dates: "June 19, 1865 — Present",
@@ -444,7 +444,7 @@ const ENCYCLOPEDIA = [
   {
     id: "slave-patrols",
     name: "Slave Patrols and the Origins of American Policing",
-    url: "encyclopedia/slave-patrols.html",
+    url: "slave-patrols.html",
     quizDay: "2026-02-22",
     vol: "February 22",
     dates: "1704 — Present",
@@ -456,7 +456,7 @@ const ENCYCLOPEDIA = [
   {
     id: "voting-rights",
     name: "Voting Rights and Suppression",
-    url: "encyclopedia/voting-rights.html",
+    url: "voting-rights.html",
     quizDay: "2026-02-23",
     vol: "February 23",
     dates: "1870 — Present",
@@ -468,7 +468,7 @@ const ENCYCLOPEDIA = [
   {
     id: "education-inequality",
     name: "Education Inequality by Design",
-    url: "encyclopedia/education-inequality.html",
+    url: "education-inequality.html",
     quizDay: "2026-02-24",
     vol: "February 24",
     dates: "Ongoing",
@@ -480,7 +480,7 @@ const ENCYCLOPEDIA = [
   {
     id: "13th-amendment",
     name: "Mass Incarceration and the 13th Amendment",
-    url: "encyclopedia/13th-amendment.html",
+    url: "13th-amendment.html",
     quizDay: "2026-02-25",
     vol: "February 25",
     dates: "1865 — Present",
@@ -492,7 +492,7 @@ const ENCYCLOPEDIA = [
   {
     id: "environmental-racism",
     name: "Environmental Racism",
-    url: "encyclopedia/environmental-racism.html",
+    url: "environmental-racism.html",
     quizDay: "2026-02-26",
     vol: "February 26",
     dates: "Ongoing",
@@ -504,7 +504,7 @@ const ENCYCLOPEDIA = [
   {
     id: "modern-civil-rights",
     name: "Modern Civil Rights Leaders",
-    url: "encyclopedia/modern-civil-rights.html",
+    url: "modern-civil-rights.html",
     quizDay: "2026-02-27",
     vol: "February 27",
     dates: "2013 — Present",
@@ -516,7 +516,7 @@ const ENCYCLOPEDIA = [
   {
     id: "mis-education",
     name: "The Mis-Education of the Negro",
-    url: "encyclopedia/mis-education.html",
+    url: "mis-education.html",
     quizDay: "2026-02-28",
     vol: "February 28",
     dates: "1933 — Present",
