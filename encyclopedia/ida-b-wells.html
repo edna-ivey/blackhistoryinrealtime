@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ida B. Wells &mdash; Black History in Real Time Encyclopedia</title>
+<meta name="description" content="She documented lynching in America when no newspaper would. A mob burned her press. She published from exile and never stopped. The tradition of accountability journalism begins with her.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
+@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
+.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
+nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
+nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
+.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
+.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
+.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
+.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
+.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
+.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}
+.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}
+.why-section p:last-child{margin-bottom:0;}
+.cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}
+.cost-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+.cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
+.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
+.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
+.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
+.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
+.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
+.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
+.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+.external-links{display:flex;flex-direction:column;gap:10px;}
+.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
+.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
+.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
+footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+
+.quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all 0.2s;margin-bottom:12px;}
+.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+.quiz-card-left{flex:1;}
+.quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}
+.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}
+.quiz-card-icon{font-size:1.8rem;flex-shrink:0;}
+
+</style>
+</head>
+<body data-entry-id="ida-b-wells">
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
+<main>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>March 2 &middot; Journalism &amp; Courage</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">March 2 &middot; Journalism &amp; Courage</div>
+    <h1>Ida B. Wells</h1>
+    <p class="entry-tagline">After three of her close friends were lynched in Memphis in 1892, Ida B. Wells began a systematic investigation into racial terror across the South. She documented names, dates, and patterns. She revealed that the accusations used to justify lynching were almost always fabricated. A mob burned her newspaper office. She was threatened with death. She published from exile and never stopped.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1862 &mdash; 1931</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+      <div class="tl-item"><div class="tl-date">Jul 16, 1862</div><div class="tl-event">Born enslaved in Holly Springs, Mississippi, six months before the Emancipation Proclamation</div></div>
+      <div class="tl-item"><div class="tl-date">1878</div><div class="tl-event">Orphaned at 16 during yellow fever epidemic; raises her siblings</div></div>
+      <div class="tl-item"><div class="tl-date">1884</div><div class="tl-event">Refuses to give up her train seat; sues and wins, then loses on appeal</div></div>
+      <div class="tl-item"><div class="tl-date">1889</div><div class="tl-event">Becomes co-owner of the Memphis Free Speech newspaper</div></div>
+      <div class="tl-item"><div class="tl-date">1892</div><div class="tl-event">Three friends lynched; begins anti-lynching investigation; press burned; flees Memphis</div></div>
+      <div class="tl-item"><div class="tl-date">1895</div><div class="tl-event">Publishes A Red Record, the first statistical study of lynching in America</div></div>
+      <div class="tl-item"><div class="tl-date">1909</div><div class="tl-event">Co-founds the NAACP</div></div>
+      <div class="tl-item"><div class="tl-date">Mar 25, 1931</div><div class="tl-event">Dies in Chicago at age 68</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+    <p>Ida B. Wells was born enslaved in Holly Springs, Mississippi, on July 16, 1862 &mdash; six months before the Emancipation Proclamation. Her parents died in a yellow fever epidemic when she was sixteen, leaving her to raise five siblings. She lied about her age to get a teaching job and did it.</p>
+    <p>In 1884, she refused to give up her seat in a first-class railroad car in Tennessee. She was forcibly removed. She sued the railroad and won in circuit court. The Tennessee Supreme Court reversed the decision. She wrote about it. She had found her method: document everything, name names, publish.</p>
+    <p>By 1889 she was co-owner of a Memphis newspaper called the Free Speech and Headlight. In 1892, three of her close friends &mdash; Thomas Moss, Calvin McDowell, and Will Stewart, all successful Black business owners &mdash; were lynched by a white mob. Their crime was that their grocery store was outcompeting a white-owned store nearby.</p>
+    <p>Wells began investigating. She traveled to crime scenes. She interviewed witnesses and survivors. She reviewed the newspaper accounts that had justified the killings and compared them to the facts. What she found was consistent and damning: the overwhelming majority of lynchings were not committed in response to crimes. They were committed in response to Black economic success, Black political participation, and Black resistance to white supremacy. The accusations were cover stories.</p>
+    <p>She published her findings in the Free Speech. The response was swift. While she was traveling in New York, a white mob destroyed her newspaper office and printing press. Anonymous threats warned she would be killed if she returned to Memphis. She did not return.</p>
+    <p>She continued her anti-lynching campaign from New York and later Chicago. She published pamphlets that were distributed internationally, including in Britain, where she built a coalition of allies who pressured American officials. She documented thousands of lynchings with names, dates, locations, and stated justifications, creating an archive of racial terror that no one else was willing to compile.</p>
+    <p>In 1895 she published A Red Record, the first statistical study of lynching in America. In 1909 she helped co-found the NAACP, though she later broke with the organization over strategic disagreements &mdash; she was, by that point, too radical for the more conciliatory approach the NAACP preferred.</p>
+    <p>She spent the rest of her life in Chicago, organizing, writing, and running for office. She died on March 25, 1931. She was sixty-eight years old.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>The way to right wrongs is to turn the light of truth upon them.</blockquote>
+    <cite>Ida B. Wells, 1892</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+    <p>A mob destroyed her newspaper office and printing press. She received death threats credible enough that she never returned to Memphis. She spent years organizing in exile, funded by lectures and donations, without institutional support. The NAACP she helped co-found later marginalized her. She ran for office twice and lost. She was largely written out of the civil rights history she helped create. A Pulitzer Prize was awarded to her posthumously in 2020 &mdash; eighty-nine years after her death.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+    <p>Ida B. Wells invented what we now call accountability journalism. Before her, no one was systematically documenting racial terror in America with names, dates, and facts. She did it alone, with a printing press, in the face of death threats.</p>
+    <p>The tradition of using journalism to expose institutional violence &mdash; the idea that documentation is a form of resistance &mdash; has her name on it. Every reporter who has covered police brutality, wrongful imprisonment, or racially motivated violence is working in the method she built.</p>
+    <p>She also understood something that many journalists still struggle with: neutrality is not the same as truth. When one party has all the power and the other party has none, pretending to be equally skeptical of both is not fairness. It is complicity. She wrote that plainly. She practiced it consistently.</p>
+    <p>Her story also refuses easy resolution. She was not celebrated in her lifetime. She was not fully embraced by the organizations she helped create. She was too confrontational, too unwilling to compromise, too clear-eyed about the scale of what she was fighting. That made her harder to institutionalize and easier to forget. She should not be forgotten.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+    <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../index.html#quiz" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; March 2</div>
+        <div class="quiz-card-title">Test your knowledge on Ida B. Wells & Investigative Journalism</div>
+      </div>
+      <div class="quiz-card-icon">&#x270A;&#x1F3FE;</div>
+    </a>
+    <div class="connected-grid" id="connectedGrid" style="margin-top:0;">
+      <a href="../encyclopedia/fannie-lou-hamer.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Fannie Lou Hamer</div>
+        <div class="connected-desc">1917 — 1977 &middot; People</div>
+      </a>
+      <a href="../encyclopedia/claudette-colvin.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Claudette Colvin</div>
+        <div class="connected-desc">1939 — Present &middot; People</div>
+      </a>
+      <a href="../encyclopedia/septima-clark.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Septima Clark</div>
+        <div class="connected-desc">1898 — 1987 &middot; People</div>
+      </a>
+      <a href="../encyclopedia/modern-civil-rights.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Modern Civil Rights Leaders</div>
+        <div class="connected-desc">2013 — Present &middot; People</div>
+      </a>
+      <a href="../encyclopedia/tulsa-massacre.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Tulsa Race Massacre</div>
+        <div class="connected-desc">May 31 — June 1, 1921 &middot; Events</div>
+      </a>
+    </div>
+  </div>
+
+  
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+      <a href="https://www.history.com/topics/black-history/ida-b-wells" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">Ida B. Wells: Journalist, Activist, and Anti-Lynching Crusader</div></div><span class="ext-arrow">&#x2197;</span></a>
+      <a href="https://www.womenshistory.org/education-resources/biographies/ida-wells-barnett" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">National Women's History Museum</div><div class="ext-title">Ida B. Wells-Barnett</div></div><span class="ext-arrow">&#x2197;</span></a>
+      <a href="https://www.smithsonianmag.com/history/ida-b-wells-activist-journalist-pioneered-civil-rights-180975172/" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">The Radical Work of Ida B. Wells</div></div><span class="ext-arrow">&#x2197;</span></a>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+<script src="../encyclopedia-data.js"></script>
+<script>
+(function(){
+  var pageId = document.body.dataset.entryId;
+  if(!pageId) return;
+  var connections = getConnections(pageId, 5);
+  var grid = document.getElementById('connectedGrid');
+  if(!grid || !connections.length) return;
+  var html = '';
+  connections.forEach(function(e){
+    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
+          + '<div class="connected-type">Related Entry</div>'
+          + '<div class="connected-name">'+e.name+'</div>'
+          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
+          + '</a>';
+  });
+  grid.innerHTML = html;
+})();
+</script>
+</body>
+</html>

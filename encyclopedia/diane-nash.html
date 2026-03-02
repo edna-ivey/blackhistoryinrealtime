@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diane Nash &mdash; Black History in Real Time Encyclopedia</title>
+<meta name="description" content="She co-founded SNCC, organized the Nashville sit-ins, and kept the Freedom Rides going when violence tried to stop them. She was twenty-two. She designed the strategy.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
+@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
+.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
+nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
+nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
+.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
+.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
+.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--green),#2d9e5f);}
+.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
+.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
+.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
+.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}
+.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}
+.why-section p:last-child{margin-bottom:0;}
+.cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}
+.cost-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+.cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
+.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
+.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
+.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
+.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
+.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
+.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
+.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+.external-links{display:flex;flex-direction:column;gap:10px;}
+.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
+.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
+.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
+footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+
+.quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all 0.2s;margin-bottom:12px;}
+.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+.quiz-card-left{flex:1;}
+.quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}
+.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}
+.quiz-card-icon{font-size:1.8rem;flex-shrink:0;}
+
+</style>
+</head>
+<body data-entry-id="diane-nash">
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
+<main>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>March 9 &middot; Resistance &amp; Leadership</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">March 9 &middot; Resistance &amp; Leadership</div>
+    <h1>Diane Nash</h1>
+    <p class="entry-tagline">Diane Nash grew up in Chicago and arrived at Fisk University in Nashville in 1959. Her first encounter with Southern segregation shook her. Within months she was one of the most effective civil rights strategists in the country. She co-founded the Student Nonviolent Coordinating Committee, organized the Nashville sit-ins that desegregated downtown, confronted the mayor of Nashville on his steps, and kept the Freedom Rides going when violence threatened to stop them. She did all of this by the time she was twenty-two years old.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1938 &mdash; Present</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+      <div class="tl-item"><div class="tl-date">May 15, 1938</div><div class="tl-event">Born in Chicago, Illinois</div></div>
+      <div class="tl-item"><div class="tl-date">1959</div><div class="tl-event">Arrives at Fisk University in Nashville; first encounter with legal segregation</div></div>
+      <div class="tl-item"><div class="tl-date">1960</div><div class="tl-event">Leads Nashville sit-in campaign; desegregates downtown lunch counters</div></div>
+      <div class="tl-item"><div class="tl-date">Apr 1960</div><div class="tl-event">Co-founds the Student Nonviolent Coordinating Committee at Shaw University</div></div>
+      <div class="tl-item"><div class="tl-date">May 1961</div><div class="tl-event">Takes over coordination of Freedom Rides after attack in Anniston, Alabama</div></div>
+      <div class="tl-item"><div class="tl-date">1962</div><div class="tl-event">Convicted in Mississippi for civil rights work while pregnant; serves jail time</div></div>
+      <div class="tl-item"><div class="tl-date">1963</div><div class="tl-event">Drafts strategy document that helps lead to the Civil Rights Act of 1964</div></div>
+      <div class="tl-item"><div class="tl-date">1966</div><div class="tl-event">Awarded the Distinguished American Award by President Johnson; declines to attend</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+    <p>Diane Nash was born in Chicago in 1938 and grew up in a middle-class Catholic household on the North Side. She attended a mostly white Catholic high school. She was, by her own account, largely sheltered from the direct experience of Southern segregation.</p>
+    <p>In 1959, she enrolled at Fisk University in Nashville, Tennessee. Her first encounter with legal segregation &mdash; a segregated water fountain &mdash; stopped her. She later said she felt physically ill. She had known intellectually that segregation existed. Seeing it in front of her, a simple water fountain with a sign designating it for white people only, made it real in a different way.</p>
+    <p>She began attending nonviolent direct action workshops led by James Lawson, a theology student who had studied the methods of Gandhi in India and was teaching them to Nashville students. Nash became one of his most committed and effective students. She understood nonviolent direct action not as passivity but as strategy &mdash; a disciplined, coordinated method of confronting injustice in a way that forced the confrontation into the open.</p>
+    <p>In February 1960, Nash helped lead the Nashville sit-in campaign. Students, trained in nonviolent discipline, sat down at segregated lunch counters in downtown Nashville day after day, absorbing verbal and physical harassment without responding in kind. The campaign was sustained and systematic. It drew national attention.</p>
+    <p>When the Nashville city government tried to negotiate a compromise, Nash rejected it. She organized a march to City Hall and confronted Mayor Ben West on the steps. She asked him directly, in front of reporters and the crowd: was it wrong to discriminate against a person solely on the basis of their race? He said yes. Nashville began desegregating its lunch counters within weeks.</p>
+    <p>In April 1960, she co-founded the Student Nonviolent Coordinating Committee at a conference at Shaw University in Raleigh. SNCC became one of the most important civil rights organizations of the 1960s.</p>
+    <p>In May 1961, the Congress of Racial Equality's Freedom Rides were halted in Anniston, Alabama, after a bus was firebombed and riders were beaten. The federal government pressured the rides to stop. Nash, then twenty-two, organized a second wave of riders and insisted the rides continue. Stopping, she argued, would communicate to the movement's opponents that violence was an effective tool. She recruited riders, arranged their training, and coordinated their arrival in Birmingham.</p>
+    <p>In 1962, she was convicted on charges related to her civil rights work in Mississippi while pregnant. Rather than accept a suspended sentence, she chose to go to jail, writing publicly that she would not pay a fine to a system she was working to dismantle. She served time in a Mississippi jail while pregnant.</p>
+    <p>She continued organizing throughout the decade and is credited with drafting a strategic blueprint that influenced the legislation that became the Civil Rights Act of 1964. In 1966, President Johnson awarded her the Distinguished American Award. She declined to attend the ceremony.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>We will not stop. If they jail us, we will go to jail. If they beat us, we will keep riding. Letting them stop us would tell everyone that the way to stop the civil rights movement is to threaten it with violence.</blockquote>
+    <cite>Diane Nash, on continuing the Freedom Rides, 1961</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+    <p>She was arrested multiple times for her organizing work. She served time in a Mississippi jail while pregnant rather than accept a suspended sentence from a system she was working to dismantle. She faced sustained violence and threats throughout the Freedom Rides. She has spoken in later years about the physical toll and psychological weight of that period. Despite her central strategic role in the movement, she is less frequently named in mainstream civil rights history than figures who were less directly involved in tactical decision-making.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+    <p>Diane Nash's story reframes what civil rights leadership looks like. She was not a charismatic preacher. She was a strategist. She understood nonviolent direct action as a tactical system with rules, discipline, and a theory of how confrontation produces change. She applied it consistently and effectively.</p>
+    <p>The decision to continue the Freedom Rides after the bombing and beatings in Anniston is one of the most significant strategic moments of the civil rights era. Stopping would have established a precedent: that violence works as a deterrent. Nash understood this clearly and refused to accept it. Her decision to continue the rides, over the objections of the Kennedy administration, changed the outcome of that campaign.</p>
+    <p>She was twenty-two years old when she made that decision. She was younger than most people reading this now. Age is not a barrier to clarity about what is right.</p>
+    <p>Her erasure from the central narrative of civil rights history follows a pattern. The strategists &mdash; particularly the women strategists &mdash; are less celebrated than the speakers. Ella Baker had the same experience. Fannie Lou Hamer had the same experience. Septima Clark had the same experience. The movement ran on their work. The history celebrates other names. That is still being corrected.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+    <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../index.html#quiz" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; March 9</div>
+        <div class="quiz-card-title">Test your knowledge on Diane Nash & SNCC Strategy</div>
+      </div>
+      <div class="quiz-card-icon">&#x270A;&#x1F3FE;</div>
+    </a>
+    <div class="connected-grid" id="connectedGrid" style="margin-top:0;">
+      <a href="../encyclopedia/fannie-lou-hamer.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Fannie Lou Hamer</div>
+        <div class="connected-desc">1917 — 1977 &middot; People</div>
+      </a>
+      <a href="../encyclopedia/septima-clark.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Septima Clark</div>
+        <div class="connected-desc">1898 — 1987 &middot; People</div>
+      </a>
+      <a href="../encyclopedia/cointelpro.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">COINTELPRO</div>
+        <div class="connected-desc">1956 — 1971 &middot; Systems</div>
+      </a>
+      <a href="../encyclopedia/claudette-colvin.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Claudette Colvin</div>
+        <div class="connected-desc">1939 — Present &middot; People</div>
+      </a>
+      <a href="../encyclopedia/shirley-chisholm.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Shirley Chisholm</div>
+        <div class="connected-desc">1924 — 2005 &middot; People</div>
+      </a>
+    </div>
+  </div>
+
+  
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+      <a href="https://www.history.com/topics/black-history/diane-nash" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">Diane Nash: Civil Rights Activist Who Led Nashville Sit-Ins</div></div><span class="ext-arrow">&#x2197;</span></a>
+      <a href="https://www.womenshistory.org/education-resources/biographies/diane-nash" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">National Women's History Museum</div><div class="ext-title">Diane Nash</div></div><span class="ext-arrow">&#x2197;</span></a>
+      <a href="https://www.smithsonianmag.com/history/diane-nash-architect-civil-rights-180960989/" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">The Young Architect of the Civil Rights Movement</div></div><span class="ext-arrow">&#x2197;</span></a>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+<script src="../encyclopedia-data.js"></script>
+<script>
+(function(){
+  var pageId = document.body.dataset.entryId;
+  if(!pageId) return;
+  var connections = getConnections(pageId, 5);
+  var grid = document.getElementById('connectedGrid');
+  if(!grid || !connections.length) return;
+  var html = '';
+  connections.forEach(function(e){
+    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
+          + '<div class="connected-type">Related Entry</div>'
+          + '<div class="connected-name">'+e.name+'</div>'
+          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
+          + '</a>';
+  });
+  grid.innerHTML = html;
+})();
+</script>
+</body>
+</html>
