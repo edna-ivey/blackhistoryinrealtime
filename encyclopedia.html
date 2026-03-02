@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Encyclopedia — Black History in Real Time</title>
+<title>Encyclopedia &mdash; Black History in Real Time</title>
 <meta name="description" content="Full biographical profiles of the people and events in Black history. Deep dives, timelines, and connections across the full story.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
@@ -21,200 +21,52 @@
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
-  body {
-    background: var(--black);
-    color: var(--cream);
-    font-family: 'DM Sans', sans-serif;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 0;
-  }
+  body { background: var(--black); color: var(--cream); font-family: 'DM Sans', sans-serif; min-height: 100vh; overflow-x: hidden; }
+  body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); pointer-events: none; z-index: 0; }
 
   .pan-stripe { display: flex; height: 6px; width: 100%; }
   .pan-stripe .s1 { background: var(--red); flex: 1; }
   .pan-stripe .s2 { background: #111; flex: 1; }
   .pan-stripe .s3 { background: var(--green); flex: 1; }
 
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 50;
-    background: rgba(10,10,10,0.97);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
-  }
-  .header-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 14px 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-  }
-  .logo-area {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    text-decoration: none;
-  }
-  .logo-img {
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 0 0 2px var(--gold), 0 0 20px rgba(212,160,23,0.3);
-    animation: glow 3s ease-in-out infinite;
-    flex-shrink: 0;
-  }
-  @keyframes glow {
-    0%,100% { box-shadow: 0 0 0 2px var(--gold), 0 0 16px rgba(212,160,23,0.3); }
-    50% { box-shadow: 0 0 0 2px var(--gold), 0 0 32px rgba(212,160,23,0.6); }
-  }
+  header { position: sticky; top: 0; z-index: 50; background: rgba(10,10,10,0.97); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+  .header-inner { max-width: 1100px; margin: 0 auto; padding: 14px 32px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .logo-area { display: flex; align-items: center; gap: 14px; text-decoration: none; }
+  .logo-img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 2px var(--gold), 0 0 20px rgba(212,160,23,0.3); animation: glow 3s ease-in-out infinite; flex-shrink: 0; }
+  @keyframes glow { 0%,100% { box-shadow: 0 0 0 2px var(--gold), 0 0 16px rgba(212,160,23,0.3); } 50% { box-shadow: 0 0 0 2px var(--gold), 0 0 32px rgba(212,160,23,0.6); } }
   .logo-text h1 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 2px; color: var(--white); line-height: 1; }
   .logo-text h1 span { color: var(--gold); }
   .logo-text p { font-size: 0.65rem; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-top: 1px; }
 
-  nav {
-    border-top: 1px solid rgba(212,160,23,0.1);
-    display: flex;
-    justify-content: center;
-    gap: 0;
-    padding: 0 32px;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
+  nav { border-top: 1px solid rgba(212,160,23,0.1); display: flex; justify-content: center; gap: 0; padding: 0 32px; overflow-x: auto; scrollbar-width: none; }
   nav::-webkit-scrollbar { display: none; }
-  nav a {
-    background: none;
-    border: none;
-    border-bottom: 3px solid transparent;
-    color: rgba(245,237,216,0.45);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.78rem;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    padding: 12px 18px;
-    cursor: pointer;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-    display: inline-block;
-  }
+  nav a { background: none; border: none; border-bottom: 3px solid transparent; color: rgba(245,237,216,0.45); font-family: 'DM Sans', sans-serif; font-size: 0.78rem; letter-spacing: 2.5px; text-transform: uppercase; padding: 12px 18px; cursor: pointer; transition: all 0.2s; white-space: nowrap; text-decoration: none; display: inline-block; }
   nav a:hover { color: var(--cream); }
   nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
 
-  main {
-    position: relative;
-    z-index: 1;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 56px 32px 100px;
-  }
+  main { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 56px 32px 100px; }
 
-  /* PAGE HEADER */
-  .page-header {
-    text-align: center;
-    margin-bottom: 56px;
-    animation: fadeUp 0.5s ease both;
-  }
-  .page-label {
-    font-size: 0.72rem;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 12px;
-  }
-  .page-header h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(2.2rem, 5vw, 3.5rem);
-    font-weight: 900;
-    color: var(--white);
-    line-height: 1.1;
-    margin-bottom: 16px;
-  }
-  .page-header p {
-    font-size: 1rem;
-    line-height: 1.7;
-    color: rgba(245,237,216,0.6);
-    max-width: 600px;
-    margin: 0 auto;
-  }
+  .page-header { text-align: center; margin-bottom: 56px; animation: fadeUp 0.5s ease both; }
+  .page-label { font-size: 0.72rem; letter-spacing: 5px; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+  .page-header h2 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 900; color: var(--white); line-height: 1.1; margin-bottom: 16px; }
+  .page-header p { font-size: 1rem; line-height: 1.7; color: rgba(245,237,216,0.6); max-width: 600px; margin: 0 auto; }
 
-  /* SEARCH */
-  .search-wrap {
-    margin-bottom: 40px;
-    animation: fadeUp 0.5s ease 0.1s both;
-  }
-  .search-input {
-    width: 100%;
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 16px 22px;
-    color: var(--cream);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 1rem;
-    outline: none;
-    transition: border-color 0.2s;
-  }
+  .search-wrap { margin-bottom: 40px; animation: fadeUp 0.5s ease 0.1s both; }
+  .search-input { width: 100%; background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 16px 22px; color: var(--cream); font-family: 'DM Sans', sans-serif; font-size: 1rem; outline: none; transition: border-color 0.2s; }
   .search-input::placeholder { color: rgba(245,237,216,0.3); }
   .search-input:focus { border-color: var(--gold); }
 
-  /* FILTER TABS */
-  .filter-row {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    margin-bottom: 36px;
-    animation: fadeUp 0.5s ease 0.15s both;
-  }
-  .filter-btn {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(212,160,23,0.15);
-    border-radius: 100px;
-    padding: 7px 16px;
-    color: rgba(245,237,216,0.5);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.75rem;
-    letter-spacing: 1.5px;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
+  .filter-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 36px; animation: fadeUp 0.5s ease 0.15s both; }
+  .filter-btn { background: rgba(255,255,255,0.04); border: 1px solid rgba(212,160,23,0.15); border-radius: 100px; padding: 7px 16px; color: rgba(245,237,216,0.5); font-family: 'DM Sans', sans-serif; font-size: 0.75rem; letter-spacing: 1.5px; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
   .filter-btn:hover { background: rgba(212,160,23,0.08); color: var(--cream); border-color: rgba(212,160,23,0.4); }
   .filter-btn.active { background: rgba(212,160,23,0.15); color: var(--gold); border-color: var(--gold); }
 
-  /* ENTRIES GRID */
-  .entries-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 16px;
-    animation: fadeUp 0.5s ease 0.2s both;
-  }
+  .entries-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; animation: fadeUp 0.5s ease 0.2s both; }
 
-  .entry-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    overflow: hidden;
-    text-decoration: none;
-    display: block;
-    transition: all 0.22s;
-    position: relative;
-  }
+  .entry-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; text-decoration: none; display: block; transition: all 0.22s; position: relative; }
   .entry-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,0.4); }
 
-  .entry-card-bar {
-    height: 4px;
-    background: linear-gradient(90deg, var(--red), var(--gold));
-  }
+  .entry-card-bar { height: 4px; background: linear-gradient(90deg, var(--red), var(--gold)); }
   .entry-card-bar.politics { background: linear-gradient(90deg, var(--green), #2d9e5f); }
   .entry-card-bar.innovation { background: linear-gradient(90deg, var(--orange), var(--gold)); }
   .entry-card-bar.erasure { background: linear-gradient(90deg, #444, var(--red)); }
@@ -222,91 +74,21 @@
   .entry-card-bar.systems { background: linear-gradient(90deg, #333, var(--orange)); }
 
   .entry-card-body { padding: 22px 22px 20px; }
-
-  .entry-vol {
-    font-size: 0.62rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 8px;
-  }
-  .entry-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: var(--white);
-    line-height: 1.25;
-    margin-bottom: 6px;
-  }
-  .entry-dates {
-    font-size: 0.68rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: rgba(212,160,23,0.6);
-    margin-bottom: 10px;
-  }
-  .entry-desc {
-    font-size: 0.85rem;
-    line-height: 1.65;
-    color: rgba(245,237,216,0.6);
-    margin-bottom: 14px;
-  }
-  .entry-cat {
-    display: inline-block;
-    background: rgba(212,160,23,0.08);
-    border: 1px solid rgba(212,160,23,0.2);
-    border-radius: 100px;
-    padding: 4px 12px;
-    font-size: 0.65rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: rgba(212,160,23,0.7);
-  }
-  .entry-arrow {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    color: var(--gold);
-    opacity: 0;
-    transition: opacity 0.2s;
-    font-size: 1.1rem;
-  }
+  .entry-vol { font-size: 0.62rem; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+  .entry-name { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; color: var(--white); line-height: 1.25; margin-bottom: 6px; }
+  .entry-dates { font-size: 0.68rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(212,160,23,0.6); margin-bottom: 10px; }
+  .entry-desc { font-size: 0.85rem; line-height: 1.65; color: rgba(245,237,216,0.6); margin-bottom: 14px; }
+  .entry-cat { display: inline-block; background: rgba(212,160,23,0.08); border: 1px solid rgba(212,160,23,0.2); border-radius: 100px; padding: 4px 12px; font-size: 0.65rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(212,160,23,0.7); }
+  .entry-arrow { position: absolute; bottom: 20px; right: 20px; color: var(--gold); opacity: 0; transition: opacity 0.2s; font-size: 1.1rem; }
   .entry-card:hover .entry-arrow { opacity: 1; }
 
-  /* VOLUME HEADERS */
-  .vol-header {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    margin: 48px 0 24px;
-  }
-  .vol-header:first-of-type { margin-top: 0; }
-  .vol-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: 5px;
-    color: var(--white);
-    white-space: nowrap;
-  }
-  .vol-line { flex: 1; height: 1px; background: linear-gradient(90deg, var(--gold), transparent); opacity: 0.3; }
-
-  /* NO RESULTS */
   .no-results { text-align: center; padding: 60px 0; color: rgba(245,237,216,0.3); font-size: 0.95rem; display: none; }
 
-  footer {
-    position: relative;
-    z-index: 1;
-    border-top: 1px solid rgba(212,160,23,0.15);
-    padding: 28px 32px;
-    text-align: center;
-  }
+  footer { position: relative; z-index: 1; border-top: 1px solid rgba(212,160,23,0.15); padding: 28px 32px; text-align: center; }
   footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
   footer a { color: var(--gold); text-decoration: none; }
 
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
 
   @media (max-width: 620px) {
     .header-inner { padding: 12px 16px; }
@@ -314,6 +96,8 @@
     nav a { padding: 10px 12px; font-size: 0.72rem; }
     main { padding: 32px 16px 80px; }
     .entries-grid { grid-template-columns: 1fr; }
+    .filter-row { gap: 6px; }
+    .filter-btn { font-size: 0.68rem; padding: 6px 12px; }
   }
 </style>
 </head>
@@ -354,368 +138,495 @@
 
   <div class="filter-row" id="filterRow">
     <button class="filter-btn active" onclick="setFilter('all', this)">All Entries</button>
-    <button class="filter-btn" onclick="setFilter('February', this)">February</button>
-    <button class="filter-btn" onclick="setFilter('People', this)">People</button>
-    <button class="filter-btn" onclick="setFilter('Events', this)">Events</button>
-    <button class="filter-btn" onclick="setFilter('Systems', this)">Systems & Policy</button>
-    <button class="filter-btn" onclick="setFilter('Culture', this)">Culture</button>
-    <button class="filter-btn" id="sortBtn" style="margin-left:auto;" onclick="sortGrid(currentSort==='alpha'?'chrono':'alpha');document.getElementById('sortBtn').textContent=currentSort==='alpha'?'A\u2013Z \u2193':'By Date \u2193'">A–Z ↓</button>
+    <button class="filter-btn" onclick="setFilter('february', this)">February</button>
+    <button class="filter-btn" onclick="setFilter('march', this)">March</button>
+    <button class="filter-btn" onclick="setFilter('people', this)">People</button>
+    <button class="filter-btn" onclick="setFilter('events', this)">Events</button>
+    <button class="filter-btn" onclick="setFilter('systems', this)">Systems &amp; Policy</button>
+    <button class="filter-btn" onclick="setFilter('culture', this)">Culture</button>
+    <button class="filter-btn" onclick="setFilter('women', this)">Black Women</button>
+    <button class="filter-btn" onclick="setFilter('hidden-history', this)">Hidden History</button>
+    <button class="filter-btn" onclick="setFilter('economics', this)">Economics &amp; Wealth</button>
+    <button class="filter-btn" onclick="setFilter('science', this)">Science &amp; Medicine</button>
+    <button class="filter-btn" id="sortBtn" style="margin-left:auto;" onclick="toggleSort()">A&ndash;Z &#x2193;</button>
   </div>
 
   <div id="entriesContainer">
-
     <div class="entries-grid" id="entriesGrid">
+
+      <!-- ===== FEBRUARY ENTRIES ===== -->
 
       <a href="encyclopedia/carter-woodson.html" class="entry-card" data-tags="february people foundations education">
         <div class="entry-card-bar"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 1 · Foundations &amp; Education</div>
+          <div class="entry-vol">February 1 &middot; Foundations &amp; Education</div>
           <div class="entry-name">Carter G. Woodson</div>
-          <div class="entry-dates">1875 — 1950</div>
+          <div class="entry-dates">1875 &mdash; 1950</div>
           <div class="entry-desc">The Father of Black History, who created what became Black History Month in 1926 to correct the systematic erasure of Black Americans from textbooks.</div>
           <span class="entry-cat">People</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/shirley-chisholm.html" class="entry-card" data-tags="february people politics">
+      <a href="encyclopedia/shirley-chisholm.html" class="entry-card" data-tags="february people politics women">
         <div class="entry-card-bar politics"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 2 · Politics &amp; Government</div>
+          <div class="entry-vol">February 2 &middot; Politics &amp; Government</div>
           <div class="entry-name">Shirley Chisholm</div>
-          <div class="entry-dates">1924 — 2005</div>
+          <div class="entry-dates">1924 &mdash; 2005</div>
           <div class="entry-desc">First Black woman elected to Congress and first Black woman to run for President of the United States, in 1972. She ran to win.</div>
           <span class="entry-cat">People</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/garrett-morgan.html" class="entry-card" data-tags="february people innovation invention">
+      <a href="encyclopedia/garrett-morgan.html" class="entry-card" data-tags="february people innovation invention science">
         <div class="entry-card-bar innovation"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 3 · Innovation &amp; Invention</div>
+          <div class="entry-vol">February 3 &middot; Innovation &amp; Invention</div>
           <div class="entry-name">Garrett Morgan</div>
-          <div class="entry-dates">1877 — 1963</div>
-          <div class="entry-desc">Inventor of the three-position traffic signal and an early gas mask — and then companies stopped buying his mask when they found out a Black man made it.</div>
+          <div class="entry-dates">1877 &mdash; 1963</div>
+          <div class="entry-desc">Inventor of the three-position traffic signal and an early gas mask &mdash; and then companies stopped buying his mask when they found out a Black man made it.</div>
           <span class="entry-cat">People</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/mansa-musa.html" class="entry-card" data-tags="february people africa wealth history">
+      <a href="encyclopedia/mansa-musa.html" class="entry-card" data-tags="february people africa wealth economics">
         <div class="entry-card-bar innovation"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 4 · African History &amp; Wealth</div>
+          <div class="entry-vol">February 4 &middot; African History &amp; Wealth</div>
           <div class="entry-name">Mansa Musa</div>
-          <div class="entry-dates">c. 1280 — c. 1337</div>
+          <div class="entry-dates">c. 1280 &mdash; c. 1337</div>
           <div class="entry-desc">Emperor of the Mali Empire and the wealthiest person in recorded human history, estimated at $400 billion in modern terms.</div>
           <span class="entry-cat">People</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/brown-v-board.html" class="entry-card" data-tags="february events civil rights law education">
+      <a href="encyclopedia/brown-v-board.html" class="entry-card" data-tags="february events civil-rights law education">
         <div class="entry-card-bar politics"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 5 · Civil Rights Law</div>
+          <div class="entry-vol">February 5 &middot; Civil Rights Law</div>
           <div class="entry-name">Brown v. Board of Education</div>
           <div class="entry-dates">1954</div>
           <div class="entry-desc">The Supreme Court ruling that struck down school segregation, argued by Thurgood Marshall and named for a 7-year-old girl in Topeka, Kansas.</div>
           <span class="entry-cat">Events</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/daniel-hale-williams.html" class="entry-card" data-tags="february people medicine science">
         <div class="entry-card-bar"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 6 · Medicine &amp; Science</div>
+          <div class="entry-vol">February 6 &middot; Medicine &amp; Science</div>
           <div class="entry-name">Daniel Hale Williams</div>
-          <div class="entry-dates">1856 — 1931</div>
-          <div class="entry-desc">Performed the world's first documented successful open-heart surgery in 1893 — without anesthesia, antibiotics, or X-rays. The patient lived another 50 years.</div>
+          <div class="entry-dates">1856 &mdash; 1931</div>
+          <div class="entry-desc">Performed the world's first documented successful open-heart surgery in 1893 &mdash; without anesthesia, antibiotics, or X-rays. The patient lived another 50 years.</div>
           <span class="entry-cat">People</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/tulsa-massacre.html" class="entry-card" data-tags="february events erasure violence systems">
+      <a href="encyclopedia/tulsa-massacre.html" class="entry-card" data-tags="february events erasure violence systems economics">
         <div class="entry-card-bar erasure"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 7 · Erasure &amp; Violence</div>
+          <div class="entry-vol">February 7 &middot; Erasure &amp; Violence</div>
           <div class="entry-name">Tulsa Race Massacre</div>
-          <div class="entry-dates">May 31 — June 1, 1921</div>
-          <div class="entry-desc">The destruction of Black Wall Street in Greenwood, Tulsa — the most prosperous Black community in America, burned to the ground in one night.</div>
+          <div class="entry-dates">May 31 &mdash; June 1, 1921</div>
+          <div class="entry-desc">The destruction of Black Wall Street in Greenwood, Tulsa &mdash; the most prosperous Black community in America, burned to the ground in one night.</div>
           <span class="entry-cat">Events</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/cointelpro.html" class="entry-card" data-tags="february events systems policy government resistance">
+      <a href="encyclopedia/cointelpro.html" class="entry-card" data-tags="february events systems policy government">
         <div class="entry-card-bar systems"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 8 · Government &amp; Resistance</div>
+          <div class="entry-vol">February 8 &middot; Government &amp; Resistance</div>
           <div class="entry-name">COINTELPRO</div>
-          <div class="entry-dates">1956 — 1971</div>
-          <div class="entry-desc">The FBI's covert program to expose, disrupt, and destroy Black political organizations — confirmed by Senate investigation, not conspiracy theory.</div>
+          <div class="entry-dates">1956 &mdash; 1971</div>
+          <div class="entry-desc">The FBI's covert program to expose, disrupt, and destroy Black political organizations &mdash; confirmed by Senate investigation, not conspiracy theory.</div>
           <span class="entry-cat">Systems</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/rosewood-massacre.html" class="entry-card" data-tags="february events erasure violence">
         <div class="entry-card-bar erasure"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 9 · Erasure &amp; Violence</div>
+          <div class="entry-vol">February 9 &middot; Erasure &amp; Violence</div>
           <div class="entry-name">The Rosewood Massacre</div>
           <div class="entry-dates">January 1923</div>
           <div class="entry-desc">A white mob burned the thriving all-Black town of Rosewood, Florida to the ground after a false accusation. The town was never rebuilt.</div>
           <span class="entry-cat">Events</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/tuskegee-airmen.html" class="entry-card" data-tags="february people events military">
         <div class="entry-card-bar politics"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 10 · Military History</div>
+          <div class="entry-vol">February 10 &middot; Military History</div>
           <div class="entry-name">The Tuskegee Airmen</div>
-          <div class="entry-dates">1941 — 1946</div>
-          <div class="entry-desc">The all-Black fighter group that flew 15,000+ combat sorties and never lost a bomber to enemy aircraft — then came home to segregated diners.</div>
+          <div class="entry-dates">1941 &mdash; 1946</div>
+          <div class="entry-desc">The all-Black fighter group that flew 15,000+ combat sorties and never lost a bomber to enemy aircraft &mdash; then came home to segregated diners.</div>
           <span class="entry-cat">People</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/the-blues.html" class="entry-card" data-tags="february events culture music">
         <div class="entry-card-bar culture"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 11 · Music &amp; Culture</div>
+          <div class="entry-vol">February 11 &middot; Music &amp; Culture</div>
           <div class="entry-name">The Blues</div>
-          <div class="entry-dates">Late 1800s — Present</div>
-          <div class="entry-desc">The root of rock, jazz, R&amp;B, hip-hop, and country — born in the Mississippi Delta from the field hollers and spirituals of enslaved people.</div>
+          <div class="entry-dates">Late 1800s &mdash; Present</div>
+          <div class="entry-desc">The root of rock, jazz, R&amp;B, hip-hop, and country &mdash; born in the Mississippi Delta from the field hollers and spirituals of enslaved people.</div>
           <span class="entry-cat">Culture</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/redlining.html" class="entry-card" data-tags="february events systems policy wealth">
+      <a href="encyclopedia/redlining.html" class="entry-card" data-tags="february events systems policy economics">
         <div class="entry-card-bar systems"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 12 · Economic Policy</div>
+          <div class="entry-vol">February 12 &middot; Economic Policy</div>
           <div class="entry-name">Redlining</div>
-          <div class="entry-dates">1930s — 1968</div>
-          <div class="entry-desc">The federal government's policy of marking Black neighborhoods as "hazardous" and using those maps to deny mortgages — engineering the racial wealth gap.</div>
+          <div class="entry-dates">1930s &mdash; 1968</div>
+          <div class="entry-desc">The federal government's policy of marking Black neighborhoods as "hazardous" and using those maps to deny mortgages &mdash; engineering the racial wealth gap.</div>
           <span class="entry-cat">Systems</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/enslaved-labor.html" class="entry-card" data-tags="february events systems labor history">
+      <a href="encyclopedia/enslaved-labor.html" class="entry-card" data-tags="february events systems labor economics">
         <div class="entry-card-bar erasure"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 13 · Labor &amp; Economics</div>
+          <div class="entry-vol">February 13 &middot; Labor &amp; Economics</div>
           <div class="entry-name">Enslaved Labor &amp; American Infrastructure</div>
-          <div class="entry-dates">1793 — 1865</div>
-          <div class="entry-desc">The U.S. Capitol, the White House, Harvard, Yale, and Princeton — all built or funded by enslaved Black people who never saw a wage.</div>
+          <div class="entry-dates">1793 &mdash; 1865</div>
+          <div class="entry-desc">The U.S. Capitol, the White House, Harvard, Yale, and Princeton &mdash; all built or funded by enslaved Black people who never saw a wage.</div>
           <span class="entry-cat">Systems</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/loving-v-virginia.html" class="entry-card" data-tags="february events civil rights law people">
+      <a href="encyclopedia/loving-v-virginia.html" class="entry-card" data-tags="february events civil-rights law">
         <div class="entry-card-bar politics"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 14 · Civil Rights Law</div>
+          <div class="entry-vol">February 14 &middot; Civil Rights Law</div>
           <div class="entry-name">Loving v. Virginia</div>
           <div class="entry-dates">1967</div>
           <div class="entry-desc">Mildred and Richard Loving were arrested in their bedroom for being married. Their Supreme Court case struck down all bans on interracial marriage in 1967.</div>
           <span class="entry-cat">Events</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/aave.html" class="entry-card" data-tags="february events culture language">
         <div class="entry-card-bar culture"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 15 · Language &amp; Culture</div>
+          <div class="entry-vol">February 15 &middot; Language &amp; Culture</div>
           <div class="entry-name">AAVE &amp; Linguistic Culture</div>
-          <div class="entry-dates">Origins in slavery — Present</div>
-          <div class="entry-desc">African American Vernacular English is a fully systematic dialect — not broken English — and the source of words now used globally.</div>
+          <div class="entry-dates">Origins in slavery &mdash; Present</div>
+          <div class="entry-desc">African American Vernacular English is a fully systematic dialect &mdash; not broken English &mdash; and the source of words now used globally.</div>
           <span class="entry-cat">Culture</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/black-fashion.html" class="entry-card" data-tags="february events culture fashion">
         <div class="entry-card-bar culture"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 16 · Culture &amp; Commerce</div>
+          <div class="entry-vol">February 16 &middot; Culture &amp; Commerce</div>
           <div class="entry-name">Black Fashion &amp; Cultural Appropriation</div>
           <div class="entry-dates">Ongoing</div>
-          <div class="entry-desc">Cornrows, hoop earrings, baggy clothes — mocked on Black people, criminalized, then repackaged and celebrated when adopted by others.</div>
+          <div class="entry-desc">Cornrows, hoop earrings, baggy clothes &mdash; mocked on Black people, criminalized, then repackaged and celebrated when adopted by others.</div>
           <span class="entry-cat">Culture</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/melvin-van-peebles.html" class="entry-card" data-tags="february people culture film">
         <div class="entry-card-bar culture"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 17 · Film &amp; Arts</div>
+          <div class="entry-vol">February 17 &middot; Film &amp; Arts</div>
           <div class="entry-name">Melvin Van Peebles</div>
-          <div class="entry-dates">1932 — 2021</div>
+          <div class="entry-dates">1932 &mdash; 2021</div>
           <div class="entry-desc">Made Sweet Sweetback's Baadasssss Song outside Hollywood for $150K, grossed $15M, and proved a Black audience existed that the industry had been ignoring.</div>
           <span class="entry-cat">People</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/black-dance.html" class="entry-card" data-tags="february events culture dance">
         <div class="entry-card-bar culture"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 18 · Dance &amp; Movement</div>
+          <div class="entry-vol">February 18 &middot; Dance &amp; Movement</div>
           <div class="entry-name">Black Dance Culture</div>
           <div class="entry-dates">Ongoing</div>
-          <div class="entry-desc">From New Orleans Bounce to the griddy to the running man — the origin stories of America's most viral dances trace back to Black communities that rarely got credit.</div>
+          <div class="entry-desc">From New Orleans Bounce to the griddy to the running man &mdash; the origin stories of America's most viral dances trace back to Black communities that rarely got credit.</div>
           <span class="entry-cat">Culture</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/black-culinary-history.html" class="entry-card" data-tags="february events culture food">
         <div class="entry-card-bar culture"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 19 · Food &amp; Culture</div>
+          <div class="entry-vol">February 19 &middot; Food &amp; Culture</div>
           <div class="entry-name">Black Culinary History</div>
-          <div class="entry-dates">Late 1800s — Present</div>
-          <div class="entry-desc">Soul food, Southern food, and Cajun cuisine all share the same roots — created by enslaved people who turned limited ingredients into the foundation of American cooking.</div>
+          <div class="entry-dates">Late 1800s &mdash; Present</div>
+          <div class="entry-desc">Soul food, Southern food, and Cajun cuisine all share the same roots &mdash; created by enslaved people who turned limited ingredients into the foundation of American cooking.</div>
           <span class="entry-cat">Culture</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/black-tech-pioneers.html" class="entry-card" data-tags="february people innovation technology">
+      <a href="encyclopedia/black-tech-pioneers.html" class="entry-card" data-tags="february people innovation technology science">
         <div class="entry-card-bar innovation"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 20 · Technology &amp; Innovation</div>
+          <div class="entry-vol">February 20 &middot; Technology &amp; Innovation</div>
           <div class="entry-name">Black Tech Pioneers</div>
-          <div class="entry-dates">1969 — Present</div>
-          <div class="entry-desc">Clarence Ellis, Mark Dean, Katherine Johnson — the Black scientists and engineers whose work made modern computing possible, and whose names most people don't know.</div>
+          <div class="entry-dates">1969 &mdash; Present</div>
+          <div class="entry-desc">Clarence Ellis, Mark Dean, Katherine Johnson &mdash; the Black scientists and engineers whose work made modern computing possible, and whose names most people don't know.</div>
           <span class="entry-cat">People</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/sports-integration.html" class="entry-card" data-tags="february people events sports">
         <div class="entry-card-bar politics"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 21 · Sports History</div>
+          <div class="entry-vol">February 21 &middot; Sports History</div>
           <div class="entry-name">Sports Integration Beyond Jackie Robinson</div>
-          <div class="entry-dates">1950s — 1960s</div>
-          <div class="entry-desc">Chuck Cooper, Althea Gibson, and the athletes who integrated every other American sport — at enormous personal cost the celebration usually skips over.</div>
+          <div class="entry-dates">1950s &mdash; 1960s</div>
+          <div class="entry-desc">Chuck Cooper, Althea Gibson, and the athletes who integrated every other American sport &mdash; at enormous personal cost the celebration usually skips over.</div>
           <span class="entry-cat">Events</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/slave-patrols.html" class="entry-card" data-tags="february events systems policy">
         <div class="entry-card-bar systems"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 22 · Law Enforcement &amp; Justice</div>
+          <div class="entry-vol">February 22 &middot; Law Enforcement &amp; Justice</div>
           <div class="entry-name">Slave Patrols &amp; The Origins of American Policing</div>
-          <div class="entry-dates">1704 — Present</div>
-          <div class="entry-desc">America's first formal police forces were slave patrols, created in 1704. After emancipation, many became local sheriffs enforcing Black Codes. Not reorganized — rebranded.</div>
+          <div class="entry-dates">1704 &mdash; Present</div>
+          <div class="entry-desc">America's first formal police forces were slave patrols, created in 1704. After emancipation, many became local sheriffs enforcing Black Codes. Not reorganized &mdash; rebranded.</div>
           <span class="entry-cat">Systems</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/voting-rights.html" class="entry-card" data-tags="february events systems policy democracy">
         <div class="entry-card-bar systems"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 23 · Democracy &amp; Civil Rights</div>
+          <div class="entry-vol">February 23 &middot; Democracy &amp; Civil Rights</div>
           <div class="entry-name">Voting Rights &amp; Suppression</div>
-          <div class="entry-dates">1870 — Present</div>
+          <div class="entry-dates">1870 &mdash; Present</div>
           <div class="entry-desc">The 15th Amendment gave Black men the vote in 1870. Within years: poll taxes, rigged literacy tests, grandfather clauses, and violence. The toolkit never disappeared.</div>
           <span class="entry-cat">Systems</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/education-inequality.html" class="entry-card" data-tags="february events systems policy education">
         <div class="entry-card-bar systems"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 24 · Education &amp; Policy</div>
+          <div class="entry-vol">February 24 &middot; Education &amp; Policy</div>
           <div class="entry-name">Education Inequality by Design</div>
           <div class="entry-dates">Ongoing</div>
           <div class="entry-desc">There is no federal law requiring equal school funding. Schools are funded by property taxes. The ZIP code you're born into determines your educational opportunities.</div>
           <span class="entry-cat">Systems</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/13th-amendment.html" class="entry-card" data-tags="february events systems policy justice">
         <div class="entry-card-bar systems"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 25 · Justice System</div>
+          <div class="entry-vol">February 25 &middot; Justice System</div>
           <div class="entry-name">Mass Incarceration &amp; the 13th Amendment</div>
-          <div class="entry-dates">1865 — Present</div>
+          <div class="entry-dates">1865 &mdash; Present</div>
           <div class="entry-desc">The 13th Amendment abolished slavery "except as punishment for crime." That exception was immediately exploited. It still is.</div>
           <span class="entry-cat">Systems</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/environmental-racism.html" class="entry-card" data-tags="february events systems policy environment">
         <div class="entry-card-bar systems"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 26 · Environment &amp; Public Health</div>
+          <div class="entry-vol">February 26 &middot; Environment &amp; Public Health</div>
           <div class="entry-name">Environmental Racism</div>
           <div class="entry-dates">Ongoing</div>
           <div class="entry-desc">Cancer Alley, Flint, Michigan, and hundreds of communities where race is a stronger predictor of living near a polluting facility than income.</div>
           <span class="entry-cat">Systems</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
-      <a href="encyclopedia/modern-civil-rights.html" class="entry-card" data-tags="february people events civil rights current">
+      <a href="encyclopedia/modern-civil-rights.html" class="entry-card" data-tags="february people events civil-rights current">
         <div class="entry-card-bar politics"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 27 · Current History</div>
+          <div class="entry-vol">February 27 &middot; Current History</div>
           <div class="entry-name">Modern Civil Rights Leaders</div>
-          <div class="entry-dates">2013 — Present</div>
-          <div class="entry-desc">Alicia Garza, Patrisse Cullors, Opal Tometi, Bryan Stevenson, Stacey Abrams — the current leaders of a movement that is not a completed chapter.</div>
+          <div class="entry-dates">2013 &mdash; Present</div>
+          <div class="entry-desc">Alicia Garza, Patrisse Cullors, Opal Tometi, Bryan Stevenson, Stacey Abrams &mdash; the current leaders of a movement that is not a completed chapter.</div>
           <span class="entry-cat">People</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/mis-education.html" class="entry-card" data-tags="february events education philosophy">
         <div class="entry-card-bar"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 28 · Education &amp; Philosophy</div>
+          <div class="entry-vol">February 28 &middot; Education &amp; Philosophy</div>
           <div class="entry-name">The Mis-Education of the Negro</div>
-          <div class="entry-dates">1933 — Present</div>
-          <div class="entry-desc">Carter G. Woodson's argument that the greatest enemy was a miseducation that taught Black people to see themselves through white eyes — and why Black History Month exists to correct it.</div>
+          <div class="entry-dates">1933 &mdash; Present</div>
+          <div class="entry-desc">Carter G. Woodson's argument that the greatest enemy was a miseducation that taught Black people to see themselves through white eyes &mdash; and why Black History Month exists to correct it.</div>
           <span class="entry-cat">Events</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
       <a href="encyclopedia/barack-obama.html" class="entry-card" data-tags="february people politics current">
         <div class="entry-card-bar politics"></div>
         <div class="entry-card-body">
-          <div class="entry-vol">February 29* · 44th &amp; Forever</div>
+          <div class="entry-vol">February 29&#x2605; &middot; 44th &amp; Forever</div>
           <div class="entry-name">Barack Obama</div>
-          <div class="entry-dates">1961 — Present</div>
-          <div class="entry-desc">The 44th President of the United States and the first Black person to hold that office — elected November 4, 2008, serving two full terms.</div>
+          <div class="entry-dates">1961 &mdash; Present</div>
+          <div class="entry-desc">The 44th President of the United States and the first Black person to hold that office &mdash; elected November 4, 2008, serving two full terms.</div>
           <span class="entry-cat">People</span>
-          <span class="entry-arrow">→</span>
+          <span class="entry-arrow">&#x2192;</span>
+        </div>
+      </a>
+
+      <!-- ===== MARCH ENTRIES ===== -->
+
+      <a href="encyclopedia/henrietta-lacks.html" class="entry-card" data-tags="march people science medicine women hidden-history">
+        <div class="entry-card-bar"></div>
+        <div class="entry-card-body">
+          <div class="entry-vol">March 1 &middot; Medicine &amp; Justice</div>
+          <div class="entry-name">Henrietta Lacks</div>
+          <div class="entry-dates">1920 &mdash; 1951</div>
+          <div class="entry-desc">Her cancer cells were taken without her consent in 1951 and became the foundation of modern medical research. She died at 31. Her family received nothing.</div>
+          <span class="entry-cat">People</span>
+          <span class="entry-arrow">&#x2192;</span>
+        </div>
+      </a>
+
+      <a href="encyclopedia/ida-b-wells.html" class="entry-card" data-tags="march people women journalism hidden-history">
+        <div class="entry-card-bar"></div>
+        <div class="entry-card-body">
+          <div class="entry-vol">March 2 &middot; Journalism &amp; Courage</div>
+          <div class="entry-name">Ida B. Wells</div>
+          <div class="entry-dates">1862 &mdash; 1931</div>
+          <div class="entry-desc">Documented lynching across the South when no newspaper would. A mob burned her press. She published from exile and never stopped.</div>
+          <span class="entry-cat">People</span>
+          <span class="entry-arrow">&#x2192;</span>
+        </div>
+      </a>
+
+      <a href="encyclopedia/fannie-lou-hamer.html" class="entry-card" data-tags="march people women politics democracy">
+        <div class="entry-card-bar politics"></div>
+        <div class="entry-card-body">
+          <div class="entry-vol">March 3 &middot; Voting Rights</div>
+          <div class="entry-name">Fannie Lou Hamer</div>
+          <div class="entry-dates">1917 &mdash; 1977</div>
+          <div class="entry-desc">Beaten in a Mississippi jail for registering to vote. Testified before the 1964 Democratic National Convention. Carried permanent injuries for the rest of her life.</div>
+          <span class="entry-cat">People</span>
+          <span class="entry-arrow">&#x2192;</span>
+        </div>
+      </a>
+
+      <a href="encyclopedia/madam-cj-walker.html" class="entry-card" data-tags="march people women economics hidden-history">
+        <div class="entry-card-bar innovation"></div>
+        <div class="entry-card-body">
+          <div class="entry-vol">March 4 &middot; Economic Power</div>
+          <div class="entry-name">Madam C.J. Walker</div>
+          <div class="entry-dates">1867 &mdash; 1919</div>
+          <div class="entry-desc">Born to freed slaves. Widowed at 20. Built a national haircare empire and became one of the first self-made female millionaires in American history.</div>
+          <span class="entry-cat">People</span>
+          <span class="entry-arrow">&#x2192;</span>
+        </div>
+      </a>
+
+      <a href="encyclopedia/mae-jemison.html" class="entry-card" data-tags="march people women science">
+        <div class="entry-card-bar innovation"></div>
+        <div class="entry-card-body">
+          <div class="entry-vol">March 5 &middot; Science &amp; Space</div>
+          <div class="entry-name">Mae Jemison</div>
+          <div class="entry-dates">1956 &mdash; Present</div>
+          <div class="entry-desc">Chemical engineer, physician, Peace Corps doctor, astronaut. In 1992 she became the first Black woman in space, carrying a photo of Bessie Coleman into orbit.</div>
+          <span class="entry-cat">People</span>
+          <span class="entry-arrow">&#x2192;</span>
+        </div>
+      </a>
+
+      <a href="encyclopedia/claudette-colvin.html" class="entry-card" data-tags="march people women hidden-history civil-rights erasure">
+        <div class="entry-card-bar erasure"></div>
+        <div class="entry-card-body">
+          <div class="entry-vol">March 6 &middot; Hidden History</div>
+          <div class="entry-name">Claudette Colvin</div>
+          <div class="entry-dates">1939 &mdash; Present</div>
+          <div class="entry-desc">Refused her bus seat nine months before Rosa Parks. Was a plaintiff in the case that ended bus segregation. Then was quietly erased from the story.</div>
+          <span class="entry-cat">People</span>
+          <span class="entry-arrow">&#x2192;</span>
+        </div>
+      </a>
+
+      <a href="encyclopedia/ruby-bridges.html" class="entry-card" data-tags="march people women civil-rights education">
+        <div class="entry-card-bar politics"></div>
+        <div class="entry-card-body">
+          <div class="entry-vol">March 7 &middot; Civil Rights</div>
+          <div class="entry-name">Ruby Bridges</div>
+          <div class="entry-dates">1954 &mdash; Present</div>
+          <div class="entry-desc">At six years old, walked through a screaming mob to integrate William Frantz Elementary School in New Orleans. For months, she was the only student in her class.</div>
+          <span class="entry-cat">People</span>
+          <span class="entry-arrow">&#x2192;</span>
+        </div>
+      </a>
+
+      <a href="encyclopedia/septima-clark.html" class="entry-card" data-tags="march people women education hidden-history">
+        <div class="entry-card-bar"></div>
+        <div class="entry-card-body">
+          <div class="entry-vol">March 8 &middot; Education &amp; Strategy</div>
+          <div class="entry-name">Septima Clark</div>
+          <div class="entry-dates">1898 &mdash; 1987</div>
+          <div class="entry-desc">Built citizenship schools across the South to teach Black adults the literacy skills needed to pass discriminatory voter registration tests. MLK called her the Mother of the Movement.</div>
+          <span class="entry-cat">People</span>
+          <span class="entry-arrow">&#x2192;</span>
+        </div>
+      </a>
+
+      <a href="encyclopedia/diane-nash.html" class="entry-card" data-tags="march people women politics civil-rights">
+        <div class="entry-card-bar politics"></div>
+        <div class="entry-card-body">
+          <div class="entry-vol">March 9 &middot; Resistance &amp; Leadership</div>
+          <div class="entry-name">Diane Nash</div>
+          <div class="entry-dates">1938 &mdash; Present</div>
+          <div class="entry-desc">Co-founded SNCC. Organized the Nashville sit-ins that desegregated downtown businesses. Kept the Freedom Rides going when violence tried to stop them.</div>
+          <span class="entry-cat">People</span>
+          <span class="entry-arrow">&#x2192;</span>
+        </div>
+      </a>
+
+      <a href="encyclopedia/sarah-rector.html" class="entry-card" data-tags="march people women economics hidden-history">
+        <div class="entry-card-bar innovation"></div>
+        <div class="entry-card-body">
+          <div class="entry-vol">March 10 &middot; Hidden Wealth</div>
+          <div class="entry-name">Sarah Rector</div>
+          <div class="entry-dates">1902 &mdash; 1967</div>
+          <div class="entry-desc">At eleven years old, oil was discovered on her land and she became one of the wealthiest Black children in America. The system immediately moved to control what was hers.</div>
+          <span class="entry-cat">People</span>
+          <span class="entry-arrow">&#x2192;</span>
         </div>
       </a>
 
     </div><!-- end grid -->
-
   </div><!-- end entries container -->
 
   <div class="no-results" id="noResults">No entries match your search.</div>
@@ -723,15 +634,20 @@
 </main>
 
 <footer>
-  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <p>&copy; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
 
 <script>
   let activeFilter = 'all';
-  let currentSort = 'alpha'; // 'alpha' or 'chrono'
+  let currentSort = 'alpha';
 
-  // Sort cards alphabetically on load
+  function toggleSort() {
+    const newSort = currentSort === 'alpha' ? 'chrono' : 'alpha';
+    sortGrid(newSort);
+    document.getElementById('sortBtn').textContent = newSort === 'alpha' ? 'A\u2013Z \u2193' : 'By Date \u2193';
+  }
+
   function sortGrid(mode) {
     currentSort = mode;
     const grid = document.getElementById('entriesGrid');
@@ -743,8 +659,7 @@
         return na.localeCompare(nb);
       });
     } else {
-      // Chronological = original DOM order; re-attach in data-order
-      cards.sort((a, b) => parseInt(a.dataset.order||0) - parseInt(b.dataset.order||0));
+      cards.sort((a, b) => parseInt(a.dataset.order || 0) - parseInt(b.dataset.order || 0));
     }
     cards.forEach(c => grid.appendChild(c));
     filterEntries();
@@ -782,8 +697,7 @@
     document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
   }
 
-  // Tag each card with original order and then sort alphabetically on load
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     const cards = document.querySelectorAll('.entry-card');
     cards.forEach((c, i) => c.dataset.order = i);
     sortGrid('alpha');
