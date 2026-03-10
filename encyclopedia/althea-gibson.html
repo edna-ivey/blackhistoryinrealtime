@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Althea Gibson &mdash; Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Althea Gibson was the best tennis player in the world in 1957 and 1958. She won Wimbledon twice. She won the U.S. Nationals twice. She was the first Black perso">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
+@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
+.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
+nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
+nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
+.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
+.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
+.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg, var(--green), #2d9e5f);}
+.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
+.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
+.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
+.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}
+.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}
+.why-section p:last-child{margin-bottom:0;}
+.cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}
+.cost-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+.cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
+.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
+.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
+.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
+.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
+.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
+.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
+.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+.external-links{display:flex;flex-direction:column;gap:10px;}
+.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
+.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
+.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+.quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all 0.2s;margin-bottom:12px;}
+.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+.quiz-card-left{flex:1;}
+.quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}
+.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}
+.quiz-card-icon{font-size:1.8rem;flex-shrink:0;}
+footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
+footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body data-entry-id="althea-gibson">
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
+<main>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>March 26 &middot; Sports &amp; Integration</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">March 26 &middot; Sports &amp; Integration</div>
+    <h1>Althea Gibson</h1>
+    <p class="entry-tagline">Althea Gibson was the best tennis player in the world in 1957 and 1958. She won Wimbledon twice. She won the U.S. Nationals twice. She was the first Black person — man or woman — to compete at Wimbledon and at Forest Hills. When she won, she was greeted at a ticker-tape parade in New York City. When she retired from amateur tennis, she had no money. There were no endorsement deals for Black women. She spent years in poverty before finding a second career on the LPGA golf tour — becoming the first Black player there too.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1927 &mdash; 2003</span>
+      <span class="badge">First Black Wimbledon Champion</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+      <div class="tl-item"><div class="tl-date">Aug 25, 1927</div><div class="tl-event">Born in Silver, South Carolina; grows up in Harlem</div></div>
+      <div class="tl-item"><div class="tl-date">1941</div><div class="tl-event">Begins playing tennis on Harlem's paddle tennis courts; spotted by local tennis community</div></div>
+      <div class="tl-item"><div class="tl-date">1946</div><div class="tl-event">Begins competing in the American Tennis Association — the Black tennis circuit</div></div>
+      <div class="tl-item"><div class="tl-date">1950</div><div class="tl-event">First Black player accepted into the U.S. Lawn Tennis Association national rankings; allowed to compete at Forest Hills</div></div>
+      <div class="tl-item"><div class="tl-date">1951</div><div class="tl-event">First Black player to compete at Wimbledon</div></div>
+      <div class="tl-item"><div class="tl-date">1956</div><div class="tl-event">Wins the French Open — first Black player to win a Grand Slam singles title</div></div>
+      <div class="tl-item"><div class="tl-date">1957</div><div class="tl-event">Wins Wimbledon and U.S. Nationals; named AP Female Athlete of the Year</div></div>
+      <div class="tl-item"><div class="tl-date">1958</div><div class="tl-event">Wins Wimbledon and U.S. Nationals again; retires from amateur tennis</div></div>
+      <div class="tl-item"><div class="tl-date">1964</div><div class="tl-event">Joins LPGA golf tour — first Black player in the organization</div></div>
+      <div class="tl-item"><div class="tl-date">1971</div><div class="tl-event">Inducted into the International Tennis Hall of Fame</div></div>
+      <div class="tl-item"><div class="tl-date">Sep 28, 2003</div><div class="tl-event">Dies at age 76 in East Orange, New Jersey</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+    <p>Althea Gibson grew up in Harlem, the daughter of sharecroppers who had come north during the Great Migration. She was athletic, competitive, and difficult to manage — she skipped school, got in fights, and had no patience for rules she didn't understand. A musician named Buddy Walker noticed her playing paddle tennis on 143rd Street and introduced her to the Harlem tennis community.</p>
+<p>She was a natural. She began competing in the American Tennis Association — the all-Black tennis circuit that existed because the United States Lawn Tennis Association, which governed the sport's official rankings and tournaments, excluded Black players. She dominated the ATA.</p>
+<p>In 1950, after a campaign by ATA officials and a public call from former champion Alice Marble, she was finally accepted into USLTA events. In 1951, she became the first Black player to compete at Wimbledon. She was twenty-three years old and had never played on grass before.</p>
+<p>She kept improving. In 1956, she won the French Open — the first Black player to win a Grand Slam singles title. In 1957, she won Wimbledon and the U.S. Nationals. She was named AP Female Athlete of the Year. New York City gave her a ticker-tape parade down Broadway.</p>
+<p>She won both titles again in 1958. Then she retired from amateur tennis. Not because she wanted to. Because there was nothing left to win financially. Amateur tennis meant no prize money. She had no endorsement deals — no major company was interested in a Black woman as a brand representative in 1958. She had won the sport's highest honors and could not pay her bills.</p>
+<p>She tried professional exhibition tours, singing, acting. In 1964, she joined the LPGA golf tour, becoming the first Black player there too. She was thirty-seven years old, learning a new sport at a professional level.</p>
+<p>She struggled financially for much of the rest of her life. She lived with the costs of being a pioneer in a sport and an era that celebrated her and then offered her nothing sustainable. She died in 2003. The USTA National Tennis Center in New York — the home of the U.S. Open — has a street named Althea Gibson Way that runs past Arthur Ashe Stadium.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>I always wanted to be somebody. If I made it, it's half because I was game enough to take a lot of punishment along the way, and half because there were a lot of people who cared enough to help me.</blockquote>
+    <cite>Althea Gibson</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+    <p>She won Wimbledon twice and the U.S. Nationals twice and retired broke. The sport she dominated had no mechanism to financially support its Black champion. She spent years in financial difficulty after her tennis career ended, trying multiple paths toward stability. She integrated two major professional sports leagues and received no lasting economic benefit from either.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+    <p>Althea Gibson is to tennis what Jackie Robinson is to baseball — except her story is less told, her financial ruin after integration is less discussed, and the system that celebrated her without sustaining her is less examined.</p><p>She also shows that integration is not the same as equity. She broke barriers. She won at the highest levels. And then the sport moved on without ensuring she could live on what she had accomplished. That pattern — celebrating Black excellence while denying Black economic security — is a pattern worth naming directly.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../index.html?day=althea-gibson" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; March 26 &middot; Sports &amp; Integration</div>
+        <div class="quiz-card-title">Test your knowledge on Althea Gibson</div>
+      </div>
+      <div class="quiz-card-icon">&#x270A;&#x1F3FE;</div>
+    </a>
+    <div class="connected-grid" id="connectedGrid" style="margin-top:0;">
+      <a href="../encyclopedia/sports-integration.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Sports Integration Beyond Jackie Robinson</div>
+        <div class="connected-desc">1950s &mdash; 1960s &middot; Events</div>
+      </a>
+      <a href="../encyclopedia/madam-cj-walker.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Madam C.J. Walker</div>
+        <div class="connected-desc">1867 &mdash; 1919 &middot; People</div>
+      </a>
+      <a href="../encyclopedia/sarah-rector.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Sarah Rector</div>
+        <div class="connected-desc">1902 &mdash; 1967 &middot; People</div>
+      </a>
+      <a href="../encyclopedia/claudette-colvin.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Claudette Colvin</div>
+        <div class="connected-desc">1939 &mdash; Present &middot; People</div>
+      </a>
+      <a href="../encyclopedia/rihanna.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Rihanna</div>
+        <div class="connected-desc">1988 &mdash; Present &middot; People</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+      <a href="https://www.history.com/news/althea-gibson-tennis-champion-broke-racial-barriers" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">Althea Gibson: The Tennis Champion Who Broke Racial Barriers</div></div><span class="ext-arrow">&#x2197;</span></a>
+      <a href="https://www.smithsonianmag.com/history/althea-gibson-woman-who-broke-tennis-color-barrier-180957987/" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">Althea Gibson: The Woman Who Broke Tennis's Color Barrier</div></div><span class="ext-arrow">&#x2197;</span></a>
+      <a href="https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">International Tennis Hall of Fame</div><div class="ext-title">Althea Gibson</div></div><span class="ext-arrow">&#x2197;</span></a>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+<script src="../encyclopedia-data.js"></script>
+<script>
+(function(){
+  var pageId = document.body.dataset.entryId;
+  if(!pageId) return;
+  var connections = getConnections(pageId, 5);
+  var grid = document.getElementById('connectedGrid');
+  if(!grid || !connections.length) return;
+  var html = '';
+  connections.forEach(function(e){
+    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
+          + '<div class="connected-type">Related Entry</div>'
+          + '<div class="connected-name">'+e.name+'</div>'
+          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
+          + '</a>';
+  });
+  grid.innerHTML = html;
+})();
+</script>
+</body>
+</html>

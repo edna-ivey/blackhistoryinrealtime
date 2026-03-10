@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gwendolyn Brooks &mdash; Black History in Real Time Encyclopedia</title>
+<meta name="description" content="In 1950, Gwendolyn Brooks became the first Black American to win the Pulitzer Prize — for poetry about Black life on the South Side of Chicago. She wrote about ">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
+@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
+.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
+nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
+nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
+.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
+.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
+.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg, var(--purple), var(--red));}
+.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
+.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
+.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
+.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}
+.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}
+.why-section p:last-child{margin-bottom:0;}
+.cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}
+.cost-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+.cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
+.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
+.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
+.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
+.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
+.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
+.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
+.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+.external-links{display:flex;flex-direction:column;gap:10px;}
+.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
+.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
+.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+.quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all 0.2s;margin-bottom:12px;}
+.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+.quiz-card-left{flex:1;}
+.quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}
+.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}
+.quiz-card-icon{font-size:1.8rem;flex-shrink:0;}
+footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
+footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body data-entry-id="gwendolyn-brooks">
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
+<main>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>March 23 &middot; Poetry &amp; Cultural Voice</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">March 23 &middot; Poetry &amp; Cultural Voice</div>
+    <h1>Gwendolyn Brooks</h1>
+    <p class="entry-tagline">In 1950, Gwendolyn Brooks became the first Black American to win the Pulitzer Prize — for poetry about Black life on the South Side of Chicago. She wrote about the people mainstream literature ignored: the women playing card games, the boys on street corners, the families in kitchenette apartments. In 1967, after meeting with young Black poets at the Fisk University Writers' Conference, she left her major publisher and moved to a small Black-owned press. She said she was writing for Black people, and she wanted the economics to match.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1917 &mdash; 2000</span>
+      <span class="badge">First Black Pulitzer Winner</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+      <div class="tl-item"><div class="tl-date">Jun 7, 1917</div><div class="tl-event">Born in Topeka, Kansas; grows up on the South Side of Chicago</div></div>
+      <div class="tl-item"><div class="tl-date">1945</div><div class="tl-event">Publishes A Street in Bronzeville, her debut collection about Black Chicago</div></div>
+      <div class="tl-item"><div class="tl-date">1949</div><div class="tl-event">Publishes Annie Allen</div></div>
+      <div class="tl-item"><div class="tl-date">May 1, 1950</div><div class="tl-event">Wins the Pulitzer Prize for Poetry for Annie Allen — first Black American to win any Pulitzer</div></div>
+      <div class="tl-item"><div class="tl-date">1953</div><div class="tl-event">Publishes Maud Martha, her only novel</div></div>
+      <div class="tl-item"><div class="tl-date">1960</div><div class="tl-event">Publishes The Bean Eaters, including 'We Real Cool'</div></div>
+      <div class="tl-item"><div class="tl-date">1967</div><div class="tl-event">Attends Fisk University Writers' Conference; encounters young Black Arts Movement poets; transforms her approach</div></div>
+      <div class="tl-item"><div class="tl-date">1969</div><div class="tl-event">Leaves Harper & Row for Broadside Press; later moves to Third World Press — both Black-owned</div></div>
+      <div class="tl-item"><div class="tl-date">1968</div><div class="tl-event">Named Poet Laureate of Illinois</div></div>
+      <div class="tl-item"><div class="tl-date">1985</div><div class="tl-event">Named Consultant in Poetry to the Library of Congress — the role now called U.S. Poet Laureate</div></div>
+      <div class="tl-item"><div class="tl-date">Dec 3, 2000</div><div class="tl-event">Dies in Chicago at age 83</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+    <p>Gwendolyn Brooks started writing poetry at seven years old. Her mother told her she would be the female Paul Laurence Dunbar — the great Black poet of the previous generation. She took the prediction seriously.</p>
+<p>She grew up on the South Side of Chicago and it became her subject. Not an abstraction of Black experience — the specific, textured, daily reality of people in kitchenette apartments, women at beauty parlors, boys at pool halls, mothers and daughters and men coming home from work. She looked directly at the people mainstream American literature looked past and wrote them with precision, dignity, and formal skill that demanded literary recognition on its own terms.</p>
+<p>Her 1945 debut, A Street in Bronzeville, announced a fully formed voice. Annie Allen, her second collection, won the Pulitzer Prize for Poetry in 1950. She was the first Black American to win any Pulitzer Prize in any category. The win was noted. The significance of what she had done — writing Black Chicago life and winning literature's most prestigious American prize — was not always acknowledged clearly enough.</p>
+<p>She published through the 1950s and early 1960s with major New York publishers. In 1967, she attended the Fisk University Writers' Conference in Nashville and encountered the young poets of the Black Arts Movement — Amiri Baraka, Don L. Lee (later Haki Madhubuti), Sonia Sanchez. They were writing with a directness, a political charge, and a Black audience in mind that recalibrated something in her.</p>
+<p>She left Harper & Row. She moved to Broadside Press, a small Black-owned press in Detroit. Later she published with Third World Press in Chicago, also Black-owned. She said that if she was writing for Black people, the people producing and profiting from the work should be Black people too.</p>
+<p>She mentored hundreds of young poets through workshops she ran across Chicago — in schools, prisons, community centers. She ran annual poetry contests with prize money she paid out of her own pocket.</p>
+<p>She was named Illinois Poet Laureate in 1968. In 1985 she was named Consultant in Poetry to the Library of Congress — the role now called U.S. Poet Laureate. She held the position with the same commitment to accessibility and community she had always brought.</p>
+<p>She died in Chicago on December 3, 2000 at eighty-three years old. "We Real Cool" — her seven-line poem about young men skipping school — is still one of the most widely anthologized American poems ever written.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>Poetry is life distilled.</blockquote>
+    <cite>Gwendolyn Brooks</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+    <p>She won the Pulitzer at 32 and could have built a comfortable career within the mainstream literary establishment. Instead, in 1967, she made a deliberate economic and political choice that likely cost her institutional support, broader readership, and commercial scale — because she decided her work belonged first to her community, and the economics should reflect that.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+    <p>Gwendolyn Brooks made the South Side of Chicago into literature that the world had to reckon with. She insisted that the lives of ordinary Black people were worthy subjects for the highest forms of art — and then proved it by winning the highest award American poetry offers.</p><p>Her 1967 turn toward Black presses and Black community publishing was decades ahead of conversations that the publishing industry is still having today about who controls the economics of Black creative work. She didn't wait for the conversation. She made the decision and moved.</p><p>Every Black poet writing today — every poet writing about community, about specific place, about the people institutions ignore — is working in a tradition she helped define.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../index.html?day=gwendolyn-brooks" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; March 23 &middot; Poetry &amp; Cultural Voice</div>
+        <div class="quiz-card-title">Test your knowledge on Gwendolyn Brooks</div>
+      </div>
+      <div class="quiz-card-icon">&#x270A;&#x1F3FE;</div>
+    </a>
+    <div class="connected-grid" id="connectedGrid" style="margin-top:0;">
+      <a href="../encyclopedia/zora-neale-hurston.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Zora Neale Hurston</div>
+        <div class="connected-desc">1891 &mdash; 1960 &middot; People</div>
+      </a>
+      <a href="../encyclopedia/toni-morrison.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Toni Morrison</div>
+        <div class="connected-desc">1931 &mdash; 2019 &middot; People</div>
+      </a>
+      <a href="../encyclopedia/harlem-renaissance.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Harlem Renaissance</div>
+        <div class="connected-desc">c. 1920 &mdash; 1935 &middot; Events</div>
+      </a>
+      <a href="../encyclopedia/aave.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">AAVE & Linguistic Culture</div>
+        <div class="connected-desc">Ongoing &middot; Culture</div>
+      </a>
+      <a href="../encyclopedia/mis-education.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Mis-Education of the Negro</div>
+        <div class="connected-desc">1933 &mdash; Present &middot; Events</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+      <a href="https://www.poetryfoundation.org/poets/gwendolyn-brooks" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">Poetry Foundation</div><div class="ext-title">Gwendolyn Brooks</div></div><span class="ext-arrow">&#x2197;</span></a>
+      <a href="https://www.history.com/news/gwendolyn-brooks-pulitzer-prize-poet" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">Gwendolyn Brooks: First Black Pulitzer Prize Winner</div></div><span class="ext-arrow">&#x2197;</span></a>
+      <a href="https://www.britannica.com/biography/Gwendolyn-Brooks" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">Britannica</div><div class="ext-title">Gwendolyn Brooks Biography</div></div><span class="ext-arrow">&#x2197;</span></a>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+<script src="../encyclopedia-data.js"></script>
+<script>
+(function(){
+  var pageId = document.body.dataset.entryId;
+  if(!pageId) return;
+  var connections = getConnections(pageId, 5);
+  var grid = document.getElementById('connectedGrid');
+  if(!grid || !connections.length) return;
+  var html = '';
+  connections.forEach(function(e){
+    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
+          + '<div class="connected-type">Related Entry</div>'
+          + '<div class="connected-name">'+e.name+'</div>'
+          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
+          + '</a>';
+  });
+  grid.innerHTML = html;
+})();
+</script>
+</body>
+</html>
