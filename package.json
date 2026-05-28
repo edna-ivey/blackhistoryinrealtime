@@ -1,0 +1,22 @@
+{
+  "name": "blackhistoryinrealtime-content",
+  "version": "1.0.0",
+  "description": "Content automation pipeline for Black History in Real Time",
+  "type": "commonjs",
+  "scripts": {
+    "validate": "node scripts/validate-content.js",
+    "generate": "npm run validate && npm run generate:pages && npm run generate:data",
+    "generate:pages": "node scripts/generate-pages.js",
+    "generate:data": "node scripts/generate-data.js",
+    "test": "npm run validate && npm run generate"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.0.0",
+    "sanitize-filename": "^1.6.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
