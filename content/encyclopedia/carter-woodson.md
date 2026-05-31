@@ -1,7 +1,7 @@
 ---
 id: carter-woodson
 name: Carter G. Woodson
-quizDay: 2026-02-01
+quizDay: "2026-02-01"
 vol: "February 1 · Foundations & Education"
 dates: "1875 — 1950"
 category: People
