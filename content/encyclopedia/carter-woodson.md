@@ -14,6 +14,7 @@ tags:
   - literature
   - journalism
 desc: "Historian, author, and educator who founded Negro History Week in 1926, establishing the foundation for what became Black History Month."
+tagline: "The Father of Black History — the man who decided that if the world wouldn't remember his people, he would make sure they remembered themselves."
 ---
 
 ## Question
@@ -38,6 +39,15 @@ Carter G. Woodson established Negro History Week in February 1926, choosing the 
 ## Subject
 
 Carter G. Woodson and the Creation of Negro History Week
+
+## Timeline
+
+- 1875: Born in New Canton, Virginia to formerly enslaved parents
+- 1912: Earns PhD from Harvard — only second Black person to do so
+- 1915: Co-founds the Association for the Study of Negro Life and History
+- 1926: Creates Negro History Week in February
+- 1933: Publishes The Mis-Education of the Negro
+- 1976: Negro History Week officially expanded to Black History Month
 
 ## Story
 

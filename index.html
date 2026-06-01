@@ -1671,6 +1671,13 @@ window.onload = () => {
   calViewDate = new Date();
   buildNow();
   if (dayParam !== null) window.history.replaceState({}, '', window.location.pathname);
+  const hashView = window.location.hash.replace('#', '');
+  const knownViews = ['today', 'now', 'calendar', 'archive', 'about'];
+  if (knownViews.includes(hashView)) {
+    const hashBtn = Array.from(document.querySelectorAll('nav button'))
+      .find(btn => btn.getAttribute('onclick')?.includes(`showView('${hashView}'`));
+    showView(hashView, hashBtn);
+  }
 };
 </script>
 </body>

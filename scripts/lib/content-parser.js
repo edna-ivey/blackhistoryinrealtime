@@ -28,6 +28,7 @@ function parseContentFile(filePath) {
       barClass: frontmatter.barClass || '',
       tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
       desc: frontmatter.desc || '',
+      tagline: frontmatter.tagline || '',
       url: `${frontmatter.id}.html`,
       heroImage: frontmatter.heroImage || '',
       thumbnail: frontmatter.thumbnail || '',
@@ -42,7 +43,8 @@ function parseContentFile(filePath) {
       whyItMatters: sections.whyItMatters ? md.render(sections.whyItMatters).trim() : '',
       cost: sections.cost ? md.render(sections.cost).trim() : '',
       quote: sections.quote,
-      
+      timeline: sections.timeline || [],
+
       // Metadata
       _sourceFile: filePath,
       _parsedAt: new Date().toISOString(),
@@ -93,6 +95,7 @@ function parseContentSections(content) {
     whyItMatters: sections.why_it_matters || sections.whyitmatters,
     cost: sections.cost,
     quote: parseQuote(sections.pull_quote || sections.quote),
+    timeline: parseTimeline(sections.timeline),
   };
 }
 
@@ -139,6 +142,21 @@ function parseQuote(quoteText) {
 }
 
 /**
+ * Parse timeline section: lines matching "- YYYY: description"
+ */
+function parseTimeline(text) {
+  if (!text) return [];
+  const items = [];
+  text.split('\n').forEach(line => {
+    const match = line.trim().match(/^[-*]\s+(\d{4}):\s*(.+)$/);
+    if (match) {
+      items.push({ year: match[1], event: match[2].trim() });
+    }
+  });
+  return items;
+}
+
+/**
  * Parse multiple content files
  */
 function parseAllContent(files) {
@@ -165,4 +183,5 @@ module.exports = {
   parseOptions,
   parseAnswer,
   parseQuote,
+  parseTimeline,
 };
