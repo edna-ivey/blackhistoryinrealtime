@@ -92,6 +92,19 @@ function renderTimeline(items) {
   return `<div class="timeline-strip">\n${rows}\n</div>`;
 }
 
+function renderExternalLinks(links) {
+  if (!links || links.length === 0) return '';
+  return links.map(link =>
+    '<a href="' + escapeHTML(link.url) + '" class="ext-link" target="_blank" rel="noopener noreferrer">\n'
+    + '  <div class="ext-left">\n'
+    + '    <div class="ext-source">' + escapeHTML(link.source) + '</div>\n'
+    + '    <div class="ext-title">' + escapeHTML(link.title) + '</div>\n'
+    + '  </div>\n'
+    + '  <span class="ext-arrow">&#x2197;</span>\n'
+    + '</a>'
+  ).join('\n');
+}
+
 function renderPage(tmpl, entry) {
   const quote = entry.quote || {};
 
@@ -120,7 +133,7 @@ function renderPage(tmpl, entry) {
 
     // Reserved — empty until future phases add this data
     ['{{RELATED_ENTRIES}}', ''],
-    ['{{EXTERNAL_LINKS}}',  ''],
+    ['{{EXTERNAL_LINKS}}',  renderExternalLinks(entry.externalLinks)],
   ];
 
   // split/join avoids String.replace() special $-sequence expansion

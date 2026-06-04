@@ -47,7 +47,9 @@ if (results.invalid > 0) {
 // ── 4. Map to output shape (matches existing encyclopedia-data.js) ───────────
 
 const outputEntries = entries.map(e => ({
+  // Card-level metadata (encyclopedia index + connections)
   id: e.id,
+  slug: e.id,
   name: e.name,
   url: e.url,
   quizDay: e.quizDay,
@@ -57,6 +59,21 @@ const outputEntries = entries.map(e => ({
   barClass: e.barClass || '',
   tags: e.tags,
   desc: e.desc,
+
+  // Quiz data
+  question: e.question,
+  options: e.options,
+  answer: e.answer,
+  answerText: e.answerText,
+  subject: e.subject,
+
+  // Narrative layers
+  dailyStory: e.dailyStory,
+  whyItMatters: e.whyItMatters,
+
+  // Supporting content
+  timeline: e.timeline,
+  quote: e.quote,
 }));
 
 // ── 5. Build file content ────────────────────────────────────────────────────

@@ -8,6 +8,7 @@
     "generate": "npm run validate && npm run generate:pages && npm run generate:data",
     "generate:pages": "node scripts/generate-pages.js",
     "generate:data": "node scripts/generate-data.js",
+    "check-links": "node scripts/check-links.js",
     "test": "npm run validate && npm run generate"
   },
   "dependencies": {

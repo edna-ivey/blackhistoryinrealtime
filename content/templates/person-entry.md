@@ -78,6 +78,12 @@ One or two sentences explaining the correct answer and providing context.
 
 {{NAME}} and the Topic Being Quizzed
 
+## Daily Story
+
+Short quiz-reveal story shown immediately after the answer is revealed on the quiz page.
+150–250 words. Punchy, emotional, immediate. Must stand alone — not a summary of the
+encyclopedia biography. Hook first. Payoff last. No textbook tone.
+
 ## Story
 
 Opening paragraph — establish who this person is and why they matter in the first sentence.

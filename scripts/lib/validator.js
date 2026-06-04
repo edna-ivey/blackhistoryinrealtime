@@ -26,10 +26,22 @@ class ContentValidator {
       // Use defaults
     }
     
+    // Load allowed tags
+    let allowedTags = null;
+    try {
+      const tagsFile = path.join(configDir, 'tags.json');
+      if (fs.existsSync(tagsFile)) {
+        allowedTags = JSON.parse(fs.readFileSync(tagsFile, 'utf-8'));
+      }
+    } catch (err) {
+      // allowedTags stays null — tag content check skipped
+    }
+
     return {
       categories,
       minTags: 3,
       maxTags: 15,
+      allowedTags,
     };
   }
   
@@ -75,6 +87,8 @@ class ContentValidator {
       entry.tags.forEach(tag => {
         if (typeof tag !== 'string' || !/^[a-z0-9-]+$/.test(tag)) {
           entryErrors.push(`Invalid tag format: "${tag}"`);
+        } else if (this.config.allowedTags && !this.config.allowedTags.includes(tag)) {
+          entryErrors.push(`Unknown tag: "${tag}" (not in content/config/tags.json)`);
         }
       });
     }
@@ -84,25 +98,58 @@ class ContentValidator {
       entryWarnings.push('Missing description (desc)');
     }
     
-    // Quiz validation (if present)
-    if (entry.question) {
-      if (!entry.options || entry.options.length !== 4) {
-        entryErrors.push('Quiz entries must have exactly 4 options');
+    // Required sections — all entries must have every one of these
+    if (!entry.question) entryErrors.push('Missing required section: ## Question');
+
+    if (!entry.options || entry.options.length === 0) {
+      entryErrors.push('Missing required section: ## Options (must have exactly 4 options)');
+    } else if (entry.options.length !== 4) {
+      entryErrors.push(`Question must contain exactly 4 answer options (found ${entry.options.length})`);
+    }
+
+    if (entry.answer === undefined || entry.answer === null) {
+      entryErrors.push('Missing required section: ## Answer');
+    } else if (entry.answer < 0 || entry.answer > 3) {
+      entryErrors.push(`Invalid answer index: ${entry.answer} (must be 0–3)`);
+    }
+
+    if (!entry.answerText) entryErrors.push('Missing required section: ## Answer Text');
+    if (!entry.subject)    entryErrors.push('Missing required section: ## Subject');
+
+    if (!entry.dailyStory) {
+      entryErrors.push('Missing required section: ## Daily Story');
+    } else {
+      const dwc = entry.dailyStory.replace(/<[^>]+>/g, ' ').trim().split(/\s+/).filter(Boolean).length;
+      if (dwc < 100) {
+        entryErrors.push(`Daily Story must contain at least 100 words (found ${dwc})`);
+      } else if (dwc > 300) {
+        entryErrors.push(`Daily Story cannot exceed 300 words (found ${dwc})`);
       }
-      if (entry.answer === undefined || entry.answer === null) {
-        entryErrors.push('Quiz entry missing answer index');
-      } else if (entry.answer < 0 || entry.answer > 3) {
-        entryErrors.push(`Invalid answer index: ${entry.answer} (must be 0-3)`);
+    }
+
+    if (!entry.story) {
+      entryErrors.push('Missing required section: ## Story');
+    } else {
+      const wordCount = entry.story.replace(/<[^>]+>/g, ' ').trim().split(/\s+/).filter(Boolean).length;
+      if (wordCount < 350) {
+        entryErrors.push(`Story must contain at least 350 words (found ${wordCount})`);
+      } else if (wordCount > 1500) {
+        entryErrors.push(`Story cannot exceed 1500 words (found ${wordCount})`);
       }
-      if (!entry.story) {
-        entryErrors.push('Quiz entry missing story');
-      }
-      if (!entry.answerText) {
-        entryWarnings.push('Quiz entry missing answerText');
-      }
-      if (!entry.subject) {
-        entryWarnings.push('Quiz entry missing subject');
-      }
+    }
+
+    if (!entry.whyItMatters) entryErrors.push('Missing required section: ## Why It Matters');
+
+    if (!entry.timeline || entry.timeline.length === 0) {
+      entryErrors.push('Missing required section: ## Timeline (must have at least one item)');
+    } else if (entry.timeline.length < 6) {
+      entryErrors.push(`Timeline must contain at least 6 entries (found ${entry.timeline.length})`);
+    } else if (entry.timeline.length > 10) {
+      entryErrors.push(`Timeline cannot contain more than 10 entries (found ${entry.timeline.length})`);
+    }
+
+    if (!entry.quote || !entry.quote.text) {
+      entryErrors.push('Missing required section: ## Pull Quote');
     }
     
     // Image validation
