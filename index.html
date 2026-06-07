@@ -268,6 +268,7 @@
   <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
+<script data-cfasync="false" src="generated/encyclopedia-data.js"></script>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const NOW_STORIES = [
   { date:"February 2026", title:"Black Women Lead in U.S. Senate at Record Numbers", body:"As of 2026, Black women hold more seats in the U.S. Senate than at any point in American history, continuing a wave of representation that began with Kamala Harris's historic election in 2020.", tag:"Politics" },
@@ -1445,6 +1446,35 @@ const DATA = [
   }
   // ADD FUTURE MONTHS BELOW THIS LINE
 ];
+
+// Merge entries from generated/encyclopedia-data.js into DATA.
+// Existing DATA dates always win. Generated entries fill dates not yet in DATA.
+(function() {
+  if (typeof ENCYCLOPEDIA === 'undefined') return;
+  var existing = {};
+  DATA.forEach(function(d) { existing[d.fullDate] = true; });
+  ENCYCLOPEDIA.forEach(function(e) {
+    if (!e.quizDay || existing[e.quizDay]) return;
+    DATA.push({
+      fullDate:        e.quizDay,
+      category:        e.vol ? (e.vol.split(' · ')[1] || e.category) : e.category,
+      title:           e.subject || e.name,
+      question:        e.question ? e.question.replace(/<[^>]+>/g, '').trim() : '',
+      options:         e.options || [],
+      answer:          e.answer,
+      answerText:      e.answerText || '',
+      subject:         e.name || '',
+      dates:           e.dates || '',
+      encyclopediaPath:'generated/pages/' + (e.slug || e.id) + '.html',
+      story:           e.dailyStory || '',
+      cost:            e.costImpact || '',
+      whyItMatters:    e.whyItMatters || '',
+      quote:           e.quote || null
+    });
+  });
+  DATA.sort(function(a, b) { return a.fullDate < b.fullDate ? -1 : a.fullDate > b.fullDate ? 1 : 0; });
+})();
+
 function parseLocalDate(str) { const [y,m,d] = str.split('-').map(Number); return new Date(y,m-1,d); }
 function formatFullDate(dateObj) { return dateObj.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'}); }
 function formatMonthYear(dateObj) { return dateObj.toLocaleDateString('en-US',{month:'long',year:'numeric'}); }
@@ -1476,7 +1506,8 @@ function loadDay(idx) {
   document.getElementById('catTag').textContent = d.category;
   document.getElementById('quizQ').textContent = d.question;
   const encLink = document.getElementById('encLink');
-  if (d.encyclopediaSlug) { encLink.href = 'encyclopedia/' + d.encyclopediaSlug + '.html'; encLink.style.display = 'flex'; }
+  if (d.encyclopediaPath) { encLink.href = d.encyclopediaPath; encLink.style.display = 'flex'; }
+  else if (d.encyclopediaSlug) { encLink.href = 'encyclopedia/' + d.encyclopediaSlug + '.html'; encLink.style.display = 'flex'; }
   else { encLink.style.display = 'none'; }
   const grid = document.getElementById('optGrid');
   grid.innerHTML = '';

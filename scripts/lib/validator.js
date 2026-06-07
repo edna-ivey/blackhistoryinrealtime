@@ -127,6 +127,28 @@ class ContentValidator {
       }
     }
 
+    if (!entry.waitWhat) {
+      entryErrors.push('Missing required section: ## Wait... What?!');
+    } else {
+      const wwc = entry.waitWhat.replace(/<[^>]+>/g, ' ').trim().split(/\s+/).filter(Boolean).length;
+      if (wwc < 30) {
+        entryErrors.push(`Wait... What?! must contain at least 30 words (found ${wwc})`);
+      } else if (wwc > 200) {
+        entryErrors.push(`Wait... What?! cannot exceed 200 words (found ${wwc})`);
+      }
+    }
+
+    if (!entry.costImpact) {
+      entryErrors.push('Missing required section: ## Cost / Impact');
+    } else {
+      const cwc = entry.costImpact.replace(/<[^>]+>/g, ' ').trim().split(/\s+/).filter(Boolean).length;
+      if (cwc < 50) {
+        entryErrors.push(`Cost / Impact must contain at least 50 words (found ${cwc})`);
+      } else if (cwc > 250) {
+        entryErrors.push(`Cost / Impact cannot exceed 250 words (found ${cwc})`);
+      }
+    }
+
     if (!entry.story) {
       entryErrors.push('Missing required section: ## Story');
     } else {

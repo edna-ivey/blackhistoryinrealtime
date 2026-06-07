@@ -69,6 +69,8 @@ const outputEntries = entries.map(e => ({
 
   // Narrative layers
   dailyStory: e.dailyStory,
+  waitWhat: e.waitWhat,
+  costImpact: e.costImpact,
   whyItMatters: e.whyItMatters,
 
   // Supporting content

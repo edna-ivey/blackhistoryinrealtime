@@ -105,6 +105,16 @@ function renderExternalLinks(links) {
   ).join('\n');
 }
 
+function renderWaitWhat(html) {
+  if (!html) return '';
+  return '<div class="wait-what">\n<h4>Wait... What?!</h4>\n' + html + '\n</div>';
+}
+
+function renderCostImpact(html) {
+  if (!html) return '';
+  return '<div class="cost-impact">\n<h4>Cost / Impact</h4>\n' + html + '\n</div>';
+}
+
 function renderPage(tmpl, entry) {
   const quote = entry.quote || {};
 
@@ -126,6 +136,8 @@ function renderPage(tmpl, entry) {
 
     // Already-rendered HTML — insert raw, no escaping
     ['{{STORY}}',           entry.story                       || ''],
+    ['{{WAIT_WHAT}}',       renderWaitWhat(entry.waitWhat)],
+    ['{{COST_IMPACT}}',     renderCostImpact(entry.costImpact)],
     ['{{WHY_IT_MATTERS}}',  entry.whyItMatters                || ''],
 
     // Already-rendered HTML — timeline built from entry.timeline array

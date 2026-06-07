@@ -77,6 +77,20 @@ In 1915, he co-founded the Association for the Study of Negro Life and History �
 
 In 1933, Woodson published *The Mis-Education of the Negro*, a book arguing that American schools had trained Black students to undervalue their own history and culture. It was a bold, uncomfortable argument — and the book is still in print today. Woodson died on April 3, 1950, never seeing his week become a month. Negro History Week was officially expanded to Black History Month in 1976, when President Gerald Ford recognized it nationally. Woodson had been gone for 26 years. But everything he built was still standing.
 
+## Wait... What?!
+
+Carter G. Woodson did not create Negro History Week because Black history was missing by accident.
+
+He created it because Black history was being left out on purpose.
+
+Schools taught American history while ignoring Black soldiers, inventors, writers, teachers, leaders, and communities that helped build the country. Woodson saw the missing pages and decided to make the country read them.
+
+## Cost / Impact
+
+Woodson spent his life building institutions that should have already existed. He had to create an association, launch a journal, publish books, and organize a national history week because schools and publishers refused to treat Black history as essential.
+
+That work took money, time, credibility, and constant effort. He died in 1950, twenty-six years before Negro History Week officially became Black History Month. He never got to see the full national recognition of what he built.
+
 ## Why It Matters
 
 Without Woodson's deliberate institutional work, Black history would have remained absent from school curricula and public consciousness for generations longer. He didn't wait for the system to change — he built the infrastructure himself: the association, the journal, the annual observance. Every February, that infrastructure operates, whether or not his name is attached to it.
@@ -87,6 +101,6 @@ Without Woodson's deliberate institutional work, Black history would have remain
 
 ## External Links
 
-- https://en.wikipedia.org/wiki/Carter_G._Woodson | Wikipedia | Carter G. Woodson — overview and bibliography
-- https://asalh.org | ASALH | Association for the Study of African American Life and History, founded by Woodson in 1915
-- https://www.loc.gov/collections/carter-g-woodson-papers/ | Library of Congress | Carter G. Woodson Papers — primary source collection
+- https://en.wikipedia.org/wiki/Carter_G._Woodson | Wikipedia | Carter G. Woodson — biography and bibliography
+- https://www.nps.gov/people/carter-g-woodson.htm | National Park Service | Carter G. Woodson — NPS biography
+- https://www.britannica.com/biography/Carter-G-Woodson | Britannica | Carter G. Woodson — Britannica biography

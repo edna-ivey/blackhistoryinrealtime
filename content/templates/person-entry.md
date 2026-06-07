@@ -84,6 +84,17 @@ Short quiz-reveal story shown immediately after the answer is revealed on the qu
 150–250 words. Punchy, emotional, immediate. Must stand alone — not a summary of the
 encyclopedia biography. Hook first. Payoff last. No textbook tone.
 
+## Wait... What?!
+
+The single most surprising or counterintuitive fact about this person or event.
+30–200 words. Should work as a standalone callout — the moment that makes a reader stop.
+Do not summarize the story. Isolate the jaw-dropping part.
+
+## Cost / Impact
+
+The personal price paid — what was lost, risked, or sacrificed.
+50–250 words. Specific and human. Not abstract. Name the cost directly.
+
 ## Story
 
 Opening paragraph — establish who this person is and why they matter in the first sentence.
