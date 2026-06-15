@@ -136,7 +136,7 @@ What makes this subject historically significant. Select one value.
 | Resistance | Subject organized or acted against oppression |
 | Innovation | Subject invented, discovered, or pioneered new methods |
 | Leadership | Subject led organizations, movements, or institutions |
-| Culture | Subject shaped culture, art, music, literature, or expression |
+| Cultural Impact | Subject shaped culture, art, music, literature, or expression |
 | System | Subject describes a structural or institutional pattern |
 | Tragedy | Subject records a deliberate act of racial violence or injustice |
 | Victory | Subject records a legal, political, or social win |
@@ -179,6 +179,14 @@ structure and opening approach. Select one value. Required before Drafting.
 | System | A policy, mechanism, or structure that shapes society | System — the subject IS the structural system |
 | Turning Point | An event that significantly changed the direction of history | Event — redirected what was legally or politically possible |
 
+**Trailblazer vs. Resister:** Both can describe a person who defied a racist system.
+Use **Trailblazer** when the defining act is *entering a space* — breaking a barrier so
+others could follow (Ruby Bridges entering a white school; Bessie Coleman earning a
+pilot's license). Use **Resister** when the defining act is *opposing a system* — refusing,
+escaping, organizing, or confronting oppression directly (Nat Turner leading a revolt;
+Frederick Douglass escaping slavery and agitating against it). A Trailblazer opens a
+door; a Resister fights the door itself.
+
 **Edge case rule:** Persons whose death became a historical turning point (George
 Floyd, Emmett Till, Medgar Evers, Fred Hampton) use **Turning Point** even though
 Content Type = Person. The story is about the moment, not their accumulated work.
@@ -196,6 +204,17 @@ Required before Drafting.
 | Recovery & Correction | Correct a common misconception or historical omission |
 | Moral Complexity | Explore difficult choices, competing values, or contested interpretations |
 | Contemporary Connection | Connect historical events directly to present-day realities |
+
+**Recovery & Correction vs. Historical Recognition:** Both address subjects that are
+underrepresented in standard curricula. Use **Historical Recognition** when the subject
+exists in curricula but is underweighted — the student may have heard the name but
+doesn't know the significance (Marcus Garvey, A. Philip Randolph). Use **Recovery &
+Correction** when the subject has been actively erased, deliberately misrepresented, or
+its story told in a way that distorts the truth — the goal is not recognition but
+correction of a specific false or absent narrative (Paul Robeson deliberately blacklisted
+from history; Phillis Wheatley erased from the literary canon despite being first). If
+in doubt: Historical Recognition = the student hasn't heard enough; Recovery & Correction
+= the student has heard it wrong or not at all by design.
 
 ### Audience Emotion
 
