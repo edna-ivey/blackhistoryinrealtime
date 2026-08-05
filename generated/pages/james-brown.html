@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>James Brown — Black History in Real Time Encyclopedia</title>
+<meta name="description" content="The Godfather of Soul who fused music, Black pride, and political action — recording &#039;Say It Loud — I&#039;m Black and I&#039;m Proud&#039; in 1968 and using a televised concert to keep Boston calm the night after Martin Luther King Jr. was assassinated.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --red: #C41E3A;
+    --black: #0A0A0A;
+    --green: #1A5C38;
+    --gold: #D4A017;
+    --orange: #E8621A;
+    --cream: #F5EDD8;
+    --white: #FAFAFA;
+    --card-bg: #161616;
+    --border: rgba(212,160,23,0.2);
+    --purple: #6B2D8B;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--black);
+    color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .pan-stripe { display: flex; height: 6px; width: 100%; }
+  .pan-stripe .s1 { background: var(--red); flex: 1; }
+  .pan-stripe .s2 { background: #111; flex: 1; }
+  .pan-stripe .s3 { background: var(--green); flex: 1; }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(10,10,10,0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+  }
+  .logo-img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 2px var(--gold), 0 0 20px rgba(212,160,23,0.3);
+    animation: glow 3s ease-in-out infinite;
+    flex-shrink: 0;
+  }
+  @keyframes glow {
+    0%,100% { box-shadow: 0 0 0 2px var(--gold), 0 0 16px rgba(212,160,23,0.3); }
+    50% { box-shadow: 0 0 0 2px var(--gold), 0 0 32px rgba(212,160,23,0.6); }
+  }
+  .logo-text h1 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 2px; color: var(--white); line-height: 1; }
+  .logo-text h1 span { color: var(--gold); }
+  .logo-text p { font-size: 0.65rem; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-top: 1px; }
+
+  nav {
+    border-top: 1px solid rgba(212,160,23,0.1);
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 0 32px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  nav::-webkit-scrollbar { display: none; }
+  nav a {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: rgba(245,237,216,0.45);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline-block;
+  }
+  nav a:hover { color: var(--cream); }
+  nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+  /* BREADCRUMB */
+  .breadcrumb {
+    position: relative;
+    z-index: 1;
+    width: min(1180px, calc(100% - 64px));
+    max-width: none;
+    margin: 0 auto;
+    padding: 20px 32px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    color: rgba(245,237,216,0.35);
+  }
+  .breadcrumb a { color: rgba(212,160,23,0.6); text-decoration: none; transition: color 0.2s; }
+  .breadcrumb a:hover { color: var(--gold); }
+  .breadcrumb span { color: rgba(245,237,216,0.25); }
+
+  /* ENTRY LAYOUT */
+  main {
+    position: relative;
+    z-index: 1;
+    width: min(1180px, calc(100% - 64px));
+    max-width: none;
+    margin: 0 auto;
+    padding: 32px 0 100px;
+  }
+
+  /* HERO HEADER */
+  .entry-hero {
+    margin-bottom: 56px;
+    animation: fadeUp 0.5s ease both;
+  }
+  .entry-vol-label {
+    font-size: 0.68rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+  .entry-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.4rem, 6vw, 4.6rem);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.06;
+    margin-bottom: 18px;
+  }
+  .entry-tagline {
+    font-size: 1.2rem;
+    color: rgba(245,237,216,0.6);
+    line-height: 1.6;
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+  .entry-badges {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 100px;
+    padding: 6px 14px;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .badge-cat { background: rgba(26,92,56,0.25); border: 1px solid rgba(26,92,56,0.5); color: #7dd6a0; }
+  .badge-dates { background: rgba(212,160,23,0.1); border: 1px solid rgba(212,160,23,0.3); color: var(--gold); }
+  .badge-vol { background: rgba(196,30,58,0.1); border: 1px solid rgba(196,30,58,0.3); color: #ff9999; }
+
+  /* DIVIDER */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 56px 0 40px;
+  }
+  .section-divider::before, .section-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212,160,23,0.3), transparent);
+  }
+  .section-divider span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 5px;
+    color: rgba(212,160,23,0.5);
+    white-space: nowrap;
+  }
+
+  /* TIMELINE STRIP */
+  .timeline-strip {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px 32px;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold) transparent;
+    margin-bottom: 52px;
+    animation: fadeUp 0.5s ease 0.1s both;
+  }
+  .timeline-item {
+    flex: 1;
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 8px 16px;
+  }
+  .timeline-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60%;
+    background: rgba(212,160,23,0.2);
+  }
+  .tl-year {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .tl-event {
+    font-size: 0.78rem;
+    line-height: 1.5;
+    color: rgba(245,237,216,0.6);
+    text-align: center;
+  }
+
+  /* BIOGRAPHY */
+  .bio-section {
+    animation: fadeUp 0.5s ease 0.15s both;
+  }
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+    color: var(--gold);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .bio-body p {
+    font-size: 1.125rem;
+    line-height: 1.85;
+    color: rgba(245,237,216,0.82);
+    margin-bottom: 26px;
+  }
+  .bio-body p:last-child { margin-bottom: 0; }
+
+  /* PULL QUOTE */
+  .pull-quote {
+    border-left: 4px solid var(--gold);
+    background: rgba(212,160,23,0.05);
+    padding: 24px 28px;
+    margin: 52px 0;
+    border-radius: 0 10px 10px 0;
+    animation: fadeUp 0.5s ease 0.2s both;
+  }
+  .pull-quote p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--gold);
+    margin: 0 0 8px;
+    line-height: 1.65;
+  }
+  .pull-quote cite {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(212,160,23,0.5);
+  }
+
+  /* WAIT... WHAT?! */
+  .wait-what {
+    background: linear-gradient(135deg, rgba(212,160,23,0.08), rgba(180,120,0,0.04));
+    border: 1px solid rgba(212,160,23,0.3);
+    border-radius: 14px;
+    padding: 32px 34px;
+    margin: 52px 0;
+    animation: fadeUp 0.5s ease 0.2s both;
+  }
+  .wait-what h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.85rem;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+  .wait-what p { font-size: 1.05rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin: 0 0 16px; }
+  .wait-what p:last-child { margin-bottom: 0; }
+
+  /* COST / IMPACT */
+  .cost-impact {
+    background: linear-gradient(135deg, rgba(232,98,26,0.08), rgba(180,60,0,0.04));
+    border: 1px solid rgba(232,98,26,0.25);
+    border-radius: 14px;
+    padding: 32px 34px;
+    margin: 52px 0;
+    animation: fadeUp 0.5s ease 0.22s both;
+  }
+  .cost-impact h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.85rem;
+    color: var(--orange);
+    margin-bottom: 14px;
+  }
+  .cost-impact p { font-size: 1.05rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin: 0 0 16px; }
+  .cost-impact p:last-child { margin-bottom: 0; }
+
+  /* Hide hero elements that have no content */
+  .entry-vol-label:empty { display: none; }
+  .entry-tagline:empty   { display: none; }
+  .badge-vol:empty       { display: none; }
+
+  /* WHY IT MATTERS */
+  .why-matters {
+    background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04));
+    border: 1px solid rgba(196,30,58,0.25);
+    border-radius: 14px;
+    padding: 32px 34px;
+    margin: 52px 0;
+    animation: fadeUp 0.5s ease 0.25s both;
+  }
+  .why-matters h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.85rem;
+    color: var(--red);
+    margin-bottom: 14px;
+  }
+  .why-matters p {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: rgba(245,237,216,0.78);
+    margin: 0;
+  }
+
+  /* CONNECTED TO */
+  .connected-section {
+    margin: 52px 0;
+    animation: fadeUp 0.5s ease 0.3s both;
+  }
+  .connected-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
+    margin-top: 18px;
+  }
+  .connected-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .connected-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--red), var(--gold));
+  }
+  .connected-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
+  .connected-type {
+    font-size: 0.6rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: rgba(212,160,23,0.55);
+    margin-bottom: 5px;
+  }
+  .connected-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+  .connected-desc {
+    font-size: 0.78rem;
+    color: rgba(245,237,216,0.45);
+    line-height: 1.5;
+  }
+
+  /* QUIZ LINK */
+  .quiz-link-card {
+    background: linear-gradient(135deg, rgba(196,30,58,0.12), rgba(139,0,0,0.06));
+    border: 1px solid rgba(196,30,58,0.3);
+    border-radius: 12px;
+    padding: 18px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin-top: 12px;
+  }
+  .quiz-link-card:hover { border-color: var(--red); transform: translateY(-2px); }
+  .quiz-link-left {}
+  .quiz-link-label { font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(196,30,58,0.7); margin-bottom: 4px; }
+  .quiz-link-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
+  .quiz-link-arrow { color: var(--red); font-size: 1.4rem; flex-shrink: 0; }
+
+  /* EXTERNAL LINKS */
+  .external-section {
+    margin: 36px 0;
+    animation: fadeUp 0.5s ease 0.35s both;
+  }
+  .external-links { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
+  .ext-link {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .ext-link:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
+  .ext-left {}
+  .ext-source { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 3px; }
+  .ext-title { font-size: 0.9rem; color: var(--cream); line-height: 1.35; }
+  .ext-arrow { color: var(--gold); opacity: 0.6; font-size: 1rem; flex-shrink: 0; }
+
+  /* BACK NAV */
+  .back-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+    animation: fadeUp 0.4s ease both;
+  }
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(212,160,23,0.2);
+    border-radius: 100px;
+    padding: 8px 18px;
+    color: rgba(245,237,216,0.6);
+    font-size: 0.78rem;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .back-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(212,160,23,0.06); }
+
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid rgba(212,160,23,0.15);
+    padding: 28px 32px;
+    text-align: center;
+  }
+  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
+  footer a { color: var(--gold); text-decoration: none; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 700px) {
+    main, .breadcrumb { width: calc(100% - 32px); }
+  }
+
+  @media (max-width: 620px) {
+    .header-inner { padding: 12px 16px; }
+    nav { padding: 0 16px; }
+    nav a { padding: 10px 12px; font-size: 0.72rem; }
+    main { padding: 24px 0 80px; }
+    .breadcrumb { padding: 16px 16px 0; }
+    .entry-name { font-size: 2rem; }
+    .connected-grid { grid-template-columns: 1fr; }
+    .timeline-strip { gap: 0; }
+  }
+</style>
+</head>
+<body data-entry-id="james-brown">
+
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text">
+        <h1>Black<span>History</span></h1>
+        <p>In Real Time</p>
+      </div>
+    </a>
+  </div>
+  <nav>
+    <a href="../../index.html">Today</a>
+    <a href="../../index.html#now">Making History Now</a>
+    <a href="../../index.html#calendar">Calendar</a>
+    <a href="../../index.html#archive">Archive</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
+  </nav>
+</header>
+
+<div class="breadcrumb">
+  <a href="../../encyclopedia.html">Encyclopedia</a>
+  <span>›</span>
+  <span style="color:rgba(245,237,216,0.5)">James Brown</span>
+</div>
+
+<main>
+
+  <div class="back-nav">
+    <a href="../../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a>
+  </div>
+
+  <!-- ENTRY HERO -->
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 3 · Culture &amp; Pride</div>
+    <h1 class="entry-name">James Brown</h1>
+    <p class="entry-tagline">The Godfather of Soul who told Black America to be proud out loud.</p>
+    <div class="entry-badges">
+      <span class="badge badge-dates">1933 — 2006</span>
+      <span class="badge badge-cat">People</span>
+    </div>
+  </div>
+
+  <!-- TIMELINE — rendered by generator from entry data; omitted if empty -->
+  <div class="timeline-strip">
+  <div class="timeline-item">
+    <div class="tl-year">1933</div>
+    <div class="tl-event">Born May 3 in Barnwell, South Carolina</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1952</div>
+    <div class="tl-event">Released from reform school; begins performing with the Famous Flames</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1956</div>
+    <div class="tl-event">Records &quot;Please Please Please&quot; — first major hit for King Records</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1962</div>
+    <div class="tl-event">Records Live at the Apollo, which reaches number two on the pop charts</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1965</div>
+    <div class="tl-event">Records &quot;Papa&#039;s Got a Brand New Bag,&quot; introducing funk to popular music</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1968</div>
+    <div class="tl-event">Broadcasts a live concert in Boston the night after King&#039;s assassination</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1968</div>
+    <div class="tl-event">Records &quot;Say It Loud — I&#039;m Black and I&#039;m Proud&quot;</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">2006</div>
+    <div class="tl-event">Dies December 25 in Atlanta, Georgia; his recordings become among the most sampled in history</div>
+  </div>
+</div>
+
+  <!-- BIOGRAPHY -->
+  <div class="bio-section">
+    <div class="section-title">Full Biography</div>
+    <div class="bio-body"><p>James Joseph Brown Jr. was born on May 3, 1933, in Barnwell, South Carolina. His early life was shaped by poverty severe enough that he was sometimes turned away from school for not having adequate clothing. His parents separated when he was young, and he was raised partly by relatives in Augusta, Georgia. He ran numbers for local gamblers. He shined shoes. He danced for pennies outside Augusta's radio station.</p>
+<p>At 16, he was arrested for breaking into cars and sentenced to the Alto Reform School in Toccoa, Georgia. At the reform school, he formed a gospel group and met Bobby Byrd, who would become his earliest musical partner. When Brown was released in 1952, Byrd's family took him in. The Famous Flames followed.</p>
+<p>In 1956, the group recorded &quot;Please Please Please&quot; for the Federal label. It sold more than a million copies. James Brown was 23 years old.</p>
+<p>What happened next was unlike anything in American music history.</p>
+<p>Brown didn't simply make hit records — he reinvented how popular music was structured. He stripped everything down to rhythm. He pushed the guitar, bass, and horns into percussive roles, treating them as rhythm instruments rather than melody carriers. He built his sound on the downbeat — the first beat of the bar, where most popular music at the time stayed light. The result was something new: funk.</p>
+<p>In 1962, he recorded <em>Live at the Apollo</em>, a live concert album his label didn't want to release because they didn't believe live records sold. Brown paid for the recording himself. The album reached number two on the Billboard pop charts and spent 66 weeks on the chart. It remains one of the most important live albums in music history, and it was released over the label's objections because Brown believed in it.</p>
+<p>He kept working at a pace that stunned the industry. He performed up to 330 nights a year. He was meticulous about his band — he fined musicians for missed notes and wrong notes during performances. He controlled everything about his show. He became known as the hardest-working man in show business, a nickname he had earned.</p>
+<p>Then came 1968.</p>
+<p>Martin Luther King Jr. was assassinated on April 4. Within hours, cities began burning — Washington, Chicago, Baltimore, Louisville, Kansas City. Boston was on edge. James Brown was scheduled to perform there the following night at Boston Garden.</p>
+<p>City officials asked him to cancel.</p>
+<p>Brown negotiated. He would perform, but he wanted the concert broadcast live on local television so that people could watch from home. Mayor Kevin White agreed and went on television himself to encourage people to stay home and watch. The broadcast reached an audience far larger than the Garden could hold.</p>
+<p>Boston remained largely calm that night while riots spread across the country. The decision to broadcast the concert — and Brown's willingness to perform rather than cancel — is remembered as a significant factor.</p>
+<p>Later that same year, Brown released &quot;Say It Loud — I'm Black and I'm Proud.&quot; The song was a deliberate political choice. At a time when &quot;Black&quot; was still a contested word — when mainstream media still defaulted to &quot;Negro&quot; or &quot;colored&quot; — Brown put &quot;Black&quot; in the title, recorded it with a choir of children repeating the chorus, and released it at the height of the Black Power movement. Some radio stations refused to play it. It reached number one on the R&amp;B charts anyway.</p>
+<p>James Brown died on December 25, 2006, in Atlanta. He was 73 years old. His recordings are among the most sampled in music history. Every major genre of Black popular music that came after him — funk, hip-hop, R&amp;B — carries his structural innovations in its DNA.</p>
+<p>He came from almost nothing. He built everything he had. And he used what he built to say, as loudly as he possibly could, that Black people had every reason to be proud.</p></div>
+  </div>
+
+  <div class="wait-what">
+<h4>Wait... What?!</h4>
+<p>The night after Martin Luther King Jr. was assassinated, James Brown performed a live concert in Boston — but had it televised so people would stay home and watch rather than go into the streets.</p>
+<p>Cities across America were burning.</p>
+<p>Boston didn't.</p>
+<p>Brown used music as a deliberate tool to hold a city together on one of the most volatile nights in modern American history. He made a strategic decision to perform rather than cancel, broadcast rather than contain, and trust the audience rather than fear them.</p>
+<p>It worked. And he knew what he was doing.</p>
+</div>
+
+  <div class="cost-impact">
+<h4>Cost / Impact</h4>
+<p>Brown grew up in poverty severe enough that he was turned away from school for lacking adequate clothing. He served time in a reform school at 16. Everything he built, he built without a safety net — and once he built it, he used it.</p>
+<p>He invested his platform deliberately. The Boston concert the night after King's assassination was not a routine performance — it was a calculated use of his public trust at an extraordinary moment. &quot;Say It Loud — I'm Black and I'm Proud&quot; was recorded during a period when Black self-identification was politically charged, and radio stations that refused to play it were making a political statement by their refusal.</p>
+<p>The musical impact is structural. Brown's rhythmic innovations — the emphasis on the downbeat, the use of horns and guitars as percussion, the layered polyrhythmic patterns — defined what popular music sounds like in America. Hip-hop, which emerged in the 1970s, built itself on James Brown samples. Hundreds of the most sampled recordings in music history are his. His influence is not historical — it is present in nearly every genre of contemporary American music made today.</p>
+<p>He structured Black pride into the music itself so that anyone who danced to it was participating in it.</p>
+</div>
+
+  <!-- PULL QUOTE -->
+  <div class="pull-quote">
+    <p>Say it loud — I&#039;m Black and I&#039;m proud.</p>
+    <cite>— James Brown, 1968</cite>
+  </div>
+
+  <!-- WHY IT MATTERS -->
+  <div class="why-matters">
+    <h4>Why This Matters</h4>
+    <p>Brown demonstrated that cultural production was political action. His 1968 concert in Boston showed that a performer with genuine community trust could hold a city together on a night when others were burning. His recordings gave language and rhythm to Black pride at a moment when both were needed. The innovations he invented in the 1960s are still the structural foundation of American popular music, heard in every song that follows the patterns he built.</p>
+  </div>
+
+  <div class="section-divider"><span>Connections</span></div>
+
+  <!-- CONNECTED TO -->
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <a href="../../index.html?day=2026-05-03" class="quiz-link-card">
+      <div class="quiz-link-left">
+        <div class="quiz-link-label">Take the Quiz · 2026-05-03</div>
+        <div class="quiz-link-title">Test your knowledge on James Brown</div>
+      </div>
+      <span class="quiz-link-arrow">✊🏾</span>
+    </a>
+
+    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"></div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+
+  <!-- EXTERNAL LINKS — rendered by generator from entry data; omitted if empty -->
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links"><a href="https://en.wikipedia.org/wiki/James_Brown" class="ext-link" target="_blank" rel="noopener noreferrer">
+  <div class="ext-left">
+    <div class="ext-source">Wikipedia</div>
+    <div class="ext-title">James Brown — biography and musical career</div>
+  </div>
+  <span class="ext-arrow">&#x2197;</span>
+</a>
+<a href="https://www.britannica.com/biography/James-Brown-musician" class="ext-link" target="_blank" rel="noopener noreferrer">
+  <div class="ext-left">
+    <div class="ext-source">Britannica</div>
+    <div class="ext-title">James Brown — Britannica biography</div>
+  </div>
+  <span class="ext-arrow">&#x2197;</span>
+</a>
+<a href="https://blackpast.org/african-american-history/brown-james-1933-2006/" class="ext-link" target="_blank" rel="noopener noreferrer">
+  <div class="ext-left">
+    <div class="ext-source">BlackPast</div>
+    <div class="ext-title">James Brown — BlackPast encyclopedia entry</div>
+  </div>
+  <span class="ext-arrow">&#x2197;</span>
+</a></div>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+
+<script src="../encyclopedia-data.js"></script>
+<script>
+(function(){
+  var pageId = document.body.dataset.entryId;
+  if(!pageId) return;
+  var connections = getConnections(pageId, 5);
+  var grid = document.getElementById('connectedGrid');
+  if(!grid || !connections.length) return;
+  var html = '';
+  connections.forEach(function(e){
+    html += '<a href="'+e.url+'" class="connected-card">'
+          + '<div class="connected-type">Related Entry</div>'
+          + '<div class="connected-name">'+e.name+'</div>'
+          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
+          + '</a>';
+  });
+  grid.innerHTML = html;
+})();
+</script>
+</body>
+</html>

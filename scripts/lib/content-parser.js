@@ -28,6 +28,7 @@ function parseContentFile(filePath) {
       barClass: frontmatter.barClass || '',
       tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
       desc: frontmatter.desc || '',
+      tagline: frontmatter.tagline || '',
       url: `${frontmatter.id}.html`,
       heroImage: frontmatter.heroImage || '',
       thumbnail: frontmatter.thumbnail || '',
@@ -38,11 +39,16 @@ function parseContentFile(filePath) {
       answer: sections.answer !== undefined ? parseInt(sections.answer) : undefined,
       answerText: sections.answerText || '',
       subject: sections.subject || frontmatter.name,
+      dailyStory: sections.dailyStory ? md.render(sections.dailyStory).trim() : '',
+      waitWhat: sections.waitWhat ? md.render(sections.waitWhat).trim() : '',
+      costImpact: sections.costImpact ? md.render(sections.costImpact).trim() : '',
       story: sections.story ? md.render(sections.story).trim() : '',
       whyItMatters: sections.whyItMatters ? md.render(sections.whyItMatters).trim() : '',
       cost: sections.cost ? md.render(sections.cost).trim() : '',
       quote: sections.quote,
-      
+      timeline: sections.timeline || [],
+      externalLinks: sections.externalLinks || [],
+
       // Metadata
       _sourceFile: filePath,
       _parsedAt: new Date().toISOString(),
@@ -89,10 +95,15 @@ function parseContentSections(content) {
     answer: parseAnswer(sections.answer),
     answerText: sections.answer_text || sections.answertext,
     subject: sections.subject,
+    dailyStory: sections.daily_story,
+    waitWhat: sections['wait..._what?!'],
+    costImpact: sections['cost_/_impact'],
     story: sections.story,
     whyItMatters: sections.why_it_matters || sections.whyitmatters,
     cost: sections.cost,
     quote: parseQuote(sections.pull_quote || sections.quote),
+    timeline: parseTimeline(sections.timeline),
+    externalLinks: parseExternalLinks(sections.external_links),
   };
 }
 
@@ -139,6 +150,39 @@ function parseQuote(quoteText) {
 }
 
 /**
+ * Parse external links section.
+ * Each line: - https://url | Source Name | Link description
+ */
+function parseExternalLinks(text) {
+  if (!text) return [];
+  const links = [];
+  text.split('\n').forEach(line => {
+    const trimmed = line.trim();
+    if (!trimmed.startsWith('-')) return;
+    const parts = trimmed.slice(1).split('|').map(s => s.trim());
+    if (parts.length >= 2 && parts[0]) {
+      links.push({ url: parts[0], source: parts[1] || '', title: parts[2] || '' });
+    }
+  });
+  return links;
+}
+
+/**
+ * Parse timeline section: lines matching "- YYYY: description"
+ */
+function parseTimeline(text) {
+  if (!text) return [];
+  const items = [];
+  text.split('\n').forEach(line => {
+    const match = line.trim().match(/^[-*]\s+(\d{4}):\s*(.+)$/);
+    if (match) {
+      items.push({ year: match[1], event: match[2].trim() });
+    }
+  });
+  return items;
+}
+
+/**
  * Parse multiple content files
  */
 function parseAllContent(files) {
@@ -165,4 +209,6 @@ module.exports = {
   parseOptions,
   parseAnswer,
   parseQuote,
+  parseTimeline,
+  parseExternalLinks,
 };

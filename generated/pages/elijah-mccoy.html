@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elijah McCoy — Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Born in Canada to parents who escaped slavery, Elijah McCoy trained as a mechanical engineer in Scotland and invented the automatic lubrication system that kept America&#039;s railroads running — inspiring the phrase &#039;the real McCoy.&#039;">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --red: #C41E3A;
+    --black: #0A0A0A;
+    --green: #1A5C38;
+    --gold: #D4A017;
+    --orange: #E8621A;
+    --cream: #F5EDD8;
+    --white: #FAFAFA;
+    --card-bg: #161616;
+    --border: rgba(212,160,23,0.2);
+    --purple: #6B2D8B;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--black);
+    color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .pan-stripe { display: flex; height: 6px; width: 100%; }
+  .pan-stripe .s1 { background: var(--red); flex: 1; }
+  .pan-stripe .s2 { background: #111; flex: 1; }
+  .pan-stripe .s3 { background: var(--green); flex: 1; }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(10,10,10,0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+  }
+  .logo-img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 2px var(--gold), 0 0 20px rgba(212,160,23,0.3);
+    animation: glow 3s ease-in-out infinite;
+    flex-shrink: 0;
+  }
+  @keyframes glow {
+    0%,100% { box-shadow: 0 0 0 2px var(--gold), 0 0 16px rgba(212,160,23,0.3); }
+    50% { box-shadow: 0 0 0 2px var(--gold), 0 0 32px rgba(212,160,23,0.6); }
+  }
+  .logo-text h1 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 2px; color: var(--white); line-height: 1; }
+  .logo-text h1 span { color: var(--gold); }
+  .logo-text p { font-size: 0.65rem; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-top: 1px; }
+
+  nav {
+    border-top: 1px solid rgba(212,160,23,0.1);
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 0 32px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  nav::-webkit-scrollbar { display: none; }
+  nav a {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: rgba(245,237,216,0.45);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline-block;
+  }
+  nav a:hover { color: var(--cream); }
+  nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+  /* BREADCRUMB */
+  .breadcrumb {
+    position: relative;
+    z-index: 1;
+    width: min(1180px, calc(100% - 64px));
+    max-width: none;
+    margin: 0 auto;
+    padding: 20px 32px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    color: rgba(245,237,216,0.35);
+  }
+  .breadcrumb a { color: rgba(212,160,23,0.6); text-decoration: none; transition: color 0.2s; }
+  .breadcrumb a:hover { color: var(--gold); }
+  .breadcrumb span { color: rgba(245,237,216,0.25); }
+
+  /* ENTRY LAYOUT */
+  main {
+    position: relative;
+    z-index: 1;
+    width: min(1180px, calc(100% - 64px));
+    max-width: none;
+    margin: 0 auto;
+    padding: 32px 0 100px;
+  }
+
+  /* HERO HEADER */
+  .entry-hero {
+    margin-bottom: 56px;
+    animation: fadeUp 0.5s ease both;
+  }
+  .entry-vol-label {
+    font-size: 0.68rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+  .entry-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.4rem, 6vw, 4.6rem);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.06;
+    margin-bottom: 18px;
+  }
+  .entry-tagline {
+    font-size: 1.2rem;
+    color: rgba(245,237,216,0.6);
+    line-height: 1.6;
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+  .entry-badges {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 100px;
+    padding: 6px 14px;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .badge-cat { background: rgba(26,92,56,0.25); border: 1px solid rgba(26,92,56,0.5); color: #7dd6a0; }
+  .badge-dates { background: rgba(212,160,23,0.1); border: 1px solid rgba(212,160,23,0.3); color: var(--gold); }
+  .badge-vol { background: rgba(196,30,58,0.1); border: 1px solid rgba(196,30,58,0.3); color: #ff9999; }
+
+  /* DIVIDER */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 56px 0 40px;
+  }
+  .section-divider::before, .section-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212,160,23,0.3), transparent);
+  }
+  .section-divider span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 5px;
+    color: rgba(212,160,23,0.5);
+    white-space: nowrap;
+  }
+
+  /* TIMELINE STRIP */
+  .timeline-strip {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px 32px;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold) transparent;
+    margin-bottom: 52px;
+    animation: fadeUp 0.5s ease 0.1s both;
+  }
+  .timeline-item {
+    flex: 1;
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 8px 16px;
+  }
+  .timeline-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60%;
+    background: rgba(212,160,23,0.2);
+  }
+  .tl-year {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .tl-event {
+    font-size: 0.78rem;
+    line-height: 1.5;
+    color: rgba(245,237,216,0.6);
+    text-align: center;
+  }
+
+  /* BIOGRAPHY */
+  .bio-section {
+    animation: fadeUp 0.5s ease 0.15s both;
+  }
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+    color: var(--gold);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .bio-body p {
+    font-size: 1.125rem;
+    line-height: 1.85;
+    color: rgba(245,237,216,0.82);
+    margin-bottom: 26px;
+  }
+  .bio-body p:last-child { margin-bottom: 0; }
+
+  /* PULL QUOTE */
+  .pull-quote {
+    border-left: 4px solid var(--gold);
+    background: rgba(212,160,23,0.05);
+    padding: 24px 28px;
+    margin: 52px 0;
+    border-radius: 0 10px 10px 0;
+    animation: fadeUp 0.5s ease 0.2s both;
+  }
+  .pull-quote p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--gold);
+    margin: 0 0 8px;
+    line-height: 1.65;
+  }
+  .pull-quote cite {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(212,160,23,0.5);
+  }
+
+  /* WAIT... WHAT?! */
+  .wait-what {
+    background: linear-gradient(135deg, rgba(212,160,23,0.08), rgba(180,120,0,0.04));
+    border: 1px solid rgba(212,160,23,0.3);
+    border-radius: 14px;
+    padding: 32px 34px;
+    margin: 52px 0;
+    animation: fadeUp 0.5s ease 0.2s both;
+  }
+  .wait-what h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.85rem;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+  .wait-what p { font-size: 1.05rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin: 0 0 16px; }
+  .wait-what p:last-child { margin-bottom: 0; }
+
+  /* COST / IMPACT */
+  .cost-impact {
+    background: linear-gradient(135deg, rgba(232,98,26,0.08), rgba(180,60,0,0.04));
+    border: 1px solid rgba(232,98,26,0.25);
+    border-radius: 14px;
+    padding: 32px 34px;
+    margin: 52px 0;
+    animation: fadeUp 0.5s ease 0.22s both;
+  }
+  .cost-impact h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.85rem;
+    color: var(--orange);
+    margin-bottom: 14px;
+  }
+  .cost-impact p { font-size: 1.05rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin: 0 0 16px; }
+  .cost-impact p:last-child { margin-bottom: 0; }
+
+  /* Hide hero elements that have no content */
+  .entry-vol-label:empty { display: none; }
+  .entry-tagline:empty   { display: none; }
+  .badge-vol:empty       { display: none; }
+
+  /* WHY IT MATTERS */
+  .why-matters {
+    background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04));
+    border: 1px solid rgba(196,30,58,0.25);
+    border-radius: 14px;
+    padding: 32px 34px;
+    margin: 52px 0;
+    animation: fadeUp 0.5s ease 0.25s both;
+  }
+  .why-matters h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 0.85rem;
+    color: var(--red);
+    margin-bottom: 14px;
+  }
+  .why-matters p {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: rgba(245,237,216,0.78);
+    margin: 0;
+  }
+
+  /* CONNECTED TO */
+  .connected-section {
+    margin: 52px 0;
+    animation: fadeUp 0.5s ease 0.3s both;
+  }
+  .connected-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
+    margin-top: 18px;
+  }
+  .connected-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .connected-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--red), var(--gold));
+  }
+  .connected-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
+  .connected-type {
+    font-size: 0.6rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: rgba(212,160,23,0.55);
+    margin-bottom: 5px;
+  }
+  .connected-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+  .connected-desc {
+    font-size: 0.78rem;
+    color: rgba(245,237,216,0.45);
+    line-height: 1.5;
+  }
+
+  /* QUIZ LINK */
+  .quiz-link-card {
+    background: linear-gradient(135deg, rgba(196,30,58,0.12), rgba(139,0,0,0.06));
+    border: 1px solid rgba(196,30,58,0.3);
+    border-radius: 12px;
+    padding: 18px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin-top: 12px;
+  }
+  .quiz-link-card:hover { border-color: var(--red); transform: translateY(-2px); }
+  .quiz-link-left {}
+  .quiz-link-label { font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(196,30,58,0.7); margin-bottom: 4px; }
+  .quiz-link-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
+  .quiz-link-arrow { color: var(--red); font-size: 1.4rem; flex-shrink: 0; }
+
+  /* EXTERNAL LINKS */
+  .external-section {
+    margin: 36px 0;
+    animation: fadeUp 0.5s ease 0.35s both;
+  }
+  .external-links { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
+  .ext-link {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .ext-link:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
+  .ext-left {}
+  .ext-source { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 3px; }
+  .ext-title { font-size: 0.9rem; color: var(--cream); line-height: 1.35; }
+  .ext-arrow { color: var(--gold); opacity: 0.6; font-size: 1rem; flex-shrink: 0; }
+
+  /* BACK NAV */
+  .back-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+    animation: fadeUp 0.4s ease both;
+  }
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(212,160,23,0.2);
+    border-radius: 100px;
+    padding: 8px 18px;
+    color: rgba(245,237,216,0.6);
+    font-size: 0.78rem;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .back-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(212,160,23,0.06); }
+
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid rgba(212,160,23,0.15);
+    padding: 28px 32px;
+    text-align: center;
+  }
+  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
+  footer a { color: var(--gold); text-decoration: none; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 700px) {
+    main, .breadcrumb { width: calc(100% - 32px); }
+  }
+
+  @media (max-width: 620px) {
+    .header-inner { padding: 12px 16px; }
+    nav { padding: 0 16px; }
+    nav a { padding: 10px 12px; font-size: 0.72rem; }
+    main { padding: 24px 0 80px; }
+    .breadcrumb { padding: 16px 16px 0; }
+    .entry-name { font-size: 2rem; }
+    .connected-grid { grid-template-columns: 1fr; }
+    .timeline-strip { gap: 0; }
+  }
+</style>
+</head>
+<body data-entry-id="elijah-mccoy">
+
+<div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text">
+        <h1>Black<span>History</span></h1>
+        <p>In Real Time</p>
+      </div>
+    </a>
+  </div>
+  <nav>
+    <a href="../../index.html">Today</a>
+    <a href="../../index.html#now">Making History Now</a>
+    <a href="../../index.html#calendar">Calendar</a>
+    <a href="../../index.html#archive">Archive</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
+  </nav>
+</header>
+
+<div class="breadcrumb">
+  <a href="../../encyclopedia.html">Encyclopedia</a>
+  <span>›</span>
+  <span style="color:rgba(245,237,216,0.5)">Elijah McCoy</span>
+</div>
+
+<main>
+
+  <div class="back-nav">
+    <a href="../../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a>
+  </div>
+
+  <!-- ENTRY HERO -->
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 2 · Innovation &amp; Invention</div>
+    <h1 class="entry-name">Elijah McCoy</h1>
+    <p class="entry-tagline">The man who kept America&#039;s railroads running and still had to fight to be hired.</p>
+    <div class="entry-badges">
+      <span class="badge badge-dates">1844 — 1929</span>
+      <span class="badge badge-cat">People</span>
+    </div>
+  </div>
+
+  <!-- TIMELINE — rendered by generator from entry data; omitted if empty -->
+  <div class="timeline-strip">
+  <div class="timeline-item">
+    <div class="tl-year">1844</div>
+    <div class="tl-event">Born May 2 in Colchester, Ontario, Canada to formerly enslaved parents</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1860</div>
+    <div class="tl-event">Trains as a mechanical engineer through an apprenticeship in Edinburgh, Scotland</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1866</div>
+    <div class="tl-event">Returns to America; hired as a railroad fireman in Michigan despite engineering credentials</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1872</div>
+    <div class="tl-event">Patents his first automatic lubrication system for steam engines</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1882</div>
+    <div class="tl-event">Receives additional patents for improved lubricator designs</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1916</div>
+    <div class="tl-event">Patents the graphite lubricator, his most sophisticated design</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1920</div>
+    <div class="tl-event">Founds the Elijah McCoy Manufacturing Company in Detroit</div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-year">1929</div>
+    <div class="tl-event">Dies in Michigan; holds 57 patents</div>
+  </div>
+</div>
+
+  <!-- BIOGRAPHY -->
+  <div class="bio-section">
+    <div class="section-title">Full Biography</div>
+    <div class="bio-body"><p>George Elijah McCoy was born on May 2, 1844, in Colchester, Ontario, Canada. His parents, George and Emillia McCoy, had escaped slavery in Kentucky by way of the Underground Railroad. Their son was born in freedom — which gave him access to education that would have been illegal for him in the United States.</p>
+<p>His parents recognized that Elijah had mechanical gifts and sent him to Edinburgh, Scotland, for an apprenticeship in mechanical engineering. He spent years learning to design, build, and repair machines at a professional level. He earned real credentials in a serious technical field.</p>
+<p>Then he came back to North America to work.</p>
+<p>In the United States after the Civil War, a Black man with a mechanical engineering degree could not find work as a mechanical engineer. The Michigan Central Railroad offered him a position — as a fireman. That meant shoveling coal into the furnace that powered the steam engine, and oiling the engine's moving parts every time the train stopped.</p>
+<p>McCoy took the job and went to work. He was overqualified for what he was doing, and he knew it. But he paid attention.</p>
+<p>Steam engines had a fundamental problem. The metal parts that moved against each other required constant lubrication to prevent overheating and damage. The only way to apply that oil was to stop the machine. For a railroad, stopping the machine meant stopping the train — roughly every eighty miles, the train halted, workers went underneath, and everything got hand-oiled before the train could move again.</p>
+<p>McCoy watched this process hundreds of times. He understood the mechanics of the engine better than anyone around him. And while he was down there oiling the parts by hand, he was working on a solution.</p>
+<p>In 1872, he filed his first patent: a self-acting lubricator for steam engines. The device fed oil through a series of tubes to the engine's moving components using steam pressure, automatically and continuously, while the train was in motion. The lubrication happened without stopping. The engine ran better and lasted longer. The railroad saved time and money on every trip.</p>
+<p>McCoy refined the design repeatedly over the following years, filing patent after patent as he improved how the oil was delivered, how the flow was regulated, and how the mechanism held up under different operating conditions. Competing manufacturers tried to copy his devices. The copies didn't work as well. Engineers on the railroads learned to tell the difference, and they began refusing substitute lubricators — demanding, specifically, the genuine McCoy product before they would accept delivery.</p>
+<p>The phrase &quot;the real McCoy&quot; entered the language. It still means the authentic article, not an imitation. Most people who use it have never heard his name.</p>
+<p>McCoy went on to receive 57 patents across his lifetime, covering lubricating devices for different kinds of machinery including ship engines and factory equipment. The principles he established — continuous automatic lubrication of moving parts — became foundational to industrial engineering well beyond railroads. Modern lubrication systems in cars, aircraft, and heavy machinery descend from the concepts he developed in a Michigan workshop in the 1870s.</p>
+<p>In 1920, McCoy founded the Elijah McCoy Manufacturing Company in Detroit to produce his inventions directly. The company struggled financially despite the value of his patents — a pattern familiar to Black inventors of the era who held the ideas but were often cut out of the profits by manufacturers and investors who held capital.</p>
+<p>He died on October 10, 1929, in Eloise, Michigan, at 85. At the time of his death, he held 57 patents and was largely unknown outside engineering circles.</p>
+<p>The man who kept America's railroads running could not get hired as an engineer. He invented his way around it.</p></div>
+  </div>
+
+  <div class="wait-what">
+<h4>Wait... What?!</h4>
+<p>Elijah McCoy trained as a mechanical engineer in Scotland. He came to America with credentials the railroad industry refused to recognize because he was Black.</p>
+<p>So they gave him a job oiling engines by hand.</p>
+<p>He used that job to study exactly what the machines needed — and invented a device that lubricated them automatically while they were still moving. His invention worked so much better than the imitations that engineers began demanding &quot;the real McCoy&quot; before accepting any substitute.</p>
+<p>That phrase outlasted him. Most people who use it today have no idea they are quoting the name of a Black inventor whose skills his employers refused to acknowledge — a man who built his laboratory out of the job they said was all he deserved.</p>
+</div>
+
+  <div class="cost-impact">
+<h4>Cost / Impact</h4>
+<p>McCoy held 57 patents by the time he died, but he earned recognition long after the inventions had already made other people wealthy. Patent ownership and manufacturing profit were two different things, and McCoy spent his career on the inventor's side of that divide. The Elijah McCoy Manufacturing Company he founded in 1920 struggled financially despite the value of what he had built.</p>
+<p>The impact of his work extended far beyond the railroad industry. Automatic lubrication principles he developed were adapted for factory machinery, marine engines, and eventually automotive systems. The ability to keep machines running without stopping for maintenance was one of the core enablers of continuous industrial production in the late nineteenth and early twentieth centuries. McCoy's 1872 patent addressed a real problem that was limiting American industry, and he solved it in a machine shop while working as a fireman.</p>
+<p>The State of Michigan and city of Detroit eventually honored him with historical recognition. His name, preserved in everyday language, is used millions of times a day by people who have never heard of him.</p>
+</div>
+
+  <!-- PULL QUOTE -->
+  <div class="pull-quote">
+    <p>Any machine can be improved. I make it my business to find out how.</p>
+    <cite>— Attributed to Elijah McCoy</cite>
+  </div>
+
+  <!-- WHY IT MATTERS -->
+  <div class="why-matters">
+    <h4>Why This Matters</h4>
+    <p>McCoy's story is the story of Black innovation under constraint. He had the credentials, the training, and the talent to work as an engineer. The system refused him. Instead of leaving the field, he turned the job they gave him into the research he needed to solve a problem the industry hadn't solved. His inventions shaped American industrial production for generations. The phrase he inspired remains in everyday use. And the name attached to it — the real McCoy — is his.</p>
+  </div>
+
+  <div class="section-divider"><span>Connections</span></div>
+
+  <!-- CONNECTED TO -->
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <a href="../../index.html?day=2026-05-02" class="quiz-link-card">
+      <div class="quiz-link-left">
+        <div class="quiz-link-label">Take the Quiz · 2026-05-02</div>
+        <div class="quiz-link-title">Test your knowledge on Elijah McCoy</div>
+      </div>
+      <span class="quiz-link-arrow">✊🏾</span>
+    </a>
+
+    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"></div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+
+  <!-- EXTERNAL LINKS — rendered by generator from entry data; omitted if empty -->
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links"><a href="https://en.wikipedia.org/wiki/Elijah_McCoy" class="ext-link" target="_blank" rel="noopener noreferrer">
+  <div class="ext-left">
+    <div class="ext-source">Wikipedia</div>
+    <div class="ext-title">Elijah McCoy — biography and patents</div>
+  </div>
+  <span class="ext-arrow">&#x2197;</span>
+</a>
+<a href="https://www.britannica.com/biography/Elijah-McCoy" class="ext-link" target="_blank" rel="noopener noreferrer">
+  <div class="ext-left">
+    <div class="ext-source">Britannica</div>
+    <div class="ext-title">Elijah McCoy — Britannica biography</div>
+  </div>
+  <span class="ext-arrow">&#x2197;</span>
+</a>
+<a href="https://blackpast.org/african-american-history/mccoy-elijah-1843-1929/" class="ext-link" target="_blank" rel="noopener noreferrer">
+  <div class="ext-left">
+    <div class="ext-source">BlackPast</div>
+    <div class="ext-title">Elijah McCoy — BlackPast encyclopedia entry</div>
+  </div>
+  <span class="ext-arrow">&#x2197;</span>
+</a></div>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
+
+<script src="../encyclopedia-data.js"></script>
+<script>
+(function(){
+  var pageId = document.body.dataset.entryId;
+  if(!pageId) return;
+  var connections = getConnections(pageId, 5);
+  var grid = document.getElementById('connectedGrid');
+  if(!grid || !connections.length) return;
+  var html = '';
+  connections.forEach(function(e){
+    html += '<a href="'+e.url+'" class="connected-card">'
+          + '<div class="connected-type">Related Entry</div>'
+          + '<div class="connected-name">'+e.name+'</div>'
+          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
+          + '</a>';
+  });
+  grid.innerHTML = html;
+})();
+</script>
+</body>
+</html>

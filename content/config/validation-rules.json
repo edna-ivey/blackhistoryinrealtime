@@ -1,0 +1,10 @@
+{
+  "requiredFields": ["id", "name", "dates", "category"],
+  "idFormat": "^[a-z0-9-]+$",
+  "tagFormat": "^[a-z0-9-]+$",
+  "minTags": 3,
+  "maxTags": 15,
+  "quizRequiredFields": ["options", "answer", "story"],
+  "quizOptionCount": 4,
+  "answerRange": { "min": 0, "max": 3 }
+}
