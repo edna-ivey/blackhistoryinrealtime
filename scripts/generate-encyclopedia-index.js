@@ -3,28 +3,54 @@ const path = require('path');
 const vm   = require('vm');
 const { escapeHTML } = require('./lib/utils');
 
-const DATA_PATH   = path.join(__dirname, '../generated/encyclopedia-data.js');
-const OUTPUT_PATH = path.join(__dirname, '../generated/encyclopedia.html');
+const LEGACY_DATA_PATH = path.join(__dirname, '../encyclopedia-data.js');
+const GENERATED_DATA_PATH = path.join(__dirname, '../generated/encyclopedia-data.js');
+const DAILY_DATA_PATH = path.join(__dirname, '../generated/daily-data.js');
+const OUTPUT_PATH = path.join(__dirname, '../encyclopedia.html');
 
 // ── 1. Load generated data ───────────────────────────────────────────────────
 
-if (!fs.existsSync(DATA_PATH)) {
-  console.error(`❌ Data file not found: ${DATA_PATH}`);
-  console.error('   Run node scripts/generate-data.js first.');
-  process.exit(1);
+function loadConstArray(filePath, constName) {
+  if (!fs.existsSync(filePath)) return [];
+  const source = fs.readFileSync(filePath, 'utf-8');
+  const sandbox = { [constName]: [] };
+  vm.createContext(sandbox);
+  const executable = source.replace(new RegExp(`\\bconst\\s+${constName}\\b`), constName);
+  vm.runInNewContext(executable, sandbox);
+  return sandbox[constName] || [];
 }
 
-const source = fs.readFileSync(DATA_PATH, 'utf-8');
-const sandbox = { ENCYCLOPEDIA: [] };
-vm.createContext(sandbox);
-// const/let are lexically scoped in vm and don't attach to the sandbox context.
-// Strip the const keyword so ENCYCLOPEDIA assigns to the sandbox property instead.
-const executable = source.replace(/\bconst\s+ENCYCLOPEDIA\b/, 'ENCYCLOPEDIA');
-vm.runInNewContext(executable, sandbox);
-const entries = sandbox.ENCYCLOPEDIA;
+const legacyEntries = loadConstArray(LEGACY_DATA_PATH, 'ENCYCLOPEDIA').map(e => ({
+  ...e,
+  pagePath: `encyclopedia/${e.url || `${e.id}.html`}`,
+}));
+const generatedEntries = loadConstArray(GENERATED_DATA_PATH, 'ENCYCLOPEDIA').map(e => ({
+  ...e,
+  pagePath: `generated/pages/${e.url || `${e.id}.html`}`,
+}));
+const dailyEntries = loadConstArray(DAILY_DATA_PATH, 'FUTURE_DAILY').map(e => ({
+  id: e.encyclopediaSlug,
+  name: e.subject,
+  url: e.encyclopediaPath,
+  pagePath: e.encyclopediaPath,
+  quizDay: e.fullDate,
+  vol: `${e.fullDate} · ${e.category}`,
+  dates: e.dates,
+  category: e.category,
+  tags: e.tags || [],
+  desc: e.story ? e.story.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 180) : e.title,
+}));
+
+const seen = new Set();
+const entries = [...legacyEntries, ...generatedEntries, ...dailyEntries].filter(entry => {
+  const key = entry.pagePath || entry.id;
+  if (!key || seen.has(key)) return false;
+  seen.add(key);
+  return true;
+});
 
 if (!entries.length) {
-  console.warn('⚠️  ENCYCLOPEDIA is empty. Nothing to generate.');
+  console.warn('⚠️  Encyclopedia source entries are empty. Nothing to generate.');
   process.exit(0);
 }
 
@@ -60,7 +86,7 @@ function renderCard(entry, idx) {
   const barClass = entry.barClass ? ` ${entry.barClass}` : '';
   const dataTags = escapeHTML(buildDataTags(entry));
   return [
-    `      <a href="pages/${entry.url}" class="entry-card" data-tags="${dataTags}" data-order="${idx}">`,
+    `      <a href="${escapeHTML(entry.pagePath || entry.url)}" class="entry-card" data-tags="${dataTags}" data-order="${idx}">`,
     `        <div class="entry-card-bar${barClass}"></div>`,
     `        <div class="entry-card-body">`,
     `          <div class="entry-vol">${escapeHTML(entry.vol || '')}</div>`,
@@ -187,8 +213,8 @@ const html = `<!DOCTYPE html>
 
 <header>
   <div class="header-inner">
-    <a class="logo-area" href="../index.html">
-      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+    <a class="logo-area" href="index.html">
+      <img src="logo.png" alt="Black History in Real Time" class="logo-img">
       <div class="logo-text">
         <h1>Black<span>History</span></h1>
         <p>In Real Time</p>
@@ -196,12 +222,12 @@ const html = `<!DOCTYPE html>
     </a>
   </div>
   <nav>
-    <a href="../index.html">Today</a>
-    <a href="../index.html#now">Making History Now</a>
-    <a href="../index.html#calendar">Calendar</a>
-    <a href="../index.html#archive">Archive</a>
-    <a href="../encyclopedia.html">Encyclopedia</a>
-    <a href="../index.html#about">About</a>
+    <a href="index.html">Today</a>
+    <a href="index.html#now">Making History Now</a>
+    <a href="index.html#calendar">Calendar</a>
+    <a href="index.html#archive">Archive</a>
+    <a href="encyclopedia.html">Encyclopedia</a>
+    <a href="index.html#about">About</a>
   </nav>
 </header>
 
@@ -220,6 +246,11 @@ const html = `<!DOCTYPE html>
     <button class="filter-btn active" onclick="setFilter('all', this)">All Entries</button>
     <button class="filter-btn" onclick="setFilter('february', this)">February</button>
     <button class="filter-btn" onclick="setFilter('march', this)">March</button>
+    <button class="filter-btn" onclick="setFilter('april', this)">April</button>
+    <button class="filter-btn" onclick="setFilter('may', this)">May</button>
+    <button class="filter-btn" onclick="setFilter('june', this)">June</button>
+    <button class="filter-btn" onclick="setFilter('july', this)">July</button>
+    <button class="filter-btn" onclick="setFilter('august', this)">August</button>
     <button class="filter-btn" onclick="setFilter('people', this)">People</button>
     <button class="filter-btn" onclick="setFilter('events', this)">Events</button>
     <button class="filter-btn" onclick="setFilter('systems', this)">Systems &amp; Policy</button>
@@ -322,5 +353,5 @@ ${cardsHtml}
 fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
 fs.writeFileSync(OUTPUT_PATH, html, 'utf-8');
 
-console.log(`✅ Generated: generated/encyclopedia.html`);
+console.log(`✅ Generated: encyclopedia.html`);
 console.log(`   Entries:   ${entries.length}`);

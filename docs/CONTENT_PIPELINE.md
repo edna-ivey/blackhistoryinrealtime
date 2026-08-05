@@ -7,6 +7,23 @@
 
 ---
 
+## Current Operating State — August 5, 2026
+
+The site is currently maintained as a static application.
+
+- Daily quiz/story coverage validates from `2026-02-01` through `2026-08-31`.
+- Legacy February-April entries remain in the `DATA` array in `index.html`.
+- Markdown-driven encyclopedia entries remain in `content/encyclopedia/` and are generated with `scripts/generate-pages.js`.
+- Scheduled May-August daily entries live in `content/daily/2026-coverage.js`.
+- `scripts/generate-daily-data.js` writes `generated/daily-data.js`, generated encyclopedia pages under `generated/pages/`, and `docs/RESEARCH_LEDGER.md`.
+- `scripts/generate-missing-legacy-pages.js` now fills the April legacy encyclopedia gaps that previously produced broken "Learn More" links.
+- `scripts/generate-encyclopedia-index.js` writes the public root `encyclopedia.html` and merges legacy, markdown, and scheduled daily entries.
+- `npm run validate`, `npm run generate`, and `npm test` are the required maintenance loop before publication.
+
+The priority-A April broken-link queue below is retained as historical context; those 25 pages have generated legacy HTML pages in `encyclopedia/` as of August 5, 2026.
+
+---
+
 ## Operational Field Definitions
 
 These four fields appear as columns in the Subject Registry in

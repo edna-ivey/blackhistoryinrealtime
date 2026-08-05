@@ -58,6 +58,7 @@
   .quiz-top { background: linear-gradient(135deg, var(--red) 0%, #7a0020 100%); padding: 28px 32px; position: relative; overflow: hidden; }
   .quiz-top::after { content: '?'; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); font-family: 'Playfair Display', serif; font-size: 140px; font-weight: 900; color: rgba(255,255,255,0.07); line-height: 1; pointer-events: none; }
   .quiz-label { font-size: 0.68rem; letter-spacing: 4px; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 10px; }
+  .quiz-kicker { font-size: 0.78rem; letter-spacing: 1.5px; color: rgba(255,255,255,0.68); margin: -4px 0 12px; position: relative; z-index: 1; }
   .quiz-question { font-family: 'Playfair Display', serif; font-size: clamp(1rem, 2.8vw, 1.45rem); font-weight: 700; color: var(--white); line-height: 1.45; position: relative; z-index: 1; }
   .quiz-body { padding: 28px 32px; }
   .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
@@ -116,11 +117,12 @@
   .cal-header { text-align: center; font-size: 0.6rem; letter-spacing: 2px; color: rgba(245,237,216,0.28); text-transform: uppercase; padding: 6px 0; }
   .cal-day { aspect-ratio: 1; border-radius: 8px; border: 1px solid rgba(212,160,23,0.12); background: rgba(255,255,255,0.02); display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; transition: all 0.18s; font-size: 0.8rem; color: rgba(245,237,216,0.45); position: relative; }
   .cal-day.empty { border: none; background: none; cursor: default; }
-  .cal-day:hover:not(.future):not(.empty):not(.no-content-day) { background: rgba(212,160,23,0.1); border-color: var(--gold); color: var(--cream); transform: scale(1.04); }
+  .cal-day:hover:not(.empty):not(.no-content-day) { background: rgba(212,160,23,0.1); border-color: var(--gold); color: var(--cream); transform: scale(1.04); }
   .cal-day.today { background: linear-gradient(135deg, var(--red), #8B0000); border-color: var(--red); color: var(--white); font-weight: 700; }
   .cal-day.done { background: rgba(26,92,56,0.25); border-color: rgba(76,175,80,0.35); color: #a8e6a8; }
   .cal-day.done::after { content: '✓'; position: absolute; top: 3px; right: 5px; font-size: 0.55rem; color: #4CAF50; }
-  .cal-day.future { opacity: 0.3; cursor: default; }
+  .cal-day.future { opacity: 0.55; }
+  .cal-day.future.has-content { opacity: 0.9; cursor: pointer; border-color: rgba(212,160,23,0.28); }
   .cal-day.no-content-day { opacity: 0.2; cursor: default; }
   .cal-day .dn { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; line-height: 1; }
   .cal-day .dc { font-size: 0.48rem; text-align: center; padding: 0 2px; margin-top: 2px; line-height: 1.2; opacity: 0.65; }
@@ -193,7 +195,8 @@
     </div>
     <div class="quiz-card" id="quizCard">
       <div class="quiz-top">
-        <div class="quiz-label">Today's Quiz</div>
+        <div class="quiz-label">THE CHALLENGE</div>
+        <div class="quiz-kicker">Think before you swipe.</div>
         <div class="quiz-question" id="quizQ">Loading...</div>
       </div>
       <div class="quiz-body">
@@ -269,14 +272,12 @@
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
 <script data-cfasync="false" src="generated/encyclopedia-data.js"></script>
+<script data-cfasync="false" src="generated/daily-data.js"></script>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const NOW_STORIES = [
-  { date:"February 2026", title:"Black Women Lead in U.S. Senate at Record Numbers", body:"As of 2026, Black women hold more seats in the U.S. Senate than at any point in American history, continuing a wave of representation that began with Kamala Harris's historic election in 2020.", tag:"Politics" },
-  { date:"January 2026", title:"Black Filmmakers Dominate Awards Season", body:"The 2025-2026 awards season saw an unprecedented number of Black directors, writers, and actors recognized at major film awards, continuing Hollywood's slow but accelerating shift toward inclusion.", tag:"Culture" },
-  { date:"2025", title:"Black Scientists Lead Breakthrough Cancer Research", body:"Black researchers at Howard University and Morehouse School of Medicine published landmark studies in 2025 on targeted cancer therapies, with one team developing a treatment showing 40% improved outcomes for triple-negative breast cancer.", tag:"Science" },
-  { date:"2025", title:"HBCUs See Record Enrollment and Endowments", body:"Historically Black Colleges and Universities saw record enrollment numbers in 2025, alongside a surge in endowment donations from alumni, corporations, and foundations.", tag:"Education" },
-  { date:"Ongoing", title:"Black Entrepreneurs Break Venture Capital Records", body:"Despite systemic barriers, Black-founded startups raised more venture capital in 2024-2025 than in any previous two-year period. Organizations like Fearless Fund continue fighting legal battles to preserve grant programs for Black women entrepreneurs.", tag:"Business" },
-  { date:"Ongoing", title:"Reparations Conversations Advance at Local Level", body:"While federal reparations legislation remains stalled, cities including Evanston, Illinois and San Francisco have advanced local reparations programs.", tag:"Justice" }
+  { date:"Ongoing", title:"HBCUs Keep Building the Future", body:"Historically Black Colleges and Universities continue to educate leaders across medicine, law, education, public service, science, sports, and the arts. Their history is not a closed chapter; it is living infrastructure.", tag:"Education" },
+  { date:"Ongoing", title:"Local Reparations Work Continues", body:"Communities across the country continue debating and testing local repair programs tied to housing, education, and documented racial harm. The national question remains unsettled, but the local work keeps moving.", tag:"Justice" },
+  { date:"Ongoing", title:"The Black Press Still Matters", body:"Black journalists, local outlets, historians, and community archivists continue documenting stories that larger institutions miss, flatten, or discover late. The record is still being written.", tag:"Witness" }
 ];
 
 const DATA = [
@@ -1475,10 +1476,36 @@ const DATA = [
   DATA.sort(function(a, b) { return a.fullDate < b.fullDate ? -1 : a.fullDate > b.fullDate ? 1 : 0; });
 })();
 
+// Merge scheduled daily coverage generated from content/daily/2026-coverage.js.
+// Existing DATA and markdown-generated dates always win.
+(function() {
+  if (typeof FUTURE_DAILY === 'undefined') return;
+  var existing = {};
+  DATA.forEach(function(d) { existing[d.fullDate] = true; });
+  FUTURE_DAILY.forEach(function(d) {
+    if (!d.fullDate || existing[d.fullDate]) return;
+    DATA.push(d);
+    existing[d.fullDate] = true;
+  });
+  DATA.sort(function(a, b) { return a.fullDate < b.fullDate ? -1 : a.fullDate > b.fullDate ? 1 : 0; });
+})();
+
 function parseLocalDate(str) { const [y,m,d] = str.split('-').map(Number); return new Date(y,m-1,d); }
 function formatFullDate(dateObj) { return dateObj.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'}); }
 function formatMonthYear(dateObj) { return dateObj.toLocaleDateString('en-US',{month:'long',year:'numeric'}); }
-function todayStr() { const t=new Date(); return t.getFullYear()+'-'+String(t.getMonth()+1).padStart(2,'0')+'-'+String(t.getDate()).padStart(2,'0'); }
+const SITE_TIME_ZONE = 'America/New_York';
+function todayStr(dateObj) {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: SITE_TIME_ZONE,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  }).formatToParts(dateObj || new Date()).reduce((acc, part) => {
+    acc[part.type] = part.value;
+    return acc;
+  }, {});
+  return parts.year + '-' + parts.month + '-' + parts.day;
+}
 function findIdx(dateString) { return DATA.findIndex(d => d.fullDate === dateString); }
 function getTodayIdx() {
   const today = todayStr();
@@ -1496,6 +1523,10 @@ let selectedOpt = null;
 let calViewDate = new Date();
 
 function loadDay(idx) {
+  if (idx < 0 || idx >= DATA.length || !DATA[idx]) {
+    showNoContent();
+    return;
+  }
   currentIdx = idx;
   answered = false;
   selectedOpt = null;
@@ -1514,7 +1545,7 @@ function loadDay(idx) {
   ['A','B','C','D'].forEach((letter,i) => {
     const btn = document.createElement('button');
     btn.className = 'opt-btn';
-    btn.innerHTML = '<span class="opt-letter">'+letter+'</span>'+d.options[i];
+    btn.innerHTML = '<span class="opt-letter">'+letter+'</span>'+(d.options[i] || 'Option unavailable');
     btn.onclick = () => selectOpt(i);
     grid.appendChild(btn);
   });
@@ -1564,12 +1595,12 @@ function applyAnswerState(idx, sel) {
   });
 }
 
-function showNoContent() {
-  const today = new Date();
-  document.getElementById('dayLabel').textContent = formatFullDate(today);
+function showNoContent(dateString) {
+  const fallbackDate = dateString && /^\d{4}-\d{2}-\d{2}$/.test(dateString) ? parseLocalDate(dateString) : parseLocalDate(todayStr());
+  document.getElementById('dayLabel').textContent = formatFullDate(fallbackDate);
   document.getElementById('storyTitle').textContent = 'Coming Soon';
   document.getElementById('catTag').textContent = 'Check Back';
-  document.getElementById('quizQ').textContent = 'No content for today yet.';
+  document.getElementById('quizQ').textContent = 'This entry is not available yet.';
   document.getElementById('optGrid').innerHTML = '';
   document.getElementById('revBtn').style.display = 'none';
   document.getElementById('revealSec').classList.remove('show');
@@ -1644,13 +1675,13 @@ function buildCalendar() {
     let cls = 'cal-day';
     if (isToday) cls += ' today';
     else if (isDone) cls += ' done';
-    else if (isFuture) cls += ' future';
+    else if (isFuture) cls += hasContent ? ' future has-content' : ' future';
     else if (!hasContent) cls += ' no-content-day';
     const shortCat = hasContent ? DATA[dataIdx].category.substring(0,8) : '';
     const div = document.createElement('div');
     div.className = cls;
     div.innerHTML = '<span class="dn">'+day+'</span>'+(hasContent ? '<span class="dc">'+shortCat+'</span>' : '');
-    if (hasContent && !isFuture) { div.onclick = () => { loadDay(dataIdx); showView('today'); }; }
+    if (hasContent) { div.onclick = () => { loadDay(dataIdx); showView('today'); }; }
     grid.appendChild(div);
   }
 }
@@ -1694,12 +1725,13 @@ window.onload = () => {
     else { const num = parseInt(dayParam); if (!isNaN(num) && num>=0 && num<DATA.length) targetIdx = num; }
   }
   if (targetIdx !== -1) { loadDay(targetIdx); }
+  else if (dayParam !== null) { showNoContent(dayParam); }
   else {
     const todayIdx = getTodayIdx();
     if (todayIdx >= 0) { loadDay(todayIdx); }
     else { showNoContent(); }
   }
-  calViewDate = new Date();
+  calViewDate = parseLocalDate(todayStr());
   buildNow();
   if (dayParam !== null) window.history.replaceState({}, '', window.location.pathname);
   const hashView = window.location.hash.replace('#', '');
