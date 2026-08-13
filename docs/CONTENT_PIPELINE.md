@@ -18,9 +18,11 @@ The site is currently maintained as a static application.
 - `scripts/generate-daily-data.js` writes `generated/daily-data.js`, generated encyclopedia pages under `generated/pages/`, and `docs/RESEARCH_LEDGER.md`.
 - `scripts/generate-missing-legacy-pages.js` now fills the April legacy encyclopedia gaps that previously produced broken "Learn More" links.
 - `scripts/generate-encyclopedia-index.js` writes the public root `encyclopedia.html` and merges legacy, markdown, and scheduled daily entries.
+- `scripts/validate-encyclopedia-index.js` checks the rendered encyclopedia for duplicate cards, broken local links, malformed cards, and visibly truncated descriptions.
 - `npm run validate`, `npm run generate`, and `npm test` are the required maintenance loop before publication.
 
 The priority-A April broken-link queue below is retained as historical context; those 25 pages have generated legacy HTML pages in `encyclopedia/` as of August 5, 2026.
+Carter G. Woodson's accidental legacy/generated duplicate was resolved on August 12, 2026 by preserving the richer legacy page and removing the duplicate markdown source/generated page.
 
 ---
 
@@ -176,12 +178,11 @@ Structural gaps in the current state of the repository.
    future entries. Resolution: wire `generate-encyclopedia-index.js` into
    `npm run generate` so the index rebuilds automatically on every run.
 
-3. **Carter Woodson dual-page split.** The Feb 1 quiz entry in `index.html`
-   links to the legacy page at `encyclopedia/carter-woodson.html`. The
-   pipeline entry is at `generated/pages/carter-woodson.html`. These are
-   different URLs and different pages. Resolution: when the DATA array is
-   eventually migrated to pipeline format, update the Feb 1 entry to point
-   to the generated page.
+3. **Resolved August 12, 2026: Carter Woodson dual-page split.** The Feb 1
+   quiz entry remains linked to the stronger legacy page at
+   `encyclopedia/carter-woodson.html`. The duplicate markdown source and
+   `generated/pages/carter-woodson.html` page were removed so the encyclopedia
+   index renders one Carter G. Woodson card.
 
 4. **4 legacy pages are not linked from the Today page.** `barack-obama`,
    `black-press`, `black-women-in-politics`, and `harlem-renaissance` are
@@ -216,7 +217,7 @@ Reference this table for migration planning.
 | black-wall-street | Black Wall Street / Greenwood | No — planned May 31 |
 | black-women-in-politics | Black Women in Politics | No |
 | brown-v-board | Brown v. Board of Education | Yes (Feb 5) |
-| carter-woodson | Carter G. Woodson | Yes (Feb 1) — also Pipeline |
+| carter-woodson | Carter G. Woodson | Yes (Feb 1) |
 | claudette-colvin | Claudette Colvin | Yes (Mar 6) |
 | cointelpro | COINTELPRO | Yes (Feb 8) |
 | coretta-scott-king | Coretta Scott King | Yes (Mar 24, Apr 3) |
@@ -305,7 +306,7 @@ is completed or reprioritized.
 |---|---|---|
 | Write Priority A encyclopedia pages (25 subjects) | High | No page exists; broken Learn More links |
 | Wire `generate-encyclopedia-index.js` into `npm run generate` | High | Encyclopedia index is stale |
-| Resolve Carter Woodson dual-page split | Medium | Two separate URLs for same subject |
+| Resolve Carter Woodson dual-page split | Done Aug 12, 2026 | Preserved legacy page; removed duplicate generated page |
 | Migrate 4 planned calendar legacy pages before generation | Medium | great-migration, hbcus, juneteenth, black-wall-street |
 | Editorially approve May–June 2026 calendar (59 subjects) | Medium | Not yet approved; no files should be generated yet |
 | Schedule or defer 24 Pool subjects | Low | No proposed dates |

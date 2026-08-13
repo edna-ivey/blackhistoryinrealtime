@@ -38,7 +38,7 @@ const dailyEntries = loadConstArray(DAILY_DATA_PATH, 'FUTURE_DAILY').map(e => ({
   dates: e.dates,
   category: e.category,
   tags: e.tags || [],
-  desc: e.story ? e.story.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 180) : e.title,
+  desc: buildExcerpt(e.story, e.title),
 }));
 
 const seen = new Set();
@@ -61,6 +61,20 @@ console.log(`📄 Entries loaded: ${entries.length}`);
 const sorted = [...entries].sort((a, b) =>
   (a.name || '').localeCompare(b.name || '')
 );
+
+function buildExcerpt(html, fallback = '') {
+  const text = String(html || '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (!text) return fallback;
+  const sentence = text.match(/^.{24,}?[.!?](?:\s|$)/);
+  if (sentence && sentence[0].length <= 190) return sentence[0].trim();
+  if (text.length <= 190) return text;
+  const clipped = text.slice(0, 186);
+  const lastSpace = clipped.lastIndexOf(' ');
+  return `${clipped.slice(0, lastSpace > 80 ? lastSpace : 186).trim()}...`;
+}
 
 // ── 3. Build data-tags for filter system ─────────────────────────────────────
 

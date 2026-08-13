@@ -30,7 +30,7 @@ power the Today-page quiz for February 1 through April 30, 2026.
 
 | Date | Subject | Category | Legacy HTML |
 |---|---|---|---|
-| 2026-02-01 | Carter G. Woodson | Foundations | Yes (+ Pipeline) |
+| 2026-02-01 | Carter G. Woodson | Foundations | Yes |
 | 2026-02-02 | Shirley Chisholm | Political Courage | Yes |
 | 2026-02-03 | Garrett Morgan | Innovation | Yes |
 | 2026-02-04 | Mansa Musa | Hidden Wealth | Yes |
@@ -140,7 +140,6 @@ generated HTML pages in `generated/pages/`, and are included in
 
 | Date | Subject | Slug | Status |
 |---|---|---|---|
-| 2026-02-01 | Carter G. Woodson | `carter-woodson` | Live |
 | 2026-06-06 | James Meredith | `james-meredith` | Live |
 
 ---

@@ -5,7 +5,8 @@
   "type": "commonjs",
   "scripts": {
     "validate": "node scripts/validate-content.js && node scripts/validate-daily-data.js --source-only",
-    "generate": "npm run validate && npm run generate:legacy-pages && npm run generate:pages && npm run generate:data && npm run generate:daily && npm run generate:index && node scripts/validate-daily-data.js",
+    "validate:encyclopedia": "node scripts/validate-encyclopedia-index.js",
+    "generate": "npm run validate && npm run generate:legacy-pages && npm run generate:pages && npm run generate:data && npm run generate:daily && npm run generate:index && node scripts/validate-daily-data.js && npm run validate:encyclopedia",
     "generate:legacy-pages": "node scripts/generate-missing-legacy-pages.js",
     "generate:pages": "node scripts/generate-pages.js",
     "generate:data": "node scripts/generate-data.js",
