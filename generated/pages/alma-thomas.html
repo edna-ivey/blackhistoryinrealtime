@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alma Thomas - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Alma Thomas spent decades teaching children, then filled canvases with color that refused to be quiet.">
+<meta name="description" content="Alma Thomas became nationally known as an abstract painter after a long career teaching art in Washington, D.C. That timing matters. She did not fit the usual art-world story about young genius discovered early. She spent decades teaching children, studying color, supporting Black art institutions, and watching the natural world from her own home. After retirement, she developed bright, mosaic-like paintings that refused to make Black art answer only to pain or protest. Her work insists that beauty, experimentation, age, discipline, and joy are also serious subjects.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="alma-thomas">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,146 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Alma Thomas</h2>
-  <div class="meta">
-    <span class="badge">1891 - 1978</span>
-    <span class="badge">Culture</span>
-    <span class="badge">2026-07-22</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>July 22 &middot; Culture</span>
   </div>
-  <article>
-    <p>Alma Thomas spent decades teaching children, then filled canvases with color that refused to be quiet.</p><p>Thomas was the first graduate of Howard University&#039;s art department and taught in D.C. public schools for many years before gaining major recognition as an abstract painter.</p><p>Her work entered major museums and the White House collection, showing that late recognition could still change the record.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Thomas matters because Black art is not limited to protest images or portraiture. Joy, color, abstraction, and experiment are part of the story too.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">July 22 &middot; Culture</div>
+    <h1>Alma Thomas</h1>
+    <p class="entry-tagline">Alma Thomas became nationally known as an abstract painter after a long career teaching art in Washington, D.C. That timing matters. She did not fit the usual art-world story about young genius discovered early. She spent decades teaching children, studying color, supporting Black art institutions, and watching the natural world from her own home. After retirement, she developed bright, mosaic-like paintings that refused to make Black art answer only to pain or protest. Her work insists that beauty, experimentation, age, discipline, and joy are also serious subjects.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1891 - 1978</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://americanart.si.edu/artist/alma-thomas-4778" target="_blank" rel="noopener noreferrer">https://americanart.si.edu/artist/alma-thomas-4778</a></li>
-<li><a href="https://nmwa.org/art/artists/alma-woodsey-thomas/" target="_blank" rel="noopener noreferrer">https://nmwa.org/art/artists/alma-woodsey-thomas/</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Sep 22, 1891</div><div class="tl-event">Born in Columbus, Georgia.</div></div>
+<div class="tl-item"><div class="tl-date">1907</div><div class="tl-event">Family moves to Washington, D.C., seeking education and safety from Southern racial violence.</div></div>
+<div class="tl-item"><div class="tl-date">1924</div><div class="tl-event">Becomes Howard University&#039;s first fine arts graduate.</div></div>
+<div class="tl-item"><div class="tl-date">1924</div><div class="tl-event">Begins a long teaching career in D.C. public schools.</div></div>
+<div class="tl-item"><div class="tl-date">1934</div><div class="tl-event">Earns a master&#039;s degree in art education from Columbia University.</div></div>
+<div class="tl-item"><div class="tl-date">1960</div><div class="tl-event">Retires from teaching and devotes herself more fully to painting.</div></div>
+<div class="tl-item"><div class="tl-date">1972</div><div class="tl-event">Becomes the first Black woman to have a solo exhibition at the Whitney Museum of American Art.</div></div>
+<div class="tl-item"><div class="tl-date">Feb 24, 1978</div><div class="tl-event">Dies in Washington, D.C.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-07-22">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Alma Thomas&#039;s life asks readers to stretch the timeline of success. She was born in Columbus, Georgia, in 1891, the oldest of four daughters in a family that valued education and culture. Her family moved to Washington, D.C., in 1907, partly to escape the racial violence and limited educational opportunities of the Deep South. Washington was segregated too, but it offered Black families more routes into schooling, public life, and cultural institutions.</p>
+<p>Thomas first imagined becoming an architect. That dream was difficult for a Black girl in the early twentieth century, when architecture was closed to most women and even more tightly closed to Black women. At Howard University, she found a different route. Encouraged by James V. Herring, founder of Howard&#039;s art department, she became the department&#039;s first fine arts graduate in 1924. Her education did not separate art from community. Howard&#039;s art world included teaching, collecting, institution building, and arguments about what Black art could be.</p>
+<p>For more than three decades, Thomas taught art at Shaw Junior High School. Teaching was not a pause before her &quot;real&quot; career. It was part of her work. She helped young people see themselves as makers, and she continued studying, painting, and participating in Washington&#039;s art community. She earned a master&#039;s degree from Columbia University in 1934 and later studied at American University. She also helped support Black arts spaces, including the Barnett Aden Gallery, one of the first Black-owned private art galleries in the United States.</p>
+<p>Thomas&#039;s mature style arrived after retirement. That is one reason her story feels different. At an age when many artists are expected to be finished, she was beginning the work that would make her famous. She looked to nature, music, color theory, space exploration, and the view from her own kitchen window. Her paintings used short strokes and patches of color that seemed to shimmer, pulse, or move. They did not tell stories through recognizable figures. They taught viewers to pay attention to rhythm, light, and feeling.</p>
+<p>Her Washington, D.C. home became part of that visual language. Thomas painted garden beds, falling leaves, flowers, and changing light, but she did not copy them literally. She translated them into pattern. That translation matters because abstraction can be misunderstood as distance from real life. For Thomas, abstraction was a way to stay close to sensation while refusing to let a viewer demand an easy illustration.</p>
+<p>This choice carried meaning. During the 1960s and 1970s, Black artists faced pressure from multiple directions. Some white institutions expected Black artists to be invisible or marginal. Some Black cultural debates asked whether art should serve direct political struggle. Thomas respected the civil rights movement, attended the March on Washington, and lived inside the same world of segregation and exclusion. But she refused to let other people decide that Black art had to look one way. Her abstraction was not avoidance. It was freedom to define beauty on her own terms.</p>
+<p>Recognition came late but powerfully. In 1972, Thomas had a solo exhibition at the Whitney Museum of American Art, becoming the first Black woman given that honor. Major museums collected her work. Later, her painting Resurrection entered the White House collection. Those honors mattered because Thomas had once lived in a world where Black people could be barred from museums altogether.</p>
+<p>Alma Thomas&#039;s story is not about sudden discovery. It is about long preparation, teaching as cultural labor, and the right to make art that refuses narrow expectations. Her paintings remind readers that Black history includes imagination, color, age, experiment, and the ordinary discipline of looking closely at the world.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>Color is life. Light is the mother of color.</blockquote>
+    <cite>Alma Thomas, quoted by Smithsonian American Art Museum</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Thomas worked against barriers of race, gender, age, and geography. She built a career outside the New York-centered art market and waited decades for national recognition. As a young person, she could not freely enter the museum world that later collected her work. As a Black woman artist, she was often read through other people&#039;s expectations before her paintings were allowed to speak for themselves.</p>
+<p>Her impact was expansive. She modeled a path where teaching, community art spaces, late-career innovation, and abstraction all belonged to Black art history. Her success widened the record for older artists, women artists, Black artists, and artists whose work centered beauty without apology.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Alma Thomas matters because she protects Black art from being narrowed to one emotional register. Black artists have made work about violence, grief, protest, and survival because those are real. They have also made work about color, gardens, music, outer space, laughter, faith, fashion, and formal experiment because those are real too.</p>
+<p>Her page also changes how readers think about time. Some people do their most recognized work early. Thomas did hers after retirement, with decades of teaching and looking behind it. That matters for young readers because it breaks the myth that talent must arrive fully formed. It also matters for older readers because it rejects the idea that creativity has an expiration date.</p>
+<p>The popular art-world version often asks whether Black abstraction is political enough. Thomas asks a better question: who gets the freedom to choose beauty? In a world that had tried to deny Black people access to museums, schools, neighborhoods, and public respect, her insistence on color was not small. It was a claim to full human range.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-07-22" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; July 22</div>
+        <div class="quiz-card-title">Open the daily challenge for Alma Thomas</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/zora-neale-hurston.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Zora Neale Hurston</div>
+        <div class="connected-desc">Another artist who insisted Black culture could be studied and celebrated on its own terms.</div>
+      </a>
+<a href="./augusta-savage.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Augusta Savage</div>
+        <div class="connected-desc">A sculptor and teacher whose institution building shaped Black art history.</div>
+      </a>
+<a href="./faith-ringgold.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Faith Ringgold</div>
+        <div class="connected-desc">Connects visual art, storytelling, gender, and Black cultural memory.</div>
+      </a>
+<a href="./jacob-lawrence.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Jacob Lawrence</div>
+        <div class="connected-desc">Shows another path in modern Black art and historical narrative.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://americanart.si.edu/artist/alma-thomas-4778" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian American Art Museum</div>
+          <div class="ext-title">Alma Thomas artist biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmwa.org/art/artists/alma-woodsey-thomas/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of Women in the Arts</div>
+          <div class="ext-title">Alma Woodsey Thomas artist profile</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.aaa.si.edu/collections/alma-thomas-papers-9241/biographical-note" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Archives of American Art</div>
+          <div class="ext-title">Alma Thomas papers biographical note</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://americanart.si.edu/exhibitions/alma-thomas" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian American Art Museum</div>
+          <div class="ext-title">Composing Color: Paintings by Alma Thomas</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

@@ -94,11 +94,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-17 - Brown v. Board - The Plaintiffs
 
+- Entry title: Brown v. Board - The Plaintiffs
 - Slug: `brown-v-board-plaintiffs`
-- Core claims: Brown v. Board sounds like one child and one school. The real case was bigger: families across several states putting their names, safety, and children into history. The Supreme Court decision combined cases from Kansas, South Carolina, Virginia, Delaware, and Washington, D.C. Parents challenged segregated schools with help from NAACP lawyers. Linda Brown became the most remembered name, but she stood alongside many children and families who risked retaliation so the country could no longer pretend segregated schools were equal.
-- Sources:
+- Daily date: 2026-05-17
+- Date researched: 2026-08-13
+- Writer/research status: first-batch-reviewed
+- Material factual claims: Brown v. Board is often told through one name, one girl, and one school. Linda Brown's story matters, but the case was never only hers. The Supreme Court decision joined lawsuits from Kansas, South Carolina, Virginia, Delaware, and Washington, D.C. Behind those cases were children, parents, local NAACP branches, teachers, ministers, lawyers, and whole communities who knew retaliation was likely. The plaintiffs made segregation personal and legal at the same time. Their names remind us that constitutional change is not produced only by famous lawyers or judges. It is built by people willing to attach their lives to a public record.
+- Primary or authoritative sources:
   - https://www.archives.gov/milestone-documents/brown-v-board-of-education
+  - https://www.nps.gov/brvb/learn/historyculture/fivecases.htm
+- Supporting secondary sources:
   - https://www.nps.gov/brvb/index.htm
+  - https://www.oyez.org/cases/1940-1955/347us483
+- Verified quotation source: Brown v. Board opinion text via National Archives and Oyez.
+- Sensitive or disputed claims reviewed: Retaliation against plaintiffs, Prince Edward County school closures, and multi-case consolidation reviewed against NPS and NARA.
+- Material corrections made: Expanded the daily misconception correction by naming the five cases and the family/community risks behind them.
+- External links included on the page:
+  - National Archives: Brown v. Board of Education milestone document (https://www.archives.gov/milestone-documents/brown-v-board-of-education)
+  - National Park Service: Brown v. Board of Education National Historical Park (https://www.nps.gov/brvb/index.htm)
+  - National Park Service: The Five Cases (https://www.nps.gov/brvb/learn/historyculture/fivecases.htm)
+  - Oyez: Brown v. Board of Education case summary (https://www.oyez.org/cases/1940-1955/347us483)
+- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
 
 ### 2026-05-18 - Plessy v. Ferguson
 
@@ -230,11 +246,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-03 - Charles Richard Drew
 
+- Entry title: Charles Richard Drew
 - Slug: `charles-richard-drew`
-- Core claims: Charles Drew helped medicine learn how to store blood at scale, then watched racism try to separate even blood by race. Drew's research on blood plasma and storage helped make modern blood banking possible. During World War II, he directed major blood collection work that saved lives. The American Red Cross initially segregated blood by race, a policy Drew criticized because it had no scientific basis. His expertise saved lives; racism still tried to overrule science.
-- Sources:
-  - https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html
+- Daily date: 2026-06-03
+- Date researched: 2026-08-13
+- Writer/research status: first-batch-reviewed
+- Material factual claims: Charles Richard Drew helped make modern blood banking possible, but the simplified version often turns him into a single invention story. His work was really about systems: how to collect blood, separate plasma, preserve it, transport it, and train medical teams to use it at scale. During World War II, that knowledge saved lives. At the same time, the American Red Cross adopted policies that separated blood donations by race, even though Drew and other scientists rejected the idea that blood had racial meaning. His life also carries a stubborn myth about his death, a myth that grew from real medical racism but is not supported by the evidence.
+- Primary or authoritative sources:
   - https://profiles.nlm.nih.gov/spotlight/bg
+  - https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html
+- Supporting secondary sources:
+  - https://www.nlm.nih.gov/exhibition/education/charlesdrew/higheredrmizelle-class2.html
+  - https://www.nlm.nih.gov/exhibition/education/charlesdrew/lessonplan7-8.html
+- Verified quotation source: No quotation included. No needed quote was verified strongly enough for this batch.
+- Sensitive or disputed claims reviewed: Reviewed the Red Cross blood segregation policy and the false claim that Drew died because a hospital denied him blood.
+- Material corrections made: Clarified that Drew refined and organized blood banking at scale rather than single-handedly inventing all blood banking, and corrected the death myth.
+- External links included on the page:
+  - National Library of Medicine: Charles R. Drew Papers, Profiles in Science (https://profiles.nlm.nih.gov/spotlight/bg)
+  - National Library of Medicine: African American surgeons: Charles R. Drew (https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html)
+  - National Library of Medicine: Father of the Blood Bank educational module (https://www.nlm.nih.gov/exhibition/education/charlesdrew/higheredrmizelle-class2.html)
+  - National Library of Medicine: Charles Drew lesson plan noting the false death myth (https://www.nlm.nih.gov/exhibition/education/charlesdrew/lessonplan7-8.html)
+- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
 
 ### 2026-06-04 - Angela Davis
 
@@ -614,11 +646,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-22 - Alma Thomas
 
+- Entry title: Alma Thomas
 - Slug: `alma-thomas`
-- Core claims: Alma Thomas spent decades teaching children, then filled canvases with color that refused to be quiet. Thomas was the first graduate of Howard University's art department and taught in D.C. public schools for many years before gaining major recognition as an abstract painter. Her work entered major museums and the White House collection, showing that late recognition could still change the record.
-- Sources:
+- Daily date: 2026-07-22
+- Date researched: 2026-08-13
+- Writer/research status: first-batch-reviewed
+- Material factual claims: Alma Thomas became nationally known as an abstract painter after a long career teaching art in Washington, D.C. That timing matters. She did not fit the usual art-world story about young genius discovered early. She spent decades teaching children, studying color, supporting Black art institutions, and watching the natural world from her own home. After retirement, she developed bright, mosaic-like paintings that refused to make Black art answer only to pain or protest. Her work insists that beauty, experimentation, age, discipline, and joy are also serious subjects.
+- Primary or authoritative sources:
   - https://americanart.si.edu/artist/alma-thomas-4778
+  - https://www.aaa.si.edu/collections/alma-thomas-papers-9241/biographical-note
+- Supporting secondary sources:
   - https://nmwa.org/art/artists/alma-woodsey-thomas/
+  - https://americanart.si.edu/exhibitions/alma-thomas
+- Verified quotation source: Smithsonian American Art Museum artist biography and associated biographical materials.
+- Sensitive or disputed claims reviewed: Claims about museum exclusion, late recognition, Whitney milestone, and political interpretation of abstraction reviewed against Smithsonian and NMWA.
+- Material corrections made: Reframed the page away from a short firsts summary toward teaching, abstraction, age, and creative freedom.
+- External links included on the page:
+  - Smithsonian American Art Museum: Alma Thomas artist biography (https://americanart.si.edu/artist/alma-thomas-4778)
+  - National Museum of Women in the Arts: Alma Woodsey Thomas artist profile (https://nmwa.org/art/artists/alma-woodsey-thomas/)
+  - Archives of American Art: Alma Thomas papers biographical note (https://www.aaa.si.edu/collections/alma-thomas-papers-9241/biographical-note)
+  - Smithsonian American Art Museum: Composing Color: Paintings by Alma Thomas (https://americanart.si.edu/exhibitions/alma-thomas)
+- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
 
 ### 2026-07-23 - Alvin Ailey
 
@@ -726,11 +774,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-05 - Voting Rights Act of 1965
 
+- Entry title: Voting Rights Act of 1965
 - Slug: `voting-rights-act`
-- Core claims: The Voting Rights Act was signed with presidential pens, but it was written in marches, jail cells, courthouse lines, and blood on an Alabama bridge. For decades, Black voters faced literacy tests, poll taxes, intimidation, violence, and officials who changed the rules whenever Black citizens got close to the ballot. The Selma campaign made that denial impossible to ignore. After Bloody Sunday and the march to Montgomery, Congress passed the Voting Rights Act, giving the federal government stronger power to block discriminatory voting practices.
-- Sources:
+- Daily date: 2026-08-05
+- Date researched: 2026-08-13
+- Writer/research status: first-batch-reviewed
+- Material factual claims: The Voting Rights Act was not a gift from Washington. It was the result of years of organizing by Black citizens who were beaten, fired, threatened, jailed, and sometimes killed for trying to vote. The law signed on August 6, 1965 gave the federal government new power to stop discriminatory voting rules, especially in places where local officials had used literacy tests, registration tricks, and violence to keep Black citizens away from the ballot. The famous signing photo matters, but it can make the story look too neat. The Act came from a long fight over who counts as a citizen, and its later weakening shows that rights on paper still need people watching the machinery.
+- Primary or authoritative sources:
   - https://www.archives.gov/milestone-documents/voting-rights-act
-  - https://www.nps.gov/articles/voting-rights-act.htm
+  - https://www.archives.gov/legislative/features/voting-rights-1965/vra.html
+- Supporting secondary sources:
+  - https://home.nps.gov/articles/votingrightsact.htm
+  - https://www.oyez.org/cases/2012/12-96
+- Verified quotation source: National Archives transcript of Voting Rights Act of 1965, Section 2.
+- Sensitive or disputed claims reviewed: Violence against Selma marchers, murders of voting-rights workers, and post-Shelby enforcement claims cross-checked against NARA, NPS, and Oyez.
+- Material corrections made: Expanded daily entry beyond signing ceremony and clarified that the Act challenged but did not permanently end voter suppression.
+- External links included on the page:
+  - National Archives: Voting Rights Act (1965), transcript and historical context (https://www.archives.gov/milestone-documents/voting-rights-act)
+  - National Archives: Legislative feature on the Voting Rights Act of 1965 (https://www.archives.gov/legislative/features/voting-rights-1965/vra.html)
+  - National Park Service: Voting Rights Act of 1965 overview (https://home.nps.gov/articles/votingrightsact.htm)
+  - Oyez: Shelby County v. Holder case summary (https://www.oyez.org/cases/2012/12-96)
+- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
 
 ### 2026-08-06 - Fannie Lou Hamer and the MFDP
 
@@ -758,11 +822,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-09 - Birmingham Children's Crusade
 
+- Entry title: Birmingham Children's Crusade
 - Slug: `birmingham-childrens-crusade`
-- Core claims: In Birmingham, children walked out of classrooms and into police dogs, fire hoses, and jail cells. The 1963 Birmingham campaign used student demonstrators to challenge segregation when many adults risked losing jobs if they marched. Images of children attacked by police shocked viewers and increased pressure for federal civil rights legislation.
-- Sources:
+- Daily date: 2026-08-09
+- Date researched: 2026-08-13
+- Writer/research status: first-batch-reviewed
+- Material factual claims: The Birmingham Children's Crusade is often remembered through shocking photographs of fire hoses and police dogs. Those images matter, but they are not the whole story. The campaign grew from months of local organizing against one of the most aggressively segregated cities in the country. Young people joined because adult workers faced firings and retaliation, and because students were not just future citizens. They were already living under segregation. The strategy was controversial, including inside the movement. It exposed how far Birmingham officials would go to protect white supremacy, and it helped push federal civil-rights action by making the cost of delay visible.
+- Primary or authoritative sources:
+  - https://www.nps.gov/bicr/learn/proclamation.htm
+- Supporting secondary sources:
   - https://kinginstitute.stanford.edu/birmingham-campaign
-  - https://www.nps.gov/articles/000/birmingham-campaign.htm
+  - https://www.nps.gov/articles/000/getaway-bicr.htm
+  - https://www.bcri.org/
+- Verified quotation source: King Institute Birmingham Campaign entry quoting King's May 6, 1963 encouragement to parents.
+- Sensitive or disputed claims reviewed: Police dogs, fire hoses, child arrests, internal debate over child participation, and 16th Street Baptist Church bombing reviewed against King Institute and NPS.
+- Material corrections made: Added strategic context and controversy instead of presenting youth protest as a simple inspirational scene.
+- External links included on the page:
+  - King Institute: Birmingham Campaign encyclopedia entry (https://kinginstitute.stanford.edu/birmingham-campaign)
+  - National Park Service: Presidential proclamation for Birmingham Civil Rights National Monument (https://www.nps.gov/bicr/learn/proclamation.htm)
+  - National Park Service: Birmingham Civil Rights National Monument getaway (https://www.nps.gov/articles/000/getaway-bicr.htm)
+  - Birmingham Civil Rights Institute: Birmingham Civil Rights Institute (https://www.bcri.org/)
+- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
 
 ### 2026-08-10 - The Little Rock Nine
 
@@ -790,11 +870,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-13 - Fannie Lou Hamer's Testimony
 
+- Entry title: Fannie Lou Hamer's Testimony
 - Slug: `fannie-lou-hamer-testimony`
-- Core claims: Fannie Lou Hamer spoke like someone who had paid for every sentence with her body. Hamer was fired, threatened, jailed, and beaten for trying to register Black voters in Mississippi. At the 1964 Democratic National Convention, her testimony made voter suppression impossible to describe as a local misunderstanding.
-- Sources:
-  - https://www.crmvet.org/docs/6408_mfdp_hamer_testimony.pdf
-  - https://www.nps.gov/people/fannie-lou-hamer.htm
+- Daily date: 2026-08-13
+- Date researched: 2026-08-13
+- Writer/research status: first-batch-reviewed
+- Material factual claims: Fannie Lou Hamer's 1964 testimony before the Democratic National Convention credentials committee was not a polished speech from someone invited into power. It was evidence. She described being fired for trying to register to vote, threatened by white officials, jailed, and beaten so badly that the injuries lasted the rest of her life. President Lyndon Johnson tried to pull television attention away from her by calling a press conference, but networks replayed her testimony anyway. Hamer forced the country to hear what Mississippi's political system cost Black citizens. Her question, "Is this America?" still lands because it was not rhetorical. It was a charge.
+- Primary or authoritative sources:
+  - https://americanradioworks.publicradio.org/features/sayitplain/flhamer.html
+  - https://www.loc.gov/collections/civil-rights-history-project/about-this-collection/
+- Supporting secondary sources:
+  - https://www.archives.gov/about/speeches/2022/fannie-lou-hamer
+  - https://snccdigital.org/people/fannie-lou-hamer/
+- Verified quotation source: Transcript of Hamer's 1964 MFDP credentials committee testimony hosted by American RadioWorks/Say It Plain.
+- Sensitive or disputed claims reviewed: Job loss, Winona jail beating, lasting injuries, and Johnson press-conference interruption reviewed against NPS, SNCC, and transcript sources.
+- Material corrections made: Expanded the page from a quotation-centered daily entry into the MFDP credentials challenge and its political consequences.
+- External links included on the page:
+  - American RadioWorks: Fannie Lou Hamer 1964 credentials committee testimony transcript (https://americanradioworks.publicradio.org/features/sayitplain/flhamer.html)
+  - National Archives: Welcome remarks for Walk with Me: A Biography of Fannie Lou Hamer (https://www.archives.gov/about/speeches/2022/fannie-lou-hamer)
+  - SNCC Digital Gateway: Fannie Lou Hamer profile (https://snccdigital.org/people/fannie-lou-hamer/)
+  - Library of Congress: Civil Rights History Project collection (https://www.loc.gov/collections/civil-rights-history-project/about-this-collection/)
+- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
 
 ### 2026-08-14 - Edward Brooke
 
@@ -918,11 +1014,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-29 - Annie Easley
 
+- Entry title: Annie Easley
 - Slug: `annie-easley`
-- Core claims: Annie Easley began as a human computer and kept learning until the machines changed around her. Easley worked at NASA Lewis Research Center, contributing to computer code and energy technologies, including work connected to the Centaur upper-stage rocket. She built a decades-long career while navigating discrimination and changing technology.
-- Sources:
-  - https://www.nasa.gov/people/annie-easley-biography/
-  - https://www.nasa.gov/image-article/annie-easley-computer-scientist/
+- Daily date: 2026-08-29
+- Date researched: 2026-08-13
+- Writer/research status: first-batch-reviewed
+- Material factual claims: Annie Easley's career at NASA shows how technical history often hides the people who made systems work. She began as a human computer at the National Advisory Committee for Aeronautics, then taught herself and adapted as electronic computers changed the job around her. Easley wrote and tested code connected to the Centaur upper-stage rocket and later worked on energy technologies. Her story is not a fairy tale about loving math in a welcoming workplace. She faced discrimination, isolation, and shifting educational barriers, yet she kept learning. That persistence helped place her inside some of the most important aerospace and energy work of her era.
+- Primary or authoritative sources:
+  - https://www.nasa.gov/general/annie-easley/
+  - https://historycollection.jsc.nasa.gov/JSCHistoryPortal/history/oral_histories/NASA_HQ/Herstory/EasleyAM/easleyam.htm
+- Supporting secondary sources:
+  - https://www.nasa.gov/history/history-publications-and-resources/oral-histories/annie-easley-oral-history/
+  - https://www.nasa.gov/glenn/annie-easley/
+- Verified quotation source: NASA Johnson Space Center oral history interview with Annie Easley.
+- Sensitive or disputed claims reviewed: Discrimination, tuition support denial, image removal, and Centaur work reviewed against NASA biography and oral history.
+- Material corrections made: Expanded the page from a short NASA profile into a computing, aerospace, energy, and workplace-history narrative.
+- External links included on the page:
+  - NASA: Annie Easley biography (https://www.nasa.gov/general/annie-easley/)
+  - NASA History: Annie Easley oral history excerpt (https://www.nasa.gov/history/history-publications-and-resources/oral-histories/annie-easley-oral-history/)
+  - NASA History: Annie Easley complete oral history interview (https://historycollection.jsc.nasa.gov/JSCHistoryPortal/history/oral_histories/NASA_HQ/Herstory/EasleyAM/easleyam.htm)
+  - NASA Glenn Research Center: Annie Easley NASA feature (https://www.nasa.gov/glenn/annie-easley/)
+- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
 
 ### 2026-08-30 - Valerie Thomas
 
@@ -934,8 +1046,24 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-31 - Dr. Patricia Bath
 
+- Entry title: Dr. Patricia Bath
 - Slug: `patricia-bath`
-- Core claims: Patricia Bath looked at blindness not only as a medical problem, but as an inequality problem. Bath was an ophthalmologist, researcher, and advocate for community eye care. She studied preventable blindness and pushed medicine to serve people who were often left out. She invented the Laserphaco Probe, a device for cataract surgery, and became the first Black woman physician to receive a medical patent.
-- Sources:
+- Daily date: 2026-08-31
+- Date researched: 2026-08-13
+- Writer/research status: first-batch-reviewed
+- Material factual claims: Patricia Bath understood blindness as both a medical problem and an access problem. She became an ophthalmologist, researcher, inventor, and public-health advocate whose work connected surgery to community care. Bath helped develop community ophthalmology, studied preventable blindness among underserved patients, and invented the Laserphaco Probe for cataract treatment. She is widely recognized as the first Black woman physician to receive a U.S. medical patent. The deeper story is not only the patent. It is the way she kept asking who gets sight-saving care, who is left waiting, and why technology matters less if it never reaches the people who need it.
+- Primary or authoritative sources:
   - https://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_26.html
+  - https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/sights-prize
+- Supporting secondary sources:
   - https://www.womenshistory.org/education-resources/biographies/patricia-bath
+  - https://www.invent.org/inductees/patricia-bath
+- Verified quotation source: National Library of Medicine Changing the Face of Medicine profile.
+- Sensitive or disputed claims reviewed: Medical patent first claim, Laserphaco Probe claim, community ophthalmology, and health-access framing reviewed against NLM, USPTO, NWHM, and NIHF.
+- Material corrections made: Expanded the entry from a patent-centered daily summary to include public health, access, and community ophthalmology.
+- External links included on the page:
+  - National Library of Medicine: Changing the Face of Medicine: Patricia Bath (https://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_26.html)
+  - National Women's History Museum: Patricia Bath biography (https://www.womenshistory.org/education-resources/biographies/patricia-bath)
+  - USPTO: Sights on the prize: Patricia Bath inventor profile (https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/sights-prize)
+  - National Inventors Hall of Fame: Patricia Bath and the Laserphaco Probe (https://www.invent.org/inductees/patricia-bath)
+- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.

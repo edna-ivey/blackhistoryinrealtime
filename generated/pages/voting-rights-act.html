@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Voting Rights Act of 1965 - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="The Voting Rights Act was signed with presidential pens, but it was written in marches, jail cells, courthouse lines, and blood on an Alabama bridge.">
+<meta name="description" content="The Voting Rights Act was not a gift from Washington. It was the result of years of organizing by Black citizens who were beaten, fired, threatened, jailed, and sometimes killed for trying to vote. The law signed on August 6, 1965 gave the federal government new power to stop discriminatory voting rules, especially in places where local officials had used literacy tests, registration tricks, and violence to keep Black citizens away from the ballot. The famous signing photo matters, but it can make the story look too neat. The Act came from a long fight over who counts as a citizen, and its later weakening shows that rights on paper still need people watching the machinery.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="voting-rights-act">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,145 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Voting Rights Act of 1965</h2>
-  <div class="meta">
-    <span class="badge">August 6, 1965</span>
-    <span class="badge">Voting Rights</span>
-    <span class="badge">2026-08-05</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>August 5 &middot; Voting Rights</span>
   </div>
-  <article>
-    <p>The Voting Rights Act was signed with presidential pens, but it was written in marches, jail cells, courthouse lines, and blood on an Alabama bridge.</p><p>For decades, Black voters faced literacy tests, poll taxes, intimidation, violence, and officials who changed the rules whenever Black citizens got close to the ballot.</p><p>The Selma campaign made that denial impossible to ignore. After Bloody Sunday and the march to Montgomery, Congress passed the Voting Rights Act, giving the federal government stronger power to block discriminatory voting practices.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>The Act matters today because voting rights are never permanently settled. Every generation inherits both the law and the responsibility to defend access to the ballot.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">August 5 &middot; Voting Rights</div>
+    <h1>Voting Rights Act of 1965</h1>
+    <p class="entry-tagline">The Voting Rights Act was not a gift from Washington. It was the result of years of organizing by Black citizens who were beaten, fired, threatened, jailed, and sometimes killed for trying to vote. The law signed on August 6, 1965 gave the federal government new power to stop discriminatory voting rules, especially in places where local officials had used literacy tests, registration tricks, and violence to keep Black citizens away from the ballot. The famous signing photo matters, but it can make the story look too neat. The Act came from a long fight over who counts as a citizen, and its later weakening shows that rights on paper still need people watching the machinery.</p>
+    <div class="entry-badges">
+      <span class="badge">Events</span>
+      <span class="badge">August 6, 1965</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.archives.gov/milestone-documents/voting-rights-act" target="_blank" rel="noopener noreferrer">https://www.archives.gov/milestone-documents/voting-rights-act</a></li>
-<li><a href="https://www.nps.gov/articles/voting-rights-act.htm" target="_blank" rel="noopener noreferrer">https://www.nps.gov/articles/voting-rights-act.htm</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1870</div><div class="tl-event">The 15th Amendment says voting rights cannot be denied because of race, color, or previous servitude.</div></div>
+<div class="tl-item"><div class="tl-date">1877</div><div class="tl-event">Federal Reconstruction protections collapse, and Southern states expand Jim Crow voting restrictions.</div></div>
+<div class="tl-item"><div class="tl-date">1964</div><div class="tl-event">The 24th Amendment bans poll taxes in federal elections.</div></div>
+<div class="tl-item"><div class="tl-date">Mar 7, 1965</div><div class="tl-event">State troopers attack voting-rights marchers on the Edmund Pettus Bridge in Selma.</div></div>
+<div class="tl-item"><div class="tl-date">Mar 15, 1965</div><div class="tl-event">President Lyndon B. Johnson calls for voting-rights legislation before Congress.</div></div>
+<div class="tl-item"><div class="tl-date">Mar 21-25, 1965</div><div class="tl-event">The Selma to Montgomery march carries the demand for voting rights to the Alabama capitol.</div></div>
+<div class="tl-item"><div class="tl-date">Aug 6, 1965</div><div class="tl-event">Johnson signs the Voting Rights Act into law.</div></div>
+<div class="tl-item"><div class="tl-date">2013</div><div class="tl-event">Shelby County v. Holder disables the coverage formula that made Section 5 preclearance work.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-08-05">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>The Voting Rights Act of 1965 belongs to a much longer struggle than one summer in Washington. The 15th Amendment had promised in 1870 that race could not be used to deny the vote. For a short time during Reconstruction, Black men voted, organized, held office, helped write state constitutions, and built public institutions in the South. White supremacist politicians and vigilante groups understood exactly what that meant. Voting changed power. So after Reconstruction was abandoned, Southern states built a system designed to make the 15th Amendment look alive on paper while killing it in practice.</p>
+<p>The tools were different from place to place, but the purpose was clear. Poll taxes charged people money to exercise a constitutional right. Literacy tests let registrars decide who was qualified, often with impossible questions or shifting standards. Grandfather clauses protected many white voters whose own ancestors had not been eligible before the Civil War. White primaries kept Black voters out of the only election that mattered in one-party states. Economic retaliation and physical violence did the rest. A Black teacher, farmer, minister, or domestic worker who tried to register could lose a job, lose credit at a store, face eviction, or face a mob.</p>
+<p>Civil rights organizers attacked those barriers for decades before 1965. Local people carried the hardest risk. In Mississippi, Fannie Lou Hamer was fired from a plantation after trying to register. In Alabama, organizers such as Amelia Boynton, Hosea Williams, John Lewis, James Bevel, Diane Nash, and many local Dallas County residents kept attention on Selma, where Black people were the majority of the population but a tiny fraction of registered voters. The problem was not lack of interest. It was a courthouse system built to make registration frightening, humiliating, and nearly impossible.</p>
+<p>Selma became a national turning point because local organizing met public exposure. On March 7, 1965, marchers tried to cross the Edmund Pettus Bridge on the way to Montgomery. State troopers and deputies attacked them with clubs, tear gas, and mounted charges. Television carried the violence into living rooms across the country. The images did not create the movement, but they made it much harder for national leaders to pretend that voting discrimination was a local administrative issue.</p>
+<p>President Lyndon B. Johnson went before Congress on March 15 and called voting rights a moral issue. Congress moved quickly by congressional standards. The final law banned literacy tests, authorized federal examiners to register voters in covered jurisdictions, and required certain states and localities with histories of discrimination to get federal approval before changing voting rules. That preclearance system mattered because it changed the burden. Instead of Black citizens having to sue after damage was done, covered jurisdictions had to show in advance that new rules would not discriminate.</p>
+<p>The Act had fast, measurable effects. Federal examiners helped register new voters. Black political participation rose. Officeholding expanded. Communities that had been locked out of official power gained tools to challenge sheriffs, school boards, courthouse officials, and state legislators. The law did not end voter suppression, but it gave organizers and lawyers stronger weapons.</p>
+<p>The later history is part of the story too. Congress renewed and expanded the Act more than once, responding to new ways jurisdictions tried to dilute Black voting power. In 2013, the Supreme Court in Shelby County v. Holder ruled that the coverage formula used for preclearance was outdated. That decision did not erase the whole Voting Rights Act, but it removed one of its strongest enforcement tools. Many states moved quickly afterward to change voting laws. The fight that created the Act did not end at the signing ceremony because the systems it confronted did not disappear.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>No voting qualification or prerequisite to voting... shall be imposed... to deny or abridge the right... to vote on account of race or color.</blockquote>
+    <cite>Voting Rights Act of 1965, Section 2</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The law cost people more than time in meetings. It cost jobs, safety, bodies, and lives. People who tried to register were threatened by employers and landlords. Marchers were beaten in Selma. Voting-rights workers James Chaney, Andrew Goodman, and Michael Schwerner were murdered in Mississippi in 1964. Jimmie Lee Jackson was shot by an Alabama state trooper in 1965 after a voting-rights demonstration in Marion. Families carried the risk long after cameras left.</p>
+<p>The Act also shifted power. Federal examiners, lawsuits, and preclearance challenged local officials who had treated voter registration as their private gate. Black communities gained a stronger route into school boards, city halls, county commissions, statehouses, and Congress. That impact is why the backlash stayed active.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>The Voting Rights Act teaches that citizenship is not only a legal status. It is a set of systems that either lets people exercise power or blocks them from it. The popular version sometimes makes 1965 sound like a finish line. It was not. The Act made discrimination easier to challenge, but it did not make political power permanently fair.</p>
+<p>The modern fight over polling places, district maps, voter ID rules, registration deadlines, felony disenfranchisement, and mail voting belongs to the same larger question: who gets easy access to the ballot, and who must prove over and over that they belong there? Not every voting rule is the same as a Jim Crow literacy test. History asks a sharper question than that. It asks whether the effect and design of a rule make participation harder for people already pushed away from power.</p>
+<p>The Act matters because it shows how law and movement work together. Organizers created pressure. Law created tools. Communities still had to use those tools. When enforcement weakens, the work falls back on voters, lawyers, historians, journalists, and local organizers who know that democracy can be narrowed quietly as well as violently.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-08-05" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; August 5</div>
+        <div class="quiz-card-title">Open the daily challenge for Voting Rights Act of 1965</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="./john-lewis.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">John Lewis</div>
+        <div class="connected-desc">Selma organizer and voting-rights leader whose life connected protest and public office.</div>
+      </a>
+<a href="./mississippi-freedom-summer.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Mississippi Freedom Summer</div>
+        <div class="connected-desc">Shows the danger and organizing behind Black voter registration work.</div>
+      </a>
+<a href="../../encyclopedia/voting-rights.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Voting Rights &amp; Suppression</div>
+        <div class="connected-desc">The broader system of barriers the 1965 law challenged.</div>
+      </a>
+<a href="./fannie-lou-hamer-testimony.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Fannie Lou Hamer Testimony</div>
+        <div class="connected-desc">A first-person account of what voter suppression cost in Mississippi.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.archives.gov/milestone-documents/voting-rights-act" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">Voting Rights Act (1965), transcript and historical context</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.archives.gov/legislative/features/voting-rights-1965/vra.html" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">Legislative feature on the Voting Rights Act of 1965</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://home.nps.gov/articles/votingrightsact.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Voting Rights Act of 1965 overview</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.oyez.org/cases/2012/12-96" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Oyez</div>
+          <div class="ext-title">Shelby County v. Holder case summary</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

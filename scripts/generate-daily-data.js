@@ -2,10 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const { DAILY_COVERAGE } = require('../content/daily/2026-coverage');
 const { escapeHTML } = require('./lib/utils');
+const { renderRichPage } = require('./lib/rich-encyclopedia-renderer');
+const { ENTRIES: RICH_ENTRIES } = require('../content/encyclopedia-rich/batch-1');
 
 const DAILY_OUTPUT = path.join(__dirname, '../generated/daily-data.js');
 const PAGES_DIR = path.join(__dirname, '../generated/pages');
 const LEDGER_OUTPUT = path.join(__dirname, '../docs/RESEARCH_LEDGER.md');
+const richBySlug = new Map(RICH_ENTRIES.map(entry => [entry.encyclopediaSlug, entry]));
 
 function renderParagraphs(entry) {
   return [entry.lede, entry.context, entry.turning]
@@ -15,6 +18,14 @@ function renderParagraphs(entry) {
 }
 
 function renderPage(entry) {
+  const richEntry = richBySlug.get(entry.encyclopediaSlug);
+  if (richEntry) {
+    return renderRichPage({
+      ...entry,
+      ...richEntry,
+    });
+  }
+
   const sourceLinks = (entry.sources || [])
     .map(url => `<li><a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(url)}</a></li>`)
     .join('\n');
@@ -128,6 +139,37 @@ function toPublicEntry(entry) {
 
 function writeLedger(entries) {
   const rows = entries.map(entry => {
+    const richEntry = richBySlug.get(entry.encyclopediaSlug);
+    if (richEntry) {
+      const sourceRows = (richEntry.externalLinks || [])
+        .map(link => `  - ${link.source}: ${link.title} (${link.url})`)
+        .join('\n');
+      const primaryRows = (richEntry.research.primarySources || [])
+        .map(url => `  - ${url}`)
+        .join('\n');
+      const supportingRows = (richEntry.research.supportingSources || [])
+        .map(url => `  - ${url}`)
+        .join('\n');
+      return `### ${entry.fullDate} - ${entry.subject}
+
+- Entry title: ${richEntry.subject}
+- Slug: \`${entry.encyclopediaSlug}\`
+- Daily date: ${entry.fullDate}
+- Date researched: ${richEntry.research.dateResearched || '2026-08-13'}
+- Writer/research status: ${richEntry.research.status}
+- Material factual claims: ${richEntry.summary}
+- Primary or authoritative sources:
+${primaryRows}
+- Supporting secondary sources:
+${supportingRows}
+- Verified quotation source: ${richEntry.research.verifiedQuoteSource}
+- Sensitive or disputed claims reviewed: ${richEntry.research.sensitiveClaimsReviewed}
+- Material corrections made: ${richEntry.research.materialCorrections}
+- External links included on the page:
+${sourceRows}
+- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.`;
+    }
+
     const sourceRows = entry.sources.map(url => `  - ${url}`).join('\n');
     return `### ${entry.fullDate} - ${entry.subject}
 

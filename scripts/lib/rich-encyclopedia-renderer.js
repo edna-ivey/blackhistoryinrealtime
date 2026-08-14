@@ -1,10 +1,62 @@
-<!DOCTYPE html>
+const { escapeHTML } = require('./utils');
+
+function paragraphs(items) {
+  return (items || [])
+    .filter(Boolean)
+    .map(text => `<p>${escapeHTML(text)}</p>`)
+    .join('\n');
+}
+
+function renderTimeline(items) {
+  return (items || [])
+    .map(item => `<div class="tl-item"><div class="tl-date">${escapeHTML(item.date)}</div><div class="tl-event">${escapeHTML(item.event)}</div></div>`)
+    .join('\n');
+}
+
+function renderQuote(quote) {
+  if (!quote || !quote.text) return '';
+  return `<div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>${escapeHTML(quote.text)}</blockquote>
+    <cite>${escapeHTML(quote.cite || '')}</cite>
+  </div>`;
+}
+
+function renderConnected(links) {
+  return (links || [])
+    .map(link => `<a href="${escapeHTML(link.href)}" class="connected-card">
+        <div class="connected-type">${escapeHTML(link.type || 'Related Entry')}</div>
+        <div class="connected-name">${escapeHTML(link.title)}</div>
+        <div class="connected-desc">${escapeHTML(link.description || '')}</div>
+      </a>`)
+    .join('\n');
+}
+
+function renderExternal(links) {
+  return (links || [])
+    .map(link => `<a href="${escapeHTML(link.url)}" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">${escapeHTML(link.source)}</div>
+          <div class="ext-title">${escapeHTML(link.title)}</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>`)
+    .join('\n');
+}
+
+function renderRichPage(entry) {
+  const dateLabel = entry.dailyDateLabel || entry.fullDate;
+  const quoteHtml = renderQuote(entry.quote);
+  const relatedHtml = renderConnected(entry.connected);
+  const externalHtml = renderExternal(entry.externalLinks);
+
+  return `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Charles Richard Drew - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Charles Richard Drew helped make modern blood banking possible, but the simplified version often turns him into a single invention story. His work was really about systems: how to collect blood, separate plasma, preserve it, transport it, and train medical teams to use it at scale. During World War II, that knowledge saved lives. At the same time, the American Red Cross adopted policies that separated blood donations by race, even though Drew and other scientists rejected the idea that blood had racial meaning. His life also carries a stubborn myth about his death, a myth that grew from real medical racism but is not supported by the evidence.">
+<title>${escapeHTML(entry.subject)} - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="${escapeHTML(entry.summary)}">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
   :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
@@ -57,7 +109,7 @@
   @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body data-entry-id="charles-richard-drew">
+<body data-entry-id="${escapeHTML(entry.encyclopediaSlug)}">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
@@ -79,17 +131,17 @@
   <div class="breadcrumb">
     <a href="../../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>June 3 &middot; Medicine</span>
+    <span>${escapeHTML(dateLabel)} &middot; ${escapeHTML(entry.category)}</span>
   </div>
   <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
 
   <div class="entry-hero">
-    <div class="entry-vol-label">June 3 &middot; Medicine</div>
-    <h1>Charles Richard Drew</h1>
-    <p class="entry-tagline">Charles Richard Drew helped make modern blood banking possible, but the simplified version often turns him into a single invention story. His work was really about systems: how to collect blood, separate plasma, preserve it, transport it, and train medical teams to use it at scale. During World War II, that knowledge saved lives. At the same time, the American Red Cross adopted policies that separated blood donations by race, even though Drew and other scientists rejected the idea that blood had racial meaning. His life also carries a stubborn myth about his death, a myth that grew from real medical racism but is not supported by the evidence.</p>
+    <div class="entry-vol-label">${escapeHTML(dateLabel)} &middot; ${escapeHTML(entry.category)}</div>
+    <h1>${escapeHTML(entry.subject)}</h1>
+    <p class="entry-tagline">${escapeHTML(entry.summary)}</p>
     <div class="entry-badges">
-      <span class="badge">People</span>
-      <span class="badge">1904 - 1950</span>
+      <span class="badge">${escapeHTML(entry.type || 'People')}</span>
+      <span class="badge">${escapeHTML(entry.dates)}</span>
     </div>
     <div class="hero-bar"></div>
   </div>
@@ -97,70 +149,39 @@
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
     <div class="timeline-items">
-<div class="tl-item"><div class="tl-date">Jun 3, 1904</div><div class="tl-event">Born in Washington, D.C.</div></div>
-<div class="tl-item"><div class="tl-date">1926</div><div class="tl-event">Graduates from Amherst College, where he was also a standout athlete.</div></div>
-<div class="tl-item"><div class="tl-date">1933</div><div class="tl-event">Receives medical degree from McGill University in Montreal.</div></div>
-<div class="tl-item"><div class="tl-date">1940</div><div class="tl-event">Completes doctoral research on banked blood at Columbia University.</div></div>
-<div class="tl-item"><div class="tl-date">1940-1941</div><div class="tl-event">Directs Blood for Britain, a major plasma collection program during World War II.</div></div>
-<div class="tl-item"><div class="tl-date">1941</div><div class="tl-event">Becomes first director of the American Red Cross blood bank program.</div></div>
-<div class="tl-item"><div class="tl-date">1941</div><div class="tl-event">Leaves the Red Cross amid conflict over segregating blood donations by race.</div></div>
-<div class="tl-item"><div class="tl-date">Apr 1, 1950</div><div class="tl-event">Dies after a car crash in North Carolina.</div></div>
+${renderTimeline(entry.timeline)}
     </div>
   </div>
 
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-<p>Charles Drew entered medicine at a time when Black physicians were expected to be excellent and still denied full access to hospitals, residencies, professional networks, and research posts. He was born in Washington, D.C., in 1904, grew up in a middle-class Black community, and first became widely known as an athlete. At Amherst College he played football and ran track, but his deeper ambition moved toward medicine. He trained at McGill University in Canada, where his surgical skill and academic record stood out.</p>
-<p>The medical problem that made Drew famous was urgent and practical. Blood transfusion could save lives, but whole blood spoiled quickly and was difficult to store and move. Plasma, the liquid part of blood, could be separated, preserved longer, dried, and transported more easily. Drew did not work alone, and he did not magically invent the entire blood bank by himself. What he did was refine, standardize, and organize the process at a scale that made it dependable.</p>
-<p>At Columbia University, Drew wrote doctoral research on banked blood and became one of the leading experts on plasma preservation. That expertise became crucial as World War II intensified. Britain needed blood and plasma for wounded soldiers and civilians. Drew directed Blood for Britain, a program that collected blood in the United States, processed it, and shipped plasma overseas. It required scientific precision, but also logistics: sterile collection, testing, refrigeration, packaging, transport, records, and training. Drew understood that lifesaving medicine depended on the system around the discovery.</p>
-<p>That systems knowledge is why Drew belongs in an encyclopedia page rather than only a list of inventors. Blood collection had to be trusted by donors, reliable for doctors, and safe for patients. Drew helped create standards for separating plasma, labeling units, preventing contamination, and moving supplies before they expired. In wartime, a mistake was not a typo. It could mean a wounded person died before surgery.</p>
-<p>In 1941, the American Red Cross asked Drew to help organize its first large-scale blood bank program. The contradiction arrived almost immediately. The U.S. military first refused blood donations from Black people, then accepted them only if the blood was segregated by race. The policy had no scientific basis. Drew criticized it and later stepped away from the Red Cross program. The same country that needed his expertise refused to let science fully overrule racism.</p>
-<p>Drew spent much of the rest of his career at Howard University and Freedmen&#039;s Hospital, where he trained Black surgeons and raised standards for medical education. That part of his life matters because it shows his work was not only wartime technology. It was institution building. He pushed for Black doctors to receive the training and recognition that segregated medicine tried to deny them.</p>
-<p>His death in 1950 created one of the most persistent myths in Black medical history. Drew died after a car crash in North Carolina. A widely repeated story says he was denied treatment or blood because he was Black. The National Library of Medicine notes that this was repeatedly shown to be false. The myth lasted because it sounded believable in a country where Black patients were often mistreated and Black doctors excluded. The truth is more complicated: Drew was treated after the crash, but his injuries were too severe. Correcting the myth does not soften medical racism. It keeps Drew&#039;s actual life from being swallowed by a false ending.</p>
-<p>Drew&#039;s story is strongest when held in full. He was a scientist, surgeon, organizer, teacher, and critic of racist policy. He helped make blood banking modern, then used his career to train the next generation of Black physicians. The lesson is not simply that he saved lives. It is that medicine needs both discovery and justice to be worthy of the people it claims to serve.</p>
+${paragraphs(entry.fullStory)}
   </div>
 
-  
+  ${quoteHtml}
 
   <div class="cost-section">
     <div class="cost-label">Cost / Impact</div>
-<p>Drew paid the cost of working inside segregated medicine. Hospitals that needed Black talent still restricted Black doctors. Scientific authority did not protect him from a blood donation policy based on racist assumptions. The professional conflict around the Red Cross meant stepping away from a program his own expertise had helped build.</p>
-<p>His impact reached far beyond one procedure. Blood banking became a foundation of modern surgery, trauma care, military medicine, and emergency response. At Howard, his mentorship helped expand Black surgical leadership at a time when the medical profession often treated Black doctors as exceptions instead of colleagues.</p>
+${paragraphs(entry.costImpact)}
   </div>
 
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-<p>Charles Drew&#039;s life asks readers to separate two ideas that often get mixed together: Black excellence and institutional fairness. Drew was brilliant, but brilliance did not make the system fair. He could help build a lifesaving medical process and still confront policies that treated race as biology.</p>
-<p>That distinction matters in medicine today. Health systems still carry unequal access, unequal treatment, and distrust rooted in real history. Drew&#039;s story is not a reason to say science always wins. It is a reason to ask who gets to shape science, who is trusted, who is excluded, and what happens when racist ideas are dressed up as medical caution.</p>
-<p>The myth about his death also matters. Communities sometimes keep myths because they express a truth about fear and experience. But an encyclopedia has to do something more careful: honor the real history without repeating false details. The true story of Drew&#039;s life already contains enough evidence of racism, brilliance, service, and consequence. It does not need an invented final scene.</p>
+${paragraphs(entry.whyItMattersToday)}
   </div>
 
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../../index.html?day=2026-06-03" class="quiz-card">
+    <a href="../../index.html?day=${escapeHTML(entry.fullDate)}" class="quiz-card">
       <div class="quiz-card-left">
-        <div class="quiz-card-label">Take the Challenge &middot; June 3</div>
-        <div class="quiz-card-title">Open the daily challenge for Charles Richard Drew</div>
+        <div class="quiz-card-label">Take the Challenge &middot; ${escapeHTML(dateLabel)}</div>
+        <div class="quiz-card-title">Open the daily challenge for ${escapeHTML(entry.subject)}</div>
       </div>
       <div class="quiz-card-icon">&#x2192;</div>
     </a>
     <div class="connected-grid" style="margin-top:0;">
-<a href="../../encyclopedia/daniel-hale-williams.html" class="connected-card">
-        <div class="connected-type">Related Entry</div>
-        <div class="connected-name">Daniel Hale Williams</div>
-        <div class="connected-desc">Another Black surgeon who built medical institutions under segregation.</div>
-      </a>
-<a href="../../encyclopedia/henrietta-lacks.html" class="connected-card">
-        <div class="connected-type">Related Entry</div>
-        <div class="connected-name">Henrietta Lacks</div>
-        <div class="connected-desc">Connects medical innovation to consent, race, and institutional power.</div>
-      </a>
-<a href="./patricia-bath.html" class="connected-card">
-        <div class="connected-type">Related Entry</div>
-        <div class="connected-name">Patricia Bath</div>
-        <div class="connected-desc">A later physician-inventor who linked medical technology with access.</div>
-      </a>
+${relatedHtml}
     </div>
   </div>
 
@@ -168,34 +189,7 @@
   <div class="external-section">
     <div class="section-title">External Links</div>
     <div class="external-links">
-<a href="https://profiles.nlm.nih.gov/spotlight/bg" target="_blank" rel="noopener noreferrer" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">National Library of Medicine</div>
-          <div class="ext-title">Charles R. Drew Papers, Profiles in Science</div>
-        </div>
-        <span class="ext-arrow">&#x2197;</span>
-      </a>
-<a href="https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html" target="_blank" rel="noopener noreferrer" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">National Library of Medicine</div>
-          <div class="ext-title">African American surgeons: Charles R. Drew</div>
-        </div>
-        <span class="ext-arrow">&#x2197;</span>
-      </a>
-<a href="https://www.nlm.nih.gov/exhibition/education/charlesdrew/higheredrmizelle-class2.html" target="_blank" rel="noopener noreferrer" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">National Library of Medicine</div>
-          <div class="ext-title">Father of the Blood Bank educational module</div>
-        </div>
-        <span class="ext-arrow">&#x2197;</span>
-      </a>
-<a href="https://www.nlm.nih.gov/exhibition/education/charlesdrew/lessonplan7-8.html" target="_blank" rel="noopener noreferrer" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">National Library of Medicine</div>
-          <div class="ext-title">Charles Drew lesson plan noting the false death myth</div>
-        </div>
-        <span class="ext-arrow">&#x2197;</span>
-      </a>
+${externalHtml}
     </div>
   </div>
 </main>
@@ -205,3 +199,9 @@
 </footer>
 </body>
 </html>
+`;
+}
+
+module.exports = {
+  renderRichPage,
+};
