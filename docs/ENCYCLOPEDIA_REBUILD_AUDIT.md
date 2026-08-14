@@ -84,13 +84,26 @@ Batch 6 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, and em dashes in new Batch 6 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
 
+## Batch 7 Completed
+
+Completed pages: `shirley-ann-jackson`, `dred-scott`, `duke-ellington`, `ed-temple`, `edmonia-lewis`.
+
+Batch 7 continued from row 57 with a five-entry checkpoint. It rebuilt two legacy-path pages and three generated pages. It corrected Shirley Ann Jackson's overbroad invention framing by distinguishing Bell Labs physics contributions from consumer-device invention myths, corrected Dred Scott from decision-only dating to life-date context, centered Harriet Scott and the Scott family, and treated Edmonia Lewis's contested biographical record with careful source limits.
+
+Batch 7 verification:
+
+- External links checked: 21 total, 0 material failures. Several institutional links returned bot-blocking statuses (`403`) during automated checking but were retained only when direct authoritative source pages had already been verified for subject relevance. Two stale links were removed before final validation.
+- Browser rendering checked: 5 Batch 7 pages at desktop `1280x900` and mobile `390x844`, 10 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards, empty links, horizontal overflow, stale quiz wording, loading fallbacks, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 7 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 58
-- REWRITE: 81
-- RESEARCH: 71
-- REBUILD: 86
+- PASS: 63
+- REWRITE: 78
+- RESEARCH: 69
+- REBUILD: 83
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -101,7 +114,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 57 | Dr. Shirley Ann Jackson | encyclopedia/shirley-ann-jackson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 62 | Education Inequality by Design | encyclopedia/education-inequality.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -165,11 +178,11 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 54 | Doug Williams | generated/pages/doug-williams.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, first Black Super Bowl starting/winning QB and first-round draft claim review, stale Pro Football Hall of Fame URL replaced, depth/similarity validation, external-link verification. |
 | 55 | Dr. Helen Octavia Dickens | encyclopedia/helen-octavia-dickens.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified Penn Medicine quotation, Penn/teen-clinic/Pap-smear claim review, depth/similarity validation, external-link verification. |
 | 56 | Dr. Patricia Bath | generated/pages/patricia-bath.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
-| 57 | Dr. Shirley Ann Jackson | encyclopedia/shirley-ann-jackson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 58 | Dred Scott | generated/pages/dred-scott.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 59 | Duke Ellington | encyclopedia/duke-ellington.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 60 | Ed Temple | generated/pages/ed-temple.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 61 | Edmonia Lewis | generated/pages/edmonia-lewis.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 57 | Dr. Shirley Ann Jackson | encyclopedia/shirley-ann-jackson.html | PASS | Batch 7 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified MIT quotation, MIT/NRC/RPI/technology-contribution claim review, corrected overbroad invention framing, depth/similarity validation, external-link verification. |
+| 58 | Dred Scott | generated/pages/dred-scott.html | PASS | Batch 7 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified Taney quotation, Harriet Scott/family freedom/citizenship/territory claim review, corrected dates from decision-only framing to life-date context, depth/similarity validation, external-link verification. |
+| 59 | Duke Ellington | encyclopedia/duke-ellington.html | PASS | Batch 7 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, Cotton Club/Strayhorn/Carnegie/cultural-diplomacy claim review, depth/similarity validation, external-link verification. |
+| 60 | Ed Temple | generated/pages/ed-temple.html | PASS | Batch 7 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified Tennessee Secretary of State quotation, Tigerbelles/Olympian/medal/HBCU claim review, stale Team USA source removed, depth/similarity validation, external-link verification. |
+| 61 | Edmonia Lewis | generated/pages/edmonia-lewis.html | PASS | Batch 7 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified Smithsonian quotation, birthplace/ancestry/Oberlin/death-date/Death of Cleopatra claim review, depth/similarity validation, external-link verification. |
 | 62 | Education Inequality by Design | encyclopedia/education-inequality.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 63 | Edward Brooke | generated/pages/edward-brooke.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 64 | Elijah McCoy | generated/pages/elijah-mccoy.html | RESEARCH, REBUILD | Markdown-generated page is stronger than fallback pages but still needs claim-by-claim verification, source ledger expansion, and Claudette visual/template alignment review. |

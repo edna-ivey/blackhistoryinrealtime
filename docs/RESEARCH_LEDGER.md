@@ -446,11 +446,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-15 - Dred Scott
 
+- Entry title: Dred Scott
 - Slug: `dred-scott`
-- Core claims: The Supreme Court did not just rule against Dred Scott. It tried to write Black people out of citizenship itself. Scott sued for freedom after living with his enslaver in free territory. In 1857, the Court ruled that Black people, enslaved or free, could not be citizens with standing to sue in federal court. Chief Justice Roger Taney's opinion helped push the country closer to Civil War. The Fourteenth Amendment later rejected the decision's citizenship logic.
-- Sources:
+- Daily date: 2026-06-15
+- Date researched: 2026-08-14
+- Writer/research status: batch-7-complete
+- Material factual claims: Dred Scott v. Sandford is remembered as a Supreme Court decision, but it began as a family's freedom suit. Dred Scott, Harriet Robinson Scott, and their daughters had lived in places where slavery was prohibited, then sued in Missouri courts for freedom. By 1857, the case had become a national weapon. Chief Justice Roger Taney's opinion said Black people could not be U.S. citizens and that Congress lacked power to ban slavery in federal territories. The decision did not settle the slavery conflict. It exposed how far the Court would go to protect slaveholding power, and it helped push the country closer to Civil War.
+- Primary or authoritative sources:
   - https://www.archives.gov/milestone-documents/dred-scott-v-sandford
+  - https://www.loc.gov/item/usrep060393/
+- Supporting secondary sources:
+  - https://www.archives.gov/kansas-city/highlights/dred-scott
+  - https://www.nps.gov/people/dred-scott.htm
   - https://www.oyez.org/cases/1850-1900/60us393
+- Verified quotation source: National Archives transcript and Library of Congress United States Reports record of Dred Scott v. Sandford.
+- Sensitive or disputed claims reviewed: Citizenship holding, Harriet Scott role, family freedom, Sandford spelling, Missouri precedent, territorial slavery holding, and amendment reversal reviewed.
+- Material corrections made: Expanded scheduled fallback into a family-centered constitutional history and corrected the date field from decision-only framing to Dred Scott life dates.
+- External links included on the page:
+  - National Archives: Dred Scott v. Sandford (1857) (https://www.archives.gov/milestone-documents/dred-scott-v-sandford)
+  - National Archives: Dred Scott (https://www.archives.gov/kansas-city/highlights/dred-scott)
+  - National Park Service: Dred Scott (https://www.nps.gov/people/dred-scott.htm)
+  - Library of Congress: Dred Scott v. Sandford, 60 U.S. 393 (https://www.loc.gov/item/usrep060393/)
+  - Oyez: Dred Scott v. Sandford (https://www.oyez.org/cases/1850-1900/60us393)
+- Final review status: Batch 7 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 5 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-16 - Tupac Shakur
 
@@ -830,11 +848,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-19 - Edmonia Lewis
 
+- Entry title: Edmonia Lewis
 - Slug: `edmonia-lewis`
-- Core claims: Edmonia Lewis crossed oceans to build an art career the United States made nearly impossible. Lewis, of Black and Native American heritage, became a sculptor in the nineteenth century and established herself in Rome, where she worked in marble. Her sculptures, including Forever Free, explored emancipation, identity, faith, and classical form from a perspective rarely welcomed in elite art circles.
-- Sources:
+- Daily date: 2026-07-19
+- Date researched: 2026-08-14
+- Writer/research status: batch-7-complete
+- Material factual claims: Edmonia Lewis made marble speak from a life the art world tried to make improbable. She was a sculptor of Black and Native ancestry who studied at Oberlin, survived a racially charged accusation and attack, trained in Boston, then moved to Rome and built an international career. Her work took up emancipation, Indigenous life, religious themes, grief, captivity, and freedom inside the language of neoclassical sculpture. Lewis matters because she was not simply a "first." She was an artist negotiating how much of herself to reveal, how much the market would tolerate, and how to carve dignity into stone when critics kept trying to frame her as novelty.
+- Primary or authoritative sources:
   - https://americanart.si.edu/artist/edmonia-lewis-2914
+  - https://americanart.si.edu/artwork/death-cleopatra-33878
+- Supporting secondary sources:
+  - https://americanart.si.edu/blog/edmonia_lewis_3D
   - https://www.womenshistory.org/education-resources/biographies/edmonia-lewis
+- Verified quotation source: Smithsonian American Art Museum blog quoting Edmonia Lewis on criticism and praise.
+- Sensitive or disputed claims reviewed: Birthplace uncertainty, Black and Native ancestry wording, Oberlin accusation/acquittal, violent attack, studio practice, death date, and rediscovery of The Death of Cleopatra reviewed.
+- Material corrections made: Expanded scheduled fallback into a fuller account of contested biography, Oberlin violence, Rome studio practice, major works, archival loss, and recovery.
+- External links included on the page:
+  - Smithsonian American Art Museum: Edmonia Lewis (https://americanart.si.edu/artist/edmonia-lewis-2914)
+  - Smithsonian American Art Museum: The Death of Cleopatra (https://americanart.si.edu/artwork/death-cleopatra-33878)
+  - Smithsonian American Art Museum: 3D Scans of Sculptures by Edmonia Lewis (https://americanart.si.edu/blog/edmonia_lewis_3D)
+  - National Women's History Museum: Edmonia Lewis (https://www.womenshistory.org/education-resources/biographies/edmonia-lewis)
+- Final review status: Batch 7 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-20 - Jacob Lawrence
 
@@ -934,11 +968,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-26 - Ed Temple
 
+- Entry title: Ed Temple
 - Slug: `ed-temple`
-- Core claims: Ed Temple built a track powerhouse at Tennessee State with athletes the wider sports world too often underestimated. Temple coached the Tigerbelles, a women's track team that produced dozens of Olympians and medalists, including Wilma Rudolph and Wyomia Tyus. His athletes competed through segregation, limited resources, and gender discrimination, yet became some of the fastest women in the world.
-- Sources:
-  - https://www.tshf.net/halloffame/temple-ed/
-  - https://www.teamusa.com/news/2016/september/23/legendary-olympic-track-coach-ed-temple-dies
+- Daily date: 2026-07-26
+- Date researched: 2026-08-14
+- Writer/research status: batch-7-complete
+- Material factual claims: Ed Temple coached speed, but his real work was institution-building. At Tennessee State University, he turned the Tigerbelles into one of the great women's track programs in the world. His athletes included Wilma Rudolph, Wyomia Tyus, Barbara Jones, Chandra Cheeseborough, and dozens of Olympians who ran through segregation, limited resources, sexism, and Cold War pressure. Temple's story matters because the finish line was only the visible part. Behind every medal was recruiting, discipline, travel, academics, protection, and a Black college program proving that Black women's excellence did not need permission from better-funded institutions.
+- Primary or authoritative sources:
+  - https://tennesseeencyclopedia.net/entries/edward-s-temple/
+  - https://digitalscholarship.tnstate.edu/library-digital-collections/114/
+- Supporting secondary sources:
+  - https://sos.tn.gov/tsla/pages/tri-star-chronicles-ed-temple
+  - https://tshf.net/halloffame/temple-edward-s/
+- Verified quotation source: Tennessee Secretary of State Tri-Star Chronicles feature quoting Temple.
+- Sensitive or disputed claims reviewed: Olympian/medal counts, 34 national titles, Wilma Rudolph and Wyomia Tyus claims, HBCU context, and women's sports resource framing reviewed.
+- Material corrections made: Expanded scheduled fallback into a program-level account of Tigerbelles, HBCU infrastructure, women's sports, Cold War contradiction, and coaching labor.
+- External links included on the page:
+  - Tennessee Encyclopedia: Edward S. Temple (https://tennesseeencyclopedia.net/entries/edward-s-temple/)
+  - Tennessee Secretary of State: Tri-Star Chronicles: Ed Temple (https://sos.tn.gov/tsla/pages/tri-star-chronicles-ed-temple)
+  - Tennessee State University Library: Edward S. Temple, Olympic Coach (https://digitalscholarship.tnstate.edu/library-digital-collections/114/)
+  - Tennessee Sports Hall of Fame: Temple, Edward S. (https://tshf.net/halloffame/temple-edward-s/)
+- Final review status: Batch 7 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 5 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-27 - Doug Williams
 
@@ -2079,3 +2129,51 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Penn Medicine: Helen Octavia Dickens: An expanded view (https://www.pennmedicine.org/news/helen-octavia-dickens-an-expanded-view)
   - Encyclopedia.com: Helen Octavia Dickens (https://www.encyclopedia.com/people/social-sciences-and-law/education-biographies/helen-octavia-dickens)
 - Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-19 - Dr. Shirley Ann Jackson
+
+- Entry title: Dr. Shirley Ann Jackson
+- Slug: `shirley-ann-jackson`
+- Daily date: 2026-03-19
+- Date researched: 2026-08-14
+- Writer/research status: batch-7-complete
+- Material factual claims: Shirley Ann Jackson is often introduced through firsts: first Black woman to earn a doctorate from MIT, first woman and first Black person to chair the Nuclear Regulatory Commission, first Black woman to lead a top-ranked research university. Those firsts matter, but they can make the story sound smoother than it was. Jackson entered MIT in 1964 as one of only a handful of Black students in her class, studied physics in rooms that could be socially hostile, helped push MIT toward stronger Black student recruitment after Martin Luther King Jr.'s assassination, then moved through laboratories, federal regulation, and university leadership. Her page matters because it shows science as discovery and institution-building at once.
+- Primary or authoritative sources:
+  - https://www.blackhistory.mit.edu/archive/shirley-jackson-ca-1973
+  - https://www.nrc.gov/about-nrc/organization/commission/former-commissioners/jackson
+- Supporting secondary sources:
+  - https://news.mit.edu/2017/shirley-jackson-speaks-about-her-career-and-being-change-agent-0929
+  - https://president.rpi.edu/leadership/honorable-shirley-ann-jackson-phd-dl-hon-dsc-hon-nae
+- Verified quotation source: MIT News 2017 report on Jackson returning to campus.
+- Sensitive or disputed claims reviewed: Living status, MIT first claims, second Black woman physics Ph.D. claim, NRC authority, RPI tenure, and telecommunications contribution wording reviewed.
+- Material corrections made: Replaced overbroad "invented caller ID/fiber optics" framing with careful language about Bell Labs physics research contributing to telecommunications technologies.
+- External links included on the page:
+  - MIT Black History Project: Shirley Jackson, ca. 1973 (https://www.blackhistory.mit.edu/archive/shirley-jackson-ca-1973)
+  - MIT News: Shirley Jackson speaks about her career and being an agent for change (https://news.mit.edu/2017/shirley-jackson-speaks-about-her-career-and-being-change-agent-0929)
+  - U.S. Nuclear Regulatory Commission: Honorable Dr. Shirley Ann Jackson, Commissioner (https://www.nrc.gov/about-nrc/organization/commission/former-commissioners/jackson)
+  - Rensselaer Polytechnic Institute: The Honorable Shirley Ann Jackson (https://president.rpi.edu/leadership/honorable-shirley-ann-jackson-phd-dl-hon-dsc-hon-nae)
+- Final review status: Batch 7 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 5 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-04-29 - Duke Ellington
+
+- Entry title: Duke Ellington
+- Slug: `duke-ellington`
+- Daily date: 2026-04-29
+- Date researched: 2026-08-14
+- Writer/research status: batch-7-complete
+- Material factual claims: Duke Ellington did not make jazz respectable by making it less Black. He expanded its forms, colors, audiences, and ambitions while keeping the orchestra rooted in the individual voices of Black musicians. Born in Washington, D.C., Ellington became a pianist, composer, bandleader, arranger, and cultural diplomat whose work moved from dance halls and radio broadcasts to suites, film scores, sacred concerts, and global tours. The easy version says he made jazz elegant. The deeper story is that he treated Black sound as a whole world: sophisticated, experimental, commercial, spiritual, funny, disciplined, and impossible to shrink.
+- Primary or authoritative sources:
+  - https://www.loc.gov/item/today-in-history/april-29/
+  - https://americanhistory.si.edu/documentsgallery/exhibitions/ellington_strayhorn_2.html
+- Supporting secondary sources:
+  - https://npg.si.edu/object/npg_NPG.92.58
+  - https://blogs.loc.gov/nls-music-notes/2018/05/american-composers-from-a-z-e-part-1-ellington-duke/
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Cotton Club segregation, Billy Strayhorn collaboration, composition counts, Carnegie Hall reception, cultural diplomacy framing, and Presidential Medal timeline reviewed.
+- Material corrections made: Expanded legacy daily framing from global jazz icon into a fuller account of orchestra, collaboration, segregation, extended composition, and cultural diplomacy.
+- External links included on the page:
+  - Library of Congress: Today in History: Duke Ellington (https://www.loc.gov/item/today-in-history/april-29/)
+  - National Museum of American History: Duke Ellington and Billy Strayhorn: Jazz Composers (https://americanhistory.si.edu/documentsgallery/exhibitions/ellington_strayhorn_2.html)
+  - National Portrait Gallery: Duke Ellington (https://npg.si.edu/object/npg_NPG.92.58)
+  - Library of Congress Music Blog: American Composers and Musicians from A to Z: Ellington, Duke (https://blogs.loc.gov/nls-music-notes/2018/05/american-composers-from-a-z-e-part-1-ellington-duke/)
+- Final review status: Batch 7 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
