@@ -6,11 +6,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-06 - Denmark Vesey
 
+- Entry title: Denmark Vesey
 - Slug: `denmark-vesey`
-- Core claims: Charleston authorities were so frightened by Denmark Vesey that they did more than execute him. They tried to erase the possibility that thousands of enslaved people had imagined freedom together. Vesey had purchased his own freedom after winning a lottery, but his wife and children remained enslaved. That contradiction shaped the world he lived in: one man could be legally free while the people he loved were still treated as property. In 1822, officials accused Vesey and others of organizing a large uprising. The trials were secretive, the evidence was contested, and the punishment was swift. Vesey and more than thirty others were hanged.
-- Sources:
+- Daily date: 2026-05-06
+- Date researched: 2026-08-14
+- Writer/research status: batch-6-complete
+- Material factual claims: Denmark Vesey's story sits at the line between documented conspiracy, white fear, and Black revolutionary imagination. Vesey was enslaved, purchased his freedom after winning a lottery, became a Charleston carpenter, worshiped in the African Church connected to what later became Mother Emanuel, and was accused of organizing a massive 1822 uprising. Authorities arrested 131 Black men, convicted 67, and hanged 35, including Vesey. Historians still debate parts of the record because the trials were secret and produced by the slaveholding state. The page matters because Vesey shows how deeply enslavers feared Black organization, faith, literacy, Haiti, and the idea that free Black people might fight for those still enslaved.
+- Primary or authoritative sources:
   - https://www.nps.gov/people/denmark-vesey.htm
   - https://www.scencyclopedia.org/sce/entries/vesey-denmark/
+- Supporting secondary sources:
+  - https://home.nps.gov/places/south-carolina-mother-emanuel-ame-church.htm
+  - https://www.loc.gov/item/90107205/
+- Verified quotation source: No quotation included. Trial-record language is contested and was not used as a pull quote.
+- Sensitive or disputed claims reviewed: Alleged plot wording, secret trials, arrest/conviction/execution counts, birthplace uncertainty, family claims, Haiti influence, and church destruction reviewed.
+- Material corrections made: Expanded scheduled fallback into a carefully qualified account of contested evidence, Black church history, Haiti, state repression, and memory.
+- External links included on the page:
+  - National Park Service: Denmark Vesey (https://www.nps.gov/people/denmark-vesey.htm)
+  - South Carolina Encyclopedia: Vesey, Denmark (https://www.scencyclopedia.org/sce/entries/vesey-denmark/)
+  - National Park Service: Mother Emanuel AME Church (https://home.nps.gov/places/south-carolina-mother-emanuel-ame-church.htm)
+  - Library of Congress: Official Report of the 1822 Denmark Vesey Trials (https://www.loc.gov/item/90107205/)
+- Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-07 - Nat Turner
 
@@ -638,11 +654,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-05 - David Walker
 
+- Entry title: David Walker
 - Slug: `david-walker`
-- Core claims: David Walker wrote a pamphlet so direct that Southern states tried to stop it from reaching Black readers. Walker was a free Black abolitionist in Boston. His 1829 Appeal condemned slavery, racism, colonization, and Christian hypocrisy with fierce urgency. Copies were smuggled into the South, alarming enslavers who understood that words could travel where organizers could not.
-- Sources:
+- Daily date: 2026-07-05
+- Date researched: 2026-08-14
+- Writer/research status: batch-6-complete
+- Material factual claims: David Walker's Appeal was printed in 1829, but it sounds like someone refusing to whisper in a burning room. Walker was born free in North Carolina to a free mother and enslaved father, moved to Boston, joined Black organizing networks, sold used clothing, worked with Freedom's Journal, and wrote one of the boldest antislavery pamphlets in the United States. Southern authorities feared it because it named slavery as sin, theft, hypocrisy, and violence, and because copies reached Black readers through sailors, clothing networks, and oral reading. Walker matters because he refused the polite timetable of white reform. He wrote as if Black freedom was urgent because it was.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/david-walker.htm
   - https://docsouth.unc.edu/nc/walker/walker.html
-  - https://www.britannica.com/biography/David-Walker
+- Supporting secondary sources:
+  - https://www.loc.gov/item/65012945/
+  - https://www.ncpedia.org/david-walkers-appeal
+- Verified quotation source: David Walker, Appeal to the Coloured Citizens of the World, available through Documenting the American South and Library of Congress records.
+- Sensitive or disputed claims reviewed: Birth year variation, free mother/enslaved father, poisoning rumors versus consumption record, distribution through sailors, and colonization critique reviewed.
+- Material corrections made: Expanded scheduled fallback into a full account of Black print culture, Boston organizing, Appeal circulation, white Southern panic, and responsible death-cause wording.
+- External links included on the page:
+  - National Park Service: David Walker (https://www.nps.gov/people/david-walker.htm)
+  - Documenting the American South: David Walker's Appeal (https://docsouth.unc.edu/nc/walker/walker.html)
+  - Library of Congress: David Walker's Appeal (https://www.loc.gov/item/65012945/)
+  - NCpedia: David Walker's Appeal (https://www.ncpedia.org/david-walkers-appeal)
+- Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-06 - Frances E.W. Harper
 
@@ -910,11 +942,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-27 - Doug Williams
 
+- Entry title: Doug Williams
 - Slug: `doug-williams`
-- Core claims: Doug Williams stepped into the Super Bowl carrying a position people had spent decades wrongly claiming Black athletes could not play. Black quarterbacks faced racist doubts about intelligence and leadership for generations. Williams led Washington in Super Bowl XXII against Denver. He threw four touchdown passes in one quarter and became the first Black quarterback to win Super Bowl MVP.
-- Sources:
-  - https://www.profootballhof.com/news/2018/01/news-super-bowl-xxii-doug-williams-shines/
-  - https://www.britannica.com/biography/Doug-Williams
+- Daily date: 2026-07-27
+- Date researched: 2026-08-14
+- Writer/research status: batch-6-complete
+- Material factual claims: Doug Williams became the first Black quarterback to start and win a Super Bowl, then became its Most Valuable Player. That sentence is true, but the pressure inside it was enormous. Williams came from Grambling State, played for Eddie Robinson, became a first-round NFL draft pick, carried a Tampa Bay franchise that paid and treated him unequally, left for the USFL, returned as a backup in Washington, and then turned Super Bowl XXII into one of the most explosive quarters in football history. His story matters because quarterback has never been just a position. In America, it has been a test of who is allowed to be seen as intelligent, calm, commanding, and trusted with control.
+- Primary or authoritative sources:
+  - https://www.cfbhall.com/inductees/doug-williams-2001/
+  - https://www.nfl.com/news/doug-williams-super-bowl-heroics-paved-a-path-for-black-qbs-0ap3000000786835
+- Supporting secondary sources:
+  - https://www.buccaneers.com/team/ring-of-honor/doug-williams
+  - https://www.commanders.com/team/front-office-roster/doug-williams
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: First Black quarterback to start/win Super Bowl, first-round draft claim, Super Bowl statistics, Tampa contract/valuation context, and HBCU pipeline framing reviewed.
+- Material corrections made: Expanded scheduled fallback into a fuller account of Grambling, quarterback racial bias, Tampa Bay years, Super Bowl pressure, and post-playing leadership.
+- External links included on the page:
+  - College Football Hall of Fame: Doug Williams (https://www.cfbhall.com/inductees/doug-williams-2001/)
+  - NFL: Doug Williams Super Bowl heroics paved a path for Black QBs (https://www.nfl.com/news/doug-williams-super-bowl-heroics-paved-a-path-for-black-qbs-0ap3000000786835)
+  - Tampa Bay Buccaneers: Doug Williams Ring of Honor (https://www.buccaneers.com/team/ring-of-honor/doug-williams)
+  - Washington Commanders: Doug Williams (https://www.commanders.com/team/front-office-roster/doug-williams)
+- Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-28 - Frank Robinson
 
@@ -1158,11 +1206,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-17 - David Dinkins
 
+- Entry title: David Dinkins
 - Slug: `david-dinkins`
-- Core claims: David Dinkins called New York a gorgeous mosaic, a phrase that sounded gentle but carried a hard governing challenge. Dinkins became New York City's first Black mayor in 1990 after years in public service. He led during a period of fiscal pressure, racial tension, crime concerns, and fierce public debate over the city's future.
-- Sources:
-  - https://www.nyc.gov/site/records/about/david-dinkins.page
+- Daily date: 2026-08-17
+- Date researched: 2026-08-14
+- Writer/research status: batch-6-complete
+- Material factual claims: David Dinkins became New York City's first Black mayor in 1990 and described the city as a "gorgeous mosaic." The phrase was generous, but his mayoralty was not soft. He governed during fiscal crisis, high homicide rates, AIDS grief, homelessness, racial tension, and media hostility. He expanded school construction, created Beacon Schools, negotiated the U.S. Open's long-term stay in Queens, signed strong anti-apartheid legislation, and tried to hold together a city that often judged him more harshly than his predecessors. His page matters because it shows the weight placed on firsts when they inherit problems they did not create.
+- Primary or authoritative sources:
+  - https://www.archives.nyc/dinkins-gallery
+  - https://www.nyc.gov/html/unccp/scp/html/about/bio_dinkins.shtml
+- Supporting secondary sources:
+  - https://www.sipa.columbia.edu/news/remembering-professor-david-dinkins
   - https://www.britannica.com/biography/David-Dinkins
+- Verified quotation source: NYC Department of Records summary of Dinkins's mayoral language.
+- Sensitive or disputed claims reviewed: Crown Heights framing, crime-rate and deficit claims, first Black mayor claim, Safe Streets/Safe City, and anti-apartheid legislation reviewed.
+- Material corrections made: Expanded scheduled fallback into a fuller account of fiscal crisis, public safety, racial coalition, schools, housing, and contested public memory.
+- External links included on the page:
+  - NYC Department of Records: David N. Dinkins, 106th Mayor of the City of New York (https://www.archives.nyc/dinkins-gallery)
+  - NYC Global Partners: Professor David Dinkins biography (https://www.nyc.gov/html/unccp/scp/html/about/bio_dinkins.shtml)
+  - Columbia SIPA: Remembering Professor David Dinkins (https://www.sipa.columbia.edu/news/remembering-professor-david-dinkins)
+  - Britannica: David Dinkins (https://www.britannica.com/biography/David-Dinkins)
+- Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-18 - Constance Baker Motley
 
@@ -1310,11 +1374,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-28 - Dorothy Vaughan
 
+- Entry title: Dorothy Vaughan
 - Slug: `dorothy-vaughan`
-- Core claims: Dorothy Vaughan saw the computer age coming and made sure her team would not be left behind. Vaughan worked at NACA/NASA and became the first Black supervisor at what is now NASA Langley, leading West Area Computing. When electronic computers arrived, she learned FORTRAN and helped other women prepare for the new technical demands.
-- Sources:
-  - https://www.nasa.gov/people/dorothy-vaughan-biography/
-  - https://www.nasa.gov/history/dorothy-vaughan-biography/
+- Daily date: 2026-08-28
+- Date researched: 2026-08-14
+- Writer/research status: batch-6-complete
+- Material factual claims: Dorothy Vaughan led before institutions were ready to call Black women leaders. Hired by NACA during World War II, she worked in the segregated West Area Computing unit at Langley, became its head in 1949, and later taught herself and others FORTRAN as electronic computing changed the work. NASA remembers her as its first Black manager. The deeper story is about supervisory labor, advocacy, race, gender, technology, and the transition from human computation to programming. Vaughan matters because she did not only calculate. She watched where the future was going and made sure other women could move with it.
+- Primary or authoritative sources:
+  - https://www.nasa.gov/people/dorothy-vaughan/
+  - https://www.nasa.gov/centers-and-facilities/langley/dorothy-j-vaughan/
+- Supporting secondary sources:
+  - https://www.nps.gov/articles/000/places-of-hidden-figures.htm
+  - https://blogs.loc.gov/inside_adams/2017/02/hidden-figures-no-more-african-american-women-in-space-exploration/
+  - https://www.nasa.gov/news-release/nasa-johnson-to-dedicate-building-to-dorothy-vaughan-women-of-apollo/
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: NASA first Black supervisor claim, segregated facilities, NACA to NASA transition, FORTRAN/Scout work, and lack of later management promotion reviewed.
+- Material corrections made: Expanded scheduled fallback into a deeper account of supervision, workforce advocacy, segregated computing, and technological transition.
+- External links included on the page:
+  - NASA: Dorothy Vaughan (https://www.nasa.gov/people/dorothy-vaughan/)
+  - NASA Langley: Dorothy J. Vaughan (https://www.nasa.gov/centers-and-facilities/langley/dorothy-j-vaughan/)
+  - National Park Service: Places of Hidden Figures (https://www.nps.gov/articles/000/places-of-hidden-figures.htm)
+  - Library of Congress: Hidden Figures No More (https://blogs.loc.gov/inside_adams/2017/02/hidden-figures-no-more-african-american-women-in-space-exploration/)
+  - NASA: Dorothy Vaughan Center dedication (https://www.nasa.gov/news-release/nasa-johnson-to-dedicate-building-to-dorothy-vaughan-women-of-apollo/)
+- Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-29 - Annie Easley
 
@@ -1875,3 +1957,125 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Archives: Black Panther Party selected records (https://www.archives.gov/research/african-americans/black-power/black-panthers)
   - National Archives: Selected Committee report on Martin Luther King Jr. and COINTELPRO (https://www.archives.gov/research/jfk/select-committee-report/part-2d.html)
 - Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-24 - Coretta Scott King
+
+- Entry title: Coretta Scott King
+- Slug: `coretta-scott-king`
+- Daily date: 2026-03-24
+- Date researched: 2026-08-14
+- Writer/research status: batch-6-complete
+- Material factual claims: Coretta Scott King is often introduced as Martin Luther King Jr.'s widow. That is accurate, but it is not enough. Before marriage, she was a trained musician with a political education shaped by Alabama, Antioch College, peace activism, and the New England Conservatory. During the movement, she raised children, performed Freedom Concerts, traveled, spoke, and carried public pressure that history often placed behind her husband. After his assassination, she founded the King Center, fought for the federal holiday, opposed apartheid, defended LGBTQ dignity, and kept insisting that nonviolence belonged to living struggles. Her story matters because she did not only preserve a legacy. She argued over what that legacy was allowed to mean.
+- Primary or authoritative sources:
+  - https://thekingcenter.org/about-tkc/about-mrs-king/
+  - https://thekingcenter.org/about-tkc/
+- Supporting secondary sources:
+  - https://kinginstitute.stanford.edu/king-coretta-scott
+  - https://www.nps.gov/subjects/civilrights/martin-luther-king.htm
+- Verified quotation source: The King Center Coretta Scott King educational material.
+- Sensitive or disputed claims reviewed: Assassination aftermath, family burden, anti-apartheid activism, LGBTQ dignity advocacy, holiday campaign, and movement gender framing reviewed.
+- Material corrections made: Expanded legacy daily framing from widow/keeper of legacy into a full account of music, peace activism, institution-building, holiday organizing, and human-rights work.
+- External links included on the page:
+  - The King Center: About Mrs. Coretta Scott King (https://thekingcenter.org/about-tkc/about-mrs-king/)
+  - The King Center: About The King Center (https://thekingcenter.org/about-tkc/)
+  - Stanford King Institute: King, Coretta Scott (https://kinginstitute.stanford.edu/king-coretta-scott)
+  - National Park Service: Martin Luther King Jr. Civil Rights (https://www.nps.gov/subjects/civilrights/martin-luther-king.htm)
+- Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-06 - Daniel Hale Williams
+
+- Entry title: Daniel Hale Williams
+- Slug: `daniel-hale-williams`
+- Daily date: 2026-02-06
+- Date researched: 2026-08-14
+- Writer/research status: batch-6-complete
+- Material factual claims: Daniel Hale Williams is remembered for a daring 1893 heart operation at Provident Hospital in Chicago. The operation matters, but the hospital matters just as much. Williams founded Provident in 1891 because Black patients, nurses, and physicians were being locked out of white medical institutions. His surgical skill saved lives, but his institution-building changed who could enter the profession at all. The familiar version sometimes overstates the heart operation as a lone miracle. The deeper story is about segregated medicine, training, hospital privileges, Black nurses, patient trust, and what it takes to practice modern medicine when the doors are closed before you arrive.
+- Primary or authoritative sources:
+  - https://www.nlm.nih.gov/exhibition/opening-doors/OB21981-sm.html?imgid=2
+  - https://blogs.loc.gov/teachers/2024/02/provident-hospitals-prominent-physicians/
+- Supporting secondary sources:
+  - https://www.heart.org/en/news/2022/02/16/the-legacy-of-dr-daniel-hale-williams-a-heart-surgery-pioneer
+  - https://nmanet.org/nma-history/
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Open-heart surgery terminology, Emma Reynolds/Provident origin, Black-owned hospital claim, Freedmen's Hospital appointment, and professional exclusion reviewed.
+- Material corrections made: Corrected over-simple first-surgery framing by explaining the pericardium/cardiac-region operation and emphasizing Provident Hospital as infrastructure.
+- External links included on the page:
+  - National Library of Medicine: Daniel Hale Williams, M.D. (https://www.nlm.nih.gov/exhibition/opening-doors/OB21981-sm.html?imgid=2)
+  - Library of Congress: Provident Hospital's Prominent Physicians (https://blogs.loc.gov/teachers/2024/02/provident-hospitals-prominent-physicians/)
+  - American Heart Association: The legacy of Dr. Daniel Hale Williams (https://www.heart.org/en/news/2022/02/16/the-legacy-of-dr-daniel-hale-williams-a-heart-surgery-pioneer)
+  - National Medical Association: NMA History (https://nmanet.org/nma-history/)
+- Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-09 - Diane Nash
+
+- Entry title: Diane Nash
+- Slug: `diane-nash`
+- Daily date: 2026-03-09
+- Date researched: 2026-08-14
+- Writer/research status: batch-6-complete
+- Material factual claims: Diane Nash was not simply brave. She was strategic. As a Fisk student in Nashville, she became one of the sharpest organizers of the sit-in movement, helped found SNCC, insisted the Freedom Rides continue after white mobs nearly killed riders in Alabama, and carried nonviolence as a disciplined way of life. She was in her early twenties when national leaders called her to solve crises adults had failed to contain. Nash's page matters because it moves beyond the photo of young protesters at lunch counters and asks how discipline, negotiation, jail-no-bail tactics, gender, and moral imagination turned student action into movement power.
+- Primary or authoritative sources:
+  - https://snccdigital.org/people/diane-nash-bevel/
+  - https://home.nps.gov/people/diane-judith-nash-b-1938.htm
+- Supporting secondary sources:
+  - https://www.crmvet.org/nars/nash85.htm
+  - https://www.neh.gov/humanities/2011/mayjune/feature/freedom-riders
+- Verified quotation source: National Endowment for the Humanities Freedom Riders essay and PBS/American Experience transcript of John Seigenthaler recalling Nash during the 1961 Freedom Rides.
+- Sensitive or disputed claims reviewed: Pregnancy and jail sentence, Freedom Ride continuation, mayor confrontation, agapic energy/nonviolence framing, and gendered movement memory reviewed.
+- Material corrections made: Expanded legacy daily entry into a deeper narrative of training, strategy, jail-no-bail, Freedom Ride logistics, and nonviolence as disciplined power.
+- External links included on the page:
+  - SNCC Digital Gateway: Diane Nash (https://snccdigital.org/people/diane-nash-bevel/)
+  - National Park Service: Diane Judith Nash (https://home.nps.gov/people/diane-judith-nash-b-1938.htm)
+  - Civil Rights Movement Archive: Diane Nash interview for Eyes on the Prize (https://www.crmvet.org/nars/nash85.htm)
+  - National Endowment for the Humanities: Freedom Riders (https://www.neh.gov/humanities/2011/mayjune/feature/freedom-riders)
+- Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-25 - Dorothy Height
+
+- Entry title: Dorothy Height
+- Slug: `dorothy-height`
+- Daily date: 2026-03-25
+- Date researched: 2026-08-14
+- Writer/research status: batch-6-complete
+- Material factual claims: Dorothy Height spent decades close enough to power to shape it and close enough to exclusion to understand its cost. She led the National Council of Negro Women for 40 years, worked in the YWCA, organized across civil rights and women's rights, advised presidents, and helped plan the 1963 March on Washington. Yet the march's main program did not include Black women speakers in the way their work deserved. Height's story matters because she was not simply "left out." She kept building institutions while naming the fact that race and gender could not be separated. She teaches readers to look for the person at every table, even when the microphone goes elsewhere.
+- Primary or authoritative sources:
+  - https://www.womenshistory.org/education-resources/biographies/dorothy-height
+  - https://home.nps.gov/people/dorothy-i-height.htm
+- Supporting secondary sources:
+  - https://www.nps.gov/mamc/learn/historyculture/dorothy-irene-height.htm
+  - https://ncnw.org/about-us/
+  - https://www.loc.gov/loc/lcib/0402-3/rights.html
+- Verified quotation source: Library of Congress Information Bulletin report on Dorothy Height receiving the Congressional Gold Medal.
+- Sensitive or disputed claims reviewed: Barnard quota denial, March on Washington women's speaking exclusion, NCNW presidency length, honors, and Black feminist framing reviewed.
+- Material corrections made: Expanded legacy daily entry into a fuller account of institutional leadership, YWCA/NCNW work, gendered exclusion, and coalition-building.
+- External links included on the page:
+  - National Women's History Museum: Dorothy Height (https://www.womenshistory.org/education-resources/biographies/dorothy-height)
+  - National Park Service: Dorothy I. Height (https://home.nps.gov/people/dorothy-i-height.htm)
+  - National Park Service: Dorothy Irene Height (https://www.nps.gov/mamc/learn/historyculture/dorothy-irene-height.htm)
+  - National Council of Negro Women: About NCNW (https://ncnw.org/about-us/)
+  - Library of Congress: The Making of History (https://www.loc.gov/loc/lcib/0402-3/rights.html)
+- Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-30 - Dr. Helen Octavia Dickens
+
+- Entry title: Dr. Helen Octavia Dickens
+- Slug: `helen-octavia-dickens`
+- Daily date: 2026-03-30
+- Date researched: 2026-08-14
+- Writer/research status: batch-6-complete
+- Material factual claims: Dr. Helen Octavia Dickens built a medical career in the places the system neglected: Black hospitals, crowded neighborhoods, teen clinics, cancer education programs, and medical-school admissions offices where future doctors were being kept out. Born in Dayton in 1909, she became a physician when few Black women were admitted to medical school. In Philadelphia, she practiced obstetrics and gynecology, led hospital departments, expanded Pap smear and cancer screening education, founded a teen clinic at Penn, and recruited underrepresented students into medicine. Her page matters because Black maternal health history is not only about crisis. It is also about physicians who built care, trust, and training where institutions had failed.
+- Primary or authoritative sources:
+  - https://www.med.upenn.edu/evdresearch/helen-o-dickens.html
+  - https://archives.upenn.edu/collections/finding-aid/upt50d548/
+- Supporting secondary sources:
+  - https://www.pennmedicine.org/news/helen-octavia-dickens-an-expanded-view
+  - https://www.encyclopedia.com/people/social-sciences-and-law/education-biographies/helen-octavia-dickens
+- Verified quotation source: Penn Medicine exhibit text quoting Helen O. Dickens in 1971.
+- Sensitive or disputed claims reviewed: Medical-school date variation, first/board-certification claims, teen clinic framing, medical mistrust, and maternal health crisis language reviewed.
+- Material corrections made: Expanded legacy daily entry into a deeper account of Black hospitals, cancer prevention, teen reproductive health, Penn faculty work, and admissions pipeline building.
+- External links included on the page:
+  - Perelman School of Medicine: Helen Octavia Dickens, MD (https://www.med.upenn.edu/evdresearch/helen-o-dickens.html)
+  - University of Pennsylvania Archives: Helen Octavia Dickens Papers (https://archives.upenn.edu/collections/finding-aid/upt50d548/)
+  - Penn Medicine: Helen Octavia Dickens: An expanded view (https://www.pennmedicine.org/news/helen-octavia-dickens-an-expanded-view)
+  - Encyclopedia.com: Helen Octavia Dickens (https://www.encyclopedia.com/people/social-sciences-and-law/education-biographies/helen-octavia-dickens)
+- Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.

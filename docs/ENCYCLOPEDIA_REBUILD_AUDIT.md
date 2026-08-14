@@ -71,13 +71,26 @@ Batch 5 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, and em dashes in new Batch 5 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, depth/similarity validation, internal-link validation, external-link verification, and rendered-page checks passed before batch commit.
 
+## Batch 6 Completed
+
+Completed pages: `coretta-scott-king`, `daniel-hale-williams`, `david-dinkins`, `david-walker`, `denmark-vesey`, `diane-nash`, `dorothy-height`, `dorothy-vaughan`, `doug-williams`, `helen-octavia-dickens`.
+
+Batch 6 continued from row 46 with the approved Batch 1 voice and Claudette-style renderer. It rebuilt five legacy-path pages and five scheduled generated pages, replaced stale external sources for Daniel Hale Williams, Diane Nash, Dorothy Height, Dorothy Vaughan, and Doug Williams, and replaced a Denmark Vesey search-result URL with the direct Library of Congress 1822 trial-report item. Dorothy Height's pull quote was changed to a traceable Library of Congress event-report quotation.
+
+Batch 6 verification:
+
+- External links checked: 41 total, 0 material failures. Several institutional links returned bot-blocking statuses (`403` or `406`) during automated checking but were retained only when they were direct authoritative pages already verified for subject relevance.
+- Browser rendering checked: 10 Batch 6 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards, empty links, horizontal overflow, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, and em dashes in new Batch 6 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 48
-- REWRITE: 86
-- RESEARCH: 76
-- REBUILD: 91
+- PASS: 58
+- REWRITE: 81
+- RESEARCH: 71
+- REBUILD: 86
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -88,7 +101,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 46 | Coretta Scott King | encyclopedia/coretta-scott-king.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 57 | Dr. Shirley Ann Jackson | encyclopedia/shirley-ann-jackson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -141,16 +154,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 43 | Claudette Colvin | encyclopedia/claudette-colvin.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, sensitive pregnancy/respectability/date review, corrected dates to 1939-2026, depth/similarity validation, desktop/mobile browser check. |
 | 44 | COINTELPRO | encyclopedia/cointelpro.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified Church Committee quotation note, surveillance/Fred Hampton/King claim review, depth/similarity validation, desktop/mobile browser check. |
 | 45 | Constance Baker Motley | generated/pages/constance-baker-motley.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, first federal judge/Brown complaint/James Meredith claim review, depth/similarity validation, desktop/mobile browser check. |
-| 46 | Coretta Scott King | encyclopedia/coretta-scott-king.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 47 | Daniel Hale Williams | encyclopedia/daniel-hale-williams.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 48 | David Dinkins | generated/pages/david-dinkins.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 49 | David Walker | generated/pages/david-walker.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 50 | Denmark Vesey | generated/pages/denmark-vesey.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 51 | Diane Nash | encyclopedia/diane-nash.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 52 | Dorothy Height | encyclopedia/dorothy-height.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 53 | Dorothy Vaughan | generated/pages/dorothy-vaughan.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 54 | Doug Williams | generated/pages/doug-williams.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 55 | Dr. Helen Octavia Dickens | encyclopedia/helen-octavia-dickens.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 46 | Coretta Scott King | encyclopedia/coretta-scott-king.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, King Center/holiday/global justice claim review, depth/similarity validation, external-link verification. |
+| 47 | Daniel Hale Williams | encyclopedia/daniel-hale-williams.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, open-heart/pericardium terminology and Provident Hospital claim review, stale source URLs replaced, depth/similarity validation, external-link verification. |
+| 48 | David Dinkins | generated/pages/david-dinkins.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, Crown Heights/Safe Streets/fiscal-crisis claim review, depth/similarity validation, external-link verification. |
+| 49 | David Walker | generated/pages/david-walker.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified Appeal quotation, poisoning-rumor and publication/distribution claim review, depth/similarity validation, external-link verification. |
+| 50 | Denmark Vesey | generated/pages/denmark-vesey.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, contested-trial-record review, search-result URL replaced with direct LOC trial-report item, depth/similarity validation, external-link verification. |
+| 51 | Diane Nash | encyclopedia/diane-nash.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified Freedom Rides quotation, pregnancy/jail and nonviolence-strategy claim review, stale source URLs replaced, depth/similarity validation, external-link verification. |
+| 52 | Dorothy Height | encyclopedia/dorothy-height.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified Library of Congress quotation, Barnard/March/NCNW claim review, stale NCNW URL replaced, depth/similarity validation, external-link verification. |
+| 53 | Dorothy Vaughan | generated/pages/dorothy-vaughan.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, NASA first-manager/FORTRAN/Scout claim review, stale NASA/Smithsonian/NWHM URLs replaced, depth/similarity validation, external-link verification. |
+| 54 | Doug Williams | generated/pages/doug-williams.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, first Black Super Bowl starting/winning QB and first-round draft claim review, stale Pro Football Hall of Fame URL replaced, depth/similarity validation, external-link verification. |
+| 55 | Dr. Helen Octavia Dickens | encyclopedia/helen-octavia-dickens.html | PASS | Batch 6 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified Penn Medicine quotation, Penn/teen-clinic/Pap-smear claim review, depth/similarity validation, external-link verification. |
 | 56 | Dr. Patricia Bath | generated/pages/patricia-bath.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
 | 57 | Dr. Shirley Ann Jackson | encyclopedia/shirley-ann-jackson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 58 | Dred Scott | generated/pages/dred-scott.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
