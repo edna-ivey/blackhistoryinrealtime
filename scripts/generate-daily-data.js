@@ -192,11 +192,12 @@ ${sourceRows}`;
       const supportingRows = (richEntry.research.supportingSources || [])
         .map(url => `  - ${url}`)
         .join('\n');
-      rows.push(`### ${richEntry.fullDate} - ${richEntry.subject}
+      const dateLabel = richEntry.fullDate || richEntry.dailyDateLabel || 'Encyclopedia';
+      rows.push(`### ${dateLabel} - ${richEntry.subject}
 
 - Entry title: ${richEntry.subject}
 - Slug: \`${richEntry.encyclopediaSlug}\`
-- Daily date: ${richEntry.fullDate}
+- Daily date: ${dateLabel}
 - Date researched: ${richEntry.research.dateResearched || '2026-08-14'}
 - Writer/research status: ${richEntry.research.status}
 - Material factual claims: ${richEntry.summary}

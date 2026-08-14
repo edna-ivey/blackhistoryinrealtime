@@ -4,35 +4,210 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Billie Holiday - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="A Song That Changed the Room">
+<meta name="description" content="Billie Holiday&#039;s voice made time bend. She could sing slightly behind the beat, turn a familiar lyric into confession, and make restraint feel more devastating than force. But the public memory of Holiday often traps her between two simplifications: tragic addict or brave protest singer. She was both more fragile and more strategic than either version allows. Her 1939 performance and recording of &quot;Strange Fruit&quot; turned a club song into a national confrontation with lynching. At the same time, the state punished her drug use more fiercely than it protected Black people from racial terror. Holiday&#039;s page has to hold the artistry, the surveillance, the pain, and the control she fought to keep over her own sound.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,.2)}
-  *{box-sizing:border-box;margin:0;padding:0} body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;line-height:1.75;min-height:100vh}
-  .pan-stripe{display:flex;height:6px}.pan-stripe div{flex:1}.s1{background:var(--red)}.s2{background:#111}.s3{background:var(--green)}
-  header{position:sticky;top:0;background:rgba(10,10,10,.97);border-bottom:1px solid var(--border);z-index:5}.header-inner{max-width:1100px;margin:auto;padding:14px 32px}
-  .logo{display:flex;align-items:center;gap:14px;color:var(--white);text-decoration:none}.logo img{width:52px;height:52px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}.logo h1{font-family:'Bebas Neue';font-size:1.6rem;letter-spacing:2px}.logo span{color:var(--gold)}
-  nav{border-top:1px solid rgba(212,160,23,.1);display:flex;justify-content:center;overflow-x:auto;padding:0 24px}nav a{color:rgba(245,237,216,.55);text-decoration:none;text-transform:uppercase;letter-spacing:2.5px;font-size:.78rem;padding:12px 18px;white-space:nowrap}
-  main{width:min(900px,calc(100% - 40px));margin:auto;padding:52px 0 90px}.label{color:var(--gold);text-transform:uppercase;letter-spacing:5px;font-size:.7rem;margin-bottom:14px}
-  h2{font-family:'Playfair Display',serif;color:var(--white);font-size:clamp(2.3rem,7vw,4.7rem);line-height:1.05;margin-bottom:16px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}.badge{border:1px solid rgba(212,160,23,.3);border-radius:999px;padding:5px 12px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:.68rem}
-  article{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px}article p{margin-bottom:16px;color:rgba(245,237,216,.82)}h3{font-family:'Bebas Neue';color:var(--gold);letter-spacing:3px;margin:28px 0 8px;font-size:1rem}.why{margin-top:24px;padding:18px 20px;border:1px solid rgba(196,30,58,.25);background:rgba(196,30,58,.08);border-radius:12px}blockquote{border-left:4px solid var(--gold);padding:12px 18px;margin:20px 0;color:var(--gold);background:rgba(212,160,23,.06)}cite{display:block;color:rgba(212,160,23,.65);font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;margin-top:8px}
-  a{color:var(--gold)}@media(max-width:620px){.header-inner{padding:12px 16px}nav{justify-content:flex-start;padding:0 12px}nav a{font-size:.7rem;padding:10px 12px}main{width:calc(100% - 28px);padding-top:34px}article{padding:22px 18px}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="billie-holiday">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-<header><div class="header-inner"><a class="logo" href="../index.html"><img src="../logo.png" alt="Black History in Real Time"><h1>Black<span>History</span></h1></a></div><nav><a href="../index.html">Today</a><a href="../index.html#calendar">Calendar</a><a href="../index.html#archive">Archive</a><a href="../encyclopedia.html">Encyclopedia</a></nav></header>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Billie Holiday</h2>
-  <div class="meta"><span class="badge">1915 — 1959</span><span class="badge">Music</span><span class="badge">2026-04-07</span></div>
-  <article>
-    <p>When Billie Holiday performed “Strange Fruit,” she changed what a song could do in public. The lyrics forced audiences to confront lynching not as rumor or abstraction, but as American fact.</p><p>Holiday did not write the song, but she made it unforgettable. Her performance style stripped the room of easy comfort. The song slowed everything down and made listeners sit inside horror they would rather avoid.</p><p>She was already a remarkable jazz vocalist, but “Strange Fruit” placed her in a different category. Music was no longer only entertainment. It was evidence, indictment, and protest.</p>
-    
-    <h3>Cost / Impact</h3><p>Performing a song so openly tied to racial terror carried risk. Holiday also faced addiction, surveillance, abuse, and a system more eager to police her than protect her.</p>
-    <div class="why"><h3>Why It Matters</h3><p>“Strange Fruit” proved that art can do political work without becoming propaganda. It can make denial impossible.</p></div>
-  </article>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>April 7 &middot; Music</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">April 7 &middot; Music</div>
+    <h1>Billie Holiday</h1>
+    <p class="entry-tagline">Billie Holiday&#039;s voice made time bend. She could sing slightly behind the beat, turn a familiar lyric into confession, and make restraint feel more devastating than force. But the public memory of Holiday often traps her between two simplifications: tragic addict or brave protest singer. She was both more fragile and more strategic than either version allows. Her 1939 performance and recording of &quot;Strange Fruit&quot; turned a club song into a national confrontation with lynching. At the same time, the state punished her drug use more fiercely than it protected Black people from racial terror. Holiday&#039;s page has to hold the artistry, the surveillance, the pain, and the control she fought to keep over her own sound.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1915 - 1959</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Apr 7, 1915</div><div class="tl-event">Born Eleanora Fagan in Philadelphia.</div></div>
+<div class="tl-item"><div class="tl-date">1920s</div><div class="tl-event">Grows up between Baltimore and Harlem under poverty, instability, and early exploitation.</div></div>
+<div class="tl-item"><div class="tl-date">1933</div><div class="tl-event">Records early sides with Benny Goodman.</div></div>
+<div class="tl-item"><div class="tl-date">1935-1937</div><div class="tl-event">Records influential sessions with Teddy Wilson and performs with Count Basie.</div></div>
+<div class="tl-item"><div class="tl-date">1938</div><div class="tl-event">Joins Artie Shaw, becoming one of the first Black women to sing with a white orchestra.</div></div>
+<div class="tl-item"><div class="tl-date">1939</div><div class="tl-event">Begins performing &quot;Strange Fruit&quot; at Cafe Society and records it for Commodore.</div></div>
+<div class="tl-item"><div class="tl-date">1947</div><div class="tl-event">Is convicted on narcotics charges and loses her New York cabaret card after release.</div></div>
+<div class="tl-item"><div class="tl-date">Mar 27, 1948</div><div class="tl-event">Performs a major Carnegie Hall concert after prison.</div></div>
+<div class="tl-item"><div class="tl-date">1956</div><div class="tl-event">Publishes Lady Sings the Blues with William Dufty.</div></div>
+<div class="tl-item"><div class="tl-date">Jul 17, 1959</div><div class="tl-event">Dies in New York City at age 44.</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Billie Holiday did not have the biggest voice in jazz. That was never the point. Her genius was phrasing, timing, emotional pressure, and the ability to make a song sound as if it were happening in the room for the first time. She listened to instrumentalists, especially Louis Armstrong, and treated her voice like a horn: bending notes, delaying entrances, and opening space inside a melody. The result was intimate but never small.</p>
+<p>Holiday was born Eleanora Fagan in 1915. Her childhood was marked by poverty, unstable housing, and sexual violence. Those facts matter, but they should not be used to turn her into a sad origin story. She entered music as a worker and an artist in Harlem&#039;s club world, a place of possibility and exploitation at once. By the early 1930s she was recording with Benny Goodman and then with Teddy Wilson, building a body of work that changed how popular song could feel.</p>
+<p>Her partnership with saxophonist Lester Young became one of jazz&#039;s great artistic friendships. Young gave her the nickname Lady Day, and she called him Prez. Their recordings carry a kind of conversational freedom: voice and horn answering each other, teasing the beat, making elegance out of survival. Holiday also sang with Count Basie and Artie Shaw. In 1938, touring with Shaw&#039;s white orchestra, she faced segregation in hotels, restaurants, and performance spaces while serving as a featured attraction.</p>
+<p>Then came &quot;Strange Fruit.&quot; The song began as a poem by Abel Meeropol, a Jewish schoolteacher from the Bronx who wrote under the name Lewis Allan after seeing images of lynching. Cafe Society, an integrated New York nightclub, became the place where Holiday turned the song into ritual. Accounts describe the room going dark, service stopping, and Holiday closing her set with the song. It was not background music. It was a demand that listeners sit with the image of Black bodies murdered and displayed.</p>
+<p>Columbia, her regular label, would not record it. Holiday recorded &quot;Strange Fruit&quot; for Commodore Records in 1939. The record sold widely and became one of the most powerful protest songs in American culture. But it also made Holiday vulnerable. Federal Bureau of Narcotics commissioner Harry Anslinger targeted jazz musicians and drug users, and Holiday&#039;s drug addiction became a point of state control. The government did not invent her pain, but it weaponized it.</p>
+<p>Holiday was arrested and convicted on narcotics charges in 1947. After serving time, she lost her cabaret card, the license required to perform in New York venues that served alcohol. That punishment directly damaged her livelihood. A singer whose work depended on clubs was barred from many of the rooms where she could earn a living. She could still perform at concert halls, including Carnegie Hall, but the legal system had narrowed her professional life while claiming to police morality.</p>
+<p>Her later years are often described as decline, and there is truth in the damage: addiction, abusive relationships, health problems, and a voice that grew rougher. But the late recordings should not be dismissed as ruins. They carry a different authority. Holiday&#039;s sound thinned, but the phrasing remained exact. She made age, injury, and memory audible before she was even old.</p>
+<p>When Holiday died in 1959, she was only 44. The simplified story says she sang a protest song and was destroyed by drugs. The fuller story says she changed American singing, forced white audiences to hear an anti-lynching indictment, and was punished by a state more interested in controlling a Black woman&#039;s body than protecting Black life. Her art was not separate from that pressure. It was made inside it.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Holiday paid for her art in public scrutiny, economic restriction, and state punishment. Racism followed her on the road. The cabaret-card system kept her from many New York club stages after her conviction. Addiction and abusive relationships injured her body and narrowed her choices, while law enforcement treated punishment as care.</p>
+<p>Her impact is enormous. She changed jazz singing by proving that phrasing could carry as much power as range. &quot;Strange Fruit&quot; gave American popular music one of its clearest anti-lynching statements and showed that a nightclub performance could become political testimony.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Holiday matters today because her life shows how easily the public consumes Black pain while ignoring the systems around it. &quot;Strange Fruit&quot; is rightly remembered as courageous, but the song&#039;s power also came from the world that made it necessary: lynching, spectacle, denial, and indifference.</p>
+<p>Her story also changes how we discuss addiction and criminalization. Holiday needed care, safety, and control over her work. Instead, the state used her addiction to police her. That history still matters in conversations about drugs, punishment, gender, and race.</p>
+<p>A reader should leave hearing Holiday not as a symbol of tragedy, but as an artist of extraordinary intelligence who made beauty carry evidence.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../index.html?day=2026-04-07" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; April 7</div>
+        <div class="quiz-card-title">Open the daily challenge for Billie Holiday</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/ida-b-wells.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Ida B. Wells</div>
+        <div class="connected-desc">Connects &quot;Strange Fruit&quot; to anti-lynching documentation and protest.</div>
+      </a>
+<a href="../encyclopedia/james-baldwin.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">James Baldwin</div>
+        <div class="connected-desc">Another artist who made American denial impossible to hide.</div>
+      </a>
+<a href="../encyclopedia/the-blues.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Blues</div>
+        <div class="connected-desc">Places Holiday inside Black musical traditions of witness and feeling.</div>
+      </a>
+<a href="../encyclopedia/nina-simone.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Nina Simone</div>
+        <div class="connected-desc">A later musician whose performances made protest and artistry inseparable.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.si.edu/spotlight/billie-holiday" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian Institution</div>
+          <div class="ext-title">Lady Day: Billie Holiday</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/billie-holiday" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Billie Holiday</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://americanhistory.si.edu/press/releases/jazz-appreciation-month-2026" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of American History</div>
+          <div class="ext-title">Billie Holiday and Strange Fruit</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/item/today-in-history/april-07" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Today in History: Billie Holiday</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

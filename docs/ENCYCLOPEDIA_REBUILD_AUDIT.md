@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First three rebuild batches complete, whole-encyclopedia rebuild in progress.
+Status: First four rebuild batches complete, whole-encyclopedia rebuild in progress.
 Date: 2026-08-14
 
 ## Quality Gap Documented
@@ -45,24 +45,37 @@ Batch 3 verification:
 - Copy-quality scan checked for banned generic phrases and em dashes in new Batch 3 source/rendered pages, 0 findings.
 - `npm run generate`, depth/similarity validation, internal-link validation, and rendered-page checks passed before batch commit.
 
+## Batch 4 Completed
+
+Completed pages: `billie-holiday`, `black-codes`, `black-culinary-history`, `black-dance`, `black-fashion`, `black-lives-matter`, `black-tech-pioneers`, `black-wall-street`, `black-women-in-politics`, `booker-t-washington`.
+
+Batch 4 continued the approved Batch 1 voice and Claudette-style renderer across legacy pages, generated fallback pages, and one encyclopedia-only legacy card. It corrected an unrelated Library of Congress Billie Holiday source URL, normalized redirecting MIT/NSBE/Tulsa source URLs, and updated the research-ledger generator so encyclopedia-only rich entries no longer render an `undefined` daily date.
+
+Batch 4 verification:
+
+- External links checked: 40 total, 0 broken. Fourteen Smithsonian, NMAAHC, LOC, BLM, and Smithsonian Folklife links returned bot-blocking statuses (`403`) during automated checking but were retained only when they were direct authoritative pages already verified for subject relevance. One incorrect LOC Billie Holiday link was replaced with the correct LOC Today in History page.
+- Browser rendering checked: 10 Batch 4 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for timeline counts, connected cards, external links, empty links, body overflow, or page console errors. Mobile nav remains intentionally horizontally scrollable.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, and em dashes in new Batch 4 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, depth/similarity validation, internal-link validation, external-link verification, and rendered-page checks passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 28
-- REWRITE: 95
-- RESEARCH: 87
-- REBUILD: 100
+- PASS: 38
+- REWRITE: 92
+- RESEARCH: 80
+- REBUILD: 97
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
 
-Classification note: `PASS`, `REWRITE`, and `RESEARCH` are the current primary editorial buckets. `REBUILD` is an overlapping layout/template flag, not an additional exclusive group of 100 pages. A page can be counted as `REWRITE, REBUILD` or `RESEARCH, REBUILD` when it needs both content/source work and Claudette-style template alignment. This is why the status counts do not add up to 210.
+Classification note: `PASS`, `REWRITE`, and `RESEARCH` are the current primary editorial buckets. `REBUILD` is an overlapping layout/template flag, not an additional exclusive group of 97 pages. A page can be counted as `REWRITE, REBUILD` or `RESEARCH, REBUILD` when it needs both content/source work and Claudette-style template alignment. This is why the status counts do not add up to 210.
 
 Owner review gate: cleared. Continue future batches using Batch 1 as the locked standard. Do not reduce depth, flatten the voice, weaken research standards, or mass-produce formulaic pages.
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 23 | Billie Holiday | encyclopedia/billie-holiday.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 35 | Brown v. Board of Education | encyclopedia/brown-v-board.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -92,17 +105,17 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 20 | Benjamin Banneker | generated/pages/benjamin-banneker.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, corrected overstated Washington-design framing, depth/similarity validation, desktop/mobile browser check. |
 | 21 | Bessie Coleman | encyclopedia/bessie-coleman.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, sensitive first-claim review, depth/similarity validation, desktop/mobile browser check. |
 | 22 | Beulah Mae Donald | encyclopedia/beulah-mae-donald.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, sensitive claim review, depth/similarity validation, desktop/mobile browser check. |
-| 23 | Billie Holiday | encyclopedia/billie-holiday.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 23 | Billie Holiday | encyclopedia/billie-holiday.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, no lyric quotation reproduced, sensitive claim review, corrected LOC source URL, depth/similarity validation, desktop/mobile browser check. |
 | 24 | Birmingham Children's Crusade | generated/pages/birmingham-childrens-crusade.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
-| 25 | Black Codes | generated/pages/black-codes.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 26 | Black Culinary History | encyclopedia/black-culinary-history.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 27 | Black Dance Culture | encyclopedia/black-dance.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 28 | Black Fashion & Cultural Appropriation | encyclopedia/black-fashion.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 29 | Black Lives Matter | generated/pages/black-lives-matter.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 30 | Black Tech Pioneers | encyclopedia/black-tech-pioneers.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 31 | Black Wall Street | encyclopedia/black-wall-street.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 32 | Black Women in Politics | encyclopedia/black-women-in-politics.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 33 | Booker T. Washington | generated/pages/booker-t-washington.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 25 | Black Codes | generated/pages/black-codes.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified Douglass quotation source note, depth/similarity validation, desktop/mobile browser check. |
+| 26 | Black Culinary History | encyclopedia/black-culinary-history.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, foodways/labor/appropriation claim review, depth/similarity validation, desktop/mobile browser check. |
+| 27 | Black Dance Culture | encyclopedia/black-dance.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified Katherine Dunham quotation source note, depth/similarity validation, desktop/mobile browser check. |
+| 28 | Black Fashion & Cultural Appropriation | encyclopedia/black-fashion.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, style/labor/appropriation claim review, depth/similarity validation, desktop/mobile browser check. |
+| 29 | Black Lives Matter | generated/pages/black-lives-matter.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified Alicia Garza quotation source note, sensitive claim review, depth/similarity validation, desktop/mobile browser check. |
+| 30 | Black Tech Pioneers | encyclopedia/black-tech-pioneers.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, first-claim and patent claim review, normalized MIT/NSBE links, depth/similarity validation, desktop/mobile browser check. |
+| 31 | Black Wall Street | encyclopedia/black-wall-street.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, death-toll/official-complicity/business-count claim review, normalized Tulsa link, depth/similarity validation, desktop/mobile browser check. |
+| 32 | Black Women in Politics | encyclopedia/black-women-in-politics.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style encyclopedia-only legacy-path page, ledger record, internal links, 4 external links, first-claim and suffrage/voter-suppression review, no daily challenge card by design, depth validation, desktop/mobile browser check. |
+| 33 | Booker T. Washington | generated/pages/booker-t-washington.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified Atlanta Exposition quotation source note, accommodation-strategy claim review, depth/similarity validation, desktop/mobile browser check. |
 | 34 | Brown v. Board - The Plaintiffs | generated/pages/brown-v-board-plaintiffs.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
 | 35 | Brown v. Board of Education | encyclopedia/brown-v-board.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 36 | Carl Stokes | generated/pages/carl-stokes.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |

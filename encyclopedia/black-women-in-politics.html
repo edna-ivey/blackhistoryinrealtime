@@ -3,79 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Black Women in Politics — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Black women have been the most reliable voting bloc in American democracy for decades, turning out at higher rates than any other demographic. They ha">
+<title>Black Women in Politics - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Black women built American democracy while being repeatedly told to wait their turn. They organized against slavery, documented lynching, built clubs, marched for suffrage, registered voters under terror, challenged party credentials, ran for office, wrote legislation, and governed communities before institutions fully admitted them. The story is not only a march from exclusion to representation. It is a history of labor that made representation possible. From Frances Ellen Watkins Harper, Mary Church Terrell, Ida B. Wells, and Fannie Lou Hamer to Shirley Chisholm, Barbara Jordan, Carol Moseley Braun, Kamala Harris, and many local leaders, Black women have treated politics as survival work, community work, and power work all at once.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--green),#2d9e5f);}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;transition:all 0.2s;}
-.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
-.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
-.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
-.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
-.external-section{}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="black-women-in-politics">
@@ -100,99 +79,135 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="breadcrumb">
     <a href="../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>February 25 · Politics & Power</span>
+    <span>Encyclopedia &middot; Politics</span>
   </div>
   <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
   <div class="entry-hero">
-    <div class="entry-vol-label">February 25 · Politics & Power</div>
+    <div class="entry-vol-label">Encyclopedia &middot; Politics</div>
     <h1>Black Women in Politics</h1>
-    <p class="entry-tagline">Black women have been the most reliable voting bloc in American democracy for decades, turning out at higher rates than any other demographic. They have also been among the most systematically excluded from holding power — excluded from suffrage organizations, excluded from party leadership, excluded from party resources. They built their own pipelines anyway.</p>
+    <p class="entry-tagline">Black women built American democracy while being repeatedly told to wait their turn. They organized against slavery, documented lynching, built clubs, marched for suffrage, registered voters under terror, challenged party credentials, ran for office, wrote legislation, and governed communities before institutions fully admitted them. The story is not only a march from exclusion to representation. It is a history of labor that made representation possible. From Frances Ellen Watkins Harper, Mary Church Terrell, Ida B. Wells, and Fannie Lou Hamer to Shirley Chisholm, Barbara Jordan, Carol Moseley Braun, Kamala Harris, and many local leaders, Black women have treated politics as survival work, community work, and power work all at once.</p>
     <div class="entry-badges">
-      <span class="badge">People</span>
-      <span class="badge">1868 — Present</span>
+      <span class="badge">Collective</span>
+      <span class="badge">1868 - present</span>
     </div>
     <div class="hero-bar"></div>
   </div>
+
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
-    <div class="timeline-items"><div class="tl-item"><div class="tl-date">1913</div><div class="tl-event">Ida B. Wells refuses to march at the back of the Washington, D.C. suffrage parade — joins the Illinois delegation mid-march</div></div>
-<div class="tl-item"><div class="tl-date">1955–56</div><div class="tl-event">Fannie Lou Hamer becomes a civil rights and voting rights leader; beaten for attempting to register to vote</div></div>
-<div class="tl-item"><div class="tl-date">1968</div><div class="tl-event">Shirley Chisholm becomes first Black woman elected to Congress</div></div>
-<div class="tl-item"><div class="tl-date">1972</div><div class="tl-event">Shirley Chisholm runs for the Democratic presidential nomination — first Black major-party candidate</div></div>
-<div class="tl-item"><div class="tl-date">1992</div><div class="tl-event">Carol Moseley Braun becomes the first Black woman elected to the U.S. Senate</div></div>
-<div class="tl-item"><div class="tl-date">Jan 20, 2021</div><div class="tl-event">Kamala Harris inaugurated as Vice President — first woman, first Black American, first South Asian American to hold the office</div></div>
-</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1868</div><div class="tl-event">Frances Ellen Watkins Harper helps found the American Woman Suffrage Association.</div></div>
+<div class="tl-item"><div class="tl-date">1896</div><div class="tl-event">National Association of Colored Women is founded, with leaders including Mary Church Terrell.</div></div>
+<div class="tl-item"><div class="tl-date">1913</div><div class="tl-event">Ida B. Wells challenges racist segregation in the Washington suffrage parade.</div></div>
+<div class="tl-item"><div class="tl-date">1920</div><div class="tl-event">The Nineteenth Amendment is ratified, but Black women in the South still face voter suppression.</div></div>
+<div class="tl-item"><div class="tl-date">1964</div><div class="tl-event">Fannie Lou Hamer testifies before the Democratic National Convention credentials committee.</div></div>
+<div class="tl-item"><div class="tl-date">1968</div><div class="tl-event">Shirley Chisholm is elected the first Black woman in Congress.</div></div>
+<div class="tl-item"><div class="tl-date">1972</div><div class="tl-event">Chisholm runs for the Democratic presidential nomination.</div></div>
+<div class="tl-item"><div class="tl-date">1974</div><div class="tl-event">Barbara Jordan becomes a national constitutional voice during Watergate.</div></div>
+<div class="tl-item"><div class="tl-date">1992</div><div class="tl-event">Carol Moseley Braun becomes the first Black woman elected to the U.S. Senate.</div></div>
+<div class="tl-item"><div class="tl-date">2021</div><div class="tl-event">Kamala Harris becomes the first woman, first Black person, and first South Asian American vice president.</div></div>
+    </div>
   </div>
+
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>The story of Black women in American politics begins with exclusion, not representation, and requires holding both truths simultaneously: Black women have been among the most politically sophisticated, strategically effective, and civically engaged participants in American democracy, and they have been systematically blocked from formal political power at every stage of that participation. They were excluded from the suffrage movement by white women who feared alienating Southern white voters. They were disenfranchised by the same Jim Crow laws that targeted Black men, and in practice even after the 19th Amendment passed in 1920, because poll taxes, literacy tests, and violence prevented most Black Southern women from voting for another 45 years. They built parallel political institutions anyway: suffrage clubs, civic organizations, Democratic Party women's caucuses, and eventually their own pipelines into office.</p>
-<p>Fannie Lou Hamer is one of the defining figures of the civil rights era and one of the most important political organizers in American history, and she remains far less well known than she should be. A sharecropper from Sunflower County, Mississippi, Hamer attended a Student Nonviolent Coordinating Committee meeting in 1962 and learned that Black citizens had the constitutional right to vote — a right she had never been told she possessed. She attempted to register to vote and was immediately evicted from the plantation where she had worked for 18 years. She was shot at. She was arrested and beaten so severely by police in Winona, Mississippi in 1963 that she suffered permanent kidney damage and a blood clot behind one eye. She testified about the beating before the Credentials Committee at the 1964 Democratic National Convention in a speech that was broadcast live on national television — until President Lyndon Johnson, realizing the speech was damaging to his political interests, called a press conference to interrupt it. The clip still spread. Her voice, her testimony, and her organizing work were central to the passage of the Voting Rights Act of 1965.</p>
-<p>Shirley Chisholm ran for the Democratic presidential nomination in 1972 as the first Black major-party candidate for president of the United States and the first woman ever to seek the Democratic nomination. She had been elected to Congress from Brooklyn's Bedford-Stuyvesant neighborhood in 1968 — the first Black woman ever elected to the House of Representatives — and had spent her first term being assigned to the Agriculture Committee (which she immediately challenged as irrelevant to her urban constituency), fighting for Head Start funding, school lunches, the minimum wage, and veterans' benefits. When she ran for president, she was not trying to win. She was trying to demonstrate that a Black woman could run, could collect delegates, and could use that position to extract policy commitments from the eventual nominee. She arrived at the Democratic convention with 152 delegates. She was largely not taken seriously by the Black male political establishment, which had its own fragmented candidate strategies. She ran anyway.</p>
-<p>Carol Moseley Braun became the first Black woman elected to the U.S. Senate in 1992, elected from Illinois. Braun's election came in the immediate aftermath of the Anita Hill hearings, in which an all-white, all-male Senate Judiciary Committee questioned a Black woman law professor's credibility in front of a national television audience, and confirmed Clarence Thomas to the Supreme Court. Braun ran in part as a direct response. She served one term and was defeated for re-election in 1998. Between 1992 and 2021, when Raphael Warnock was elected from Georgia, the United States had exactly zero Black senators other than appointed or brief transitional ones for most of that period. In 2021, Kamala Harris was inaugurated as Vice President — the first woman of any race, the first Black American, and the first South Asian American to hold the office. She was a graduate of Howard University and a member of Alpha Kappa Alpha sorority, two institutions deeply embedded in Black women's professional networks.</p>
-<p>The political power that Black women exercise as voters is consistently underrewarded by the parties that depend on it. Exit polling data across multiple election cycles shows Black women voting at higher rates than any other demographic group, with margins that have been decisive in Senate races in Alabama (2017), Georgia (2020 and 2021), North Carolina (2020), and multiple other states. The organizing infrastructure behind those margins is built by Black women — Stacey Abrams's Fair Fight organization in Georgia being the most documented recent example — and that infrastructure routinely goes underfunded relative to its demonstrated political impact. The gap between Black women's political contribution and their political representation at the level of candidates, party leadership, and policy priorities is one of the most consistent patterns in American electoral history.</p>
-
+<p>Black women in politics did not begin with elected office. They began wherever decisions about survival were being made. Enslaved women resisted slavery, protected families, carried information, and shaped community life without formal rights. Free Black women organized churches, schools, mutual aid, conventions, and antislavery campaigns. Their politics often had to work outside the ballot because law kept the ballot away.</p>
+<p>After the Civil War, Reconstruction opened possibilities and exposed limits. Black men gained constitutional voting rights through the Fifteenth Amendment, though those rights were violently attacked. Women were still excluded from federal voting rights. Black women advocated for citizenship while navigating racism in white suffrage circles and sexism in Black political spaces. Frances Ellen Watkins Harper and Mary Church Terrell insisted that race and gender could not be separated without lying about Black women&#039;s lives.</p>
+<p>Ida B. Wells made that conflict visible in 1913 when organizers of the national suffrage parade tried to segregate Black women. Wells refused to disappear into the back. Her action showed that even movements for rights could reproduce racial hierarchy. The Nineteenth Amendment in 1920 did not deliver the vote equally. Black women in the South still faced poll taxes, literacy tests, intimidation, job loss, and violence.</p>
+<p>Grassroots voting-rights work made the next breakthroughs possible. Fannie Lou Hamer, Ella Baker, Septima Clark, Diane Nash, and thousands of less famous women organized citizenship schools, canvassed, trained, cooked, housed, strategized, and confronted terror. Hamer&#039;s 1964 testimony against the exclusionary Mississippi Democratic Party showed how a sharecropper from Ruleville could expose national hypocrisy better than polished officials.</p>
+<p>Elected office brought another kind of battle. Shirley Chisholm entered Congress in 1969 as the first Black woman elected to the House. U.S. House history records how she faced both racism and sexism while building a legislative career focused on poor and working-class people, children, education, food assistance, and antiwar politics. Her 1972 presidential campaign did not win the nomination, but it widened the imagination of American politics.</p>
+<p>The path from organizing to office was never automatic. Black women candidates often entered races without party machinery, donor confidence, or media assumptions of legitimacy. They faced questions about electability that were really questions about race, gender, class, and who voters were imagined to be. When they won, they still had to turn symbolic firsts into committee assignments, budgets, staff, legislation, and constituent service. Representation was only the doorway.</p>
+<p>Barbara Jordan followed a different style. She worked through institutional power, legal argument, and constitutional authority. Her Watergate statement made her a national figure, but it was grounded in years of Texas politics and legislative strategy. The House&#039;s own history of Black women in Congress shows that Chisholm, Jordan, Yvonne Burke, Cardiss Collins, and Katie Hall had to fight for committee power, party recognition, and policy influence in a Congress not built for them.</p>
+<p>The story continued through mayors, state legislators, judges, cabinet officials, senators, organizers, and vice presidential power. Carol Moseley Braun&#039;s Senate victory in 1992 mattered because the Senate had been an almost entirely white male institution. Kamala Harris&#039;s vice presidency mattered as another barrier broken, while also reminding readers that one first cannot substitute for a whole political infrastructure.</p>
+<p>Black women in politics have often been praised after they deliver votes and ignored when they demand power. The fuller history insists on both: the grassroots labor and the elected office, the public speech and the meeting notes, the campaign and the childcare, the law and the kitchen table. Democracy has survived in part because Black women kept doing political work before the country agreed to call it leadership.</p>
   </div>
+
   <div class="pull-quote">
-<div class="pq-bar"></div>
-<blockquote>I am not the candidate of Black America, although I am Black and proud. I am not the candidate of the women's movement, although I am a woman and equally proud of that. I am the candidate of the people.</blockquote>
-<cite>Shirley Chisholm, announcing her presidential candidacy, January 25, 1972</cite>
-</div>
+    <div class="pq-bar"></div>
+    <blockquote>I intend to focus attention on the nation&#039;s problems.</blockquote>
+    <cite>Shirley Chisholm, quoted by U.S. House History</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost has included violence, ridicule, underfunding, exclusion from party leadership, voter suppression, threats, and the expectation that Black women will save democracy without receiving equal authority inside it. Grassroots organizers often paid with jobs, housing, safety, health, and time.</p>
+<p>The impact is structural. Black women expanded voting rights, built civic institutions, forced parties to answer excluded communities, passed legislation, chaired committees, ran for president, served in the Senate and vice presidency, and trained generations of organizers and voters.</p>
+  </div>
+
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>Black women in politics matter as the clearest example of the gap between democratic contribution and democratic representation. The communities that have fought hardest and most consistently for democracy — through slavery, through the suffrage movement that excluded them, through Jim Crow, through the civil rights movement, and through every election cycle since — have been consistently denied proportional representation in the institutions they worked to sustain. This is not incidental. It is structural: gerrymandering, voter suppression, underfunding of candidates, and the racial wealth gap that limits who can run for office all fall disproportionately on Black women. Understanding this history is necessary for understanding both who built American democracy and who has been most systematically prevented from governing it.</p>
+<p>Black women in politics matter today because representation is often celebrated without supporting the organizing that makes it possible. Campaigns praise Black women voters after elections, but the deeper question is whether Black women have resources, protection, agenda-setting power, and room to govern.</p>
+<p>Their history also corrects the idea that democracy is maintained mainly by formal institutions. Black women have repeatedly defended democratic practice from outside those institutions, then entered them and changed what they could do.</p>
+<p>A reader should leave understanding that Black women did not arrive late to politics. The country arrived late to recognizing their political labor.</p>
   </div>
+
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../index.html?day=2026-02-25" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz &middot; Day 25</div>
-        <div class="quiz-link-title">Test your knowledge on Black Women in Politics</div>
-      </div>
-      <span class="quiz-link-arrow">&#x270A;&#x1F3FE;</span>
-    </a>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"></div>
+
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/fannie-lou-hamer-testimony.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Fannie Lou Hamer&#039;s Testimony</div>
+        <div class="connected-desc">Grassroots voting-rights leadership challenging national party power.</div>
+      </a>
+<a href="../encyclopedia/barbara-jordan.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Barbara Jordan</div>
+        <div class="connected-desc">A constitutional voice and pathbreaker in Congress.</div>
+      </a>
+<a href="../encyclopedia/shirley-chisholm.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Shirley Chisholm</div>
+        <div class="connected-desc">The first Black woman in Congress and a presidential candidate.</div>
+      </a>
+<a href="../generated/pages/voting-rights-act.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Voting Rights Act of 1965</div>
+        <div class="connected-desc">Federal enforcement shaped by the organizing of Black women and men.</div>
+      </a>
+    </div>
   </div>
+
   <div class="section-divider"><span>Learn More</span></div>
   <div class="external-section">
     <div class="section-title">External Links</div>
-    <div class="external-links"><a href="https://www.smithsonianmag.com/smithsonian-institution/unbought-and-unbossed-when-black-woman-ran-for-the-white-house-180958699/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">Unbought and Unbossed — When Shirley Chisholm Ran for the White House</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.history.com/articles/shirley-chisholm-career-milestones" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">Shirley Chisholm — Facts About Her Trailblazing Career in Congress and the Presidency</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.nps.gov/people/shirley-chisholm.htm" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">National Park Service</div><div class="ext-title">Shirley Chisholm — First Black Woman in Congress, First Black Presidential Candidate</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-</div>
+    <div class="external-links">
+<a href="https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Permanent-Interest/Fight-Doubly-Hard/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">U.S. House History, Art &amp; Archives</div>
+          <div class="ext-title">To Fight Doubly Hard</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://history.house.gov/historicalhighlight/detail/37113" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">U.S. House History, Art &amp; Archives</div>
+          <div class="ext-title">The First African-American Woman Elected to Congress</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Women&#039;s History Museum</div>
+          <div class="ext-title">Fannie Lou Hamer</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://history.house.gov/People/Detail/10918" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">U.S. House History, Art &amp; Archives</div>
+          <div class="ext-title">Shirley Chisholm biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
   </div>
 </main>
 <footer>
-  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

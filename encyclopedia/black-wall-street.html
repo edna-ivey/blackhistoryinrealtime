@@ -3,79 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Black Wall Street — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Before it was destroyed in 1921, Greenwood District in Tulsa, Oklahoma had 35 blocks of Black-owned businesses — banks, law offices, hotels, a hospita">
+<title>Greenwood / Black Wall Street - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Greenwood was not important only because white mobs destroyed it. It was important because Black people built it. By 1921, Tulsa&#039;s Greenwood District held homes, churches, doctors, lawyers, hotels, theaters, restaurants, newspapers, and more than one hundred Black-owned businesses. Segregation forced Black dollars inward, but residents turned constraint into institution-building. The Tulsa Race Massacre was an attack on people and on a visible claim to Black prosperity. Remembering Greenwood only through flames lets the attackers control the story. The deeper history begins before May 31, 1921, follows the destruction honestly, and then follows the rebuilding that officials tried to obstruct.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,#333,var(--orange));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;transition:all 0.2s;}
-.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
-.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
-.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
-.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
-.external-section{}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="black-wall-street">
@@ -100,99 +79,141 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="breadcrumb">
     <a href="../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>February 23 · Economics & Resilience</span>
+    <span>May 31 &middot; Economics</span>
   </div>
   <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
   <div class="entry-hero">
-    <div class="entry-vol-label">February 23 · Economics & Resilience</div>
-    <h1>Black Wall Street</h1>
-    <p class="entry-tagline">Before it was destroyed in 1921, Greenwood District in Tulsa, Oklahoma had 35 blocks of Black-owned businesses — banks, law offices, hotels, a hospital, a library, a school system, a bus line, and its own newspaper. It was called Black Wall Street. It was built in less than 20 years by Black Americans who had been told they were not capable of building anything.</p>
+    <div class="entry-vol-label">May 31 &middot; Economics</div>
+    <h1>Greenwood / Black Wall Street</h1>
+    <p class="entry-tagline">Greenwood was not important only because white mobs destroyed it. It was important because Black people built it. By 1921, Tulsa&#039;s Greenwood District held homes, churches, doctors, lawyers, hotels, theaters, restaurants, newspapers, and more than one hundred Black-owned businesses. Segregation forced Black dollars inward, but residents turned constraint into institution-building. The Tulsa Race Massacre was an attack on people and on a visible claim to Black prosperity. Remembering Greenwood only through flames lets the attackers control the story. The deeper history begins before May 31, 1921, follows the destruction honestly, and then follows the rebuilding that officials tried to obstruct.</p>
     <div class="entry-badges">
-      <span class="badge">Systems</span>
-      <span class="badge">Circa 1905 — Present</span>
+      <span class="badge">Places</span>
+      <span class="badge">c. 1906 - present</span>
     </div>
     <div class="hero-bar"></div>
   </div>
+
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
-    <div class="timeline-items"><div class="tl-item"><div class="tl-date">1865</div><div class="tl-event">Emancipation — formerly enslaved people begin building economic institutions with almost no capital</div></div>
-<div class="tl-item"><div class="tl-date">Early 1900s</div><div class="tl-event">O.W. Gurley and other founders develop Greenwood Avenue, Tulsa's Black commercial district</div></div>
-<div class="tl-item"><div class="tl-date">1915–1921</div><div class="tl-event">Greenwood becomes 'Black Wall Street' — 35 blocks, 600+ businesses, self-contained economy</div></div>
-<div class="tl-item"><div class="tl-date">May 31–June 1, 1921</div><div class="tl-event">Greenwood destroyed in Tulsa Race Massacre — 1,256+ homes burned, 35+ blocks leveled, death toll unknown</div></div>
-<div class="tl-item"><div class="tl-date">1921–1942</div><div class="tl-event">Greenwood rebuilds — within two decades, some argue it was more prosperous than before</div></div>
-<div class="tl-item"><div class="tl-date">2021</div><div class="tl-event">Oklahoma 1921 Race Massacre Centennial Commission releases report; reparations debate ongoing</div></div>
-</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">c. 1906</div><div class="tl-event">O.W. Gurley and other Black entrepreneurs help develop land and business life in Greenwood.</div></div>
+<div class="tl-item"><div class="tl-date">1910s</div><div class="tl-event">Tulsa grows as an oil-boom city while segregation shapes Greenwood into a self-contained Black economy.</div></div>
+<div class="tl-item"><div class="tl-date">1921</div><div class="tl-event">Greenwood contains businesses, homes, churches, schools, hotels, newspapers, and professional offices.</div></div>
+<div class="tl-item"><div class="tl-date">May 30, 1921</div><div class="tl-event">Dick Rowland and Sarah Page encounter each other in a Tulsa elevator; rumors spread.</div></div>
+<div class="tl-item"><div class="tl-date">May 31, 1921</div><div class="tl-event">A white mob gathers at the courthouse after Rowland is arrested.</div></div>
+<div class="tl-item"><div class="tl-date">May 31-Jun 1, 1921</div><div class="tl-event">White mobs attack Greenwood, looting, burning, shooting, and destroying much of the district.</div></div>
+<div class="tl-item"><div class="tl-date">Jun 1921</div><div class="tl-event">Thousands of Black residents are detained or left homeless; the Red Cross leads relief work.</div></div>
+<div class="tl-item"><div class="tl-date">1920s</div><div class="tl-event">Greenwood residents rebuild despite insurance denials and city obstruction.</div></div>
+<div class="tl-item"><div class="tl-date">2001</div><div class="tl-event">The Oklahoma commission report documents historical facts and calls for repair.</div></div>
+<div class="tl-item"><div class="tl-date">2018-present</div><div class="tl-event">Tulsa renews investigations into possible mass graves connected to the massacre.</div></div>
+    </div>
   </div>
+
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>The economic history of Black America after emancipation is one of the most consequential and least told stories in the country. In 1865, approximately four million people were freed from slavery — people who had been legally prohibited from learning to read or write, who owned no land, who had no capital, who had no access to the legal and financial systems that would have allowed them to accumulate wealth, and who were entering a labor market in which they were immediately subject to new systems of coercive labor through sharecropping, convict leasing, and debt bondage. Within this context, the emergence of thriving Black economic communities across the South and Southwest in the late 19th and early 20th centuries is not merely impressive. It is extraordinary.</p>
-<p>Greenwood District in Tulsa, Oklahoma was one of the most documented of these communities. O.W. Gurley, a Black educator from Arkansas, purchased land on Greenwood Avenue in 1906 and built a rental house, stipulating that it could only be sold to Black people. He then built more housing, and eventually a grocery store, and became one of the anchors around which a community formed. By the early 1920s, Greenwood had more than 600 Black-owned businesses spread across 35 blocks: hotels, law offices, banks, a hospital, a library, a school system with its own high school, a bus line, and the Tulsa Star newspaper. The community had Black physicians, Black lawyers, Black dentists, and Black insurance companies. It was described by Booker T. Washington as one of the most prosperous Black communities in the country, and by the Tulsa Tribune — with condescension — as 'Little Africa.' A Black reporter named O.B. Williams called it Black Wall Street, and the name stuck.</p>
-<p>On May 31 and June 1, 1921, Greenwood was destroyed. The Tulsa Race Massacre — covered in the Rosewood and Tulsa massacre entry — leveled 35 blocks, burned more than 1,256 homes, and killed an unknown number of Black residents. The death toll was suppressed; estimates range from 100 to 300 or more. The massacre was triggered by an accusation against a young Black man named Dick Rowland; the charge was never substantiated, and Rowland was never convicted. The actual cause was economic: the growing wealth and independence of Greenwood threatened the racial hierarchy that white Tulsa depended on. The city's legal and political infrastructure then compounded the destruction by passing zoning laws intended to prevent Greenwood from rebuilding in the same location. The community rebuilt anyway.</p>
-<p>The rebuilding of Greenwood after 1921 is as remarkable as what was destroyed. Within two decades, historians document a commercial district that, by some measures, was more prosperous than before the massacre. Black Tulsans pooled resources, challenged the zoning laws in court, and reconstructed their economic life through collective action and communal investment. The same pattern appears in other Black economic communities across the country: Durham, North Carolina's Hayti district; Washington, D.C.'s U Street Corridor; Atlanta's Sweet Auburn; Richmond, Virginia's Jackson Ward. Each was built through collective effort, each achieved notable prosperity under conditions of forced segregation, and each was damaged or destroyed — by urban renewal, highway construction, economic disinvestment, or violence.</p>
-<p>The broader concept that Greenwood represents — Black economic self-sufficiency, internal investment, circulating dollars within the community — is sometimes called 'Black Wall Street' in contemporary discourse, used to describe both the historical community and an aspiration for Black economic empowerment. The economic research is consistent: a dollar spent in Black-owned businesses circulates within Black communities for a fraction of the time it would otherwise, because of structural barriers to Black business ownership and Black consumer access. The historical lesson of Greenwood is not just that a thriving Black community was built and destroyed. It is that the community rebuilt, twice, against deliberate structural resistance, and that the tools used to limit Black economic power — violence, zoning laws, redlining, discriminatory lending — have names and documented histories that connect directly to wealth gaps that persist today.</p>
-
+<p>Greenwood&#039;s story has to begin with building. The neighborhood in North Tulsa became one of the most prominent Black business districts in the United States. The phrase Black Wall Street captured its reputation, but the community was not a metaphor. It was a place where people bought groceries, saw doctors, attended church, read newspapers, watched films, stayed in hotels, and built homes.</p>
+<p>Segregation shaped that economy. White Tulsa restricted where Black residents could live, work, and spend money. Those restrictions were unjust, but Greenwood residents made an internal economy out of necessity. Tulsa City-County Library notes that by 1921 Greenwood contained 108 Black-owned businesses. Buying Black was not only ideology. It was survival, circulation, and community development in a city that did not offer equal access elsewhere.</p>
+<p>The prosperity was visible, and visibility drew resentment. Tulsa was an oil-boom city, and land mattered. White supremacy, jealousy, policing, land hunger, and the national climate after World War I all fed the danger around Greenwood. Black military service, labor unrest, lynching, and a resurgent Ku Klux Klan shaped the wider atmosphere. Greenwood&#039;s success was not protected by law simply because it was successful.</p>
+<p>The immediate spark came after Dick Rowland, a young Black man, encountered Sarah Page, a white elevator operator, on May 30, 1921. The details remain uncertain. Rumors escalated. Rowland was arrested. A white mob gathered at the courthouse. Black men, aware of lynching danger, came to help protect him. A confrontation turned violent, and the violence moved toward Greenwood.</p>
+<p>In the early hours of June 1, white mobs invaded Greenwood. They looted and burned homes and businesses. Black residents defended themselves but were outnumbered and overwhelmed. The Tulsa Historical Society records that 35 city blocks lay in ruins, more than 800 people were treated for injuries, contemporary death counts began at 36, and historians now believe as many as 300 people may have died. The American Red Cross found thousands in need of relief.</p>
+<p>Authorities did not simply fail in a neutral way. The 2001 commission report found that officials deputized white men, supplied arms to white individuals, detained Black residents, and did not adequately protect Greenwood. Insurance companies refused many claims by calling the destruction a riot. City officials attempted zoning changes that would have made rebuilding harder. The massacre was followed by policy choices that deepened the harm.</p>
+<p>Property records and survivor testimony show why those choices mattered. A burned business was not only a storefront. It could be a family&#039;s savings, an employee&#039;s wages, a child&#039;s inheritance, a church&#039;s meeting place, and proof that Black people could build outside white control. When insurers refused claims and officials blamed Black residents, the city helped convert violence into lasting economic loss. The massacre destroyed capital, but denial protected the people and institutions that had helped destroy it.</p>
+<p>Greenwood residents rebuilt anyway. That part of the story is essential. The district&#039;s later life never fully erased the losses, and urban renewal, highway construction, and disinvestment later damaged the community again. But the people who returned after 1921 refused to let the massacre be the final sentence. Rebuilding was a form of resistance.</p>
+<p>The popular version often asks how a place like Greenwood could be destroyed. The better question is why a country allowed Black prosperity to be treated as a threat. Greenwood was targeted because it was full of life, not because it was empty. The massacre was an attack on a community&#039;s right to build, own, gather, and remember.</p>
   </div>
+
   <div class="pull-quote">
-<div class="pq-bar"></div>
-<blockquote>There is a lion terrorizing us, preying upon us, and upon every business effort which we put forth. The name of this insatiable lion is prejudice.</blockquote>
-<cite>Maggie Lena Walker, Black banker and entrepreneur, 1906</cite>
-</div>
+    <div class="pq-bar"></div>
+    <blockquote>NO ONE KNOWS</blockquote>
+    <cite>American Red Cross report wording highlighted by National Archives exhibit</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost included lives, homes, businesses, churches, schools, records, generational wealth, and safety. Residents lost property that insurance often refused to cover. Thousands were displaced or detained. Families carried trauma and the burden of rebuilding in a city that had helped expose them to destruction.</p>
+<p>The impact reaches beyond Tulsa. Greenwood has become a national symbol of Black entrepreneurship and of the violence that can meet Black prosperity. It also forces discussions of reparations, land, records, insurance, and public memory to move from abstraction to a specific destroyed neighborhood.</p>
+  </div>
+
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>Black Wall Street matters as proof, not aspiration. It is documented historical evidence that Black Americans built thriving, self-sufficient economic communities under conditions of active oppression — and that those communities were systematically destroyed by violence and policy, not by any failure of the communities themselves. The racial wealth gap in 2024 is not an accident or an inevitability. It is the accumulated result of documented policies: the destruction of Greenwood and dozens of similar communities, redlining, discriminatory GI Bill administration, discriminatory lending, and mass incarceration. Understanding Greenwood's history means understanding that what was destroyed had to be destroyed deliberately, that it rebuilt anyway, and that the debate over reparations is partly a debate over whether the United States will ever account for that deliberate destruction.</p>
+<p>Greenwood matters today because Black wealth is often discussed as if it simply failed to appear. Greenwood shows what Black communities built under segregation and what racial violence, policy, and denial could take. The wealth gap is not only about individual choices. It is also about extraction and destruction.</p>
+<p>The story also matters because memory has consequences. Calling the massacre a riot helped shift blame and block insurance claims. Recovering the language of massacre, investigating graves, and teaching Greenwood&#039;s prosperity are part of repairing a public record that was deliberately distorted.</p>
+<p>A reader should leave remembering the businesses before the fire and the rebuilding after it. Destruction is only one chapter of Greenwood&#039;s history, not the whole book.</p>
   </div>
+
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../index.html?day=2026-02-23" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz &middot; Day 23</div>
-        <div class="quiz-link-title">Test your knowledge on Black Wall Street</div>
+    <a href="../index.html?day=2026-05-31" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; May 31</div>
+        <div class="quiz-card-title">Open the daily challenge for Greenwood / Black Wall Street</div>
       </div>
-      <span class="quiz-link-arrow">&#x270A;&#x1F3FE;</span>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"></div>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/tulsa-massacre.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Tulsa Race Massacre</div>
+        <div class="connected-desc">The attack that destroyed much of Greenwood in 1921.</div>
+      </a>
+<a href="../encyclopedia/sarah-rector.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Sarah Rector</div>
+        <div class="connected-desc">Connects Oklahoma, Black wealth, land, and predatory control.</div>
+      </a>
+<a href="../generated/pages/reconstruction.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Reconstruction</div>
+        <div class="connected-desc">Earlier Black institution-building and white backlash after emancipation.</div>
+      </a>
+<a href="../encyclopedia/black-press.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Black Press and Media</div>
+        <div class="connected-desc">Greenwood&#039;s newspapers were part of Black community infrastructure.</div>
+      </a>
+    </div>
   </div>
+
   <div class="section-divider"><span>Learn More</span></div>
   <div class="external-section">
     <div class="section-title">External Links</div>
-    <div class="external-links"><a href="https://www.smithsonianmag.com/history/how-black-americans-south-boldly-defied-jim-crow-build-business-empires-their-own-180984901/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">How Black Americans Defied Jim Crow to Build Business Empires — Greenwood and Beyond</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.history.com/articles/tulsa-race-massacre-cover-up" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">How the Tulsa Race Massacre Was Covered Up — The Deliberate Suppression of Black Wall Street</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.nps.gov/articles/000/places-of-ida-b-wells.htm" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">National Park Service</div><div class="ext-title">Ida B. Wells and the Journalism That Documented Black Economic Life and Violence Against It</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-</div>
+    <div class="external-links">
+<a href="https://tulsahistory.org/exhibit/1921-tulsa-race-massacre/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Tulsa Historical Society and Museum</div>
+          <div class="ext-title">1921 Tulsa Race Massacre</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.okhistory.org/learn/tulsaracemassacre" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Oklahoma Historical Society</div>
+          <div class="ext-title">Tulsa Race Massacre resources</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://visit.archives.gov/whats-on/explore-exhibits/black-wall-street-100-years-tulsa-race-massacre" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives Museum</div>
+          <div class="ext-title">Black Wall Street: 100 Years Since the Tulsa Race Massacre</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.tulsalibrary.org/black-wall-street" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Tulsa City-County Library</div>
+          <div class="ext-title">Black Wall Street</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
   </div>
 </main>
 <footer>
-  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

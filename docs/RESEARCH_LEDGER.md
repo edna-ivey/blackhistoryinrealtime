@@ -46,11 +46,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-11 - Booker T. Washington
 
+- Entry title: Booker T. Washington
 - Slug: `booker-t-washington`
-- Core claims: Booker T. Washington built a school from almost nothing and became powerful enough that presidents listened to him - and controversial enough that other Black leaders challenged him openly. Born enslaved, Washington became the founding principal of Tuskegee Institute in Alabama. He promoted industrial education, economic self-help, and institution building at a time when Black rights were under violent attack. His 1895 Atlanta speech urged compromise with segregation in exchange for economic opportunity. Some saw strategy. Others, including W.E.B. Du Bois, saw surrender. The debate shaped Black politics for generations.
-- Sources:
-  - https://www.nps.gov/people/booker-t-washington.htm
-  - https://www.tuskegee.edu/discover-tu/tu-presidents/booker-t-washington
+- Daily date: 2026-05-11
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Booker T. Washington built power through a difficult bargain. Born enslaved in Virginia, he became the founding principal of Tuskegee Institute and one of the most influential Black leaders in the United States. He raised money, built buildings, trained students, advised presidents, and argued for industrial education and economic self-help. He also urged public compromise with segregation in ways that drew sharp criticism from W.E.B. Du Bois, Ida B. Wells, and others. Washington's story is not simple hero or sellout. It is a study in institution-building under white supremacy, the costs of accommodation, and the question Black leaders have faced again and again: what can be built when open demands may bring violent backlash?
+- Primary or authoritative sources:
+  - https://www.tuskegee.edu/legacy/booker-t-washington.html
+  - https://www.loc.gov/item/mss44669_01
+- Supporting secondary sources:
+  - https://www.tuskegee.edu/explore/History-and-Mission.html
+  - https://www.nps.gov/thri/bookertwashington.htm
+- Verified quotation source: Library of Congress Atlanta Exposition Address manuscript and recording context.
+- Sensitive or disputed claims reviewed: Enslaved birth, Tuskegee founding roles, Atlanta Compromise interpretation, quiet anti-segregation funding, criticism by Du Bois/Wells, and White House dinner backlash reviewed.
+- Material corrections made: Expanded daily debate framing into a full institution-building and accommodation-strategy account.
+- External links included on the page:
+  - Tuskegee University: Booker T. Washington (https://www.tuskegee.edu/legacy/booker-t-washington.html)
+  - Tuskegee University: History and Mission (https://www.tuskegee.edu/explore/History-and-Mission.html)
+  - Library of Congress: Atlanta Exposition Speech manuscript (https://www.loc.gov/item/mss44669_01)
+  - National Park Service: Booker T. Washington and Theodore Roosevelt (https://www.nps.gov/thri/bookertwashington.htm)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-12 - Paul Robeson
 
@@ -238,11 +254,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-31 - Greenwood / Black Wall Street
 
+- Entry title: Greenwood / Black Wall Street
 - Slug: `black-wall-street`
-- Core claims: Before Greenwood became a story of destruction, it was a story of building. Greenwood was a thriving Black district in Tulsa with businesses, homes, churches, newspapers, doctors, lawyers, theaters, and hotels. People called it Black Wall Street because Black wealth circulated there. The 1921 Tulsa Race Massacre destroyed much of Greenwood, but the prosperity that came before matters too. The target was not emptiness. It was success.
-- Sources:
-  - https://www.tulsahistory.org/exhibit/1921-tulsa-race-massacre/
-  - https://nmaahc.si.edu/explore/stories/tulsa-race-massacre
+- Daily date: 2026-05-31
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Greenwood was not important only because white mobs destroyed it. It was important because Black people built it. By 1921, Tulsa's Greenwood District held homes, churches, doctors, lawyers, hotels, theaters, restaurants, newspapers, and more than one hundred Black-owned businesses. Segregation forced Black dollars inward, but residents turned constraint into institution-building. The Tulsa Race Massacre was an attack on people and on a visible claim to Black prosperity. Remembering Greenwood only through flames lets the attackers control the story. The deeper history begins before May 31, 1921, follows the destruction honestly, and then follows the rebuilding that officials tried to obstruct.
+- Primary or authoritative sources:
+  - https://tulsahistory.org/exhibit/1921-tulsa-race-massacre/
+  - https://www.okhistory.org/learn/tulsaracemassacre
+- Supporting secondary sources:
+  - https://visit.archives.gov/whats-on/explore-exhibits/black-wall-street-100-years-tulsa-race-massacre
+  - https://www.tulsalibrary.org/black-wall-street
+- Verified quotation source: National Archives exhibit quoting American Red Cross report.
+- Sensitive or disputed claims reviewed: Death toll range, official complicity, insurance denial framing, Dick Rowland/Sarah Page uncertainty, and business-count claims reviewed.
+- Material corrections made: Centered Greenwood before and after the massacre, rather than letting destruction define the entire page.
+- External links included on the page:
+  - Tulsa Historical Society and Museum: 1921 Tulsa Race Massacre (https://tulsahistory.org/exhibit/1921-tulsa-race-massacre/)
+  - Oklahoma Historical Society: Tulsa Race Massacre resources (https://www.okhistory.org/learn/tulsaracemassacre)
+  - National Archives Museum: Black Wall Street: 100 Years Since the Tulsa Race Massacre (https://visit.archives.gov/whats-on/explore-exhibits/black-wall-street-100-years-tulsa-race-massacre)
+  - Tulsa City-County Library: Black Wall Street (https://www.tulsalibrary.org/black-wall-street)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-01 - Sojourner Truth
 
@@ -534,11 +566,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-30 - Black Lives Matter
 
+- Entry title: Black Lives Matter
 - Slug: `black-lives-matter`
-- Core claims: Before it was painted on streets and chanted around the world, Black Lives Matter was a sentence written in grief. Alicia Garza, Patrisse Cullors, and Opal Tometi helped create Black Lives Matter in 2013 after George Zimmerman was acquitted in the killing of Trayvon Martin. The phrase became a network, a movement, and a global language for protest against anti-Black violence, especially after the killings of Michael Brown, Breonna Taylor, George Floyd, and many others.
-- Sources:
+- Daily date: 2026-06-30
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Black Lives Matter began as language written through grief, then became a network, a protest framework, and a global phrase for refusing anti-Black death as normal. Alicia Garza, Patrisse Cullors, and Opal Tometi helped shape it after George Zimmerman was acquitted in the killing of Trayvon Martin in 2013. But the movement cannot be understood only as a hashtag. It drew from older Black freedom struggles while using digital tools, decentralized organizing, queer Black feminist leadership, street protest, mutual aid, and cultural pressure in new ways. Its history includes power, disagreement, backlash, and transformation. The sentence matters because it names what institutions have repeatedly denied.
+- Primary or authoritative sources:
   - https://blacklivesmatter.com/herstory/
-  - https://nmaahc.si.edu/explore/stories/black-lives-matter
+  - https://nmaahc.si.edu/explore/stories/trayvon-martin-emmett-till-black-lives-matter
+- Supporting secondary sources:
+  - https://www.loc.gov/item/lcwaN0016241/
+  - https://www.pewresearch.org/internet/2023/06/29/blacklivesmatter-turns-10/
+- Verified quotation source: NMAAHC article quoting Alicia Garza.
+- Sensitive or disputed claims reviewed: Living founders, organizational scope, George Zimmerman acquittal, George Floyd murder, decentralized organizing, and internal controversy wording reviewed.
+- Material corrections made: Expanded daily hashtag summary into a history of digital organizing, queer Black feminist leadership, decentralized movement structure, backlash, and public memory.
+- External links included on the page:
+  - Black Lives Matter: Herstory (https://blacklivesmatter.com/herstory/)
+  - National Museum of African American History and Culture: From Trayvon Martin to Emmett Till: Black Lives Matter (https://nmaahc.si.edu/explore/stories/trayvon-martin-emmett-till-black-lives-matter)
+  - Library of Congress: Black Lives Matter web archive (https://www.loc.gov/item/lcwaN0016241/)
+  - Pew Research Center: Social Media, Online Activism and 10 Years of #BlackLivesMatter (https://www.pewresearch.org/internet/2023/06/29/blacklivesmatter-turns-10/)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-01 - Robert Smalls
 
@@ -598,11 +646,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-08 - Black Codes
 
+- Entry title: Black Codes
 - Slug: `black-codes`
-- Core claims: Slavery ended, and Southern lawmakers immediately began writing rules to trap Black freedom in a smaller cage. Black Codes restricted movement, labor, voting, testimony, apprenticeship, and other parts of life for formerly enslaved people. The codes helped provoke federal Reconstruction measures, including civil rights legislation and constitutional amendments, but their spirit lived on in later Jim Crow laws.
-- Sources:
-  - https://www.archives.gov/research/african-americans/black-codes
-  - https://www.britannica.com/event/black-code
+- Daily date: 2026-07-08
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: The Black Codes were not confusion after slavery. They were strategy. In 1865 and 1866, Southern lawmakers tried to define freedom so narrowly that Black people could be free in name while trapped by labor contracts, vagrancy laws, apprenticeship rules, movement restrictions, and court systems that denied equal rights. The laws showed how quickly slavery's defenders adapted to emancipation. They also provoked a federal response that helped produce the Civil Rights Act of 1866, the Reconstruction Acts, and the Fourteenth Amendment. The Black Codes matter because they reveal a pattern that returns across U.S. history: when Black freedom expands, law can be used either to protect it or to cage it again.
+- Primary or authoritative sources:
+  - https://constitutioncenter.org/education/videos/14th-amendment-discussion-starter-the-black-codes
+  - https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/
+- Supporting secondary sources:
+  - https://www.archives.gov/exhibits/civil-war/preview/endings-and-beginnings/
+  - https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538
+- Verified quotation source: National Constitution Center background attributes the "some other name" critique to Frederick Douglass.
+- Sensitive or disputed claims reviewed: State variation, labor-contract rules, apprenticeship rules, legal testimony restrictions, and federal response chronology reviewed.
+- Material corrections made: Expanded daily summary into a legal and political account connecting Black Codes to federal Reconstruction and later labor-criminalization systems.
+- External links included on the page:
+  - National Constitution Center: The Black Codes and the Fourteenth Amendment (https://constitutioncenter.org/education/videos/14th-amendment-discussion-starter-the-black-codes)
+  - Library of Congress: Reconstruction and Rights (https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/)
+  - National Archives: Endings and Beginnings: Black Codes (https://www.archives.gov/exhibits/civil-war/preview/endings-and-beginnings/)
+  - Smithsonian Institution: Make Good the Promises: Reconstruction and Its Legacies (https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-09 - The Convict Leasing System
 
@@ -1356,11 +1420,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - August Wilson Society: About the August Wilson Society (https://www.augustwilsonsociety.org/about)
 - Final review status: Batch 3 draft. Requires generation, validation, and browser review.
 
-### undefined - Barack Obama
+### Encyclopedia - Barack Obama
 
 - Entry title: Barack Obama
 - Slug: `barack-obama`
-- Daily date: undefined
+- Daily date: Encyclopedia
 - Date researched: 2026-08-14
 - Writer/research status: batch-3-drafted
 - Material factual claims: Barack Obama's election in 2008 was historic, but treating the first Black presidency as a finish line misses the harder story. Obama rose through community organizing, law, Illinois politics, and a national campaign that carried enormous symbolic weight before he ever took office. His presidency unfolded inside financial crisis, war, partisan backlash, racial projection, and competing expectations from people who wanted transformation, reassurance, or proof that racism had been overcome. An encyclopedia page has to hold the breakthrough and the limits together. Obama's presidency changed what Americans had seen as politically possible, but it did not make the structures that shaped Black life disappear.
@@ -1475,3 +1539,147 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Encyclopedia of Alabama: Robert Shelton and the United Klans (https://encyclopediaofalabama.org/article/shelton-robert/)
   - Civil Rights Digital Library: Beulah Mae Donald after winning her lawsuit (https://crdl.usg.edu/record/aar_amg_121772)
 - Final review status: Batch 3 draft. Requires generation, validation, and browser review.
+
+### 2026-04-07 - Billie Holiday
+
+- Entry title: Billie Holiday
+- Slug: `billie-holiday`
+- Daily date: 2026-04-07
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Billie Holiday's voice made time bend. She could sing slightly behind the beat, turn a familiar lyric into confession, and make restraint feel more devastating than force. But the public memory of Holiday often traps her between two simplifications: tragic addict or brave protest singer. She was both more fragile and more strategic than either version allows. Her 1939 performance and recording of "Strange Fruit" turned a club song into a national confrontation with lynching. At the same time, the state punished her drug use more fiercely than it protected Black people from racial terror. Holiday's page has to hold the artistry, the surveillance, the pain, and the control she fought to keep over her own sound.
+- Primary or authoritative sources:
+  - https://www.si.edu/spotlight/billie-holiday
+  - https://nmaahc.si.edu/billie-holiday
+- Supporting secondary sources:
+  - https://americanhistory.si.edu/press/releases/jazz-appreciation-month-2026
+  - https://www.loc.gov/item/today-in-history/april-07
+- Verified quotation source: No quotation included. Lyric quotation avoided because the historical argument does not require reproducing copyrighted lyrics.
+- Sensitive or disputed claims reviewed: Childhood trauma, sexuality, addiction, narcotics prosecution, cabaret card consequences, and "Strange Fruit" recording context reviewed with careful wording.
+- Material corrections made: Expanded legacy protest-song summary into a full account of artistry, club labor, anti-lynching performance, criminalization, and late-career complexity.
+- External links included on the page:
+  - Smithsonian Institution: Lady Day: Billie Holiday (https://www.si.edu/spotlight/billie-holiday)
+  - National Museum of African American History and Culture: Billie Holiday (https://nmaahc.si.edu/billie-holiday)
+  - National Museum of American History: Billie Holiday and Strange Fruit (https://americanhistory.si.edu/press/releases/jazz-appreciation-month-2026)
+  - Library of Congress: Today in History: Billie Holiday (https://www.loc.gov/item/today-in-history/april-07)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-19 - Black Culinary History
+
+- Entry title: Black Culinary History
+- Slug: `black-culinary-history`
+- Daily date: 2026-02-19
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Black culinary history is not a sidebar to American food. It is one of the main kitchens. Enslaved Africans and their descendants carried agricultural knowledge, cooking techniques, taste memories, and survival strategies into a violent new world. They shaped rice cultivation, greens, okra, gumbo, barbecue, oyster work, street vending, church meals, restaurant labor, and the language of hospitality, often while white households and businesses took the credit. The point is not to claim every Southern dish as a simple African inheritance. The point is richer: American cuisine came from forced migration, Native knowledge, European ingredients, Black skill, scarcity, creativity, commerce, memory, and the politics of who gets named as a chef.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/explore/stories/black-foodways-and-cuisine
+  - https://www.si.edu/object/bound-fire-how-virginias-enslaved-cooks-helped-invent-american-cuisine-kelley-fanto-deetz%3Asiris_sil_1089720
+- Supporting secondary sources:
+  - https://www.smithsonianmag.com/history/how-enslaved-chefs-helped-shape-american-cuisine-180969697/
+  - https://guides.loc.gov/foodways-folklife
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Enslaved cooks, appropriation, Aunt Jemima imagery, soul food framing, and claims about African, Indigenous, and European foodways reviewed.
+- Material corrections made: Replaced a narrow soul-food summary with a broader foodways history centered on labor, credit, migration, and preservation.
+- External links included on the page:
+  - National Museum of African American History and Culture: Black Foodways and Cuisine (https://nmaahc.si.edu/explore/stories/black-foodways-and-cuisine)
+  - Smithsonian Magazine: How Enslaved Chefs Helped Shape American Cuisine (https://www.smithsonianmag.com/history/how-enslaved-chefs-helped-shape-american-cuisine-180969697/)
+  - Smithsonian Libraries and Archives: Bound to the Fire (https://www.si.edu/object/bound-fire-how-virginias-enslaved-cooks-helped-invent-american-cuisine-kelley-fanto-deetz%3Asiris_sil_1089720)
+  - Library of Congress: Foodways: Resources in the American Folklife Center (https://guides.loc.gov/foodways-folklife)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-18 - Black Dance Culture
+
+- Entry title: Black Dance Culture
+- Slug: `black-dance`
+- Daily date: 2026-02-18
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Black dance culture is not only performance on a stage. It is social language: how people gather, flirt, mourn, battle, worship, celebrate, signal belonging, and make style travel. From ring shouts and tap to jazz dance, hand dancing, hip-hop, go-go, line dances, viral challenges, and concert work by artists such as Katherine Dunham and Alvin Ailey, Black movement has repeatedly reshaped American culture. The tension is familiar: dances born in Black communities are mocked, policed, copied, commercialized, and renamed. A real encyclopedia page has to follow the movement from community spaces to stages and screens, while asking who gets credit when the body becomes culture.
+- Primary or authoritative sources:
+  - https://guides.loc.gov/black-dance
+  - https://nmaahc.si.edu/explore/exhibitions/cultural-expressions
+- Supporting secondary sources:
+  - https://folklife.si.edu/magazine/freedom-sounds-generations-of-african-american-social-dance-in-dc-hand-dancing-hip-hop-and-go-go
+  - https://www.loc.gov/collections/katherine-dunham/articles-and-essays/katherine-dunham-a-life-in-dance/
+- Verified quotation source: Library of Congress Black Dancers and Choreographers guide quoting Katherine Dunham.
+- Sensitive or disputed claims reviewed: Appropriation, minstrelsy, viral dance credit, and claims about African diaspora movement continuity reviewed with non-monolithic wording.
+- Material corrections made: Expanded legacy viral-dance framing into a broader history of social dance, concert dance, gesture, and credit.
+- External links included on the page:
+  - Library of Congress: Black Dancers and Choreographers research guide (https://guides.loc.gov/black-dance)
+  - National Museum of African American History and Culture: Cultural Expressions (https://nmaahc.si.edu/explore/exhibitions/cultural-expressions)
+  - Smithsonian Center for Folklife and Cultural Heritage: Generations of African American Social Dance in D.C. (https://folklife.si.edu/magazine/freedom-sounds-generations-of-african-american-social-dance-in-dc-hand-dancing-hip-hop-and-go-go)
+  - Library of Congress: Katherine Dunham: A Life in Dance (https://www.loc.gov/collections/katherine-dunham/articles-and-essays/katherine-dunham-a-life-in-dance/)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-16 - Black Fashion and Cultural Appropriation
+
+- Entry title: Black Fashion and Cultural Appropriation
+- Slug: `black-fashion`
+- Daily date: 2026-02-16
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Black fashion is not only what people wear. It is a record of labor, survival, refusal, beauty, business, and being seen. Headwraps, Sunday best, zoot suits, denim, sneakers, streetwear, braids, church hats, hoop earrings, couture, and hip-hop style all carry histories of identity and power. The appropriation conversation can get flattened into "who is allowed to wear what." The deeper question is sharper: why are Black people punished for styles that become profitable, fashionable, or respectable when removed from Black bodies? This page follows Black style as artistry and archive, from dressmakers and designers to everyday communities whose looks changed the world.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/explore/collection/black-fashion-museum
+  - https://nmaahc.si.edu/explore/exhibitions/cultural-expressions
+- Supporting secondary sources:
+  - https://exhibitions.fitnyc.edu/exhibitions-timeline/black-fashion-designers/
+  - https://www.smithsonianmag.com/arts-culture/brief-history-zoot-suit-180958507/
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Appropriation framing, hair/style policing, erased designer credit, and zoot suit racial politics reviewed.
+- Material corrections made: Expanded legacy appropriation summary into a broader history of Black fashion labor, design, institutions, and cultural extraction.
+- External links included on the page:
+  - National Museum of African American History and Culture: The Black Fashion Museum at NMAAHC (https://nmaahc.si.edu/explore/collection/black-fashion-museum)
+  - National Museum of African American History and Culture: Cultural Expressions (https://nmaahc.si.edu/explore/exhibitions/cultural-expressions)
+  - The Museum at FIT: Black Fashion Designers exhibition (https://exhibitions.fitnyc.edu/exhibitions-timeline/black-fashion-designers/)
+  - Smithsonian Magazine: A Brief History of the Zoot Suit (https://www.smithsonianmag.com/arts-culture/brief-history-zoot-suit-180958507/)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-20 - Black Tech Pioneers
+
+- Entry title: Black Tech Pioneers
+- Slug: `black-tech-pioneers`
+- Daily date: 2026-02-20
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Black technology history is often told as a list of hidden names. That recovery matters, but it is only the first step. Black engineers, mathematicians, programmers, and inventors helped build the systems that made modern computing, aerospace, personal computers, groupware, and digital infrastructure possible. Katherine Johnson calculated trajectories. Clarence "Skip" Ellis became the first African American to earn a PhD in computer science. Mark Dean helped shape the IBM PC and high-speed computing. Their stories also reveal the gatekeeping around who was imagined as technical. The work was never only genius. It was access, mentorship, patents, labs, credit, and the right to ask questions in rooms that were not built for them.
+- Primary or authoritative sources:
+  - https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/
+  - https://www.ibm.com/history/mark-dean
+- Supporting secondary sources:
+  - https://blackhistory.mit.edu/archive/clarence-ellis-1975
+  - https://nsbe.org/about/
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: First-Black PhD and ACM Fellow claims for Clarence Ellis, IBM patent claims for Mark Dean, Katherine Johnson mission claims, and NSBE founding framing reviewed.
+- Material corrections made: Expanded legacy name-list framing into a collective technology history focused on infrastructure, access, credit, and institutions.
+- External links included on the page:
+  - NASA: Katherine Johnson biography (https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/)
+  - IBM: Mark Dean (https://www.ibm.com/history/mark-dean)
+  - MIT Black History: Clarence Ellis, 1975 (https://blackhistory.mit.edu/archive/clarence-ellis-1975)
+  - National Society of Black Engineers: NSBE mission and history (https://nsbe.org/about/)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Black Women in Politics
+
+- Entry title: Black Women in Politics
+- Slug: `black-women-in-politics`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Black women built American democracy while being repeatedly told to wait their turn. They organized against slavery, documented lynching, built clubs, marched for suffrage, registered voters under terror, challenged party credentials, ran for office, wrote legislation, and governed communities before institutions fully admitted them. The story is not only a march from exclusion to representation. It is a history of labor that made representation possible. From Frances Ellen Watkins Harper, Mary Church Terrell, Ida B. Wells, and Fannie Lou Hamer to Shirley Chisholm, Barbara Jordan, Carol Moseley Braun, Kamala Harris, and many local leaders, Black women have treated politics as survival work, community work, and power work all at once.
+- Primary or authoritative sources:
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Permanent-Interest/Fight-Doubly-Hard/
+  - https://history.house.gov/historicalhighlight/detail/37113
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer
+  - https://history.house.gov/People/Detail/10918
+- Verified quotation source: U.S. House History historical highlight quoting Shirley Chisholm.
+- Sensitive or disputed claims reviewed: First claims, Nineteenth Amendment limits, voter suppression, Black women congressional history, and Harris vice-presidential firsts reviewed.
+- Material corrections made: Expanded legacy list into a deeper collective political history centered on grassroots work, elected office, and institutional power.
+- External links included on the page:
+  - U.S. House History, Art & Archives: To Fight Doubly Hard (https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Permanent-Interest/Fight-Doubly-Hard/)
+  - U.S. House History, Art & Archives: The First African-American Woman Elected to Congress (https://history.house.gov/historicalhighlight/detail/37113)
+  - National Women's History Museum: Fannie Lou Hamer (https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer)
+  - U.S. House History, Art & Archives: Shirley Chisholm biography (https://history.house.gov/People/Detail/10918)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style encyclopedia-only page, ledger record, internal links, 4 external links, depth validation, desktop/mobile browser check.
