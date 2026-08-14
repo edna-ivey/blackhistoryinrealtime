@@ -3,237 +3,218 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Brown v. Board of Education — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Full profile of Brown v. Board of Education, the 1954 Supreme Court decision that struck down school segregation and became the legal foundation of the Civil Rights Movement.">
+<title>Brown v. Board of Education - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Brown v. Board of Education is often remembered as the day school segregation ended. The harder truth is that the decision named a constitutional wrong, then left Black families to fight school boards, governors, mobs, and delay tactics for years. Brown was not one case, one father, or one courtroom victory. It was five cases, dozens of families, student walkouts, local organizing, social science evidence, careful legal strategy, and a Supreme Court trying to speak with one voice. Its promise was enormous. Its enforcement was uneven. The page matters because Brown shows both the power of law and the danger of mistaking a legal ruling for the end of a system.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red: #C41E3A; --black: #0A0A0A; --green: #1A5C38; --gold: #D4A017; --cream: #F5EDD8; --white: #FAFAFA; --card-bg: #161616; --border: rgba(212,160,23,0.2); }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { background: var(--black); color: var(--cream); font-family: 'DM Sans', sans-serif; min-height: 100vh; overflow-x: hidden; }
-  body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); pointer-events: none; z-index: 0; }
-  .pan-stripe { display: flex; height: 6px; width: 100%; }
-  .pan-stripe .s1 { background: var(--red); flex: 1; } .pan-stripe .s2 { background: #111; flex: 1; } .pan-stripe .s3 { background: var(--green); flex: 1; }
-  header { position: sticky; top: 0; z-index: 50; background: rgba(10,10,10,0.97); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(212,160,23,0.12); }
-  .header-inner { max-width: 900px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
-  .logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 3px; color: var(--gold); text-decoration: none; }
-  .logo span { color: var(--red); }
-  nav { display: flex; border-bottom: 1px solid rgba(212,160,23,0.1); overflow-x: auto; scrollbar-width: none; background: rgba(10,10,10,0.9); }
-  nav::-webkit-scrollbar { display: none; }
-  nav a { padding: 10px 20px; font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(245,237,216,0.45); text-decoration: none; white-space: nowrap; border-bottom: 2px solid transparent; transition: all 0.2s; }
-  nav a:hover, nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
-  .breadcrumb { max-width: 900px; margin: 0 auto; padding: 20px 24px 0; font-size: 0.72rem; color: rgba(245,237,216,0.35); letter-spacing: 1px; display: flex; align-items: center; gap: 8px; position: relative; z-index: 1; }
-  .breadcrumb a { color: rgba(212,160,23,0.6); text-decoration: none; }
-  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 100px; position: relative; z-index: 1; }
-  .entry-hero { margin-bottom: 36px; animation: fadeUp 0.5s ease both; }
-  .entry-vol-label { font-size: 0.65rem; letter-spacing: 4px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 12px; }
-  .entry-name { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 900; line-height: 1.05; color: var(--white); margin-bottom: 14px; }
-  .entry-tagline { font-size: 1.05rem; line-height: 1.7; color: rgba(245,237,216,0.65); max-width: 680px; margin-bottom: 18px; }
-  .entry-badges { display: flex; flex-wrap: wrap; gap: 8px; }
-  .badge { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; padding: 5px 12px; border-radius: 100px; font-weight: 500; }
-  .badge-dates { background: rgba(212,160,23,0.1); color: var(--gold); border: 1px solid rgba(212,160,23,0.25); }
-  .badge-cat { background: rgba(196,30,58,0.1); color: #E8627A; border: 1px solid rgba(196,30,58,0.25); }
-  .badge-vol { background: rgba(26,92,56,0.15); color: #5BAF82; border: 1px solid rgba(26,92,56,0.3); }
-  .timeline-strip { display: flex; gap: 2px; margin: 28px 0 36px; overflow-x: auto; scrollbar-width: none; animation: fadeUp 0.5s ease 0.1s both; }
-  .timeline-strip::-webkit-scrollbar { display: none; }
-  .timeline-item { flex: 1; min-width: 130px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 14px 16px; position: relative; }
-  .timeline-item::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--red), var(--gold)); border-radius: 10px 10px 0 0; }
-  .tl-year { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; color: var(--gold); letter-spacing: 2px; margin-bottom: 4px; }
-  .tl-event { font-size: 0.72rem; line-height: 1.5; color: rgba(245,237,216,0.55); }
-  .bio-section { margin: 0 0 32px; animation: fadeUp 0.5s ease 0.15s both; }
-  .section-title { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.85rem; color: rgba(212,160,23,0.6); margin-bottom: 16px; text-transform: uppercase; }
-  .bio-body p { font-size: 1rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin-bottom: 18px; }
-  .bio-body p:last-child { margin-bottom: 0; }
-  .pull-quote { border-left: 3px solid var(--red); padding: 18px 24px; margin: 32px 0; background: rgba(196,30,58,0.04); border-radius: 0 10px 10px 0; animation: fadeUp 0.5s ease 0.2s both; }
-  .pull-quote p { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.15rem; line-height: 1.7; color: var(--cream); margin-bottom: 10px; }
-  .pull-quote cite { font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(212,160,23,0.5); }
-  .section-divider { display: flex; align-items: center; gap: 16px; margin: 40px 0 28px; }
-  .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, rgba(212,160,23,0.2), transparent); }
-  .section-divider span { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.75rem; color: rgba(212,160,23,0.5); }
-  .why-matters { background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04)); border: 1px solid rgba(196,30,58,0.25); border-radius: 14px; padding: 24px 26px; margin: 36px 0; animation: fadeUp 0.5s ease 0.25s both; }
-  .why-matters h4 { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.85rem; color: var(--red); margin-bottom: 10px; }
-  .why-matters p { font-size: 0.97rem; line-height: 1.8; color: rgba(245,237,216,0.72); margin: 0; }
-  .connected-section { margin: 36px 0; animation: fadeUp 0.5s ease 0.3s both; }
-  .connected-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-top: 18px; }
-  .connected-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; text-decoration: none; display: block; transition: all 0.2s; position: relative; overflow: hidden; }
-  .connected-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, var(--red), var(--gold)); }
-  .connected-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
-  .connected-type { font-size: 0.6rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.55); margin-bottom: 5px; }
-  .connected-name { font-family: 'Playfair Display', serif; font-size: 0.95rem; font-weight: 700; color: var(--white); line-height: 1.3; margin-bottom: 4px; }
-  .connected-desc { font-size: 0.78rem; color: rgba(245,237,216,0.45); line-height: 1.5; }
-  .quiz-link-card { background: linear-gradient(135deg, rgba(196,30,58,0.12), rgba(139,0,0,0.06)); border: 1px solid rgba(196,30,58,0.3); border-radius: 12px; padding: 18px 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; text-decoration: none; transition: all 0.2s; margin-top: 12px; }
-  .quiz-link-card:hover { border-color: var(--red); transform: translateY(-2px); }
-  .quiz-link-label { font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(196,30,58,0.7); margin-bottom: 4px; }
-  .quiz-link-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
-  .quiz-link-arrow { color: var(--red); font-size: 1.4rem; flex-shrink: 0; }
-  .external-section { margin: 36px 0; animation: fadeUp 0.5s ease 0.35s both; }
-  .external-links { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
-  .ext-link { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; text-decoration: none; transition: all 0.2s; }
-  .ext-link:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
-  .ext-source { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 3px; }
-  .ext-title { font-size: 0.9rem; color: var(--cream); line-height: 1.35; }
-  .ext-arrow { color: var(--gold); opacity: 0.6; font-size: 1rem; flex-shrink: 0; }
-  .back-nav { display: flex; align-items: center; gap: 10px; margin-bottom: 32px; animation: fadeUp 0.4s ease both; }
-  .back-btn { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.04); border: 1px solid rgba(212,160,23,0.2); border-radius: 100px; padding: 8px 18px; color: rgba(245,237,216,0.6); font-size: 0.78rem; letter-spacing: 1.5px; text-decoration: none; transition: all 0.2s; }
-  .back-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(212,160,23,0.06); }
-  footer { position: relative; z-index: 1; border-top: 1px solid rgba(212,160,23,0.15); padding: 28px 32px; text-align: center; }
-  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
-  footer a { color: var(--gold); text-decoration: none; }
-  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-  @media (max-width: 620px) { .header-inner { padding: 12px 16px; } nav a { padding: 10px 12px; font-size: 0.72rem; } main { padding: 24px 16px 80px; } .entry-name { font-size: 2rem; } .connected-grid { grid-template-columns: 1fr; } }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="brown-v-board">
-
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-<header><div class="header-inner"><a href="/" class="logo">Black History <span>in Real Time</span></a></div></header>
-<nav>
-  <a href="/">Daily Quiz</a>
-  <a href="/encyclopedia.html" class="active">Encyclopedia</a>
-  <a href="/#calendar">Calendar</a>
-  <a href="/#archive">Archive</a>
-</nav>
-<div class="breadcrumb">
-  <a href="../encyclopedia.html">Encyclopedia</a>
-  <span>›</span>
-  <span style="color:rgba(245,237,216,0.5)">Brown v. Board of Education</span>
-</div>
-
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
 <main>
-  <div class="back-nav"><a href="../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a></div>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>February 5 &middot; Civil Rights</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
 
   <div class="entry-hero">
-    <div class="entry-vol-label">February 5 · Volume I · Law &amp; Justice</div>
-    <h1 class="entry-name">Brown v. Board of Education</h1>
-    <p class="entry-tagline">The 1954 Supreme Court decision that declared school segregation unconstitutional — the legal shot heard around the Civil Rights Movement, built on the courage of 13 families in Topeka, Kansas.</p>
+    <div class="entry-vol-label">February 5 &middot; Civil Rights</div>
+    <h1>Brown v. Board of Education</h1>
+    <p class="entry-tagline">Brown v. Board of Education is often remembered as the day school segregation ended. The harder truth is that the decision named a constitutional wrong, then left Black families to fight school boards, governors, mobs, and delay tactics for years. Brown was not one case, one father, or one courtroom victory. It was five cases, dozens of families, student walkouts, local organizing, social science evidence, careful legal strategy, and a Supreme Court trying to speak with one voice. Its promise was enormous. Its enforcement was uneven. The page matters because Brown shows both the power of law and the danger of mistaking a legal ruling for the end of a system.</p>
     <div class="entry-badges">
-      <span class="badge badge-dates">Decided May 17, 1954</span>
-      <span class="badge badge-cat">Events</span>
-      <span class="badge badge-vol">February Volume</span>
+      <span class="badge">Court Case</span>
+      <span class="badge">1954 - 1955</span>
     </div>
+    <div class="hero-bar"></div>
   </div>
 
   <div class="timeline-strip">
-    <div class="timeline-item">
-      <div class="tl-year">1896</div>
-      <div class="tl-event">Plessy v. Ferguson establishes "separate but equal" as the legal standard for segregation</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1950</div>
-      <div class="tl-event">Topeka NAACP begins organizing a class-action lawsuit against segregated schools</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1951</div>
-      <div class="tl-event">Oliver Brown and 12 other families file suit; case goes to Federal District Court</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1952</div>
-      <div class="tl-event">Five school segregation cases consolidated by the Supreme Court under Brown's name</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1954</div>
-      <div class="tl-event">Unanimous Supreme Court ruling: "Separate educational facilities are inherently unequal"</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1957</div>
-      <div class="tl-event">Little Rock Nine attempt to integrate Central High School under armed guard — resistance continues</div>
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1896</div><div class="tl-event">Plessy v. Ferguson gives constitutional cover to &quot;separate but equal&quot; segregation.</div></div>
+<div class="tl-item"><div class="tl-date">1930s-1950</div><div class="tl-event">NAACP lawyers attack segregation first through graduate and professional school cases.</div></div>
+<div class="tl-item"><div class="tl-date">1950-1952</div><div class="tl-event">School cases from South Carolina, Virginia, Kansas, Delaware, and Washington, D.C. move toward the Supreme Court.</div></div>
+<div class="tl-item"><div class="tl-date">Dec 1952</div><div class="tl-event">The Supreme Court hears the consolidated school segregation cases.</div></div>
+<div class="tl-item"><div class="tl-date">Dec 1953</div><div class="tl-event">The Court orders reargument, including questions about the Fourteenth Amendment.</div></div>
+<div class="tl-item"><div class="tl-date">May 17, 1954</div><div class="tl-event">The Court rules unanimously in Brown that segregated public schools are unconstitutional.</div></div>
+<div class="tl-item"><div class="tl-date">May 31, 1955</div><div class="tl-event">Brown II orders desegregation with &quot;all deliberate speed.&quot;</div></div>
+<div class="tl-item"><div class="tl-date">1957</div><div class="tl-event">Federal troops enforce integration at Little Rock Central High School.</div></div>
+<div class="tl-item"><div class="tl-date">1964</div><div class="tl-event">The Civil Rights Act gives the federal government stronger tools against school segregation.</div></div>
+<div class="tl-item"><div class="tl-date">1970s</div><div class="tl-event">Court-ordered desegregation plans and busing battles expose how deeply segregation had been built into housing and local politics.</div></div>
     </div>
   </div>
 
   <div class="bio-section">
-    <div class="section-title">Full History</div>
-    <div class="bio-body">
-      <p>The legal groundwork for Brown v. Board of Education was laid decades before a little girl named Linda Brown was denied entry to Sumner Elementary School in Topeka, Kansas. Since the Supreme Court's 1896 Plessy v. Ferguson decision, which declared that "separate but equal" public facilities were constitutional, Black Americans had been living under a legal architecture explicitly designed to keep them apart from white Americans in schools, trains, restaurants, courthouses, and every other public space. The catch — and everyone knew it was a catch — was that separate was never equal. In 1954, Black schools in the South received only 60 percent of the per-pupil funding that white schools received. Many lacked cafeterias, libraries, running water, electricity, and sometimes even functioning buildings.</p>
-
-      <p>The NAACP had been chipping away at school segregation for years through smaller legal challenges. In 1950, McKinley Burnett, president of the Topeka chapter of the NAACP, organized a more aggressive strategy: recruit Black parents across the city to attempt to enroll their children in all-white neighborhood schools, be denied, and become plaintiffs in a coordinated lawsuit. Thirteen families signed on. One of them was Oliver Brown, a welder and assistant pastor whose daughter Linda was forced to walk 20 blocks through a dangerous area and then ride a bus to reach Monroe Elementary — a Black school — when Sumner Elementary, a white school, was just seven blocks from their home. When the case was filed in Federal District Court in February 1951, the court actually agreed that segregation was harmful to Black children, but ruled that it was not illegal under Plessy. The NAACP appealed.</p>
-
-      <p>By the time the Supreme Court agreed to hear the case, it had been consolidated with four similar lawsuits from Delaware, South Carolina, Virginia, and Washington, D.C. — all brought by the NAACP on behalf of Black schoolchildren and their families. The lead attorney for the plaintiffs was Thurgood Marshall, head of the NAACP's Legal Defense and Educational Fund, who had spent years building the legal argument that segregation itself — not just unequal resources — was the problem. Marshall's key insight was psychological as much as legal: segregation didn't just deny Black children equal facilities, it sent a message about their worth. He brought in psychologists, including Kenneth and Mamie Clark, whose doll studies showed that Black children internalized the message of inferiority that segregation communicated. The Supreme Court cited this evidence directly in its eventual ruling.</p>
-
-      <p>When the Court first heard arguments in 1952, it was deadlocked. Chief Justice Fred Vinson, who had been skeptical of overturning Plessy, died unexpectedly in September 1953. President Eisenhower replaced him with Earl Warren, the former governor of California who had a more pragmatic understanding of race. Warren understood immediately that a divided court ruling would be useless — it needed to be unanimous to have any force at all. He spent months working privately with the skeptical justices, making the case that a split decision would inflame resistance and accomplish nothing. He succeeded. On May 17, 1954, the Court issued a unanimous ruling. Warren wrote the opinion himself, deliberately in plain English: "In the field of public education, the doctrine of 'separate but equal' has no place. Separate educational facilities are inherently unequal."</p>
-
-      <p>What followed the decision was not, however, immediate integration. The Court's follow-up ruling, Brown II in 1955, directed school systems to desegregate "with all deliberate speed" — a phrase so vague that it invited delay. Seventeen states with segregated school systems moved to resist. Arkansas Governor Orval Faubus called out the National Guard in 1957 to physically block nine Black students from entering Central High School in Little Rock. Eisenhower was forced to deploy federal troops to escort those students — known as the Little Rock Nine — past angry white mobs. By 1964, a decade after Brown, less than 2 percent of Black students in the South were attending integrated schools. The legal victory was real but incomplete; the full fight would go on for generations.</p>
-    </div>
+    <div class="section-title">Full Story</div>
+<p>Brown v. Board did not begin with the Supreme Court. It began with Black parents and students who were tired of being told to accept inferior schools as a normal fact of life. It began with children walking past nearby white schools to reach distant Black schools. It began with students in Virginia who went on strike because their school was overcrowded and underfunded. It began with families who knew that education was not only a classroom issue. It was citizenship, safety, childhood, dignity, and future power.</p>
+<p>The legal background was Plessy v. Ferguson, the 1896 decision that allowed states to segregate public facilities if the separate facilities were supposedly equal. In practice, separate was a legal fiction. Black schools often had fewer resources, worse buildings, shorter school terms, and less political protection. Even where physical facilities looked closer to equal, segregation still taught a lesson about caste. The state was telling Black children they were fit to be separated.</p>
+<p>The NAACP legal strategy took years. Charles Hamilton Houston, Thurgood Marshall, Robert Carter, Constance Baker Motley, Jack Greenberg, Spottswood Robinson, Oliver Hill, Louis Redding, James Nabrit, and many others helped build a campaign that first targeted graduate and professional schools. Cases such as Missouri ex rel. Gaines, Sweatt v. Painter, and McLaurin v. Oklahoma showed that states could not easily maintain separate equality in higher education. That strategy tightened the logic around segregation until the question could no longer be avoided at the elementary and secondary school level.</p>
+<p>Brown was actually a group of cases. Briggs v. Elliott came from Clarendon County, South Carolina. Davis v. County School Board came from Prince Edward County, Virginia, where Black students had protested Moton High School&#039;s conditions. Brown v. Board came from Topeka, Kansas. Belton and Bulah v. Gebhart came from Delaware. Bolling v. Sharpe came from Washington, D.C., where the constitutional argument had to be framed under the Fifth Amendment because the Fourteenth Amendment applies to states. The cases were different, but together they made school segregation a national question rather than a problem safely confined to the South.</p>
+<p>The families carried risk. Their names appeared in lawsuits that challenged local power. In some communities, that meant job threats, credit pressure, intimidation, and social retaliation. The children carried a quieter cost: the pressure of becoming plaintiffs before they could fully understand the machinery around them. The case name made Oliver Brown famous, but the movement behind Brown was collective. It included named plaintiffs, unnamed organizers, teachers, churches, local NAACP chapters, and young people whose daily walk to school became evidence.</p>
+<p>In 1954, Chief Justice Earl Warren delivered a unanimous opinion. The Court ruled that state-imposed school segregation violated the Equal Protection Clause of the Fourteenth Amendment. Warren&#039;s opinion did more than compare buildings or budgets. It said segregation itself damaged public education because it marked Black children as inferior in a way that could affect their hearts and minds. The quoted line most often remembered from the decision is short and direct: separate educational facilities are inherently unequal.</p>
+<p>That ruling mattered. It broke the constitutional foundation of school segregation and gave civil-rights advocates a powerful legal tool. But the next question was enforcement. In 1955, Brown II ordered desegregation with &quot;all deliberate speed.&quot; That phrase became a doorway for delay. White officials used pupil placement laws, school-closing threats, private segregation academies, bureaucratic obstruction, and outright violence to slow or block compliance. Prince Edward County, Virginia, closed its public schools rather than integrate them, leaving Black children without public schooling for years.</p>
+<p>The popular version of Brown sometimes makes it sound as if law moved first and society followed. The fuller story is messier. Black organizing pushed the law. Then Black organizing had to push again when the law&#039;s victory was resisted. Federal courts, the Department of Justice, presidents, local officials, and communities all shaped how Brown would be applied. Some institutions moved only when forced. Others used delay as policy.</p>
+<p>Brown also exposed the limits of a school-only solution to racial inequality. School lines reflected housing segregation, tax bases, transportation, white flight, district boundaries, and political choices. Even after formal segregation fell, many students remained in racially isolated and unequally funded schools. That does not make Brown a failure. It means Brown was one necessary battle in a larger war over public goods and citizenship.</p>
+<p>To understand Brown well, the reader has to honor both the ruling and the people who made the ruling possible. It was a constitutional milestone, but it was also a record of ordinary families insisting that their children were not experiments in patience. Brown asked whether a democracy could educate children under a badge of inferiority and still call itself equal. The answer was no. The struggle was making the country act like it believed that answer.</p>
   </div>
 
   <div class="pull-quote">
-    <p>"In the field of public education, the doctrine of 'separate but equal' has no place. Separate educational facilities are inherently unequal."</p>
-    <cite>— Chief Justice Earl Warren, Brown v. Board of Education, May 17, 1954</cite>
+    <div class="pq-bar"></div>
+    <blockquote>Separate educational facilities are inherently unequal.</blockquote>
+    <cite>Chief Justice Earl Warren, Brown v. Board of Education, 1954</cite>
   </div>
 
-  <div class="why-matters">
-    <h4>Why This Matters</h4>
-    <p>Brown v. Board was not just a legal case. It was a declaration that the United States government had been wrong — constitutionally wrong — for 58 years since Plessy, and that Black children had the right to the same education as everyone else. It was the legal foundation of the entire Civil Rights Movement: Rosa Parks's arrest was one year later, the Montgomery Bus Boycott started the same year, the Civil Rights Act came a decade after. Thurgood Marshall went on to become the first Black Supreme Court Justice. Linda Brown, whose father's name is on the case, spent much of her adult life involved in education equity work. But the ruling also shows what legal victories alone cannot do: 70 years after Brown, American schools remain profoundly segregated by race and class — not by law, but by housing policy, funding structures, and political resistance. The decision was the beginning of the work, not the end.</p>
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost of Brown fell heavily on Black families who had already paid for unequal schools through taxes, labor, and stolen opportunity. Plaintiffs risked retaliation from employers, neighbors, banks, and school officials. Children became symbols in fights they did not create. In Virginia&#039;s Prince Edward County, public schools were closed for years rather than integrated, and Black students bore the damage of that political choice.</p>
+<p>The impact was still profound. Brown undermined the constitutional legitimacy of Jim Crow, energized civil-rights litigation, and forced the federal government to confront school segregation as a national issue. It also revealed that a court victory without determined enforcement can leave the hardest work to the people already injured by the system.</p>
   </div>
 
-  <div class="section-divider"><span>Connections</span></div>
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Brown matters today because school inequality did not disappear when the Court rejected legal segregation. Segregation now often travels through housing patterns, district lines, school funding, enrollment policies, discipline practices, and access to advanced coursework. The badge may look different, but the question remains: who receives public investment and who is expected to make do?</p>
+<p>The case also teaches readers to be careful with victory stories. Brown was a breakthrough, but its promise was delayed by &quot;all deliberate speed,&quot; local defiance, and federal hesitation. That history helps explain why rights on paper and rights in practice are not the same thing.</p>
+<p>A reader should leave Brown with respect for the Court&#039;s ruling, but even more respect for the families, lawyers, students, and organizers who forced the country to answer for what segregation did to children.</p>
+  </div>
 
+  <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-
-    <a href="../index.html?day=2026-02-05" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz · February 5</div>
-        <div class="quiz-link-title">Test your knowledge on Brown v. Board of Education</div>
+    <a href="../index.html?day=2026-02-05" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; February 5</div>
+        <div class="quiz-card-title">Open the daily challenge for Brown v. Board of Education</div>
       </div>
-      <span class="quiz-link-arrow">✊🏾</span>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"><!-- connections auto-generated by encyclopedia-data.js --></div>
-  </div>
-
-  <div class="section-divider"><span>Learn More</span></div>
-
-  <div class="external-section">
-    <div class="section-title">External Links</div>
-    <div class="external-links">
-      <a href="https://www.nps.gov/articles/brown-v-board-of-education.htm" target="_blank" rel="noopener" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">National Park Service</div>
-          <div class="ext-title">1954: Brown v. Board of Education — case history and national impact</div>
-        </div>
-        <span class="ext-arrow">↗</span>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/brown-v-board-plaintiffs.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Brown v. Board Plaintiffs</div>
+        <div class="connected-desc">Centers the families and students behind the case name.</div>
       </a>
-      <a href="https://www.history.com/articles/brown-v-board-of-education-of-topeka" target="_blank" rel="noopener" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">HISTORY.com</div>
-          <div class="ext-title">Brown v. Board of Education: Summary, Ruling & Impact</div>
-        </div>
-        <span class="ext-arrow">↗</span>
+<a href="../generated/pages/charles-hamilton-houston.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Charles Hamilton Houston</div>
+        <div class="connected-desc">Shows the legal strategy that made Brown possible.</div>
       </a>
-      <a href="https://www.history.com/articles/10-things-you-should-know-about-brown-v-board-of-education" target="_blank" rel="noopener" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">HISTORY.com</div>
-          <div class="ext-title">8 Things You Should Know About Brown v. Board of Education</div>
-        </div>
-        <span class="ext-arrow">↗</span>
+<a href="../encyclopedia/thurgood-marshall.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Thurgood Marshall</div>
+        <div class="connected-desc">Connects Brown to the lawyer who argued the case and later joined the Court.</div>
+      </a>
+<a href="../encyclopedia/ruby-bridges.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Ruby Bridges</div>
+        <div class="connected-desc">Follows the human cost of enforcement after the ruling.</div>
       </a>
     </div>
   </div>
 
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.archives.gov/education/lessons/brown-v-board" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">Brown v. Board of Education</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/brvb/learn/historyculture/fivecases.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">The Five Cases</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/brvb/learn/historyculture/mythtruth.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Myth or Truth: Brown v. Board</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.naacpldf.org/brown-vs-board/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">NAACP Legal Defense Fund</div>
+          <div class="ext-title">Brown v. Board of Education</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-
 <footer>
-  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

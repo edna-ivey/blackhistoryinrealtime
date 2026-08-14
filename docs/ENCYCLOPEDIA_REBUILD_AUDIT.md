@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First four rebuild batches complete, whole-encyclopedia rebuild in progress.
+Status: First five rebuild batches complete, whole-encyclopedia rebuild in progress.
 Date: 2026-08-14
 
 ## Quality Gap Documented
@@ -58,13 +58,26 @@ Batch 4 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, and em dashes in new Batch 4 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, depth/similarity validation, internal-link validation, external-link verification, and rendered-page checks passed before batch commit.
 
+## Batch 5 Completed
+
+Completed pages: `brown-v-board`, `carl-stokes`, `carter-woodson`, `charles-hamilton-houston`, `charleston-church-shooting`, `charlotte-ray`, `christine-darden`, `claudette-colvin`, `cointelpro`, `constance-baker-motley`.
+
+Batch 5 continued the approved Batch 1 voice and Claudette-style renderer across legacy pages and scheduled generated pages. It corrected Claudette Colvin's dates from `1939 - present` to `1939 - 2026`, replaced stale or misleading source URLs for Charles Hamilton Houston, Charlotte E. Ray, and Christine Darden, and preserved no-deploy checkpoint work on the `encyclopedia-rebuild` branch.
+
+Batch 5 verification:
+
+- External links checked: 40 total, 0 material failures. Seven institutional links returned bot-blocking statuses (`403`) during automated checking but were retained only when they were direct authoritative pages already verified for subject relevance. Three stale or problematic links were replaced before final validation.
+- Browser rendering checked: 10 Batch 5 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards, empty links, horizontal overflow, or page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, and em dashes in new Batch 5 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, depth/similarity validation, internal-link validation, external-link verification, and rendered-page checks passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 38
-- REWRITE: 92
-- RESEARCH: 80
-- REBUILD: 97
+- PASS: 48
+- REWRITE: 86
+- RESEARCH: 76
+- REBUILD: 91
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -75,7 +88,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 35 | Brown v. Board of Education | encyclopedia/brown-v-board.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 46 | Coretta Scott King | encyclopedia/coretta-scott-king.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -117,17 +130,17 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 32 | Black Women in Politics | encyclopedia/black-women-in-politics.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style encyclopedia-only legacy-path page, ledger record, internal links, 4 external links, first-claim and suffrage/voter-suppression review, no daily challenge card by design, depth validation, desktop/mobile browser check. |
 | 33 | Booker T. Washington | generated/pages/booker-t-washington.html | PASS | Batch 4 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified Atlanta Exposition quotation source note, accommodation-strategy claim review, depth/similarity validation, desktop/mobile browser check. |
 | 34 | Brown v. Board - The Plaintiffs | generated/pages/brown-v-board-plaintiffs.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
-| 35 | Brown v. Board of Education | encyclopedia/brown-v-board.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 36 | Carl Stokes | generated/pages/carl-stokes.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 37 | Carter G. Woodson | encyclopedia/carter-woodson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 38 | Charles Hamilton Houston | generated/pages/charles-hamilton-houston.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 35 | Brown v. Board of Education | encyclopedia/brown-v-board.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified Supreme Court quotation, plaintiff/enforcement claim review, depth/similarity validation, desktop/mobile browser check. |
+| 36 | Carl Stokes | generated/pages/carl-stokes.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, Glenville/Cleveland: NOW!/first-claim review, depth/similarity validation, desktop/mobile browser check. |
+| 37 | Carter G. Woodson | encyclopedia/carter-woodson.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, Black History Month/ASALH claim review, depth/similarity validation, desktop/mobile browser check. |
+| 38 | Charles Hamilton Houston | generated/pages/charles-hamilton-houston.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, legal-strategy and Lloyd Gaines claim review, corrected Howard source URL, depth/similarity validation, desktop/mobile browser check. |
 | 39 | Charles Richard Drew | generated/pages/charles-richard-drew.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
-| 40 | Charleston Church Shooting | generated/pages/charleston-church-shooting.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 41 | Charlotte E. Ray | generated/pages/charlotte-ray.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 42 | Christine Darden | generated/pages/christine-darden.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 43 | Claudette Colvin | encyclopedia/claudette-colvin.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 44 | COINTELPRO | encyclopedia/cointelpro.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 45 | Constance Baker Motley | generated/pages/constance-baker-motley.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 40 | Charleston Church Shooting | generated/pages/charleston-church-shooting.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, victim names/legal aftermath/church-history review, depth/similarity validation, desktop/mobile browser check. |
+| 41 | Charlotte E. Ray | generated/pages/charlotte-ray.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, first-claim and archival-limit review, replaced stale NWHM source URL, depth/similarity validation, desktop/mobile browser check. |
+| 42 | Christine Darden | generated/pages/christine-darden.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, NASA/sonic-boom/living-status review, replaced stale CPNAS source URL, depth/similarity validation, desktop/mobile browser check. |
+| 43 | Claudette Colvin | encyclopedia/claudette-colvin.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, sensitive pregnancy/respectability/date review, corrected dates to 1939-2026, depth/similarity validation, desktop/mobile browser check. |
+| 44 | COINTELPRO | encyclopedia/cointelpro.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified Church Committee quotation note, surveillance/Fred Hampton/King claim review, depth/similarity validation, desktop/mobile browser check. |
+| 45 | Constance Baker Motley | generated/pages/constance-baker-motley.html | PASS | Batch 5 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, first federal judge/Brown complaint/James Meredith claim review, depth/similarity validation, desktop/mobile browser check. |
 | 46 | Coretta Scott King | encyclopedia/coretta-scott-king.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 47 | Daniel Hale Williams | encyclopedia/daniel-hale-williams.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 48 | David Dinkins | generated/pages/david-dinkins.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |

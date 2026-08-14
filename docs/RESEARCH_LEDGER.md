@@ -446,11 +446,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-17 - Charleston Church Shooting
 
+- Entry title: Charleston Church Shooting
 - Slug: `charleston-church-shooting`
-- Core claims: Nine people welcomed a stranger into Bible study. He sat with them, then killed them because they were Black. On June 17, 2015, a white supremacist murdered nine worshippers at Mother Emanuel AME Church in Charleston, South Carolina, one of the oldest Black churches in the South. The attack renewed public attention to white supremacist violence and helped accelerate the removal of Confederate symbols from some public spaces.
-- Sources:
-  - https://www.justice.gov/opa/pr/dylann-roof-sentenced-death-federal-hate-crimes-and-firearms-charges-emanuel-ame-church
-  - https://www.nps.gov/places/mother-emanuel-ame-church.htm
+- Daily date: 2026-06-17
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: The Charleston church shooting was not only a mass murder inside a Bible study. It was an attack on a congregation with roots in Black independence, AME organizing, Denmark Vesey's world, Reconstruction memory, and modern civil-rights life. On June 17, 2015, a white supremacist entered Emanuel AME Church in Charleston, South Carolina, sat with worshipers, and killed nine Black people. The public story quickly moved toward forgiveness, flags, and national grief. Those things matter, but they can also soften what happened. This was racial terror in a sacred space, aimed at Black community life. A serious page has to name the victims, the church's history, the ideology, and the choices institutions made before and after the attack.
+- Primary or authoritative sources:
+  - https://home.nps.gov/places/south-carolina-mother-emanuel-ame-church.htm
+  - https://www.justice.gov/usao-sc/pr/federal-jury-sentences-dylann-storm-roof-death
+- Supporting secondary sources:
+  - https://www.fbi.gov/news/stories/seeking-suspect-in-church-shootings-in-charleston-south-carolina
+  - https://ldhi.library.cofc.edu/exhibits/show/mother-emanuel-tribute/overview
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Victim names, hate-crime convictions, death sentence, white supremacist motive, Confederate flag aftermath, forgiveness framing, and church history reviewed.
+- Material corrections made: Expanded daily fallback into a victim-centered and institution-centered history of Mother Emanuel, racial terror, legal aftermath, and public memory.
+- External links included on the page:
+  - National Park Service: Mother Emanuel AME Church (https://home.nps.gov/places/south-carolina-mother-emanuel-ame-church.htm)
+  - Department of Justice: Federal Jury Sentences Dylann Storm Roof to Death (https://www.justice.gov/usao-sc/pr/federal-jury-sentences-dylann-storm-roof-death)
+  - Federal Bureau of Investigation: Seeking Suspect in Charleston Church Shootings (https://www.fbi.gov/news/stories/seeking-suspect-in-church-shootings-in-charleston-south-carolina)
+  - Lowcountry Digital History Initiative: Mother Emanuel Tribute (https://ldhi.library.cofc.edu/exhibits/show/mother-emanuel-tribute/overview)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-18 - John Lewis
 
@@ -638,11 +654,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-07 - Charles Hamilton Houston
 
+- Entry title: Charles Hamilton Houston
 - Slug: `charles-hamilton-houston`
-- Core claims: Before Brown v. Board reached the Supreme Court, Charles Hamilton Houston was building the legal road that made it possible. Houston served as dean of Howard Law School and special counsel for the NAACP. He trained a generation of civil rights lawyers, including Thurgood Marshall. His strategy attacked segregated education by exposing the lie of separate but equal, case by case, record by record.
-- Sources:
+- Daily date: 2026-07-07
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Charles Hamilton Houston is often called the architect of the legal strategy that led to Brown v. Board of Education. That title is useful, but it can make his work sound cleaner than it was. Houston built lawyers, institutions, records, and arguments in a country where law had spent generations defending racial caste. He served in a segregated Army, transformed Howard University School of Law, trained Thurgood Marshall and others, and used graduate-school cases to expose the lie of "separate but equal." He died in 1950, before Brown was decided. His story matters because he shows that landmark victories usually rest on people who prepared the ground and did not live to stand in the spotlight.
+- Primary or authoritative sources:
+  - https://naacp.org/find-resources/history-explained/civil-rights-leaders/charles-hamilton-houston
   - https://nmaahc.si.edu/explore/stories/charles-hamilton-houston
+- Supporting secondary sources:
+  - https://law.howard.edu/charles-hamilton-houston-lecture-0
   - https://www.britannica.com/biography/Charles-Hamilton-Houston
+- Verified quotation source: NAACP Charles Hamilton Houston page.
+- Sensitive or disputed claims reviewed: Military racism, Gaines strategy, unresolved disappearance of Lloyd Gaines, social-engineer framing, and Brown legacy attribution reviewed.
+- Material corrections made: Expanded daily fallback into a deeper institutional and legal strategy account with attention to Howard Law and pre-Brown litigation.
+- External links included on the page:
+  - NAACP: Charles Hamilton Houston (https://naacp.org/find-resources/history-explained/civil-rights-leaders/charles-hamilton-houston)
+  - National Museum of African American History and Culture: Charles Hamilton Houston (https://nmaahc.si.edu/explore/stories/charles-hamilton-houston)
+  - Howard University School of Law: Charles Hamilton Houston Lecture (https://law.howard.edu/charles-hamilton-houston-lecture-0)
+  - Britannica: Charles Hamilton Houston (https://www.britannica.com/biography/Charles-Hamilton-Houston)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-08 - Black Codes
 
@@ -958,11 +990,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-04 - Carl Stokes
 
+- Entry title: Carl Stokes
 - Slug: `carl-stokes`
-- Core claims: Carl Stokes won power in a city where race, housing, policing, and poverty were already shaping the future of American politics. In 1967, Stokes was elected mayor of Cleveland, becoming the first Black mayor of a major U.S. city. His administration faced enormous pressures, including urban unrest, white backlash, environmental issues, and national scrutiny.
-- Sources:
+- Daily date: 2026-08-04
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Carl Stokes became mayor of Cleveland in 1967, making him the first Black elected mayor of a major U.S. city. That fact is true, but too small. Stokes came out of public housing, war service, law school, state politics, and a city strained by segregation, police violence, industrial change, and white political fear. His election was a breakthrough, but it was not a magic door. He had to govern a city where Black voters expected overdue change, white voters watched him suspiciously, business leaders measured him against their own interests, and national media treated his mayoralty as a referendum on Black political power. His story is about winning office, then discovering how much power still sat outside City Hall.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/carl-b-stokes.htm
   - https://case.edu/ech/articles/s/stokes-carl-b
-  - https://www.britannica.com/biography/Carl-Stokes
+- Supporting secondary sources:
+  - https://www.clevelandohio.gov/carl-b-stokes-day
+  - https://www.congress.gov/114/crec/2015/09/08/modified/CREC-2015-09-08-pt1-PgH5818.htm
+- Verified quotation source: National Park Service Carl B. Stokes page.
+- Sensitive or disputed claims reviewed: Glenville shootout, Cleveland: NOW! funding controversy, racial expectations of Black mayoral leadership, and "first major city" claim reviewed.
+- Material corrections made: Expanded scheduled fallback biography into a fuller account of urban politics, coalition-building, crisis, representation, and structural limits.
+- External links included on the page:
+  - National Park Service: Carl B. Stokes (https://www.nps.gov/people/carl-b-stokes.htm)
+  - Encyclopedia of Cleveland History: Carl B. Stokes (https://case.edu/ech/articles/s/stokes-carl-b)
+  - City of Cleveland: Carl B. Stokes Day (https://www.clevelandohio.gov/carl-b-stokes-day)
+  - Congressional Record: Honoring Louis Stokes and the Stokes family legacy (https://www.congress.gov/114/crec/2015/09/08/modified/CREC-2015-09-08-pt1-PgH5818.htm)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-05 - Voting Rights Act of 1965
 
@@ -1118,11 +1166,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-18 - Constance Baker Motley
 
+- Entry title: Constance Baker Motley
 - Slug: `constance-baker-motley`
-- Core claims: Constance Baker Motley walked into courtrooms across the South with legal arguments strong enough to move locked doors. As an NAACP Legal Defense Fund lawyer, Motley worked on school desegregation cases and represented civil rights activists, including James Meredith. In 1966, she became the first Black woman appointed as a federal judge.
-- Sources:
-  - https://www.uscourts.gov/news/2021/02/04/constance-baker-motley-judiciarys-unsung-rights-hero
-  - https://www.womenshistory.org/education-resources/biographies/constance-baker-motley
+- Daily date: 2026-08-18
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Constance Baker Motley argued civil-rights cases, wrote legal briefs, represented students and protesters, entered politics, and became the first Black woman appointed to the federal judiciary. Yet she is still too often treated as a supporting character in other people's stories. Motley helped write the first Brown v. Board complaint, represented James Meredith, defended Freedom Riders and sit-in activists, and won case after case against segregation. Her career shows what legal courage looks like when it is not theatrical: preparation, stamina, precision, and the willingness to walk into hostile courts with Black clients whose futures depended on the record she built.
+- Primary or authoritative sources:
+  - https://www.uscourts.gov/data-news/judiciary-news/2020/02/20/constance-baker-motley-judiciarys-unsung-rights-hero
+  - https://www.fjc.gov/history/judges/Motley-Constance-Baker
+- Supporting secondary sources:
+  - https://blackhistory.news.columbia.edu/people/constance-baker-motley
+  - https://civics.supremecourthistory.org/article/constance-baker-motley/
+- Verified quotation source: U.S. Courts article quoting Motley.
+- Sensitive or disputed claims reviewed: First Black woman federal judge claim, Brown complaint role, James Meredith litigation, electoral offices, and gendered professional barriers reviewed.
+- Material corrections made: Expanded scheduled fallback into a deeper account of litigation craft, movement law, political office, and judicial service.
+- External links included on the page:
+  - U.S. Courts: Constance Baker Motley: Judiciary's Unsung Rights Hero (https://www.uscourts.gov/data-news/judiciary-news/2020/02/20/constance-baker-motley-judiciarys-unsung-rights-hero)
+  - Federal Judicial Center: Motley, Constance Baker (https://www.fjc.gov/history/judges/Motley-Constance-Baker)
+  - Columbia University: Constance Baker Motley (https://blackhistory.news.columbia.edu/people/constance-baker-motley)
+  - Supreme Court Historical Society: Constance Baker Motley (https://civics.supremecourthistory.org/article/constance-baker-motley/)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-19 - Jane Bolin
 
@@ -1134,11 +1198,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-20 - Charlotte E. Ray
 
+- Entry title: Charlotte E. Ray
 - Slug: `charlotte-ray`
-- Core claims: Charlotte Ray entered law when both race and gender were treated as reasons to keep the door closed. Ray graduated from Howard University School of Law in 1872 and became the first Black woman lawyer in the United States. She opened a law practice, but discrimination made it nearly impossible to sustain. She later worked as a teacher and activist.
-- Sources:
-  - https://www.womenshistory.org/education-resources/biographies/charlotte-e-ray
-  - https://www.americanbar.org/groups/diversity/women/publications/perspectives/2019/january/charlotte-e-ray/
+- Daily date: 2026-08-20
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Charlotte E. Ray is frequently named as the first Black woman lawyer in the United States. That first matters, but the deeper story is about how narrow the doorway was. Ray graduated from Howard University's law program in 1872, was admitted to the District of Columbia bar, and opened a law practice at a time when racism and sexism worked together to make clients, courts, and professional networks difficult to reach. Her career in law appears to have been brief, not because the achievement was small, but because the barriers were so large. Ray's page matters because it asks what a "first" costs when the institution is not ready to let the first person fully work.
+- Primary or authoritative sources:
+  - https://www.americanbar.org/groups/government_public/resources/public-lawyer/2021-winter/black-women-lawyers-led-suffragists/
+  - https://www.justice.gov/archives/opa/speech/assistant-attorney-general-kenneth-polite-jr-delivers-remarks-first-annual-charlotte-e
+- Supporting secondary sources:
+  - https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/ray-charlotte-e-1850-1911
+  - https://www.history.com/articles/charlotte-e-ray-first-black-woman-attorney
+- Verified quotation source: No quotation included. Brief historical praise sometimes quoted in secondary accounts was omitted to avoid over-weighting a thin record.
+- Sensitive or disputed claims reviewed: First Black woman lawyer claim, possible use of initials, limited law-practice record, Gadley v. Gadley, and suffrage conference participation reviewed with cautious wording.
+- Material corrections made: Expanded scheduled fallback into a fuller account of legal access, archival limits, gendered racism, and the difference between admission and professional support.
+- External links included on the page:
+  - American Bar Association: Black Women Lawyers Led as Suffragists (https://www.americanbar.org/groups/government_public/resources/public-lawyer/2021-winter/black-women-lawyers-led-suffragists/)
+  - Department of Justice: First Annual Charlotte E. Ray Lecture remarks (https://www.justice.gov/archives/opa/speech/assistant-attorney-general-kenneth-polite-jr-delivers-remarks-first-annual-charlotte-e)
+  - Encyclopedia.com: Ray, Charlotte E. (1850-1911) (https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/ray-charlotte-e-1850-1911)
+  - History: Charlotte E. Ray, first Black woman attorney (https://www.history.com/articles/charlotte-e-ray-first-black-woman-attorney)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-21 - Mary Ann Shadd Cary
 
@@ -1198,11 +1278,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-26 - Christine Darden
 
+- Entry title: Christine Darden
 - Slug: `christine-darden`
-- Core claims: Christine Darden asked why women with math degrees were being kept from engineering work. Then she became the engineer. Darden worked at NASA Langley, moving from computer work into aerospace engineering. She became an expert in sonic boom research and supersonic flight. Her career later received wider attention through the expanded Hidden Figures story, alongside other Black women mathematicians and engineers.
-- Sources:
-  - https://www.nasa.gov/people/christine-darden/
-  - https://www.womenshistory.org/education-resources/biographies/christine-darden
+- Daily date: 2026-08-26
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Christine Darden's NASA story begins where many simplified science stories end: with brilliance finally recognized. But the deeper history is about what she had to push through before recognition arrived. Darden came to NASA's Langley Research Center in 1967 as a data analyst, one of the women doing technical work in a segregated and gendered institution. She wanted engineering assignments, asked for them directly, and became an aerospace engineer known for sonic boom research. Her career connects mathematics, persistence, management, and institutional change. She matters because she helps readers see that scientific achievement is not only discovery. It is also access to the room where questions get chosen.
+- Primary or authoritative sources:
+  - https://www.nasa.gov/image-article/christine-m-darden/
+  - https://www.congress.gov/116/crec/2019/09/19/modified/CREC-2019-09-19-pt1-PgH7812.htm
+- Supporting secondary sources:
+  - https://www.thehistorymakers.org/biography/christine-darden
+  - https://www.ncpedia.org/biography/darden-christine
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Current living status, sonic boom role, doctoral degree date, NASA job-title shift, and Hidden Figures recognition reviewed.
+- Material corrections made: Expanded scheduled fallback into a deeper account of engineering access, sonic boom research, and NASA institutional gender/race barriers.
+- External links included on the page:
+  - NASA: Christine M. Darden (https://www.nasa.gov/image-article/christine-m-darden/)
+  - Congressional Record: Recognizing Christine Darden and Hidden Figures honorees (https://www.congress.gov/116/crec/2019/09/19/modified/CREC-2019-09-19-pt1-PgH7812.htm)
+  - HistoryMakers: Christine Darden biography (https://www.thehistorymakers.org/biography/christine-darden)
+  - NCpedia: Darden, Christine Voncil Mann (https://www.ncpedia.org/biography/darden-christine)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-27 - Mary Jackson
 
@@ -1683,3 +1779,99 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Women's History Museum: Fannie Lou Hamer (https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer)
   - U.S. House History, Art & Archives: Shirley Chisholm biography (https://history.house.gov/People/Detail/10918)
 - Final review status: Batch 4 complete: independently researched rich source, Claudette-style encyclopedia-only page, ledger record, internal links, 4 external links, depth validation, desktop/mobile browser check.
+
+### 2026-02-05 - Brown v. Board of Education
+
+- Entry title: Brown v. Board of Education
+- Slug: `brown-v-board`
+- Daily date: 2026-02-05
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Brown v. Board of Education is often remembered as the day school segregation ended. The harder truth is that the decision named a constitutional wrong, then left Black families to fight school boards, governors, mobs, and delay tactics for years. Brown was not one case, one father, or one courtroom victory. It was five cases, dozens of families, student walkouts, local organizing, social science evidence, careful legal strategy, and a Supreme Court trying to speak with one voice. Its promise was enormous. Its enforcement was uneven. The page matters because Brown shows both the power of law and the danger of mistaking a legal ruling for the end of a system.
+- Primary or authoritative sources:
+  - https://www.archives.gov/education/lessons/brown-v-board
+  - https://www.nps.gov/brvb/learn/historyculture/fivecases.htm
+- Supporting secondary sources:
+  - https://www.nps.gov/brvb/learn/historyculture/mythtruth.htm
+  - https://www.naacpldf.org/brown-vs-board/
+- Verified quotation source: Brown v. Board of Education opinion, quoted by the National Archives and National Park Service.
+- Sensitive or disputed claims reviewed: Five-case consolidation, Brown II enforcement language, retaliation, Prince Edward County school closings, and limits of school desegregation reviewed.
+- Material corrections made: Replaced a narrow legal milestone page with a deeper account of collective plaintiffs, strategy, enforcement, backlash, and continuing inequality.
+- External links included on the page:
+  - National Archives: Brown v. Board of Education (https://www.archives.gov/education/lessons/brown-v-board)
+  - National Park Service: The Five Cases (https://www.nps.gov/brvb/learn/historyculture/fivecases.htm)
+  - National Park Service: Myth or Truth: Brown v. Board (https://www.nps.gov/brvb/learn/historyculture/mythtruth.htm)
+  - NAACP Legal Defense Fund: Brown v. Board of Education (https://www.naacpldf.org/brown-vs-board/)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-01 - Carter G. Woodson
+
+- Entry title: Carter G. Woodson
+- Slug: `carter-woodson`
+- Daily date: 2026-02-01
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Carter G. Woodson did not create Black History Month because Black history needed a holiday. He created a movement because American education had trained people to treat Black life as either absent or inferior. Woodson was a coal miner, teacher, scholar, editor, publisher, organizer, and institution-builder. He believed history was not decoration. It shaped what a people believed they could demand. Negro History Week, launched in 1926, was one piece of a larger project: archives, journals, textbooks, teachers, local study clubs, and public memory. The simplified version says he is the father of Black History Month. The deeper story says he built an intellectual infrastructure against erasure.
+- Primary or authoritative sources:
+  - https://www.nps.gov/cawo/learn/carter-g-woodson-biography.htm
+  - https://www.nps.gov/neri/learn/historyculture/carter-g-woodson.htm
+- Supporting secondary sources:
+  - https://asalh.org/about-us/about-black-history-month/
+  - https://nmaahc.si.edu/explore/stories/knowing-past-opens-door-future-continuing-importance-black-history-month
+- Verified quotation source: National Park Service New River Gorge page quoting Woodson on the purpose of Negro History Week.
+- Sensitive or disputed claims reviewed: Harvard Ph.D. first/second framing, Negro History Week date rationale, Black History Month continuity, and critique in The Mis-Education of the Negro reviewed.
+- Material corrections made: Deepened duplicate-cleanup-era legacy page into an institutional history of Woodson, ASALH, public history, and anti-erasure work.
+- External links included on the page:
+  - National Park Service: Carter G. Woodson Biography (https://www.nps.gov/cawo/learn/carter-g-woodson-biography.htm)
+  - National Park Service: Carter G. Woodson and Negro History Week (https://www.nps.gov/neri/learn/historyculture/carter-g-woodson.htm)
+  - Association for the Study of African American Life and History: About Black History Month (https://asalh.org/about-us/about-black-history-month/)
+  - National Museum of African American History and Culture: The Continuing Importance of Black History Month (https://nmaahc.si.edu/explore/stories/knowing-past-opens-door-future-continuing-importance-black-history-month)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-06 - Claudette Colvin
+
+- Entry title: Claudette Colvin
+- Slug: `claudette-colvin`
+- Daily date: 2026-03-06
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Claudette Colvin was 15 years old when she refused to give up her bus seat in Montgomery, Alabama, on March 2, 1955. That was nine months before Rosa Parks. The familiar version often asks why Colvin was not made the face of the bus boycott. The better question is what her story reveals about youth, respectability, gender, class, colorism, legal strategy, and public memory. Colvin was not a rehearsal for Parks. She was a teenager who acted from what she had been learning about Black history and citizenship, then lived with the consequences of being too young, too dark, too working-class, and later too complicated for the image movement leaders believed the moment required.
+- Primary or authoritative sources:
+  - https://www.womenshistory.org/articles/girl-who-acted-rosa-parks
+  - https://home.nps.gov/articles/montgomery-bus-boycott.htm
+- Supporting secondary sources:
+  - https://encyclopediaofalabama.org/article/claudette-colvin/
+  - https://www.claudettecolvinfoundation.com/about
+- Verified quotation source: National Women's History Museum account of Colvin recalling her refusal to move.
+- Sensitive or disputed claims reviewed: Pregnancy, age, colorism/respectability framing, juvenile record expungement, death date, and Colvin-versus-Parks simplification reviewed.
+- Material corrections made: Updated dates from 1939-present to 1939-2026 and rebuilt the reference page content while preserving Claudette-style presentation.
+- External links included on the page:
+  - National Women's History Museum: The Girl Who Acted Before Rosa Parks (https://www.womenshistory.org/articles/girl-who-acted-rosa-parks)
+  - National Park Service: Montgomery Bus Boycott (https://home.nps.gov/articles/montgomery-bus-boycott.htm)
+  - Encyclopedia of Alabama: Claudette Colvin (https://encyclopediaofalabama.org/article/claudette-colvin/)
+  - Claudette Colvin Foundation: About Claudette Colvin (https://www.claudettecolvinfoundation.com/about)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-08 - COINTELPRO
+
+- Entry title: COINTELPRO
+- Slug: `cointelpro`
+- Daily date: 2026-02-08
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: COINTELPRO was not a rumor about government surveillance. It was a set of FBI counterintelligence programs that targeted political groups inside the United States, including Black freedom organizations and leaders. From 1956 to 1971, the Bureau used infiltration, informants, forged letters, media manipulation, harassment, and disruption to weaken movements it labeled threats. Black activists were among the most aggressively targeted. The program matters because it reveals how the state can treat dissent as danger, especially when Black communities organize against racism, police violence, war, and poverty. The story is not paranoia. It is documented history.
+- Primary or authoritative sources:
+  - https://www.senate.gov/about/powers-procedures/investigations/church-committee.htm
+  - https://vault.fbi.gov/cointel-pro/cointel-pro-black-extremists/
+- Supporting secondary sources:
+  - https://www.archives.gov/research/african-americans/black-power/black-panthers
+  - https://www.archives.gov/research/jfk/select-committee-report/part-2d.html
+- Verified quotation source: U.S. Senate Church Committee history describing FBI covert action.
+- Sensitive or disputed claims reviewed: FBI program scope, King surveillance, Black Panther targeting, Fred Hampton connection, Media break-in, and reform claims reviewed.
+- Material corrections made: Expanded legacy surveillance summary into a documented account of tactics, targets, exposure, oversight, and democratic consequences.
+- External links included on the page:
+  - U.S. Senate: The Church Committee (https://www.senate.gov/about/powers-procedures/investigations/church-committee.htm)
+  - FBI Vault: COINTELPRO Black Extremist files (https://vault.fbi.gov/cointel-pro/cointel-pro-black-extremists/)
+  - National Archives: Black Panther Party selected records (https://www.archives.gov/research/african-americans/black-power/black-panthers)
+  - National Archives: Selected Committee report on Martin Luther King Jr. and COINTELPRO (https://www.archives.gov/research/jfk/select-committee-report/part-2d.html)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
