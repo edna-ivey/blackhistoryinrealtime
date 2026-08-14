@@ -1022,18 +1022,18 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Material factual claims: Annie Easley's career at NASA shows how technical history often hides the people who made systems work. She began as a human computer at the National Advisory Committee for Aeronautics, then taught herself and adapted as electronic computers changed the job around her. Easley wrote and tested code connected to the Centaur upper-stage rocket and later worked on energy technologies. Her story is not a fairy tale about loving math in a welcoming workplace. She faced discrimination, isolation, and shifting educational barriers, yet she kept learning. That persistence helped place her inside some of the most important aerospace and energy work of her era.
 - Primary or authoritative sources:
   - https://www.nasa.gov/general/annie-easley/
-  - https://historycollection.jsc.nasa.gov/JSCHistoryPortal/history/oral_histories/NASA_HQ/Herstory/EasleyAM/easleyam.htm
-- Supporting secondary sources:
   - https://www.nasa.gov/history/history-publications-and-resources/oral-histories/annie-easley-oral-history/
-  - https://www.nasa.gov/glenn/annie-easley/
-- Verified quotation source: NASA Johnson Space Center oral history interview with Annie Easley.
+- Supporting secondary sources:
+  - https://home.nps.gov/articles/000/places-of-hidden-figures.htm
+  - https://www.nasa.gov/women-at-nasa/
+- Verified quotation source: NASA oral history interview with Annie Easley.
 - Sensitive or disputed claims reviewed: Discrimination, tuition support denial, image removal, and Centaur work reviewed against NASA biography and oral history.
 - Material corrections made: Expanded the page from a short NASA profile into a computing, aerospace, energy, and workplace-history narrative.
 - External links included on the page:
   - NASA: Annie Easley biography (https://www.nasa.gov/general/annie-easley/)
   - NASA History: Annie Easley oral history excerpt (https://www.nasa.gov/history/history-publications-and-resources/oral-histories/annie-easley-oral-history/)
-  - NASA History: Annie Easley complete oral history interview (https://historycollection.jsc.nasa.gov/JSCHistoryPortal/history/oral_histories/NASA_HQ/Herstory/EasleyAM/easleyam.htm)
-  - NASA Glenn Research Center: Annie Easley NASA feature (https://www.nasa.gov/glenn/annie-easley/)
+  - National Park Service: Places of Hidden Figures: Annie Easley at NASA Lewis (https://home.nps.gov/articles/000/places-of-hidden-figures.htm)
+  - NASA: Women at NASA: Annie Easley oral history feature (https://www.nasa.gov/women-at-nasa/)
 - Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
 
 ### 2026-08-30 - Valerie Thomas
@@ -1053,7 +1053,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Writer/research status: first-batch-reviewed
 - Material factual claims: Patricia Bath understood blindness as both a medical problem and an access problem. She became an ophthalmologist, researcher, inventor, and public-health advocate whose work connected surgery to community care. Bath helped develop community ophthalmology, studied preventable blindness among underserved patients, and invented the Laserphaco Probe for cataract treatment. She is widely recognized as the first Black woman physician to receive a U.S. medical patent. The deeper story is not only the patent. It is the way she kept asking who gets sight-saving care, who is left waiting, and why technology matters less if it never reaches the people who need it.
 - Primary or authoritative sources:
-  - https://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_26.html
+  - https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_patricia-bath.html?id=item-25
   - https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/sights-prize
 - Supporting secondary sources:
   - https://www.womenshistory.org/education-resources/biographies/patricia-bath
@@ -1062,7 +1062,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Sensitive or disputed claims reviewed: Medical patent first claim, Laserphaco Probe claim, community ophthalmology, and health-access framing reviewed against NLM, USPTO, NWHM, and NIHF.
 - Material corrections made: Expanded the entry from a patent-centered daily summary to include public health, access, and community ophthalmology.
 - External links included on the page:
-  - National Library of Medicine: Changing the Face of Medicine: Patricia Bath (https://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_26.html)
+  - National Library of Medicine: Changing the Face of Medicine: Patricia Bath (https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_patricia-bath.html?id=item-25)
   - National Women's History Museum: Patricia Bath biography (https://www.womenshistory.org/education-resources/biographies/patricia-bath)
   - USPTO: Sights on the prize: Patricia Bath inventor profile (https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/sights-prize)
   - National Inventors Hall of Fame: Patricia Bath and the Laserphaco Probe (https://www.invent.org/inductees/patricia-bath)

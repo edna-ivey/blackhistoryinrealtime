@@ -28,6 +28,10 @@ Batch 1 added rich source records in `content/encyclopedia-rich/batch-1.js`, Cla
 - REMOVE: 0
 - BLOCKED: 0
 
+Classification note: `PASS`, `REWRITE`, and `RESEARCH` are the current primary editorial buckets. `REBUILD` is an overlapping layout/template flag, not an additional exclusive group of 110 pages. A page can be counted as `REWRITE, REBUILD` or `RESEARCH, REBUILD` when it needs both content/source work and Claudette-style template alignment. This is why the status counts do not add up to 210.
+
+Owner review gate: pause before Batch 2. The first eight rebuilt pages are awaiting owner review for voice, depth, visual presentation, and factual confidence before the same approach is repeated across the remaining encyclopedia.
+
 ## Continuation Checkpoint
 
 Next unfinished entry: | 1 | 1968 Olympic Black Power Salute | encyclopedia/black-power-salute.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
