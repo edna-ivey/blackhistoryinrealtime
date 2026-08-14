@@ -3,7 +3,7 @@ const path = require('path');
 const { DAILY_COVERAGE } = require('../content/daily/2026-coverage');
 const { escapeHTML } = require('./lib/utils');
 const { renderRichPage } = require('./lib/rich-encyclopedia-renderer');
-const { ENTRIES: RICH_ENTRIES } = require('../content/encyclopedia-rich/batch-1');
+const { ENTRIES: RICH_ENTRIES } = require('../content/encyclopedia-rich');
 
 const DAILY_OUTPUT = path.join(__dirname, '../generated/daily-data.js');
 const PAGES_DIR = path.join(__dirname, '../generated/pages');
@@ -138,6 +138,7 @@ function toPublicEntry(entry) {
 }
 
 function writeLedger(entries) {
+  const dailySlugs = new Set(entries.map(entry => entry.encyclopediaSlug));
   const rows = entries.map(entry => {
     const richEntry = richBySlug.get(entry.encyclopediaSlug);
     if (richEntry) {
@@ -167,7 +168,7 @@ ${supportingRows}
 - Material corrections made: ${richEntry.research.materialCorrections}
 - External links included on the page:
 ${sourceRows}
-- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.`;
+- Final review status: ${richEntry.research.finalStatus || 'Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.'}`;
     }
 
     const sourceRows = entry.sources.map(url => `  - ${url}`).join('\n');
@@ -177,7 +178,41 @@ ${sourceRows}
 - Core claims: ${entry.lede} ${entry.context} ${entry.turning}
 - Sources:
 ${sourceRows}`;
-  }).join('\n\n');
+  });
+
+  RICH_ENTRIES
+    .filter(entry => !dailySlugs.has(entry.encyclopediaSlug))
+    .forEach(richEntry => {
+      const sourceRows = (richEntry.externalLinks || [])
+        .map(link => `  - ${link.source}: ${link.title} (${link.url})`)
+        .join('\n');
+      const primaryRows = (richEntry.research.primarySources || [])
+        .map(url => `  - ${url}`)
+        .join('\n');
+      const supportingRows = (richEntry.research.supportingSources || [])
+        .map(url => `  - ${url}`)
+        .join('\n');
+      rows.push(`### ${richEntry.fullDate} - ${richEntry.subject}
+
+- Entry title: ${richEntry.subject}
+- Slug: \`${richEntry.encyclopediaSlug}\`
+- Daily date: ${richEntry.fullDate}
+- Date researched: ${richEntry.research.dateResearched || '2026-08-14'}
+- Writer/research status: ${richEntry.research.status}
+- Material factual claims: ${richEntry.summary}
+- Primary or authoritative sources:
+${primaryRows}
+- Supporting secondary sources:
+${supportingRows}
+- Verified quotation source: ${richEntry.research.verifiedQuoteSource}
+- Sensitive or disputed claims reviewed: ${richEntry.research.sensitiveClaimsReviewed}
+- Material corrections made: ${richEntry.research.materialCorrections}
+- External links included on the page:
+${sourceRows}
+- Final review status: ${richEntry.research.finalStatus || 'Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.'}`);
+    });
+
+  const rowContent = rows.join('\n\n');
 
   const content = `# Black History in Real Time - Research Ledger
 
@@ -185,7 +220,7 @@ Generated from \`content/daily/2026-coverage.js\`.
 
 Coverage file contains source URLs used to verify newly scheduled daily entries through August 31, 2026.
 
-${rows}
+${rowContent}
 `;
   fs.writeFileSync(LEDGER_OUTPUT, content, 'utf8');
 }

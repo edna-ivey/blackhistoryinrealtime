@@ -2,6 +2,7 @@ const fs   = require('fs');
 const path = require('path');
 const vm   = require('vm');
 const { escapeHTML } = require('./lib/utils');
+const { ENTRIES: RICH_ENTRIES } = require('../content/encyclopedia-rich');
 
 const LEGACY_DATA_PATH = path.join(__dirname, '../encyclopedia-data.js');
 const GENERATED_DATA_PATH = path.join(__dirname, '../generated/encyclopedia-data.js');
@@ -40,9 +41,21 @@ const dailyEntries = loadConstArray(DAILY_DATA_PATH, 'FUTURE_DAILY').map(e => ({
   tags: e.tags || [],
   desc: buildExcerpt(e.story, e.title),
 }));
+const richEntries = RICH_ENTRIES.map(e => ({
+  id: e.encyclopediaSlug,
+  name: e.subject,
+  url: e.outputPath || `generated/pages/${e.encyclopediaSlug}.html`,
+  pagePath: e.outputPath || `generated/pages/${e.encyclopediaSlug}.html`,
+  quizDay: e.fullDate,
+  vol: `${e.dailyDateLabel || e.fullDate} · ${e.category}`,
+  dates: e.dates,
+  category: e.category,
+  tags: e.tags || [],
+  desc: buildExcerpt(e.summary, e.subject),
+}));
 
 const seen = new Set();
-const entries = [...legacyEntries, ...generatedEntries, ...dailyEntries].filter(entry => {
+const entries = [...richEntries, ...legacyEntries, ...generatedEntries, ...dailyEntries].filter(entry => {
   const key = entry.pagePath || entry.id;
   if (!key || seen.has(key)) return false;
   seen.add(key);

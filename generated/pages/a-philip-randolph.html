@@ -3,533 +3,67 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A. Philip Randolph — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Labor leader and civil rights pioneer who forced FDR to desegregate wartime defense industries by threatening to march 100,000 Black workers on Washington — and later helped organize the 1963 March on Washington itself.">
+<title>A. Philip Randolph - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="A. Philip Randolph understood something many powerful people hoped Black workers would never learn: a credible threat can be a form of power. Before the 1963 March on Washington became famous, Randolph had already used the idea of a mass march to pressure President Franklin Roosevelt into banning discrimination in wartime defense hiring. That victory did not come from a single speech. It came from decades of labor organizing, socialist journalism, union-building, and a refusal to separate civil rights from wages. Randolph made presidents bargain because he had helped Black workers build institutions strong enough to be taken seriously.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --red: #C41E3A;
-    --black: #0A0A0A;
-    --green: #1A5C38;
-    --gold: #D4A017;
-    --orange: #E8621A;
-    --cream: #F5EDD8;
-    --white: #FAFAFA;
-    --card-bg: #161616;
-    --border: rgba(212,160,23,0.2);
-    --purple: #6B2D8B;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    background: var(--black);
-    color: var(--cream);
-    font-family: 'DM Sans', sans-serif;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  .pan-stripe { display: flex; height: 6px; width: 100%; }
-  .pan-stripe .s1 { background: var(--red); flex: 1; }
-  .pan-stripe .s2 { background: #111; flex: 1; }
-  .pan-stripe .s3 { background: var(--green); flex: 1; }
-
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 50;
-    background: rgba(10,10,10,0.97);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
-  }
-  .header-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 14px 32px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-  .logo-area {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    text-decoration: none;
-  }
-  .logo-img {
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 0 0 2px var(--gold), 0 0 20px rgba(212,160,23,0.3);
-    animation: glow 3s ease-in-out infinite;
-    flex-shrink: 0;
-  }
-  @keyframes glow {
-    0%,100% { box-shadow: 0 0 0 2px var(--gold), 0 0 16px rgba(212,160,23,0.3); }
-    50% { box-shadow: 0 0 0 2px var(--gold), 0 0 32px rgba(212,160,23,0.6); }
-  }
-  .logo-text h1 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 2px; color: var(--white); line-height: 1; }
-  .logo-text h1 span { color: var(--gold); }
-  .logo-text p { font-size: 0.65rem; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-top: 1px; }
-
-  nav {
-    border-top: 1px solid rgba(212,160,23,0.1);
-    display: flex;
-    justify-content: center;
-    gap: 0;
-    padding: 0 32px;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-  nav::-webkit-scrollbar { display: none; }
-  nav a {
-    background: none;
-    border: none;
-    border-bottom: 3px solid transparent;
-    color: rgba(245,237,216,0.45);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.78rem;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    padding: 12px 18px;
-    cursor: pointer;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-    display: inline-block;
-  }
-  nav a:hover { color: var(--cream); }
-  nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
-
-  /* BREADCRUMB */
-  .breadcrumb {
-    position: relative;
-    z-index: 1;
-    width: min(1180px, calc(100% - 64px));
-    max-width: none;
-    margin: 0 auto;
-    padding: 20px 32px 0;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.72rem;
-    letter-spacing: 1.5px;
-    color: rgba(245,237,216,0.35);
-  }
-  .breadcrumb a { color: rgba(212,160,23,0.6); text-decoration: none; transition: color 0.2s; }
-  .breadcrumb a:hover { color: var(--gold); }
-  .breadcrumb span { color: rgba(245,237,216,0.25); }
-
-  /* ENTRY LAYOUT */
-  main {
-    position: relative;
-    z-index: 1;
-    width: min(1180px, calc(100% - 64px));
-    max-width: none;
-    margin: 0 auto;
-    padding: 32px 0 100px;
-  }
-
-  /* HERO HEADER */
-  .entry-hero {
-    margin-bottom: 56px;
-    animation: fadeUp 0.5s ease both;
-  }
-  .entry-vol-label {
-    font-size: 0.68rem;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 16px;
-  }
-  .entry-name {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(2.4rem, 6vw, 4.6rem);
-    font-weight: 900;
-    color: var(--white);
-    line-height: 1.06;
-    margin-bottom: 18px;
-  }
-  .entry-tagline {
-    font-size: 1.2rem;
-    color: rgba(245,237,216,0.6);
-    line-height: 1.6;
-    margin-bottom: 24px;
-    font-style: italic;
-  }
-  .entry-badges {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    border-radius: 100px;
-    padding: 6px 14px;
-    font-size: 0.7rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-  .badge-cat { background: rgba(26,92,56,0.25); border: 1px solid rgba(26,92,56,0.5); color: #7dd6a0; }
-  .badge-dates { background: rgba(212,160,23,0.1); border: 1px solid rgba(212,160,23,0.3); color: var(--gold); }
-  .badge-vol { background: rgba(196,30,58,0.1); border: 1px solid rgba(196,30,58,0.3); color: #ff9999; }
-
-  /* DIVIDER */
-  .section-divider {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin: 56px 0 40px;
-  }
-  .section-divider::before, .section-divider::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(212,160,23,0.3), transparent);
-  }
-  .section-divider span {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 0.75rem;
-    letter-spacing: 5px;
-    color: rgba(212,160,23,0.5);
-    white-space: nowrap;
-  }
-
-  /* TIMELINE STRIP */
-  .timeline-strip {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 28px 32px;
-    display: flex;
-    gap: 0;
-    overflow-x: auto;
-    scrollbar-width: thin;
-    scrollbar-color: var(--gold) transparent;
-    margin-bottom: 52px;
-    animation: fadeUp 0.5s ease 0.1s both;
-  }
-  .timeline-item {
-    flex: 1;
-    min-width: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    padding: 8px 16px;
-  }
-  .timeline-item:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1px;
-    height: 60%;
-    background: rgba(212,160,23,0.2);
-  }
-  .tl-year {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem;
-    color: var(--gold);
-    line-height: 1;
-    margin-bottom: 6px;
-  }
-  .tl-event {
-    font-size: 0.78rem;
-    line-height: 1.5;
-    color: rgba(245,237,216,0.6);
-    text-align: center;
-  }
-
-  /* BIOGRAPHY */
-  .bio-section {
-    animation: fadeUp 0.5s ease 0.15s both;
-  }
-  .section-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.1rem;
-    letter-spacing: 5px;
-    color: var(--gold);
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  }
-  .bio-body p {
-    font-size: 1.125rem;
-    line-height: 1.85;
-    color: rgba(245,237,216,0.82);
-    margin-bottom: 26px;
-  }
-  .bio-body p:last-child { margin-bottom: 0; }
-
-  /* PULL QUOTE */
-  .pull-quote {
-    border-left: 4px solid var(--gold);
-    background: rgba(212,160,23,0.05);
-    padding: 24px 28px;
-    margin: 52px 0;
-    border-radius: 0 10px 10px 0;
-    animation: fadeUp 0.5s ease 0.2s both;
-  }
-  .pull-quote p {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 1.15rem;
-    color: var(--gold);
-    margin: 0 0 8px;
-    line-height: 1.65;
-  }
-  .pull-quote cite {
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-size: 0.72rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: rgba(212,160,23,0.5);
-  }
-
-  /* WAIT... WHAT?! */
-  .wait-what {
-    background: linear-gradient(135deg, rgba(212,160,23,0.08), rgba(180,120,0,0.04));
-    border: 1px solid rgba(212,160,23,0.3);
-    border-radius: 14px;
-    padding: 32px 34px;
-    margin: 52px 0;
-    animation: fadeUp 0.5s ease 0.2s both;
-  }
-  .wait-what h4 {
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 4px;
-    font-size: 0.85rem;
-    color: var(--gold);
-    margin-bottom: 14px;
-  }
-  .wait-what p { font-size: 1.05rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin: 0 0 16px; }
-  .wait-what p:last-child { margin-bottom: 0; }
-
-  /* COST / IMPACT */
-  .cost-impact {
-    background: linear-gradient(135deg, rgba(232,98,26,0.08), rgba(180,60,0,0.04));
-    border: 1px solid rgba(232,98,26,0.25);
-    border-radius: 14px;
-    padding: 32px 34px;
-    margin: 52px 0;
-    animation: fadeUp 0.5s ease 0.22s both;
-  }
-  .cost-impact h4 {
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 4px;
-    font-size: 0.85rem;
-    color: var(--orange);
-    margin-bottom: 14px;
-  }
-  .cost-impact p { font-size: 1.05rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin: 0 0 16px; }
-  .cost-impact p:last-child { margin-bottom: 0; }
-
-  /* Hide hero elements that have no content */
-  .entry-vol-label:empty { display: none; }
-  .entry-tagline:empty   { display: none; }
-  .badge-vol:empty       { display: none; }
-
-  /* WHY IT MATTERS */
-  .why-matters {
-    background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04));
-    border: 1px solid rgba(196,30,58,0.25);
-    border-radius: 14px;
-    padding: 32px 34px;
-    margin: 52px 0;
-    animation: fadeUp 0.5s ease 0.25s both;
-  }
-  .why-matters h4 {
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 4px;
-    font-size: 0.85rem;
-    color: var(--red);
-    margin-bottom: 14px;
-  }
-  .why-matters p {
-    font-size: 1.05rem;
-    line-height: 1.85;
-    color: rgba(245,237,216,0.78);
-    margin: 0;
-  }
-
-  /* CONNECTED TO */
-  .connected-section {
-    margin: 52px 0;
-    animation: fadeUp 0.5s ease 0.3s both;
-  }
-  .connected-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 12px;
-    margin-top: 18px;
-  }
-  .connected-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 16px 18px;
-    text-decoration: none;
-    display: block;
-    transition: all 0.2s;
-    position: relative;
-    overflow: hidden;
-  }
-  .connected-card::before {
-    content: '';
-    position: absolute;
-    left: 0; top: 0; bottom: 0;
-    width: 3px;
-    background: linear-gradient(180deg, var(--red), var(--gold));
-  }
-  .connected-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
-  .connected-type {
-    font-size: 0.6rem;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    color: rgba(212,160,23,0.55);
-    margin-bottom: 5px;
-  }
-  .connected-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 0.95rem;
-    font-weight: 700;
-    color: var(--white);
-    line-height: 1.3;
-    margin-bottom: 4px;
-  }
-  .connected-desc {
-    font-size: 0.78rem;
-    color: rgba(245,237,216,0.45);
-    line-height: 1.5;
-  }
-
-  /* QUIZ LINK */
-  .quiz-link-card {
-    background: linear-gradient(135deg, rgba(196,30,58,0.12), rgba(139,0,0,0.06));
-    border: 1px solid rgba(196,30,58,0.3);
-    border-radius: 12px;
-    padding: 18px 22px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    text-decoration: none;
-    transition: all 0.2s;
-    margin-top: 12px;
-  }
-  .quiz-link-card:hover { border-color: var(--red); transform: translateY(-2px); }
-  .quiz-link-left {}
-  .quiz-link-label { font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(196,30,58,0.7); margin-bottom: 4px; }
-  .quiz-link-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
-  .quiz-link-arrow { color: var(--red); font-size: 1.4rem; flex-shrink: 0; }
-
-  /* EXTERNAL LINKS */
-  .external-section {
-    margin: 36px 0;
-    animation: fadeUp 0.5s ease 0.35s both;
-  }
-  .external-links { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
-  .ext-link {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 16px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-  .ext-link:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
-  .ext-left {}
-  .ext-source { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 3px; }
-  .ext-title { font-size: 0.9rem; color: var(--cream); line-height: 1.35; }
-  .ext-arrow { color: var(--gold); opacity: 0.6; font-size: 1rem; flex-shrink: 0; }
-
-  /* BACK NAV */
-  .back-nav {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 32px;
-    animation: fadeUp 0.4s ease both;
-  }
-  .back-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(212,160,23,0.2);
-    border-radius: 100px;
-    padding: 8px 18px;
-    color: rgba(245,237,216,0.6);
-    font-size: 0.78rem;
-    letter-spacing: 1.5px;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-  .back-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(212,160,23,0.06); }
-
-  footer {
-    position: relative;
-    z-index: 1;
-    border-top: 1px solid rgba(212,160,23,0.15);
-    padding: 28px 32px;
-    text-align: center;
-  }
-  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
-  footer a { color: var(--gold); text-decoration: none; }
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  @media (max-width: 700px) {
-    main, .breadcrumb { width: calc(100% - 32px); }
-  }
-
-  @media (max-width: 620px) {
-    .header-inner { padding: 12px 16px; }
-    nav { padding: 0 16px; }
-    nav a { padding: 10px 12px; font-size: 0.72rem; }
-    main { padding: 24px 0 80px; }
-    .breadcrumb { padding: 16px 16px 0; }
-    .entry-name { font-size: 2rem; }
-    .connected-grid { grid-template-columns: 1fr; }
-    .timeline-strip { gap: 0; }
-  }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="a-philip-randolph">
-
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-
 <header>
   <div class="header-inner">
     <a class="logo-area" href="../../index.html">
       <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
-      <div class="logo-text">
-        <h1>Black<span>History</span></h1>
-        <p>In Real Time</p>
-      </div>
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -541,185 +75,139 @@
     <a href="../../index.html#about">About</a>
   </nav>
 </header>
-
-<div class="breadcrumb">
-  <a href="../../encyclopedia.html">Encyclopedia</a>
-  <span>›</span>
-  <span style="color:rgba(245,237,216,0.5)">A. Philip Randolph</span>
-</div>
-
 <main>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>May 1 &middot; Labor</span>
+  </div>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
 
-  <div class="back-nav">
-    <a href="../../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a>
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 1 &middot; Labor</div>
+    <h1>A. Philip Randolph</h1>
+    <p class="entry-tagline">A. Philip Randolph understood something many powerful people hoped Black workers would never learn: a credible threat can be a form of power. Before the 1963 March on Washington became famous, Randolph had already used the idea of a mass march to pressure President Franklin Roosevelt into banning discrimination in wartime defense hiring. That victory did not come from a single speech. It came from decades of labor organizing, socialist journalism, union-building, and a refusal to separate civil rights from wages. Randolph made presidents bargain because he had helped Black workers build institutions strong enough to be taken seriously.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1889 - 1979</span>
+    </div>
+    <div class="hero-bar"></div>
   </div>
 
-  <!-- ENTRY HERO -->
-  <div class="entry-hero">
-    <div class="entry-vol-label">May 1 · Labor &amp; Leadership</div>
-    <h1 class="entry-name">A. Philip Randolph</h1>
-    <p class="entry-tagline">The man who threatened a march and made a president blink.</p>
-    <div class="entry-badges">
-      <span class="badge badge-dates">1889 — 1979</span>
-      <span class="badge badge-cat">People</span>
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Apr 15, 1889</div><div class="tl-event">Born in Crescent City, Florida.</div></div>
+<div class="tl-item"><div class="tl-date">1911</div><div class="tl-event">Moves to New York City and becomes active in Harlem labor and socialist politics.</div></div>
+<div class="tl-item"><div class="tl-date">1917</div><div class="tl-event">Co-founds The Messenger with Chandler Owen.</div></div>
+<div class="tl-item"><div class="tl-date">1925</div><div class="tl-event">Begins organizing the Brotherhood of Sleeping Car Porters.</div></div>
+<div class="tl-item"><div class="tl-date">1937</div><div class="tl-event">The Brotherhood wins a collective bargaining agreement with the Pullman Company.</div></div>
+<div class="tl-item"><div class="tl-date">Jun 25, 1941</div><div class="tl-event">Roosevelt signs Executive Order 8802 after Randolph threatens a mass march on Washington.</div></div>
+<div class="tl-item"><div class="tl-date">1948</div><div class="tl-event">Truman signs Executive Order 9981, desegregating the armed forces after pressure from Randolph and others.</div></div>
+<div class="tl-item"><div class="tl-date">Aug 28, 1963</div><div class="tl-event">Randolph directs the March on Washington for Jobs and Freedom.</div></div>
+<div class="tl-item"><div class="tl-date">May 16, 1979</div><div class="tl-event">Dies in New York City.</div></div>
     </div>
   </div>
 
-  <!-- TIMELINE — rendered by generator from entry data; omitted if empty -->
-  <div class="timeline-strip">
-  <div class="timeline-item">
-    <div class="tl-year">1889</div>
-    <div class="tl-event">Born April 15 in Crescent City, Florida</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1917</div>
-    <div class="tl-event">Co-founds The Messenger, a socialist labor newspaper in Harlem</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1925</div>
-    <div class="tl-event">Founds the Brotherhood of Sleeping Car Porters</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1937</div>
-    <div class="tl-event">Brotherhood wins first collective bargaining agreement with the Pullman Company</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1941</div>
-    <div class="tl-event">Threatens 100,000-person march; FDR signs Executive Order 8802 desegregating defense work</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1948</div>
-    <div class="tl-event">Campaigns against military segregation; Truman signs Executive Order 9981</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1963</div>
-    <div class="tl-event">Serves as director of the March on Washington where Dr. King delivers &quot;I Have a Dream&quot;</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1979</div>
-    <div class="tl-event">Dies in New York City at age 90</div>
-  </div>
-</div>
-
-  <!-- BIOGRAPHY -->
   <div class="bio-section">
-    <div class="section-title">Full Biography</div>
-    <div class="bio-body"><p>The Pullman Palace Car Company ran sleeping cars on every major railroad in America, and for decades, every sleeping car porter on those trains was Black. It was one of the only stable jobs available to Black men after the Civil War. Porters worked brutally long hours, served wealthy white passengers, and were called &quot;George&quot; by customers who couldn't be bothered to learn their real names — a reference to George Pullman, the company's founder.</p>
-<p>Asa Philip Randolph was born on April 15, 1889, in Crescent City, Florida, the son of a minister who instilled in him the belief that self-respect was non-negotiable. He moved to New York City in 1911, educated himself further, and became involved in socialist politics. In 1917, he and his colleague Chandler Owen co-founded <em>The Messenger</em>, a labor newspaper that called for Black workers to organize and resist. The federal government called it &quot;the most dangerous magazine in America.&quot; The FBI watched Randolph for decades. He kept publishing.</p>
-<p>In 1925, Pullman porters came to him. They wanted help organizing a union. The job looked stable from the outside but was built on exploitation: porters often worked over 400 hours a month, earned poverty wages, and had no legal protection against firing, harassment, or abuse. They depended on tips from passengers for basic income.</p>
-<p>Randolph spent twelve years building the Brotherhood of Sleeping Car Porters. The Pullman Company was the largest private employer of Black workers in America and had every advantage: money, political connections, and the legal right to fire any worker who organized. Randolph had none of that. What he had was organizing skill, a newspaper, and the refusal to quit.</p>
-<p>In 1937, after twelve years, the Brotherhood won its first collective bargaining agreement — higher wages, capped hours, recognition as a union. It was the first such agreement ever won by a Black labor union in America. Randolph had turned a workforce of exploited porters into a political and economic force.</p>
-<p>Then came World War II.</p>
-<p>Defense factories were expanding rapidly, and the federal government was pouring money into wartime production. Black workers applied for jobs and were turned away. The discrimination was open and systemic. The NAACP filed complaints. The complaints went unanswered.</p>
-<p>Randolph decided to force the issue another way.</p>
-<p>He announced plans for a March on Washington — 100,000 Black Americans walking through the capital to demand an end to segregation in defense industries. He projected the number publicly and began building toward it. The march would embarrass a country claiming to defend democracy abroad while denying it at home.</p>
-<p>President Roosevelt, who needed Black political support and could not afford the international optics of a mass protest while preparing to fight fascism, summoned Randolph to the White House. Roosevelt asked what he wanted. Randolph presented a draft executive order. The negotiations went back and forth. Randolph did not back down.</p>
-<p>On June 25, 1941, Roosevelt signed Executive Order 8802, banning racial discrimination in hiring for wartime defense industries and federal agencies. The march was called off. The order established the Fair Employment Practice Committee to enforce the ban. It was the most significant federal action on civil rights since the Reconstruction era.</p>
-<p>Seven years later, Randolph turned his attention to the military. He announced that he would counsel Black men to refuse military service unless the U.S. armed forces desegregated. In 1948, with a presidential election approaching, President Harry Truman signed Executive Order 9981, formally ending segregation in the military.</p>
-<p>Randolph accomplished this twice — not by filing lawsuits, not by waiting for political goodwill, but by organizing enough power that refusal became more costly than compliance.</p>
-<p>On August 28, 1963, Randolph stood at the podium at the Lincoln Memorial as the director of the March on Washington for Jobs and Freedom. He was 74 years old. He had proposed the idea of this march in 1941, used its threat to win federal policy, and was now watching it finally happen at a scale he had always believed was possible. Martin Luther King Jr. delivered &quot;I Have a Dream&quot; on the same stage, after Randolph spoke.</p>
-<p>A. Philip Randolph died on May 16, 1979, in New York City. He had built Black labor power, twice forced presidential executive action on civil rights, and helped design the most famous protest march in American history. He did it through decades of methodical organizing, not a single dramatic moment.</p></div>
+    <div class="section-title">Full Story</div>
+<p>A. Philip Randolph built civil-rights power through labor. That matters because the popular memory of the movement often starts with church pulpits, courtrooms, or lunch counters. Randolph&#039;s world included all of that, but it also included railroads, sleeping cars, union halls, wage theft, tips, long hours, and the daily humiliations Black workers endured while making white comfort possible.</p>
+<p>Randolph was born in Florida in 1889 and moved to New York City in 1911. In Harlem he became a socialist, an editor, and a relentless critic of racial capitalism. With Chandler Owen, he published The Messenger, a magazine that challenged war, lynching, segregation, and exploitation. Federal officials watched him closely. Randolph was not asking simply for polite inclusion. He argued that Black freedom required economic power.</p>
+<p>That belief shaped his work with Pullman porters. The Pullman Company employed thousands of Black men as sleeping car porters. The job could look respectable from the outside, but it was built on low wages, dependence on tips, exhausting hours, and racial servility. Passengers often called porters &quot;George&quot; after company founder George Pullman, erasing their names while demanding careful service. Organizing a union meant challenging one of the most powerful companies in the country.</p>
+<p>In 1925, Randolph became president of the Brotherhood of Sleeping Car Porters. The fight took years. The company spied on workers, fired organizers, and used fear to break momentum. Randolph and the Brotherhood persisted through losses, legal obstacles, and internal strain. In 1937, the Brotherhood won a contract with Pullman. The victory mattered beyond wages. It proved that Black workers could build a national labor institution and force a corporate giant to negotiate.</p>
+<p>During World War II, Randolph turned that institutional power toward the federal government. Defense industries were hiring for war production, but Black workers were often shut out or trapped in the worst jobs. Randolph announced a March on Washington Movement and threatened to bring tens of thousands of Black Americans to the capital if Roosevelt did not act. The exact projected number shifted in public accounts, but the point was the same: the march was credible because Randolph had organizing roots.</p>
+<p>The proposed march also changed the scale of Black protest politics. Randolph was not asking a handful of leaders to meet quietly with the president. He was imagining a mass demonstration in the capital before the 1963 march made that image familiar. That was risky. Some civil-rights leaders worried about confrontation. Some labor allies were cautious. Randolph knew that without visible pressure, Black workers would be asked to wait while defense dollars built white household wealth.</p>
+<p>Roosevelt did not suddenly discover fairness. He faced political pressure. On June 25, 1941, he signed Executive Order 8802, banning discrimination in defense industries and creating the Fair Employment Practice Committee. The march was called off because the demand had produced federal action. Randolph had shown that Black protest could change presidential calculation before a crowd ever arrived.</p>
+<p>He used a similar strategy around military segregation. Randolph threatened civil disobedience against a segregated draft and kept pressure on President Harry Truman. In 1948, Truman signed Executive Order 9981. Randolph later helped lead the 1963 March on Washington for Jobs and Freedom. The &quot;Jobs&quot; in that title was not decoration. It came from organizers who understood that voting, dignity, housing, and work were tied together.</p>
+<p>Randolph&#039;s legacy is not only that he made presidents move. It is how he did it: by building durable worker institutions, connecting race and class, and treating Black workers as political actors rather than grateful recipients of reform. He made the federal government respond to organized Black labor.</p>
   </div>
 
-  <div class="wait-what">
-<h4>Wait... What?!</h4>
-<p>A. Philip Randolph threatened to march 100,000 Black workers on Washington in 1941 — and then called it off when Roosevelt agreed to desegregate defense industries.</p>
-<p>The march never happened.</p>
-<p>But it didn't need to. The threat was real because the union was real. Randolph had spent sixteen years building the Brotherhood of Sleeping Car Porters into a genuine political force. Roosevelt knew he could actually do it.</p>
-<p>Twenty-two years later, Randolph helped organize the actual March on Washington. He stood at the podium in 1963 at age 74. The idea he had been developing since 1941 finally happened on the largest scale in American history.</p>
-<p>He had been building toward that day for over two decades.</p>
-</div>
 
-  <div class="cost-impact">
-<h4>Cost / Impact</h4>
-<p>Randolph spent twelve years fighting the Pullman Company — the largest private employer of Black workers in America — before winning the Brotherhood's first labor contract in 1937. The company had every advantage. Randolph kept organizing anyway.</p>
-<p>The FBI surveilled him for decades. He was labeled a radical and called a communist for arguing that Black workers deserved the same wages and rights as white workers. During World War I, federal agents briefly arrested him for his antiwar views.</p>
-<p>The impact was permanent. Executive Order 8802 opened wartime defense industries to Black workers who had been locked out. Executive Order 9981 ended segregation in the military — a change that affected millions of Black Americans in the decades that followed. The March on Washington, which Randolph helped design and lead, is part of the permanent record of American democratic protest.</p>
-<p>He built the infrastructure that made each of these victories possible before any of them happened.</p>
-</div>
-
-  <!-- PULL QUOTE -->
-  <div class="pull-quote">
-    <p>Freedom is never given; it is won.</p>
-    <cite>— A. Philip Randolph</cite>
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Randolph paid for his politics with surveillance, hostility, and years of difficult organizing. The Pullman fight took more than a decade. Workers risked firings and retaliation. Randolph was repeatedly attacked as dangerous because he connected Black freedom to labor power and socialism.</p>
+<p>The impact was enormous. The Brotherhood raised wages and recognition for Pullman porters. Executive Order 8802 opened wartime defense jobs to Black workers and created a federal enforcement mechanism. Executive Order 9981 helped dismantle formal military segregation. The 1963 march put jobs and freedom in the same sentence before the whole country.</p>
   </div>
 
-  <!-- WHY IT MATTERS -->
-  <div class="why-matters">
-    <h4>Why This Matters</h4>
-    <p>Randolph demonstrated that organized power could force federal action even when the law was not on your side. His model — build real institutions, make credible demands, refuse to move — became the blueprint for modern civil rights strategy. The March on Washington of 1963, which defined the Civil Rights Movement for generations, was an idea he first proposed in 1941 and used as leverage before it ever took place.</p>
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Randolph matters because civil rights history is incomplete when it forgets work. He understood that the right to vote mattered, but so did who got hired, who got promoted, who could join a union, and who controlled the terms of labor. His politics refused to treat economic exploitation as separate from racism.</p>
+<p>His story also teaches strategy. Randolph did not rely on moral appeal alone. He built enough organized power that presidents had to count the cost of ignoring him. That is a different lesson from waiting for sympathetic leaders. It asks what institutions communities are building before the crisis arrives.</p>
+<p>The 1963 March on Washington is often remembered through one speech. Randolph helps restore the full frame: the march was for jobs and freedom, and it grew from decades of labor organizing before it became a national television moment.</p>
   </div>
 
-  <div class="section-divider"><span>Connections</span></div>
-
-  <!-- CONNECTED TO -->
+  <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-
-    <a href="../../index.html?day=2026-05-01" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz · 2026-05-01</div>
-        <div class="quiz-link-title">Test your knowledge on A. Philip Randolph</div>
+    <a href="../../index.html?day=2026-05-01" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; May 1</div>
+        <div class="quiz-card-title">Open the daily challenge for A. Philip Randolph</div>
       </div>
-      <span class="quiz-link-arrow">✊🏾</span>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"></div>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../generated/pages/voting-rights-act.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Voting Rights Act of 1965</div>
+        <div class="connected-desc">Shows how movement pressure became federal enforcement power.</div>
+      </a>
+<a href="../../encyclopedia/enslaved-labor.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Enslaved Labor and American Infrastructure</div>
+        <div class="connected-desc">Places Black labor at the center of American economic history.</div>
+      </a>
+<a href="../../generated/pages/john-lewis.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">John Lewis</div>
+        <div class="connected-desc">Connects the 1963 march to younger civil-rights leadership.</div>
+      </a>
+<a href="../../encyclopedia/madam-cj-walker.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Madam C.J. Walker</div>
+        <div class="connected-desc">Another example of Black economic institution-building.</div>
+      </a>
+    </div>
   </div>
 
   <div class="section-divider"><span>Learn More</span></div>
-
-  <!-- EXTERNAL LINKS — rendered by generator from entry data; omitted if empty -->
   <div class="external-section">
     <div class="section-title">External Links</div>
-    <div class="external-links"><a href="https://en.wikipedia.org/wiki/A._Philip_Randolph" class="ext-link" target="_blank" rel="noopener noreferrer">
-  <div class="ext-left">
-    <div class="ext-source">Wikipedia</div>
-    <div class="ext-title">A. Philip Randolph — biography and labor history</div>
+    <div class="external-links">
+<a href="https://www.nps.gov/people/a-philip-randolph.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">A. Philip Randolph biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.archives.gov/milestone-documents/executive-order-8802" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">Executive Order 8802</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://aflcio.org/about/history/labor-history-people/asa-philip-randolph" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">AFL-CIO</div>
+          <div class="ext-title">A. Philip Randolph and the Brotherhood of Sleeping Car Porters</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/exhibits/civil-rights-act/multimedia/randolph-challenges-fdr.html" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">A. Philip Randolph challenges President Franklin Roosevelt</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
   </div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.nps.gov/people/a-philip-randolph.htm" class="ext-link" target="_blank" rel="noopener noreferrer">
-  <div class="ext-left">
-    <div class="ext-source">National Park Service</div>
-    <div class="ext-title">A. Philip Randolph — NPS biography</div>
-  </div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.britannica.com/biography/A-Philip-Randolph" class="ext-link" target="_blank" rel="noopener noreferrer">
-  <div class="ext-left">
-    <div class="ext-source">Britannica</div>
-    <div class="ext-title">A. Philip Randolph — Britannica biography</div>
-  </div>
-  <span class="ext-arrow">&#x2197;</span>
-</a></div>
-  </div>
-
 </main>
-
 <footer>
-  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

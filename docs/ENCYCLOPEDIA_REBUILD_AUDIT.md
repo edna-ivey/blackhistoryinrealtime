@@ -1,7 +1,7 @@
 # Encyclopedia Rebuild Audit
 
-Status: First rebuild batch complete, whole-encyclopedia rebuild in progress.
-Date: 2026-08-13
+Status: First two rebuild batches complete, whole-encyclopedia rebuild in progress.
+Date: 2026-08-14
 
 ## Quality Gap Documented
 
@@ -17,24 +17,39 @@ Completed pages: `voting-rights-act`, `charles-richard-drew`, `fannie-lou-hamer-
 
 Batch 1 added rich source records in `content/encyclopedia-rich/batch-1.js`, Claudette-style rendering through `scripts/lib/rich-encyclopedia-renderer.js`, structured ledger output, and `scripts/validate-encyclopedia-depth.js` to guard completed rich pages against shallow or copied daily content.
 
+Owner review: approved. The owner reviewed the first eight rebuilt pages and responded, "Love them." Batch 1 is now the locked minimum standard for voice, depth, research quality, and Claudette-style presentation.
+
+## Batch 2 Completed
+
+Completed pages: `black-power-salute`, `a-philip-randolph`, `aave`, `alice-walker`, `althea-gibson`, `alvin-ailey`, `angela-davis`, `ann-lowe`, `annie-malone`, `arthur-mitchell`.
+
+Batch 2 expanded the rich-source architecture so both legacy-path pages and generated-path pages can be rebuilt from the same Claudette-style renderer. It added `content/encyclopedia-rich/batch-2.js`, a combined rich-entry index, rich-page generation, rich-entry index precedence, and ledger/depth validation support for legacy-path rich pages.
+
+Batch 2 verification:
+
+- External links checked: 40 total, 0 broken. Fifteen institutional links returned bot-blocking statuses (`403` or `429`) during automated checking but were retained only when they were direct authoritative pages already verified for subject relevance.
+- Browser rendering checked: 10 Batch 2 pages plus Claudette Colvin at desktop `1280x900` and mobile `390x844`, 22 page/viewport checks, 0 failures for required sections, image loading, empty links, horizontal overflow, or page console errors.
+- Copy-quality scan checked for banned generic phrases and em dashes in new Batch 2 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, and `git diff --check` passed after generation cleanup.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 8
-- REWRITE: 104
-- RESEARCH: 98
-- REBUILD: 110
+- PASS: 18
+- REWRITE: 98
+- RESEARCH: 94
+- REBUILD: 103
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
 
-Classification note: `PASS`, `REWRITE`, and `RESEARCH` are the current primary editorial buckets. `REBUILD` is an overlapping layout/template flag, not an additional exclusive group of 110 pages. A page can be counted as `REWRITE, REBUILD` or `RESEARCH, REBUILD` when it needs both content/source work and Claudette-style template alignment. This is why the status counts do not add up to 210.
+Classification note: `PASS`, `REWRITE`, and `RESEARCH` are the current primary editorial buckets. `REBUILD` is an overlapping layout/template flag, not an additional exclusive group of 103 pages. A page can be counted as `REWRITE, REBUILD` or `RESEARCH, REBUILD` when it needs both content/source work and Claudette-style template alignment. This is why the status counts do not add up to 210.
 
-Owner review gate: pause before Batch 2. The first eight rebuilt pages are awaiting owner review for voice, depth, visual presentation, and factual confidence before the same approach is repeated across the remaining encyclopedia.
+Owner review gate: cleared. Continue future batches using Batch 1 as the locked standard. Do not reduce depth, flatten the voice, weaken research standards, or mass-produce formulaic pages.
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 1 | 1968 Olympic Black Power Salute | encyclopedia/black-power-salute.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 13 | Assassination of Martin Luther King Jr. | encyclopedia/mlk-assassination.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -42,18 +57,18 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 
 | # | Entry | Path | Status | Deficiency / Required Action |
 |---|---|---|---|---|
-| 1 | 1968 Olympic Black Power Salute | encyclopedia/black-power-salute.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 2 | A. Philip Randolph | generated/pages/a-philip-randolph.html | RESEARCH, REBUILD | Markdown-generated page is stronger than fallback pages but still needs claim-by-claim verification, source ledger expansion, and Claudette visual/template alignment review. |
-| 3 | AAVE & Linguistic Culture | encyclopedia/aave.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 4 | Alice Walker | generated/pages/alice-walker.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 1 | 1968 Olympic Black Power Salute | encyclopedia/black-power-salute.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check. |
+| 2 | A. Philip Randolph | generated/pages/a-philip-randolph.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check. |
+| 3 | AAVE & Linguistic Culture | encyclopedia/aave.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check. |
+| 4 | Alice Walker | generated/pages/alice-walker.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check. |
 | 5 | Alma Thomas | generated/pages/alma-thomas.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
-| 6 | Althea Gibson | encyclopedia/althea-gibson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 7 | Alvin Ailey | generated/pages/alvin-ailey.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 8 | Angela Davis | generated/pages/angela-davis.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 9 | Ann Lowe | generated/pages/ann-lowe.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 6 | Althea Gibson | encyclopedia/althea-gibson.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, depth/similarity validation, desktop/mobile browser check. |
+| 7 | Alvin Ailey | generated/pages/alvin-ailey.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check. |
+| 8 | Angela Davis | generated/pages/angela-davis.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, sensitive claim review, depth/similarity validation, desktop/mobile browser check. |
+| 9 | Ann Lowe | generated/pages/ann-lowe.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, depth/similarity validation, desktop/mobile browser check. |
 | 10 | Annie Easley | generated/pages/annie-easley.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
-| 11 | Annie Malone | generated/pages/annie-malone.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 12 | Arthur Mitchell | generated/pages/arthur-mitchell.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 11 | Annie Malone | generated/pages/annie-malone.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check. |
+| 12 | Arthur Mitchell | generated/pages/arthur-mitchell.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check. |
 | 13 | Assassination of Martin Luther King Jr. | encyclopedia/mlk-assassination.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 14 | Audre Lorde | generated/pages/audre-lorde.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 15 | August Wilson | encyclopedia/august-wilson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |

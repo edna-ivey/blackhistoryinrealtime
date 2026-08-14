@@ -114,7 +114,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Park Service: Brown v. Board of Education National Historical Park (https://www.nps.gov/brvb/index.htm)
   - National Park Service: The Five Cases (https://www.nps.gov/brvb/learn/historyculture/fivecases.htm)
   - Oyez: Brown v. Board of Education case summary (https://www.oyez.org/cases/1940-1955/347us483)
-- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
+- Final review status: Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.
 
 ### 2026-05-18 - Plessy v. Ferguson
 
@@ -266,15 +266,31 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Library of Medicine: African American surgeons: Charles R. Drew (https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html)
   - National Library of Medicine: Father of the Blood Bank educational module (https://www.nlm.nih.gov/exhibition/education/charlesdrew/higheredrmizelle-class2.html)
   - National Library of Medicine: Charles Drew lesson plan noting the false death myth (https://www.nlm.nih.gov/exhibition/education/charlesdrew/lessonplan7-8.html)
-- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
+- Final review status: Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.
 
 ### 2026-06-04 - Angela Davis
 
+- Entry title: Angela Davis
 - Slug: `angela-davis`
-- Core claims: Angela Davis became a symbol not because she disappeared into fear, but because she made the whole world watch her trial. Davis was a scholar, organizer, and critic of racism, prisons, and capitalism. In 1970, she was charged in connection with a courthouse attack and placed on the FBI's Ten Most Wanted list. A global movement demanded her freedom. In 1972, she was acquitted of all charges and continued writing, teaching, and organizing against prisons and state violence.
-- Sources:
+- Daily date: 2026-06-04
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: Angela Davis became world-famous because the state tried to make her disappear into a criminal case. But her story did not begin with the FBI's Ten Most Wanted list, and it did not end with acquittal. Davis is a scholar, organizer, communist, feminist, and prison abolitionist whose life connects universities, surveillance, Black liberation politics, political imprisonment, and the modern critique of the prison-industrial complex. The famous trial matters because it showed how ideas, associations, and race could be turned into public fear. The longer story matters because Davis kept thinking and organizing after the spectacle moved on.
+- Primary or authoritative sources:
   - https://archives.fbi.gov/archives/news/stories/2010/october/davis_101310
-  - https://www.britannica.com/biography/Angela-Davis
+  - https://campusdirectory.ucsc.edu/cd_detail?guid=G000122719
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/object/nmaahc_2010.55.1
+  - https://criticalresistance.org/mission-vision/history/
+- Verified quotation source: No quotation included. Common Davis quotations were omitted pending stronger quote-context verification.
+- Sensitive or disputed claims reviewed: Criminal charges, Ten Most Wanted listing, acquittal, Communist Party membership, UCLA dispute, and abolitionist framing reviewed against FBI, UCSC, NWHM, and Critical Resistance sources.
+- Material corrections made: Expanded the daily entry beyond the trial into scholarship, academic freedom, surveillance, and prison abolition.
+- External links included on the page:
+  - FBI Records: Angela Davis and the FBI Ten Most Wanted list (https://archives.fbi.gov/archives/news/stories/2010/october/davis_101310)
+  - UC Santa Cruz: Angela Davis campus directory biography (https://campusdirectory.ucsc.edu/cd_detail?guid=G000122719)
+  - National Museum of African American History and Culture: Angela Davis collection object (https://nmaahc.si.edu/object/nmaahc_2010.55.1)
+  - Critical Resistance: Critical Resistance history and abolition organizing (https://criticalresistance.org/mission-vision/history/)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
 
 ### 2026-06-05 - Rosa Parks
 
@@ -310,11 +326,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-10 - Ann Lowe
 
+- Entry title: Ann Lowe
 - Slug: `ann-lowe`
-- Core claims: Ann Lowe designed gowns for some of America's wealthiest families, then watched society remember the brides and forget the Black woman who made them shine. Lowe was a master designer whose clients included elite families. She created Jacqueline Bouvier's wedding dress for her marriage to John F. Kennedy. A flood damaged the dresses days before the wedding, and Lowe's team remade them at enormous personal cost. For years, her role was barely credited publicly.
-- Sources:
+- Daily date: 2026-06-10
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: Ann Lowe designed for American high society while that same society often refused to say her name. Her gowns moved through debutante balls, weddings, and elite family rituals, including Jacqueline Bouvier's wedding to John F. Kennedy. The popular version usually stops there, at the famous dress. The deeper story is about Black craft labor, inherited skill, business risk, racial etiquette, and the way glamour can hide the hands that made it possible. Lowe was not a lucky seamstress near powerful people. She was a designer with a precise eye, a demanding standard, and a career built inside rooms that expected her brilliance but not her credit.
+- Primary or authoritative sources:
   - https://nmaahc.si.edu/explore/stories/ann-lowe
-  - https://www.metmuseum.org/art/collection/search/157825
+  - https://www.metmuseum.org/perspectives/ann-lowe
+- Supporting secondary sources:
+  - https://womenshistory.si.edu/herstory/ann-lowe
+  - https://americanhistory.si.edu/explore/stories/sewing-joy-ann-lowe
+- Verified quotation source: Smithsonian National Museum of African American History and Culture Ann Lowe profile.
+- Sensitive or disputed claims reviewed: Kennedy wedding dress credit, flood damage, segregated training, elite clientele, and financial consequences reviewed against museum sources.
+- Material corrections made: Expanded the daily entry from wedding-dress recognition to a broader account of Black craft labor, authorship, and fashion economics.
+- External links included on the page:
+  - National Museum of African American History and Culture: Ann Lowe: American couturier (https://nmaahc.si.edu/explore/stories/ann-lowe)
+  - Metropolitan Museum of Art: Ann Lowe and American couture (https://www.metmuseum.org/perspectives/ann-lowe)
+  - Smithsonian American Women's History Museum: Ann Lowe (https://womenshistory.si.edu/herstory/ann-lowe)
+  - National Museum of American History: Sewing for joy: Ann Lowe (https://americanhistory.si.edu/explore/stories/sewing-joy-ann-lowe)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
 
 ### 2026-06-11 - University of Alabama Integration
 
@@ -430,11 +462,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-25 - Alice Walker
 
+- Entry title: Alice Walker
 - Slug: `alice-walker`
-- Core claims: Alice Walker did not only write new stories. She went looking for the writers history had buried. Walker won the Pulitzer Prize for The Color Purple and coined the term womanist. Her fiction and essays explored Black women's interior lives, pain, survival, love, and creativity. She also helped bring renewed attention to Zora Neale Hurston, including locating and marking Hurston's grave. Recovery became part of her literary work.
-- Sources:
+- Daily date: 2026-06-25
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: Alice Walker is usually introduced through The Color Purple, and that book belongs at the center of her story. But Walker's larger work is about recovery: recovering Black women's interior lives, recovering a language for womanist thought, and recovering writers whose work had been pushed out of view. She helped return Zora Neale Hurston to public attention while building her own body of fiction, essays, poetry, and activism. Her page should not reduce her to a prize list. It should ask what it means to write when the people you need as ancestors have been buried by the archive.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/alice-walker
+  - https://www.loc.gov/item/94838388/
+- Supporting secondary sources:
   - https://www.poetryfoundation.org/poets/alice-walker
-  - https://www.womenshistory.org/education-resources/biographies/alice-walker
+  - https://www.georgiaencyclopedia.org/articles/arts-culture/alice-walker-b-1944/
+- Verified quotation source: Alice Walker, In Search of Our Mothers' Gardens, quoted in biographical and literary reference contexts.
+- Sensitive or disputed claims reviewed: Pulitzer and National Book Award claims, Hurston grave recovery, womanist language, and public controversy around The Color Purple reviewed against literary institution sources.
+- Material corrections made: Expanded the daily entry from Hurston recovery into Walker's broader literary, archival, and womanist work.
+- External links included on the page:
+  - Poetry Foundation: Alice Walker biography (https://www.poetryfoundation.org/poets/alice-walker)
+  - New Georgia Encyclopedia: Alice Walker biography (https://www.georgiaencyclopedia.org/articles/arts-culture/alice-walker-b-1944/)
+  - National Museum of African American History and Culture: Alice Walker biography (https://nmaahc.si.edu/alice-walker)
+  - Library of Congress: Alice Walker reads from her work (https://www.loc.gov/item/94838388/)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
 
 ### 2026-06-26 - The 54th Massachusetts Infantry
 
@@ -666,23 +714,55 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Museum of Women in the Arts: Alma Woodsey Thomas artist profile (https://nmwa.org/art/artists/alma-woodsey-thomas/)
   - Archives of American Art: Alma Thomas papers biographical note (https://www.aaa.si.edu/collections/alma-thomas-papers-9241/biographical-note)
   - Smithsonian American Art Museum: Composing Color: Paintings by Alma Thomas (https://americanart.si.edu/exhibitions/alma-thomas)
-- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
+- Final review status: Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.
 
 ### 2026-07-23 - Alvin Ailey
 
+- Entry title: Alvin Ailey
 - Slug: `alvin-ailey`
-- Core claims: Alvin Ailey put Black memory, church, blues, and modern dance onto stages around the world. Ailey founded Alvin Ailey American Dance Theater in 1958. His work Revelations drew from Black spirituals, gospel, and Southern memory. The company became one of the most important dance institutions in the world, carrying Black cultural experience as universal art.
-- Sources:
-  - https://www.alvinailey.org/alvin-ailey-american-dance-theater/alvin-ailey
+- Daily date: 2026-07-23
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: Alvin Ailey made modern dance carry Black memory without asking permission from ballet, Broadway, or white critics. His company, founded in 1958, became one of the most important dance institutions in the world. His masterpiece Revelations drew from spirituals, gospel, blues, church, grief, and Southern memory, but it did not freeze Black culture in the past. It moved. Ailey's story is about choreography, yes, but also about institution-building, touring, repertory, mentorship, and the idea that Black experience could stand on a world stage as universal without being diluted.
+- Primary or authoritative sources:
+  - https://ailey.org/people/alvin-ailey
+  - https://www.loc.gov/item/ihas.200217764/
+- Supporting secondary sources:
   - https://www.kennedy-center.org/artists/a/aa-an/alvin-ailey/
+  - https://ailey.org/repertory/revelations
+- Verified quotation source: No quotation included. Available Ailey quotations were not needed for the page and were not used without primary verification.
+- Sensitive or disputed claims reviewed: AIDS-era death context, cultural ambassador framing, Revelations chronology, and institutional continuity reviewed against Ailey, LOC, Kennedy Center, and NEA sources.
+- Material corrections made: Expanded the daily entry from Revelations into a fuller account of memory, repertory, touring, and institution-building.
+- External links included on the page:
+  - Alvin Ailey American Dance Theater: Alvin Ailey biography (https://ailey.org/people/alvin-ailey)
+  - Kennedy Center: Alvin Ailey artist profile (https://www.kennedy-center.org/artists/a/aa-an/alvin-ailey/)
+  - Library of Congress: Alvin Ailey American Dance Theater collection (https://www.loc.gov/item/ihas.200217764/)
+  - Alvin Ailey American Dance Theater: Revelations (https://ailey.org/repertory/revelations)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
 
 ### 2026-07-24 - Arthur Mitchell
 
+- Entry title: Arthur Mitchell
 - Slug: `arthur-mitchell`
-- Core claims: Arthur Mitchell had danced at the highest level of ballet. Then he built a school and company so Harlem children could see ballet as theirs too. Mitchell was a principal dancer with New York City Ballet and one of the first Black dancers to reach that level in a major ballet company. After King's assassination, he co-founded Dance Theatre of Harlem, combining classical discipline with a direct challenge to ballet's racial exclusions.
-- Sources:
+- Daily date: 2026-07-24
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: Arthur Mitchell broke into classical ballet and then refused to let his success remain a lonely exception. As a dancer with New York City Ballet, he became one of the first Black artists to hold principal status in a major ballet company. After Martin Luther King Jr. was assassinated, Mitchell returned to Harlem and helped build Dance Theatre of Harlem. That choice matters. He did not simply ask ballet to become more inclusive. He created a school and company that treated Harlem children as rightful heirs to classical discipline, beauty, and possibility.
+- Primary or authoritative sources:
   - https://www.dancetheatreofharlem.org/arthur-mitchell/
-  - https://www.britannica.com/biography/Arthur-Mitchell
+  - https://www.arts.gov/stories/magazine/2016/1/telling-all-our-stories-arts-and-diversity/arthur-mitchell
+- Supporting secondary sources:
+  - https://www.kennedy-center.org/artists/m/ma-mn/arthur-mitchell/
+  - https://www.loc.gov/item/ihas.200217761/
+- Verified quotation source: No quotation included. The page centers institution-building and avoids unsourced motivational quotations.
+- Sensitive or disputed claims reviewed: Principal dancer status, Agon role, founding chronology, King assassination context, and Dance Theatre of Harlem mission reviewed against DTH, NYCB, Kennedy Center, and LOC sources.
+- Material corrections made: Expanded the daily entry from founding fact to a deeper account of ballet access, Harlem training, and institution-building.
+- External links included on the page:
+  - Dance Theatre of Harlem: Arthur Mitchell biography (https://www.dancetheatreofharlem.org/arthur-mitchell/)
+  - National Endowment for the Arts: Arthur Mitchell interview and profile (https://www.arts.gov/stories/magazine/2016/1/telling-all-our-stories-arts-and-diversity/arthur-mitchell)
+  - Kennedy Center: Arthur Mitchell artist profile (https://www.kennedy-center.org/artists/m/ma-mn/arthur-mitchell/)
+  - Library of Congress: Arthur Mitchell and Dance Theatre of Harlem materials (https://www.loc.gov/item/ihas.200217761/)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
 
 ### 2026-07-25 - Muhammad Ali
 
@@ -750,11 +830,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-02 - Annie Malone
 
+- Entry title: Annie Malone
 - Slug: `annie-malone`
-- Core claims: Annie Malone built a beauty empire that trained thousands of Black women before history decided to make her name smaller than her impact. Malone developed hair-care products, founded Poro College in St. Louis, and created business opportunities for Black women in sales, beauty work, and entrepreneurship. Her company became a major employer and training network. Madam C.J. Walker once worked as a Poro sales agent before building her own brand.
-- Sources:
-  - https://www.nps.gov/people/annie-malone.htm
-  - https://www.womenshistory.org/education-resources/biographies/annie-turnbo-malone
+- Daily date: 2026-08-02
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: Annie Malone built one of the most important Black beauty businesses in the United States before history made her name too small. Poro was not just a product line. It was a training system, a sales network, an employer, a school, a social space, and a path into entrepreneurship for thousands of Black women. Malone's story also corrects a common shortcut: Madam C.J. Walker was not the beginning of Black hair-care enterprise. Walker once sold Poro products before building her own company. The deeper history is not a rivalry story. It is about Black women turning beauty work into economic infrastructure.
+- Primary or authoritative sources:
+  - https://historicmissourians.shsmo.org/annie-turnbo-malone/
+  - https://missouriencyclopedia.org/people/malone-annie-minerva-turnbo-pope
+- Supporting secondary sources:
+  - https://mohistory.org/blog/annie-malone/
+  - https://www.anniemalonehistoricalsociety.org/history.html
+- Verified quotation source: No quotation included. Better to omit than use unattributed business maxims repeated online.
+- Sensitive or disputed claims reviewed: Birth date, Poro College chronology, Walker connection, divorce/business conflict, philanthropy, and wealth framing reviewed against NPS, NWHM, Missouri Historical Society, and institutional history sources.
+- Material corrections made: Expanded the daily entry from a Walker comparison into a broader business infrastructure story.
+- External links included on the page:
+  - State Historical Society of Missouri: Annie Turnbo Malone biography (https://historicmissourians.shsmo.org/annie-turnbo-malone/)
+  - Missouri Encyclopedia: Annie Minerva Turnbo Pope Malone (https://missouriencyclopedia.org/people/malone-annie-minerva-turnbo-pope)
+  - Missouri Historical Society: Annie Malone and Poro College history (https://mohistory.org/blog/annie-malone/)
+  - Annie Malone Historical Society: History of Annie Malone and Poro College (https://www.anniemalonehistoricalsociety.org/history.html)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
 
 ### 2026-08-03 - Elizabeth Keckley
 
@@ -794,7 +890,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Archives: Legislative feature on the Voting Rights Act of 1965 (https://www.archives.gov/legislative/features/voting-rights-1965/vra.html)
   - National Park Service: Voting Rights Act of 1965 overview (https://home.nps.gov/articles/votingrightsact.htm)
   - Oyez: Shelby County v. Holder case summary (https://www.oyez.org/cases/2012/12-96)
-- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
+- Final review status: Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.
 
 ### 2026-08-06 - Fannie Lou Hamer and the MFDP
 
@@ -842,7 +938,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Park Service: Presidential proclamation for Birmingham Civil Rights National Monument (https://www.nps.gov/bicr/learn/proclamation.htm)
   - National Park Service: Birmingham Civil Rights National Monument getaway (https://www.nps.gov/articles/000/getaway-bicr.htm)
   - Birmingham Civil Rights Institute: Birmingham Civil Rights Institute (https://www.bcri.org/)
-- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
+- Final review status: Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.
 
 ### 2026-08-10 - The Little Rock Nine
 
@@ -890,7 +986,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Archives: Welcome remarks for Walk with Me: A Biography of Fannie Lou Hamer (https://www.archives.gov/about/speeches/2022/fannie-lou-hamer)
   - SNCC Digital Gateway: Fannie Lou Hamer profile (https://snccdigital.org/people/fannie-lou-hamer/)
   - Library of Congress: Civil Rights History Project collection (https://www.loc.gov/collections/civil-rights-history-project/about-this-collection/)
-- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
+- Final review status: Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.
 
 ### 2026-08-14 - Edward Brooke
 
@@ -1034,7 +1130,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - NASA History: Annie Easley oral history excerpt (https://www.nasa.gov/history/history-publications-and-resources/oral-histories/annie-easley-oral-history/)
   - National Park Service: Places of Hidden Figures: Annie Easley at NASA Lewis (https://home.nps.gov/articles/000/places-of-hidden-figures.htm)
   - NASA: Women at NASA: Annie Easley oral history feature (https://www.nasa.gov/women-at-nasa/)
-- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
+- Final review status: Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.
 
 ### 2026-08-30 - Valerie Thomas
 
@@ -1066,4 +1162,100 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Women's History Museum: Patricia Bath biography (https://www.womenshistory.org/education-resources/biographies/patricia-bath)
   - USPTO: Sights on the prize: Patricia Bath inventor profile (https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/sights-prize)
   - National Inventors Hall of Fame: Patricia Bath and the Laserphaco Probe (https://www.invent.org/inductees/patricia-bath)
-- Final review status: First rebuild batch complete. Requires later whole-encyclopedia final audit.
+- Final review status: Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.
+
+### 2026-04-19 - 1968 Olympic Black Power Salute
+
+- Entry title: 1968 Olympic Black Power Salute
+- Slug: `black-power-salute`
+- Daily date: 2026-04-19
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: The 1968 Olympic podium protest is often remembered as a single frozen image: Tommie Smith and John Carlos, heads bowed, black-gloved fists raised. The photograph matters, but it can make the action look spontaneous or only symbolic. It was connected to months of organizing by the Olympic Project for Human Rights, to debates among Black athletes about boycotting the Games, and to a wider challenge against racism in sports and American public life. Smith and Carlos did not simply interrupt a medal ceremony. They used the most visible athletic stage in the world to insist that winning a medal did not cancel the conditions Black people faced at home.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/explore/stories/1968-black-power-salute
+  - https://www.si.edu/stories/olympic-history
+- Supporting secondary sources:
+  - https://www.smithsonianmag.com/smithsonian-institution/what-you-dont-know-about-olympian-tommie-smiths-silent-gesture-180960056/
+  - https://usopm.org/hall-of-fame/
+- Verified quotation source: No quotation included. The page relies on documented action and consequences rather than a potentially overused quotation.
+- Sensitive or disputed claims reviewed: IOC and USOC punishment, OPHR demands, Peter Norman solidarity, and post-protest retaliation reviewed against museum and Olympic sources.
+- Material corrections made: Expanded the legacy summary into a movement-connected account of OPHR organizing, athlete debate, podium symbolism, and backlash.
+- External links included on the page:
+  - National Museum of African American History and Culture: The 1968 Black Power Salute (https://nmaahc.si.edu/explore/stories/1968-black-power-salute)
+  - Smithsonian Institution: Olympic history: Tommie Smith and John Carlos (https://www.si.edu/stories/olympic-history)
+  - Smithsonian Magazine: What you do not know about Tommie Smith's silent gesture (https://www.smithsonianmag.com/smithsonian-institution/what-you-dont-know-about-olympian-tommie-smiths-silent-gesture-180960056/)
+  - U.S. Olympic and Paralympic Museum: Tommie Smith and John Carlos Hall of Fame recognition (https://usopm.org/hall-of-fame/)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
+
+### 2026-05-01 - A. Philip Randolph
+
+- Entry title: A. Philip Randolph
+- Slug: `a-philip-randolph`
+- Daily date: 2026-05-01
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: A. Philip Randolph understood something many powerful people hoped Black workers would never learn: a credible threat can be a form of power. Before the 1963 March on Washington became famous, Randolph had already used the idea of a mass march to pressure President Franklin Roosevelt into banning discrimination in wartime defense hiring. That victory did not come from a single speech. It came from decades of labor organizing, socialist journalism, union-building, and a refusal to separate civil rights from wages. Randolph made presidents bargain because he had helped Black workers build institutions strong enough to be taken seriously.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/a-philip-randolph.htm
+  - https://www.archives.gov/milestone-documents/executive-order-8802
+- Supporting secondary sources:
+  - https://aflcio.org/about/history/labor-history-people/asa-philip-randolph
+  - https://www.loc.gov/exhibits/civil-rights-act/multimedia/randolph-challenges-fdr.html
+- Verified quotation source: No quotation included. The commonly repeated Randolph quote needs a stronger primary citation before reuse.
+- Sensitive or disputed claims reviewed: Executive order chronology, Brotherhood contract claim, Pullman working conditions, and march-threat framing reviewed against NPS, NARA, AFL-CIO, and LOC sources.
+- Material corrections made: Removed reliance on Wikipedia and reframed the page around labor institutions and credible organizing power.
+- External links included on the page:
+  - National Park Service: A. Philip Randolph biography (https://www.nps.gov/people/a-philip-randolph.htm)
+  - National Archives: Executive Order 8802 (https://www.archives.gov/milestone-documents/executive-order-8802)
+  - AFL-CIO: A. Philip Randolph and the Brotherhood of Sleeping Car Porters (https://aflcio.org/about/history/labor-history-people/asa-philip-randolph)
+  - Library of Congress: A. Philip Randolph challenges President Franklin Roosevelt (https://www.loc.gov/exhibits/civil-rights-act/multimedia/randolph-challenges-fdr.html)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
+
+### 2026-02-15 - AAVE and Linguistic Culture
+
+- Entry title: AAVE and Linguistic Culture
+- Slug: `aave`
+- Daily date: 2026-02-15
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: African American Vernacular English is not broken English. It is a rule-governed variety of English with its own grammar, sound patterns, history, and expressive range. The public argument over AAVE often tells us less about language than about power. Black speech is mocked as improper in classrooms and workplaces, then borrowed in music, advertising, comedy, sports media, and social platforms. An encyclopedia page has to hold both truths: AAVE is linguistically sophisticated, and the people who use it are often punished for a language the wider culture keeps taking from them.
+- Primary or authoritative sources:
+  - https://www.pbs.org/speak/seatosea/americanvarieties/AAVE/
+  - https://www.pbs.org/speak/seatosea/americanvarieties/AAVE/ebonics/
+- Supporting secondary sources:
+  - https://web.stanford.edu/~rickford/ebonics/
+  - https://oraal.github.io/
+- Verified quotation source: PBS Do You Speak American? African American English page.
+- Sensitive or disputed claims reviewed: Origins framed carefully because scholars disagree over creole-origin and dialect-origin emphasis. Linguistic discrimination and cultural appropriation claims stated as social analysis grounded in language scholarship.
+- Material corrections made: Rebuilt the legacy page with more caution around disputed origins and stronger separation between linguistic fact and social judgment.
+- External links included on the page:
+  - PBS: Do You Speak American? African American English (https://www.pbs.org/speak/seatosea/americanvarieties/AAVE/)
+  - PBS: Do You Speak American? The Ebonics controversy (https://www.pbs.org/speak/seatosea/americanvarieties/AAVE/ebonics/)
+  - Stanford University: John R. Rickford resources on Ebonics and African American English (https://web.stanford.edu/~rickford/ebonics/)
+  - University of Oregon: Online Resources for African American Language (https://oraal.github.io/)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
+
+### 2026-03-26 - Althea Gibson
+
+- Entry title: Althea Gibson
+- Slug: `althea-gibson`
+- Daily date: 2026-03-26
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: Althea Gibson was not simply the first Black player allowed into elite tennis. She became the best player in the world, then discovered that victory did not guarantee security. Gibson won the French Championships, Wimbledon, and the U.S. Nationals at a time when tennis was still shaped by amateur rules, country-club exclusion, and racial gatekeeping. She later integrated the LPGA as well. Her story is thrilling, but it is not a clean triumph story. It asks why a Black woman could win the sport's highest honors and still struggle to make a living from what she had done.
+- Primary or authoritative sources:
+  - https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson
+  - https://womenshistory.si.edu/herstory/althea-gibson
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/althea-gibson
+  - https://www.usga.org/content/usga/home-page/articles/2020/02/althea-gibson-broke-barriers-in-golf-too.html
+- Verified quotation source: Title and autobiographical statement from Gibson's memoir, I Always Wanted to Be Somebody, corroborated by institutional biographies.
+- Sensitive or disputed claims reviewed: First Black player claims, major-title chronology, financial difficulty, LPGA integration, and later-life hardship reviewed against tennis, women's history, Smithsonian, and LPGA sources.
+- Material corrections made: Preserved strong legacy content while deepening the economic analysis and community support context.
+- External links included on the page:
+  - International Tennis Hall of Fame: Althea Gibson biography (https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson)
+  - National Women's History Museum: Althea Gibson biography (https://www.womenshistory.org/education-resources/biographies/althea-gibson)
+  - Smithsonian American Women's History Museum: Althea Gibson (https://womenshistory.si.edu/herstory/althea-gibson)
+  - USGA: Althea Gibson and golf history (https://www.usga.org/content/usga/home-page/articles/2020/02/althea-gibson-broke-barriers-in-golf-too.html)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.

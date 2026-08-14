@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alvin Ailey - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Alvin Ailey put Black memory, church, blues, and modern dance onto stages around the world.">
+<meta name="description" content="Alvin Ailey made modern dance carry Black memory without asking permission from ballet, Broadway, or white critics. His company, founded in 1958, became one of the most important dance institutions in the world. His masterpiece Revelations drew from spirituals, gospel, blues, church, grief, and Southern memory, but it did not freeze Black culture in the past. It moved. Ailey&#039;s story is about choreography, yes, but also about institution-building, touring, repertory, mentorship, and the idea that Black experience could stand on a world stage as universal without being diluted.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="alvin-ailey">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,144 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Alvin Ailey</h2>
-  <div class="meta">
-    <span class="badge">1931 - 1989</span>
-    <span class="badge">Culture</span>
-    <span class="badge">2026-07-23</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>July 23 &middot; Culture</span>
   </div>
-  <article>
-    <p>Alvin Ailey put Black memory, church, blues, and modern dance onto stages around the world.</p><p>Ailey founded Alvin Ailey American Dance Theater in 1958. His work Revelations drew from Black spirituals, gospel, and Southern memory.</p><p>The company became one of the most important dance institutions in the world, carrying Black cultural experience as universal art.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Ailey matters because movement can hold history without speaking. His dances let the body remember.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">July 23 &middot; Culture</div>
+    <h1>Alvin Ailey</h1>
+    <p class="entry-tagline">Alvin Ailey made modern dance carry Black memory without asking permission from ballet, Broadway, or white critics. His company, founded in 1958, became one of the most important dance institutions in the world. His masterpiece Revelations drew from spirituals, gospel, blues, church, grief, and Southern memory, but it did not freeze Black culture in the past. It moved. Ailey&#039;s story is about choreography, yes, but also about institution-building, touring, repertory, mentorship, and the idea that Black experience could stand on a world stage as universal without being diluted.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1931 - 1989</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.alvinailey.org/alvin-ailey-american-dance-theater/alvin-ailey" target="_blank" rel="noopener noreferrer">https://www.alvinailey.org/alvin-ailey-american-dance-theater/alvin-ailey</a></li>
-<li><a href="https://www.kennedy-center.org/artists/a/aa-an/alvin-ailey/" target="_blank" rel="noopener noreferrer">https://www.kennedy-center.org/artists/a/aa-an/alvin-ailey/</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Jan 5, 1931</div><div class="tl-event">Born in Rogers, Texas.</div></div>
+<div class="tl-item"><div class="tl-date">1940s</div><div class="tl-event">Moves to Los Angeles and encounters concert dance.</div></div>
+<div class="tl-item"><div class="tl-date">1949</div><div class="tl-event">Studies with Lester Horton, whose company later becomes a major influence.</div></div>
+<div class="tl-item"><div class="tl-date">1954</div><div class="tl-event">Moves to New York and performs on Broadway.</div></div>
+<div class="tl-item"><div class="tl-date">1958</div><div class="tl-event">Founds Alvin Ailey American Dance Theater.</div></div>
+<div class="tl-item"><div class="tl-date">1960</div><div class="tl-event">Premieres Revelations.</div></div>
+<div class="tl-item"><div class="tl-date">1969</div><div class="tl-event">Establishes what becomes the Ailey School with Pearl Lang.</div></div>
+<div class="tl-item"><div class="tl-date">1974</div><div class="tl-event">Creates Cry for Judith Jamison.</div></div>
+<div class="tl-item"><div class="tl-date">Dec 1, 1989</div><div class="tl-event">Dies in New York City.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-07-23">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Alvin Ailey was born in rural Texas during the Great Depression. His early life included movement between towns, economic precarity, church services, music, and the sharp limits placed on Black life in the Jim Crow South. Those memories did not become background decoration in his work. They became part of its pulse: bodies bending, reaching, mourning, rejoicing, and carrying history through gesture.</p>
+<p>After moving to Los Angeles, Ailey encountered dance through performances by the Ballet Russe de Monte Carlo and through the work of Lester Horton. Horton&#039;s school and company were unusually multiracial for their time, and they gave Ailey a technical home. When Horton died suddenly in 1953, Ailey briefly directed the company, learning hard lessons about leadership before he was widely known as a choreographer.</p>
+<p>In New York, Ailey performed on Broadway and absorbed the city&#039;s artistic mix. In 1958 he founded Alvin Ailey American Dance Theater. The company did not simply present one man&#039;s choreography. It became a platform for Black dancers, modern dance, repertory, and touring. Ailey understood that institutions matter because talent needs a place to gather, train, travel, and be seen.</p>
+<p>Revelations, first performed in 1960, became his signature work. It drew on spirituals, gospel, blues, and memories of Black Southern church life. The piece moves through sorrow, endurance, baptism, community, and joy. It is accessible without being shallow, emotional without being sentimental. Audiences around the world have recognized themselves in it, but its roots remain specifically Black.</p>
+<p>The structure of Revelations is part of its teaching. It does not present Black history as only pain, and it does not skip pain in order to arrive at joy cheaply. The dancers pass through burden, prayer, water, heat, worship, humor, and release. The music does historical work too. Spirituals and gospel are not used as background sound. They carry theology, coded endurance, communal memory, and the timing of bodies that know when to bow and when to rise.</p>
+<p>Ailey resisted the idea that Black dance had to be narrow. His company performed his works and works by other choreographers. He made space for dancers with distinct bodies, presences, and stories. Judith Jamison became one of the company&#039;s great artists, and Ailey created Cry for her in 1971 as a tribute to Black women, including his mother. The work helped make Jamison an international figure and later a leader of the company.</p>
+<p>Running the company required Ailey to become more than an artist. He had to think about boards, bookings, dancers&#039; bodies, donors, critics, repertory rights, and the expectations placed on a Black company that was praised as ambassadorial while still fighting for resources. That labor can vanish behind the beauty of performance. The curtain goes up, and the institution looks inevitable. It was not. It had to be made and remade season after season.</p>
+<p>Ailey also made room for contradiction in Black performance. His work could be tender, sensual, grieving, funny, and devotional. It did not ask dancers to represent only uplift. That range mattered because Black performers were often pressured either to entertain without politics or to carry politics without pleasure. Ailey gave his company a wider emotional vocabulary.</p>
+<p>The company toured extensively, including as a cultural ambassador for the United States. That role was complicated. A Black-led company could represent American creativity abroad while racism persisted at home. Ailey used the opportunity without pretending the contradiction did not exist. His dancers carried Black artistry into global venues that had rarely centered it.</p>
+<p>Ailey died in 1989, during the AIDS crisis. His death was publicly attributed at the time in ways shaped by stigma and privacy. The company he built continued under Judith Jamison and later leaders. That continuation is part of his achievement. Ailey did not only choreograph dances that survived. He built an institution capable of carrying Black modern dance into the future.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Ailey carried the cost of building a Black dance institution in a field with limited funding, narrow expectations, and intense pressure. Touring was exhausting. Leadership meant balancing art, money, dancers&#039; needs, critics, and public representation. His private life and death also unfolded in a period when stigma around sexuality and AIDS shaped what could be said publicly.</p>
+<p>The impact is immense. Alvin Ailey American Dance Theater changed who could imagine themselves in concert dance, brought Black cultural memory to global stages, and trained generations of dancers. Revelations remains one of the most performed and recognized works in modern dance.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Ailey matters today because he showed that cultural specificity can be a route to universality, not an obstacle to it. Revelations reaches audiences across languages and countries because it is deeply rooted, not because it is vague. The more honestly it carries Black Southern memory, the more powerful it becomes.</p>
+<p>His institution-building also matters. Individual genius can inspire, but institutions keep doors open after the founder is gone. Ailey built a company and training world that allowed Black dancers to be more than occasional exceptions.</p>
+<p>The page should leave readers understanding that dance is historical evidence. Bodies remember church, labor, migration, grief, style, discipline, and joy. Ailey gave that memory a stage.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-07-23" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; July 23</div>
+        <div class="quiz-card-title">Open the daily challenge for Alvin Ailey</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../generated/pages/arthur-mitchell.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Arthur Mitchell</div>
+        <div class="connected-desc">Another dancer who built an institution to challenge exclusion.</div>
+      </a>
+<a href="../../generated/pages/black-arts-movement.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Arts Movement</div>
+        <div class="connected-desc">The wider cultural assertion of Black art for Black audiences and the world.</div>
+      </a>
+<a href="../../encyclopedia/black-dance.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Dance Culture</div>
+        <div class="connected-desc">Connects Ailey to a broader history of Black movement and style.</div>
+      </a>
+<a href="../../encyclopedia/duke-ellington.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Duke Ellington</div>
+        <div class="connected-desc">Another artist who made Black cultural forms travel globally.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://ailey.org/people/alvin-ailey" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Alvin Ailey American Dance Theater</div>
+          <div class="ext-title">Alvin Ailey biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.kennedy-center.org/artists/a/aa-an/alvin-ailey/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Kennedy Center</div>
+          <div class="ext-title">Alvin Ailey artist profile</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/item/ihas.200217764/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Alvin Ailey American Dance Theater collection</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://ailey.org/repertory/revelations" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Alvin Ailey American Dance Theater</div>
+          <div class="ext-title">Revelations</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

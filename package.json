@@ -7,11 +7,12 @@
     "validate": "node scripts/validate-content.js && node scripts/validate-daily-data.js --source-only",
     "validate:encyclopedia": "node scripts/validate-encyclopedia-index.js",
     "validate:encyclopedia-depth": "node scripts/validate-encyclopedia-depth.js",
-    "generate": "npm run validate && npm run generate:legacy-pages && npm run generate:pages && npm run generate:data && npm run generate:daily && npm run generate:index && node scripts/validate-daily-data.js && npm run validate:encyclopedia && npm run validate:encyclopedia-depth",
+    "generate": "npm run validate && npm run generate:legacy-pages && npm run generate:pages && npm run generate:data && npm run generate:daily && npm run generate:rich-pages && npm run generate:index && node scripts/validate-daily-data.js && npm run validate:encyclopedia && npm run validate:encyclopedia-depth",
     "generate:legacy-pages": "node scripts/generate-missing-legacy-pages.js",
     "generate:pages": "node scripts/generate-pages.js",
     "generate:data": "node scripts/generate-data.js",
     "generate:daily": "node scripts/generate-daily-data.js",
+    "generate:rich-pages": "node scripts/generate-rich-encyclopedia-pages.js",
     "generate:index": "node scripts/generate-encyclopedia-index.js",
     "check-links": "node scripts/check-links.js",
     "test": "npm run validate && npm run generate"

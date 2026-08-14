@@ -22,9 +22,14 @@ function renderQuote(quote) {
   </div>`;
 }
 
-function renderConnected(links) {
+function resolveHref(href, basePath) {
+  if (href && href.startsWith('@root/')) return `${basePath}${href.slice(6)}`;
+  return href;
+}
+
+function renderConnected(links, basePath) {
   return (links || [])
-    .map(link => `<a href="${escapeHTML(link.href)}" class="connected-card">
+    .map(link => `<a href="${escapeHTML(resolveHref(link.href, basePath))}" class="connected-card">
         <div class="connected-type">${escapeHTML(link.type || 'Related Entry')}</div>
         <div class="connected-name">${escapeHTML(link.title)}</div>
         <div class="connected-desc">${escapeHTML(link.description || '')}</div>
@@ -46,8 +51,9 @@ function renderExternal(links) {
 
 function renderRichPage(entry) {
   const dateLabel = entry.dailyDateLabel || entry.fullDate;
+  const basePath = entry.basePath || '../../';
   const quoteHtml = renderQuote(entry.quote);
-  const relatedHtml = renderConnected(entry.connected);
+  const relatedHtml = renderConnected(entry.connected, basePath);
   const externalHtml = renderExternal(entry.externalLinks);
 
   return `<!DOCTYPE html>
@@ -113,27 +119,27 @@ function renderRichPage(entry) {
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo-area" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+    <a class="logo-area" href="${basePath}index.html">
+      <img src="${basePath}logo.png" alt="Black History in Real Time" class="logo-img">
       <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
-    <a href="../../index.html">Today</a>
-    <a href="../../index.html#now">Making History Now</a>
-    <a href="../../index.html#calendar">Calendar</a>
-    <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
-    <a href="../../index.html#about">About</a>
+    <a href="${basePath}index.html">Today</a>
+    <a href="${basePath}index.html#now">Making History Now</a>
+    <a href="${basePath}index.html#calendar">Calendar</a>
+    <a href="${basePath}index.html#archive">Archive</a>
+    <a href="${basePath}encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="${basePath}index.html#about">About</a>
   </nav>
 </header>
 <main>
   <div class="breadcrumb">
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="${basePath}encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
     <span>${escapeHTML(dateLabel)} &middot; ${escapeHTML(entry.category)}</span>
   </div>
-  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+  <a href="${basePath}encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
 
   <div class="entry-hero">
     <div class="entry-vol-label">${escapeHTML(dateLabel)} &middot; ${escapeHTML(entry.category)}</div>
@@ -158,8 +164,7 @@ ${renderTimeline(entry.timeline)}
 ${paragraphs(entry.fullStory)}
   </div>
 
-  ${quoteHtml}
-
+${quoteHtml ? `  ${quoteHtml}\n` : ''}
   <div class="cost-section">
     <div class="cost-label">Cost / Impact</div>
 ${paragraphs(entry.costImpact)}
@@ -173,7 +178,7 @@ ${paragraphs(entry.whyItMattersToday)}
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../../index.html?day=${escapeHTML(entry.fullDate)}" class="quiz-card">
+    <a href="${basePath}index.html?day=${escapeHTML(entry.fullDate)}" class="quiz-card">
       <div class="quiz-card-left">
         <div class="quiz-card-label">Take the Challenge &middot; ${escapeHTML(dateLabel)}</div>
         <div class="quiz-card-title">Open the daily challenge for ${escapeHTML(entry.subject)}</div>
@@ -194,7 +199,7 @@ ${externalHtml}
   </div>
 </main>
 <footer>
-  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <p>&copy; 2026 <a href="${basePath}index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
 </body>
