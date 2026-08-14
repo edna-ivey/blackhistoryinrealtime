@@ -49,12 +49,24 @@ function renderExternal(links) {
     .join('\n');
 }
 
+function renderQuizCard(entry, basePath, dateLabel) {
+  if (!entry.fullDate) return '';
+  return `    <a href="${basePath}index.html?day=${escapeHTML(entry.fullDate)}" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; ${escapeHTML(dateLabel)}</div>
+        <div class="quiz-card-title">Open the daily challenge for ${escapeHTML(entry.subject)}</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>`;
+}
+
 function renderRichPage(entry) {
   const dateLabel = entry.dailyDateLabel || entry.fullDate;
   const basePath = entry.basePath || '../../';
   const quoteHtml = renderQuote(entry.quote);
   const relatedHtml = renderConnected(entry.connected, basePath);
   const externalHtml = renderExternal(entry.externalLinks);
+  const quizHtml = renderQuizCard(entry, basePath, dateLabel);
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -178,13 +190,7 @@ ${paragraphs(entry.whyItMattersToday)}
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="${basePath}index.html?day=${escapeHTML(entry.fullDate)}" class="quiz-card">
-      <div class="quiz-card-left">
-        <div class="quiz-card-label">Take the Challenge &middot; ${escapeHTML(dateLabel)}</div>
-        <div class="quiz-card-title">Open the daily challenge for ${escapeHTML(entry.subject)}</div>
-      </div>
-      <div class="quiz-card-icon">&#x2192;</div>
-    </a>
+${quizHtml}
     <div class="connected-grid" style="margin-top:0;">
 ${relatedHtml}
     </div>

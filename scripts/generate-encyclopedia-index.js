@@ -47,7 +47,7 @@ const richEntries = RICH_ENTRIES.map(e => ({
   url: e.outputPath || `generated/pages/${e.encyclopediaSlug}.html`,
   pagePath: e.outputPath || `generated/pages/${e.encyclopediaSlug}.html`,
   quizDay: e.fullDate,
-  vol: `${e.dailyDateLabel || e.fullDate} · ${e.category}`,
+  vol: e.dailyDateLabel ? `${e.dailyDateLabel} · ${e.category}` : e.fullDate ? `${e.fullDate} · ${e.category}` : `Encyclopedia · ${e.category}`,
   dates: e.dates,
   category: e.category,
   tags: e.tags || [],

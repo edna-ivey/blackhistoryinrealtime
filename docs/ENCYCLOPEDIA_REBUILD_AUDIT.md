@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First two rebuild batches complete, whole-encyclopedia rebuild in progress.
+Status: First three rebuild batches complete, whole-encyclopedia rebuild in progress.
 Date: 2026-08-14
 
 ## Quality Gap Documented
@@ -32,24 +32,37 @@ Batch 2 verification:
 - Copy-quality scan checked for banned generic phrases and em dashes in new Batch 2 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, and `git diff --check` passed after generation cleanup.
 
+## Batch 3 Completed
+
+Completed pages: `mlk-assassination`, `audre-lorde`, `august-wilson`, `augusta-savage`, `barack-obama`, `barbara-jordan`, `bayard-rustin`, `benjamin-banneker`, `bessie-coleman`, `beulah-mae-donald`.
+
+Batch 3 continued the approved Batch 1 voice and Claudette-style renderer across legacy pages, generated fallback pages, and one encyclopedia-only legacy card. The Barack Obama record corrected the old impossible `2026-02-29` daily-link problem by making the daily challenge card conditional when no real daily entry exists.
+
+Batch 3 verification:
+
+- External links checked: 40 total, 0 broken. Six institutional links returned bot-blocking statuses (`403`) during automated checking but were retained only when they were direct authoritative pages already verified for subject relevance.
+- Browser rendering checked: 10 Batch 3 pages plus Claudette Colvin at desktop `1280x900` and mobile `390x844`, 22 page/viewport checks, 0 failures for required sections, image loading, empty links, horizontal overflow, or page console errors.
+- Copy-quality scan checked for banned generic phrases and em dashes in new Batch 3 source/rendered pages, 0 findings.
+- `npm run generate`, depth/similarity validation, internal-link validation, and rendered-page checks passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 18
-- REWRITE: 98
-- RESEARCH: 94
-- REBUILD: 103
+- PASS: 28
+- REWRITE: 95
+- RESEARCH: 87
+- REBUILD: 100
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
 
-Classification note: `PASS`, `REWRITE`, and `RESEARCH` are the current primary editorial buckets. `REBUILD` is an overlapping layout/template flag, not an additional exclusive group of 103 pages. A page can be counted as `REWRITE, REBUILD` or `RESEARCH, REBUILD` when it needs both content/source work and Claudette-style template alignment. This is why the status counts do not add up to 210.
+Classification note: `PASS`, `REWRITE`, and `RESEARCH` are the current primary editorial buckets. `REBUILD` is an overlapping layout/template flag, not an additional exclusive group of 100 pages. A page can be counted as `REWRITE, REBUILD` or `RESEARCH, REBUILD` when it needs both content/source work and Claudette-style template alignment. This is why the status counts do not add up to 210.
 
 Owner review gate: cleared. Continue future batches using Batch 1 as the locked standard. Do not reduce depth, flatten the voice, weaken research standards, or mass-produce formulaic pages.
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 13 | Assassination of Martin Luther King Jr. | encyclopedia/mlk-assassination.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 23 | Billie Holiday | encyclopedia/billie-holiday.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -69,16 +82,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 10 | Annie Easley | generated/pages/annie-easley.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
 | 11 | Annie Malone | generated/pages/annie-malone.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check. |
 | 12 | Arthur Mitchell | generated/pages/arthur-mitchell.html | PASS | Batch 2 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check. |
-| 13 | Assassination of Martin Luther King Jr. | encyclopedia/mlk-assassination.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 14 | Audre Lorde | generated/pages/audre-lorde.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 15 | August Wilson | encyclopedia/august-wilson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 16 | Augusta Savage | generated/pages/augusta-savage.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 17 | Barack Obama | encyclopedia/barack-obama.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 18 | Barbara Jordan | encyclopedia/barbara-jordan.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 19 | Bayard Rustin | encyclopedia/bayard-rustin.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 20 | Benjamin Banneker | generated/pages/benjamin-banneker.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 21 | Bessie Coleman | encyclopedia/bessie-coleman.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 22 | Beulah Mae Donald | encyclopedia/beulah-mae-donald.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 13 | Assassination of Martin Luther King Jr. | encyclopedia/mlk-assassination.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, sensitive/disputed claim review, depth/similarity validation, desktop/mobile browser check. |
+| 14 | Audre Lorde | generated/pages/audre-lorde.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, sensitive claim review, depth/similarity validation, desktop/mobile browser check. |
+| 15 | August Wilson | encyclopedia/august-wilson.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check. |
+| 16 | Augusta Savage | generated/pages/augusta-savage.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, depth/similarity validation, desktop/mobile browser check. |
+| 17 | Barack Obama | encyclopedia/barack-obama.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style encyclopedia-only legacy-path page, ledger record, internal links, 4 external links, corrected nonexistent daily challenge link, depth validation, desktop/mobile browser check. |
+| 18 | Barbara Jordan | encyclopedia/barbara-jordan.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, depth/similarity validation, desktop/mobile browser check. |
+| 19 | Bayard Rustin | encyclopedia/bayard-rustin.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, sensitive claim review, depth/similarity validation, desktop/mobile browser check. |
+| 20 | Benjamin Banneker | generated/pages/benjamin-banneker.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, corrected overstated Washington-design framing, depth/similarity validation, desktop/mobile browser check. |
+| 21 | Bessie Coleman | encyclopedia/bessie-coleman.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, sensitive first-claim review, depth/similarity validation, desktop/mobile browser check. |
+| 22 | Beulah Mae Donald | encyclopedia/beulah-mae-donald.html | PASS | Batch 3 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, sensitive claim review, depth/similarity validation, desktop/mobile browser check. |
 | 23 | Billie Holiday | encyclopedia/billie-holiday.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 24 | Birmingham Children's Crusade | generated/pages/birmingham-childrens-crusade.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
 | 25 | Black Codes | generated/pages/black-codes.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |

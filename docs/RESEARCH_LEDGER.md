@@ -158,11 +158,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-23 - Benjamin Banneker
 
+- Entry title: Benjamin Banneker
 - Slug: `benjamin-banneker`
-- Core claims: Benjamin Banneker studied the sky with such precision that his almanacs carried his name far beyond the farm where he lived. Banneker was a free Black mathematician, astronomer, writer, and surveyor in Maryland. He helped with the survey of the new federal capital and published almanacs that included astronomical calculations. He also wrote to Thomas Jefferson, challenging Jefferson's racist ideas about Black intellect. He sent his almanac as evidence that the lie could not survive the math.
-- Sources:
-  - https://www.loc.gov/item/2005694593/
-  - https://www.nps.gov/people/benjamin-banneker.htm
+- Daily date: 2026-05-23
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: Benjamin Banneker is often remembered as a self-taught Black astronomer who helped survey Washington, D.C. and challenged Thomas Jefferson. Both claims matter, but the fuller story is more precise and more interesting. Banneker was a free Black farmer, mathematician, almanac maker, and public intellectual in an early United States built around slavery. His calculations gave him authority in a world that claimed Black people lacked reason. His letter to Jefferson did not beg for recognition. It used astronomy, print, faith, and the language of the Revolution to expose the contradiction between liberty and human bondage.
+- Primary or authoritative sources:
+  - https://www.loc.gov/item/mcc.028/
+  - https://www.loc.gov/exhibits/jefferson/jeffrep.html
+- Supporting secondary sources:
+  - https://www.nps.gov/places/000/benjamin-banneker-park.htm
+  - https://www.nps.gov/places/sw-9-intermediate-boundary-stone-of-the-district-of-columbia.htm/index.htm
+- Verified quotation source: Banneker letter to Jefferson, August 19, 1791, public-domain text published with the correspondence.
+- Sensitive or disputed claims reviewed: Surveying role, almanac publications, Jefferson correspondence, and common inflated claims about designing Washington reviewed.
+- Material corrections made: Avoided overstating Banneker as designer of Washington, D.C.; framed verified surveying and almanac work as historically significant enough.
+- External links included on the page:
+  - National Park Service: Benjamin Banneker Park (https://www.nps.gov/places/000/benjamin-banneker-park.htm)
+  - Library of Congress: Jefferson to Benjamin Banneker, August 30, 1791 (https://www.loc.gov/item/mcc.028/)
+  - Library of Congress: Benjamin Banneker and Jefferson correspondence in exhibition context (https://www.loc.gov/exhibits/jefferson/jeffrep.html)
+  - National Park Service: Boundary Stone of the District of Columbia (https://www.nps.gov/places/sw-9-intermediate-boundary-stone-of-the-district-of-columbia.htm/index.htm)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
 
 ### 2026-05-24 - The Black Church
 
@@ -662,11 +678,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-18 - Augusta Savage
 
+- Entry title: Augusta Savage
 - Slug: `augusta-savage`
-- Core claims: Augusta Savage was not only a sculptor. She was a door other artists walked through. Savage became a major Harlem Renaissance artist and teacher. She founded spaces where Black artists could train when mainstream institutions shut them out. Her work The Harp was created for the 1939 New York World's Fair, but it was destroyed afterward because she could not afford to cast it in permanent material.
-- Sources:
+- Daily date: 2026-07-18
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: Augusta Savage's monuments were not only the sculptures she made. They were the artists she taught, the studios she opened, the institutions she fought to build, and the evidence she left of what racism and poverty can do to art itself. Savage became one of the central sculptors and teachers of the Harlem Renaissance, but many of her works were made in plaster because bronze was too expensive. Some were destroyed because no one paid to preserve them. Her story is about talent, yes, but also about material support. What survives in a museum is never only about beauty. It is also about who gets storage, casting, money, and care.
+- Primary or authoritative sources:
   - https://americanart.si.edu/artist/augusta-savage-4269
-  - https://www.womenshistory.org/education-resources/biographies/augusta-savage
+  - https://americanart.si.edu/education/oh-freedom/augusta-savage
+- Supporting secondary sources:
+  - https://www.studiomuseum.org/artists/augusta-savage
+  - https://www.si.edu/object/siris_sil_1105702
+- Verified quotation source: Smithsonian American Art Museum biography and education materials.
+- Sensitive or disputed claims reviewed: Destroyed works, funding barriers, France rejection, Harlem Community Art Center leadership, and students influenced reviewed.
+- Material corrections made: Expanded daily page into a material history of Savage as artist, teacher, institution builder, and example of archival loss.
+- External links included on the page:
+  - Smithsonian American Art Museum: Augusta Savage biography (https://americanart.si.edu/artist/augusta-savage-4269)
+  - Smithsonian American Art Museum: Oh Freedom! Augusta Savage (https://americanart.si.edu/education/oh-freedom/augusta-savage)
+  - Studio Museum in Harlem: Augusta Savage (https://www.studiomuseum.org/artists/augusta-savage)
+  - Smithsonian Libraries and Archives: Augusta Savage: Renaissance Woman exhibition catalog (https://www.si.edu/object/siris_sil_1105702)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
 
 ### 2026-07-19 - Edmonia Lewis
 
@@ -1070,11 +1102,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-24 - Audre Lorde
 
+- Entry title: Audre Lorde
 - Slug: `audre-lorde`
-- Core claims: Audre Lorde treated difference not as a problem to hide, but as knowledge to use. Lorde was a poet, essayist, librarian, feminist, and activist whose work explored race, gender, sexuality, illness, motherhood, anger, and survival. Her essays challenged movements that asked people to split themselves into convenient pieces before entering the room.
-- Sources:
+- Daily date: 2026-08-24
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: Audre Lorde did not ask readers to choose between poetry and politics, or between being Black, lesbian, mother, teacher, cancer survivor, and thinker. She wrote from the pressure of holding all of those truths at once. Her work matters because it refused the bargain offered by many movements: hide the inconvenient parts of yourself now, and maybe liberation will include you later. Lorde's essays and poems insisted that difference was not a distraction from justice. It was part of the evidence. She helped give language to Black feminism, queer survival, illness, anger, care, and coalition without pretending any of it was easy.
+- Primary or authoritative sources:
   - https://www.poetryfoundation.org/poets/audre-lorde
+  - https://nmaahc.si.edu/audre-lorde
+- Supporting secondary sources:
   - https://www.womenshistory.org/education-resources/biographies/audre-lorde
+  - https://www.poetryfoundation.org/articles/146096/audre-lorde-selections
+- Verified quotation source: Sister Outsider, "The Transformation of Silence into Language and Action"; phrase also documented by major literary institutions.
+- Sensitive or disputed claims reviewed: Sexual identity, marriage/divorce, cancer history, and movement critiques reviewed against Poetry Foundation and NMAAHC biographies.
+- Material corrections made: Expanded daily framing into a deeper account of Lorde as poet, librarian, Black feminist theorist, queer writer, institution builder, and illness writer.
+- External links included on the page:
+  - Poetry Foundation: Audre Lorde biography (https://www.poetryfoundation.org/poets/audre-lorde)
+  - National Museum of African American History and Culture: Audre Lorde (https://nmaahc.si.edu/audre-lorde)
+  - National Women's History Museum: Audre Lorde biography (https://www.womenshistory.org/education-resources/biographies/audre-lorde)
+  - Poetry Foundation: Audre Lorde: Selections (https://www.poetryfoundation.org/articles/146096/audre-lorde-selections)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
 
 ### 2026-08-25 - Ntozake Shange
 
@@ -1259,3 +1307,171 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Smithsonian American Women's History Museum: Althea Gibson (https://womenshistory.si.edu/herstory/althea-gibson)
   - USGA: Althea Gibson and golf history (https://www.usga.org/content/usga/home-page/articles/2020/02/althea-gibson-broke-barriers-in-golf-too.html)
 - Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
+
+### 2026-04-04 - Assassination of Martin Luther King Jr.
+
+- Entry title: Assassination of Martin Luther King Jr.
+- Slug: `mlk-assassination`
+- Daily date: 2026-04-04
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: Martin Luther King Jr. was killed in Memphis, but the story is larger than the shot fired at the Lorraine Motel. King was in the city because Black sanitation workers were on strike after the deaths of Echol Cole and Robert Walker, and because his politics had moved more openly toward labor, poverty, militarism, and economic power. The assassination froze King into a national symbol almost immediately, but it also exposed how many Americans had resisted him while he lived. To understand April 4, 1968, the reader has to hold the grief, the investigation, the urban uprisings, the sanitation workers who still needed a contract, and the unfinished Poor People's Campaign together.
+- Primary or authoritative sources:
+  - https://kinginstitute.stanford.edu/memphis-sanitation-workers-strike
+  - https://www.archives.gov/research/jfk/select-committee-report/part-2a.html
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/mourning-death-martin-luther-king-jr
+  - https://civilrightsmuseum.org/blog/the-lorraine-motel-guest-book/
+- Verified quotation source: King Institute/Papers of Martin Luther King Jr. speech text for "I Have Been to the Mountaintop."
+- Sensitive or disputed claims reviewed: Assassination chronology, James Earl Ray plea, House Select Committee wording on conspiracy likelihood, Memphis strike timeline, and uprising casualty figures reviewed.
+- Material corrections made: Reframed the page away from a single-moment assassination summary toward Memphis labor, economic justice, aftermath, and careful handling of disputed conspiracy claims.
+- External links included on the page:
+  - King Institute: Memphis Sanitation Workers' Strike (https://kinginstitute.stanford.edu/memphis-sanitation-workers-strike)
+  - National Museum of African American History and Culture: Mourning the Death of Martin Luther King Jr. (https://nmaahc.si.edu/explore/stories/mourning-death-martin-luther-king-jr)
+  - National Archives: House Select Committee findings on the King assassination (https://www.archives.gov/research/jfk/select-committee-report/part-2a.html)
+  - National Civil Rights Museum: The Lorraine Motel Guest Book (https://civilrightsmuseum.org/blog/the-lorraine-motel-guest-book/)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
+
+### 2026-04-27 - August Wilson
+
+- Entry title: August Wilson
+- Slug: `august-wilson`
+- Daily date: 2026-04-27
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: August Wilson wrote Black life at full size. His ten-play cycle, often called the American Century Cycle, gives each decade of the 20th century a dramatic world of its own. The plays are not history lectures in costume. They are arguments about memory, migration, money, music, family, work, language, death, and spiritual inheritance. Wilson's achievement was not simply that he became a famous Black playwright. It was that he made Broadway audiences sit with the sound and structure of Black working-class life without translating it into someone else's comfort. His work asks what America looks like when the Hill District is treated as a center, not a margin.
+- Primary or authoritative sources:
+  - https://www.neh.gov/about/awards/national-humanities-medals/august-wilson
+  - https://www.pbs.org/wnet/americanmasters/masters/august-wilson/
+- Supporting secondary sources:
+  - https://www.pittmag.pitt.edu/news/august-wilson-archive
+  - https://www.augustwilsonsociety.org/about
+- Verified quotation source: No quotation included. The page avoids excerpting Wilson without a primary transcript tied to the exact context.
+- Sensitive or disputed claims reviewed: Family background, school departure, play chronology, Pulitzer claims, and institution-building claims reviewed.
+- Material corrections made: Expanded from cultural-title summary into a theater history page centered on the American Century Cycle, Hill District, language, and Black theater institutions.
+- External links included on the page:
+  - National Endowment for the Humanities: August Wilson National Humanities Medal profile (https://www.neh.gov/about/awards/national-humanities-medals/august-wilson)
+  - PBS American Masters: August Wilson (https://www.pbs.org/wnet/americanmasters/masters/august-wilson/)
+  - University of Pittsburgh: August Wilson archive at Pitt (https://www.pittmag.pitt.edu/news/august-wilson-archive)
+  - August Wilson Society: About the August Wilson Society (https://www.augustwilsonsociety.org/about)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
+
+### undefined - Barack Obama
+
+- Entry title: Barack Obama
+- Slug: `barack-obama`
+- Daily date: undefined
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: Barack Obama's election in 2008 was historic, but treating the first Black presidency as a finish line misses the harder story. Obama rose through community organizing, law, Illinois politics, and a national campaign that carried enormous symbolic weight before he ever took office. His presidency unfolded inside financial crisis, war, partisan backlash, racial projection, and competing expectations from people who wanted transformation, reassurance, or proof that racism had been overcome. An encyclopedia page has to hold the breakthrough and the limits together. Obama's presidency changed what Americans had seen as politically possible, but it did not make the structures that shaped Black life disappear.
+- Primary or authoritative sources:
+  - https://www.obamalibrary.gov/obamas/president-barack-obama
+  - https://www.obamalibrary.gov/timeline
+- Supporting secondary sources:
+  - https://www.whitehousehistory.org/bios/barack-obama
+  - https://www.archives.gov/presidential-libraries/visit/obama
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Current living-person status, family background, election chronology, major policy claims, and racial backlash framing reviewed against official presidential-library sources.
+- Material corrections made: Corrected legacy index problem by treating Obama as an encyclopedia-only page rather than pointing to the impossible old 2026-02-29 daily challenge.
+- External links included on the page:
+  - Obama Presidential Library: President Barack Obama biography (https://www.obamalibrary.gov/obamas/president-barack-obama)
+  - Obama Presidential Library: Obama Presidential timeline (https://www.obamalibrary.gov/timeline)
+  - White House Historical Association: Barack Obama biography (https://www.whitehousehistory.org/bios/barack-obama)
+  - National Archives: Barack Obama Presidential Library (https://www.archives.gov/presidential-libraries/visit/obama)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
+
+### 2026-04-09 - Barbara Jordan
+
+- Entry title: Barbara Jordan
+- Slug: `barbara-jordan`
+- Daily date: 2026-04-09
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: Barbara Jordan's power did not come from volume alone, though her voice could stop a room. It came from precision. She made constitutional language sound like public duty rather than private expertise. As a Black woman from Houston's Fifth Ward, educated in segregated schools, Jordan entered Texas and national politics in spaces built to exclude her. Her 1974 Watergate statement is famous, but it was not a performance detached from a career. It grew from years of debate, law, coalition-building, and a belief that democracy required ordinary people to understand the Constitution well enough to defend it.
+- Primary or authoritative sources:
+  - https://history.house.gov/People/Detail/16031
+  - https://www.nps.gov/people/barbara-jordan.htm
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/barbara-jordan
+  - https://americanradioworks.publicradio.org/features/blackspeech/bjordan.html
+- Verified quotation source: House Judiciary Committee statement transcript, July 25, 1974.
+- Sensitive or disputed claims reviewed: First claims, health references, congressional dates, DNC keynote claim, and immigration commission role reviewed.
+- Material corrections made: Expanded legacy profile into a constitutional and institutional account beyond the famous Watergate clip.
+- External links included on the page:
+  - U.S. House History, Art & Archives: Barbara Jordan biography (https://history.house.gov/People/Detail/16031)
+  - National Park Service: Barbara Jordan (https://www.nps.gov/people/barbara-jordan.htm)
+  - National Museum of African American History and Culture: Barbara Jordan (https://nmaahc.si.edu/barbara-jordan)
+  - American RadioWorks: Barbara Jordan impeachment statement (https://americanradioworks.publicradio.org/features/blackspeech/bjordan.html)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
+
+### 2026-04-28 - Bayard Rustin
+
+- Entry title: Bayard Rustin
+- Slug: `bayard-rustin`
+- Daily date: 2026-04-28
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: Bayard Rustin helped organize some of the most visible events of the civil-rights movement while being pushed out of view. He was a pacifist, labor ally, strategist, singer, Quaker-influenced organizer, and openly gay Black man in a movement and country that often treated his sexuality as a vulnerability. Rustin's life asks readers to look behind the microphone. Mass marches do not organize themselves. Nonviolence does not become strategy by accident. Coalitions do not appear because a poster says unity. Rustin built logistics, trained activists, connected movements, and paid the price for being indispensable in public work but inconvenient in public image.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/bayard-rustin
+  - https://home.nps.gov/subjects/civilrights/bayard-rustin.htm
+- Supporting secondary sources:
+  - https://www.nps.gov/articles/000/learning-from-bayard-rustin.htm
+  - https://www.nps.gov/nama/mow-history.htm
+- Verified quotation source: NMAAHC biography references Rustin's 1986 testimony wording.
+- Sensitive or disputed claims reviewed: Sexuality, 1953 arrest, pacifist imprisonment, movement marginalization, and Rustin's later political disagreements reviewed with careful wording.
+- Material corrections made: Expanded legacy framing into a strategy, labor, pacifism, and LGBTQ history page.
+- External links included on the page:
+  - National Museum of African American History and Culture: Bayard Rustin (https://nmaahc.si.edu/bayard-rustin)
+  - National Park Service: Learning from Bayard Rustin (https://www.nps.gov/articles/000/learning-from-bayard-rustin.htm)
+  - National Park Service: Bayard Rustin and civil rights (https://home.nps.gov/subjects/civilrights/bayard-rustin.htm)
+  - National Park Service: March on Washington history (https://www.nps.gov/nama/mow-history.htm)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
+
+### 2026-03-12 - Bessie Coleman
+
+- Entry title: Bessie Coleman
+- Slug: `bessie-coleman`
+- Daily date: 2026-03-12
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: Bessie Coleman did not break into aviation by waiting for American institutions to become fair. They refused to train her because she was Black and a woman, so she learned French, crossed the Atlantic, and earned an international pilot's license in France in 1921. The triumph is real, but the story is not only "first Black woman pilot." Coleman turned flight into public argument. She performed for integrated crowds, used lectures and publicity to fund her work, and planned a flight school for Black aviators. Her career was short and dangerous, but her ambition was not symbolic. She wanted the sky opened for people who had been deliberately kept on the ground.
+- Primary or authoritative sources:
+  - https://airandspace.si.edu/explore/stories/bessie-coleman
+  - https://airandspace.si.edu/stories/editorial/celebrating-centennial-bessie-coleman
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/bessie-coleman
+  - https://airandspace.si.edu/stories/editorial/how-bessie-coleman-broke-barriers-make-history
+- Verified quotation source: National Women's History Museum article on Bessie Coleman.
+- Sensitive or disputed claims reviewed: First pilot-license claims, Native ancestry wording, crash circumstances, segregated-audience refusal, and France training chronology reviewed.
+- Material corrections made: Expanded legacy profile into a full account of training, press strategy, barnstorming, desegregated audiences, and flight-school ambition.
+- External links included on the page:
+  - National Air and Space Museum: Bessie Coleman (https://airandspace.si.edu/explore/stories/bessie-coleman)
+  - National Air and Space Museum: Celebrating the centennial of Bessie Coleman (https://airandspace.si.edu/stories/editorial/celebrating-centennial-bessie-coleman)
+  - National Women's History Museum: Bessie Coleman biography (https://www.womenshistory.org/education-resources/biographies/bessie-coleman)
+  - National Air and Space Museum: How Bessie Coleman broke barriers (https://airandspace.si.edu/stories/editorial/how-bessie-coleman-broke-barriers-make-history)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
+
+### 2026-03-11 - Beulah Mae Donald
+
+- Entry title: Beulah Mae Donald
+- Slug: `beulah-mae-donald`
+- Daily date: 2026-03-11
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: Beulah Mae Donald did not have the kind of power institutions usually recognize. She was a grieving mother in Mobile, Alabama, after Klansmen murdered her son Michael Donald in 1981. But she made a decision that changed the legal and financial future of one of the country's most violent white supremacist organizations. With attorneys including Michael Figures and the Southern Poverty Law Center, Donald sued the United Klans of America and won a $7 million civil verdict in 1987. The case did not bring Michael back. It did something else: it made organized racial terror pay, not only in criminal court but with property, money, and institutional collapse.
+- Primary or authoritative sources:
+  - https://www.splcenter.org/resources/civil-rights-case-docket/donald-v-united-klans-america/
+  - https://crdl.usg.edu/record/aar_amg_121772
+- Supporting secondary sources:
+  - https://encyclopediaofalabama.org/article/ku-klux-klan-in-contemporary-alabama/
+  - https://encyclopediaofalabama.org/article/shelton-robert/
+- Verified quotation source: No quotation included. The page avoids using courtroom forgiveness language without a primary transcript.
+- Sensitive or disputed claims reviewed: Lynching description, motive, criminal convictions, all-white jury, civil verdict, property transfer, and United Klans dissolution reviewed.
+- Material corrections made: Expanded legacy profile into a legal-accountability page centered on civil liability and institutional responsibility.
+- External links included on the page:
+  - Southern Poverty Law Center: Donald v. United Klans of America (https://www.splcenter.org/resources/civil-rights-case-docket/donald-v-united-klans-america/)
+  - Encyclopedia of Alabama: Ku Klux Klan in modern Alabama (https://encyclopediaofalabama.org/article/ku-klux-klan-in-contemporary-alabama/)
+  - Encyclopedia of Alabama: Robert Shelton and the United Klans (https://encyclopediaofalabama.org/article/shelton-robert/)
+  - Civil Rights Digital Library: Beulah Mae Donald after winning her lawsuit (https://crdl.usg.edu/record/aar_amg_121772)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
