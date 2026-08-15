@@ -3,262 +3,218 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Garrett Morgan — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Full biographical profile of Garrett Morgan, the Black inventor who created the gas mask and three-position traffic signal, changing public safety forever.">
+<title>Garrett Morgan - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Garrett Morgan is often introduced through two inventions: the safety hood, an early breathing device, and the three-position traffic signal. That is true, but the fuller story is about a Black inventor who kept solving public safety problems while racism tried to shrink the market for his work. Morgan left Kentucky as a teenager, taught himself machinery in Cincinnati and Cleveland, built repair and garment businesses, marketed hair-care products, helped found a Black newspaper, and turned observation into patents. He did not invent traffic safety alone, and he did not invent the modern gas mask in its final form. What he did was design practical safety devices that saved lives, then fight for credit, customers, and civic respect in a country that wanted Black genius without Black authority.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --red: #C41E3A;
-    --black: #0A0A0A;
-    --green: #1A5C38;
-    --gold: #D4A017;
-    --orange: #E8621A;
-    --cream: #F5EDD8;
-    --white: #FAFAFA;
-    --card-bg: #161616;
-    --border: rgba(212,160,23,0.2);
-    --purple: #6B2D8B;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { background: var(--black); color: var(--cream); font-family: 'DM Sans', sans-serif; min-height: 100vh; overflow-x: hidden; }
-  body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); pointer-events: none; z-index: 0; }
-  .pan-stripe { display: flex; height: 6px; width: 100%; }
-  .pan-stripe .s1 { background: var(--red); flex: 1; }
-  .pan-stripe .s2 { background: #111; flex: 1; }
-  .pan-stripe .s3 { background: var(--green); flex: 1; }
-  header { position: sticky; top: 0; z-index: 50; background: rgba(10,10,10,0.97); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(212,160,23,0.12); }
-  .header-inner { max-width: 900px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
-  .logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 3px; color: var(--gold); text-decoration: none; }
-  .logo span { color: var(--red); }
-  nav { display: flex; border-bottom: 1px solid rgba(212,160,23,0.1); overflow-x: auto; scrollbar-width: none; background: rgba(10,10,10,0.9); }
-  nav::-webkit-scrollbar { display: none; }
-  nav a { padding: 10px 20px; font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(245,237,216,0.45); text-decoration: none; white-space: nowrap; border-bottom: 2px solid transparent; transition: all 0.2s; }
-  nav a:hover { color: var(--gold); border-bottom-color: var(--gold); }
-  nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
-  .breadcrumb { max-width: 900px; margin: 0 auto; padding: 20px 24px 0; font-size: 0.72rem; color: rgba(245,237,216,0.35); letter-spacing: 1px; display: flex; align-items: center; gap: 8px; position: relative; z-index: 1; }
-  .breadcrumb a { color: rgba(212,160,23,0.6); text-decoration: none; }
-  .breadcrumb a:hover { color: var(--gold); }
-  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 100px; position: relative; z-index: 1; }
-  .entry-hero { margin-bottom: 36px; animation: fadeUp 0.5s ease both; }
-  .entry-vol-label { font-size: 0.65rem; letter-spacing: 4px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 12px; }
-  .entry-name { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 900; line-height: 1.05; color: var(--white); margin-bottom: 14px; }
-  .entry-tagline { font-size: 1.05rem; line-height: 1.7; color: rgba(245,237,216,0.65); max-width: 680px; margin-bottom: 18px; }
-  .entry-badges { display: flex; flex-wrap: wrap; gap: 8px; }
-  .badge { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; padding: 5px 12px; border-radius: 100px; font-weight: 500; }
-  .badge-dates { background: rgba(212,160,23,0.1); color: var(--gold); border: 1px solid rgba(212,160,23,0.25); }
-  .badge-cat { background: rgba(196,30,58,0.1); color: #E8627A; border: 1px solid rgba(196,30,58,0.25); }
-  .badge-vol { background: rgba(26,92,56,0.15); color: #5BAF82; border: 1px solid rgba(26,92,56,0.3); }
-  .timeline-strip { display: flex; gap: 2px; margin: 28px 0 36px; overflow-x: auto; scrollbar-width: none; animation: fadeUp 0.5s ease 0.1s both; }
-  .timeline-strip::-webkit-scrollbar { display: none; }
-  .timeline-item { flex: 1; min-width: 130px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 14px 16px; position: relative; }
-  .timeline-item::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--red), var(--gold)); border-radius: 10px 10px 0 0; }
-  .tl-year { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; color: var(--gold); letter-spacing: 2px; margin-bottom: 4px; }
-  .tl-event { font-size: 0.72rem; line-height: 1.5; color: rgba(245,237,216,0.55); }
-  .bio-section { margin: 0 0 32px; animation: fadeUp 0.5s ease 0.15s both; }
-  .section-title { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.85rem; color: rgba(212,160,23,0.6); margin-bottom: 16px; text-transform: uppercase; }
-  .bio-body p { font-size: 1rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin-bottom: 18px; }
-  .bio-body p:last-child { margin-bottom: 0; }
-  .pull-quote { border-left: 3px solid var(--red); padding: 18px 24px; margin: 32px 0; background: rgba(196,30,58,0.04); border-radius: 0 10px 10px 0; animation: fadeUp 0.5s ease 0.2s both; }
-  .pull-quote p { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.15rem; line-height: 1.7; color: var(--cream); margin-bottom: 10px; }
-  .pull-quote cite { font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(212,160,23,0.5); }
-  .section-divider { display: flex; align-items: center; gap: 16px; margin: 40px 0 28px; }
-  .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, rgba(212,160,23,0.2), transparent); }
-  .section-divider span { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.75rem; color: rgba(212,160,23,0.5); }
-  .why-matters { background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04)); border: 1px solid rgba(196,30,58,0.25); border-radius: 14px; padding: 24px 26px; margin: 36px 0; animation: fadeUp 0.5s ease 0.25s both; }
-  .why-matters h4 { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.85rem; color: var(--red); margin-bottom: 10px; }
-  .why-matters p { font-size: 0.97rem; line-height: 1.8; color: rgba(245,237,216,0.72); margin: 0; }
-  .connected-section { margin: 36px 0; animation: fadeUp 0.5s ease 0.3s both; }
-  .connected-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-top: 18px; }
-  .connected-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; text-decoration: none; display: block; transition: all 0.2s; position: relative; overflow: hidden; }
-  .connected-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, var(--red), var(--gold)); }
-  .connected-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
-  .connected-type { font-size: 0.6rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.55); margin-bottom: 5px; }
-  .connected-name { font-family: 'Playfair Display', serif; font-size: 0.95rem; font-weight: 700; color: var(--white); line-height: 1.3; margin-bottom: 4px; }
-  .connected-desc { font-size: 0.78rem; color: rgba(245,237,216,0.45); line-height: 1.5; }
-  .quiz-link-card { background: linear-gradient(135deg, rgba(196,30,58,0.12), rgba(139,0,0,0.06)); border: 1px solid rgba(196,30,58,0.3); border-radius: 12px; padding: 18px 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; text-decoration: none; transition: all 0.2s; margin-top: 12px; }
-  .quiz-link-card:hover { border-color: var(--red); transform: translateY(-2px); }
-  .quiz-link-label { font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(196,30,58,0.7); margin-bottom: 4px; }
-  .quiz-link-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
-  .quiz-link-arrow { color: var(--red); font-size: 1.4rem; flex-shrink: 0; }
-  .external-section { margin: 36px 0; animation: fadeUp 0.5s ease 0.35s both; }
-  .external-links { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
-  .ext-link { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; text-decoration: none; transition: all 0.2s; }
-  .ext-link:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
-  .ext-source { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 3px; }
-  .ext-title { font-size: 0.9rem; color: var(--cream); line-height: 1.35; }
-  .ext-arrow { color: var(--gold); opacity: 0.6; font-size: 1rem; flex-shrink: 0; }
-  .back-nav { display: flex; align-items: center; gap: 10px; margin-bottom: 32px; animation: fadeUp 0.4s ease both; }
-  .back-btn { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.04); border: 1px solid rgba(212,160,23,0.2); border-radius: 100px; padding: 8px 18px; color: rgba(245,237,216,0.6); font-size: 0.78rem; letter-spacing: 1.5px; text-decoration: none; transition: all 0.2s; }
-  .back-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(212,160,23,0.06); }
-  footer { position: relative; z-index: 1; border-top: 1px solid rgba(212,160,23,0.15); padding: 28px 32px; text-align: center; }
-  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
-  footer a { color: var(--gold); text-decoration: none; }
-  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-  @media (max-width: 620px) { .header-inner { padding: 12px 16px; } nav a { padding: 10px 12px; font-size: 0.72rem; } main { padding: 24px 16px 80px; } .breadcrumb { padding: 16px 16px 0; } .entry-name { font-size: 2rem; } .connected-grid { grid-template-columns: 1fr; } }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="garrett-morgan">
-
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-
 <header>
   <div class="header-inner">
-    <a href="/" class="logo">Black History <span>in Real Time</span></a>
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
   </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
 </header>
-
-<nav>
-  <a href="/">Daily Quiz</a>
-  <a href="/encyclopedia.html" class="active">Encyclopedia</a>
-  <a href="/#calendar">Calendar</a>
-  <a href="/#archive">Archive</a>
-</nav>
-
-<div class="breadcrumb">
-  <a href="../encyclopedia.html">Encyclopedia</a>
-  <span>›</span>
-  <span style="color:rgba(245,237,216,0.5)">Garrett Morgan</span>
-</div>
-
 <main>
-
-  <div class="back-nav">
-    <a href="../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span> &middot; Innovation</span>
   </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
 
   <div class="entry-hero">
-    <div class="entry-vol-label">February 3 · Volume I · Science &amp; Invention</div>
-    <h1 class="entry-name">Garrett Morgan</h1>
-    <p class="entry-tagline">The son of an enslaved parent who left school at 14, moved to Ohio with nothing, and invented two devices that still save lives every single day — in every city in the world.</p>
+    <div class="entry-vol-label"> &middot; Innovation</div>
+    <h1>Garrett Morgan</h1>
+    <p class="entry-tagline">Garrett Morgan is often introduced through two inventions: the safety hood, an early breathing device, and the three-position traffic signal. That is true, but the fuller story is about a Black inventor who kept solving public safety problems while racism tried to shrink the market for his work. Morgan left Kentucky as a teenager, taught himself machinery in Cincinnati and Cleveland, built repair and garment businesses, marketed hair-care products, helped found a Black newspaper, and turned observation into patents. He did not invent traffic safety alone, and he did not invent the modern gas mask in its final form. What he did was design practical safety devices that saved lives, then fight for credit, customers, and civic respect in a country that wanted Black genius without Black authority.</p>
     <div class="entry-badges">
-      <span class="badge badge-dates">1877 — 1963</span>
-      <span class="badge badge-cat">People</span>
-      <span class="badge badge-vol">February Volume</span>
+      <span class="badge">People</span>
+      <span class="badge">1877 - 1963</span>
     </div>
+    <div class="hero-bar"></div>
   </div>
 
   <div class="timeline-strip">
-    <div class="timeline-item">
-      <div class="tl-year">1877</div>
-      <div class="tl-event">Born in Paris, Kentucky, to parents who included a formerly enslaved father</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1907</div>
-      <div class="tl-event">Opens a sewing machine repair shop in Cleveland; becomes financially independent</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1912</div>
-      <div class="tl-event">Patents the Safety Hood — an early gas mask that wins gold medals at safety expositions</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1916</div>
-      <div class="tl-event">Uses his gas mask to rescue men trapped in a Lake Erie tunnel; national headlines follow</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1923</div>
-      <div class="tl-event">Patents the three-position traffic signal; sells rights to General Electric for $40,000</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1920</div>
-      <div class="tl-event">Founds the Cleveland Call, one of the most important Black newspapers in the nation</div>
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Mar 4, 1877</div><div class="tl-event">Born Garrett Augustus Morgan in Paris, Kentucky.</div></div>
+<div class="tl-item"><div class="tl-date">1891</div><div class="tl-event">Leaves Kentucky as a teenager and moves to Cincinnati in search of work and education.</div></div>
+<div class="tl-item"><div class="tl-date">1895</div><div class="tl-event">Moves to Cleveland, where he learns and repairs sewing machines.</div></div>
+<div class="tl-item"><div class="tl-date">1907</div><div class="tl-event">Opens a sewing-machine repair business and later expands into garment manufacturing.</div></div>
+<div class="tl-item"><div class="tl-date">1912</div><div class="tl-event">Files for a patent on a safety hood and smoke protector.</div></div>
+<div class="tl-item"><div class="tl-date">1914</div><div class="tl-event">Receives U.S. Patent No. 1,090,936 for the safety hood.</div></div>
+<div class="tl-item"><div class="tl-date">Jul 25, 1916</div><div class="tl-event">Uses the breathing device during rescue work after the Cleveland Waterworks tunnel explosion.</div></div>
+<div class="tl-item"><div class="tl-date">1920</div><div class="tl-event">Helps found the Cleveland Call, a Black weekly newspaper.</div></div>
+<div class="tl-item"><div class="tl-date">Nov 20, 1923</div><div class="tl-event">Receives U.S. Patent No. 1,475,024 for a three-position traffic signal.</div></div>
+<div class="tl-item"><div class="tl-date">1923</div><div class="tl-event">Sells traffic-signal patent rights to General Electric.</div></div>
+<div class="tl-item"><div class="tl-date">2005</div><div class="tl-event">Inducted into the National Inventors Hall of Fame.</div></div>
     </div>
   </div>
 
   <div class="bio-section">
-    <div class="section-title">Full Biography</div>
-    <div class="bio-body">
-      <p>Garrett Augustus Morgan was born on March 4, 1877, in Paris, Kentucky. His father, Sydney Morgan, was the son of a Confederate colonel and an enslaved woman — a lineage that placed Garrett at the intersection of America's most violent contradictions from the moment of his birth. His mother, Eliza Reed, was also the child of formerly enslaved people. Garrett received only an elementary school education before leaving home at age 14 to seek work in Ohio. He arrived in Cincinnati with essentially nothing and found work as a handyman, teaching himself mechanics by taking things apart. He moved to Cleveland, where he got a job as a sewing machine repairman, and proved to be exceptionally good at understanding how mechanical systems worked. In 1907, he opened his own sewing machine repair shop. By 1909 he had added a garment manufacturing operation. By 1920, he had accumulated enough wealth to found the Cleveland Call, which grew into one of the most significant Black newspapers in the country.</p>
-
-      <p>His inventive work began from direct observation of danger. In 1912, he patented a device he called the Safety Hood and Smoke Protector — what we now recognize as a primitive but functional gas mask. The device worked by using a wet sponge filter at the breathing end of a hood, allowing the wearer to breathe air from close to the ground while the head was protected from smoke and toxic fumes above. It won a gold medal at the International Exposition of Sanitation and Safety and another gold medal from the International Association of Fire Chiefs. But the invention's real-world test came four years later. On July 25, 1916, a natural gas explosion trapped more than 30 workers inside a tunnel being drilled beneath Lake Erie near Cleveland. Rescue crews were unable to enter because of the toxic gases. Morgan arrived with his brother, put on his Safety Hoods, and descended into the tunnel. They rescued multiple survivors. It made national news.</p>
-
-      <p>However, when it became known that Morgan was Black, orders for his gas mask — which had been pouring in from fire departments and mining companies across the country — largely dried up. He responded by doing what many Black inventors of the era were forced to do: hiring white actors to front his demonstrations at trade shows, so that buyers would not know the inventor was a Black man. It was a humiliating compromise, but it kept his business alive. In World War I, an improved version of his Safety Hood was adopted by the U.S. Army and used by soldiers in the trenches. His design is a direct ancestor of the gas masks still worn by military personnel and first responders today.</p>
-
-      <p>His most well-known invention came in 1923. After witnessing a serious collision between an automobile and a horse-drawn carriage at a Cleveland intersection, Morgan recognized a fatal gap in the existing traffic signal technology: signals switched directly from Stop to Go with no warning interval, giving drivers no time to clear the intersection safely. He invented a three-position traffic signal with a third position — an all-directional stop — that halted traffic in every direction before new traffic entered the intersection. It was the direct predecessor of the yellow warning light that exists on every traffic signal in the world today. He sold the patent rights to General Electric for $40,000 (roughly $700,000 in today's money), a significant sum but far less than the invention was ultimately worth as it became a global standard. His traffic signal patent was one of the first awarded to a Black inventor by the U.S. Patent Office for a traffic safety device.</p>
-
-      <p>Morgan lived to see his inventions become infrastructure. He died on July 27, 1963, in Cleveland at age 86, just weeks after the March on Washington was announced. He had spent more than half a century building things that made the world safer — most of the world not knowing who had built them.</p>
-    </div>
+    <div class="section-title">Full Story</div>
+<p>Garrett Morgan&#039;s life starts in the years after Reconstruction, when legal freedom had arrived but opportunity was still rationed by race, class, region, and schooling. He was born in Paris, Kentucky, in 1877, the son of formerly enslaved parents according to several institutional accounts. He received limited formal education, then left Kentucky as a teenager. That move mattered. Morgan did not enter invention through a university laboratory. He entered through work: sweeping floors, repairing machines, watching systems fail, and figuring out how to make them work better.</p>
+<p>Cincinnati gave him wages and a chance to hire a tutor. Cleveland gave him machinery. By the late 1890s, the city was growing into a manufacturing center, and Morgan learned the mechanics of sewing machines while working in the garment trade. He opened his own repair shop in 1907, then built a garment business with dozens of employees. That business experience shaped his inventions. He understood patents, manufacturing, demonstration, sales, and the way buyers made decisions before he ever became famous.</p>
+<p>His safety hood came from the dangers of industrial cities. Firefighters, tunnel workers, miners, and rescue crews faced smoke and toxic gases with little protection. Morgan&#039;s device used a hood and tubes designed to draw cleaner air from near the floor, where smoke and some heated gases were less concentrated. He filed in 1912 and received a patent in 1914. The device won safety-exposition recognition, but its most dramatic test came before dawn on July 25, 1916, after an explosion in a Cleveland waterworks tunnel under Lake Erie trapped workers and rescuers in poison gas.</p>
+<p>Morgan and others entered the tunnel wearing safety hoods. Accounts differ on exact numbers rescued and recovered, which is why this page avoids inflated claims. What is clear from the National Park Service, USPTO, Cleveland Historical, and National Inventors Hall of Fame accounts is that the device worked in a crisis and that Morgan personally joined the rescue. The public should have recognized him immediately as an inventor whose device had saved lives.</p>
+<p>Instead, race distorted the response. White officials and customers were willing to use the invention, but many were reluctant to buy from a Black inventor. Morgan marketed under names and demonstrations that obscured his identity, including the use of white representatives. That strategy was not a funny anecdote. It was a business adaptation to racism. The marketplace rewarded the product while punishing the person who created it.</p>
+<p>Morgan&#039;s traffic signal grew from another kind of public danger. Early twentieth-century streets were crowded with pedestrians, streetcars, bicycles, horse-drawn vehicles, and automobiles. Two-position signals often moved directly from stop to go, leaving no protected interval for clearing an intersection. Morgan patented a T-shaped signal with a third position, an all-direction stop or caution interval, in 1923. It was not the modern automatic yellow-light system by itself, and other traffic-control experiments existed. But Morgan&#039;s patent addressed a real safety problem and became part of the development path toward modern traffic control.</p>
+<p>He was more than a patent holder. Morgan helped build Black civic infrastructure in Cleveland. Case Western Reserve&#039;s Encyclopedia of Cleveland History credits him with helping found the Cleveland Call around 1920, a newspaper that later merged into the Call &amp; Post. He also supported Black organizations, built businesses, and used public visibility to claim space in a city where Black residents were growing in number but still excluded from many institutions.</p>
+<p>The old version of Morgan&#039;s story can make him sound like a lone genius who simply invented two useful things. The more honest version is richer. He was a mechanic, employer, marketer, publisher, safety thinker, and civic actor. His inventions were public devices, made for people he would never meet: firefighters entering smoke, soldiers facing gas, drivers and pedestrians crossing streets. The tragedy is not that Morgan was unknown everywhere. Black newspapers documented him. The tragedy is that mainstream recognition came filtered through racism, and many people still use technologies shaped by his imagination without knowing whose problem-solving sits inside them.</p>
   </div>
 
   <div class="pull-quote">
-    <p>"The problem was not the invention. The problem was the inventor."</p>
-    <cite>— On the racism Morgan navigated while trying to sell his gas mask to white fire departments</cite>
+    <div class="pq-bar"></div>
+    <blockquote>I have a Ph.D. from the school of hard knocks and cruel treatment.</blockquote>
+    <cite>Garrett Morgan, letter quoted by the USPTO Journeys of Innovation series</cite>
   </div>
 
-  <div class="why-matters">
-    <h4>Why This Matters</h4>
-    <p>Garrett Morgan's story is not just about invention. It's about what happens to Black genius in a racist system. He built two devices that are now literally everywhere on earth — every traffic light on every street corner, every gas mask worn by every firefighter and soldier — and had to hide his identity to sell them. The yellow light you see every day exists because a Black man with only an elementary school education watched a car accident on a Cleveland street and decided he could fix the problem. The gas mask that saved soldiers in World War I trenches was first prototyped in a workshop by the son of a formerly enslaved man. When we talk about erased history, this is the specifics of what that erasure looks like: not just removed from textbooks, but forced to hire white actors to stand in for you at your own product demonstrations.</p>
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Morgan paid the cost of racism in the marketplace. Buyers who needed safety equipment hesitated when they learned the inventor was Black. He had to use racial disguise, intermediaries, and careful branding to sell a lifesaving device. That cost was not only emotional. It limited recognition, sales, institutional trust, and the wealth that could have followed public adoption.</p>
+<p>His impact is visible in infrastructure. The safety hood sits in the lineage of respiratory protection for firefighters, soldiers, industrial workers, and rescue crews. The three-position traffic signal helped formalize the idea that intersections need a protected pause, not simply a command to stop or go. Morgan turned danger into design.</p>
   </div>
 
-  <div class="section-divider"><span>Connections</span></div>
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Morgan matters because innovation is not only a flash of invention. It is also production, marketing, patent protection, public trust, and the right to be seen as the author of your own work. Racism attacked him at each of those points.</p>
+<p>His story also corrects the lonely-genius myth. Morgan learned from labor, built businesses, watched accidents, read the street, and responded to practical danger. The lesson is not that formal education does not matter. It is that intelligence grows in workshops, routes, factories, newspapers, and civic life too.</p>
+<p>When a traffic signal pauses before sending cars into an intersection, or when emergency workers depend on breathing protection, Morgan belongs in the conversation. Not as trivia, but as a reminder that Black public safety work has been built into ordinary life for more than a century.</p>
+  </div>
 
+  <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
 
-    <a href="../index.html?day=2026-02-03" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz · February 3</div>
-        <div class="quiz-link-title">Test your knowledge on Garrett Morgan</div>
-      </div>
-      <span class="quiz-link-arrow">✊🏾</span>
-    </a>
-
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"><!-- connections auto-generated by encyclopedia-data.js --></div>
-  </div>
-
-  <div class="section-divider"><span>Learn More</span></div>
-
-  <div class="external-section">
-    <div class="section-title">External Links</div>
-    <div class="external-links">
-      <a href="https://www.nps.gov/brvb/learn/news/garrettmorgan.htm" target="_blank" rel="noopener" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">National Park Service</div>
-          <div class="ext-title">Garrett Morgan: An Uncommon Inventor — inventions and legacy</div>
-        </div>
-        <span class="ext-arrow">↗</span>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/granville-woods.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Granville T. Woods</div>
+        <div class="connected-desc">Connects Morgan to another Black inventor who fought for patents and credit in electrical technology.</div>
       </a>
-      <a href="https://www.history.com/this-day-in-history/november-20/garrett-morgan-patents-three-position-traffic-signal" target="_blank" rel="noopener" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">HISTORY.com</div>
-          <div class="ext-title">Garrett Morgan Patents Three-Position Traffic Signal</div>
-        </div>
-        <span class="ext-arrow">↗</span>
+<a href="../generated/pages/elijah-mccoy.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Elijah McCoy</div>
+        <div class="connected-desc">Shows how Black mechanical invention changed transportation and industrial safety.</div>
       </a>
-      <a href="https://www.smithsonianmag.com/smithsonian-institution/tearing-down-barriers-black-inventors-honoring-historic-breakthroughs-180979652/" target="_blank" rel="noopener" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">Smithsonian Magazine</div>
-          <div class="ext-title">Tearing Down the Barriers for Black Inventors — the suppression of Black innovation</div>
-        </div>
-        <span class="ext-arrow">↗</span>
+<a href="../generated/pages/lewis-howard-latimer.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Lewis Howard Latimer</div>
+        <div class="connected-desc">Links Morgan to patent drafting, electrical innovation, and the hidden labor behind famous technologies.</div>
+      </a>
+<a href="../encyclopedia/black-tech-pioneers.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Tech Pioneers</div>
+        <div class="connected-desc">Places Morgan inside a broader history of Black invention, engineering, and erasure.</div>
       </a>
     </div>
   </div>
 
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.nps.gov/brvb/learn/news/garrettmorgan.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Garrett Morgan: An Uncommon Inventor</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/courage-and-caution" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">USPTO</div>
+          <div class="ext-title">Of Courage and Caution</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://highways.dot.gov/highway-history/general-highway-history/safer-stop-and-go-garrett-morgans-traffic-signal-legacy" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Federal Highway Administration</div>
+          <div class="ext-title">Safer Stop and Go: Garrett Morgan&#039;s Traffic Signal Legacy</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.invent.org/inductees/garrett-morgan" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Inventors Hall of Fame</div>
+          <div class="ext-title">Garrett Morgan</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://case.edu/ech/articles/m/morgan-garrett-a/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Encyclopedia of Cleveland History</div>
+          <div class="ext-title">Morgan, Garrett A.</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-
 <footer>
-  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

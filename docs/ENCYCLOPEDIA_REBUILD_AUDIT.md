@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First eleven rebuild batches complete, whole-encyclopedia rebuild in progress.
+Status: First twelve rebuild batches complete, whole-encyclopedia rebuild in progress.
 Date: 2026-08-14
 
 ## Quality Gap Documented
@@ -149,13 +149,26 @@ Batch 11 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 11 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
 
+## Batch 12 Completed
+
+Completed pages: `garrett-morgan`, `george-floyd`, `gordon-parks`, `granville-woods`, `gwendolyn-brooks`, `hank-aaron`, `harold-washington`, `harriet-jacobs`, `harriet-tubman`, `hbcus`.
+
+Batch 12 continued from row 85 with a ten-entry batch. It rebuilt six legacy-path pages and four scheduled/generated pages. Garrett Morgan now distinguishes practical safety invention from overbroad traffic-light folklore; George Floyd is handled as a human, legal, and systems history without sensationalizing the video; Gordon Parks now covers photography, journalism, fiction, film, archives, and visual authorship; Granville T. Woods now has a fuller patent, railroad-safety, capital, and credit account; Gwendolyn Brooks now treats craft, Black publishing, community, and Chicago literary life; Hank Aaron now covers the record chase, racism, statistics, executive work, and youth opportunity; Harold Washington now explains coalition politics and the Council Wars; Harriet Jacobs now centers sexual coercion, authorship, hiding, publication, and relief work with careful language; Harriet Tubman now separates documented strategy from myth; and HBCUs now connects education exclusion, land-grant law, movement infrastructure, research status, and underfunding.
+
+Batch 12 verification:
+
+- External links checked: 51 total, 0 material failures after replacing a dead National Park Service Granville T. Woods URL with a live U.S. Energy Information Administration profile. Forty-one links returned `200`. Ten Smithsonian, Library of Congress finding-aid, Poetry Foundation, UNC Press, or Encyclopedia of Chicago links returned automated bot-blocking statuses or fetch failures but were retained only because they are direct authoritative pages already verified for subject relevance.
+- Browser rendering checked: 10 Batch 12 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards where applicable, empty links, horizontal overflow, stale quiz wording, loading fallbacks, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 12 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, and external-link verification passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 85
-- REWRITE: 67
-- RESEARCH: 58
-- REBUILD: 69
+- PASS: 95
+- REWRITE: 63
+- RESEARCH: 52
+- REBUILD: 65
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -166,7 +179,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 85 | Garrett Morgan | encyclopedia/garrett-morgan.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 95 | Henrietta Lacks | encyclopedia/henrietta-lacks.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -258,16 +271,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 82 | Frederick Douglass and the Fourth of July Speech | generated/pages/douglass-fourth-of-july.html | PASS | Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, speech-date/publication/context claim review, depth/similarity validation, desktop/mobile browser check. |
 | 83 | Freedom Riders | generated/pages/freedom-riders.html | PASS | Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Morgan/Boynton/ICC/Jackson/Parchman claim review, stale National Archives source replaced, depth/similarity validation, desktop/mobile browser check. |
 | 84 | Freedom Riders Attacked in Anniston | generated/pages/freedom-riders-anniston.html | PASS | Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, two-bus sequence and National Monument claim review, depth/similarity validation, desktop/mobile browser check. |
-| 85 | Garrett Morgan | encyclopedia/garrett-morgan.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 86 | George Floyd | generated/pages/george-floyd.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 87 | Gordon Parks | encyclopedia/gordon-parks.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 88 | Granville T. Woods | generated/pages/granville-woods.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 89 | Gwendolyn Brooks | encyclopedia/gwendolyn-brooks.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 90 | Hank Aaron | encyclopedia/hank-aaron.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 91 | Harold Washington | generated/pages/harold-washington.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 92 | Harriet Jacobs | generated/pages/harriet-jacobs.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 93 | Harriet Tubman | encyclopedia/harriet-tubman.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 94 | HBCUs | encyclopedia/hbcus.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 85 | Garrett Morgan | encyclopedia/garrett-morgan.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, invention-first claim review, corrected overbroad traffic-signal framing, removed nonexistent daily challenge link, depth/similarity validation, desktop/mobile browser check. |
+| 86 | George Floyd | generated/pages/george-floyd.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, sensitive police-violence/legal-outcome claim review, depth/similarity validation, desktop/mobile browser check. |
+| 87 | Gordon Parks | encyclopedia/gordon-parks.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, photography/film first-claim review, depth/similarity validation, desktop/mobile browser check. |
+| 88 | Granville T. Woods | generated/pages/granville-woods.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, patent and railroad-communication claim review, dead NPS source replaced, depth/similarity validation, desktop/mobile browser check. |
+| 89 | Gwendolyn Brooks | encyclopedia/gwendolyn-brooks.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, literary first-claim review, stale quiz-card behavior removed, depth/similarity validation, desktop/mobile browser check. |
+| 90 | Hank Aaron | encyclopedia/hank-aaron.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified broadcast quotation note, record/statistic/racist-threat claim review, depth/similarity validation, desktop/mobile browser check. |
+| 91 | Harold Washington | generated/pages/harold-washington.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, first-mayor/Council-Wars/coalition claim review, depth/similarity validation, desktop/mobile browser check. |
+| 92 | Harriet Jacobs | generated/pages/harriet-jacobs.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, sensitive sexual-violence/authorship/confinement claim review, depth/similarity validation, desktop/mobile browser check. |
+| 93 | Harriet Tubman | encyclopedia/harriet-tubman.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, birth-year/Combahee/first-woman-military-raid claim review, mythic language corrected, depth/similarity validation, desktop/mobile browser check. |
+| 94 | HBCUs | encyclopedia/hbcus.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 6 external links, no unsupported quote, HBCU definition/land-grant/statistics/underfunding claim review, unsupported legacy quote removed, depth/similarity validation, desktop/mobile browser check. |
 | 95 | Henrietta Lacks | encyclopedia/henrietta-lacks.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 96 | Holy Week Uprisings | encyclopedia/holy-week-uprisings.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 97 | Ida B. Wells | encyclopedia/ida-b-wells.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |

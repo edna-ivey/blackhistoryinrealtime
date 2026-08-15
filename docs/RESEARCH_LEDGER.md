@@ -259,11 +259,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-25 - George Floyd
 
+- Entry title: George Floyd
 - Slug: `george-floyd`
-- Core claims: George Floyd was not a symbol when he woke up that morning. He was a person, and the world watched him beg for breath. On May 25, 2020, Minneapolis police officer Derek Chauvin pressed his knee onto Floyd's neck during an arrest. Video of the killing spread rapidly. The protests that followed became global. Millions marched against police violence and racial injustice, and Chauvin was later convicted of murder.
-- Sources:
-  - https://www.justice.gov/opa/pr/justice-department-announces-federal-civil-rights-charges-against-former-minneapolis
-  - https://www.britannica.com/biography/George-Floyd
+- Daily date: 2026-05-25
+- Date researched: 2026-08-15
+- Writer/research status: batch-12-complete
+- Material factual claims: George Floyd was a man before he became a global symbol: a father, son, brother, friend, athlete, worker, and Houston native whose life included faith, music, struggle, movement, and family. On May 25, 2020, Minneapolis police officer Derek Chauvin murdered him during an arrest outside Cup Foods while other officers failed to stop the force or provide the aid Floyd needed. The video forced millions of people to witness what Black communities had been naming for generations: police violence is not only an individual act, but a system of power, training, silence, and accountability. Floyd matters because the world saw him denied breath, and the aftermath made institutions answer questions they had spent years avoiding.
+- Primary or authoritative sources:
+  - https://www.justice.gov/archives/opa/pr/former-minneapolis-police-officer-derek-chauvin-pleads-guilty-federal-court-depriving-george
+  - https://www.justice.gov/archives/opa/pr/three-former-minneapolis-police-officers-convicted-federal-civil-rights-violations-death
+  - https://www.ag.state.mn.us/Office/Communications/2023/05/02_Thao.asp
+- Supporting secondary sources:
+  - https://www.ag.state.mn.us/Office/Communications/2022/10/24_Floyd.asp
+  - https://nmaahc.si.edu/about/news/remembering-george-floyd-and-movement-he-sparked-one-year-later
+- Verified quotation source: No quotation included. The page avoids reproducing last words or courtroom remarks as a pull quote.
+- Sensitive or disputed claims reviewed: Murder language, officer names, legal convictions, federal civil-rights pleas, state sentencing, protest scale, bystander role, and personhood framing reviewed.
+- Material corrections made: Expanded scheduled fallback into a careful human and legal account, avoiding sensational use of video language and avoiding unsupported protest-statistic overclaiming.
+- External links included on the page:
+  - U.S. Department of Justice: Derek Chauvin Pleads Guilty in Federal Civil Rights Case (https://www.justice.gov/archives/opa/pr/former-minneapolis-police-officer-derek-chauvin-pleads-guilty-federal-court-depriving-george)
+  - U.S. Department of Justice: Three Former Minneapolis Police Officers Convicted of Federal Civil Rights Violations (https://www.justice.gov/archives/opa/pr/three-former-minneapolis-police-officers-convicted-federal-civil-rights-violations-death)
+  - Minnesota Attorney General: Tou Thao Convicted of 2nd-Degree Manslaughter in Murder of George Floyd (https://www.ag.state.mn.us/Office/Communications/2023/05/02_Thao.asp)
+  - Minnesota Attorney General: George Floyd Case Timeline (https://www.ag.state.mn.us/Office/Communications/2022/10/24_Floyd.asp)
+  - National Museum of African American History and Culture: Remembering George Floyd and the Movement He Sparked (https://nmaahc.si.edu/about/news/remembering-george-floyd-and-movement-he-sparked-one-year-later)
+- Final review status: Batch 12 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, sensitive police-violence claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-26 - Miles Davis
 
@@ -299,11 +317,31 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-30 - Historically Black Colleges and Universities
 
+- Entry title: Historically Black Colleges and Universities
 - Slug: `hbcus`
-- Core claims: When many white colleges shut their doors to Black students, Black communities built their own doors. Historically Black Colleges and Universities were founded to educate Black students when segregation and discrimination blocked access elsewhere. They trained teachers, ministers, scientists, artists, lawyers, and leaders. HBCUs became more than campuses. They became engines of community, professional networks, research, activism, and cultural pride.
-- Sources:
+- Daily date: 2026-05-30
+- Date researched: 2026-08-15
+- Writer/research status: batch-12-complete
+- Material factual claims: Historically Black Colleges and Universities were not created because Black students wanted separation. They were created because white institutions, state governments, and private power denied Black people access to higher education, then underfunded the institutions Black communities built anyway. HBCUs trained teachers, ministers, doctors, lawyers, scientists, artists, organizers, and public servants when education itself was a freedom claim. They were classrooms, churches, laboratories, marching grounds, debate halls, choirs, newspapers, and homecomings. HBCUs matter because they show Black institution-building under exclusion and the continuing fight over public investment. They are not relics of segregation. They are living institutions shaped by history, pride, research, debt, underfunding, and possibility.
+- Primary or authoritative sources:
   - https://sites.ed.gov/whhbcu/one-hundred-and-five-historically-black-colleges-and-universities/
-  - https://nmaahc.si.edu/explore/stories/historically-black-colleges-and-universities
+  - https://www.archives.gov/milestone-documents/morrill-act
+  - https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title20%2Fchapter28%2Fsubchapter3%2FpartB
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/moments/homecoming-celebration-hbcus-and-their-legacies
+  - https://nmaahc.si.edu/explore/stories/consecrated-ground-churches-and-founding-americas-historically-black-colleges-and
+  - https://nces.ed.gov/fastfacts/display.asp?id=667
+- Verified quotation source: No quotation included. Legal definition and findings were used as evidence but not as a pull quote.
+- Sensitive or disputed claims reviewed: Oldest and first degree-granting HBCU claims, 1890 Morrill Act framing, Higher Education Act definition, more than 90 institutions claim, NCES degree statistics, current research classification claims, and chronic underfunding framing reviewed.
+- Material corrections made: Rebuilt legacy systems page, removed unsupported inspirational quote, replaced weak source mix with federal, Smithsonian, NCES, and statutory sources.
+- External links included on the page:
+  - U.S. Department of Education: What Is an HBCU? (https://sites.ed.gov/whhbcu/one-hundred-and-five-historically-black-colleges-and-universities/)
+  - National Museum of African American History and Culture: Homecoming: A Celebration of HBCUs and Their Legacies (https://nmaahc.si.edu/explore/moments/homecoming-celebration-hbcus-and-their-legacies)
+  - National Museum of African American History and Culture: Consecrated Ground: Churches and the Founding of America's HBCUs (https://nmaahc.si.edu/explore/stories/consecrated-ground-churches-and-founding-americas-historically-black-colleges-and)
+  - National Archives: Morrill Act (1862) (https://www.archives.gov/milestone-documents/morrill-act)
+  - NCES: Fast Facts: Historically Black Colleges and Universities (https://nces.ed.gov/fastfacts/display.asp?id=667)
+  - U.S. Code: Strengthening Historically Black Colleges and Universities (https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title20%2Fchapter28%2Fsubchapter3%2FpartB)
+- Final review status: Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 6 external links, no unsupported quote, education/statistical/legal claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-31 - Greenwood / Black Wall Street
 
@@ -647,11 +685,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-27 - Harriet Jacobs
 
+- Entry title: Harriet Jacobs
 - Slug: `harriet-jacobs`
-- Core claims: Harriet Jacobs hid in a tiny crawlspace for nearly seven years, close enough to hear her children but not free enough to hold them. Jacobs escaped sexual harassment and slavery in North Carolina by hiding in her grandmother's attic before eventually reaching the North. Under the name Linda Brent, she published Incidents in the Life of a Slave Girl, one of the most important narratives by an enslaved Black woman.
-- Sources:
+- Daily date: 2026-06-27
+- Date researched: 2026-08-15
+- Writer/research status: batch-12-complete
+- Material factual claims: Harriet Jacobs wrote what slavery tried hardest to silence: the interior life of an enslaved Black woman confronting sexual coercion, motherhood under property law, and the impossible choices forced by bondage. Born in Edenton, North Carolina, Jacobs escaped her enslaver's control by hiding for nearly seven years in a cramped attic space in her grandmother's house, close enough to hear her children but unable to live with them openly. In 1861, using the name Linda Brent, she published Incidents in the Life of a Slave Girl. The book mattered because it spoke directly to Northern women and refused to let antislavery politics avoid sexual violence. Jacobs was not asking readers for pity. She was giving testimony.
+- Primary or authoritative sources:
   - https://docsouth.unc.edu/fpn/jacobs/jacobs.html
-  - https://www.nps.gov/people/harriet-jacobs.htm
+  - https://nmaahc.si.edu/object/nmaahc_2015.97.6
+  - https://www.archives.gov/nhprc/projects/catalog/harriet-jacobs
+- Supporting secondary sources:
+  - https://www.nps.gov/places/harriet-jacobs-home-charter-street.htm
+  - https://uncpress.org/9780807831311/the-harriet-jacobs-family-papers/
+- Verified quotation source: Preface to Incidents in the Life of a Slave Girl in the Documenting the American South text.
+- Sensitive or disputed claims reviewed: Sexual harassment and coercion, pseudonyms, attic confinement duration, legal freedom purchase, publication authorship, Yellin verification, and Civil War relief work reviewed.
+- Material corrections made: Expanded scheduled fallback into full gendered-slavery, authorship, hiding, publication, and reform-work account.
+- External links included on the page:
+  - Documenting the American South: Incidents in the Life of a Slave Girl (https://docsouth.unc.edu/fpn/jacobs/jacobs.html)
+  - National Park Service: Site of Harriet Jacobs' Charter Street Home (https://www.nps.gov/places/harriet-jacobs-home-charter-street.htm)
+  - National Museum of African American History and Culture: Incidents in the Life of a Slave Girl: Written By Herself (https://nmaahc.si.edu/object/nmaahc_2015.97.6)
+  - National Archives: The Harriet Jacobs Family Papers (https://www.archives.gov/nhprc/projects/catalog/harriet-jacobs)
+  - UNC Press: The Harriet Jacobs Family Papers (https://uncpress.org/9780807831311/the-harriet-jacobs-family-papers/)
+- Final review status: Batch 12 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, sensitive sexual-violence claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-28 - Stonewall Riots
 
@@ -859,11 +915,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-11 - Granville T. Woods
 
+- Entry title: Granville T. Woods
 - Slug: `granville-woods`
-- Core claims: Granville Woods built inventions for a world racing forward on rails and electricity. Woods held dozens of patents, many connected to railway communication, electrical systems, and safety. His work helped trains communicate while moving. He fought expensive patent battles and built a career in a field where Black inventors were often denied investment, credit, and protection.
-- Sources:
-  - https://www.nps.gov/people/granville-t-woods.htm
-  - https://www.invent.org/inductees/granville-t-woods
+- Daily date: 2026-07-11
+- Date researched: 2026-08-15
+- Writer/research status: batch-12-complete
+- Material factual claims: Granville T. Woods was called the "Black Edison," but that nickname can hide more than it reveals. Woods was not valuable because he resembled Thomas Edison. He was valuable because he saw the dangerous new world of railroads and electricity from inside labor, then invented communication systems to make it safer. Born in Columbus, Ohio, with limited formal schooling, Woods worked as a machinist, railroad worker, engineer, and inventor. His railway telegraph and induction-telegraph work helped trains communicate while moving, a serious safety problem in an expanding rail economy. Woods matters because invention did not end when he received a patent. He had to defend priority, raise money, build companies, and survive legal fights in a field where race shaped who was believed.
+- Primary or authoritative sources:
+  - https://www.eia.gov/kids/history-of-energy/famous-people/woods.php
+  - https://patents.google.com/patent/US373383A/en
+  - https://patents.google.com/patent/US373915A/en
+- Supporting secondary sources:
+  - https://www.invent.org/inductees/granville-woods
+  - https://www.aps.org/apsnews/2023/10/granville-woods-patents-induction-telegraph
+- Verified quotation source: No quotation included. Patent text is used as evidence, not as a pull quote.
+- Sensitive or disputed claims reviewed: Black Edison nickname, formal education limits, railway telegraph claims, patent numbers and dates, patent-interference disputes, and induction-telegraph priority reviewed.
+- Material corrections made: Expanded scheduled fallback into a full account of railroad communication, patent defense, labor knowledge, and invention ownership.
+- External links included on the page:
+  - U.S. Energy Information Administration: Woods (1856) (https://www.eia.gov/kids/history-of-energy/famous-people/woods.php)
+  - National Inventors Hall of Fame: Granville Woods (https://www.invent.org/inductees/granville-woods)
+  - Google Patents: US373383A: Railway Telegraphy (https://patents.google.com/patent/US373383A/en)
+  - Google Patents: US373915A: Induction Telegraph System (https://patents.google.com/patent/US373915A/en)
+  - American Physical Society: Granville Woods Patents the Induction Telegraph (https://www.aps.org/apsnews/2023/10/granville-woods-patents-induction-telegraph)
+- Final review status: Batch 12 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, patent-first claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-12 - Vivien Thomas
 
@@ -1441,11 +1515,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-16 - Harold Washington
 
+- Entry title: Harold Washington
 - Slug: `harold-washington`
-- Core claims: Harold Washington's election turned Chicago City Hall into a battleground over who the city belonged to. In 1983, Washington became Chicago's first Black mayor, building a multiracial coalition against an entrenched political machine. His administration faced fierce opposition from many city council members, but it opened space for neighborhood voices and reform politics.
-- Sources:
-  - https://www.chipublib.org/harold-washington-biography/
-  - https://www.britannica.com/biography/Harold-Washington
+- Daily date: 2026-08-16
+- Date researched: 2026-08-15
+- Writer/research status: batch-12-complete
+- Material factual claims: Harold Washington's election as Chicago's first Black mayor in 1983 was not a feel-good milestone. It was a confrontation with a political machine that had long treated Black voters as useful but not central. Washington built a multiracial coalition of Black communities, Latinos, reform-minded white voters, labor, and neighborhood activists. Then he entered City Hall and met the Council Wars, a governing blockade led by white aldermen determined to limit his power. Washington matters because winning office did not end the fight. His mayoralty shows how democracy can be both expanded and sabotaged, and how old power can defend itself through rules, committees, maps, and budgets as much as through speeches.
+- Primary or authoritative sources:
+  - https://www.chipublib.org/mayor-harold-washington-biography/
+  - https://www.chicagohistory.org/exhibition/harold-washington-1983-chicago-mayoral-election/
+  - https://www.encyclopedia.chicagohistory.org/pages/342.html
+- Supporting secondary sources:
+  - https://www.encyclopedia.chicagohistory.org/pages/500009.html
+  - https://www.chipublib.org/fa-harold-washington-archives-and-collections-mayoral-records-public-safetyregulatory-sub-cabinet-records/
+- Verified quotation source: No quotation included. Campaign slogan discussed as historical context but not styled as Washington quotation.
+- Sensitive or disputed claims reviewed: First Black mayor claim, election dates, Epton slogan interpretation, Vrdolyak 29 racial composition, Council Wars end, reform accomplishments, reelection, and death in office reviewed.
+- Material corrections made: Expanded scheduled fallback into full coalition, machine-politics, Council Wars, and governance account.
+- External links included on the page:
+  - Chicago Public Library: Mayor Harold Washington Biography (https://www.chipublib.org/mayor-harold-washington-biography/)
+  - Chicago History Museum: Harold Washington and the 1983 Chicago Mayoral Election (https://www.chicagohistory.org/exhibition/harold-washington-1983-chicago-mayoral-election/)
+  - Encyclopedia of Chicago: Council Wars (https://www.encyclopedia.chicagohistory.org/pages/342.html)
+  - Encyclopedia of Chicago: Year Page: 1983 (https://www.encyclopedia.chicagohistory.org/pages/500009.html)
+  - Chicago Public Library: Harold Washington Archives and Collections (https://www.chipublib.org/fa-harold-washington-archives-and-collections-mayoral-records-public-safetyregulatory-sub-cabinet-records/)
+- Final review status: Batch 12 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, political-conflict claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-17 - David Dinkins
 
@@ -2653,3 +2745,133 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Archives: Documenting the Struggle for Racial Equality in the Decade of the Sixties (https://www.archives.gov/publications/prologue/1997/summer/equality-in-the-sixties.html)
   - Library of Congress: Today in History: May 14 (https://www.loc.gov/item/today-in-history/may-14/)
 - Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Garrett Morgan
+
+- Entry title: Garrett Morgan
+- Slug: `garrett-morgan`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-12-complete
+- Material factual claims: Garrett Morgan is often introduced through two inventions: the safety hood, an early breathing device, and the three-position traffic signal. That is true, but the fuller story is about a Black inventor who kept solving public safety problems while racism tried to shrink the market for his work. Morgan left Kentucky as a teenager, taught himself machinery in Cincinnati and Cleveland, built repair and garment businesses, marketed hair-care products, helped found a Black newspaper, and turned observation into patents. He did not invent traffic safety alone, and he did not invent the modern gas mask in its final form. What he did was design practical safety devices that saved lives, then fight for credit, customers, and civic respect in a country that wanted Black genius without Black authority.
+- Primary or authoritative sources:
+  - https://www.nps.gov/brvb/learn/news/garrettmorgan.htm
+  - https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/courage-and-caution
+  - https://highways.dot.gov/highway-history/general-highway-history/safer-stop-and-go-garrett-morgans-traffic-signal-legacy
+- Supporting secondary sources:
+  - https://www.invent.org/inductees/garrett-morgan
+  - https://case.edu/ech/articles/m/morgan-garrett-a/
+- Verified quotation source: USPTO Journeys of Innovation article quotes Morgan letter after the Cleveland tunnel rescue.
+- Sensitive or disputed claims reviewed: Formerly enslaved parent claim, safety hood patent date, tunnel-rescue scope, traffic-signal novelty, General Electric sale, Cleveland Call role, and racist sales barriers reviewed.
+- Material corrections made: Removed legacy invented pull-quote framing, corrected overbroad yellow-light language, and removed nonexistent daily challenge card because no generated daily entry exists for this slug.
+- External links included on the page:
+  - National Park Service: Garrett Morgan: An Uncommon Inventor (https://www.nps.gov/brvb/learn/news/garrettmorgan.htm)
+  - USPTO: Of Courage and Caution (https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/courage-and-caution)
+  - Federal Highway Administration: Safer Stop and Go: Garrett Morgan's Traffic Signal Legacy (https://highways.dot.gov/highway-history/general-highway-history/safer-stop-and-go-garrett-morgans-traffic-signal-legacy)
+  - National Inventors Hall of Fame: Garrett Morgan (https://www.invent.org/inductees/garrett-morgan)
+  - Encyclopedia of Cleveland History: Morgan, Garrett A. (https://case.edu/ech/articles/m/morgan-garrett-a/)
+- Final review status: Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, invention-first claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Gordon Parks
+
+- Entry title: Gordon Parks
+- Slug: `gordon-parks`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-12-complete
+- Material factual claims: Gordon Parks made the camera do more than record. He made it argue. Born in segregated Fort Scott, Kansas, Parks became a photographer, writer, composer, and filmmaker whose work moved through federal documentary projects, fashion magazines, Life magazine, novels, Hollywood, and music. He photographed poverty, segregation, civil rights leaders, Harlem families, fashion models, gang leaders, celebrities, and children with the same insistence: people deserved complexity. Parks matters because he widened who could make images and who could be seen inside them. He was not simply the first Black staff photographer at Life or the first Black director of a major Hollywood studio feature. He was a maker who used beauty without letting beauty become an escape from injustice.
+- Primary or authoritative sources:
+  - https://www.gordonparksfoundation.org/gordon-parks/biography
+  - https://findingaids.loc.gov/repositories/19/resources/2525
+  - https://www.loc.gov/loc/lcib/9516/parks.html
+- Supporting secondary sources:
+  - https://guides.loc.gov/african-american-artists/photography
+  - https://www.gordonparkscenter.org/gordon-parks
+- Verified quotation source: Gordon Parks Foundation biography quotes Parks on the camera as a weapon against poverty and racism.
+- Sensitive or disputed claims reviewed: First Black Life staff photographer framing, first major-studio feature director framing, FSA/OWI chronology, Shaft interpretation, archive donation, and death date reviewed.
+- Material corrections made: Expanded thin legacy page into full visual-culture, journalism, film, and archive account with verified source links.
+- External links included on the page:
+  - Gordon Parks Foundation: Biography (https://www.gordonparksfoundation.org/gordon-parks/biography)
+  - Library of Congress: Gordon Parks Papers (https://findingaids.loc.gov/repositories/19/resources/2525)
+  - Library of Congress: Renaissance Man: Gordon Parks Donates His Archives (https://www.loc.gov/loc/lcib/9516/parks.html)
+  - Library of Congress: Photography: African American Artists Collection Connections (https://guides.loc.gov/african-american-artists/photography)
+  - Gordon Parks Museum: Gordon Parks Biography and Timeline (https://www.gordonparkscenter.org/gordon-parks)
+- Final review status: Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, film/photography first-claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Gwendolyn Brooks
+
+- Entry title: Gwendolyn Brooks
+- Slug: `gwendolyn-brooks`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-12-complete
+- Material factual claims: Gwendolyn Brooks made ordinary Black city life impossible to dismiss. She wrote kitchenette apartments, pool halls, mothers, school-skipping boys, beauty shops, riots, grief, jokes, and ambition with technical control and emotional nerve. In 1950, Annie Allen made her the first Black writer to win a Pulitzer Prize. But Brooks should not be frozen at the prize. In the late 1960s, she turned toward Black-owned presses, community workshops, prison readings, young poets, and a sharper public commitment to Black audiences. Brooks matters because she joined craft and community without treating either as decoration. Her poems were built, not poured, and they carried the South Side of Chicago into American literature on its own terms.
+- Primary or authoritative sources:
+  - https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poets-laureate/item/n50041281/gwendolyn-brooks/
+  - https://www.pulitzer.org/winners/gwendolyn-brooks
+- Supporting secondary sources:
+  - https://www.pulitzer.org/news/gwendolyn-brooks-poets-work-community-opens-morgan-library
+  - https://www.poetryfoundation.org/articles/92827/gwendolyn-brooks-at-100
+  - https://www.poetryfoundation.org/poetry-news/77892/brooks-to-picasso-art-hurts
+- Verified quotation source: Poetry Foundation discussion of Brooks's 1969 interview about art and the Chicago Picasso poem.
+- Sensitive or disputed claims reviewed: First Black Pulitzer winner claim, Consultant in Poetry title, Fisk conference influence, Black-owned press shift, royalties to Broadside Press, and death date reviewed.
+- Material corrections made: Rebuilt legacy page through rich renderer, corrected stale quiz-card behavior by removing nonexistent daily challenge link, and replaced weak external sources with direct literary institutions.
+- External links included on the page:
+  - Library of Congress: Gwendolyn Brooks (https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poets-laureate/item/n50041281/gwendolyn-brooks/)
+  - Pulitzer Prizes: Gwendolyn Brooks, 1950 Poetry Winner (https://www.pulitzer.org/winners/gwendolyn-brooks)
+  - Pulitzer Prizes: Gwendolyn Brooks: A Poet's Work in Community (https://www.pulitzer.org/news/gwendolyn-brooks-poets-work-community-opens-morgan-library)
+  - Poetry Foundation: Gwendolyn Brooks at 100 (https://www.poetryfoundation.org/articles/92827/gwendolyn-brooks-at-100)
+  - Poetry Foundation: Brooks to Picasso: 'Art Hurts' (https://www.poetryfoundation.org/poetry-news/77892/brooks-to-picasso-art-hurts)
+- Final review status: Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, literary first-claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Hank Aaron
+
+- Entry title: Hank Aaron
+- Slug: `hank-aaron`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-12-complete
+- Material factual claims: Hank Aaron's 715th home run is one of the clearest scenes in American sports: a Black man rounding the bases in Atlanta after passing Babe Ruth. But the single swing can hide the full career. Aaron was not only a record breaker. He was one of baseball's most consistent hitters, a Negro League alumnus, a Milwaukee and Atlanta Braves star, a World Series champion, a front-office executive, and a public figure who endured racist hate while doing his job with almost unbearable steadiness. Aaron matters because excellence did not protect him from racism. It exposed racism more clearly. His home-run chase showed what happens when a Black athlete threatens a white national myth by being better than the myth can tolerate.
+- Primary or authoritative sources:
+  - https://baseballhall.org/hall-of-famers/aaron-hank
+  - https://baseballhall.org/discover-more/stories/inside-pitch/henry-aaron-hits-home-run-number-715
+  - https://baseballhall.org/discover/fifty-years-ago-hank-aaron-became-king
+- Supporting secondary sources:
+  - https://www.mlb.com/news/hank-aaron-overcame-racism-hate-throughout-life
+  - https://encyclopediaofalabama.org/article/henry-hank-aaron/
+- Verified quotation source: No quotation included. Broadcast and interview language was used as context but not reproduced as a pull quote.
+- Sensitive or disputed claims reviewed: Death date, Negro League stop, 715 date and pitcher, hate mail/death-threat claims, record totals, foundation work, and post-playing executive role reviewed.
+- Material corrections made: Expanded thin legacy page into full career and racial-context account; removed no-longer-current NPS present-date framing.
+- External links included on the page:
+  - National Baseball Hall of Fame: Hank Aaron (https://baseballhall.org/hall-of-famers/aaron-hank)
+  - National Baseball Hall of Fame: Henry Aaron Hits Home Run No. 715 (https://baseballhall.org/discover-more/stories/inside-pitch/henry-aaron-hits-home-run-number-715)
+  - National Baseball Hall of Fame: Fifty Years Ago, Hank Aaron Became King (https://baseballhall.org/discover/fifty-years-ago-hank-aaron-became-king)
+  - MLB: Hank Aaron Overcame Racism, Hate Throughout Life (https://www.mlb.com/news/hank-aaron-overcame-racism-hate-throughout-life)
+  - Encyclopedia of Alabama: Henry "Hank" Aaron (https://encyclopediaofalabama.org/article/henry-hank-aaron/)
+- Final review status: Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, sports-record and racism-claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Harriet Tubman
+
+- Entry title: Harriet Tubman
+- Slug: `harriet-tubman`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-12-complete
+- Material factual claims: Harriet Tubman is famous enough to become myth, which makes accuracy even more important. She was born Araminta Ross on Maryland's Eastern Shore, survived slavery and a traumatic head injury, escaped in 1849, then repeatedly returned to guide family and others to freedom. National Park Service accounts credit her with about 13 trips into Maryland and the liberation of roughly 70 people, plus instructions that helped others escape. During the Civil War she served as a nurse, scout, spy, and military guide, helping plan the Combahee River Raid that freed more than 700 people. Tubman matters because she was not magic. She was disciplined, strategic, disabled, devout, tired, underpaid, and brilliant at turning landscape, trust, and intelligence into freedom.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/harriet-tubman.htm
+  - https://www.nps.gov/hatu/learn/historyculture/htubman.htm
+  - https://home.nps.gov/articles/harriet-tubman-and-the-underground-railroad.htm
+- Supporting secondary sources:
+  - https://www.nps.gov/places/combahee-river-ferry-harriet-tubman-bridge.htm
+  - https://www.nps.gov/articles/000/we-called-ourselves-combee.htm
+- Verified quotation source: NPS Harriet Tubman and the Underground Railroad article quotes Tubman's 1896 suffrage convention statement.
+- Sensitive or disputed claims reviewed: Birth-year uncertainty, head injury/disability language, 13 trips and 70-person claim, Combahee date and number freed, first-woman military raid framing, pension/underpayment, and death date reviewed.
+- Material corrections made: Rebuilt legacy page, removed stale non-date daily challenge link, and softened mythic language into documented strategic history.
+- External links included on the page:
+  - National Park Service: Harriet Tubman (https://www.nps.gov/people/harriet-tubman.htm)
+  - National Park Service: Harriet Tubman Underground Railroad National Historical Park History (https://www.nps.gov/hatu/learn/historyculture/htubman.htm)
+  - National Park Service: Harriet Tubman and the Underground Railroad (https://home.nps.gov/articles/harriet-tubman-and-the-underground-railroad.htm)
+  - National Park Service: Combahee River Ferry and Harriet Tubman Bridge (https://www.nps.gov/places/combahee-river-ferry-harriet-tubman-bridge.htm)
+  - National Park Service: We Called Ourselves Combee (https://www.nps.gov/articles/000/we-called-ourselves-combee.htm)
+- Final review status: Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, sensitive enslavement/disability/military-first claim review, depth/similarity validation, desktop/mobile browser check.
