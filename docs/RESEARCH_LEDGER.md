@@ -110,11 +110,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-15 - Emmett Till
 
+- Entry title: Emmett Till
 - Slug: `emmett-till`
-- Core claims: Mamie Till-Mobley made a decision no mother should ever have to make: she let the world see what racism had done to her child. Emmett Till was fourteen when he traveled from Chicago to Mississippi in 1955. After a white woman accused him of improper behavior, two white men kidnapped, tortured, and killed him. His mother insisted on an open casket and allowed photographs to be published. The images shocked the nation and helped move many young people toward civil rights activism.
-- Sources:
+- Daily date: 2026-05-15
+- Date researched: 2026-08-14
+- Writer/research status: batch-9-complete
+- Material factual claims: Emmett Till was fourteen years old when white men kidnapped and murdered him in Mississippi in 1955. His mother, Mamie Till-Mobley, then made a decision that changed public memory: she insisted on a funeral in Chicago with an open casket and allowed photographs of her son to be published. The daily challenge tells that basic fact. The encyclopedia has to hold more: a child from Chicago entering the racial rules of the Mississippi Delta, a mother refusing secrecy, an all-white jury's acquittal, a paid confession after the trial, and decades of unfinished accountability. This page matters because Emmett Till should not be remembered only as an image of death. He was a boy with a family, and his mother's witness forced a nation to see what it preferred to deny.
+- Primary or authoritative sources:
   - https://www.nps.gov/people/emmett-till.htm
-  - https://nmaahc.si.edu/explore/stories/emmett-till
+  - https://www.nps.gov/till/index.htm
+  - https://www.justice.gov/crt/case-document/emmett-till-notice-close-file-0
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/emmett-tills-death-inspired-movement
+  - https://americanhistory.si.edu/explore/exhibitions/reckoning-with-remembrance/online
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Child murder, Bryant Grocery encounter, open-casket publication, all-white jury, Look magazine confession, later recantation reporting, DOJ reopening and 2021 closure, and monument creation reviewed.
+- Material corrections made: Expanded the scheduled fallback into a carefully sourced account that treats disputed recantation claims through the Justice Department record rather than presenting them as settled fact.
+- External links included on the page:
+  - National Park Service: Emmett Till (https://www.nps.gov/people/emmett-till.htm)
+  - National Park Service: Emmett Till and Mamie Till-Mobley National Monument (https://www.nps.gov/till/index.htm)
+  - National Museum of African American History and Culture: Emmett Till's Death Inspired a Movement (https://nmaahc.si.edu/explore/stories/emmett-tills-death-inspired-movement)
+  - Smithsonian National Museum of American History: Reckoning with Remembrance: History, Injustice, and the Murder of Emmett Till (https://americanhistory.si.edu/explore/exhibitions/reckoning-with-remembrance/online)
+  - U.S. Department of Justice: Notice to Close File: Emmett Till (https://www.justice.gov/crt/case-document/emmett-till-notice-close-file-0)
+- Final review status: Batch 9 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, sensitive/disputed claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-16 - Phillis Wheatley
 
@@ -2275,3 +2293,106 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Inventors Hall of Fame: Elijah McCoy (https://www.invent.org/inductees/elijah-mccoy)
   - USPTO: Elijah J. McCoy Midwest Regional Office (https://www.uspto.gov/about-us/news-updates/derris-banks-appointed-regional-director-usptos-elijah-j-mccoy-midwest)
 - Final review status: Batch 8 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, verified patent quotation, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Ella Fitzgerald
+
+- Entry title: Ella Fitzgerald
+- Slug: `ella-fitzgerald`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-9-complete
+- Material factual claims: Ella Fitzgerald is often called the First Lady of Song, which sounds graceful and a little too neat. The real story is sharper. She was a teenager who came through loss, poverty, and the pressure of public performance, then built a voice so precise and playful that musicians treated it like an instrument. Fitzgerald changed how jazz singing could move: through swing, ballads, bebop, scat, popular song, and the Great American Songbook. She did it while working inside an entertainment industry that profited from Black brilliance and still enforced segregation, unequal access, and gendered control. Her page matters because the easy version says she had a beautiful voice. The deeper story asks what she heard, how she practiced, who opened doors, and how Black artistry changed American music from the bandstand out.
+- Primary or authoritative sources:
+  - https://www.si.edu/spotlight/ella-fitzgerald
+  - https://americanhistory.si.edu/explore/stories/tisket-tasket-hit-song-her-basket-ellas-rise-fame
+- Supporting secondary sources:
+  - https://www.arts.gov/stories/blog/2017/ella-fitzgerald-sound-joy
+  - https://www.grammy.com/artists/ella-fitzgerald/16685/
+- Verified quotation source: Recording Academy Ella Fitzgerald artist profile.
+- Sensitive or disputed claims reviewed: Apollo Amateur Night account, chart and sales claims for "A-Tisket, A-Tasket," first Grammy claim, NEA Jazz Master claim, segregation context, and late-life health framing reviewed.
+- Material corrections made: Replaced the shallow legacy page with a full account of Fitzgerald as a working musician, bandleader, improviser, songbook interpreter, and Black woman navigating a segregated entertainment industry.
+- External links included on the page:
+  - Smithsonian Institution: Ella Fitzgerald Spotlight (https://www.si.edu/spotlight/ella-fitzgerald)
+  - National Museum of American History: A-Tisket, A-Tasket: A Hit Song from Her Basket (https://americanhistory.si.edu/explore/stories/tisket-tasket-hit-song-her-basket-ellas-rise-fame)
+  - National Endowment for the Arts: Ella Fitzgerald: The Sound of Joy (https://www.arts.gov/stories/blog/2017/ella-fitzgerald-sound-joy)
+  - Recording Academy: Ella Fitzgerald Artist Profile (https://www.grammy.com/artists/ella-fitzgerald/16685/)
+- Final review status: Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Enslaved Labor & American Infrastructure
+
+- Entry title: Enslaved Labor & American Infrastructure
+- Slug: `enslaved-labor`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-9-complete
+- Material factual claims: American infrastructure was not built only by presidents, architects, engineers, financiers, and founders. It was built by enslaved people whose names were often recorded as costs, rentals, skills, or property, when they were recorded at all. The White House and U.S. Capitol relied on enslaved labor. Universities, banks, plantations, ports, roads, canals, railroads, insurance companies, and early industries drew wealth from slavery directly or through markets tied to slave-produced commodities. This page matters because public memory often separates architecture from labor and national grandeur from coercion. The deeper story is not that every brick was laid by an enslaved person. It is that the nation's physical, financial, and educational institutions grew inside an economy where Black labor was violently extracted and then made easy to forget.
+- Primary or authoritative sources:
+  - https://www.whitehousehistory.org/questions/did-slaves-build-the-white-house
+  - https://www.archives.gov/press/press-releases/2009/nr09-28-images
+  - https://www.aoc.gov/explore-capitol-campus/blog/philip-reid-and-statue-freedom
+- Supporting secondary sources:
+  - https://www.whitehousehistory.org/building-the-white-house?campaign=420949
+  - https://legacyofslaveryreport.harvard.edu/report/summary-of-the-reports-key-findings
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: White House and Capitol construction labor, Philip Reid and Statue of Freedom account, institution-building claims, university ties to slavery, and distinction between direct labor and slave-derived wealth reviewed.
+- Material corrections made: Replaced broad legacy framing and weak external links with careful distinctions between direct enslaved construction labor, financial entanglement, institutional growth, and archival erasure.
+- External links included on the page:
+  - White House Historical Association: Did Enslaved People Build the White House? (https://www.whitehousehistory.org/questions/did-slaves-build-the-white-house)
+  - White House Historical Association: Building the White House (https://www.whitehousehistory.org/building-the-white-house?campaign=420949)
+  - National Archives: Documenting Slaves Who Built the White House and Capitol (https://www.archives.gov/press/press-releases/2009/nr09-28-images)
+  - Architect of the Capitol: Philip Reid and the Statue of Freedom (https://www.aoc.gov/explore-capitol-campus/blog/philip-reid-and-statue-freedom)
+  - Harvard and the Legacy of Slavery: Summary of the Report's Key Findings (https://legacyofslaveryreport.harvard.edu/report/summary-of-the-reports-key-findings)
+- Final review status: Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, sensitive institutional-claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Environmental Justice
+
+- Entry title: Environmental Justice
+- Slug: `environmental-justice`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-9-complete
+- Material factual claims: Environmental justice is not just an environmental issue with civil rights language attached. It is a movement that grew from communities noticing a pattern: landfills, hazardous waste, polluted air, unsafe water, and climate risk were being pushed toward people with the least political protection. In 1982, Black residents and allies in Warren County, North Carolina, fought a PCB landfill and helped give national language to a struggle many communities already knew. The movement then built research, principles, law, policy, and organizing networks that insisted the environment means where people live, work, learn, play, and pray. This page matters because environmental justice is not only about pollution. It is about decision-making power, public health, land, race, class, and the right to survive without being treated as expendable.
+- Primary or authoritative sources:
+  - https://www.ucc.org/what-we-do/justice-local-church-ministries/efam/environmental-justice/a-movement-is-born-environmental-justice-and-the-ucc-united-church-of-christ/
+  - https://www.ejnet.org/ej/platform.html
+- Supporting secondary sources:
+  - https://energyhistory.yale.edu/principles-of-environmental-justice-first-national-people-of-color-environmental-justice-leadership-summit-washington-dc-1991/
+  - https://www.ucc.org/30th-anniversary-the-first-national-people-of-color-environmental-leadership-summit/
+  - https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=4000083P.TXT
+- Verified quotation source: UCC 30th anniversary summit account describing environmental justice as where people live, work, study, play, and pray.
+- Sensitive or disputed claims reviewed: Warren County protest and arrest count, landfill outcome, GAO and UCC report findings, 1991 summit, Principles of Environmental Justice, Executive Order 12898, and movement scope reviewed.
+- Material corrections made: Rebuilt shallow legacy content into a movement history that separates environmental justice as organizing and policy from environmental racism as structural pattern.
+- External links included on the page:
+  - United Church of Christ: A Movement Is Born: Environmental Justice and the UCC (https://www.ucc.org/what-we-do/justice-local-church-ministries/efam/environmental-justice/a-movement-is-born-environmental-justice-and-the-ucc-united-church-of-christ/)
+  - Environmental Justice Network: Principles of Environmental Justice (https://www.ejnet.org/ej/platform.html)
+  - Yale Energy History: Principles of Environmental Justice (https://energyhistory.yale.edu/principles-of-environmental-justice-first-national-people-of-color-environmental-justice-leadership-summit-washington-dc-1991/)
+  - United Church of Christ: 30th Anniversary of the First National People of Color Environmental Leadership Summit (https://www.ucc.org/30th-anniversary-the-first-national-people-of-color-environmental-leadership-summit/)
+  - EPA NEPIS: EPA Journal: Environmental Equity (https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=4000083P.TXT)
+- Final review status: Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified movement quotation, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Environmental Racism
+
+- Entry title: Environmental Racism
+- Slug: `environmental-racism`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-9-complete
+- Material factual claims: Environmental racism is the pattern environmental justice organizers named: pollution and environmental danger are not distributed randomly. They follow race, power, land values, zoning, political access, and the long history of whose neighborhoods officials are willing to sacrifice. The term is often linked to the 1982 Warren County PCB landfill protests and the work of civil rights leader Benjamin Chavis, but the reality is older than the phrase. It appears in where highways were built, where refineries expanded, where lead stayed in pipes and paint, where flood protection failed, and whose warnings were dismissed. This page matters because the problem is not simply that Black communities live near hazards. It is that public and private decisions made those hazards more likely, harder to escape, and slower to remedy.
+- Primary or authoritative sources:
+  - https://www.epa.gov/sciencematters/study-finds-exposure-air-pollution-higher-people-color-regardless-region-or-income
+  - https://www.michigan.gov/mdcr/commission/flint-water-hearings
+  - https://doi.org/10.1073/pnas.1818859116
+- Supporting secondary sources:
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC13197355/
+  - https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=500005ER.TXT
+  - https://www.ucc.org/what-we-do/justice-local-church-ministries/efam/environmental-justice/a-movement-is-born-environmental-justice-and-the-ucc-united-church-of-christ/
+- Verified quotation source: No quotation included. Removed the legacy page quotation because no trustworthy source was identified.
+- Sensitive or disputed claims reviewed: Race-versus-income framing, Warren County origin language, Flint water crisis causation, Cancer Alley health/exposure claims, PNAS pollution inequity data, EPA PM2.5 exposure findings, and cumulative-impact framing reviewed.
+- Material corrections made: Removed an unsourced legacy quote, replaced broad claims with sourced research, and distinguished documented exposure patterns from claims that require geographic or methodological caveats.
+- External links included on the page:
+  - EPA Science Matters: Study Finds Exposure to Air Pollution Higher for People of Color (https://www.epa.gov/sciencematters/study-finds-exposure-air-pollution-higher-people-color-regardless-region-or-income)
+  - Michigan Civil Rights Commission: Flint Water Hearings (https://www.michigan.gov/mdcr/commission/flint-water-hearings)
+  - Proceedings of the National Academy of Sciences: Inequity in Consumption of Goods and Services Adds to Racial-Ethnic Disparities in Air Pollution Exposure (https://doi.org/10.1073/pnas.1818859116)
+  - National Library of Medicine: Environmental Justice and Cancer Alley (https://pmc.ncbi.nlm.nih.gov/articles/PMC13197355/)
+  - EPA NEPIS: Smart Land Use Planning for Environmental Justice (https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=500005ER.TXT)
+- Final review status: Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, depth/similarity validation, desktop/mobile browser check.

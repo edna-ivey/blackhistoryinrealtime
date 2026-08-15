@@ -3,232 +3,214 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Environmental Racism &#x2014; Black History in Real Time Encyclopedia</title>
+<title>Environmental Racism - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Environmental racism is the pattern environmental justice organizers named: pollution and environmental danger are not distributed randomly. They follow race, power, land values, zoning, political access, and the long history of whose neighborhoods officials are willing to sacrifice. The term is often linked to the 1982 Warren County PCB landfill protests and the work of civil rights leader Benjamin Chavis, but the reality is older than the phrase. It appears in where highways were built, where refineries expanded, where lead stayed in pipes and paint, where flood protection failed, and whose warnings were dismissed. This page matters because the problem is not simply that Black communities live near hazards. It is that public and private decisions made those hazards more likely, harder to escape, and slower to remedy.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}
-.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,#333,var(--orange));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-item{}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;margin-bottom:0;transition:all 0.2s;}
-.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
-.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
-.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
-.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
-.external-section{}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
-
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="environmental-racism">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a href="../index.html" class="logo-area">
+    <a class="logo-area" href="../index.html">
       <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
       <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
     <a href="../index.html">Today</a>
-    <a href="../index.html#calendar">Calendar</a>
-    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
     <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
   </nav>
 </header>
 <main>
   <div class="breadcrumb">
     <a href="../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>February 26 · Environment & Justice</span>
+    <span> &middot; Environment &amp; Justice</span>
   </div>
   <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
 
   <div class="entry-hero">
-    <div class="entry-vol-label">February 26 · Environment & Justice</div>
+    <div class="entry-vol-label"> &middot; Environment &amp; Justice</div>
     <h1>Environmental Racism</h1>
-    <p class="entry-tagline">In America, the most polluted places are rarely wealthy. They are rarely white. That pattern has a name.</p>
+    <p class="entry-tagline">Environmental racism is the pattern environmental justice organizers named: pollution and environmental danger are not distributed randomly. They follow race, power, land values, zoning, political access, and the long history of whose neighborhoods officials are willing to sacrifice. The term is often linked to the 1982 Warren County PCB landfill protests and the work of civil rights leader Benjamin Chavis, but the reality is older than the phrase. It appears in where highways were built, where refineries expanded, where lead stayed in pipes and paint, where flood protection failed, and whose warnings were dismissed. This page matters because the problem is not simply that Black communities live near hazards. It is that public and private decisions made those hazards more likely, harder to escape, and slower to remedy.</p>
     <div class="entry-badges">
       <span class="badge">Systems</span>
-<span class="badge">Ongoing</span>
-<span class="badge">Environment</span>
+      <span class="badge">1982 - present</span>
     </div>
-    <div class="hero-bar" style="background:linear-gradient(90deg,#333,#1A5C38);"></div>
+    <div class="hero-bar"></div>
   </div>
 
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
     <div class="timeline-items">
-      <div class="tl-item"><div class="tl-date">1982</div><div class="tl-event">Warren County, NC protests become the first major environmental justice demonstration in the U.S.; protesters oppose PCB landfill in a Black community</div></div>
-<div class="tl-item"><div class="tl-date">1987</div><div class="tl-event">United Church of Christ report documents that race is the strongest predictor of proximity to hazardous waste sites</div></div>
-<div class="tl-item"><div class="tl-date">1994</div><div class="tl-event">President Clinton signs Executive Order 12898 directing federal agencies to address environmental justice</div></div>
-<div class="tl-item"><div class="tl-date">2014-2019</div><div class="tl-event">Flint, Michigan water crisis exposes majority-Black city to lead-contaminated water; government response is delayed</div></div>
-<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Cancer Alley in Louisiana, 85 miles of petrochemical plants running through majority-Black parishes</div></div>
-<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Studies consistently find Black children exposed to significantly more air pollution than white children in the same cities</div></div>
+<div class="tl-item"><div class="tl-date">1930s-1960s</div><div class="tl-event">Redlining, segregation, highway construction, zoning, and industrial siting help shape unequal environmental exposure in many U.S. cities.</div></div>
+<div class="tl-item"><div class="tl-date">1978</div><div class="tl-event">PCB-contaminated oil is dumped along roads in North Carolina.</div></div>
+<div class="tl-item"><div class="tl-date">1982</div><div class="tl-event">Warren County residents protest a PCB landfill in a majority-Black county, helping nationalize the term environmental racism.</div></div>
+<div class="tl-item"><div class="tl-date">1983</div><div class="tl-event">A U.S. General Accounting Office study finds hazardous waste landfill concentration in majority-Black southern communities.</div></div>
+<div class="tl-item"><div class="tl-date">1987</div><div class="tl-event">Toxic Wastes and Race reports race as a major predictor of hazardous waste facility location.</div></div>
+<div class="tl-item"><div class="tl-date">1994</div><div class="tl-event">Executive Order 12898 directs federal agencies to address environmental justice in minority and low-income populations.</div></div>
+<div class="tl-item"><div class="tl-date">2014-2016</div><div class="tl-event">The Flint water crisis exposes how race, emergency management, infrastructure neglect, and official disbelief can combine.</div></div>
+<div class="tl-item"><div class="tl-date">2019</div><div class="tl-event">A PNAS study finds pollution inequity in fine particulate exposure tied to consumption and exposure patterns.</div></div>
+<div class="tl-item"><div class="tl-date">2021</div><div class="tl-event">EPA researchers report that people of color face higher exposure to PM2.5 from nearly all major emission categories.</div></div>
+<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Communities challenge cumulative impacts from petrochemical corridors, ports, warehouses, highways, heat, flooding, and aging infrastructure.</div></div>
     </div>
   </div>
 
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-
-    <p>There is an 85-mile stretch of land along the Mississippi River in Louisiana that people call Cancer Alley.</p>
-
-    <p>It runs through communities that are predominantly Black. It contains more than 150 petrochemical plants and refineries. Residents there have cancer rates that far exceed the national average. The air carries a smell that visitors notice immediately and residents have learned to live with.</p>
-
-    <p>This did not happen randomly.</p>
-
-    <p>Environmental racism is the term researchers use for a pattern that shows up consistently across the United States: industrial facilities, chemical plants, waste dumps, and other hazardous operations are disproportionately located in and near Black and low-income communities. The pattern holds in rural areas and in cities. It holds in the South and the North. It holds across decades of data.</p>
-
-    <p>The mechanisms are not always explicit. Companies do not always announce that they are choosing a site because its residents are Black and lack the political power to resist. But the results are consistent enough that researchers have concluded race is the single strongest predictor of proximity to hazardous waste facilities, stronger even than income.</p>
-
-    <p>Flint, Michigan became a national story in 2014 when residents, most of them Black, discovered that the city had switched its water supply to save money and the new source was corroding pipes and leaching lead into the water supply. Children were exposed to lead, which causes permanent neurological damage, for more than a year before the government acted. During that time, officials told residents the water was safe.</p>
-
-    <p>It was not safe. They knew it was not safe. The exposure continued.</p>
-
-    <p>The environmental justice movement began formally in 1982, when residents of Warren County, North Carolina, a majority-Black county, organized to oppose the placement of a PCB landfill in their community. The protest brought national attention to a pattern that Black communities had been experiencing and naming for decades without being heard.</p>
-
-    <p>A 1987 study by the United Church of Christ confirmed what those communities already knew: race was the most significant factor in determining where hazardous waste ended up. The finding was not complicated. The response from government and industry was slow and inadequate.</p>
-
-    <p>President Clinton signed an executive order on environmental justice in 1994. It acknowledged the problem. It did not solve it.</p>
-
-    <p>The plants are still there. Cancer Alley is still producing cancer. The data is still accumulating.</p>
-
-    <p>The communities living in it are still asking to be believed.</p>
+<p>Environmental racism is not a metaphor. It is a way of describing how race and power shape exposure to harm. A factory does not choose a neighborhood by accident. A highway does not split a community by natural law. A landfill permit, water system, zoning decision, enforcement delay, inspection schedule, and disaster response all come from institutions. When those decisions repeatedly place greater risk on Black, brown, Indigenous, and low-income communities, the pattern has to be named.</p>
+<p>The phrase became nationally visible through the environmental justice movement of the 1980s. Warren County, North Carolina, was a key moment. After PCB-contaminated oil was dumped along roads, the state chose a majority-Black county for a landfill. Residents protested in 1982, blocking trucks and accepting arrest. The landfill went in anyway, but the fight helped push civil rights language into environmental politics. Benjamin Chavis and the United Church of Christ Commission for Racial Justice helped popularize the term environmental racism as research and organizing made the pattern harder to deny.</p>
+<p>The evidence did not rest on one county. A 1983 U.S. General Accounting Office study found that three of four off-site hazardous waste landfills in eight southern states were located in majority-Black communities. The 1987 Toxic Wastes and Race report argued that race was a powerful predictor of commercial hazardous waste facility location. Later studies have debated methods and updated data, but the core question has remained: why do communities of color so often carry more environmental burden?</p>
+<p>One answer is housing. Segregation and redlining restricted where Black families could buy or rent. Industrial districts, highways, and disinvested neighborhoods were not separate from housing policy. If discrimination confined people to certain places and then government or industry placed hazards there, exposure became a civil rights issue. If property values fell because of pollution, families had less wealth to move, repair, or fight. The trap was both environmental and economic.</p>
+<p>Another answer is political power. Agencies often require public comment, technical review, and permitting processes that look open on paper. But a meeting held after a decision is already shaped is not shared power. Communities with more money can hire lawyers, scientists, and consultants. Communities with less power may be asked to prove harm after the exposure has already happened. Environmental racism lives in that burden of proof.</p>
+<p>Flint, Michigan, showed how environmental racism can unfold through infrastructure and disbelief. In 2014, Flint&#039;s water source was switched under emergency management. Residents complained about smell, taste, rashes, illness, and discolored water. Officials dismissed concerns before outside researchers, doctors, journalists, and residents forced wider attention to lead exposure and water contamination. The Michigan Civil Rights Commission later concluded that race and racism played a significant role in causing the crisis, including through segregation, disinvestment, emergency management, and the failure to value residents&#039; voices.</p>
+<p>Air pollution research shows the pattern at national scale. A 2019 study in Proceedings of the National Academy of Sciences examined fine particulate matter exposure and found that Black and Hispanic Americans experienced a pollution burden greater than their consumption would predict, while non-Hispanic white Americans experienced less. EPA researchers reported in 2021 that people of color faced higher exposure to PM2.5 from nearly all major emission categories, across regions and income levels. The finding matters because it challenges the claim that class alone explains the gap. Income matters, but race still structures exposure.</p>
+<p>Louisiana&#039;s petrochemical corridor, often called Cancer Alley, shows the complexity of place-based harm. The stretch along the Mississippi River includes refineries and chemical plants near historically Black communities, including places founded by formerly enslaved people and their descendants. Researchers and residents have documented disproportionate industrial proximity, emissions burdens, and health concerns. Careful history avoids claiming more precision than a source supports, because cancer statistics can vary by geography, time, pollutant, and method. But uncertainty about one measure does not erase the documented reality of concentrated industrial exposure and unequal power over land use.</p>
+<p>Environmental racism also includes what happens after harm is known. Cleanup delays, weak fines, repeated permits, lack of cumulative-impact analysis, disaster aid gaps, and official disbelief all deepen injury. Communities may win a monitor or study and still wait years for relief. They may be told each facility meets a standard while no one accounts for the total load from all facilities together.</p>
+<p>The point of naming environmental racism is not to say every official intends racist harm in every decision. It is to say intention is not enough. Systems can reproduce racial harm through maps, markets, procedures, and unequal political access. The question is not only who polluted. It is who was made vulnerable, who was ignored, who profited, and who had the power to say no.</p>
   </div>
 
-  <div class="pull-quote">
-    <div class="pq-bar"></div>
-    <blockquote>We did not move here next to the plant. The plant was built next to us.</blockquote>
-    <cite>A recurring statement from residents of environmental justice communities</cite>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost is measured in asthma attacks, contaminated water, stress, property loss, medical bills, shortened outdoor life, school absences, family displacement, and the daily work of proving that harm is real. Communities often have to become researchers, lawyers, archivists, and organizers while living beside the hazard they are trying to stop.</p>
+<p>The impact of naming environmental racism has been powerful because it connects policy areas that officials often separate: housing, zoning, transportation, industry, health, climate, and civil rights enforcement. It gives communities language to challenge not only a single facility, but the pattern that made that facility think the neighborhood was available.</p>
   </div>
 
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>Environmental racism is not a distant or historical issue. It is happening now, in real time, in identifiable places with names and ZIP codes.</p>
-    <p>The connection to Black history is direct. The communities most affected by environmental hazards are often the same communities shaped by redlining, disinvestment, and limited political power. The same forces that concentrated Black families in certain neighborhoods also made those neighborhoods targets for facilities that no one with political power wanted near their homes.</p>
-    <p>Climate change is making this worse. Flooding, extreme heat, and air quality crises disproportionately affect communities that have the fewest resources to adapt and the least political representation to demand protection.</p>
-    <p>Environmental justice is now recognized as a formal area of policy and law. But recognition and action are different things.</p>
-    <p>The residents of Cancer Alley, of Flint, of the communities adjacent to industrial sites across this country have been patient witnesses to what happens when their health is treated as an acceptable cost of doing business.</p>
-    <p>Their patience does not make that cost acceptable.</p>
+<p>Environmental racism matters today because the next generation of infrastructure decisions is already being made: clean energy sites, warehouses, highways, flood protection, water systems, disaster recovery, and climate adaptation. Without racial justice, new investment can repeat old sacrifice zones under greener language.</p>
+<p>It also matters because data can expose patterns that individual permitting decisions hide. One plant, one road, or one pipe may be defended as technical necessity. The map tells a different story when hazards cluster around the same communities over time.</p>
+<p>Readers should leave understanding that environmental racism is not only about pollution being present. It is about power being absent where pollution is placed. The remedy has to include enforcement, repair, health protection, cumulative-impact review, and community authority before harm is approved.</p>
   </div>
-
-  <div class="section-divider"><span>Take the Quiz</span></div>
-  <a href="../index.html?day=2026-02-26" class="quiz-link-card">
-    <div>
-      <div class="quiz-link-label">Take the Quiz &middot; February 26 · Environment & Justice</div>
-      <div class="quiz-link-title">Test your knowledge on Environmental Racism</div>
-    </div>
-    <span class="quiz-link-arrow">&#x2192;</span>
-  </a>
 
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:0;"><!-- auto-generated --></div>
+
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/environmental-justice.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Environmental Justice</div>
+        <div class="connected-desc">Shows the organizing movement that confronts environmental racism and builds alternatives.</div>
+      </a>
+<a href="../encyclopedia/henrietta-lacks.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Henrietta Lacks</div>
+        <div class="connected-desc">Connects health, consent, race, and institutional trust in medical and scientific systems.</div>
+      </a>
+<a href="../generated/pages/carl-stokes.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Carl Stokes</div>
+        <div class="connected-desc">Links urban governance, public investment, and unequal neighborhood conditions.</div>
+      </a>
+<a href="../encyclopedia/modern-civil-rights.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Modern Civil Rights</div>
+        <div class="connected-desc">Places environmental racism within the wider unfinished civil rights landscape.</div>
+      </a>
+    </div>
   </div>
 
   <div class="section-divider"><span>Learn More</span></div>
   <div class="external-section">
     <div class="section-title">External Links</div>
     <div class="external-links">
-<a href="https://www.smithsonianmag.com/science-nature/environmental-justice-180974571/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">The Fight for Environmental Justice in Black Communities</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.history.com/articles/flint-michigan-water-crisis" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">The Flint Water Crisis: How It Happened and Why It Matters</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.nps.gov/subjects/africanamericanheritage/index.htm" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">NPS</div><div class="ext-title">African American Heritage and Environmental Justice</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
+<a href="https://www.epa.gov/sciencematters/study-finds-exposure-air-pollution-higher-people-color-regardless-region-or-income" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">EPA Science Matters</div>
+          <div class="ext-title">Study Finds Exposure to Air Pollution Higher for People of Color</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.michigan.gov/mdcr/commission/flint-water-hearings" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Michigan Civil Rights Commission</div>
+          <div class="ext-title">Flint Water Hearings</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://doi.org/10.1073/pnas.1818859116" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Proceedings of the National Academy of Sciences</div>
+          <div class="ext-title">Inequity in Consumption of Goods and Services Adds to Racial-Ethnic Disparities in Air Pollution Exposure</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13197355/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Library of Medicine</div>
+          <div class="ext-title">Environmental Justice and Cancer Alley</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=500005ER.TXT" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">EPA NEPIS</div>
+          <div class="ext-title">Smart Land Use Planning for Environmental Justice</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
     </div>
   </div>
 </main>
-
 <footer>
-  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var grid = document.getElementById('connectedGrid');
-  if (!grid) return;
-  var entryId = document.querySelector('[data-entry-id]');
-  if (!entryId) return;
-  var currentId = entryId.getAttribute('data-entry-id');
-  var connected = getConnections(currentId, 5);
-  if (!connected.length) { grid.parentElement.style.display='none'; return; }
-  connected.forEach(function(entry) {
-    var card = document.createElement('a');
-    card.href = '../encyclopedia/' + entry.url;
-    card.className = 'connected-card';
-    card.innerHTML = '<div class="connected-type">Related Entry</div><div class="connected-name">' + entry.name + '</div><div class="connected-desc">' + entry.dates + ' &middot; ' + entry.category + '</div>';
-    grid.appendChild(card);
-  });
-});
-</script>
 </body>
 </html>

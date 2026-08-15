@@ -4,35 +4,214 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ella Fitzgerald - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="The First Lady of Song">
+<meta name="description" content="Ella Fitzgerald is often called the First Lady of Song, which sounds graceful and a little too neat. The real story is sharper. She was a teenager who came through loss, poverty, and the pressure of public performance, then built a voice so precise and playful that musicians treated it like an instrument. Fitzgerald changed how jazz singing could move: through swing, ballads, bebop, scat, popular song, and the Great American Songbook. She did it while working inside an entertainment industry that profited from Black brilliance and still enforced segregation, unequal access, and gendered control. Her page matters because the easy version says she had a beautiful voice. The deeper story asks what she heard, how she practiced, who opened doors, and how Black artistry changed American music from the bandstand out.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,.2)}
-  *{box-sizing:border-box;margin:0;padding:0} body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;line-height:1.75;min-height:100vh}
-  .pan-stripe{display:flex;height:6px}.pan-stripe div{flex:1}.s1{background:var(--red)}.s2{background:#111}.s3{background:var(--green)}
-  header{position:sticky;top:0;background:rgba(10,10,10,.97);border-bottom:1px solid var(--border);z-index:5}.header-inner{max-width:1100px;margin:auto;padding:14px 32px}
-  .logo{display:flex;align-items:center;gap:14px;color:var(--white);text-decoration:none}.logo img{width:52px;height:52px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}.logo h1{font-family:'Bebas Neue';font-size:1.6rem;letter-spacing:2px}.logo span{color:var(--gold)}
-  nav{border-top:1px solid rgba(212,160,23,.1);display:flex;justify-content:center;overflow-x:auto;padding:0 24px}nav a{color:rgba(245,237,216,.55);text-decoration:none;text-transform:uppercase;letter-spacing:2.5px;font-size:.78rem;padding:12px 18px;white-space:nowrap}
-  main{width:min(900px,calc(100% - 40px));margin:auto;padding:52px 0 90px}.label{color:var(--gold);text-transform:uppercase;letter-spacing:5px;font-size:.7rem;margin-bottom:14px}
-  h2{font-family:'Playfair Display',serif;color:var(--white);font-size:clamp(2.3rem,7vw,4.7rem);line-height:1.05;margin-bottom:16px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}.badge{border:1px solid rgba(212,160,23,.3);border-radius:999px;padding:5px 12px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:.68rem}
-  article{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px}article p{margin-bottom:16px;color:rgba(245,237,216,.82)}h3{font-family:'Bebas Neue';color:var(--gold);letter-spacing:3px;margin:28px 0 8px;font-size:1rem}.why{margin-top:24px;padding:18px 20px;border:1px solid rgba(196,30,58,.25);background:rgba(196,30,58,.08);border-radius:12px}blockquote{border-left:4px solid var(--gold);padding:12px 18px;margin:20px 0;color:var(--gold);background:rgba(212,160,23,.06)}cite{display:block;color:rgba(212,160,23,.65);font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;margin-top:8px}
-  a{color:var(--gold)}@media(max-width:620px){.header-inner{padding:12px 16px}nav{justify-content:flex-start;padding:0 12px}nav a{font-size:.7rem;padding:10px 12px}main{width:calc(100% - 28px);padding-top:34px}article{padding:22px 18px}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="ella-fitzgerald">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-<header><div class="header-inner"><a class="logo" href="../index.html"><img src="../logo.png" alt="Black History in Real Time"><h1>Black<span>History</span></h1></a></div><nav><a href="../index.html">Today</a><a href="../index.html#calendar">Calendar</a><a href="../index.html#archive">Archive</a><a href="../encyclopedia.html">Encyclopedia</a></nav></header>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Ella Fitzgerald</h2>
-  <div class="meta"><span class="badge">1917 — 1996</span><span class="badge">Music</span><span class="badge">2026-04-25</span></div>
-  <article>
-    <p>Ella Fitzgerald's voice altered the standard by which jazz singing would be measured. Her range, precision, phrasing, and improvisational brilliance made her one of the most important vocalists in American music.</p><p>She achieved this in an industry and culture shaped by segregation, stereotype, and exclusion. Yet her craft was so undeniable that it forced recognition across lines that were never supposed to move easily.</p><p>Fitzgerald made excellence sound effortless. That did not mean it came without struggle.</p>
-    
-    <h3>Cost / Impact</h3><p>She faced the racial barriers of the entertainment industry even as her talent made her impossible to ignore. Access, venues, and treatment remained unequal.</p>
-    <div class="why"><h3>Why It Matters</h3><p>Ella Fitzgerald represents the kind of excellence that changes an art form permanently. She did not just sing within jazz history. She helped define it.</p></div>
-  </article>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span> &middot; Music</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label"> &middot; Music</div>
+    <h1>Ella Fitzgerald</h1>
+    <p class="entry-tagline">Ella Fitzgerald is often called the First Lady of Song, which sounds graceful and a little too neat. The real story is sharper. She was a teenager who came through loss, poverty, and the pressure of public performance, then built a voice so precise and playful that musicians treated it like an instrument. Fitzgerald changed how jazz singing could move: through swing, ballads, bebop, scat, popular song, and the Great American Songbook. She did it while working inside an entertainment industry that profited from Black brilliance and still enforced segregation, unequal access, and gendered control. Her page matters because the easy version says she had a beautiful voice. The deeper story asks what she heard, how she practiced, who opened doors, and how Black artistry changed American music from the bandstand out.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1917 - 1996</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Apr 25, 1917</div><div class="tl-event">Born Ella Jane Fitzgerald in Newport News, Virginia.</div></div>
+<div class="tl-item"><div class="tl-date">1920s</div><div class="tl-event">Raised mainly in Yonkers, New York, where she absorbs popular music, dance, and street-corner performance culture.</div></div>
+<div class="tl-item"><div class="tl-date">1932</div><div class="tl-event">Her mother dies, a loss that reshapes Fitzgerald&#039;s teenage years.</div></div>
+<div class="tl-item"><div class="tl-date">Nov 21, 1934</div><div class="tl-event">Wins Amateur Night at the Apollo Theater after choosing to sing instead of dance.</div></div>
+<div class="tl-item"><div class="tl-date">1935</div><div class="tl-event">Begins performing with drummer and bandleader Chick Webb.</div></div>
+<div class="tl-item"><div class="tl-date">May 2, 1938</div><div class="tl-event">Records &quot;A-Tisket, A-Tasket&quot; with Chick Webb and his orchestra.</div></div>
+<div class="tl-item"><div class="tl-date">June 25, 1938</div><div class="tl-event">&quot;A-Tisket, A-Tasket&quot; reaches number one on the pop chart, according to the National Museum of American History.</div></div>
+<div class="tl-item"><div class="tl-date">1939</div><div class="tl-event">After Webb dies, Fitzgerald leads the band for a period as Ella Fitzgerald and Her Famous Orchestra.</div></div>
+<div class="tl-item"><div class="tl-date">1940s</div><div class="tl-event">Develops as a major jazz improviser, including scat singing with bebop musicians.</div></div>
+<div class="tl-item"><div class="tl-date">1956</div><div class="tl-event">Releases the Cole Porter Song Book, the first of her landmark Verve songbook albums.</div></div>
+<div class="tl-item"><div class="tl-date">1958</div><div class="tl-event">Wins two Grammy Awards, becoming the first African American woman to win a Grammy.</div></div>
+<div class="tl-item"><div class="tl-date">1985</div><div class="tl-event">Named an NEA Jazz Master, the first vocalist to receive the honor.</div></div>
+<div class="tl-item"><div class="tl-date">June 15, 1996</div><div class="tl-event">Dies at her home in Beverly Hills, California.</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Ella Fitzgerald&#039;s career can sound like a fairy tale if it begins at the Apollo and skips everything that made that night possible. She was born in Newport News, Virginia, in 1917 and grew up mainly in Yonkers, New York. Her childhood held music, dance, church, neighborhood sound, and the ordinary creativity of Black urban life. It also held instability. After her mother died in 1932, Fitzgerald&#039;s teenage years became difficult, and she moved through systems that did not know what to do with a grieving Black girl who had talent, nerve, and no smooth path.</p>
+<p>The famous Apollo Theater story still matters. On November 21, 1934, Fitzgerald entered Amateur Night intending to dance. She changed course and sang instead, reportedly after realizing another act had already dazzled the audience with dance. The decision was not just a lucky pivot. It revealed an instinct performers need: read the room, survive the moment, and trust the skill that can carry you. She won the contest and entered the orbit of Harlem&#039;s music world.</p>
+<p>Chick Webb became the crucial early door. Webb led one of the great swing bands from behind the drums, and his orchestra had a home at the Savoy Ballroom, where dancers could make or break a band. Fitzgerald joined his group as a young singer. At first, she was not the polished icon later audiences remember. She learned in public, shaped by a demanding band, dancers who needed rhythm to be alive, and a jazz culture where timing mattered as much as tone.</p>
+<p>Then came &quot;A-Tisket, A-Tasket.&quot; Recorded on May 2, 1938, the song drew from a nursery rhyme and became a commercial breakthrough. The National Museum of American History notes that it hit the charts in June, reached number one on June 25, remained on the charts for 19 weeks, and eventually sold a million copies. That success can sound light because the song is playful. But play is not the opposite of craft. Fitzgerald&#039;s phrasing made the tune bounce without turning childish, and the record gave a young Black woman national visibility in a market that often boxed Black performers into caricature.</p>
+<p>When Chick Webb died in 1939, Fitzgerald did something easy to miss in the mythology: she led the band. Ella Fitzgerald and Her Famous Orchestra kept working for a time under her name. Bandleading required more than singing. It meant travel, personnel, bookings, arrangements, money, discipline, and public authority in a music business that did not easily hand authority to women, especially Black women. The band eventually dissolved, but the period shows that Fitzgerald was not simply a voice hired by men. She was learning how to survive the machinery around the music.</p>
+<p>The 1940s pushed her artistry further. Bebop was changing jazz language, making melodies twist faster and harmonies move in ways that demanded new ears. Fitzgerald became one of the great scat singers, improvising with syllables, rhythm, melodic fragments, and harmonic intelligence. Scat can be misheard as nonsense because the words are not literal. In Fitzgerald&#039;s mouth, it was musical thought happening in real time. She could quote tunes, dodge a beat, land cleanly, and turn her voice into brass, reed, rhythm section, and joke all at once.</p>
+<p>Her later partnership with producer Norman Granz gave her another platform. Granz founded Verve Records partly to record Fitzgerald properly, and the songbook albums of the 1950s and 1960s placed her inside the work of Cole Porter, Rodgers and Hart, Duke Ellington, Irving Berlin, George and Ira Gershwin, Harold Arlen, Jerome Kern, and others. Those albums did more than preserve standards. They changed how many listeners heard the American popular canon. Fitzgerald brought Black jazz phrasing, swing, clarity, and emotional intelligence to songs often marketed through white Broadway and Hollywood systems.</p>
+<p>That achievement carried a contradiction. Fitzgerald helped define the Great American Songbook, but the America around her still enforced segregated hotels, clubs, audiences, and assumptions about who belonged in high culture. Her fame did not erase racism. It gave her more leverage than many artists had, but she still worked through a touring world built on unequal accommodations and uneven respect. The applause could be thunderous, then the door outside the stage could still be closed.</p>
+<p>Fitzgerald&#039;s technical gifts were extraordinary: intonation, diction, breath control, range, timing, memory, and improvisational wit. But treating her only as a miracle voice misses the labor. Singers make choices. She shaped consonants, softened or sharpened vowels, bent rhythm, used restraint, let humor enter without breaking the line, and made difficult music sound as if it had just occurred to her. That ease was work disguised as generosity.</p>
+<p>By the end of her career, Fitzgerald had won 13 Grammy Awards, received major national honors, and become a reference point for singers across genres. The point is not that everyone after her sang like her. It is that after Fitzgerald, listeners had a wider idea of what a jazz singer could do. She made precision feel warm, virtuosity feel welcoming, and improvisation feel like conversation.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>Just don&#039;t give up trying to do what you really want to do.</blockquote>
+    <cite>Ella Fitzgerald, quoted by the Recording Academy</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Fitzgerald paid the costs of becoming famous in a business that did not protect Black women from racism, sexism, exhausting travel, or public simplification. The stage loved her voice, but venues, contracts, hotels, press coverage, and audience expectations were still shaped by segregation and stereotype. She also carried personal losses and later serious health struggles while the public often wanted only the effortless sound.</p>
+<p>Her impact is measurable in awards and record sales, but the deeper impact is musical. She gave singers a model of rhythmic intelligence, lyrical care, and improvisational freedom. She also forced elite cultural spaces to confront a fact they had tried to manage: Black jazz artistry was not outside American song. It was one of the forces that made American song legible.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Fitzgerald matters today because popular music still argues over what counts as technical excellence and who gets credited for changing a form. Her singing makes a strong case that virtuosity can be joyful, funny, exact, and emotionally open at the same time.</p>
+<p>She also helps readers hear Black performance as intellectual work. Improvisation is not a lack of preparation. It is preparation made flexible enough to answer the moment. Fitzgerald&#039;s scat singing, ballad phrasing, and songbook interpretations all show a mind working through sound.</p>
+<p>The popular version calls her the First Lady of Song and leaves it there. The fuller version lets her be a young survivor, a working bandleader, a jazz thinker, a commercial artist, and a Black woman who made beauty under conditions that were never simply beautiful.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/duke-ellington.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Duke Ellington</div>
+        <div class="connected-desc">Connects Fitzgerald to the orchestral jazz world and the songbook tradition she transformed.</div>
+      </a>
+<a href="../encyclopedia/billie-holiday.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Billie Holiday</div>
+        <div class="connected-desc">Places two very different vocal geniuses inside the same segregated music industry.</div>
+      </a>
+<a href="../generated/pages/black-arts-movement.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Arts Movement</div>
+        <div class="connected-desc">Shows a later generation arguing over Black art, politics, audience, and cultural authority.</div>
+      </a>
+<a href="../generated/pages/james-brown.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">James Brown</div>
+        <div class="connected-desc">Extends the story of Black musical innovation into rhythm, soul, funk, and performance power.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.si.edu/spotlight/ella-fitzgerald" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian Institution</div>
+          <div class="ext-title">Ella Fitzgerald Spotlight</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://americanhistory.si.edu/explore/stories/tisket-tasket-hit-song-her-basket-ellas-rise-fame" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of American History</div>
+          <div class="ext-title">A-Tisket, A-Tasket: A Hit Song from Her Basket</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.arts.gov/stories/blog/2017/ella-fitzgerald-sound-joy" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Endowment for the Arts</div>
+          <div class="ext-title">Ella Fitzgerald: The Sound of Joy</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.grammy.com/artists/ella-fitzgerald/16685/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Recording Academy</div>
+          <div class="ext-title">Ella Fitzgerald Artist Profile</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

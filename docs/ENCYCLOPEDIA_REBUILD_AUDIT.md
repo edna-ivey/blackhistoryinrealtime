@@ -110,13 +110,26 @@ Batch 8 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 8 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
 
+## Batch 9 Completed
+
+Completed pages: `ella-fitzgerald`, `emmett-till`, `enslaved-labor`, `environmental-justice`, `environmental-racism`.
+
+Batch 9 continued from row 67 with a five-entry checkpoint. It rebuilt three legacy-path pages, one older Claudette-like systems page, and one scheduled generated page. It expanded Ella Fitzgerald from a thin tribute into a researched account of musicianship, bandleading, improvisation, and segregation; treated Emmett Till with careful language around disputed later recantation claims using the Justice Department record; separated Environmental Justice as a movement framework from Environmental Racism as a structural pattern; and replaced unsupported or weak legacy source framing on Enslaved Labor and Environmental Racism with direct institutional and scholarly sources.
+
+Batch 9 verification:
+
+- External links checked: 24 total, 0 material failures. Nineteen links returned `200`. Five Smithsonian or DOI/institutional links returned bot-blocking `403` responses during automated checking but were retained because they are direct authoritative pages already verified for subject relevance.
+- Browser rendering checked: 5 Batch 9 pages at desktop `1280x900` and mobile `390x844`, 10 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards where applicable, empty links, horizontal overflow, stale quiz wording, loading fallbacks, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 9 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 68
-- REWRITE: 75
-- RESEARCH: 67
-- REBUILD: 79
+- PASS: 73
+- REWRITE: 74
+- RESEARCH: 63
+- REBUILD: 78
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -127,7 +140,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 67 | Ella Fitzgerald | encyclopedia/ella-fitzgerald.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 72 | Ericka Huggins | encyclopedia/ericka-huggins.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -201,11 +214,11 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 64 | Elijah McCoy | generated/pages/elijah-mccoy.html | PASS | Batch 8 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified patent quotation, patent/date/disputed phrase review, corrected "real McCoy" origin from certain to disputed, depth/similarity validation, external-link verification. |
 | 65 | Elizabeth Keckley | generated/pages/elizabeth-keckley.html | PASS | Batch 8 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified memoir quotation, self-purchase/Mary Lincoln/garment attribution/memoir backlash claim review, stale NPS source replaced, depth/similarity validation, external-link verification. |
 | 66 | Ella Baker | generated/pages/ella-baker.html | PASS | Batch 8 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, SNCC founding/NAACP/SCLC/gendered leadership claim review, depth/similarity validation, external-link verification. |
-| 67 | Ella Fitzgerald | encyclopedia/ella-fitzgerald.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 68 | Emmett Till | generated/pages/emmett-till.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 69 | Enslaved Labor & American Infrastructure | encyclopedia/enslaved-labor.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 70 | Environmental Justice | encyclopedia/environmental-justice.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 71 | Environmental Racism | encyclopedia/environmental-racism.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 67 | Ella Fitzgerald | encyclopedia/ella-fitzgerald.html | PASS | Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, verified quotation, music-industry/segregation and Grammy/NEA claim review, depth/similarity validation, desktop/mobile browser check. |
+| 68 | Emmett Till | generated/pages/emmett-till.html | PASS | Batch 9 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, sensitive/disputed claim review, DOJ-recanted-testimony caveat added, depth/similarity validation, desktop/mobile browser check. |
+| 69 | Enslaved Labor & American Infrastructure | encyclopedia/enslaved-labor.html | PASS | Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, direct-versus-financial institutional-labor claim review, weak legacy sourcing replaced, depth/similarity validation, desktop/mobile browser check. |
+| 70 | Environmental Justice | encyclopedia/environmental-justice.html | PASS | Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, Warren County/UCC/GAO/1991 summit/EO 12898 claim review, depth/similarity validation, desktop/mobile browser check. |
+| 71 | Environmental Racism | encyclopedia/environmental-racism.html | PASS | Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, race-versus-income/Flint/Cancer Alley/PM2.5 claim review, depth/similarity validation, desktop/mobile browser check. |
 | 72 | Ericka Huggins | encyclopedia/ericka-huggins.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 73 | Fair Housing Act | encyclopedia/fair-housing-act.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 74 | Faith Ringgold | generated/pages/faith-ringgold.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |

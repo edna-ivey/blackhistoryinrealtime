@@ -4,35 +4,218 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Environmental Justice - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="The Damage Was Never Equal">
+<meta name="description" content="Environmental justice is not just an environmental issue with civil rights language attached. It is a movement that grew from communities noticing a pattern: landfills, hazardous waste, polluted air, unsafe water, and climate risk were being pushed toward people with the least political protection. In 1982, Black residents and allies in Warren County, North Carolina, fought a PCB landfill and helped give national language to a struggle many communities already knew. The movement then built research, principles, law, policy, and organizing networks that insisted the environment means where people live, work, learn, play, and pray. This page matters because environmental justice is not only about pollution. It is about decision-making power, public health, land, race, class, and the right to survive without being treated as expendable.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,.2)}
-  *{box-sizing:border-box;margin:0;padding:0} body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;line-height:1.75;min-height:100vh}
-  .pan-stripe{display:flex;height:6px}.pan-stripe div{flex:1}.s1{background:var(--red)}.s2{background:#111}.s3{background:var(--green)}
-  header{position:sticky;top:0;background:rgba(10,10,10,.97);border-bottom:1px solid var(--border);z-index:5}.header-inner{max-width:1100px;margin:auto;padding:14px 32px}
-  .logo{display:flex;align-items:center;gap:14px;color:var(--white);text-decoration:none}.logo img{width:52px;height:52px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}.logo h1{font-family:'Bebas Neue';font-size:1.6rem;letter-spacing:2px}.logo span{color:var(--gold)}
-  nav{border-top:1px solid rgba(212,160,23,.1);display:flex;justify-content:center;overflow-x:auto;padding:0 24px}nav a{color:rgba(245,237,216,.55);text-decoration:none;text-transform:uppercase;letter-spacing:2.5px;font-size:.78rem;padding:12px 18px;white-space:nowrap}
-  main{width:min(900px,calc(100% - 40px));margin:auto;padding:52px 0 90px}.label{color:var(--gold);text-transform:uppercase;letter-spacing:5px;font-size:.7rem;margin-bottom:14px}
-  h2{font-family:'Playfair Display',serif;color:var(--white);font-size:clamp(2.3rem,7vw,4.7rem);line-height:1.05;margin-bottom:16px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}.badge{border:1px solid rgba(212,160,23,.3);border-radius:999px;padding:5px 12px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:.68rem}
-  article{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px}article p{margin-bottom:16px;color:rgba(245,237,216,.82)}h3{font-family:'Bebas Neue';color:var(--gold);letter-spacing:3px;margin:28px 0 8px;font-size:1rem}.why{margin-top:24px;padding:18px 20px;border:1px solid rgba(196,30,58,.25);background:rgba(196,30,58,.08);border-radius:12px}blockquote{border-left:4px solid var(--gold);padding:12px 18px;margin:20px 0;color:var(--gold);background:rgba(212,160,23,.06)}cite{display:block;color:rgba(212,160,23,.65);font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;margin-top:8px}
-  a{color:var(--gold)}@media(max-width:620px){.header-inner{padding:12px 16px}nav{justify-content:flex-start;padding:0 12px}nav a{font-size:.7rem;padding:10px 12px}main{width:calc(100% - 28px);padding-top:34px}article{padding:22px 18px}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="environmental-justice">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-<header><div class="header-inner"><a class="logo" href="../index.html"><img src="../logo.png" alt="Black History in Real Time"><h1>Black<span>History</span></h1></a></div><nav><a href="../index.html">Today</a><a href="../index.html#calendar">Calendar</a><a href="../index.html#archive">Archive</a><a href="../encyclopedia.html">Encyclopedia</a></nav></header>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Environmental Justice</h2>
-  <div class="meta"><span class="badge">20th Century — Present</span><span class="badge">Environmental Justice</span><span class="badge">2026-04-22</span></div>
-  <article>
-    <p>Environmental justice names a reality Black communities have long lived with: pollution, toxic exposure, waste sites, unsafe water, and climate vulnerability are not distributed evenly. They follow power.</p><p>Factories, highways, landfills, and petrochemical corridors have often been placed near communities with the least political protection and the greatest racial marginalization.</p><p>The movement for environmental justice insists that environmental harm is also a civil rights issue, a health issue, and a question of whose lives are considered disposable.</p>
-    
-    <h3>Cost / Impact</h3><p>Communities pay with higher asthma rates, cancer risk, water insecurity, displacement, and shortened life expectancy while receiving fewer protections and slower response.</p>
-    <div class="why"><h3>Why It Matters</h3><p>Environmental injustice is not accidental exposure. It is structured neglect. Naming it clearly is the first step toward changing it.</p></div>
-  </article>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span> &middot; Environment &amp; Justice</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label"> &middot; Environment &amp; Justice</div>
+    <h1>Environmental Justice</h1>
+    <p class="entry-tagline">Environmental justice is not just an environmental issue with civil rights language attached. It is a movement that grew from communities noticing a pattern: landfills, hazardous waste, polluted air, unsafe water, and climate risk were being pushed toward people with the least political protection. In 1982, Black residents and allies in Warren County, North Carolina, fought a PCB landfill and helped give national language to a struggle many communities already knew. The movement then built research, principles, law, policy, and organizing networks that insisted the environment means where people live, work, learn, play, and pray. This page matters because environmental justice is not only about pollution. It is about decision-making power, public health, land, race, class, and the right to survive without being treated as expendable.</p>
+    <div class="entry-badges">
+      <span class="badge">Movement</span>
+      <span class="badge">1982 - present</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1978</div><div class="tl-event">Toxic PCB-laced oil is illegally dumped along North Carolina roads, setting up the later Warren County disposal fight.</div></div>
+<div class="tl-item"><div class="tl-date">1982</div><div class="tl-event">North Carolina chooses majority-Black Warren County for a PCB landfill, sparking weeks of protest and more than 500 arrests.</div></div>
+<div class="tl-item"><div class="tl-date">1983</div><div class="tl-event">The U.S. General Accounting Office reports that three of four off-site hazardous waste landfills in eight southern states are in majority-Black communities.</div></div>
+<div class="tl-item"><div class="tl-date">1987</div><div class="tl-event">The United Church of Christ Commission for Racial Justice releases Toxic Wastes and Race in the United States.</div></div>
+<div class="tl-item"><div class="tl-date">1991</div><div class="tl-event">The First National People of Color Environmental Leadership Summit meets in Washington, D.C.</div></div>
+<div class="tl-item"><div class="tl-date">Oct 27, 1991</div><div class="tl-event">Delegates adopt the Principles of Environmental Justice.</div></div>
+<div class="tl-item"><div class="tl-date">Feb 11, 1994</div><div class="tl-event">President Bill Clinton signs Executive Order 12898 on environmental justice in federal programs.</div></div>
+<div class="tl-item"><div class="tl-date">2003</div><div class="tl-event">Warren County&#039;s PCB landfill detoxification work is completed after years of community pressure.</div></div>
+<div class="tl-item"><div class="tl-date">2014</div><div class="tl-event">Federal agencies release Plan EJ 2014, renewing environmental justice planning across the federal government.</div></div>
+<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Environmental justice organizing addresses air pollution, water safety, climate adaptation, land use, energy, transportation, and cumulative harm.</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Environmental justice did not begin because a scholar invented a term. It began because communities were watching where harm landed. Black, Latino, Indigenous, Asian American, Pacific Islander, and low-income communities saw landfills, incinerators, highways, refineries, sewage plants, military waste, and toxic industries placed near them with little meaningful consent. They also saw government agencies respond more slowly when the people harmed had less wealth and political protection.</p>
+<p>Warren County, North Carolina, became a national turning point. In 1978, toxic PCB-laced oil was illegally dumped along North Carolina roads. The state later chose a site in Warren County, a poor and majority-Black county, for disposal. Residents argued that the landfill threatened their land and water and that the decision treated their county as politically disposable. In 1982, weeks of protest followed. People lay in roads to block trucks. Clergy, residents, civil rights veterans, students, and national allies joined. More than 500 people were arrested.</p>
+<p>The landfill was built anyway. That fact is important. Warren County is sometimes remembered as a movement victory because it gave national visibility to environmental racism. But the community did not stop the immediate siting decision. The cost of that loss helped sharpen the movement&#039;s analysis. People were not only asking for cleaner technology. They were asking why certain communities were chosen in the first place and why officials called the process fair after excluding the people most affected.</p>
+<p>Research soon gave the pattern a national frame. In 1983, the U.S. General Accounting Office examined hazardous waste landfill locations in eight southern states and found that three of four off-site hazardous waste landfills were in majority-Black communities. In 1987, the United Church of Christ Commission for Racial Justice released Toxic Wastes and Race in the United States. The report argued that race was a powerful predictor of where hazardous waste facilities were located. Benjamin Chavis, who led the commission, helped popularize the term environmental racism.</p>
+<p>Environmental justice organizers also refused to let experts define the movement for them. In 1991, the First National People of Color Environmental Leadership Summit met in Washington, D.C. The gathering brought together hundreds of delegates from across the United States and beyond. They broadened the meaning of environment beyond wilderness or conservation. Environment meant home, workplace, school, neighborhood, body, culture, spirituality, and future generations. The summit adopted the Principles of Environmental Justice, a document that linked ecological health to self-determination, workers&#039; rights, Indigenous sovereignty, military occupation, public policy, and freedom from discrimination.</p>
+<p>That was a major shift in environmental politics. Mainstream environmental organizations had often centered parks, wildlife, and preservation while treating urban pollution, labor exposure, tribal land, and neighborhood health as secondary. Environmental justice organizers said the people closest to harm were not footnotes. They were the starting point. Expertise included residents who knew where children coughed, where water smelled wrong, where trucks idled, and where officials stopped listening.</p>
+<p>Federal policy eventually responded. President Bill Clinton signed Executive Order 12898 in 1994, directing federal agencies to identify and address disproportionately high and adverse human health or environmental effects of their programs on minority and low-income populations. The order mattered because it gave federal language and planning responsibilities to environmental justice. It did not create a simple private right to sue, and it did not automatically stop harmful siting. Like many civil rights tools, its strength depended on enforcement, political will, and community pressure.</p>
+<p>Warren County remained part of the story after the trucks left. The landfill&#039;s liner system failed, and the site required detoxification. Cleanup work was completed in 2003, after years of pressure. That long timeline shows why environmental justice is not a one-day protest model. Communities often fight through siting hearings, technical reports, permit renewals, health studies, lawsuits, elections, and decades of monitoring.</p>
+<p>The movement has continued to expand. It now addresses climate change, heat islands, disaster recovery, water shutoffs, lead exposure, petrochemical corridors, port pollution, school siting, transportation, energy transitions, and cumulative impacts. It also insists that benefits matter alongside burdens: clean energy jobs, safe parks, reliable transit, healthy housing, and community-controlled planning are part of justice too.</p>
+<p>Environmental justice teaches a hard lesson about democracy. A public meeting is not meaningful participation if the decision has already been made. A permit is not neutral if it adds one more risk to a community already carrying many. A technical standard is incomplete if it measures one chemical at a time while people breathe the whole mixture. The movement&#039;s central demand is not charity. It is power over the conditions of life.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>where we live, work, study, play and pray</blockquote>
+    <cite>Environmental justice framing from the First National People of Color Environmental Leadership Summit</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost of environmental injustice is paid in bodies, land, time, and trust. Families spend years documenting odors, illnesses, floods, water problems, and agency neglect while still raising children beside the hazard. Residents attend hearings after work, learn technical language they never asked to need, and watch property values, health, and community stability become bargaining chips.</p>
+<p>The movement&#039;s impact is also real. It changed federal language, reshaped environmental research, challenged mainstream environmental organizations, and gave communities a shared vocabulary for harms they had been naming locally for generations. Its victories are often partial, but partial victories can mean a permit denied, a cleanup funded, a monitoring station installed, a pipeline stopped, or a neighborhood finally believed.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Environmental justice matters today because climate change is not arriving on equal ground. Heat, flooding, wildfire smoke, industrial exposure, energy costs, and disaster recovery all land through older maps of race, wealth, housing, and political power.</p>
+<p>The movement also changes what counts as environmental knowledge. A satellite image, a cancer registry, and a mother&#039;s log of asthma attacks can all be evidence, but institutions have not treated them with equal respect. Environmental justice asks who gets to define risk and whose timeline matters when agencies study a problem for years.</p>
+<p>Readers should leave understanding that environmental justice is not a slogan for cleaner air in the abstract. It is a demand that the people who bear the burden have power over the decision, the data, the remedy, and the future.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/environmental-racism.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Environmental Racism</div>
+        <div class="connected-desc">Names the structural pattern that environmental justice organizers confront.</div>
+      </a>
+<a href="../encyclopedia/education-inequality.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Education Inequality by Design</div>
+        <div class="connected-desc">Connects neighborhood conditions, public investment, and racialized policy design.</div>
+      </a>
+<a href="../encyclopedia/fair-housing-act.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Fair Housing Act</div>
+        <div class="connected-desc">Links environmental burdens to housing discrimination and neighborhood opportunity.</div>
+      </a>
+<a href="../generated/pages/carl-stokes.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Carl Stokes</div>
+        <div class="connected-desc">Shows city governance, public infrastructure, and civil rights inside urban policy.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.ucc.org/what-we-do/justice-local-church-ministries/efam/environmental-justice/a-movement-is-born-environmental-justice-and-the-ucc-united-church-of-christ/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">United Church of Christ</div>
+          <div class="ext-title">A Movement Is Born: Environmental Justice and the UCC</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.ejnet.org/ej/platform.html" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Environmental Justice Network</div>
+          <div class="ext-title">Principles of Environmental Justice</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://energyhistory.yale.edu/principles-of-environmental-justice-first-national-people-of-color-environmental-justice-leadership-summit-washington-dc-1991/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Yale Energy History</div>
+          <div class="ext-title">Principles of Environmental Justice</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.ucc.org/30th-anniversary-the-first-national-people-of-color-environmental-leadership-summit/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">United Church of Christ</div>
+          <div class="ext-title">30th Anniversary of the First National People of Color Environmental Leadership Summit</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=4000083P.TXT" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">EPA NEPIS</div>
+          <div class="ext-title">EPA Journal: Environmental Equity</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>
