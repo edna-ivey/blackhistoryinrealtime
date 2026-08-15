@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Freedom Riders Attacked in Anniston - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="The photograph is almost impossible to forget: a bus on the side of the road, smoke pouring out, riders escaping into a mob.">
+<meta name="description" content="The burning bus outside Anniston, Alabama, is one of the most recognizable images of the Freedom Rides, but the image can hide the sequence. There were two buses. The first, a Greyhound bus, was attacked at the Anniston station, chased out of town, disabled by slashed tires, and firebombed on the highway. The second, a Trailways bus, was boarded in Anniston by attackers who beat riders and forced segregated seating before more violence in Birmingham. The Anniston attacks mattered because they turned ignored law into public crisis. The Riders survived, the photographs traveled, and the federal government could no longer pretend that Boynton v. Virginia was enforcing itself. This page matters because the story is not only flames. It is planning, complicity, survival, and evidence.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="freedom-riders-anniston">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,152 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Freedom Riders Attacked in Anniston</h2>
-  <div class="meta">
-    <span class="badge">May 14, 1961</span>
-    <span class="badge">Civil Rights</span>
-    <span class="badge">2026-05-14</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>May 14 &middot; Civil Rights</span>
   </div>
-  <article>
-    <p>The photograph is almost impossible to forget: a bus on the side of the road, smoke pouring out, riders escaping into a mob.</p><p>On May 14, 1961, Freedom Riders reached Anniston, Alabama. A white mob attacked the bus, slashed its tires, followed it out of town, and firebombed it when it stopped.</p><p>The riders survived, but the image traveled around the world. It exposed the violence behind segregated transportation and increased pressure on the federal government to enforce the law.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Anniston matters because the Freedom Rides were not abstract courage. They were young people breathing smoke, facing clubs, and refusing to let violence decide what the law meant.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 14 &middot; Civil Rights</div>
+    <h1>Freedom Riders Attacked in Anniston</h1>
+    <p class="entry-tagline">The burning bus outside Anniston, Alabama, is one of the most recognizable images of the Freedom Rides, but the image can hide the sequence. There were two buses. The first, a Greyhound bus, was attacked at the Anniston station, chased out of town, disabled by slashed tires, and firebombed on the highway. The second, a Trailways bus, was boarded in Anniston by attackers who beat riders and forced segregated seating before more violence in Birmingham. The Anniston attacks mattered because they turned ignored law into public crisis. The Riders survived, the photographs traveled, and the federal government could no longer pretend that Boynton v. Virginia was enforcing itself. This page matters because the story is not only flames. It is planning, complicity, survival, and evidence.</p>
+    <div class="entry-badges">
+      <span class="badge">Event</span>
+      <span class="badge">May 14, 1961</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.nps.gov/frri/index.htm" target="_blank" rel="noopener noreferrer">https://www.nps.gov/frri/index.htm</a></li>
-<li><a href="https://www.archives.gov/research/african-americans/vote/freedom-rides" target="_blank" rel="noopener noreferrer">https://www.archives.gov/research/african-americans/vote/freedom-rides</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Dec 5, 1960</div><div class="tl-event">Boynton v. Virginia rules that segregated interstate bus terminal facilities are unlawful.</div></div>
+<div class="tl-item"><div class="tl-date">May 4, 1961</div><div class="tl-event">CORE Freedom Riders leave Washington, D.C., on Greyhound and Trailways buses.</div></div>
+<div class="tl-item"><div class="tl-date">May 14, 1961</div><div class="tl-event">The Greyhound bus reaches the Anniston station and is attacked by a white mob.</div></div>
+<div class="tl-item"><div class="tl-date">May 14, 1961</div><div class="tl-event">The mob slashes the bus tires and follows it out of Anniston.</div></div>
+<div class="tl-item"><div class="tl-date">May 14, 1961</div><div class="tl-event">The bus stops near Alabama Highway 202 after its tires fail and is firebombed.</div></div>
+<div class="tl-item"><div class="tl-date">May 14, 1961</div><div class="tl-event">Riders escape the burning bus and are beaten outside before receiving medical attention.</div></div>
+<div class="tl-item"><div class="tl-date">May 14, 1961</div><div class="tl-event">A Trailways bus arrives in Anniston and riders are beaten and forced into segregated seating.</div></div>
+<div class="tl-item"><div class="tl-date">May 14, 1961</div><div class="tl-event">The Trailways riders face further violence when the bus reaches Birmingham.</div></div>
+<div class="tl-item"><div class="tl-date">May 1961</div><div class="tl-event">Images of the burning bus circulate nationally and internationally.</div></div>
+<div class="tl-item"><div class="tl-date">2017</div><div class="tl-event">Freedom Riders National Monument is established to preserve the Anniston sites.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-05-14">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>The Anniston attack began before the flames. The Freedom Riders were traveling through the South to test whether federal law would be honored in interstate transportation. They were not asking for a favor from Alabama. They were asserting a right the Supreme Court had already recognized. That made the violence in Anniston a test not only of local segregation, but of federal authority.</p>
+<p>On Mother&#039;s Day, May 14, 1961, the Greyhound bus carrying Freedom Riders arrived at the Anniston station. A white mob was waiting. The attackers shouted, beat the bus with pipes and clubs, broke windows, and slashed tires. The Riders stayed inside as long as they could. Police presence did not prevent the assault from escalating into a chase. When the bus left the station, members of the mob followed.</p>
+<p>Several miles outside town, near what is now preserved as the Greyhound Bus Burning Site, the damaged tires gave out. The mob surrounded the bus again. Someone threw a firebomb inside. Smoke and heat filled the vehicle. Some attackers tried to hold the doors shut. When the fuel tank exploded, the crowd moved back and riders escaped. Outside, some were beaten. The photograph of the burning bus became evidence that southern officials and mobs would use terror to preserve a system the courts had already rejected.</p>
+<p>The Trailways bus tells the part of the story many people miss. A second group of Freedom Riders arrived in Anniston the same day. Members of the Ku Klux Klan had boarded the bus earlier and harassed riders. At the Anniston Trailways terminal, attackers came aboard, beat riders, and forced them into segregated seating. The bus continued to Birmingham, where riders were attacked again. Anniston was not one isolated explosion. It was part of a coordinated pattern of violence across the route.</p>
+<p>The Riders survived because of their own discipline, because some bystanders and medical workers intervened, and because movement networks responded. The story includes terror, but it also includes decision-making under pressure. Riders had trained not to retaliate. That discipline did not make them passive. It made the violence legible. When images circulated, the country could see who was enforcing segregation and who was refusing to answer violence with violence.</p>
+<p>Local and federal responsibility remains central to understanding Anniston. Mobs acted directly, but mobs do not operate in a vacuum. The Freedom Riders traveled through places where segregation was protected by custom, police tolerance, political leadership, and the expectation that Black people and their allies would retreat when threatened. The violence was not a breakdown of the system. It was one way the system defended itself.</p>
+<p>The burning bus put pressure on the Kennedy administration. The United States was trying to claim moral leadership during the Cold War while photographs showed civil rights workers being firebombed for following Supreme Court law. International embarrassment did not create the movement, but it changed federal calculations. The Anniston attack made nonenforcement visible.</p>
+<p>The attacks also shaped the movement&#039;s next steps. The original CORE ride could not proceed as planned, but Nashville student activists and others decided the rides had to continue. Diane Nash and her colleagues understood that stopping after Anniston and Birmingham would reward violence. New riders boarded buses, and the campaign grew rather than disappeared.</p>
+<p>Today, the Anniston Greyhound Bus Depot and the Bus Burning Site are part of Freedom Riders National Monument. Preservation is not simply about saving buildings or roadside markers. It is about keeping the sequence intact: court ruling, defiance, direct action, mob violence, public evidence, federal enforcement. If the story becomes only a photograph, readers miss the machinery around it.</p>
+<p>Anniston matters because it shows how history can turn on people trapped in a bus and still thinking politically. The Riders were afraid, injured, and nearly killed. They were also making an argument that the country could not ignore: if the law protects equality but officials refuse to enforce it, then ordinary people may have to carry the law into the street and show the world what happens.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost was immediate and physical: smoke inhalation, burns, beatings, terror, and lasting injury. Riders on both buses faced violence for obeying federal law. Local Black communities also risked retaliation when they supported riders and helped move them through Alabama after the attack.</p>
+<p>The impact was national. Anniston supplied one of the defining images of the Freedom Rides, intensified federal pressure, and helped draw new riders into the campaign. The attack meant to stop the rides instead revealed why the rides had to continue.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Anniston matters today because it shows how easily legal rights can be undermined when local power refuses enforcement. The Riders were not breaking the law. They were exposing the people who were.</p>
+<p>It also matters because images can both reveal and simplify. The burning bus is unforgettable, but the deeper lesson includes the second bus, police failure, organized white resistance, movement discipline, and the federal government&#039;s delayed response.</p>
+<p>A reader should leave understanding Anniston as more than a violent episode. It was a public test of whether democracy could protect people who insisted that the law apply to them.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-05-14" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; May 14</div>
+        <div class="quiz-card-title">Open the daily challenge for Freedom Riders Attacked in Anniston</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../generated/pages/freedom-riders.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Freedom Riders</div>
+        <div class="connected-desc">Places the Anniston attack inside the broader 1961 campaign for federal enforcement.</div>
+      </a>
+<a href="../../encyclopedia/diane-nash.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Diane Nash</div>
+        <div class="connected-desc">Explains the organizing decision to continue the rides after Alabama violence.</div>
+      </a>
+<a href="../../generated/pages/birmingham-childrens-crusade.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Birmingham Children&#039;s Crusade</div>
+        <div class="connected-desc">Connects Alabama direct action, public violence, and national pressure.</div>
+      </a>
+<a href="../../generated/pages/john-lewis.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">John Lewis</div>
+        <div class="connected-desc">Links Anniston to the wider life of a Freedom Rider and civil rights leader.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.nps.gov/frri/index.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Freedom Riders National Monument</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://home.nps.gov/places/greyhound-bus-burn-site.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Greyhound Bus Burning Site</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/places/greyhound-bus-depot.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Greyhound Bus Depot</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/item/today-in-history/may-14/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Today in History: May 14</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://annistonal.gov/civil-rights-trail/greyhound-bus-station/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">City of Anniston</div>
+          <div class="ext-title">Greyhound Bus Station Protest</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

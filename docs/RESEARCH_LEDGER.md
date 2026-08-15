@@ -102,11 +102,30 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-14 - Freedom Riders Attacked in Anniston
 
+- Entry title: Freedom Riders Attacked in Anniston
 - Slug: `freedom-riders-anniston`
-- Core claims: The photograph is almost impossible to forget: a bus on the side of the road, smoke pouring out, riders escaping into a mob. On May 14, 1961, Freedom Riders reached Anniston, Alabama. A white mob attacked the bus, slashed its tires, followed it out of town, and firebombed it when it stopped. The riders survived, but the image traveled around the world. It exposed the violence behind segregated transportation and increased pressure on the federal government to enforce the law.
-- Sources:
+- Daily date: 2026-05-14
+- Date researched: 2026-08-15
+- Writer/research status: batch-11-complete
+- Material factual claims: The burning bus outside Anniston, Alabama, is one of the most recognizable images of the Freedom Rides, but the image can hide the sequence. There were two buses. The first, a Greyhound bus, was attacked at the Anniston station, chased out of town, disabled by slashed tires, and firebombed on the highway. The second, a Trailways bus, was boarded in Anniston by attackers who beat riders and forced segregated seating before more violence in Birmingham. The Anniston attacks mattered because they turned ignored law into public crisis. The Riders survived, the photographs traveled, and the federal government could no longer pretend that Boynton v. Virginia was enforcing itself. This page matters because the story is not only flames. It is planning, complicity, survival, and evidence.
+- Primary or authoritative sources:
   - https://www.nps.gov/frri/index.htm
-  - https://www.archives.gov/research/african-americans/vote/freedom-rides
+  - https://home.nps.gov/places/greyhound-bus-burn-site.htm
+  - https://www.nps.gov/places/greyhound-bus-depot.htm
+  - https://www.loc.gov/item/today-in-history/may-14/
+- Supporting secondary sources:
+  - https://annistonal.gov/civil-rights-trail/greyhound-bus-station/
+  - https://annistonal.gov/civil-rights-trail/trailways-bus-station/
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Greyhound and Trailways sequence, tire slashing, firebombing, mob violence, medical treatment, two-bus distinction, federal enforcement pressure, and monument status reviewed.
+- Material corrections made: Expanded scheduled fallback into a full event page that distinguishes the two Anniston bus attacks and preserves local/federal enforcement context.
+- External links included on the page:
+  - National Park Service: Freedom Riders National Monument (https://www.nps.gov/frri/index.htm)
+  - National Park Service: Greyhound Bus Burning Site (https://home.nps.gov/places/greyhound-bus-burn-site.htm)
+  - National Park Service: Greyhound Bus Depot (https://www.nps.gov/places/greyhound-bus-depot.htm)
+  - Library of Congress: Today in History: May 14 (https://www.loc.gov/item/today-in-history/may-14/)
+  - City of Anniston: Greyhound Bus Station Protest (https://annistonal.gov/civil-rights-trail/greyhound-bus-station/)
+- Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, violence-sequence claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-15 - Emmett Till
 
@@ -538,11 +557,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-20 - Fred Hampton
 
+- Entry title: Fred Hampton
 - Slug: `fred-hampton`
-- Core claims: Fred Hampton was twenty-one years old and already building coalitions that scared powerful people. As chairman of the Illinois Black Panther Party, Hampton organized free breakfast programs, political education, and the Rainbow Coalition linking Black, Latino, and poor white organizers. On December 4, 1969, Chicago police raided his apartment with FBI involvement. Hampton and Mark Clark were killed. Later evidence revealed deep government surveillance and misconduct.
-- Sources:
-  - https://www.archives.gov/research/african-americans/black-power/fred-hampton
-  - https://www.britannica.com/biography/Fred-Hampton
+- Daily date: 2026-06-20
+- Date researched: 2026-08-15
+- Writer/research status: batch-11-complete
+- Material factual claims: Fred Hampton was 21 when Chicago police killed him during a predawn raid planned with FBI involvement. That sentence is true, but it can trap him at the moment of death. Hampton was also a gifted organizer from Maywood, Illinois, a former NAACP youth leader, deputy chairman of the Illinois Black Panther Party, builder of free breakfast and health programs, and a coalition-maker who connected Black, Puerto Rican, and poor white organizers in Chicago. The state feared him not only because he was angry, but because he was effective. Hampton matters because his story is not just about repression. It is about what power recognizes as dangerous: disciplined organizing, political education, community programs, and alliances across lines that segregation and poverty were supposed to keep apart.
+- Primary or authoritative sources:
+  - https://www.archives.gov/research/african-americans/individuals/fred-hampton
+  - https://www.archives.gov/research/african-americans/black-power/black-panthers
+- Supporting secondary sources:
+  - https://www.encyclopedia.chicagohistory.org/pages/142.html
+  - https://www.chicagohistory.org/fredhampton50/
+  - https://www.wttw.com/chicago-stories/young-lords-of-lincoln-park/the-first-rainbow-coalition
+- Verified quotation source: No quotation included. A widely circulated Hampton quote was omitted because a primary transcript or archival audio source was not verified during this batch.
+- Sensitive or disputed claims reviewed: Police raid, FBI informant role, drugging claim, shot-count claim, Mark Clark killing, Deborah Johnson/Akua Njeri pregnancy, dropped charges, civil settlement, and Rainbow Coalition scope reviewed.
+- Material corrections made: Expanded scheduled fallback into a careful account of Hampton's organizing, state repression, COINTELPRO context, coalition work, and the disputed official narrative after the raid.
+- External links included on the page:
+  - National Archives: Fred Hampton (https://www.archives.gov/research/african-americans/individuals/fred-hampton)
+  - National Archives: The Black Panther Party (https://www.archives.gov/research/african-americans/black-power/black-panthers)
+  - Encyclopedia of Chicago: Black Panther Party (https://www.encyclopedia.chicagohistory.org/pages/142.html)
+  - Chicago History Museum: The Assassination of Fred Hampton (https://www.chicagohistory.org/fredhampton50/)
+  - WTTW Chicago: The First Rainbow Coalition (https://www.wttw.com/chicago-stories/young-lords-of-lincoln-park/the-first-rainbow-coalition)
+- Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, sensitive state-violence claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-21 - Mississippi Freedom Summer
 
@@ -682,11 +719,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-04 - Frederick Douglass and the Fourth of July Speech
 
+- Entry title: Frederick Douglass and the Fourth of July Speech
 - Slug: `douglass-fourth-of-july`
-- Core claims: Frederick Douglass stood before an audience celebrating freedom and asked what that celebration meant to people still enslaved. On July 5, 1852, Douglass delivered one of the most powerful speeches in American history, condemning the hypocrisy of Independence Day in a slaveholding republic. He did not reject freedom as an ideal. He exposed the gap between the nation's words and its actions, using the holiday itself as evidence.
-- Sources:
-  - https://www.nps.gov/articles/000/-what-to-the-slave-is-the-fourth-of-july.htm
-  - https://www.loc.gov/item/today-in-history/july-05/
+- Daily date: 2026-07-04
+- Date researched: 2026-08-15
+- Writer/research status: batch-11-complete
+- Material factual claims: Frederick Douglass did not give his most famous Independence Day speech on July 4. He spoke on July 5, 1852, in Rochester, New York, to an antislavery audience gathered by the Rochester Ladies' Anti-Slavery Sewing Society. That detail matters. Douglass was not rejecting the idea of liberty. He was forcing listeners to ask why a slaveholding nation celebrated freedom while millions were enslaved and while the Fugitive Slave Act made capture a national duty. The daily challenge names the speech. The encyclopedia page has to explain the setting, the audience, the strategy, the risk, and the reason the speech still cuts. Douglass made patriotism answer to evidence. He did not let national ritual become a hiding place.
+- Primary or authoritative sources:
+  - https://home.nps.gov/frdo/what-to-the-slave-is-the-4th-of-july.htm
+  - https://dlg.usg.edu/record/geusc_afamlit_b689t
+- Supporting secondary sources:
+  - https://blogs.loc.gov/headlinesandheroes/2020/07/what-to-the-american-slave-is-your-4th-of-july/
+  - https://nmaahc.si.edu/explore/stories/frederick-douglass
+  - https://www.rochester.edu/newscenter/5th-of-july/
+- Verified quotation source: 1852 pamphlet text of the Corinthian Hall address and NMAAHC/LOC excerpts.
+- Sensitive or disputed claims reviewed: July 5 date, audience and sponsor, Corinthian Hall setting, publication history, Fugitive Slave Act context, religious critique, and use of patriotic language reviewed.
+- Material corrections made: Expanded scheduled fallback into a full speech-history page, with setting, audience, publication, strategy, and modern interpretive context.
+- External links included on the page:
+  - National Park Service: What to the Slave Is the 4th of July? (https://home.nps.gov/frdo/what-to-the-slave-is-the-4th-of-july.htm)
+  - Library of Congress: What, to the American Slave, Is Your 4th of July? (https://blogs.loc.gov/headlinesandheroes/2020/07/what-to-the-american-slave-is-your-4th-of-july/)
+  - National Museum of African American History and Culture: Frederick Douglass (https://nmaahc.si.edu/explore/stories/frederick-douglass)
+  - Digital Library of Georgia: Oration Delivered in Corinthian Hall, Rochester (https://dlg.usg.edu/record/geusc_afamlit_b689t)
+  - University of Rochester: Frederick Douglass Delivered Best Fourth of July Speech in American History (https://www.rochester.edu/newscenter/5th-of-july/)
+- Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, speech-publication claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-05 - David Walker
 
@@ -714,11 +769,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-06 - Frances E.W. Harper
 
+- Entry title: Frances E.W. Harper
 - Slug: `frances-harper`
-- Core claims: Frances Harper used poems, novels, speeches, and organizing to insist that freedom had to include Black women. Harper was a lecturer, abolitionist, suffragist, and writer. She traveled widely speaking against slavery and later for temperance, education, and women's rights. Her novel Iola Leroy explored slavery, Reconstruction, race, gender, and public responsibility, placing Black women's choices at the center.
-- Sources:
-  - https://www.poetryfoundation.org/poets/frances-ellen-watkins-harper
+- Daily date: 2026-07-06
+- Date researched: 2026-08-15
+- Writer/research status: batch-11-complete
+- Material factual claims: Frances Ellen Watkins Harper was a poet, novelist, lecturer, journalist, abolitionist, suffragist, temperance organizer, and Black women's club leader. The daily challenge names Iola Leroy, but Harper's life was bigger than a title on a syllabus. Born free in Baltimore, orphaned young, and educated in a Black school run by her uncle, she became one of the nineteenth century's most widely heard Black women public speakers. She wrote poems against slavery, traveled the antislavery lecture circuit, challenged white suffragists to face racism, and helped build institutions for Black women after the Civil War. Harper matters because she refused to choose one freedom struggle at a time. She understood that race, gender, family, labor, education, and citizenship were braided together long before later generations had neat language for it.
+- Primary or authoritative sources:
+  - https://www.loc.gov/item/26020585/
+  - https://lccn.loc.gov/n50026651
+- Supporting secondary sources:
   - https://www.womenshistory.org/education-resources/biographies/frances-ellen-watkins-harper
+  - https://www.poetryfoundation.org/poets/frances-ellen-watkins-harper
+  - https://poets.org/poet/frances-ellen-watkins-harper
+- Verified quotation source: Academy of American Poets and National Women's History Museum references to Harper's 1866 speech.
+- Sensitive or disputed claims reviewed: Free Black status in Maryland, orphaning, teaching and exile from Maryland, The Two Offers first-claim wording, Iola Leroy date, suffrage split, NACW role, and death date reviewed.
+- Material corrections made: Expanded scheduled fallback into a full account of Harper as writer, lecturer, abolitionist, suffragist, and Black women's institution-builder.
+- External links included on the page:
+  - Library of Congress: Poems on Miscellaneous Subjects (https://www.loc.gov/item/26020585/)
+  - Library of Congress: Harper, Frances Ellen Watkins, 1825-1911 (https://lccn.loc.gov/n50026651)
+  - National Women's History Museum: Frances Ellen Watkins Harper (https://www.womenshistory.org/education-resources/biographies/frances-ellen-watkins-harper)
+  - Poetry Foundation: Frances Ellen Watkins Harper (https://www.poetryfoundation.org/poets/frances-ellen-watkins-harper)
+  - Academy of American Poets: Frances Ellen Watkins Harper (https://poets.org/poet/frances-ellen-watkins-harper)
+- Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, first-claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-07 - Charles Hamilton Houston
 
@@ -1052,11 +1125,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-28 - Frank Robinson
 
+- Entry title: Frank Robinson
 - Slug: `frank-robinson`
-- Core claims: Frank Robinson had already proved he could lead with a bat. Baseball took longer to admit he could lead from the dugout. Robinson was a Hall of Fame player and the only player to win MVP awards in both the National and American Leagues. In 1975, Cleveland named him player-manager, making him the first Black manager in Major League Baseball.
-- Sources:
+- Daily date: 2026-07-28
+- Date researched: 2026-08-15
+- Writer/research status: batch-11-complete
+- Material factual claims: Frank Robinson had already built a Hall of Fame playing career before Major League Baseball allowed him to manage. That delay is the story. He was Rookie of the Year, a 14-time All-Star, a Triple Crown winner, a World Series MVP, and the only player to win Most Valuable Player awards in both leagues. Yet the sport that celebrated his competitive fire took far longer to admit that Black baseball intelligence belonged in the dugout with authority. In 1975, Cleveland named Robinson player-manager, making him the first Black manager in Major League history. Robinson matters because integration on the field was not the end of baseball's color line. Decision-making power, hiring power, front-office power, and the right to be judged as a strategist were separate fights.
+- Primary or authoritative sources:
   - https://baseballhall.org/hall-of-famers/robinson-frank
-  - https://www.mlb.com/news/frank-robinson-first-black-manager-in-mlb
+  - https://baseballhall.org/discover/frank-robinson-made-history-as-manager
+- Supporting secondary sources:
+  - https://baseballhall.org/discover/robinson-left-mark-on-and-off-the-field
+  - https://www.mlb.com/news/frank-robinson-homered-in-first-game-as-manager
+  - https://sabr.org/bioproj/person/Frank-Robinson/
+- Verified quotation source: MLB remembrance of Frank Robinson.
+- Sensitive or disputed claims reviewed: First Black MLB manager claim, player-manager date, MVP and Triple Crown claims, trade context, management record, Hall of Fame induction, and death date reviewed.
+- Material corrections made: Expanded scheduled fallback into a full account of Robinson as Hall of Fame player, leadership figure, first Black manager, and later MLB executive voice.
+- External links included on the page:
+  - National Baseball Hall of Fame: Frank Robinson (https://baseballhall.org/hall-of-famers/robinson-frank)
+  - National Baseball Hall of Fame: Frank Robinson Made History as Manager (https://baseballhall.org/discover/frank-robinson-made-history-as-manager)
+  - National Baseball Hall of Fame: Robinson Left Mark On and Off the Field (https://baseballhall.org/discover/robinson-left-mark-on-and-off-the-field)
+  - MLB: Frank Robinson Homered in First Game as Manager (https://www.mlb.com/news/frank-robinson-homered-in-first-game-as-manager)
+  - Society for American Baseball Research: Frank Robinson (https://sabr.org/bioproj/person/Frank-Robinson/)
+- Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, sports-first claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-29 - Larry Doby
 
@@ -2510,3 +2601,55 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Mississippi Department of Archives and History: Fannie Lou Townsend Hamer Collection (https://finding.mdah.ms.gov/manuscripts/t012)
   - PBS American Experience: Fannie Lou Hamer (https://www.pbs.org/wgbh/americanexperience/features/freedomsummer-hamer/)
 - Final review status: Batch 10 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, sensitive medical-violence review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Frederick Douglass
+
+- Entry title: Frederick Douglass
+- Slug: `frederick-douglass`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-11-complete
+- Material factual claims: Frederick Douglass was born enslaved as Frederick Augustus Washington Bailey and became one of the nineteenth century's most important writers, speakers, editors, and political thinkers. The familiar version says he learned to read, escaped slavery, and became an abolitionist. The fuller story is harder and more useful: literacy taught him the logic of power, escape required help from Anna Murray, public speech put him at risk of recapture, and his politics kept changing as he argued with abolitionists, presidents, suffragists, soldiers, and the country itself. Douglass matters because he did not only tell America that slavery was evil. He forced the nation to measure democracy by Black freedom, and he kept expanding that demand after emancipation into citizenship, voting rights, women's rights, labor, and international dignity.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/frederick-douglass.htm
+  - https://www.loc.gov/collections/frederick-douglass-papers/about-this-collection/
+  - https://www.loc.gov/collections/frederick-douglass-papers/articles-and-essays/frederick-douglass-timeline/
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/frederick-douglass
+  - https://home.nps.gov/articles/frederick-douglass-and-civil-war.htm
+- Verified quotation source: Frederick Douglass 1857 West India Emancipation speech, commonly cited in NPS/LOC educational material.
+- Sensitive or disputed claims reviewed: Birthdate approximation, literacy account, Anna Murray's role, Covey fight, escape route, manumission purchase, Garrison split, Black soldier recruitment, Haiti appointment, and second-marriage controversy reviewed.
+- Material corrections made: Moved stronger markdown page into rich renderer, removed Wikipedia/Britannica dependence, added fuller context on Anna Murray, political development, Reconstruction, and federal service.
+- External links included on the page:
+  - National Park Service: Frederick Douglass (https://www.nps.gov/people/frederick-douglass.htm)
+  - Library of Congress: Frederick Douglass Papers (https://www.loc.gov/collections/frederick-douglass-papers/about-this-collection/)
+  - Library of Congress: Frederick Douglass Timeline (https://www.loc.gov/collections/frederick-douglass-papers/articles-and-essays/frederick-douglass-timeline/)
+  - National Museum of African American History and Culture: Frederick Douglass (https://nmaahc.si.edu/explore/stories/frederick-douglass)
+  - National Park Service: Frederick Douglass and the Civil War (https://home.nps.gov/articles/frederick-douglass-and-civil-war.htm)
+- Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, sensitive biographical claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Freedom Riders
+
+- Entry title: Freedom Riders
+- Slug: `freedom-riders`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-11-complete
+- Material factual claims: The Freedom Riders did not board buses because the law was unclear. They boarded because the law was being ignored. In 1960, the Supreme Court ruled in Boynton v. Virginia that segregation in interstate bus terminal facilities was unlawful. Southern terminals kept operating as if nothing had happened. In May 1961, an interracial group organized by the Congress of Racial Equality set out from Washington, D.C., to test whether federal law meant anything on the ground. Violence in Anniston, Birmingham, and Montgomery, followed by mass arrests in Jackson, forced the Kennedy administration and the Interstate Commerce Commission to act. The Freedom Riders matter because they exposed a central civil rights truth: a right unenforced can be a performance. Someone had to make the country mean it.
+- Primary or authoritative sources:
+  - https://www.nps.gov/frri/index.htm
+  - https://home.nps.gov/frri/faqs.htm
+  - https://www.loc.gov/exhibits/civil-rights-act/civil-rights-era.html
+- Supporting secondary sources:
+  - https://www.archives.gov/publications/prologue/1997/summer/equality-in-the-sixties.html
+  - https://www.loc.gov/item/today-in-history/may-14/
+- Verified quotation source: No quotation included. The existing James Farmer quote was omitted because a direct primary transcript source was not verified during this batch.
+- Sensitive or disputed claims reviewed: Boynton/Morgan legal framing, CORE route, Anniston/Birmingham/Montgomery violence, Nashville continuation, Jackson arrests, Parchman jail no bail, ICC regulation date and effect reviewed.
+- Material corrections made: Moved stronger markdown page into rich renderer, removed Wikipedia/Britannica dependence, and added fuller attention to strategy, federal enforcement, and collective leadership.
+- External links included on the page:
+  - National Park Service: Freedom Riders National Monument (https://www.nps.gov/frri/index.htm)
+  - National Park Service: Freedom Riders Frequently Asked Questions (https://home.nps.gov/frri/faqs.htm)
+  - Library of Congress: Civil Rights Era: CORE's Freedom Rides (https://www.loc.gov/exhibits/civil-rights-act/civil-rights-era.html)
+  - National Archives: Documenting the Struggle for Racial Equality in the Decade of the Sixties (https://www.archives.gov/publications/prologue/1997/summer/equality-in-the-sixties.html)
+  - Library of Congress: Today in History: May 14 (https://www.loc.gov/item/today-in-history/may-14/)
+- Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, depth/similarity validation, desktop/mobile browser check.

@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First five rebuild batches complete, whole-encyclopedia rebuild in progress.
+Status: First eleven rebuild batches complete, whole-encyclopedia rebuild in progress.
 Date: 2026-08-14
 
 ## Quality Gap Documented
@@ -136,13 +136,26 @@ Batch 10 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 10 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
 
+## Batch 11 Completed
+
+Completed pages: `frances-harper`, `frank-robinson`, `fred-hampton`, `frederick-douglass`, `douglass-fourth-of-july`, `freedom-riders`, `freedom-riders-anniston`.
+
+Batch 11 continued from row 78 with a seven-entry checkpoint. It rebuilt five scheduled fallback pages and converted two stronger markdown-generated pages into the rich Claudette-style renderer. Frances E.W. Harper was expanded as a poet, abolitionist, lecturer, novelist, and suffrage organizer; Frank Robinson was treated as both an elite player and baseball's first Black manager; Fred Hampton was handled with careful attention to organizing, COINTELPRO, police violence, and coalition work; Frederick Douglass and the Fourth of July speech were separated into connected but distinct educational pages; and the Freedom Riders pages now distinguish the national campaign from the specific Anniston attacks, including the two-bus sequence.
+
+Batch 11 verification:
+
+- External links checked: 35 total, 0 material failures after replacing one stale National Archives Freedom Rides URL. Several Library of Congress, Smithsonian/NMAAHC, and Encyclopedia of Chicago institutional links returned bot-blocking statuses during automated checking but were retained only when they were direct authoritative pages already verified for subject relevance.
+- Browser rendering checked: 7 Batch 11 pages at desktop `1280x900` and mobile `390x844`, 14 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards where applicable, empty links, horizontal overflow, stale quiz wording, loading fallbacks, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 11 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 78
-- REWRITE: 72
-- RESEARCH: 60
-- REBUILD: 76
+- PASS: 85
+- REWRITE: 67
+- RESEARCH: 58
+- REBUILD: 69
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -153,7 +166,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 78 | Frances E.W. Harper | generated/pages/frances-harper.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+Next unfinished entry: | 85 | Garrett Morgan | encyclopedia/garrett-morgan.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -238,13 +251,13 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 75 | Fannie Lou Hamer | encyclopedia/fannie-lou-hamer.html | PASS | Batch 10 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, forced sterilization/Winona beating/MFDP/Freedom Farm claim review, depth/similarity validation, desktop/mobile browser check. |
 | 76 | Fannie Lou Hamer and the MFDP | generated/pages/fannie-lou-hamer-mfdp.html | PASS | Batch 10 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified testimony quotation, MFDP founding/delegate-selection/Johnson press-conference/compromise claim review, depth/similarity validation, desktop/mobile browser check. |
 | 77 | Fannie Lou Hamer's Testimony | generated/pages/fannie-lou-hamer-testimony.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
-| 78 | Frances E.W. Harper | generated/pages/frances-harper.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 79 | Frank Robinson | generated/pages/frank-robinson.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 80 | Fred Hampton | generated/pages/fred-hampton.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 81 | Frederick Douglass | generated/pages/frederick-douglass.html | RESEARCH, REBUILD | Markdown-generated page is stronger than fallback pages but still needs claim-by-claim verification, source ledger expansion, and Claudette visual/template alignment review. |
-| 82 | Frederick Douglass and the Fourth of July Speech | generated/pages/douglass-fourth-of-july.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 83 | Freedom Riders | generated/pages/freedom-riders.html | RESEARCH, REBUILD | Markdown-generated page is stronger than fallback pages but still needs claim-by-claim verification, source ledger expansion, and Claudette visual/template alignment review. |
-| 84 | Freedom Riders Attacked in Anniston | generated/pages/freedom-riders-anniston.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 78 | Frances E.W. Harper | generated/pages/frances-harper.html | PASS | Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, first-claim/source review, depth/similarity validation, desktop/mobile browser check. |
+| 79 | Frank Robinson | generated/pages/frank-robinson.html | PASS | Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, sports-first claim review, depth/similarity validation, desktop/mobile browser check. |
+| 80 | Fred Hampton | generated/pages/fred-hampton.html | PASS | Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, state-violence/COINTELPRO/Rainbow Coalition claim review, depth/similarity validation, desktop/mobile browser check. |
+| 81 | Frederick Douglass | generated/pages/frederick-douglass.html | PASS | Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, literacy/escape/Anna Murray/Civil War/public-office claim review, depth/similarity validation, desktop/mobile browser check. |
+| 82 | Frederick Douglass and the Fourth of July Speech | generated/pages/douglass-fourth-of-july.html | PASS | Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, speech-date/publication/context claim review, depth/similarity validation, desktop/mobile browser check. |
+| 83 | Freedom Riders | generated/pages/freedom-riders.html | PASS | Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Morgan/Boynton/ICC/Jackson/Parchman claim review, stale National Archives source replaced, depth/similarity validation, desktop/mobile browser check. |
+| 84 | Freedom Riders Attacked in Anniston | generated/pages/freedom-riders-anniston.html | PASS | Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, two-bus sequence and National Monument claim review, depth/similarity validation, desktop/mobile browser check. |
 | 85 | Garrett Morgan | encyclopedia/garrett-morgan.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 86 | George Floyd | generated/pages/george-floyd.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 87 | Gordon Parks | encyclopedia/gordon-parks.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |

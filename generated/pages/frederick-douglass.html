@@ -3,533 +3,67 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Frederick Douglass — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Born into slavery and forbidden to read, Frederick Douglass taught himself, escaped, and became the most powerful voice in American abolitionism — forcing the nation to confront what democracy actually meant.">
+<title>Frederick Douglass - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Frederick Douglass was born enslaved as Frederick Augustus Washington Bailey and became one of the nineteenth century&#039;s most important writers, speakers, editors, and political thinkers. The familiar version says he learned to read, escaped slavery, and became an abolitionist. The fuller story is harder and more useful: literacy taught him the logic of power, escape required help from Anna Murray, public speech put him at risk of recapture, and his politics kept changing as he argued with abolitionists, presidents, suffragists, soldiers, and the country itself. Douglass matters because he did not only tell America that slavery was evil. He forced the nation to measure democracy by Black freedom, and he kept expanding that demand after emancipation into citizenship, voting rights, women&#039;s rights, labor, and international dignity.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --red: #C41E3A;
-    --black: #0A0A0A;
-    --green: #1A5C38;
-    --gold: #D4A017;
-    --orange: #E8621A;
-    --cream: #F5EDD8;
-    --white: #FAFAFA;
-    --card-bg: #161616;
-    --border: rgba(212,160,23,0.2);
-    --purple: #6B2D8B;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    background: var(--black);
-    color: var(--cream);
-    font-family: 'DM Sans', sans-serif;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  .pan-stripe { display: flex; height: 6px; width: 100%; }
-  .pan-stripe .s1 { background: var(--red); flex: 1; }
-  .pan-stripe .s2 { background: #111; flex: 1; }
-  .pan-stripe .s3 { background: var(--green); flex: 1; }
-
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 50;
-    background: rgba(10,10,10,0.97);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
-  }
-  .header-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 14px 32px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-  .logo-area {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    text-decoration: none;
-  }
-  .logo-img {
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 0 0 2px var(--gold), 0 0 20px rgba(212,160,23,0.3);
-    animation: glow 3s ease-in-out infinite;
-    flex-shrink: 0;
-  }
-  @keyframes glow {
-    0%,100% { box-shadow: 0 0 0 2px var(--gold), 0 0 16px rgba(212,160,23,0.3); }
-    50% { box-shadow: 0 0 0 2px var(--gold), 0 0 32px rgba(212,160,23,0.6); }
-  }
-  .logo-text h1 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 2px; color: var(--white); line-height: 1; }
-  .logo-text h1 span { color: var(--gold); }
-  .logo-text p { font-size: 0.65rem; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-top: 1px; }
-
-  nav {
-    border-top: 1px solid rgba(212,160,23,0.1);
-    display: flex;
-    justify-content: center;
-    gap: 0;
-    padding: 0 32px;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-  nav::-webkit-scrollbar { display: none; }
-  nav a {
-    background: none;
-    border: none;
-    border-bottom: 3px solid transparent;
-    color: rgba(245,237,216,0.45);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.78rem;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    padding: 12px 18px;
-    cursor: pointer;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-    display: inline-block;
-  }
-  nav a:hover { color: var(--cream); }
-  nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
-
-  /* BREADCRUMB */
-  .breadcrumb {
-    position: relative;
-    z-index: 1;
-    width: min(1180px, calc(100% - 64px));
-    max-width: none;
-    margin: 0 auto;
-    padding: 20px 32px 0;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.72rem;
-    letter-spacing: 1.5px;
-    color: rgba(245,237,216,0.35);
-  }
-  .breadcrumb a { color: rgba(212,160,23,0.6); text-decoration: none; transition: color 0.2s; }
-  .breadcrumb a:hover { color: var(--gold); }
-  .breadcrumb span { color: rgba(245,237,216,0.25); }
-
-  /* ENTRY LAYOUT */
-  main {
-    position: relative;
-    z-index: 1;
-    width: min(1180px, calc(100% - 64px));
-    max-width: none;
-    margin: 0 auto;
-    padding: 32px 0 100px;
-  }
-
-  /* HERO HEADER */
-  .entry-hero {
-    margin-bottom: 56px;
-    animation: fadeUp 0.5s ease both;
-  }
-  .entry-vol-label {
-    font-size: 0.68rem;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 16px;
-  }
-  .entry-name {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(2.4rem, 6vw, 4.6rem);
-    font-weight: 900;
-    color: var(--white);
-    line-height: 1.06;
-    margin-bottom: 18px;
-  }
-  .entry-tagline {
-    font-size: 1.2rem;
-    color: rgba(245,237,216,0.6);
-    line-height: 1.6;
-    margin-bottom: 24px;
-    font-style: italic;
-  }
-  .entry-badges {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    border-radius: 100px;
-    padding: 6px 14px;
-    font-size: 0.7rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-  .badge-cat { background: rgba(26,92,56,0.25); border: 1px solid rgba(26,92,56,0.5); color: #7dd6a0; }
-  .badge-dates { background: rgba(212,160,23,0.1); border: 1px solid rgba(212,160,23,0.3); color: var(--gold); }
-  .badge-vol { background: rgba(196,30,58,0.1); border: 1px solid rgba(196,30,58,0.3); color: #ff9999; }
-
-  /* DIVIDER */
-  .section-divider {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin: 56px 0 40px;
-  }
-  .section-divider::before, .section-divider::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(212,160,23,0.3), transparent);
-  }
-  .section-divider span {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 0.75rem;
-    letter-spacing: 5px;
-    color: rgba(212,160,23,0.5);
-    white-space: nowrap;
-  }
-
-  /* TIMELINE STRIP */
-  .timeline-strip {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 28px 32px;
-    display: flex;
-    gap: 0;
-    overflow-x: auto;
-    scrollbar-width: thin;
-    scrollbar-color: var(--gold) transparent;
-    margin-bottom: 52px;
-    animation: fadeUp 0.5s ease 0.1s both;
-  }
-  .timeline-item {
-    flex: 1;
-    min-width: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    padding: 8px 16px;
-  }
-  .timeline-item:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1px;
-    height: 60%;
-    background: rgba(212,160,23,0.2);
-  }
-  .tl-year {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem;
-    color: var(--gold);
-    line-height: 1;
-    margin-bottom: 6px;
-  }
-  .tl-event {
-    font-size: 0.78rem;
-    line-height: 1.5;
-    color: rgba(245,237,216,0.6);
-    text-align: center;
-  }
-
-  /* BIOGRAPHY */
-  .bio-section {
-    animation: fadeUp 0.5s ease 0.15s both;
-  }
-  .section-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.1rem;
-    letter-spacing: 5px;
-    color: var(--gold);
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  }
-  .bio-body p {
-    font-size: 1.125rem;
-    line-height: 1.85;
-    color: rgba(245,237,216,0.82);
-    margin-bottom: 26px;
-  }
-  .bio-body p:last-child { margin-bottom: 0; }
-
-  /* PULL QUOTE */
-  .pull-quote {
-    border-left: 4px solid var(--gold);
-    background: rgba(212,160,23,0.05);
-    padding: 24px 28px;
-    margin: 52px 0;
-    border-radius: 0 10px 10px 0;
-    animation: fadeUp 0.5s ease 0.2s both;
-  }
-  .pull-quote p {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 1.15rem;
-    color: var(--gold);
-    margin: 0 0 8px;
-    line-height: 1.65;
-  }
-  .pull-quote cite {
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-size: 0.72rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: rgba(212,160,23,0.5);
-  }
-
-  /* WAIT... WHAT?! */
-  .wait-what {
-    background: linear-gradient(135deg, rgba(212,160,23,0.08), rgba(180,120,0,0.04));
-    border: 1px solid rgba(212,160,23,0.3);
-    border-radius: 14px;
-    padding: 32px 34px;
-    margin: 52px 0;
-    animation: fadeUp 0.5s ease 0.2s both;
-  }
-  .wait-what h4 {
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 4px;
-    font-size: 0.85rem;
-    color: var(--gold);
-    margin-bottom: 14px;
-  }
-  .wait-what p { font-size: 1.05rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin: 0 0 16px; }
-  .wait-what p:last-child { margin-bottom: 0; }
-
-  /* COST / IMPACT */
-  .cost-impact {
-    background: linear-gradient(135deg, rgba(232,98,26,0.08), rgba(180,60,0,0.04));
-    border: 1px solid rgba(232,98,26,0.25);
-    border-radius: 14px;
-    padding: 32px 34px;
-    margin: 52px 0;
-    animation: fadeUp 0.5s ease 0.22s both;
-  }
-  .cost-impact h4 {
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 4px;
-    font-size: 0.85rem;
-    color: var(--orange);
-    margin-bottom: 14px;
-  }
-  .cost-impact p { font-size: 1.05rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin: 0 0 16px; }
-  .cost-impact p:last-child { margin-bottom: 0; }
-
-  /* Hide hero elements that have no content */
-  .entry-vol-label:empty { display: none; }
-  .entry-tagline:empty   { display: none; }
-  .badge-vol:empty       { display: none; }
-
-  /* WHY IT MATTERS */
-  .why-matters {
-    background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04));
-    border: 1px solid rgba(196,30,58,0.25);
-    border-radius: 14px;
-    padding: 32px 34px;
-    margin: 52px 0;
-    animation: fadeUp 0.5s ease 0.25s both;
-  }
-  .why-matters h4 {
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 4px;
-    font-size: 0.85rem;
-    color: var(--red);
-    margin-bottom: 14px;
-  }
-  .why-matters p {
-    font-size: 1.05rem;
-    line-height: 1.85;
-    color: rgba(245,237,216,0.78);
-    margin: 0;
-  }
-
-  /* CONNECTED TO */
-  .connected-section {
-    margin: 52px 0;
-    animation: fadeUp 0.5s ease 0.3s both;
-  }
-  .connected-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 12px;
-    margin-top: 18px;
-  }
-  .connected-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 16px 18px;
-    text-decoration: none;
-    display: block;
-    transition: all 0.2s;
-    position: relative;
-    overflow: hidden;
-  }
-  .connected-card::before {
-    content: '';
-    position: absolute;
-    left: 0; top: 0; bottom: 0;
-    width: 3px;
-    background: linear-gradient(180deg, var(--red), var(--gold));
-  }
-  .connected-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
-  .connected-type {
-    font-size: 0.6rem;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    color: rgba(212,160,23,0.55);
-    margin-bottom: 5px;
-  }
-  .connected-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 0.95rem;
-    font-weight: 700;
-    color: var(--white);
-    line-height: 1.3;
-    margin-bottom: 4px;
-  }
-  .connected-desc {
-    font-size: 0.78rem;
-    color: rgba(245,237,216,0.45);
-    line-height: 1.5;
-  }
-
-  /* QUIZ LINK */
-  .quiz-link-card {
-    background: linear-gradient(135deg, rgba(196,30,58,0.12), rgba(139,0,0,0.06));
-    border: 1px solid rgba(196,30,58,0.3);
-    border-radius: 12px;
-    padding: 18px 22px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    text-decoration: none;
-    transition: all 0.2s;
-    margin-top: 12px;
-  }
-  .quiz-link-card:hover { border-color: var(--red); transform: translateY(-2px); }
-  .quiz-link-left {}
-  .quiz-link-label { font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(196,30,58,0.7); margin-bottom: 4px; }
-  .quiz-link-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
-  .quiz-link-arrow { color: var(--red); font-size: 1.4rem; flex-shrink: 0; }
-
-  /* EXTERNAL LINKS */
-  .external-section {
-    margin: 36px 0;
-    animation: fadeUp 0.5s ease 0.35s both;
-  }
-  .external-links { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
-  .ext-link {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 16px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-  .ext-link:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
-  .ext-left {}
-  .ext-source { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 3px; }
-  .ext-title { font-size: 0.9rem; color: var(--cream); line-height: 1.35; }
-  .ext-arrow { color: var(--gold); opacity: 0.6; font-size: 1rem; flex-shrink: 0; }
-
-  /* BACK NAV */
-  .back-nav {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 32px;
-    animation: fadeUp 0.4s ease both;
-  }
-  .back-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(212,160,23,0.2);
-    border-radius: 100px;
-    padding: 8px 18px;
-    color: rgba(245,237,216,0.6);
-    font-size: 0.78rem;
-    letter-spacing: 1.5px;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-  .back-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(212,160,23,0.06); }
-
-  footer {
-    position: relative;
-    z-index: 1;
-    border-top: 1px solid rgba(212,160,23,0.15);
-    padding: 28px 32px;
-    text-align: center;
-  }
-  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
-  footer a { color: var(--gold); text-decoration: none; }
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  @media (max-width: 700px) {
-    main, .breadcrumb { width: calc(100% - 32px); }
-  }
-
-  @media (max-width: 620px) {
-    .header-inner { padding: 12px 16px; }
-    nav { padding: 0 16px; }
-    nav a { padding: 10px 12px; font-size: 0.72rem; }
-    main { padding: 24px 0 80px; }
-    .breadcrumb { padding: 16px 16px 0; }
-    .entry-name { font-size: 2rem; }
-    .connected-grid { grid-template-columns: 1fr; }
-    .timeline-strip { gap: 0; }
-  }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="frederick-douglass">
-
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-
 <header>
   <div class="header-inner">
     <a class="logo-area" href="../../index.html">
       <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
-      <div class="logo-text">
-        <h1>Black<span>History</span></h1>
-        <p>In Real Time</p>
-      </div>
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -541,189 +75,150 @@
     <a href="../../index.html#about">About</a>
   </nav>
 </header>
-
-<div class="breadcrumb">
-  <a href="../../encyclopedia.html">Encyclopedia</a>
-  <span>›</span>
-  <span style="color:rgba(245,237,216,0.5)">Frederick Douglass</span>
-</div>
-
 <main>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span> &middot; Resistance &amp; Freedom</span>
+  </div>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
 
-  <div class="back-nav">
-    <a href="../../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a>
+  <div class="entry-hero">
+    <div class="entry-vol-label"> &middot; Resistance &amp; Freedom</div>
+    <h1>Frederick Douglass</h1>
+    <p class="entry-tagline">Frederick Douglass was born enslaved as Frederick Augustus Washington Bailey and became one of the nineteenth century&#039;s most important writers, speakers, editors, and political thinkers. The familiar version says he learned to read, escaped slavery, and became an abolitionist. The fuller story is harder and more useful: literacy taught him the logic of power, escape required help from Anna Murray, public speech put him at risk of recapture, and his politics kept changing as he argued with abolitionists, presidents, suffragists, soldiers, and the country itself. Douglass matters because he did not only tell America that slavery was evil. He forced the nation to measure democracy by Black freedom, and he kept expanding that demand after emancipation into citizenship, voting rights, women&#039;s rights, labor, and international dignity.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1818 - 1895</span>
+    </div>
+    <div class="hero-bar"></div>
   </div>
 
-  <!-- ENTRY HERO -->
-  <div class="entry-hero">
-    <div class="entry-vol-label">May 5 · Resistance &amp; Freedom</div>
-    <h1 class="entry-name">Frederick Douglass</h1>
-    <p class="entry-tagline">The man who escaped slavery and became the most powerful voice against it.</p>
-    <div class="entry-badges">
-      <span class="badge badge-dates">1818 — 1895</span>
-      <span class="badge badge-cat">People</span>
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Feb 1818</div><div class="tl-event">Born Frederick Augustus Washington Bailey in Talbot County, Maryland.</div></div>
+<div class="tl-item"><div class="tl-date">1826</div><div class="tl-event">Sent to Baltimore, where he begins learning to read and connects literacy with freedom.</div></div>
+<div class="tl-item"><div class="tl-date">1834</div><div class="tl-event">Fights back against Edward Covey, later remembering the moment as a turning point in his resistance.</div></div>
+<div class="tl-item"><div class="tl-date">Sept 3, 1838</div><div class="tl-event">Escapes slavery by train, ferry, and foot, using borrowed sailor papers.</div></div>
+<div class="tl-item"><div class="tl-date">Sept 15, 1838</div><div class="tl-event">Marries Anna Murray, who had helped make his escape possible.</div></div>
+<div class="tl-item"><div class="tl-date">1841</div><div class="tl-event">Speaks at an antislavery meeting in Nantucket and becomes an abolitionist lecturer.</div></div>
+<div class="tl-item"><div class="tl-date">1845</div><div class="tl-event">Publishes Narrative of the Life of Frederick Douglass, An American Slave.</div></div>
+<div class="tl-item"><div class="tl-date">1847</div><div class="tl-event">Founds The North Star newspaper in Rochester, New York.</div></div>
+<div class="tl-item"><div class="tl-date">July 5, 1852</div><div class="tl-event">Delivers What to the Slave Is the Fourth of July? in Rochester.</div></div>
+<div class="tl-item"><div class="tl-date">1863</div><div class="tl-event">Recruits Black soldiers for the Union Army and meets with President Abraham Lincoln.</div></div>
+<div class="tl-item"><div class="tl-date">1877</div><div class="tl-event">Appointed U.S. marshal for the District of Columbia.</div></div>
+<div class="tl-item"><div class="tl-date">1889</div><div class="tl-event">Appointed U.S. minister resident and consul general to Haiti.</div></div>
+<div class="tl-item"><div class="tl-date">Feb 20, 1895</div><div class="tl-event">Dies in Washington, D.C., after attending a women&#039;s rights meeting.</div></div>
     </div>
   </div>
 
-  <!-- TIMELINE — rendered by generator from entry data; omitted if empty -->
-  <div class="timeline-strip">
-  <div class="timeline-item">
-    <div class="tl-year">1818</div>
-    <div class="tl-event">Born into slavery in Talbot County, Maryland</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1838</div>
-    <div class="tl-event">Escapes slavery disguised as a free Black sailor; arrives in New York City</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1841</div>
-    <div class="tl-event">Speaks at an abolitionist meeting in Nantucket; hired as an Anti-Slavery Society lecturer</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1845</div>
-    <div class="tl-event">Publishes Narrative of the Life of Frederick Douglass, An American Slave</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1847</div>
-    <div class="tl-event">Founds The North Star abolitionist newspaper in Rochester, New York</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1852</div>
-    <div class="tl-event">Delivers &quot;What to the Slave is the Fourth of July?&quot; — widely regarded as the greatest antislavery speech in American history</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1863</div>
-    <div class="tl-event">Recruits Black soldiers for the 54th and 55th Massachusetts Infantry; meets with President Lincoln</div>
-  </div>
-  <div class="timeline-item">
-    <div class="tl-year">1895</div>
-    <div class="tl-event">Dies in Washington, D.C., hours after speaking at a women&#039;s suffrage meeting</div>
-  </div>
-</div>
-
-  <!-- BIOGRAPHY -->
   <div class="bio-section">
-    <div class="section-title">Full Biography</div>
-    <div class="bio-body"><p>Frederick Augustus Washington Bailey was born in approximately 1818 on a plantation in Talbot County, Maryland. He never knew his exact birthday — that information was kept from him, like most things the system of slavery could keep from an enslaved person. He barely knew his mother. Harriet Bailey was hired out to a farm twelve miles away, and she died when Frederick was around seven. He was raised by his grandmother until he was old enough to work.</p>
-<p>In 1826, at roughly eight years old, he was sent to Baltimore to serve in the household of Hugh and Sophia Auld. Sophia Auld began teaching him the alphabet — until her husband stopped her. Hugh Auld's explanation for why an enslaved person should not be taught to read was direct: it would make him impossible to control.</p>
-<p>Douglass heard this and understood it as the most important thing anyone had ever told him. If reading was what they feared, reading was what he had to do.</p>
-<p>He found ways. He carried bread and traded it to poor white boys in the neighborhood in exchange for reading lessons. He copied letters from ship navigation manuals whenever he could get his hands on them. He continued teaching himself in secret, in whatever moments he could find, for years. By his early teens, he was reading political pamphlets. He read about the abolitionist movement. He read arguments against slavery that named in moral and legal terms exactly what he was experiencing.</p>
-<p>By the time he was fifteen or sixteen, he was running secret Sunday school sessions where he taught other enslaved people to read. The sessions were discovered and shut down. Douglass was sent back to the countryside.</p>
-<p>The conditions there were harsher. He was sent to work under a man named Edward Covey, known throughout the county as a &quot;slave-breaker&quot; — a person hired to physically break enslaved individuals who were considered difficult to manage. Covey beat Douglass regularly. In 1834, Douglass fought back. After a prolonged physical struggle that lasted nearly two hours, Covey never touched him again.</p>
-<p>Douglass began planning his escape.</p>
-<p>Several attempts failed. On September 3, 1838, disguised as a free Black sailor and carrying borrowed identification papers, he boarded a northbound train in Baltimore. He made connections at several points, transferred to a steamboat, and arrived in New York City within a day.</p>
-<p>He was twenty years old.</p>
-<p>He moved to New Bedford, Massachusetts, changed his last name to Douglass (after a character in a Sir Walter Scott poem, with adjusted spelling), and took work as a common laborer — because no skilled trades union in New Bedford would admit Black workers. In 1841, he attended an abolitionist meeting in Nantucket, was invited to speak, and described his life under slavery. The audience's reaction was immediate. William Lloyd Garrison, who ran the American Anti-Slavery Society, recruited him on the spot.</p>
-<p>For the next four years, Douglass traveled the country as a lecturer. Audiences were consistently stunned — and consistently suspicious. He was too articulate, too informed, too polished, some people said. He could not really have been enslaved.</p>
-<p>To prove it, in 1845 he published <em>Narrative of the Life of Frederick Douglass, An American Slave</em>. The book named his enslavers. It named specific farms and locations. It described slavery not in abstract terms but in concrete, precise detail. It sold 5,000 copies in the first four months and was translated into French and Dutch. It was also dangerous. Under the Fugitive Slave Act, Douglass could now be legally identified, captured, and returned to slavery.</p>
-<p>He left the country.</p>
-<p>He spent two years lecturing in Ireland and England, speaking about American slavery while American newspapers debated his credibility. In Ireland, which was in the grip of famine, he found audiences who understood dispossession and suffering in their own context. British abolitionists raised the funds to purchase his legal freedom — a transaction that some abolitionists found morally compromised, since it acknowledged the legal fiction that a human being could be property. Douglass accepted it because it meant he could return to the United States without being recaptured.</p>
-<p>Back in America, he founded <em>The North Star</em> newspaper in Rochester, New York in 1847, naming it after what enslaved people followed when they ran north. The paper ran for sixteen years.</p>
-<p>On July 5, 1852, Douglass delivered the address now known as &quot;What to the Slave is the Fourth of July?&quot; to the Rochester Ladies' Anti-Slavery Society. It is considered among the greatest speeches in American history. The argument was direct: the American celebration of independence was a festival of hypocrisy as long as slavery existed. &quot;This Fourth July is yours, not mine,&quot; he said. &quot;You may rejoice, I must mourn.&quot;</p>
-<p>During the Civil War, Douglass worked on two fronts simultaneously. He pushed the Lincoln administration to make emancipation a formal war aim and to allow Black men to serve in the Union Army. When Lincoln signed the Emancipation Proclamation in 1863, Douglass recruited Black soldiers for the 54th and 55th Massachusetts Infantry — regiments that became famous for their courage under fire. He met personally with Lincoln at the White House, twice, to argue for equal pay and equal treatment for Black Union soldiers.</p>
-<p>Frederick Douglass died on February 20, 1895, in Washington, D.C., at approximately 77 years old. He had returned home from a women's suffrage meeting earlier that evening and collapsed. He had spent more than five decades using language as a weapon — autobiography, oratory, journalism, political argument — to make the case that slavery was incompatible with democracy and that Black citizens were entitled to the full rights of American life.</p>
-<p>He was never supposed to know how to read. He never stopped writing.</p></div>
+    <div class="section-title">Full Story</div>
+<p>Frederick Douglass understood early that slavery was not only chains, fields, and whips. It was also information control. He was born in Talbot County, Maryland, in February 1818, separated from family, and denied even a reliable birthdate. Enslavers understood that ignorance was part of the system. To keep a person from reading was to narrow the world that person could imagine and the arguments that person could make against bondage.</p>
+<p>Baltimore changed him. Sent there as a child to the household of Hugh and Sophia Auld, Douglass began learning the alphabet from Sophia before Hugh Auld stopped her. Auld&#039;s warning became a revelation. If literacy would make an enslaved boy unfit for slavery, Douglass understood that literacy was a route toward freedom. He traded bread with poor white boys for lessons, copied letters, read political writing, and used every scrap of access he could find.</p>
+<p>Reading did not make slavery easier to endure. It gave Douglass language for what he was enduring and sharpened his hatred of the system. As a teenager he taught other enslaved people to read in secret Sunday lessons. He also endured brutal discipline after being sent back to the Eastern Shore and placed under Edward Covey, a man known as a slave-breaker. Douglass later remembered fighting Covey as a turning point. The fight did not free him legally, but it changed his sense of himself. He had resisted with his body as well as his mind.</p>
+<p>His escape in 1838 depended on courage, planning, disguise, and help. Anna Murray, a free Black woman in Baltimore, provided money and support. Douglass used borrowed sailor papers and traveled by train, ferry, and foot to New York. He and Murray married soon after, then settled in New Bedford, Massachusetts, where they adopted the name Douglass. Public memory often treats Anna as background, but his freedom story is incomplete without her. Escape was rarely a solitary miracle.</p>
+<p>Douglass began attending abolitionist meetings and was invited to speak in Nantucket in 1841. Audiences were stunned by his power. Some were also suspicious because racism had taught them to doubt that a formerly enslaved Black man could speak with such force and precision. In 1845, he published Narrative of the Life of Frederick Douglass, naming enslavers and places in detail. The book proved his experience to doubters, but it also made him vulnerable to capture. He left for Britain and Ireland, where supporters eventually raised money to purchase his legal freedom.</p>
+<p>Returning to the United States, Douglass founded The North Star in Rochester in 1847. That decision marked his independence. He had worked closely with William Lloyd Garrison, but Douglass increasingly rejected Garrisonian positions that treated the Constitution as irredeemably proslavery and discouraged political engagement. Douglass came to argue that the Constitution could be used against slavery. That shift mattered because it shows him as a thinker, not merely a witness. He revised his strategy as conditions changed.</p>
+<p>His 1852 Fourth of July speech remains one of the clearest examples of his method: begin with America&#039;s own language, then expose what the country refuses to practice. Douglass did not reject liberty as an ideal. He rejected the hypocrisy of celebrating it while millions remained enslaved. His oratory was not only denunciation. It was a disciplined reading of the nation&#039;s claims against its conduct.</p>
+<p>During the Civil War, Douglass pushed President Lincoln and the Union toward emancipation and Black military service. He recruited Black soldiers, including his sons, for the 54th Massachusetts and other regiments. He also argued for equal pay and treatment. He understood that if Black men fought for the Union, they were making an undeniable claim on citizenship. Military service was not the whole of freedom, but it could become evidence against the lie that Black people had no stake in the republic.</p>
+<p>After the war, Douglass kept moving. He defended the Reconstruction amendments, insisted on Black voting rights, held federal offices, supported women&#039;s suffrage, and served as U.S. minister to Haiti. He also made choices that sparked criticism, including his second marriage to Helen Pitts, a white woman, after Anna Murray Douglass died. His long public life contains contradiction because he lived inside changing struggles, not a finished monument.</p>
+<p>Douglass died in 1895 after attending a meeting of the National Council of Women. The detail feels fitting because he never stopped linking freedom to public argument. He used autobiography, journalism, speeches, political appointments, and memory to insist that Black life belonged at the center of American democracy. He was not supposed to read. He became one of the nation&#039;s most important interpreters of freedom.</p>
   </div>
 
-  <div class="wait-what">
-<h4>Wait... What?!</h4>
-<p>Frederick Douglass escaped slavery at 20. By 26, he was so famous as an orator that people doubted he could really have been enslaved. He was too educated, too articulate, too confident, they said.</p>
-<p>He wrote his autobiography to prove it. The book named his enslaver, described the plantation in detail, and documented his life in slavery specifically enough that slavecatchers now knew exactly who he was and where he came from.</p>
-<p>He had to leave the country.</p>
-<p>He spent two years in Ireland and England speaking about American slavery while America was celebrating its democracy. British supporters eventually raised enough money to purchase his legal freedom so he could come home without being recaptured.</p>
-<p>Frederick Douglass had to buy his own freedom to be safe in the country where he was born.</p>
-</div>
-
-  <div class="cost-impact">
-<h4>Cost / Impact</h4>
-<p>Douglass's 1845 autobiography made him a wanted man under the Fugitive Slave Act. He risked recapture every time he spoke publicly in America. He spent two years in self-imposed exile in Britain before British abolitionists paid for his legal manumission. Even after that, he operated under threat — as a prominent Black man in antebellum America, he was a target.</p>
-<p>He paid to found <em>The North Star</em> with his own money and kept it running for sixteen years. He consulted John Brown before the Harper's Ferry raid in 1859 and refused to participate, predicting it would fail — it did. He spent the Civil War recruiting Black soldiers and lobbying the Lincoln administration for equal treatment.</p>
-<p>The impact of his writing was structural. <em>Narrative of the Life of Frederick Douglass</em> remains one of the most widely read and studied American texts — assigned in high schools and universities, translated into dozens of languages, in continuous print for nearly 180 years. His 1852 speech is considered among the finest in American oratory. His decades of journalism through <em>The North Star</em> documented abolitionism from inside the movement.</p>
-<p>He built the moral and intellectual case that the abolitionist movement needed to win the argument before the nation could fight the war that ended slavery.</p>
-</div>
-
-  <!-- PULL QUOTE -->
   <div class="pull-quote">
-    <p>If there is no struggle, there is no progress.</p>
-    <cite>— Frederick Douglass, 1857</cite>
+    <div class="pq-bar"></div>
+    <blockquote>If there is no struggle, there is no progress.</blockquote>
+    <cite>Frederick Douglass, West India Emancipation speech, 1857</cite>
   </div>
 
-  <!-- WHY IT MATTERS -->
-  <div class="why-matters">
-    <h4>Why This Matters</h4>
-    <p>Douglass proved that the full power of language — autobiography, oratory, journalism — could be weapons in a political fight. He built the intellectual framework for American abolitionism and forced the nation to confront its own contradictions: a democracy that enslaved people, a Constitution that promised freedom while permitting bondage. His model — speaking truth directly, building institutions, engaging power on its own terms — continues to shape how movements make their arguments. Everything he did, he did with words. He was not supposed to have them.</p>
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Douglass paid for public witness with danger. His first autobiography identified him as a fugitive and increased the risk of recapture. He lived with threats, mob violence, exile, financial strain from publishing, and the burden of being treated as proof of Black capacity before racist audiences.</p>
+<p>His impact was intellectual and institutional. He changed abolitionist argument, built Black journalism, recruited soldiers, advised presidents, defended suffrage, and left autobiographies that still teach readers how slavery shaped both the body and the mind. He made American democracy answer questions it wanted to postpone.</p>
   </div>
 
-  <div class="section-divider"><span>Connections</span></div>
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Douglass matters today because the gap between national ideals and national practice has not disappeared. His method remains urgent: read the country&#039;s promises closely, then ask who is excluded from them and who benefits from the exclusion.</p>
+<p>He also matters because he changed his mind in public. Douglass moved from one abolitionist strategy to another, argued with allies, and adjusted tactics without surrendering principle. That is a different model from the frozen hero version of history.</p>
+<p>A reader should leave Douglass understanding that literacy, testimony, journalism, and political pressure can become infrastructure for freedom. Words did not free him alone, but he used words to organize power.</p>
+  </div>
 
-  <!-- CONNECTED TO -->
+  <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
 
-    <a href="../../index.html?day=2026-05-05" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz · 2026-05-05</div>
-        <div class="quiz-link-title">Test your knowledge on Frederick Douglass</div>
-      </div>
-      <span class="quiz-link-arrow">✊🏾</span>
-    </a>
-
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"></div>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../generated/pages/douglass-fourth-of-july.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Douglass and the Fourth of July Speech</div>
+        <div class="connected-desc">Goes deeper on the 1852 speech that tested American independence against slavery.</div>
+      </a>
+<a href="../../generated/pages/frances-harper.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Frances E.W. Harper</div>
+        <div class="connected-desc">Connects Douglass to Black abolitionist print culture and public speech.</div>
+      </a>
+<a href="../../generated/pages/david-walker.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">David Walker</div>
+        <div class="connected-desc">Places Douglass in a longer Black tradition of radical abolitionist print.</div>
+      </a>
+<a href="../../encyclopedia/juneteenth.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Juneteenth</div>
+        <div class="connected-desc">Links antislavery argument to emancipation, memory, and the delayed arrival of freedom.</div>
+      </a>
+    </div>
   </div>
 
   <div class="section-divider"><span>Learn More</span></div>
-
-  <!-- EXTERNAL LINKS — rendered by generator from entry data; omitted if empty -->
   <div class="external-section">
     <div class="section-title">External Links</div>
-    <div class="external-links"><a href="https://en.wikipedia.org/wiki/Frederick_Douglass" class="ext-link" target="_blank" rel="noopener noreferrer">
-  <div class="ext-left">
-    <div class="ext-source">Wikipedia</div>
-    <div class="ext-title">Frederick Douglass — biography and legacy</div>
+    <div class="external-links">
+<a href="https://www.nps.gov/people/frederick-douglass.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Frederick Douglass</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/collections/frederick-douglass-papers/about-this-collection/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Frederick Douglass Papers</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/collections/frederick-douglass-papers/articles-and-essays/frederick-douglass-timeline/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Frederick Douglass Timeline</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/explore/stories/frederick-douglass" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Frederick Douglass</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://home.nps.gov/articles/frederick-douglass-and-civil-war.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Frederick Douglass and the Civil War</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
   </div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.nps.gov/people/frederick-douglass.htm" class="ext-link" target="_blank" rel="noopener noreferrer">
-  <div class="ext-left">
-    <div class="ext-source">National Park Service</div>
-    <div class="ext-title">Frederick Douglass — NPS biography</div>
-  </div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.britannica.com/biography/Frederick-Douglass" class="ext-link" target="_blank" rel="noopener noreferrer">
-  <div class="ext-left">
-    <div class="ext-source">Britannica</div>
-    <div class="ext-title">Frederick Douglass — Britannica biography</div>
-  </div>
-  <span class="ext-arrow">&#x2197;</span>
-</a></div>
-  </div>
-
 </main>
-
 <footer>
-  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>
