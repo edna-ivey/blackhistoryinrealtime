@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Langston Hughes - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Langston Hughes made poetry sound like a front porch, a jazz club, a train station, and a protest all at once.">
+<meta name="description" content="Langston Hughes made Black everyday life sound like literature without asking it to dress up first. He wrote poems, plays, essays, columns, stories, memoirs, and children&#039;s books, and he helped define the Harlem Renaissance while refusing to treat Black folk culture as something embarrassing or minor. Hughes listened to blues, jazz, jokes, church, labor, trains, rent parties, and street speech, then built a body of work that carried laughter and grief in the same hand. He matters because he rejected the pressure to write only for white approval or elite respectability. His page is not only about one famous poem. It is about a writer protecting the fullness of Black life on the page.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="langston-hughes">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,153 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Langston Hughes</h2>
-  <div class="meta">
-    <span class="badge">1901 - 1967</span>
-    <span class="badge">Literature</span>
-    <span class="badge">2026-05-09</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>May 9 &middot; Literature</span>
   </div>
-  <article>
-    <p>Langston Hughes made poetry sound like a front porch, a jazz club, a train station, and a protest all at once.</p><p>He became one of the central writers of the Harlem Renaissance by writing plainly and beautifully about Black everyday life. He used blues and jazz rhythms not as decoration, but as structure.</p><p>His poems and essays insisted that Black life did not need to be translated into someone else&#039;s language to be art. He wrote for people who recognized the sounds, jokes, pressures, and dreams inside the lines.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Hughes matters because he protected the dignity of ordinary Black life on the page. He made room for laughter, exhaustion, faith, anger, and beauty without asking permission.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 9 &middot; Literature</div>
+    <h1>Langston Hughes</h1>
+    <p class="entry-tagline">Langston Hughes made Black everyday life sound like literature without asking it to dress up first. He wrote poems, plays, essays, columns, stories, memoirs, and children&#039;s books, and he helped define the Harlem Renaissance while refusing to treat Black folk culture as something embarrassing or minor. Hughes listened to blues, jazz, jokes, church, labor, trains, rent parties, and street speech, then built a body of work that carried laughter and grief in the same hand. He matters because he rejected the pressure to write only for white approval or elite respectability. His page is not only about one famous poem. It is about a writer protecting the fullness of Black life on the page.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1901 - 1967</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.poetryfoundation.org/poets/langston-hughes" target="_blank" rel="noopener noreferrer">https://www.poetryfoundation.org/poets/langston-hughes</a></li>
-<li><a href="https://www.loc.gov/item/n79021164/langston-hughes-1902-1967/" target="_blank" rel="noopener noreferrer">https://www.loc.gov/item/n79021164/langston-hughes-1902-1967/</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Feb 1, 1901</div><div class="tl-event">Born James Mercer Langston Hughes in Joplin, Missouri.</div></div>
+<div class="tl-item"><div class="tl-date">1921</div><div class="tl-event">Publishes &quot;The Negro Speaks of Rivers&quot; in The Crisis.</div></div>
+<div class="tl-item"><div class="tl-date">1926</div><div class="tl-event">Publishes The Weary Blues and &quot;The Negro Artist and the Racial Mountain.&quot;</div></div>
+<div class="tl-item"><div class="tl-date">1930</div><div class="tl-event">Publishes the novel Not Without Laughter.</div></div>
+<div class="tl-item"><div class="tl-date">1930s</div><div class="tl-event">Travels widely and writes journalism, poetry, drama, and political work.</div></div>
+<div class="tl-item"><div class="tl-date">1940</div><div class="tl-event">Publishes the autobiography The Big Sea.</div></div>
+<div class="tl-item"><div class="tl-date">1943</div><div class="tl-event">Begins publishing stories featuring Jesse B. Semple, known as Simple.</div></div>
+<div class="tl-item"><div class="tl-date">1951</div><div class="tl-event">Publishes Montage of a Dream Deferred.</div></div>
+<div class="tl-item"><div class="tl-date">1960</div><div class="tl-event">Receives the Spingarn Medal from the NAACP.</div></div>
+<div class="tl-item"><div class="tl-date">May 22, 1967</div><div class="tl-event">Dies in New York City.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-05-09">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Langston Hughes was born in Joplin, Missouri, in 1901 and grew up across several places, including Kansas, Illinois, Ohio, Mexico, and eventually New York. Movement shaped his imagination. He knew family separation, migration, work, train travel, and the emotional geography of Black America before he became one of its best-known writers.</p>
+<p>His early poem &quot;The Negro Speaks of Rivers&quot; appeared in The Crisis in 1921, when Hughes was still young. The poem placed Black history in a vast riverine timescale, connecting the Mississippi to older world civilizations. That early ambition matters because Hughes is sometimes remembered only as plainspoken. He was accessible, but accessibility did not mean simplicity. He could write in a voice anyone could enter while carrying history, music, irony, and formal intelligence.</p>
+<p>Hughes became central to the Harlem Renaissance, but he did not write only for Harlem elites. In 1926, he published &quot;The Negro Artist and the Racial Mountain,&quot; an essay rejecting the pressure on Black artists to imitate white standards or hide Black folk culture. The argument was direct: Black artists should not be ashamed of Blackness, including working-class speech, blues, jazz, humor, and ordinary life.</p>
+<p>The Weary Blues, also published in 1926, showed what that belief sounded like in poetry. Hughes used blues and jazz not as decoration but as structure. Repetition, call and response, syncopation, vernacular speech, and musical pacing shaped the poems. He treated Black music as an intellectual form, not background entertainment.</p>
+<p>That choice put sound at the center of literary authority. Hughes was listening to people who were not usually treated as sources of high art: workers, tenants, singers, mothers, preachers, hustlers, children, and people telling jokes to get through the day. He did not imitate them from above. He built poems that recognized how much thought already lived in rhythm, idiom, pause, and punch line.</p>
+<p>Hughes&#039;s career was broad. He wrote poems, fiction, plays, essays, translations, opera librettos, newspaper columns, and children&#039;s books. He traveled to the Soviet Union, Spain, Haiti, and elsewhere, and his politics drew attention during the Red Scare. He wrote about labor, colonialism, racism, war, and class, but he also wrote jokes, love, weariness, rent, dreams, and neighborhood talk. That range is part of his genius.</p>
+<p>His Simple stories, featuring Jesse B. Semple, brought a barstool philosopher into newspaper columns and books. Simple was funny and sharp, a character through whom Hughes could explore race, politics, gender, work, and everyday absurdity. Some critics debated whether Simple risked stereotype. Hughes used the character to insist that ordinary Black speech could hold analysis without academic costume.</p>
+<p>Hughes&#039;s relationship to respectability politics was tense. Some Black critics worried that his attention to working-class life, nightlife, dialect, and hardship confirmed white prejudice. Hughes answered by refusing shame. He believed Black life did not become worthy only when polished for outsiders. That stance made him beloved by many readers and controversial among some cultural gatekeepers.</p>
+<p>Montage of a Dream Deferred, published in 1951, captured postwar Harlem through bebop-like movement, fragments, and recurring questions about blocked possibility. The famous question about a dream deferred belongs to that larger work, which is not only motivational. It is about housing, labor, frustration, beauty, and pressure inside a city that kept promising and withholding.</p>
+<p>Hughes also became a bridge for later Black arts. Writers who came after him did not all share his politics or his style, but they inherited the space he widened. His willingness to write for newspapers, stages, children, classrooms, and working readers challenged the idea that serious literature had to stay in one prestigious container. He treated audience as community, not compromise.</p>
+<p>Langston Hughes matters because he made a democratic literature of Black life. He did not separate beauty from rent, art from work, laughter from injustice, or music from thought. He wrote as if ordinary Black people already contained poetry, because they did.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Hughes paid through financial precarity, political scrutiny, critical pressure, and the burden of being asked to represent Black life respectably. His left-leaning associations and writings drew federal attention during the anti-communist era, and his commitment to working-class Black culture was sometimes criticized by those seeking a more polished public image.</p>
+<p>His impact is immense. He shaped modern poetry, Black arts movements, children&#039;s literature, theater, journalism, and the idea that vernacular Black life could be a central literary authority. Generations of writers inherited permission from Hughes to write in voices that sounded like their own communities.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Hughes matters today because debates over language, respectability, and audience have not disappeared. Writers, artists, and students are still asked, directly or indirectly, to make Black life legible to people outside it. Hughes refused to make outside approval the measure of art.</p>
+<p>He also matters because he treated joy and hardship as neighbors. His work does not flatten Black life into trauma or uplift. It includes jokes, music, hunger, faith, desire, tiredness, and dreams that may sour if the world keeps blocking them.</p>
+<p>A reader should leave Hughes understanding that ordinary language can carry extraordinary intelligence when a writer trusts the people who speak it.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-05-09" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; May 9</div>
+        <div class="quiz-card-title">Open the daily challenge for Langston Hughes</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/james-baldwin.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">James Baldwin</div>
+        <div class="connected-desc">Connects Hughes to later Black literary witness and public criticism.</div>
+      </a>
+<a href="../../encyclopedia/gwendolyn-brooks.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Gwendolyn Brooks</div>
+        <div class="connected-desc">Links Hughes to poetry grounded in ordinary Black city life.</div>
+      </a>
+<a href="../../encyclopedia/zora-neale-hurston.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Zora Neale Hurston</div>
+        <div class="connected-desc">Connects vernacular art, folklore, and debates over representation.</div>
+      </a>
+<a href="../../encyclopedia/aave.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">AAVE and Linguistic Culture</div>
+        <div class="connected-desc">Broadens Hughes&#039;s language choices into Black linguistic authority.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.loc.gov/item/n79021164/langston-hughes-1902-1967/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Langston Hughes</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/langston-hughes" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Langston Hughes</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/explore/stories/langston-hughes-peoples-poet" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Langston Hughes: The People&#039;s Poet</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.kansashistory.gov/kansapedia/langston-hughes/15506" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Kansas Historical Society</div>
+          <div class="ext-title">Langston Hughes</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://poets.org/poet/langston-hughes" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Academy of American Poets</div>
+          <div class="ext-title">Langston Hughes</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First thirteen rebuild batches complete, whole-encyclopedia rebuild in progress.
+Status: First fourteen rebuild batches complete, whole-encyclopedia rebuild in progress.
 Date: 2026-08-14
 
 ## Quality Gap Documented
@@ -175,13 +175,26 @@ Batch 13 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 13 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, external-link verification, and desktop/mobile browser verification passed before batch commit.
 
+## Batch 14 Completed
+
+Completed pages: `jean-michel-basquiat`, `jesse-owens`, `joe-louis`, `john-lewis`, `josephine-baker`, `juneteenth`, `kareem-abdul-jabbar`, `katherine-johnson`, `kathleen-cleaver`, `langston-hughes`.
+
+Batch 14 continued from row 105 with a ten-entry batch. It rebuilt five legacy-path pages and five scheduled/generated pages. Jean-Michel Basquiat now has a fuller art-market, diasporic, SAMO, and visual-history account; Jesse Owens now separates Berlin myth from Great Migration, Ohio State segregation, boycott politics, and post-Olympic costs; Joe Louis now covers migration, respectability strategy, the Schmeling fights, wartime symbolism, taxes, and later hardship; John Lewis now moves beyond "good trouble" shorthand into Nashville discipline, SNCC, Freedom Rides, Selma, Congress, and voting-rights backlash; Josephine Baker now balances performance, racialized spectacle, French Resistance work, civil-rights activism, and the Rainbow Tribe with careful framing; Juneteenth now centers enforcement, General Order No. 3, Black community memory, Emancipation Park, and commercialization/federal-recognition caveats; Kareem Abdul-Jabbar now connects basketball dominance to Islam, writing, athlete activism, and intellectual life; Katherine Johnson now corrects stale legacy links and restores education, NACA/NASA authorship, human-computer work, and late recognition; Kathleen Cleaver now removes the unsupported legacy quote and adds SNCC, Panther communications, exile, COINTELPRO, law, and gendered memory; and Langston Hughes now expands from one famous line into vernacular, blues/jazz form, genre range, Simple, and respectability debates.
+
+Batch 14 verification:
+
+- External links checked: 50 total, 0 material failures after replacing fifteen stale, moved, or misleading URLs. Thirty-six links returned `200`. Fourteen MoMA, Brooklyn Museum, LOC, Britannica, Congress.gov, NMAAHC, and related institutional pages returned automated bot-blocking statuses but were retained only because they are direct authoritative pages already verified for subject relevance.
+- Browser rendering checked: 10 Batch 14 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for section presence, connected cards, external links, daily challenge cards where applicable, empty links, horizontal overflow, stale quiz wording, loading fallbacks, or material page errors. Codex browser Statsig logging was observed and excluded as non-site noise.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 14 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, external-link verification, and desktop/mobile browser verification passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 105
-- REWRITE: 60
-- RESEARCH: 45
-- REBUILD: 60
+- PASS: 115
+- REWRITE: 56
+- RESEARCH: 39
+- REBUILD: 56
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -192,7 +205,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 105 | Jean-Michel Basquiat | encyclopedia/jean-michel-basquiat.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 115 | Larry Doby | generated/pages/larry-doby.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -304,16 +317,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 102 | James Meredith | generated/pages/james-meredith.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, Ole Miss/federal enforcement/March Against Fear claim review, depth/similarity validation, desktop/mobile browser check. |
 | 103 | Jan Matzeliger | generated/pages/jan-matzeliger.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, patent/production/labor and mother-enslaved claim review, depth/similarity validation, desktop/mobile browser check. |
 | 104 | Jane Bolin | generated/pages/jane-bolin.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, first-judge/Yale/family-court policy claim review, replaced two stale source URLs, depth/similarity validation, desktop/mobile browser check. |
-| 105 | Jean-Michel Basquiat | encyclopedia/jean-michel-basquiat.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 106 | Jesse Owens | generated/pages/jesse-owens.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 107 | Joe Louis | generated/pages/joe-louis.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 108 | John Lewis | generated/pages/john-lewis.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 109 | Josephine Baker | encyclopedia/josephine-baker.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 110 | Juneteenth | encyclopedia/juneteenth.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 111 | Kareem Abdul-Jabbar | encyclopedia/kareem-abdul-jabbar.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 112 | Katherine Johnson | encyclopedia/katherine-johnson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 113 | Kathleen Cleaver | encyclopedia/kathleen-cleaver.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 114 | Langston Hughes | generated/pages/langston-hughes.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 105 | Jean-Michel Basquiat | encyclopedia/jean-michel-basquiat.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, market/addiction/SAMO/Warhol framing reviewed, corrected stale Estate URL, depth/similarity validation, desktop/mobile browser check. |
+| 106 | Jesse Owens | generated/pages/jesse-owens.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Berlin myth/Big Ten/White House/Ohio State segregation claim review, replaced stale source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 107 | Joe Louis | generated/pages/joe-louis.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Schmeling/wartime/tax/respectability claim review, replaced dead NPS/Archives/IBHOF URLs, depth/similarity validation, desktop/mobile browser check. |
+| 108 | John Lewis | generated/pages/john-lewis.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, SNCC/Selma/Freedom Rides/speech revision/voting-rights claim review, corrected NPS URL, depth/similarity validation, desktop/mobile browser check. |
+| 109 | Josephine Baker | encyclopedia/josephine-baker.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, Resistance/Panthéon/Rainbow Tribe/civil-rights claim review, replaced misleading Smithsonian redirect and stale Panthéon URL, depth/similarity validation, desktop/mobile browser check. |
+| 110 | Juneteenth | encyclopedia/juneteenth.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified General Order No. 3 quotation, emancipation/enforcement/Emancipation Park/federal-holiday claim review, canonical legacy path preserved to avoid duplicate card, depth/similarity validation, desktop/mobile browser check. |
+| 111 | Kareem Abdul-Jabbar | encyclopedia/kareem-abdul-jabbar.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, UCLA/NBA/Islam/Olympic activism/scoring-record claim review, replaced stale UCLA and official-site URLs, depth/similarity validation, desktop/mobile browser check. |
+| 112 | Katherine Johnson | encyclopedia/katherine-johnson.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, NASA report/Glenn/Apollo/West Virginia education claim review, replaced stale NASA/NWHM URLs and stale quiz behavior, depth/similarity validation, desktop/mobile browser check. |
+| 113 | Kathleen Cleaver | encyclopedia/kathleen-cleaver.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, SNCC/Panther communications/exile/COINTELPRO/gendered-memory claim review, removed unsupported legacy quote and replaced stale sources, depth/similarity validation, desktop/mobile browser check. |
+| 114 | Langston Hughes | generated/pages/langston-hughes.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Harlem Renaissance/vernacular/Red Scare/Simple/publication-date claim review, replaced unstable Poetry Foundation/Yale links, depth/similarity validation, desktop/mobile browser check. |
 | 115 | Larry Doby | generated/pages/larry-doby.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 116 | Lewis Howard Latimer | generated/pages/lewis-howard-latimer.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 117 | Lorraine Hansberry | generated/pages/lorraine-hansberry.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |

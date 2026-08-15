@@ -46,11 +46,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-09 - Langston Hughes
 
+- Entry title: Langston Hughes
 - Slug: `langston-hughes`
-- Core claims: Langston Hughes made poetry sound like a front porch, a jazz club, a train station, and a protest all at once. He became one of the central writers of the Harlem Renaissance by writing plainly and beautifully about Black everyday life. He used blues and jazz rhythms not as decoration, but as structure. His poems and essays insisted that Black life did not need to be translated into someone else's language to be art. He wrote for people who recognized the sounds, jokes, pressures, and dreams inside the lines.
-- Sources:
-  - https://www.poetryfoundation.org/poets/langston-hughes
+- Daily date: 2026-05-09
+- Date researched: 2026-08-14
+- Writer/research status: batch-14-complete
+- Material factual claims: Langston Hughes made Black everyday life sound like literature without asking it to dress up first. He wrote poems, plays, essays, columns, stories, memoirs, and children's books, and he helped define the Harlem Renaissance while refusing to treat Black folk culture as something embarrassing or minor. Hughes listened to blues, jazz, jokes, church, labor, trains, rent parties, and street speech, then built a body of work that carried laughter and grief in the same hand. He matters because he rejected the pressure to write only for white approval or elite respectability. His page is not only about one famous poem. It is about a writer protecting the fullness of Black life on the page.
+- Primary or authoritative sources:
   - https://www.loc.gov/item/n79021164/langston-hughes-1902-1967/
+  - https://nmaahc.si.edu/langston-hughes
+  - https://www.kansashistory.gov/kansapedia/langston-hughes/15506
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/langston-hughes-peoples-poet
+  - https://poets.org/poet/langston-hughes
+- Verified quotation source: No quotation included. Short poem excerpts omitted to avoid reducing the page to familiar lines.
+- Sensitive or disputed claims reviewed: Birth year, Harlem Renaissance role, Red Scare scrutiny, Simple characterization, publication dates, and respectability-politics framing reviewed.
+- Material corrections made: Expanded scheduled fallback into full literary, vernacular, musical, political, and genre-spanning context.
+- External links included on the page:
+  - Library of Congress: Langston Hughes (https://www.loc.gov/item/n79021164/langston-hughes-1902-1967/)
+  - National Museum of African American History and Culture: Langston Hughes (https://nmaahc.si.edu/langston-hughes)
+  - National Museum of African American History and Culture: Langston Hughes: The People's Poet (https://nmaahc.si.edu/explore/stories/langston-hughes-peoples-poet)
+  - Kansas Historical Society: Langston Hughes (https://www.kansashistory.gov/kansapedia/langston-hughes/15506)
+  - Academy of American Poets: Langston Hughes (https://poets.org/poet/langston-hughes)
+- Final review status: Batch 14 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, literature/political-scrutiny claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-10 - W.E.B. Du Bois
 
@@ -579,19 +597,55 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-18 - John Lewis
 
+- Entry title: John Lewis
 - Slug: `john-lewis`
-- Core claims: John Lewis was still a young man when state troopers cracked his skull for marching for the vote. Lewis helped lead the Student Nonviolent Coordinating Committee, joined the Freedom Rides, spoke at the March on Washington, and marched in Selma. On Bloody Sunday in 1965, he was beaten on the Edmund Pettus Bridge. He later served in Congress for more than thirty years and kept urging people toward "good trouble."
-- Sources:
+- Daily date: 2026-06-18
+- Date researched: 2026-08-14
+- Writer/research status: batch-14-complete
+- Material factual claims: John Lewis is often remembered through one phrase, "good trouble," but the phrase came from a life of organized risk. Lewis was a sharecropper's son from Alabama, a Nashville sit-in organizer, a Freedom Rider, the young chair of SNCC, a speaker at the March on Washington, and one of the marchers beaten on the Edmund Pettus Bridge in Selma. Later, as a member of Congress, he carried movement memory into legislative life. His story matters because courage was not a personality trait. It was training, discipline, community, faith, and repeated choice. Lewis did not become a symbol by avoiding conflict. He became a symbol because he kept walking into it.
+- Primary or authoritative sources:
   - https://www.congress.gov/member/john-lewis/L000287
-  - https://www.nps.gov/people/john-lewis.htm
+  - https://www.nps.gov/people/john-r-lewis.htm
+  - https://snccdigital.org/people/john-lewis/
+- Supporting secondary sources:
+  - https://www.archives.gov/research/african-americans/vote/selma-marches
+  - https://www.loc.gov/item/afc2010039_crhp0021/
+- Verified quotation source: National Park Service John Lewis page includes the good trouble quotation.
+- Sensitive or disputed claims reviewed: Troy State decision, SNCC speech revision, Bloody Sunday injury, Freedom Ride violence, Shelby County context, and Congressional service reviewed.
+- Material corrections made: Expanded scheduled fallback beyond good-trouble shorthand into organizing discipline, SNCC debates, Selma, and voting-rights backlash.
+- External links included on the page:
+  - U.S. Congress: John Lewis (https://www.congress.gov/member/john-lewis/L000287)
+  - National Park Service: John R. Lewis (https://www.nps.gov/people/john-r-lewis.htm)
+  - SNCC Digital Gateway: John Lewis (https://snccdigital.org/people/john-lewis/)
+  - National Archives: The Selma Marches (https://www.archives.gov/research/african-americans/vote/selma-marches)
+  - Library of Congress: John Lewis Oral History Interview (https://www.loc.gov/item/afc2010039_crhp0021/)
+- Final review status: Batch 14 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, voting-rights claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-19 - Juneteenth
 
+- Entry title: Juneteenth
 - Slug: `juneteenth`
-- Core claims: Freedom had been declared on paper. In Texas, many enslaved people did not hear it from federal troops until June 19, 1865. Union General Gordon Granger arrived in Galveston and announced General Order No. 3, declaring that enslaved people in Texas were free. Juneteenth celebrations grew from that announcement into a tradition of memory, food, music, family, and freedom. It became a federal holiday in 2021.
-- Sources:
+- Daily date: 2026-06-19
+- Date researched: 2026-08-14
+- Writer/research status: batch-14-complete
+- Material factual claims: Juneteenth marks a delay that should make readers uncomfortable. The Emancipation Proclamation took effect on January 1, 1863, but enslaved people in Texas were not told by federal troops that slavery had ended there until June 19, 1865, when Union General Gordon Granger issued General Order No. 3 in Galveston. The day became a Black freedom celebration rooted in Texas and carried across the country through family, church, food, music, migration, organizing, and memory. Juneteenth matters because it refuses the easy version of emancipation. Freedom did not arrive everywhere at once. It had to be announced, enforced, claimed, celebrated, and defended.
+- Primary or authoritative sources:
   - https://www.archives.gov/news/topics/juneteenth
+  - https://www.archives.gov/news/articles/juneteenth-original-document
+  - https://www.congress.gov/bill/117th-congress/senate-bill/475
+- Supporting secondary sources:
   - https://nmaahc.si.edu/explore/stories/historical-legacy-juneteenth
+  - https://epconservancy.org/history/
+- Verified quotation source: National Archives image/transcription of General Order No. 3.
+- Sensitive or disputed claims reviewed: Emancipation Proclamation limits, Texas timing, General Order No. 3 wording, Emancipation Park land history, Texas 1980 holiday, and federal 2021 law reviewed.
+- Material corrections made: Expanded legacy page with enforcement, labor-control language, Black community institution-building, and federal-recognition caveats.
+- External links included on the page:
+  - National Archives: Juneteenth (https://www.archives.gov/news/topics/juneteenth)
+  - National Archives: Juneteenth: The Original Document (https://www.archives.gov/news/articles/juneteenth-original-document)
+  - National Museum of African American History and Culture: The Historical Legacy of Juneteenth (https://nmaahc.si.edu/explore/stories/historical-legacy-juneteenth)
+  - Congress.gov: Juneteenth National Independence Day Act (https://www.congress.gov/bill/117th-congress/senate-bill/475)
+  - Emancipation Park Conservancy: History of Emancipation Park (https://epconservancy.org/history/)
+- Final review status: Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified primary-source quotation, emancipation/legal-history review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-20 - Fred Hampton
 
@@ -629,11 +683,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-22 - Joe Louis
 
+- Entry title: Joe Louis
 - Slug: `joe-louis`
-- Core claims: When Joe Louis walked into the ring against Max Schmeling in 1938, the fight carried more than two boxers. Schmeling, a German fighter, had beaten Louis in 1936. By the rematch, Nazi Germany was rising, and many Americans treated the bout as a symbolic contest between democracy and fascism. Louis knocked Schmeling out in the first round. Black America celebrated a victory by a man still forced to live under Jim Crow at home.
-- Sources:
-  - https://www.britannica.com/biography/Joe-Louis
+- Daily date: 2026-06-22
+- Date researched: 2026-08-14
+- Writer/research status: batch-14-complete
+- Material factual claims: Joe Louis became heavyweight champion in 1937, but the ring was never just a ring. Born in Alabama and raised in Detroit, Louis rose through boxing during Jim Crow, when Black fighters were still judged against Jack Johnson's ghost and white America's fears. His 1938 rematch with German boxer Max Schmeling became a global symbol before World War II, but Louis was also a man under pressure from promoters, tax authorities, the military, sportswriters, and a public that wanted him powerful and carefully controlled. He matters because he carried Black pride and American symbolism at the same time, while the country that cheered him still denied Black people full citizenship.
+- Primary or authoritative sources:
   - https://www.loc.gov/item/ihas.200197457/
+  - https://www.nps.gov/articles/000/joe-louis-profile.htm
+  - https://www.pbs.org/wgbh/americanexperience/features/fight-louis-and-schmeling-chronology/
+- Supporting secondary sources:
+  - https://www.britannica.com/biography/Joe-Louis
+  - https://www.neh.gov/explore/the-fight
+- Verified quotation source: No quotation included. The page relies on documented fight and service history rather than a pull quote.
+- Sensitive or disputed claims reviewed: Schmeling symbolism, military service, tax/debt pressure, Jack Johnson comparison, and post-retirement financial hardship reviewed.
+- Material corrections made: Expanded scheduled fallback beyond one fight into migration, racial image control, military symbolism, and financial consequences.
+- External links included on the page:
+  - Library of Congress: Joe Louis (https://www.loc.gov/item/ihas.200197457/)
+  - National Park Service: Joe Louis (https://www.nps.gov/articles/000/joe-louis-profile.htm)
+  - Encyclopaedia Britannica: Joe Louis (https://www.britannica.com/biography/Joe-Louis)
+  - PBS American Experience: Louis and Schmeling Chronology (https://www.pbs.org/wgbh/americanexperience/features/fight-louis-and-schmeling-chronology/)
+  - National Endowment for the Humanities: The Fight (https://www.neh.gov/explore/the-fight)
+- Final review status: Batch 14 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, sports/geopolitical symbolism review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-23 - The Black Arts Movement
 
@@ -907,11 +979,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-10 - Jesse Owens
 
+- Entry title: Jesse Owens
 - Slug: `jesse-owens`
-- Core claims: Jesse Owens ran in Nazi Germany and shattered the myth of Aryan supremacy in front of the world. At the 1936 Berlin Olympics, Owens won gold in the 100 meters, 200 meters, long jump, and 4x100 relay. He returned to the United States famous, but still faced segregation and unequal treatment at home.
-- Sources:
+- Daily date: 2026-07-10
+- Date researched: 2026-08-14
+- Writer/research status: batch-14-complete
+- Material factual claims: Jesse Owens did not simply embarrass Hitler. That familiar sentence is too small for what happened. Owens was the son of Alabama sharecroppers, a Great Migration child in Cleveland, a record-breaking Ohio State athlete who still faced segregation, and the winner of four gold medals at the 1936 Berlin Olympics. His victories exposed Nazi racial mythology on a world stage, but they also exposed the lie of American equality. He returned home famous and still Black in Jim Crow America. Owens matters because triumph did not protect him from racism, and symbolism did not pay the bills. His story asks what a nation does with a Black athlete after using his body to prove its ideals.
+- Primary or authoritative sources:
   - https://www.olympics.com/en/athletes/jesse-owens
-  - https://www.britannica.com/biography/Jesse-Owens
+  - https://library.osu.edu/jesse-owens-a-lasting-legend
+  - https://rediscovering-black-history.blogs.archives.gov/2016/02/16/jesse-owens-american-hero/
+- Supporting secondary sources:
+  - https://www.nps.gov/people/jesse-owens.htm
+  - https://www.ushmm.org/exhibition/olympics/?content=boycott&lang=en
+- Verified quotation source: No quotation included. Popular Owens quotations were omitted pending stronger source tracing.
+- Sensitive or disputed claims reviewed: Four-medal sequence, Big Ten record day, Hitler myth framing, Roosevelt/White House treatment, economic hardship, and later response to 1968 protest reviewed.
+- Material corrections made: Expanded scheduled fallback beyond Berlin myth into Great Migration, Ohio State segregation, post-Olympic economics, and athlete symbolism.
+- External links included on the page:
+  - Olympics: Jesse Owens (https://www.olympics.com/en/athletes/jesse-owens)
+  - National Archives Blog: Jesse Owens, American Hero (https://rediscovering-black-history.blogs.archives.gov/2016/02/16/jesse-owens-american-hero/)
+  - National Park Service: Jesse Owens (https://www.nps.gov/people/jesse-owens.htm)
+  - Ohio State University Archives: Jesse Owens: A Lasting Legend (https://library.osu.edu/jesse-owens-a-lasting-legend)
+  - United States Holocaust Memorial Museum: The Nazi Olympics: Boycott (https://www.ushmm.org/exhibition/olympics/?content=boycott&lang=en)
+- Final review status: Batch 14 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, first/four-medal and boycott-context review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-11 - Granville T. Woods
 
@@ -3111,3 +3201,133 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Baseball Hall of Fame: Jackie Robinson (https://baseballhall.org/hall-of-famers/robinson-jackie)
   - Library of Congress: Jackie Robinson and Other Baseball Highlights (https://www.loc.gov/collections/jackie-robinson-baseball/articles-and-essays/baseball-the-color-line-and-jackie-robinson/)
 - Final review status: Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, sports/civil-rights claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Jean-Michel Basquiat
+
+- Entry title: Jean-Michel Basquiat
+- Slug: `jean-michel-basquiat`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-14-complete
+- Material factual claims: Jean-Michel Basquiat became famous so quickly that the speed can hide the work. Before the auction records and myth, there was a Brooklyn-born artist of Haitian and Puerto Rican descent who read voraciously, moved through New York's downtown art and music worlds, wrote as SAMO, and made paintings dense with anatomy, jazz, colonial history, money, police, crowns, athletes, saints, and warnings. Basquiat was not only a young genius who died too soon. He was a historical thinker painting inside a market that wanted Black brilliance and often misunderstood Black intellect. His work matters because it made the canvas argue: Who gets named? Who gets crowned? Who gets bought? Who gets erased?
+- Primary or authoritative sources:
+  - https://www.moma.org/artists/370
+  - https://whitney.org/artists/545
+  - https://www.thebroad.org/art/jean-michel-basquiat
+- Supporting secondary sources:
+  - https://www.brooklynmuseum.org/exhibitions/basquiat
+  - https://www.basquiat.com/about
+- Verified quotation source: No quotation included. Common Basquiat quotations require stronger primary tracing before use.
+- Sensitive or disputed claims reviewed: Cause of death, parentage, SAMO collaboration, Warhol collaboration, market exploitation, auction framing, and Gray's Anatomy influence reviewed.
+- Material corrections made: Replaced shallow legacy page with full art-historical, market, and diasporic context.
+- External links included on the page:
+  - MoMA: Jean-Michel Basquiat (https://www.moma.org/artists/370)
+  - Whitney Museum of American Art: Jean-Michel Basquiat (https://whitney.org/artists/545)
+  - The Broad: Jean-Michel Basquiat (https://www.thebroad.org/art/jean-michel-basquiat)
+  - Brooklyn Museum: Basquiat: The Unknown Notebooks (https://www.brooklynmuseum.org/exhibitions/basquiat)
+  - Basquiat Estate: Life and Legacy (https://www.basquiat.com/about)
+- Final review status: Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, sensitive market/addiction framing, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Josephine Baker
+
+- Entry title: Josephine Baker
+- Slug: `josephine-baker`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-14-complete
+- Material factual claims: Josephine Baker's glamour was real, but glamour was never the whole story. Born in St. Louis, she became an international star in Paris, where French audiences celebrated her while often filtering her through exotic fantasies about Blackness. During World War II, she worked with the French Resistance, using celebrity, travel, and access as tools. Later she challenged segregation in the United States, spoke at the March on Washington, and built a multiracial family she called her Rainbow Tribe. Baker matters because she turned performance into strategy. She moved through spectacle, danger, motherhood, anti-racism, and national memory without becoming one simple symbol.
+- Primary or authoritative sources:
+  - https://www.paris-pantheon.fr/en/discover/the-crypt
+  - https://www.womenshistory.org/education-resources/biographies/josephine-baker
+  - https://nmaahc.si.edu/josephine-baker
+- Supporting secondary sources:
+  - https://guides.loc.gov/feminism-french-women-history/famous/josephine-baker
+  - https://www.si.edu/exhibitions/josephine-baker-image-and-icon%3Aevent-exhib-4500
+- Verified quotation source: No quotation included. The page uses documented honors and public actions rather than an unattributed quote.
+- Sensitive or disputed claims reviewed: Resistance intelligence work, East St. Louis trauma framing, Panthéon first Black woman honor, Rainbow Tribe language, and segregation-performance refusal reviewed.
+- Material corrections made: Replaced shallow legacy page with full performance, resistance, civil-rights, and motherhood context.
+- External links included on the page:
+  - Panthéon: The Crypt: Joséphine Baker (https://www.paris-pantheon.fr/en/discover/the-crypt)
+  - National Women's History Museum: Josephine Baker (https://www.womenshistory.org/education-resources/biographies/josephine-baker)
+  - Library of Congress Research Guide: Joséphine Baker (https://guides.loc.gov/feminism-french-women-history/famous/josephine-baker)
+  - National Museum of African American History and Culture: Josephine Baker (https://nmaahc.si.edu/josephine-baker)
+  - Smithsonian Institution: Josephine Baker: Image and Icon (https://www.si.edu/exhibitions/josephine-baker-image-and-icon%3Aevent-exhib-4500)
+- Final review status: Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, wartime/sensitive family framing, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Kareem Abdul-Jabbar
+
+- Entry title: Kareem Abdul-Jabbar
+- Slug: `kareem-abdul-jabbar`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-14-complete
+- Material factual claims: Kareem Abdul-Jabbar made dominance look quiet. As Lew Alcindor, he was the most celebrated high school and college basketball player in the country. As Kareem Abdul-Jabbar, he became the NBA's all-time scoring leader for nearly four decades, perfected the skyhook, won six championships and six MVP awards, and refused to shrink his political and religious life for public comfort. His story matters because he challenged the old demand that Black athletes entertain without thinking aloud. He was a Muslim athlete, a civil-rights-era witness, a writer, a historian, and a critic who made it clear that excellence on the court did not require silence off it.
+- Primary or authoritative sources:
+  - https://www.nba.com/news/history-nba-legend-kareem-abdul-jabbar
+  - https://www.hoophall.com/hall-of-famers/kareem-abdul-jabbar/
+  - https://www.ucla.edu/about/notable-bruins/40-kareem-abdul-jabbar
+- Supporting secondary sources:
+  - https://obamawhitehouse.archives.gov/campaign/medal-of-freedom
+  - https://newsroom.ucla.edu/stories/do-you-know-what-kareem-abdul-jabbar-has-accomplished-since-retiring
+- Verified quotation source: No quotation included. The page does not rely on a pull quote.
+- Sensitive or disputed claims reviewed: Olympic nonparticipation framing, name change and Islam, NCAA dunk rule context, all-time scoring record timeline, MVP/championship counts, and living-status date reviewed.
+- Material corrections made: Replaced shallow legacy page with full athletic, religious, political, and writing-context account.
+- External links included on the page:
+  - NBA: Kareem Abdul-Jabbar (https://www.nba.com/news/history-nba-legend-kareem-abdul-jabbar)
+  - Naismith Memorial Basketball Hall of Fame: Kareem Abdul-Jabbar (https://www.hoophall.com/hall-of-famers/kareem-abdul-jabbar/)
+  - UCLA: Kareem Abdul-Jabbar (https://www.ucla.edu/about/notable-bruins/40-kareem-abdul-jabbar)
+  - Obama White House Archives: Presidential Medal of Freedom: Kareem Abdul-Jabbar (https://obamawhitehouse.archives.gov/campaign/medal-of-freedom)
+  - UCLA Newsroom: Do You Know What Kareem Abdul-Jabbar Has Accomplished Since Retiring? (https://newsroom.ucla.edu/stories/do-you-know-what-kareem-abdul-jabbar-has-accomplished-since-retiring)
+- Final review status: Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, athlete-activism and faith framing, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Katherine Johnson
+
+- Entry title: Katherine Johnson
+- Slug: `katherine-johnson`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-14-complete
+- Material factual claims: Katherine Johnson's calculations helped send Americans into space, but the fuller story is not only about one brilliant mind finally being noticed. It is about a Black girl in West Virginia whose family reorganized life around her education, a mathematician who entered NACA's segregated computing workforce, a woman who pushed into technical briefings, and a professional whose work sat inside missions credited mostly to men and machines. Johnson mattered because she combined mathematical precision with institutional nerve. She did not simply check John Glenn's numbers. She belonged to a generation of Black women whose calculations made spaceflight possible while public history nearly left them out.
+- Primary or authoritative sources:
+  - https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/
+  - https://science.nasa.gov/people/katherine-johnson/
+  - https://ntrs.nasa.gov/citations/19980227091
+- Supporting secondary sources:
+  - https://www.nasa.gov/katherine-johnson-/
+  - https://obamawhitehouse.archives.gov/campaign/medal-of-freedom
+- Verified quotation source: No quotation included. Existing legacy quote omitted until traced to a primary interview or publication.
+- Sensitive or disputed claims reviewed: West Virginia graduate integration, coauthored report significance, Glenn verification story, Apollo contribution, family education sacrifice, and facility naming reviewed.
+- Material corrections made: Replaced stale quiz-card behavior and shallow legacy copy with full education, NACA/NASA, authorship, and recognition context.
+- External links included on the page:
+  - NASA: Katherine Johnson Biography (https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/)
+  - NASA Science: Katherine Johnson (https://science.nasa.gov/people/katherine-johnson/)
+  - NASA Technical Reports Server: Determination of Azimuth Angle at Burnout (https://ntrs.nasa.gov/citations/19980227091)
+  - NASA: Katherine Johnson: A NASA Trailblazer (https://www.nasa.gov/katherine-johnson-/)
+  - Obama White House Archives: Presidential Medal of Freedom: Katherine G. Johnson (https://obamawhitehouse.archives.gov/campaign/medal-of-freedom)
+- Final review status: Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, STEM first/credit claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Kathleen Cleaver
+
+- Entry title: Kathleen Cleaver
+- Slug: `kathleen-cleaver`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-14-complete
+- Material factual claims: Kathleen Cleaver entered movement work young, but she was never a minor character. She moved from SNCC into the Black Panther Party, became the first woman elected to the Party's Central Committee, served as communications secretary, lived through surveillance and exile, later earned a law degree, and became a legal scholar and teacher. Her story matters because popular memory often treats Panther women as background to men with microphones and guns. Cleaver was one of the people shaping what the public heard, how the Party explained itself, and how later generations would understand the record. She sits at the intersection of Black Power, media strategy, gender, law, and historical memory.
+- Primary or authoritative sources:
+  - https://news.emory.edu/stories/2020/08/emory-acquires-papers-black-panther-party-activist-kathleen-cleaver
+  - https://www.blackpast.org/african-american-history/cleaver-kathleen-neal-1945/
+  - https://www.pbs.org/hueypnewton/people/people_cleaver.html
+- Supporting secondary sources:
+  - https://www.archives.gov/research/jfk/select-committee-report/part-2c.html
+  - https://www.si.edu/newsdesk/releases/all-power-people-black-panther-party
+- Verified quotation source: No quotation included. Legacy quotation was removed because it could not be traced to a reliable source in this pass.
+- Sensitive or disputed claims reviewed: First woman Central Committee claim, exile timeline, Eldridge Cleaver charges, COINTELPRO context, Panther programs, and women-in-movement framing reviewed.
+- Material corrections made: Removed unsupported legacy pull quote and expanded page with movement, communications, exile, law, and gender context.
+- External links included on the page:
+  - Emory News: Emory Acquires Papers of Kathleen Cleaver (https://news.emory.edu/stories/2020/08/emory-acquires-papers-black-panther-party-activist-kathleen-cleaver)
+  - BlackPast: Kathleen Neal Cleaver (https://www.blackpast.org/african-american-history/cleaver-kathleen-neal-1945/)
+  - PBS: Kathleen Cleaver (https://www.pbs.org/hueypnewton/people/people_cleaver.html)
+  - National Archives: COINTELPRO (https://www.archives.gov/research/jfk/select-committee-report/part-2c.html)
+  - Smithsonian Institution: All Power to the People: Black Panther Party (https://www.si.edu/newsdesk/releases/all-power-people-black-panther-party)
+- Final review status: Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, COINTELPRO/exile sensitive claim review, depth/similarity validation, desktop/mobile browser check.
