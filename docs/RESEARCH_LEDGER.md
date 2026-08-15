@@ -898,11 +898,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-21 - Faith Ringgold
 
+- Entry title: Faith Ringgold
 - Slug: `faith-ringgold`
-- Core claims: Faith Ringgold stitched stories into cloth and made the quilt speak like a book, a painting, and a family memory at once. Ringgold was an artist, author, teacher, and activist. Her story quilts blended image and text to explore race, gender, childhood, imagination, and freedom. Tar Beach became both a celebrated artwork and a children's book, inviting young readers to imagine flight over a city that tried to limit them.
-- Sources:
-  - https://www.guggenheim.org/artwork/artist/faith-ringgold
-  - https://www.britannica.com/biography/Faith-Ringgold
+- Daily date: 2026-07-21
+- Date researched: 2026-08-14
+- Writer/research status: batch-10-complete
+- Material factual claims: Faith Ringgold made art that refused to stay in one category. She painted, protested, performed, wrote children's books, taught, made soft sculpture, and turned quilts into narrative machines that could carry memory, politics, fantasy, and family voice. The daily challenge remembers Tar Beach, but the encyclopedia story has to go wider: Harlem childhood, asthma and homebound creativity, City College restrictions, political painting in the 1960s, museum protests, Black feminist organizing, collaboration with her mother, and story quilts that made text and fabric speak together. Ringgold matters because she did not ask whether a quilt could be serious art, whether children could handle big ideas, or whether Black women belonged in museums. She built the answer in color, cloth, and words.
+- Primary or authoritative sources:
+  - https://americanart.si.edu/artist/faith-ringgold-7236
+  - https://www.nga.gov/artists/37893-faith-ringgold
+  - https://www.guggenheim.org/artwork/3719
+- Supporting secondary sources:
+  - https://nmwa.org/art/artists/faith-ringgold/
+  - https://npg.si.edu/exhibition/memoriam-faith-ringgold-1930-2024
+- Verified quotation source: Smithsonian American Art Museum artist profile quoting Ringgold in 2022.
+- Sensitive or disputed claims reviewed: Death date, City College gender restrictions, American People and Black Light chronology, museum protests, Black feminist organization claims, first story quilt claim, Tar Beach artwork/book awards, and family collaboration reviewed.
+- Material corrections made: Replaced scheduled fallback with a full art-history account and corrected generated daily challenge link through rich renderer output.
+- External links included on the page:
+  - Smithsonian American Art Museum: Faith Ringgold (https://americanart.si.edu/artist/faith-ringgold-7236)
+  - National Gallery of Art: Faith Ringgold (https://www.nga.gov/artists/37893-faith-ringgold)
+  - National Museum of Women in the Arts: Faith Ringgold (https://nmwa.org/art/artists/faith-ringgold/)
+  - Guggenheim Museum: Woman on a Bridge #1 of 5: Tar Beach (https://www.guggenheim.org/artwork/3719)
+  - National Portrait Gallery: In Memoriam: Faith Ringgold 1930-2024 (https://npg.si.edu/exhibition/memoriam-faith-ringgold-1930-2024)
+- Final review status: Batch 10 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, art-history claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-22 - Alma Thomas
 
@@ -1170,11 +1188,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-06 - Fannie Lou Hamer and the MFDP
 
+- Entry title: Fannie Lou Hamer and the MFDP
 - Slug: `fannie-lou-hamer-mfdp`
-- Core claims: Fannie Lou Hamer did not ask the Democratic Party for kindness. She asked whether America was telling the truth about democracy. After being beaten and jailed for voting rights work, Hamer helped found the Mississippi Freedom Democratic Party to challenge the all-white Mississippi delegation. Her televised testimony in 1964 described state violence and voter suppression so plainly that President Johnson tried to interrupt it with a press conference.
-- Sources:
-  - https://www.nps.gov/people/fannie-lou-hamer.htm
-  - https://www.crmvet.org/vet/hamer.htm
+- Daily date: 2026-08-06
+- Date researched: 2026-08-14
+- Writer/research status: batch-10-complete
+- Material factual claims: The Mississippi Freedom Democratic Party was not a symbolic protest club. It was a direct challenge to a political system that claimed to represent Mississippi while excluding Black Mississippians from meaningful participation. In 1964, local people, SNCC organizers, COFO workers, sharecroppers, ministers, teachers, students, and domestic workers built a parallel party and took it to the Democratic National Convention in Atlantic City. Fannie Lou Hamer's testimony became the unforgettable public moment, but the MFDP was bigger than one speech. It was precinct meetings, signatures, freedom ballots, legal briefs, strategy fights, and a moral question placed in front of national power: can a party call itself democratic while seating a delegation chosen through racial exclusion?
+- Primary or authoritative sources:
+  - https://snccdigital.org/events/mfdp-challenge-at-democratic-national-convention/
+  - https://finding.mdah.ms.gov/manuscripts/t023
+  - https://docsteach.org/document/hamer-dnc/
+- Supporting secondary sources:
+  - https://www.archives.gov/research/african-americans/vote/freedom-summer
+  - https://kinginstitute.stanford.edu/publications/autobiography-martin-luther-king-jr/chapter-23-mississippi-challenge
+- Verified quotation source: DocsTeach transcript from LBJ Library Democratic National Committee records.
+- Sensitive or disputed claims reviewed: MFDP founding date, delegate-selection process, Hamer testimony, Johnson press conference, compromise offer, rejection, 1965 congressional challenge, and 1968 party-rule consequences reviewed.
+- Material corrections made: Replaced scheduled fallback with a full institutional and political history of the MFDP, distinguishing Hamer's testimony from the broader party-building challenge.
+- External links included on the page:
+  - SNCC Digital Gateway: MFDP Challenge at Democratic National Convention (https://snccdigital.org/events/mfdp-challenge-at-democratic-national-convention/)
+  - Mississippi Department of Archives and History: Mississippi Freedom Democratic Party Records (https://finding.mdah.ms.gov/manuscripts/t023)
+  - National Archives DocsTeach: Remarks of Mrs. Fannie Lou Hamer from the Proceedings of the Democratic National Convention Credentials Committee (https://docsteach.org/document/hamer-dnc/)
+  - National Archives: Freedom Summer (https://www.archives.gov/research/african-americans/vote/freedom-summer)
+  - Stanford King Institute: The Mississippi Challenge (https://kinginstitute.stanford.edu/publications/autobiography-martin-luther-king-jr/chapter-23-mississippi-challenge)
+- Final review status: Batch 10 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified testimony quotation, party-process claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-07 - Ella Baker
 
@@ -2396,3 +2432,81 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Library of Medicine: Environmental Justice and Cancer Alley (https://pmc.ncbi.nlm.nih.gov/articles/PMC13197355/)
   - EPA NEPIS: Smart Land Use Planning for Environmental Justice (https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=500005ER.TXT)
 - Final review status: Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Ericka Huggins
+
+- Entry title: Ericka Huggins
+- Slug: `ericka-huggins`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-10-complete
+- Material factual claims: Ericka Huggins is often introduced through the most dramatic parts of her life: the Black Panther Party, the killing of her husband John Huggins, the New Haven trial, and two years in jail before charges were dismissed. Those facts matter, but they do not complete the story. Huggins also became a poet, editor, educator, meditation teacher, college instructor, and director of the Oakland Community School, one of the Black Panther Party's most important survival programs. Her page matters because it moves past the old question of whether the Panthers were only confrontation. Huggins shows the other daily work: feeding children, writing curriculum, surviving state surveillance, building schools, and finding a spiritual practice strong enough to carry grief without turning away from struggle.
+- Primary or authoritative sources:
+  - https://www.archives.gov/research/african-americans/individuals/ericka-huggins
+  - https://findingaids.loc.gov/repositories/3/archival_objects/121035
+  - https://www.erickahuggins.com/bio
+- Supporting secondary sources:
+  - https://crdl.usg.edu/record/loc_crhp_crhp0144
+  - https://caringlabor.wordpress.com/2010/07/30/ericka-huggins-the-liberation-schools-the-children%E2%80%99s-house-the-intercommunal-youth-institute-and-the-oakland-community-school/
+- Verified quotation source: Ericka Huggins official website homepage.
+- Sensitive or disputed claims reviewed: John Huggins killing, Alex Rackley killing, New Haven arrest and charges, jury deadlock and dismissed charges, incarceration, solitary confinement, Oakland Community School dates, and first Alameda County Board of Education appointment claim reviewed.
+- Material corrections made: Rebuilt legacy page with careful treatment of criminal-case records, Panther education work, grief, incarceration, and later teaching/healing practice.
+- External links included on the page:
+  - National Archives: Ericka Huggins (https://www.archives.gov/research/african-americans/individuals/ericka-huggins)
+  - Library of Congress Finding Aid: Ericka C. Huggins Oral History Interview (https://findingaids.loc.gov/repositories/3/archival_objects/121035)
+  - Civil Rights Digital Library: Ericka C. Huggins Oral History (https://crdl.usg.edu/record/loc_crhp_crhp0144)
+  - Ericka Huggins Official Website: Biography (https://www.erickahuggins.com/bio)
+  - Caring Labor Archive: The Liberation Schools, the Children's House, the Intercommunal Youth Institute and the Oakland Community School (https://caringlabor.wordpress.com/2010/07/30/ericka-huggins-the-liberation-schools-the-children%E2%80%99s-house-the-intercommunal-youth-institute-and-the-oakland-community-school/)
+- Final review status: Batch 10 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, sensitive criminal-case review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Fair Housing Act
+
+- Entry title: Fair Housing Act
+- Slug: `fair-housing-act`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-10-complete
+- Material factual claims: The Fair Housing Act was signed on April 11, 1968, one week after Martin Luther King Jr. was assassinated. That timing is true, but it can make the law sound like a sudden tribute instead of a long fight. Open housing campaigns, Black families confronting violence in white neighborhoods, local fair-housing ordinances, civil rights lawyers, and senators Edward Brooke and Walter Mondale all shaped the law before grief and unrest made delay harder to defend. The Act prohibited discrimination in housing sale, rental, and financing, but its enforcement tools were compromised from the start. This page matters because housing is not background. It decides schools, wealth, health, transit, safety, and political power. Fair housing was never only about moving. It was about citizenship with a front door.
+- Primary or authoritative sources:
+  - https://www.hud.gov/aboutus/history
+  - https://archives.hud.gov/news/2022/pr22-062.cfm
+  - https://www.lbjlibrary.org/object/text/remarks-upon-signing-civil-rights-act-04-11-1968
+- Supporting secondary sources:
+  - https://avoice.cbcfinc.org/exhibit/fair-housing/legislation/
+  - https://www.oyez.org/cases/1967/645
+- Verified quotation source: LBJ Library transcript of Johnson remarks upon signing the Civil Rights Act of 1968.
+- Sensitive or disputed claims reviewed: Assassination timing, Brooke-Mondale role, statutory protections, original enforcement compromises, later protected-class expansions, affirmatively furthering fair housing, and disparate-impact framing reviewed.
+- Material corrections made: Replaced shallow legacy page with a fuller account of housing discrimination, legislative compromise, enforcement limits, and continuing wealth/geography effects.
+- External links included on the page:
+  - HUD: HUD History (https://www.hud.gov/aboutus/history)
+  - HUD Archives: Fair Housing Act 54th Anniversary Fact Sheet (https://archives.hud.gov/news/2022/pr22-062.cfm)
+  - LBJ Library: Remarks Upon Signing the Civil Rights Act, April 11, 1968 (https://www.lbjlibrary.org/object/text/remarks-upon-signing-civil-rights-act-04-11-1968)
+  - Avoice Digital Library: Fair Housing Legislation (https://avoice.cbcfinc.org/exhibit/fair-housing/legislation/)
+  - Oyez: Jones v. Alfred H. Mayer Company (https://www.oyez.org/cases/1967/645)
+- Final review status: Batch 10 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, legal/enforcement claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Fannie Lou Hamer
+
+- Entry title: Fannie Lou Hamer
+- Slug: `fannie-lou-hamer`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-14
+- Writer/research status: batch-10-complete
+- Material factual claims: Fannie Lou Hamer is remembered for saying she was sick and tired of being sick and tired. The line is true, but it can become a shortcut that hides the rest of her life. Hamer was a Mississippi sharecropper, timekeeper, singer, SNCC field secretary, voting-rights organizer, Mississippi Freedom Democratic Party leader, congressional candidate, anti-poverty organizer, and founder of Freedom Farm Cooperative. She survived eviction, gunfire, jailhouse beating, forced sterilization, and chronic pain, then kept organizing for the vote, food, land, healthcare, and dignity. Her page matters because Hamer did not separate democracy from hunger or the ballot from the body. She knew freedom had to reach the courthouse, the hospital, the table, and the field.
+- Primary or authoritative sources:
+  - https://snccdigital.org/people/fannie-lou-hamer/
+  - https://finding.mdah.ms.gov/manuscripts/t012
+  - https://nmaahc.si.edu/explore/stories/how-fannie-lou-hamer-challenged-nation
+- Supporting secondary sources:
+  - https://kinginstitute.stanford.edu/hamer-fannie-lou
+  - https://www.pbs.org/wgbh/americanexperience/features/freedomsummer-hamer/
+- Verified quotation source: National Women's History Museum biography attribution for "Nobody's free until everybody's free."
+- Sensitive or disputed claims reviewed: Forced sterilization, Winona jail beating and injuries, eviction, gunfire, voter-registration dates, MFDP role, Freedom Farm Cooperative, illness/death, and slogan attribution reviewed.
+- Material corrections made: Expanded legacy page beyond testimony and beating into labor, medical violence, singing, SNCC organizing, MFDP, Freedom Farm, and economic democracy.
+- External links included on the page:
+  - SNCC Digital Gateway: Fannie Lou Hamer (https://snccdigital.org/people/fannie-lou-hamer/)
+  - Stanford King Institute: Hamer, Fannie Lou (https://kinginstitute.stanford.edu/hamer-fannie-lou)
+  - National Museum of African American History and Culture: How Fannie Lou Hamer Challenged a Nation (https://nmaahc.si.edu/explore/stories/how-fannie-lou-hamer-challenged-nation)
+  - Mississippi Department of Archives and History: Fannie Lou Townsend Hamer Collection (https://finding.mdah.ms.gov/manuscripts/t012)
+  - PBS American Experience: Fannie Lou Hamer (https://www.pbs.org/wgbh/americanexperience/features/freedomsummer-hamer/)
+- Final review status: Batch 10 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, sensitive medical-violence review, depth/similarity validation, desktop/mobile browser check.

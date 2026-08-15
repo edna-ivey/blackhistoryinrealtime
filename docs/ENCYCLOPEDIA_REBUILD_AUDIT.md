@@ -123,13 +123,26 @@ Batch 9 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 9 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
 
+## Batch 10 Completed
+
+Completed pages: `ericka-huggins`, `fair-housing-act`, `faith-ringgold`, `fannie-lou-hamer`, `fannie-lou-hamer-mfdp`.
+
+Batch 10 continued from row 72 with a five-entry checkpoint. It rebuilt three legacy-path pages and two scheduled generated pages. It treated Ericka Huggins with careful attention to the New Haven case, Alex Rackley's killing, dismissed charges, incarceration, and the Oakland Community School; expanded the Fair Housing Act into a legal and housing-policy history with enforcement compromises; corrected Faith Ringgold's shallow fallback and wrong generated challenge link through rich rendering; rebuilt Fannie Lou Hamer beyond the familiar testimony into labor, medical violence, voting rights, and food justice; and separated Hamer's biography from the MFDP as a collective political challenge.
+
+Batch 10 verification:
+
+- External links checked: 25 total, 0 material failures. Twenty-one links returned `200`. Four Library of Congress, Smithsonian, or National Gallery institutional links returned bot-blocking `403` responses during automated checking but were retained because they are direct authoritative pages already verified for subject relevance.
+- Browser rendering checked: 5 Batch 10 pages at desktop `1280x900` and mobile `390x844`, 10 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards where applicable, empty links, horizontal overflow, stale quiz wording, loading fallbacks, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 10 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 73
-- REWRITE: 74
-- RESEARCH: 63
-- REBUILD: 78
+- PASS: 78
+- REWRITE: 72
+- RESEARCH: 60
+- REBUILD: 76
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -140,7 +153,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 72 | Ericka Huggins | encyclopedia/ericka-huggins.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 78 | Frances E.W. Harper | generated/pages/frances-harper.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -219,11 +232,11 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 69 | Enslaved Labor & American Infrastructure | encyclopedia/enslaved-labor.html | PASS | Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, direct-versus-financial institutional-labor claim review, weak legacy sourcing replaced, depth/similarity validation, desktop/mobile browser check. |
 | 70 | Environmental Justice | encyclopedia/environmental-justice.html | PASS | Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, Warren County/UCC/GAO/1991 summit/EO 12898 claim review, depth/similarity validation, desktop/mobile browser check. |
 | 71 | Environmental Racism | encyclopedia/environmental-racism.html | PASS | Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, race-versus-income/Flint/Cancer Alley/PM2.5 claim review, depth/similarity validation, desktop/mobile browser check. |
-| 72 | Ericka Huggins | encyclopedia/ericka-huggins.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 73 | Fair Housing Act | encyclopedia/fair-housing-act.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 74 | Faith Ringgold | generated/pages/faith-ringgold.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 75 | Fannie Lou Hamer | encyclopedia/fannie-lou-hamer.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 76 | Fannie Lou Hamer and the MFDP | generated/pages/fannie-lou-hamer-mfdp.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 72 | Ericka Huggins | encyclopedia/ericka-huggins.html | PASS | Batch 10 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, New Haven/Rackley/dismissed-charges/Oakland Community School claim review, depth/similarity validation, desktop/mobile browser check. |
+| 73 | Fair Housing Act | encyclopedia/fair-housing-act.html | PASS | Batch 10 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified LBJ quotation, Brooke-Mondale/enforcement/affirmatively-furthering/disparate-impact claim review, depth/similarity validation, desktop/mobile browser check. |
+| 74 | Faith Ringgold | generated/pages/faith-ringgold.html | PASS | Batch 10 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, City College/protest/story-quilt/Tar Beach/death-date claim review, corrected generated challenge link, depth/similarity validation, desktop/mobile browser check. |
+| 75 | Fannie Lou Hamer | encyclopedia/fannie-lou-hamer.html | PASS | Batch 10 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, forced sterilization/Winona beating/MFDP/Freedom Farm claim review, depth/similarity validation, desktop/mobile browser check. |
+| 76 | Fannie Lou Hamer and the MFDP | generated/pages/fannie-lou-hamer-mfdp.html | PASS | Batch 10 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified testimony quotation, MFDP founding/delegate-selection/Johnson press-conference/compromise claim review, depth/similarity validation, desktop/mobile browser check. |
 | 77 | Fannie Lou Hamer's Testimony | generated/pages/fannie-lou-hamer-testimony.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
 | 78 | Frances E.W. Harper | generated/pages/frances-harper.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 79 | Frank Robinson | generated/pages/frank-robinson.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |

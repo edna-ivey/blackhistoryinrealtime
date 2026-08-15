@@ -4,35 +4,220 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fair Housing Act - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="One Week Later">
+<meta name="description" content="The Fair Housing Act was signed on April 11, 1968, one week after Martin Luther King Jr. was assassinated. That timing is true, but it can make the law sound like a sudden tribute instead of a long fight. Open housing campaigns, Black families confronting violence in white neighborhoods, local fair-housing ordinances, civil rights lawyers, and senators Edward Brooke and Walter Mondale all shaped the law before grief and unrest made delay harder to defend. The Act prohibited discrimination in housing sale, rental, and financing, but its enforcement tools were compromised from the start. This page matters because housing is not background. It decides schools, wealth, health, transit, safety, and political power. Fair housing was never only about moving. It was about citizenship with a front door.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,.2)}
-  *{box-sizing:border-box;margin:0;padding:0} body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;line-height:1.75;min-height:100vh}
-  .pan-stripe{display:flex;height:6px}.pan-stripe div{flex:1}.s1{background:var(--red)}.s2{background:#111}.s3{background:var(--green)}
-  header{position:sticky;top:0;background:rgba(10,10,10,.97);border-bottom:1px solid var(--border);z-index:5}.header-inner{max-width:1100px;margin:auto;padding:14px 32px}
-  .logo{display:flex;align-items:center;gap:14px;color:var(--white);text-decoration:none}.logo img{width:52px;height:52px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}.logo h1{font-family:'Bebas Neue';font-size:1.6rem;letter-spacing:2px}.logo span{color:var(--gold)}
-  nav{border-top:1px solid rgba(212,160,23,.1);display:flex;justify-content:center;overflow-x:auto;padding:0 24px}nav a{color:rgba(245,237,216,.55);text-decoration:none;text-transform:uppercase;letter-spacing:2.5px;font-size:.78rem;padding:12px 18px;white-space:nowrap}
-  main{width:min(900px,calc(100% - 40px));margin:auto;padding:52px 0 90px}.label{color:var(--gold);text-transform:uppercase;letter-spacing:5px;font-size:.7rem;margin-bottom:14px}
-  h2{font-family:'Playfair Display',serif;color:var(--white);font-size:clamp(2.3rem,7vw,4.7rem);line-height:1.05;margin-bottom:16px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}.badge{border:1px solid rgba(212,160,23,.3);border-radius:999px;padding:5px 12px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:.68rem}
-  article{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px}article p{margin-bottom:16px;color:rgba(245,237,216,.82)}h3{font-family:'Bebas Neue';color:var(--gold);letter-spacing:3px;margin:28px 0 8px;font-size:1rem}.why{margin-top:24px;padding:18px 20px;border:1px solid rgba(196,30,58,.25);background:rgba(196,30,58,.08);border-radius:12px}blockquote{border-left:4px solid var(--gold);padding:12px 18px;margin:20px 0;color:var(--gold);background:rgba(212,160,23,.06)}cite{display:block;color:rgba(212,160,23,.65);font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;margin-top:8px}
-  a{color:var(--gold)}@media(max-width:620px){.header-inner{padding:12px 16px}nav{justify-content:flex-start;padding:0 12px}nav a{font-size:.7rem;padding:10px 12px}main{width:calc(100% - 28px);padding-top:34px}article{padding:22px 18px}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="fair-housing-act">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-<header><div class="header-inner"><a class="logo" href="../index.html"><img src="../logo.png" alt="Black History in Real Time"><h1>Black<span>History</span></h1></a></div><nav><a href="../index.html">Today</a><a href="../index.html#calendar">Calendar</a><a href="../index.html#archive">Archive</a><a href="../encyclopedia.html">Encyclopedia</a></nav></header>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Fair Housing Act</h2>
-  <div class="meta"><span class="badge">1968</span><span class="badge">Law &amp; Policy</span><span class="badge">2026-04-11</span></div>
-  <article>
-    <p>The Fair Housing Act was signed into law in April 1968, just days after Martin Luther King Jr.'s assassination. The timing mattered. Pressure, grief, and unrest made delay politically harder to justify.</p><p>The law was designed to prohibit discrimination in the sale, rental, and financing of housing. It was a direct response to the reality that housing segregation was not incidental. It was structured and enforced.</p><p>The Act did not erase segregation overnight. But it marked an acknowledgment—however incomplete—that housing discrimination was a central civil rights issue, not a private market matter.</p>
-    
-    <h3>Cost / Impact</h3><p>Even after passage, enforcement was uneven and discrimination persisted through subtler forms. Law changed faster than the system beneath it.</p>
-    <div class="why"><h3>Why It Matters</h3><p>Housing determines safety, schools, wealth, health, and political power. The Fair Housing Act matters because where people are allowed to live shapes nearly every other inequality.</p></div>
-  </article>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span> &middot; Law &amp; Policy</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label"> &middot; Law &amp; Policy</div>
+    <h1>Fair Housing Act</h1>
+    <p class="entry-tagline">The Fair Housing Act was signed on April 11, 1968, one week after Martin Luther King Jr. was assassinated. That timing is true, but it can make the law sound like a sudden tribute instead of a long fight. Open housing campaigns, Black families confronting violence in white neighborhoods, local fair-housing ordinances, civil rights lawyers, and senators Edward Brooke and Walter Mondale all shaped the law before grief and unrest made delay harder to defend. The Act prohibited discrimination in housing sale, rental, and financing, but its enforcement tools were compromised from the start. This page matters because housing is not background. It decides schools, wealth, health, transit, safety, and political power. Fair housing was never only about moving. It was about citizenship with a front door.</p>
+    <div class="entry-badges">
+      <span class="badge">Law</span>
+      <span class="badge">1968 - present</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1917</div><div class="tl-event">Buchanan v. Warley strikes down explicit racial zoning, but segregation continues through covenants, lending, violence, and local policy.</div></div>
+<div class="tl-item"><div class="tl-date">1930s</div><div class="tl-event">Federal housing programs and redlining practices help shape racialized access to mortgages and neighborhood investment.</div></div>
+<div class="tl-item"><div class="tl-date">1948</div><div class="tl-event">Shelley v. Kraemer holds that courts cannot enforce racially restrictive covenants.</div></div>
+<div class="tl-item"><div class="tl-date">1966</div><div class="tl-event">Martin Luther King Jr. and the Chicago Freedom Movement confront housing segregation in Chicago.</div></div>
+<div class="tl-item"><div class="tl-date">Dec 14, 1967</div><div class="tl-event">Representative John Conyers argues for fair housing legislation in Congress.</div></div>
+<div class="tl-item"><div class="tl-date">1968</div><div class="tl-event">Senators Edward Brooke and Walter Mondale advance fair housing as part of the Civil Rights Act of 1968.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 4, 1968</div><div class="tl-event">King is assassinated in Memphis, increasing pressure on Congress to act.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 10, 1968</div><div class="tl-event">The House passes the civil rights bill containing fair housing provisions.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 11, 1968</div><div class="tl-event">President Lyndon B. Johnson signs the Civil Rights Act of 1968, including Title VIII, the Fair Housing Act.</div></div>
+<div class="tl-item"><div class="tl-date">1974</div><div class="tl-event">Congress adds sex as a protected class under the Fair Housing Act.</div></div>
+<div class="tl-item"><div class="tl-date">1988</div><div class="tl-event">Fair Housing Amendments Act adds disability and familial status protections and strengthens enforcement.</div></div>
+<div class="tl-item"><div class="tl-date">2015</div><div class="tl-event">Texas Department of Housing and Community Affairs v. Inclusive Communities Project recognizes disparate-impact claims under the Act.</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Housing segregation was built through law, money, custom, and force. White neighborhoods did not become white simply because people preferred similarity. Local governments used zoning. Real estate boards promoted racial steering. Banks and federal programs drew lines around risk in ways that punished Black neighborhoods. Developers used racially restrictive covenants. White mobs enforced boundaries when Black families tried to move. The result was a housing market that presented discrimination as private choice while public systems helped make the choice possible.</p>
+<p>The Supreme Court chipped at pieces of the system before Congress passed the Fair Housing Act. Buchanan v. Warley in 1917 struck down explicit racial zoning. Shelley v. Kraemer in 1948 held that courts could not enforce racially restrictive covenants. But those decisions did not create equal housing access. Discrimination shifted form. A family could be told a home was unavailable, quoted different terms, denied financing, steered elsewhere, threatened by neighbors, or excluded by policies that never used racial language out loud.</p>
+<p>By the 1960s, civil rights organizers were pressing housing as a central freedom issue. The Chicago Freedom Movement made the point visible in the North. In 1966, Martin Luther King Jr., local organizers, tenants, and fair-housing advocates confronted segregation in Chicago through marches, testing, negotiations, and public pressure. The resistance was fierce. White crowds attacked marchers. The lesson was clear: Jim Crow was not only southern, and housing segregation was not an accident of the market.</p>
+<p>Congress had already been asked to act. President Lyndon B. Johnson pushed for fair housing legislation in 1966 and 1967, but opposition stalled it. Representative John Conyers and other advocates kept housing discrimination before Congress. In the Senate, Edward Brooke of Massachusetts and Walter Mondale of Minnesota became central architects of the 1968 fair-housing provisions. Brooke brought both political skill and personal knowledge of discrimination. Mondale helped navigate a Senate where opponents used delay and compromise to weaken the bill.</p>
+<p>The final law was Title VIII of the Civil Rights Act of 1968. It prohibited discrimination because of race, color, religion, or national origin in many housing transactions. Later amendments expanded protection to sex, disability, and familial status. The law reached sales, rentals, advertising, lending, and related housing practices. It also required federal housing and urban development programs to affirmatively further fair housing, a phrase that meant government should do more than avoid discrimination. It should actively dismantle segregation and expand equal access.</p>
+<p>But the Act passed with limits. The Congressional Black Caucus Foundation&#039;s Avoice project notes that compromises stripped HUD of much of the original power to investigate, hold hearings, and issue enforcement orders. Exemptions narrowed coverage in some circumstances. Early enforcement often depended on individual complaints by people who had already been harmed. That placed the burden on families to detect, prove, and pursue discrimination in a market designed to hide it.</p>
+<p>King&#039;s assassination mattered to the timing. On April 5, 1968, Johnson wrote to the House urging enactment after the killing. On April 11, he signed the law and described it as a long-delayed promise. But it would be misleading to say the law was simply passed because King died. The law came from years of organizing, documentation, litigation, and political pressure. The assassination changed the political temperature. It did not create the demand.</p>
+<p>Fair housing also sat beside a deeper wealth question. Homeownership became one of the main ways American families built intergenerational wealth. When Black families were excluded from appreciating neighborhoods, denied mortgages, sold contract housing on predatory terms, or pushed into under-resourced areas, the damage compounded. A fair housing violation was not only a bad afternoon with a broker. It could shape a family&#039;s school district, tax base, commute, health exposure, equity, inheritance, and political representation.</p>
+<p>The law&#039;s later history shows both power and unfinished work. The 1988 amendments strengthened enforcement and added disability and familial status. Fair housing organizations used testing to reveal discrimination that ordinary customers might never be able to prove alone. Courts debated whether disparate-impact claims, practices that produce discriminatory effects without explicit intent, are valid under the Act. In 2015, the Supreme Court recognized such claims in Inclusive Communities, while also placing limits on how they can be used.</p>
+<p>The Fair Housing Act changed the legal landscape, but it did not undo the geography built before it. Residential segregation, appraisal gaps, lending discrimination, exclusionary zoning, source-of-income discrimination, algorithmic bias, and neighborhood disinvestment continue to shape housing opportunity. The Act remains a tool, not a finished promise.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>the first effective federal law against discrimination in the sale and the rental of housing</blockquote>
+    <cite>Lyndon B. Johnson, remarks upon signing the Civil Rights Act of 1968</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost of housing discrimination was cumulative. Black families paid more for worse housing, lost access to appreciating neighborhoods, faced violence when they tried to move, and were cut off from schools, services, and wealth-building opportunities. Children inherited the map before they ever understood who drew it.</p>
+<p>The Act&#039;s impact was important but limited by enforcement and political will. It gave families, advocates, HUD, DOJ, and fair-housing groups legal tools to challenge discrimination. Yet a right that must be enforced case by case can leave the structure standing. That is why fair housing work continues through testing, litigation, zoning reform, lending oversight, and local organizing.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>The Fair Housing Act matters today because housing still organizes inequality. A home address can shape school funding, exposure to pollution, transit access, policing, grocery options, insurance rates, credit, and family wealth.</p>
+<p>The popular version says discrimination became illegal in 1968, as if illegality ended the behavior. The fuller story shows that discrimination can move through algorithms, appraisals, voucher refusals, zoning rules, lending patterns, and neighborhood narratives that sound race-neutral while producing racial harm.</p>
+<p>A reader should leave this page understanding fair housing as infrastructure for democracy. The right to vote, learn, work, breathe clean air, and build wealth all become harder when housing systems decide some people are allowed fewer choices.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/edward-brooke.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Edward Brooke</div>
+        <div class="connected-desc">One of the Senate architects of the Fair Housing Act.</div>
+      </a>
+<a href="../encyclopedia/education-inequality.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Education Inequality by Design</div>
+        <div class="connected-desc">Shows how housing maps become school maps and funding maps.</div>
+      </a>
+<a href="../encyclopedia/environmental-justice.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Environmental Justice</div>
+        <div class="connected-desc">Connects housing policy to unequal environmental burden and public health.</div>
+      </a>
+<a href="../generated/pages/lorraine-hansberry.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Lorraine Hansberry</div>
+        <div class="connected-desc">Links fair housing law to Black family life, Chicago segregation, and A Raisin in the Sun.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.hud.gov/aboutus/history" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">HUD</div>
+          <div class="ext-title">HUD History</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://archives.hud.gov/news/2022/pr22-062.cfm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">HUD Archives</div>
+          <div class="ext-title">Fair Housing Act 54th Anniversary Fact Sheet</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.lbjlibrary.org/object/text/remarks-upon-signing-civil-rights-act-04-11-1968" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">LBJ Library</div>
+          <div class="ext-title">Remarks Upon Signing the Civil Rights Act, April 11, 1968</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://avoice.cbcfinc.org/exhibit/fair-housing/legislation/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Avoice Digital Library</div>
+          <div class="ext-title">Fair Housing Legislation</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.oyez.org/cases/1967/645" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Oyez</div>
+          <div class="ext-title">Jones v. Alfred H. Mayer Company</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

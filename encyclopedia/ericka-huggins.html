@@ -3,83 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ericka Huggins &mdash; Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Ericka Huggins was nineteen years old when she and her husband John Huggins drove from Washington D.C. to Los Angeles to start a Black Panther Party chapter. Tw">
+<title>Ericka Huggins - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Ericka Huggins is often introduced through the most dramatic parts of her life: the Black Panther Party, the killing of her husband John Huggins, the New Haven trial, and two years in jail before charges were dismissed. Those facts matter, but they do not complete the story. Huggins also became a poet, editor, educator, meditation teacher, college instructor, and director of the Oakland Community School, one of the Black Panther Party&#039;s most important survival programs. Her page matters because it moves past the old question of whether the Panthers were only confrontation. Huggins shows the other daily work: feeding children, writing curriculum, surviving state surveillance, building schools, and finding a spiritual practice strong enough to carry grief without turning away from struggle.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg, #444, var(--red));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}
-.why-section p:last-child{margin-bottom:0;}
-.cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}
-.cost-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
-.cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-.quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all 0.2s;margin-bottom:12px;}
-.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
-.quiz-card-left{flex:1;}
-.quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}
-.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}
-.quiz-card-icon{font-size:1.8rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="ericka-huggins">
@@ -104,18 +79,17 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="breadcrumb">
     <a href="../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>March 21 &middot; Community Organizing</span>
+    <span> &middot; Community Organizing</span>
   </div>
   <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
 
   <div class="entry-hero">
-    <div class="entry-vol-label">March 21 &middot; Community Organizing</div>
+    <div class="entry-vol-label"> &middot; Community Organizing</div>
     <h1>Ericka Huggins</h1>
-    <p class="entry-tagline">Ericka Huggins was nineteen years old when she and her husband John Huggins drove from Washington D.C. to Los Angeles to start a Black Panther Party chapter. Two months later, John was shot and killed on the UCLA campus. She was nursing their newborn daughter. She kept working. She was then arrested, held in solitary confinement for two years awaiting trial in New Haven on murder charges, and the charges were dismissed. She went on to run the Black Panther Party's Oakland Community School — a model of free, community-controlled education that provided meals, healthcare, and rigorous instruction to hundreds of children.</p>
+    <p class="entry-tagline">Ericka Huggins is often introduced through the most dramatic parts of her life: the Black Panther Party, the killing of her husband John Huggins, the New Haven trial, and two years in jail before charges were dismissed. Those facts matter, but they do not complete the story. Huggins also became a poet, editor, educator, meditation teacher, college instructor, and director of the Oakland Community School, one of the Black Panther Party&#039;s most important survival programs. Her page matters because it moves past the old question of whether the Panthers were only confrontation. Huggins shows the other daily work: feeding children, writing curriculum, surviving state surveillance, building schools, and finding a spiritual practice strong enough to carry grief without turning away from struggle.</p>
     <div class="entry-badges">
       <span class="badge">People</span>
-      <span class="badge">1948 &mdash; Present</span>
-      <span class="badge">Black Panther Party</span>
+      <span class="badge">1948 - present</span>
     </div>
     <div class="hero-bar"></div>
   </div>
@@ -123,81 +97,78 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
     <div class="timeline-items">
-      <div class="tl-item"><div class="tl-date">Jan 5, 1948</div><div class="tl-event">Born in Washington D.C.</div></div>
-      <div class="tl-item"><div class="tl-date">1967</div><div class="tl-event">Meets John Huggins at Lincoln University; both join the Black Panther Party</div></div>
-      <div class="tl-item"><div class="tl-date">1969</div><div class="tl-event">Moves to Los Angeles to help organize; John Huggins shot and killed at UCLA on January 17</div></div>
-      <div class="tl-item"><div class="tl-date">1969</div><div class="tl-event">She is nursing their infant daughter Mai when John is killed</div></div>
-      <div class="tl-item"><div class="tl-date">May 1969</div><div class="tl-event">Arrested in New Haven, Connecticut on murder charges related to the death of a Panther suspected of being an informant</div></div>
-      <div class="tl-item"><div class="tl-date">1969–1971</div><div class="tl-event">Held in solitary confinement for nearly two years awaiting trial; writes poetry; leads hunger strikes for humane conditions</div></div>
-      <div class="tl-item"><div class="tl-date">May 1971</div><div class="tl-event">Charges dismissed by judge after jury deadlocks; released</div></div>
-      <div class="tl-item"><div class="tl-date">1973</div><div class="tl-event">Becomes director of the Oakland Community School — the Panther's flagship education program</div></div>
-      <div class="tl-item"><div class="tl-date">1981</div><div class="tl-event">Oakland Community School closes due to funding; had served hundreds of children over eight years</div></div>
-      <div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Continues as activist, teacher, and lecturer; holds a doctorate from Rensselaer Polytechnic Institute</div></div>
+<div class="tl-item"><div class="tl-date">Jan 5, 1948</div><div class="tl-event">Born Ericka Jenkins in Washington, D.C.</div></div>
+<div class="tl-item"><div class="tl-date">1963</div><div class="tl-event">Attends the March on Washington for Jobs and Freedom as a teenager, an experience she later describes as formative.</div></div>
+<div class="tl-item"><div class="tl-date">1966</div><div class="tl-event">Graduates from high school and later attends Cheyney State College and Lincoln University.</div></div>
+<div class="tl-item"><div class="tl-date">1967-1968</div><div class="tl-event">Joins the Black Panther Party after moving west with John Huggins.</div></div>
+<div class="tl-item"><div class="tl-date">Jan 17, 1969</div><div class="tl-event">John Huggins and Alprentice &quot;Bunchy&quot; Carter are killed on the UCLA campus.</div></div>
+<div class="tl-item"><div class="tl-date">May 1969</div><div class="tl-event">Huggins and Bobby Seale are arrested in connection with the New Haven Black Panther case.</div></div>
+<div class="tl-item"><div class="tl-date">1971</div><div class="tl-event">A jury deadlocks in Huggins&#039;s trial, and the judge dismisses charges against Huggins and Seale.</div></div>
+<div class="tl-item"><div class="tl-date">1973</div><div class="tl-event">Becomes director of the Oakland Community School.</div></div>
+<div class="tl-item"><div class="tl-date">1974</div><div class="tl-event">Publishes Insights and Poems, coauthored with Huey P. Newton.</div></div>
+<div class="tl-item"><div class="tl-date">1976</div><div class="tl-event">Becomes the first Black person and first woman appointed to the Alameda County Board of Education, according to her official biography.</div></div>
+<div class="tl-item"><div class="tl-date">1981</div><div class="tl-event">Leaves the Black Panther Party after years directing its school program.</div></div>
+<div class="tl-item"><div class="tl-date">2016</div><div class="tl-event">Records an oral history for the Civil Rights History Project, a Library of Congress and Smithsonian initiative.</div></div>
     </div>
   </div>
 
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>Ericka Huggins joined the Black Panther Party as a college student at Lincoln University in Pennsylvania, where she met John Huggins. They were both committed to the same vision: a Black community that controlled its own institutions, defended itself from police violence, and provided for its own children.</p>
-<p>In 1969, they drove to Los Angeles to help establish a Southern California chapter. They had a newborn daughter, Mai. On January 17, 1969, John Huggins was shot and killed on the UCLA campus during a confrontation between Black student organizations. Ericka was nineteen years old, a widow, nursing an infant, and a Black Panther Party organizer.</p>
-<p>She kept working.</p>
-<p>In May 1969, she was arrested in New Haven, Connecticut on charges related to the death of Alex Rackley, a Panther suspected of being an FBI informant. She was held in solitary confinement for nearly two years awaiting trial. During that time she wrote poetry, organized other prisoners, led hunger strikes for better conditions, and maintained her political clarity under conditions designed to break her.</p>
-<p>Bobby Seale, the Panther co-founder, was tried alongside her. In May 1971, after the jury deadlocked and could not reach a verdict, the judge dismissed all charges.</p>
-<p>She was released and went back to work. She became the director of the Oakland Community School — the Black Panther Party's flagship education program. The school provided free breakfast, healthcare, and rigorous academic instruction to children from pre-K through elementary school. It was a model of what community-controlled education could look like. It ran for eight years and served hundreds of children before closing in 1981 due to funding.</p>
-<p>She later earned a doctorate. She has taught at universities, continued organizing, and remained active as a public intellectual and activist. She is in her seventies and still working.</p>
+<p>Ericka Huggins&#039;s life asks readers to hold more than one truth at once. She was part of the Black Panther Party, an organization that carried guns, challenged police violence, ran survival programs, faced infiltration and prosecution, and also contained internal conflict and harm. She was a young widow, a political defendant, a mother separated from her child, and an educator who helped make a radical school feel like a place of care. Flattening that life into either danger or inspiration misses the history.</p>
+<p>Huggins was born Ericka Jenkins in Washington, D.C., in 1948. As a teenager she attended the 1963 March on Washington. Her official biography describes that day as a moment when she committed herself to serving people. She later attended Cheyney State College and Lincoln University, where she met John Huggins, a Vietnam veteran. The two moved into the orbit of the Black Panther Party, which had been founded in Oakland in 1966 by Huey P. Newton and Bobby Seale.</p>
+<p>The Panthers are often remembered through images of leather jackets, berets, rifles, and police standoffs. Those images are not false, but they are incomplete. The party also created free breakfast programs, health clinics, liberation schools, newspapers, sickle-cell testing, and community defense work. Huggins entered that world as a young woman whose political formation included both confrontation with state violence and the daily work of community care.</p>
+<p>In Los Angeles, Huggins and her husband helped build Panther organizing. On January 17, 1969, John Huggins and Alprentice &quot;Bunchy&quot; Carter were shot and killed on the UCLA campus during conflict involving members of US Organization. Huggins had recently given birth to their daughter, Mai. The loss made her a widow and single mother almost immediately, while the political world around her kept moving.</p>
+<p>After returning to New Haven, Connecticut, Huggins helped lead the local Panther chapter. In May 1969, she and Bobby Seale were arrested in connection with the killing of Alex Rackley, a Panther member who had been accused by some members of being an informant. The case was grim and politically charged. National Archives records summarize that police had an audio tape on which Huggins was heard interrogating Rackley, and that Huggins and Seale were tried for murder, kidnapping, and conspiracy. In 1971, after a long trial, the jury deadlocked, reportedly 10 to 2 for Huggins&#039;s acquittal, and Judge Harold Mulvey dismissed the charges against both defendants.</p>
+<p>That paragraph cannot be treated casually. Rackley was killed. Huggins was not convicted. State surveillance and Panther internal crisis both belong in the historical frame. The New Haven case drew national &quot;Free Bobby, Free Ericka&quot; organizing, exposed the pressure placed on Panther chapters, and left Huggins separated from her daughter while awaiting trial. Huggins has described teaching herself meditation while incarcerated as a way to survive isolation and grief.</p>
+<p>After release, Huggins continued in the party. She worked as a writer and editor for the Black Panther Intercommunal News Service and published poetry. Then she took on the work that would become central to her long public legacy: education. The Oakland Community School grew from earlier Panther educational experiments, including liberation schools, the Children&#039;s House, and the Intercommunal Youth Institute. By 1973, the school opened in East Oakland and served children from the broader community, not only children of party members.</p>
+<p>Huggins directed the Oakland Community School from 1973 to 1981. In her own writings and oral-history interviews, she described a school organized around respect, food, curiosity, field trips, political education, academic seriousness, and the idea that children should learn how to think rather than what to think. The school served meals, paid attention to children&#039;s whole lives, and treated the classroom as part of community survival. Students were not abstractions in a policy debate. They arrived hungry, brilliant, tired, funny, afraid, and ready to be taken seriously.</p>
+<p>The school also complicates the public memory of the Panthers. If the only image is armed patrol, the Oakland Community School disappears. If the only image is a loving school, the violence, surveillance, and internal contradictions disappear. Huggins&#039;s life refuses that simplification. She kept working inside a movement that was both necessary and wounded, and she later turned toward teaching, restorative justice, meditation, and healing work without denying the political world that shaped her.</p>
+<p>Her story matters because education appears here as survival, not charity. Children needed breakfast, safety, books, art, field trips, history, and adults who believed they were capable. Huggins helped build that in a period when Black radical women were often expected to carry the labor of movements while men became the public face. Her life makes the reader ask who does the care work after the rally, after the trial, after the funeral, and after the headline leaves.</p>
   </div>
 
   <div class="pull-quote">
     <div class="pq-bar"></div>
-    <blockquote>There is no safety for anyone when the people who are supposed to protect us are the ones we need protection from.</blockquote>
-    <cite>Ericka Huggins</cite>
+    <blockquote>Love is a great power. Use it to transform your world.</blockquote>
+    <cite>Ericka Huggins, official website</cite>
   </div>
 
   <div class="cost-section">
     <div class="cost-label">Cost / Impact</div>
-    <p>She lost her husband at nineteen while nursing their newborn. She spent two years in solitary confinement on charges that were ultimately dismissed. The FBI's COINTELPRO program targeted the Black Panther Party specifically and her personally. The personal cost of her commitment to community organizing was total — she paid it and kept going.</p>
+<p>The cost of Huggins&#039;s work was personal and political: widowhood, surveillance, public accusation, incarceration, separation from her infant daughter, and years of labor inside a movement under pressure from outside and within. Her story also includes the cost borne by Alex Rackley and his family, which responsible history cannot erase while discussing the New Haven case.</p>
+<p>Her impact is visible in educational practice and movement memory. The Oakland Community School offered a model of community-controlled schooling that treated food, health, dignity, and intellectual challenge as connected. Huggins also carried meditation and healing into activist spaces long before those conversations became common in movement culture.</p>
   </div>
 
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>Ericka Huggins and the Black Panther Party programs she helped build challenge a distorted narrative. The Panthers are often discussed primarily through the lens of armed self-defense and law enforcement confrontation. What gets underweighted is the social programs: the free breakfast program that fed tens of thousands of children daily (and became the model for the federal school breakfast program), the community health clinics, the Oakland Community School.</p><p>She built institutions. Under conditions of COINTELPRO-directed government harassment, assassination of leadership, and deliberate destruction of the organization, she ran a school that provided for children's full development. That is the part of the Panther story that belongs in every account of American education history.</p>
+<p>Huggins matters today because movements still struggle to balance defense, care, discipline, accountability, and healing. Her life does not let readers imagine activism as only protest or only service. It is both, and sometimes it is harder than either word suggests.</p>
+<p>Her work at the Oakland Community School also speaks to current debates about public education, culturally grounded curriculum, restorative practice, and community control. The question she helps raise is direct: what would schools look like if children were treated as whole human beings rather than future test scores or problems to manage?</p>
+<p>A reader should leave this page understanding that Black radical history includes classrooms, poems, meals, grief, courtrooms, and spiritual survival. Huggins did not step away from politics when she turned toward children and healing. She widened what politics was allowed to include.</p>
   </div>
 
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../index.html?day=ericka-huggins" class="quiz-card">
-      <div class="quiz-card-left">
-        <div class="quiz-card-label">Take the Quiz &middot; March 21 &middot; Community Organizing</div>
-        <div class="quiz-card-title">Test your knowledge on Ericka Huggins</div>
-      </div>
-      <div class="quiz-card-icon">&#x270A;&#x1F3FE;</div>
-    </a>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:0;">
-      <a href="../encyclopedia/cointelpro.html" class="connected-card">
+
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/angela-davis.html" class="connected-card">
         <div class="connected-type">Related Entry</div>
-        <div class="connected-name">COINTELPRO</div>
-        <div class="connected-desc">1956 &mdash; 1971 &middot; Systems</div>
+        <div class="connected-name">Angela Davis</div>
+        <div class="connected-desc">Connects political imprisonment, Black radical organizing, feminism, and state surveillance.</div>
       </a>
-      <a href="../encyclopedia/kathleen-cleaver.html" class="connected-card">
+<a href="../generated/pages/fred-hampton.html" class="connected-card">
         <div class="connected-type">Related Entry</div>
-        <div class="connected-name">Kathleen Cleaver</div>
-        <div class="connected-desc">1945 &mdash; Present &middot; People</div>
+        <div class="connected-name">Fred Hampton</div>
+        <div class="connected-desc">Places Huggins within the broader Black Panther Party world and its repression.</div>
       </a>
-      <a href="../encyclopedia/education-inequality.html" class="connected-card">
+<a href="../generated/pages/ella-baker.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Ella Baker</div>
+        <div class="connected-desc">Links Huggins to a tradition of movement education and leadership developed through people.</div>
+      </a>
+<a href="../encyclopedia/education-inequality.html" class="connected-card">
         <div class="connected-type">Related Entry</div>
         <div class="connected-name">Education Inequality by Design</div>
-        <div class="connected-desc">Ongoing &middot; Systems</div>
-      </a>
-      <a href="../encyclopedia/fannie-lou-hamer.html" class="connected-card">
-        <div class="connected-type">Related Entry</div>
-        <div class="connected-name">Fannie Lou Hamer</div>
-        <div class="connected-desc">1917 &mdash; 1977 &middot; People</div>
-      </a>
-      <a href="../encyclopedia/diane-nash.html" class="connected-card">
-        <div class="connected-type">Related Entry</div>
-        <div class="connected-name">Diane Nash</div>
-        <div class="connected-desc">1938 &mdash; Present &middot; People</div>
+        <div class="connected-desc">Connects Panther schooling to larger fights over who controls education and resources.</div>
       </a>
     </div>
   </div>
@@ -206,34 +177,47 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="external-section">
     <div class="section-title">External Links</div>
     <div class="external-links">
-      <a href="https://www.biography.com/activists/ericka-huggins" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">Biography.com</div><div class="ext-title">Ericka Huggins: Black Panther Leader and Activist</div></div><span class="ext-arrow">&#x2197;</span></a>
-      <a href="https://www.smithsonianmag.com/history/black-panther-party-social-programs-180960839/" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">The Black Panthers' Overlooked Social Programs</div></div><span class="ext-arrow">&#x2197;</span></a>
-      <a href="https://www.pbs.org/independentlens/films/the-black-panthers-vanguard-of-the-revolution/" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">PBS</div><div class="ext-title">The Black Panthers: Vanguard of the Revolution</div></div><span class="ext-arrow">&#x2197;</span></a>
+<a href="https://www.archives.gov/research/african-americans/individuals/ericka-huggins" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">Ericka Huggins</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://findingaids.loc.gov/repositories/3/archival_objects/121035" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress Finding Aid</div>
+          <div class="ext-title">Ericka C. Huggins Oral History Interview</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://crdl.usg.edu/record/loc_crhp_crhp0144" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Civil Rights Digital Library</div>
+          <div class="ext-title">Ericka C. Huggins Oral History</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.erickahuggins.com/bio" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Ericka Huggins Official Website</div>
+          <div class="ext-title">Biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://caringlabor.wordpress.com/2010/07/30/ericka-huggins-the-liberation-schools-the-children%E2%80%99s-house-the-intercommunal-youth-institute-and-the-oakland-community-school/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Caring Labor Archive</div>
+          <div class="ext-title">The Liberation Schools, the Children&#039;s House, the Intercommunal Youth Institute and the Oakland Community School</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
     </div>
   </div>
 </main>
 <footer>
-  <p>&copy; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>
