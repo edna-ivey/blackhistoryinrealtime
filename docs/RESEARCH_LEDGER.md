@@ -965,11 +965,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-15 - Jan Matzeliger
 
+- Entry title: Jan Matzeliger
 - Slug: `jan-matzeliger`
-- Core claims: Jan Matzeliger watched skilled workers shape shoes by hand and imagined a machine that could do the hardest step faster. Born in Suriname, Matzeliger moved to the United States and worked in Lynn, Massachusetts, a center of shoe production. His lasting machine automated the process of attaching the upper part of a shoe to the sole. The invention transformed shoe manufacturing and lowered costs, but Matzeliger died young and did not receive wealth equal to his impact.
-- Sources:
-  - https://www.invent.org/inductees/jan-e-matzeliger
-  - https://www.britannica.com/biography/Jan-Ernst-Matzeliger
+- Daily date: 2026-07-15
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: Jan Matzeliger changed what ordinary people could afford to put on their feet. Born in Suriname to a Dutch father and a Surinamese mother who had been enslaved, he moved through machine shops, merchant ships, Philadelphia, and Lynn, Massachusetts, before inventing a shoe-lasting machine patented in 1883. Lasting was the hard step that shaped and attached the upper of a shoe to the sole. Skilled workers could do it by hand, but slowly. Matzeliger's machine mechanized the process and helped make mass-produced shoes cheaper and more available. His life also shows the familiar pattern: the invention transformed an industry, while the inventor died young, underpaid by the full value of what he made possible.
+- Primary or authoritative sources:
+  - https://www.invent.org/inductees/jan-ernst-matzeliger
+  - https://postalmuseum.si.edu/exhibition/the-black-experience-business-leaders-and-inventors/jan-matzeliger
+  - https://patents.google.com/patent/US274207A/en
+- Supporting secondary sources:
+  - https://collections.si.edu/search/detail/ead_component%3Asova-acma-03-026-ref506?q=%22shoe+machinery%22
+  - https://www.si.edu/es/object/archives/components/sova-nmah-ac-0277-ref385
+- Verified quotation source: No quotation included. Patent language was used for factual verification but not as a pull quote.
+- Sensitive or disputed claims reviewed: Birthplace, mother enslaved language, patent number/date, production-rate comparison, labor displacement, tuberculosis death, and company-stock transfer reviewed.
+- Material corrections made: Expanded scheduled fallback into full manufacturing, labor, patent, and access history.
+- External links included on the page:
+  - National Inventors Hall of Fame: Jan Ernst Matzeliger (https://www.invent.org/inductees/jan-ernst-matzeliger)
+  - Smithsonian National Postal Museum: Jan Matzeliger (https://postalmuseum.si.edu/exhibition/the-black-experience-business-leaders-and-inventors/jan-matzeliger)
+  - Google Patents: US274207A: Lasting Machine (https://patents.google.com/patent/US274207A/en)
+  - Smithsonian Collections: The Real McCoy: Jan E. Matzeliger (https://collections.si.edu/search/detail/ead_component%3Asova-acma-03-026-ref506?q=%22shoe+machinery%22)
+  - Smithsonian Institution: United Shoe Machinery Corporation Records (https://www.si.edu/es/object/archives/components/sova-nmah-ac-0277-ref385)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, invention/labor claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-16 - Norbert Rillieux
 
@@ -1037,11 +1055,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-20 - Jacob Lawrence
 
+- Entry title: Jacob Lawrence
 - Slug: `jacob-lawrence`
-- Core claims: Jacob Lawrence painted history in panels that moved like a train leaving the South. The Migration Series tells the story of Black Americans leaving the South for northern cities. Lawrence used bold color, compressed forms, and clear captions to make mass movement visible. He was still in his early twenties when the series brought national attention. The work treated Black history as modern, epic, and necessary.
-- Sources:
-  - https://www.moma.org/interactives/exhibitions/2015/onewayticket/
+- Daily date: 2026-07-20
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: Jacob Lawrence painted history as movement: crowded train stations, angled bodies, working hands, storefront churches, courtrooms, floodwaters, and families carrying more than luggage. He was only 23 when he completed The Migration Series, 60 small panels that made the Great Migration visible as a national story and a modern art landmark. Lawrence did not paint Black history as illustration after the fact. He researched it, sequenced it, captioned it, and made color carry memory. His work matters because it rejects the idea that serious history belongs only in books or monuments. Lawrence taught migration, labor, violence, hope, and community through panels that move like testimony, music, and a train schedule at once.
+- Primary or authoritative sources:
   - https://americanart.si.edu/artist/jacob-lawrence-2828
+  - https://www.moma.org/collection/artists/3418
+  - https://www.moma.org/interactives/exhibitions/2015/onewayticket/static/jacob-lawrence/1/
+- Supporting secondary sources:
+  - https://www.moma.org/calendar/exhibitions/444
+  - https://americanart.si.edu/education/oh-freedom/jacob-lawrence-john-brown
+- Verified quotation source: MoMA artist page quotes Lawrence on Black history as American heritage and experience.
+- Sensitive or disputed claims reviewed: Birth date, first major gallery/acquisition framing, Migration Series panel count and split, never-visited-South context, Harlem mentors, and Great Migration claims reviewed.
+- Material corrections made: Expanded scheduled fallback into full art-historical and migration-history account with direct museum sources.
+- External links included on the page:
+  - Smithsonian American Art Museum: Jacob Lawrence (https://americanart.si.edu/artist/jacob-lawrence-2828)
+  - MoMA: Jacob Lawrence (https://www.moma.org/collection/artists/3418)
+  - MoMA: Jacob Lawrence: The Migration Series (https://www.moma.org/calendar/exhibitions/444)
+  - MoMA: One-Way Ticket: Jacob Lawrence's Migration Series (https://www.moma.org/interactives/exhibitions/2015/onewayticket/static/jacob-lawrence/1/)
+  - Smithsonian American Art Museum: Oh Freedom! Jacob Lawrence (https://americanart.si.edu/education/oh-freedom/jacob-lawrence-john-brown)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, art-history first-claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-21 - Faith Ringgold
 
@@ -1589,11 +1625,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-19 - Jane Bolin
 
+- Entry title: Jane Bolin
 - Slug: `jane-bolin`
-- Core claims: Jane Bolin made history on the bench, then spent decades making the courtroom matter for children and families. In 1939, Bolin became the first Black woman judge in the United States when she was appointed to New York City's Domestic Relations Court. She challenged segregated assignments for probation officers and worked to ensure child welfare services treated families more fairly.
-- Sources:
-  - https://www.womenshistory.org/education-resources/biographies/jane-bolin
-  - https://history.nycourts.gov/figure/jane-bolin/
+- Daily date: 2026-08-19
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: Jane Bolin's firsts are striking: first Black woman to graduate from Yale Law School, first Black woman assistant corporation counsel in New York City, and first Black woman judge in the United States. But firsts are only the doorway. Bolin served for 40 years in New York's Domestic Relations Court, later Family Court, where she worked on policies affecting children, probation, race, placement, and family life. Her work happened in rooms where headlines rarely stayed: custody disputes, neglected children, unequal services, and court systems that could reproduce racial harm quietly. Bolin matters because she made legal history not only by taking the bench, but by using it to challenge discrimination in the machinery of care.
+- Primary or authoritative sources:
+  - https://ysrp.yale.edu/jane-bolin
+  - https://law.yale.edu/yls-today/news/historical-profile-jane-matilda-bolin-31
+  - https://empirestateplaza.ny.gov/node/2151
+- Supporting secondary sources:
+  - https://onlineexhibits.library.yale.edu/s/early-black-yale-students/item/20922
+  - https://www.nycbar.org/blogs/city-bar-celebrates-black-heritage-month-and-path-breaking-black-lawyers/
+- Verified quotation source: No quotation included. Available sources support facts more strongly than a traceable concise quote.
+- Sensitive or disputed claims reviewed: First Black woman judge claim, Yale first claim, Assistant Corporation Counsel first claim, father and family claims, NAACP/civic service, court policy impact, retirement and death dates reviewed.
+- Material corrections made: Expanded scheduled fallback into full legal, family-court, and institutional-power account.
+- External links included on the page:
+  - Yale & Slavery Research Project: Jane Bolin (https://ysrp.yale.edu/jane-bolin)
+  - Yale Law School: Historical Profile: Jane Matilda Bolin '31 (https://law.yale.edu/yls-today/news/historical-profile-jane-matilda-bolin-31)
+  - Empire State Plaza: New York Leaders: Jane Bolin (https://empirestateplaza.ny.gov/node/2151)
+  - Yale University Library: Jane Matilda Bolin (https://onlineexhibits.library.yale.edu/s/early-black-yale-students/item/20922)
+  - New York City Bar Association: Path-Breaking Black Lawyers (https://www.nycbar.org/blogs/city-bar-celebrates-black-heritage-month-and-path-breaking-black-lawyers/)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, legal first-claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-20 - Charlotte E. Ray
 
@@ -2875,3 +2929,185 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Park Service: Combahee River Ferry and Harriet Tubman Bridge (https://www.nps.gov/places/combahee-river-ferry-harriet-tubman-bridge.htm)
   - National Park Service: We Called Ourselves Combee (https://www.nps.gov/articles/000/we-called-ourselves-combee.htm)
 - Final review status: Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, sensitive enslavement/disability/military-first claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Henrietta Lacks
+
+- Entry title: Henrietta Lacks
+- Slug: `henrietta-lacks`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: Henrietta Lacks did not volunteer to transform medicine. She went to Johns Hopkins Hospital in 1951 because she was sick, young, and in pain. During treatment for cervical cancer, cells from her tumor were taken without her knowledge or consent. Those cells became HeLa, the first human cell line that could be grown continuously in a laboratory. They helped make possible breakthroughs in polio vaccine testing, cancer research, genetics, infectious disease, and space biology. That scientific fact cannot be separated from the human one: Lacks died at 31, her family did not learn the truth for decades, and medicine profited from a Black woman's body while her descendants were left to fight for information, privacy, respect, and a voice in how her genetic legacy was used.
+- Primary or authoritative sources:
+  - https://osp.od.nih.gov/hela-cells/
+  - https://www.grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/privacy/nih-lacks-family-agreement
+  - https://grants.nih.gov/grants/guide/notice-files/NOT-OD-24-098.html
+  - https://www.hopkinsmedicine.org/henrietta-lacks/role-of-the-johns-hopkins-hospital
+- Supporting secondary sources:
+  - https://www.hopkinsmedicine.org/henrietta-lacks/frequently-asked-questions
+- Verified quotation source: No quotation included. NIH acknowledgment language was used as evidence but not as a pull quote.
+- Sensitive or disputed claims reviewed: Consent, race and hospital segregation context, HeLa first-continuous-cell-line language, publication counts, family knowledge, genome-data agreement, and financial-benefit claims reviewed.
+- Material corrections made: Removed stale quiz wording, unsupported profit shorthand, and overbroad patent/tonnage framing from the legacy page.
+- External links included on the page:
+  - NIH Office of Science Policy: HeLa Cells: A Lasting Contribution to Biomedical Research (https://osp.od.nih.gov/hela-cells/)
+  - NIH Grants and Funding: The NIH-Lacks Family Agreement (https://www.grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/privacy/nih-lacks-family-agreement)
+  - NIH Guide Notice: Update to HeLa Cell Whole Genome Sequence Data Submission and Access (https://grants.nih.gov/grants/guide/notice-files/NOT-OD-24-098.html)
+  - Johns Hopkins Medicine: Role of The Johns Hopkins Hospital (https://www.hopkinsmedicine.org/henrietta-lacks/role-of-the-johns-hopkins-hospital)
+  - Johns Hopkins Medicine: Henrietta Lacks Frequently Asked Questions (https://www.hopkinsmedicine.org/henrietta-lacks/frequently-asked-questions)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, medical ethics claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - James Brown
+
+- Entry title: James Brown
+- Slug: `james-brown`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: James Brown did not just perform soul and funk. He reorganized the center of popular music around rhythm, discipline, sweat, command, and Black pride. Born into poverty in South Carolina and raised partly in Augusta, Georgia, Brown moved from gospel roots and juvenile incarceration into one of the most demanding stage careers in American music. He built bands like precision engines, turned the Apollo Theater into a proving ground, and made songs that changed dance floors, civil rights soundtracks, and hip-hop sampling. His story also includes control, conflict, arrests, abuse allegations, and a hard public life that should not be polished away. Brown matters because his music made Black power audible in the body, not only in speeches.
+- Primary or authoritative sources:
+  - https://www.si.edu/spotlight/james-brown
+  - https://rockhall.com/inductees/james-brown/
+  - https://www.apollotheater.org/about
+- Supporting secondary sources:
+  - https://www.smithsonianmag.com/arts-culture/legends-of-the-apollo-42880/
+  - https://www.songhall.org/profiles/james-brown
+- Verified quotation source: Song title and refrain from Brown's 1968 recording. No long lyric excerpt used.
+- Sensitive or disputed claims reviewed: Poverty/incarceration framing, Apollo recording, Boston 1968 calming claim, funk influence, hip-hop sampling influence, legal trouble, and abuse/harm language reviewed.
+- Material corrections made: Converted markdown-generated page into rich renderer and added complexity around labor, control, and harm.
+- External links included on the page:
+  - Smithsonian Institution: James Brown: Godfather of Soul (https://www.si.edu/spotlight/james-brown)
+  - Rock & Roll Hall of Fame: James Brown (https://rockhall.com/inductees/james-brown/)
+  - Apollo Theater: About The Apollo: History and Legacy (https://www.apollotheater.org/about)
+  - Smithsonian Magazine: Legends of the Apollo (https://www.smithsonianmag.com/arts-culture/legends-of-the-apollo-42880/)
+  - Songwriters Hall of Fame: James Brown (https://www.songhall.org/profiles/james-brown)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short refrain/title, music/civil-rights claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - James Meredith
+
+- Entry title: James Meredith
+- Slug: `james-meredith`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: James Meredith did not integrate the University of Mississippi because he wanted a tidy milestone. He called it a war against white supremacy. An Air Force veteran from Mississippi, Meredith applied to Ole Miss in 1961, fought rejection and delay in court, and entered the campus in 1962 under federal protection after a deadly white riot. He later graduated, then launched the 1966 March Against Fear to challenge terror around Black voting and movement in Mississippi. Meredith matters because he was not simply escorted into history by the Kennedys or the NAACP. He was a strategist with his own ideas, his own conflicts with major civil rights organizations, and a stubborn belief that one person could force a state to reveal itself.
+- Primary or authoritative sources:
+  - https://www.jfklibrary.org/events-and-awards/kennedy-library-forums/past-forums/transcripts/james-meredith-and-the-integration-of-ole-miss
+  - https://www.jfklibrary.org/asset-viewer/archives/jfkwhcsf-0924-037
+  - https://olemiss.edu/who-we-are/past-present-and-future/
+- Supporting secondary sources:
+  - https://www.archives.gov/research/jfk/select-committee-report/part-2-king-findings.html
+  - https://npg.si.edu/blog/september-30-1962-james-meredith-university-mississippi
+- Verified quotation source: JFK Library forum transcript quotes Meredith's September 5, 1963 letter.
+- Sensitive or disputed claims reviewed: Riot casualty/injury counts, first student registration date, federal enforcement, Barnett resistance, March Against Fear shooting, Black Power context, and living-status date reviewed.
+- Material corrections made: Converted markdown-generated page into rich renderer and added Meredith's independence and later activism.
+- External links included on the page:
+  - JFK Library: James Meredith and the Integration of Ole Miss (https://www.jfklibrary.org/events-and-awards/kennedy-library-forums/past-forums/transcripts/james-meredith-and-the-integration-of-ole-miss)
+  - JFK Library: Mississippi Integration Situation, September 30, 1962 (https://www.jfklibrary.org/asset-viewer/archives/jfkwhcsf-0924-037)
+  - National Archives: Findings on MLK Assassination (https://www.archives.gov/research/jfk/select-committee-report/part-2-king-findings.html)
+  - University of Mississippi: Past, Present, and Future (https://olemiss.edu/who-we-are/past-present-and-future/)
+  - National Portrait Gallery: September 30, 1962: James Meredith and the University of Mississippi (https://npg.si.edu/blog/september-30-1962-james-meredith-university-mississippi)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, education-integration claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - James Baldwin
+
+- Entry title: James Baldwin
+- Slug: `james-baldwin`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: James Baldwin wrote as if America were a family argument that could no longer be postponed. He was a Harlem-born novelist, essayist, playwright, preacher's son, expatriate, queer Black writer, and civil rights witness whose sentences made private feeling and public violence answer to each other. Baldwin did not let the country hide behind innocence. He wrote about race, sexuality, religion, masculinity, love, fear, police power, exile, and the damage racism did to Black people and white people differently. His work matters because he refused the false choice between beauty and confrontation. He could write with tenderness and still leave the reader without anywhere to hide.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/james-baldwin
+  - https://www.si.edu/spotlight/james-baldwin
+  - https://www.loc.gov/item/n79076619/james-baldwin/
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/makings-man
+  - https://www.poetryfoundation.org/poets/james-baldwin
+- Verified quotation source: No quotation included. Existing popular Baldwin quotations require separate edition-level tracing before use.
+- Sensitive or disputed claims reviewed: Sexuality language, expatriate framing, civil-rights friendships, Time cover, publication dates, religious upbringing, and death details reviewed.
+- Material corrections made: Expanded legacy page, removed stale quiz behavior, and made queer-history framing explicit but carefully sourced.
+- External links included on the page:
+  - National Museum of African American History and Culture: James Baldwin (https://nmaahc.si.edu/james-baldwin)
+  - Smithsonian Institution: James Baldwin: Writer and Activist (https://www.si.edu/spotlight/james-baldwin)
+  - Library of Congress: James Baldwin (https://www.loc.gov/item/n79076619/james-baldwin/)
+  - National Museum of African American History and Culture: The Makings of a Man (https://nmaahc.si.edu/explore/stories/makings-man)
+  - Poetry Foundation: James Baldwin (https://www.poetryfoundation.org/poets/james-baldwin)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, literary/queer-history claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Holy Week Uprisings
+
+- Entry title: Holy Week Uprisings
+- Slug: `holy-week-uprisings`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: The Holy Week Uprisings were not a footnote to Martin Luther King Jr.'s assassination. They were a national rupture. In the days after King was murdered in Memphis on April 4, 1968, grief and anger moved through nearly 200 cities. Washington, D.C., Chicago, Baltimore, Kansas City, and other cities saw fires, arrests, curfews, troops, and streets turned into evidence of what peaceful speeches had not made the country repair. The uprisings were not only about one death, even a death as devastating as King's. They were about segregated housing, police violence, job exclusion, urban disinvestment, and the gap between civil rights law and Black daily life. They ask a hard question: what happens when a country mourns a prophet but refuses his warning?
+- Primary or authoritative sources:
+  - https://www.archives.gov/research/jfk/select-committee-report/part-2-king-findings.html
+  - https://www.si.edu/spotlight/1968/default
+  - https://home.nps.gov/articles/summer-in-the-parks-1968-1976.htm
+- Supporting secondary sources:
+  - https://www.smithsonianmag.com/history/martin-luther-king-jrs-assassination-sparked-uprisings-cities-across-america-180968665/
+  - https://www.nps.gov/articles/resurrection-city.htm
+- Verified quotation source: Smithsonian Archives discussion of King's Other America speech and 1968 uprisings context.
+- Sensitive or disputed claims reviewed: Death/arrest/property-damage counts, city scope, Kerner Commission framing, Fair Housing Act timing, military deployment, and damage-versus-cause language reviewed.
+- Material corrections made: Expanded a short legacy article into full context and replaced damage-only framing with careful structural analysis.
+- External links included on the page:
+  - Smithsonian Magazine: Martin Luther King Jr.'s Assassination Sparked Uprisings in Cities Across America (https://www.smithsonianmag.com/history/martin-luther-king-jrs-assassination-sparked-uprisings-cities-across-america-180968665/)
+  - National Archives: Findings in the Assassination of Dr. Martin Luther King, Jr. (https://www.archives.gov/research/jfk/select-committee-report/part-2-king-findings.html)
+  - Smithsonian Institution: 1968: A Year in the Collections (https://www.si.edu/spotlight/1968/default)
+  - National Park Service: Summer in the Parks (1968-1976) (https://home.nps.gov/articles/summer-in-the-parks-1968-1976.htm)
+  - National Park Service: Resurrection City: The Poor People's Campaign (https://www.nps.gov/articles/resurrection-city.htm)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, urban-uprising claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Ida B. Wells
+
+- Entry title: Ida B. Wells
+- Slug: `ida-b-wells`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: Ida B. Wells did not simply report lynching. She broke the system of excuses built around it. After a white mob lynched her friends Thomas Moss, Calvin McDowell, and Will Stewart in Memphis in 1892, Wells investigated the lie that lynching was usually a response to sexual violence. She used names, dates, newspapers, witnesses, statistics, speeches, and international organizing to show that lynching protected white power from Black business, voting, self-defense, labor, and dignity. Her press was destroyed. Her life was threatened. She published from exile and kept going. Wells matters because she made evidence a weapon against terror and insisted that neutrality in the face of lies was not truth. It was surrender.
+- Primary or authoritative sources:
+  - https://guides.loc.gov/chronicling-america-ida-wells
+  - https://www.loc.gov/exhibits/odyssey/educate/barnett.html
+  - https://blogs.loc.gov/loc/2022/10/ida-b-wells-w-e-b-du-bois-and-the-maps-of-american-racism/
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/ida-b-wells-barnett
+  - https://www.pulitzer.org/prize-winners-by-year/2020
+- Verified quotation source: No quotation included because legacy pull quote required further source tracing beyond the available authoritative page.
+- Sensitive or disputed claims reviewed: Moss/McDowell/Stewart lynching cause, rape-accusation propaganda, NAACP founding/marginalization, suffrage work, train case, and Pulitzer citation reviewed.
+- Material corrections made: Removed stale daily challenge behavior, replaced weak external sources, and softened unsupported claims about inventing accountability journalism into lineage language.
+- External links included on the page:
+  - Library of Congress: Ida B. Wells: Topics in Chronicling America (https://guides.loc.gov/chronicling-america-ida-wells)
+  - Library of Congress: Woman Journalist Crusades Against Lynching (https://www.loc.gov/exhibits/odyssey/educate/barnett.html)
+  - Library of Congress Blog: Ida B. Wells, W.E.B. Du Bois, and the Maps of American Racism (https://blogs.loc.gov/loc/2022/10/ida-b-wells-w-e-b-du-bois-and-the-maps-of-american-racism/)
+  - National Women's History Museum: Ida B. Wells-Barnett (https://www.womenshistory.org/education-resources/biographies/ida-b-wells-barnett)
+  - Pulitzer Prizes: 2020 Pulitzer Prize Special Citations and Awards (https://www.pulitzer.org/prize-winners-by-year/2020)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, anti-lynching claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Jackie Robinson
+
+- Entry title: Jackie Robinson
+- Slug: `jackie-robinson`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: Jackie Robinson is often reduced to one phrase: he broke baseball's color barrier. That phrase is true, but it can make the barrier sound like a wall that fell neatly once one brave man crossed it. Robinson's real story is sharper. Before Brooklyn, he challenged segregation in the Army, played in the Negro Leagues, endured a calculated trial of racist abuse in the minor leagues and major leagues, and then spent his post-baseball life pressing presidents, parties, businesses, and civil rights organizations to move faster. Robinson matters because integration was not a handshake. It was a demand enforced through talent, discipline, anger, restraint, strategy, and public pressure. He did not simply enter the game. He changed what the game had to answer for.
+- Primary or authoritative sources:
+  - https://www.archives.gov/education/lessons/jackie-robinson
+  - https://www.archives.gov/exhibits/featured-documents/jackie-robinson
+  - https://www.mlb.com/robinson-training-complex/jackies-story
+- Supporting secondary sources:
+  - https://baseballhall.org/hall-of-famers/robinson-jackie
+  - https://www.loc.gov/collections/jackie-robinson-baseball/articles-and-essays/baseball-the-color-line-and-jackie-robinson/
+- Verified quotation source: MLB Jackie Robinson Training Complex biography.
+- Sensitive or disputed claims reviewed: First modern MLB integration claim, Army bus/court-martial account, Negro Leagues framing, Rickey strategy, MVP/Hall of Fame dates, politics, family burden, and death date reviewed.
+- Material corrections made: Rebuilt legacy page beyond baseball-only barrier language and removed stale quiz-card behavior.
+- External links included on the page:
+  - National Archives: Jackie Robinson, Civil Rights Advocate (https://www.archives.gov/education/lessons/jackie-robinson)
+  - National Archives: A Letter from Jackie Robinson: Civil Rights Advocate (https://www.archives.gov/exhibits/featured-documents/jackie-robinson)
+  - MLB: Jackie's Story (https://www.mlb.com/robinson-training-complex/jackies-story)
+  - National Baseball Hall of Fame: Jackie Robinson (https://baseballhall.org/hall-of-famers/robinson-jackie)
+  - Library of Congress: Jackie Robinson and Other Baseball Highlights (https://www.loc.gov/collections/jackie-robinson-baseball/articles-and-essays/baseball-the-color-line-and-jackie-robinson/)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, sports/civil-rights claim review, depth/similarity validation, desktop/mobile browser check.

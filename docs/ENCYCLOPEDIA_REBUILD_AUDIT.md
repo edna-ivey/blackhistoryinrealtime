@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First twelve rebuild batches complete, whole-encyclopedia rebuild in progress.
+Status: First thirteen rebuild batches complete, whole-encyclopedia rebuild in progress.
 Date: 2026-08-14
 
 ## Quality Gap Documented
@@ -162,13 +162,26 @@ Batch 12 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 12 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, and external-link verification passed before batch commit.
 
+## Batch 13 Completed
+
+Completed pages: `henrietta-lacks`, `holy-week-uprisings`, `ida-b-wells`, `jackie-robinson`, `jacob-lawrence`, `james-baldwin`, `james-brown`, `james-meredith`, `jan-matzeliger`, `jane-bolin`.
+
+Batch 13 continued from row 95 with a ten-entry batch. It rebuilt four legacy-path pages, three scheduled generated pages, and three markdown/legacy-generated pages into the rich Claudette-style renderer. Henrietta Lacks now centers consent, family knowledge, HeLa governance, and the NIH/Lacks family agreement; Holy Week Uprisings now separates grief, protest, uprising, federal response, and Poor People's Campaign context; Ida B. Wells now treats Memphis, anti-lynching evidence, exile, suffrage, and NAACP marginalization with careful source limits; Jackie Robinson now extends beyond the 1947 debut into military resistance, Dodgers strategy, business, civil-rights advocacy, and political complexity; Jacob Lawrence now frames The Migration Series as researched visual history; James Baldwin now has explicit literary, queer-history, exile, and movement context; James Brown now balances musical innovation, Black pride, business power, and documented personal/legal harm; James Meredith now covers Ole Miss, federal enforcement, campus isolation, and the March Against Fear; Jan Matzeliger now explains the lasting machine as labor technology; and Jane Bolin now centers family-court power, child welfare, and routine institutional discrimination.
+
+Batch 13 verification:
+
+- External links checked: 50 total, 0 material failures after replacing three stale links for Jane Bolin and Ida B. Wells. Thirty-three links returned `200`. Seventeen Johns Hopkins, Smithsonian, JFK Library, National Portrait Gallery, MoMA, LOC/NMAAHC, National Postal Museum, and Smithsonian collection pages returned automated bot-blocking statuses but were retained only because they are direct authoritative pages already verified for subject relevance.
+- Browser rendering checked: 10 Batch 13 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for section presence, connected cards, external links, daily challenge cards where applicable, empty links, horizontal overflow, stale quiz wording, loading fallbacks, or material page errors. Codex browser Statsig logging was observed and excluded as non-site noise.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 13 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, external-link verification, and desktop/mobile browser verification passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 95
-- REWRITE: 63
-- RESEARCH: 52
-- REBUILD: 65
+- PASS: 105
+- REWRITE: 60
+- RESEARCH: 45
+- REBUILD: 60
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -179,7 +192,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 95 | Henrietta Lacks | encyclopedia/henrietta-lacks.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 105 | Jean-Michel Basquiat | encyclopedia/jean-michel-basquiat.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -281,16 +294,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 92 | Harriet Jacobs | generated/pages/harriet-jacobs.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, sensitive sexual-violence/authorship/confinement claim review, depth/similarity validation, desktop/mobile browser check. |
 | 93 | Harriet Tubman | encyclopedia/harriet-tubman.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, birth-year/Combahee/first-woman-military-raid claim review, mythic language corrected, depth/similarity validation, desktop/mobile browser check. |
 | 94 | HBCUs | encyclopedia/hbcus.html | PASS | Batch 12 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 6 external links, no unsupported quote, HBCU definition/land-grant/statistics/underfunding claim review, unsupported legacy quote removed, depth/similarity validation, desktop/mobile browser check. |
-| 95 | Henrietta Lacks | encyclopedia/henrietta-lacks.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 96 | Holy Week Uprisings | encyclopedia/holy-week-uprisings.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 97 | Ida B. Wells | encyclopedia/ida-b-wells.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 98 | Jackie Robinson | encyclopedia/jackie-robinson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 99 | Jacob Lawrence | generated/pages/jacob-lawrence.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 100 | James Baldwin | encyclopedia/james-baldwin.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 101 | James Brown | generated/pages/james-brown.html | RESEARCH, REBUILD | Markdown-generated page is stronger than fallback pages but still needs claim-by-claim verification, source ledger expansion, and Claudette visual/template alignment review. |
-| 102 | James Meredith | generated/pages/james-meredith.html | RESEARCH, REBUILD | Markdown-generated page is stronger than fallback pages but still needs claim-by-claim verification, source ledger expansion, and Claudette visual/template alignment review. |
-| 103 | Jan Matzeliger | generated/pages/jan-matzeliger.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 104 | Jane Bolin | generated/pages/jane-bolin.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 95 | Henrietta Lacks | encyclopedia/henrietta-lacks.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, consent/HeLa/NIH agreement/family-privacy claim review, depth/similarity validation, desktop/mobile browser check. |
+| 96 | Holy Week Uprisings | encyclopedia/holy-week-uprisings.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified MLK quotation, assassination/uprising/casualty and Poor People's Campaign context review, depth/similarity validation, desktop/mobile browser check. |
+| 97 | Ida B. Wells | encyclopedia/ida-b-wells.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, anti-lynching/NAACP/suffrage/disputed legacy quote review, corrected stale NWHM URL, depth/similarity validation, desktop/mobile browser check. |
+| 98 | Jackie Robinson | encyclopedia/jackie-robinson.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, military/Dodgers/debut/civil-rights and political-complexity claim review, depth/similarity validation, desktop/mobile browser check. |
+| 99 | Jacob Lawrence | generated/pages/jacob-lawrence.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, Migration Series panel/acquisition/Harlem mentor claim review, depth/similarity validation, desktop/mobile browser check. |
+| 100 | James Baldwin | encyclopedia/james-baldwin.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, sexuality/exile/publication/civil-rights witness claim review, depth/similarity validation, desktop/mobile browser check. |
+| 101 | James Brown | generated/pages/james-brown.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short lyric quotation, music/business/Black pride/legal-harm claim review, depth/similarity validation, desktop/mobile browser check. |
+| 102 | James Meredith | generated/pages/james-meredith.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, Ole Miss/federal enforcement/March Against Fear claim review, depth/similarity validation, desktop/mobile browser check. |
+| 103 | Jan Matzeliger | generated/pages/jan-matzeliger.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, patent/production/labor and mother-enslaved claim review, depth/similarity validation, desktop/mobile browser check. |
+| 104 | Jane Bolin | generated/pages/jane-bolin.html | PASS | Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, first-judge/Yale/family-court policy claim review, replaced two stale source URLs, depth/similarity validation, desktop/mobile browser check. |
 | 105 | Jean-Michel Basquiat | encyclopedia/jean-michel-basquiat.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 106 | Jesse Owens | generated/pages/jesse-owens.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 107 | Joe Louis | generated/pages/joe-louis.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
