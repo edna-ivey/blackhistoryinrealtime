@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First fourteen rebuild batches complete, whole-encyclopedia rebuild in progress.
+Status: First fourteen rebuild batches complete; Batch 15 source/rendered work checkpointed but not marked complete because required external-link and browser verification are blocked by the current Codex environment.
 Date: 2026-08-14
 
 ## Quality Gap Documented
@@ -188,6 +188,28 @@ Batch 14 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 14 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, external-link verification, and desktop/mobile browser verification passed before batch commit.
 
+## Batch 15 Checkpoint, Verification Blocked
+
+Drafted and rendered pages: `larry-doby`, `lewis-howard-latimer`, `lorraine-hansberry`, `loving-v-virginia`, `madam-cj-walker`, `mae-jemison`, `maggie-lena-walker`, `malcolm-x`, `mamie-till-mobley`, `mansa-musa`.
+
+Batch 15 rich source has been written in `content/encyclopedia-rich/batch-15.js`, registered in `content/encyclopedia-rich/index.js`, and rendered into upload-ready HTML. It includes richer research notes, source lists, internal connections, canonical legacy-path replacements where applicable, and generated-path pages for scheduled entries.
+
+Completed local non-network verification:
+
+- `npm run generate` passed with 125 rich pages, 210 encyclopedia cards, valid daily coverage, valid encyclopedia index, and valid depth/similarity checks.
+- `npm test` passed.
+- `git diff --check` passed.
+- JavaScript syntax checks passed for `content/encyclopedia-rich/batch-15.js` and `content/encyclopedia-rich/index.js`.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 15 source, 0 findings.
+- Internal link validation checked 150 rendered Batch 15 internal links, 0 broken.
+
+Blocked required verification:
+
+- External-link automation could not be completed. The first fetch sweep failed uniformly because sandbox network access is restricted. The required escalated rerun was rejected by the approvals reviewer because the Codex workspace has hit its usage limit. No workaround or alternate network path was attempted after that rejection.
+- Browser verification could not be completed. The Browser plugin rejected navigation to `http://127.0.0.1:4178/generated/pages/larry-doby.html` with a browser security policy stating that `http://127.0.0.1:4178` should not be used, and instructed not to work around it with alternate browser surfaces. No workaround was attempted.
+
+Batch 15 is therefore not yet marked PASS. To complete it, restore/approve Codex network access for external-link checking and allow Browser access to the local preview URL, or provide an approved preview URL/surface. Then rerun external-link verification, desktop/mobile browser verification for all ten Batch 15 pages, update rows 115-124 to PASS, update counts to PASS 125 / REWRITE 51 / RESEARCH 34 / REBUILD 51, and continue with row 125 `Marcus Garvey`.
+
 ## Counts
 
 - Total rendered cards audited: 210
@@ -205,7 +227,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 115 | Larry Doby | generated/pages/larry-doby.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+Next unfinished work: complete Batch 15 external-link verification and desktop/mobile browser verification for rows 115-124, beginning with `Larry Doby`. After those required checks pass, mark rows 115-124 PASS and continue with row 125 `Marcus Garvey`.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 

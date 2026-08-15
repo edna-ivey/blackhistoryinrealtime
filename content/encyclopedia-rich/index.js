@@ -13,6 +13,7 @@ let BATCH_11 = [];
 let BATCH_12 = [];
 let BATCH_13 = [];
 let BATCH_14 = [];
+let BATCH_15 = [];
 try {
   ({ ENTRIES: BATCH_2 } = require('./batch-2'));
 } catch (error) {
@@ -91,6 +92,12 @@ try {
   if (error.code !== 'MODULE_NOT_FOUND') throw error;
 }
 
+try {
+  ({ ENTRIES: BATCH_15 } = require('./batch-15'));
+} catch (error) {
+  if (error.code !== 'MODULE_NOT_FOUND') throw error;
+}
+
 module.exports = {
   ENTRIES: [
     ...BATCH_1,
@@ -107,5 +114,6 @@ module.exports = {
     ...BATCH_12,
     ...BATCH_13,
     ...BATCH_14,
+    ...BATCH_15,
   ],
 };

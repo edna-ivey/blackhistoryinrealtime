@@ -3,238 +3,224 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mansa Musa — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Full profile of Mansa Musa, Emperor of the Mali Empire, widely considered the wealthiest person in human history, whose 1324 pilgrimage to Mecca announced African power to the world.">
+<title>Mansa Musa - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Mansa Musa is often introduced as the richest person in history, but that modern ranking can distract from the better question: what kind of power made his wealth possible? Musa I ruled the Mali Empire in the fourteenth century, when West African gold, Saharan salt, Niger River trade, Islamic scholarship, and imperial administration tied Mali to a wider world. His 1324 pilgrimage to Mecca made him famous from Cairo to Europe because he traveled with extraordinary gold and generosity. Yet the story is not only about a rich king crashing a market. It is about African sovereignty, trade networks, scholarship, architecture, manuscripts, and the way European maps recorded West African power before later myths tried to erase it.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red: #C41E3A; --black: #0A0A0A; --green: #1A5C38; --gold: #D4A017; --orange: #E8621A; --cream: #F5EDD8; --white: #FAFAFA; --card-bg: #161616; --border: rgba(212,160,23,0.2); --purple: #6B2D8B; }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { background: var(--black); color: var(--cream); font-family: 'DM Sans', sans-serif; min-height: 100vh; overflow-x: hidden; }
-  body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); pointer-events: none; z-index: 0; }
-  .pan-stripe { display: flex; height: 6px; width: 100%; }
-  .pan-stripe .s1 { background: var(--red); flex: 1; } .pan-stripe .s2 { background: #111; flex: 1; } .pan-stripe .s3 { background: var(--green); flex: 1; }
-  header { position: sticky; top: 0; z-index: 50; background: rgba(10,10,10,0.97); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(212,160,23,0.12); }
-  .header-inner { max-width: 900px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
-  .logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 3px; color: var(--gold); text-decoration: none; }
-  .logo span { color: var(--red); }
-  nav { display: flex; border-bottom: 1px solid rgba(212,160,23,0.1); overflow-x: auto; scrollbar-width: none; background: rgba(10,10,10,0.9); }
-  nav::-webkit-scrollbar { display: none; }
-  nav a { padding: 10px 20px; font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(245,237,216,0.45); text-decoration: none; white-space: nowrap; border-bottom: 2px solid transparent; transition: all 0.2s; }
-  nav a:hover, nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
-  .breadcrumb { max-width: 900px; margin: 0 auto; padding: 20px 24px 0; font-size: 0.72rem; color: rgba(245,237,216,0.35); letter-spacing: 1px; display: flex; align-items: center; gap: 8px; position: relative; z-index: 1; }
-  .breadcrumb a { color: rgba(212,160,23,0.6); text-decoration: none; }
-  .breadcrumb a:hover { color: var(--gold); }
-  main { max-width: 900px; margin: 0 auto; padding: 28px 24px 100px; position: relative; z-index: 1; }
-  .entry-hero { margin-bottom: 36px; animation: fadeUp 0.5s ease both; }
-  .entry-vol-label { font-size: 0.65rem; letter-spacing: 4px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 12px; }
-  .entry-name { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 900; line-height: 1.05; color: var(--white); margin-bottom: 14px; }
-  .entry-tagline { font-size: 1.05rem; line-height: 1.7; color: rgba(245,237,216,0.65); max-width: 680px; margin-bottom: 18px; }
-  .entry-badges { display: flex; flex-wrap: wrap; gap: 8px; }
-  .badge { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; padding: 5px 12px; border-radius: 100px; font-weight: 500; }
-  .badge-dates { background: rgba(212,160,23,0.1); color: var(--gold); border: 1px solid rgba(212,160,23,0.25); }
-  .badge-cat { background: rgba(196,30,58,0.1); color: #E8627A; border: 1px solid rgba(196,30,58,0.25); }
-  .badge-vol { background: rgba(26,92,56,0.15); color: #5BAF82; border: 1px solid rgba(26,92,56,0.3); }
-  .timeline-strip { display: flex; gap: 2px; margin: 28px 0 36px; overflow-x: auto; scrollbar-width: none; animation: fadeUp 0.5s ease 0.1s both; }
-  .timeline-strip::-webkit-scrollbar { display: none; }
-  .timeline-item { flex: 1; min-width: 130px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 14px 16px; position: relative; }
-  .timeline-item::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--red), var(--gold)); border-radius: 10px 10px 0 0; }
-  .tl-year { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; color: var(--gold); letter-spacing: 2px; margin-bottom: 4px; }
-  .tl-event { font-size: 0.72rem; line-height: 1.5; color: rgba(245,237,216,0.55); }
-  .bio-section { margin: 0 0 32px; animation: fadeUp 0.5s ease 0.15s both; }
-  .section-title { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.85rem; color: rgba(212,160,23,0.6); margin-bottom: 16px; text-transform: uppercase; }
-  .bio-body p { font-size: 1rem; line-height: 1.85; color: rgba(245,237,216,0.78); margin-bottom: 18px; }
-  .bio-body p:last-child { margin-bottom: 0; }
-  .pull-quote { border-left: 3px solid var(--red); padding: 18px 24px; margin: 32px 0; background: rgba(196,30,58,0.04); border-radius: 0 10px 10px 0; animation: fadeUp 0.5s ease 0.2s both; }
-  .pull-quote p { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.15rem; line-height: 1.7; color: var(--cream); margin-bottom: 10px; }
-  .pull-quote cite { font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(212,160,23,0.5); }
-  .section-divider { display: flex; align-items: center; gap: 16px; margin: 40px 0 28px; }
-  .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, rgba(212,160,23,0.2), transparent); }
-  .section-divider span { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.75rem; color: rgba(212,160,23,0.5); }
-  .why-matters { background: linear-gradient(135deg, rgba(196,30,58,0.08), rgba(139,0,0,0.04)); border: 1px solid rgba(196,30,58,0.25); border-radius: 14px; padding: 24px 26px; margin: 36px 0; animation: fadeUp 0.5s ease 0.25s both; }
-  .why-matters h4 { font-family: 'Bebas Neue', sans-serif; letter-spacing: 4px; font-size: 0.85rem; color: var(--red); margin-bottom: 10px; }
-  .why-matters p { font-size: 0.97rem; line-height: 1.8; color: rgba(245,237,216,0.72); margin: 0; }
-  .connected-section { margin: 36px 0; animation: fadeUp 0.5s ease 0.3s both; }
-  .connected-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-top: 18px; }
-  .connected-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; text-decoration: none; display: block; transition: all 0.2s; position: relative; overflow: hidden; }
-  .connected-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, var(--red), var(--gold)); }
-  .connected-card:hover { border-color: rgba(212,160,23,0.5); transform: translateY(-2px); }
-  .connected-type { font-size: 0.6rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.55); margin-bottom: 5px; }
-  .connected-name { font-family: 'Playfair Display', serif; font-size: 0.95rem; font-weight: 700; color: var(--white); line-height: 1.3; margin-bottom: 4px; }
-  .connected-desc { font-size: 0.78rem; color: rgba(245,237,216,0.45); line-height: 1.5; }
-  .quiz-link-card { background: linear-gradient(135deg, rgba(196,30,58,0.12), rgba(139,0,0,0.06)); border: 1px solid rgba(196,30,58,0.3); border-radius: 12px; padding: 18px 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; text-decoration: none; transition: all 0.2s; margin-top: 12px; }
-  .quiz-link-card:hover { border-color: var(--red); transform: translateY(-2px); }
-  .quiz-link-label { font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(196,30,58,0.7); margin-bottom: 4px; }
-  .quiz-link-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--white); }
-  .quiz-link-arrow { color: var(--red); font-size: 1.4rem; flex-shrink: 0; }
-  .external-section { margin: 36px 0; animation: fadeUp 0.5s ease 0.35s both; }
-  .external-links { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
-  .ext-link { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; text-decoration: none; transition: all 0.2s; }
-  .ext-link:hover { border-color: rgba(212,160,23,0.5); transform: translateX(4px); }
-  .ext-source { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(212,160,23,0.5); margin-bottom: 3px; }
-  .ext-title { font-size: 0.9rem; color: var(--cream); line-height: 1.35; }
-  .ext-arrow { color: var(--gold); opacity: 0.6; font-size: 1rem; flex-shrink: 0; }
-  .back-nav { display: flex; align-items: center; gap: 10px; margin-bottom: 32px; animation: fadeUp 0.4s ease both; }
-  .back-btn { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.04); border: 1px solid rgba(212,160,23,0.2); border-radius: 100px; padding: 8px 18px; color: rgba(245,237,216,0.6); font-size: 0.78rem; letter-spacing: 1.5px; text-decoration: none; transition: all 0.2s; }
-  .back-btn:hover { color: var(--gold); border-color: var(--gold); background: rgba(212,160,23,0.06); }
-  footer { position: relative; z-index: 1; border-top: 1px solid rgba(212,160,23,0.15); padding: 28px 32px; text-align: center; }
-  footer p { font-size: 0.72rem; color: rgba(245,237,216,0.28); letter-spacing: 2px; }
-  footer a { color: var(--gold); text-decoration: none; }
-  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-  @media (max-width: 620px) { .header-inner { padding: 12px 16px; } nav a { padding: 10px 12px; font-size: 0.72rem; } main { padding: 24px 16px 80px; } .breadcrumb { padding: 16px 16px 0; } .entry-name { font-size: 2rem; } .connected-grid { grid-template-columns: 1fr; } }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="mansa-musa">
-
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-<header><div class="header-inner"><a href="/" class="logo">Black History <span>in Real Time</span></a></div></header>
-<nav>
-  <a href="/">Daily Quiz</a>
-  <a href="/encyclopedia.html" class="active">Encyclopedia</a>
-  <a href="/#calendar">Calendar</a>
-  <a href="/#archive">Archive</a>
-</nav>
-<div class="breadcrumb">
-  <a href="../encyclopedia.html">Encyclopedia</a>
-  <span>›</span>
-  <span style="color:rgba(245,237,216,0.5)">Mansa Musa</span>
-</div>
-
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
 <main>
-  <div class="back-nav"><a href="../encyclopedia.html" class="back-btn">← Back to Encyclopedia</a></div>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>February 4 &middot; Hidden Wealth</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
 
   <div class="entry-hero">
-    <div class="entry-vol-label">February 4 · Volume I · Empires &amp; Power</div>
-    <h1 class="entry-name">Mansa Musa</h1>
-    <p class="entry-tagline">Emperor of the Mali Empire — the wealthiest person in recorded human history, whose 1324 pilgrimage to Mecca crashed an entire regional economy and put Africa on the map of the medieval world.</p>
+    <div class="entry-vol-label">February 4 &middot; Hidden Wealth</div>
+    <h1>Mansa Musa</h1>
+    <p class="entry-tagline">Mansa Musa is often introduced as the richest person in history, but that modern ranking can distract from the better question: what kind of power made his wealth possible? Musa I ruled the Mali Empire in the fourteenth century, when West African gold, Saharan salt, Niger River trade, Islamic scholarship, and imperial administration tied Mali to a wider world. His 1324 pilgrimage to Mecca made him famous from Cairo to Europe because he traveled with extraordinary gold and generosity. Yet the story is not only about a rich king crashing a market. It is about African sovereignty, trade networks, scholarship, architecture, manuscripts, and the way European maps recorded West African power before later myths tried to erase it.</p>
     <div class="entry-badges">
-      <span class="badge badge-dates">c. 1280 — c. 1337</span>
-      <span class="badge badge-cat">People</span>
-      <span class="badge badge-vol">February Volume</span>
+      <span class="badge">People</span>
+      <span class="badge">c. 1280 - c. 1337</span>
     </div>
+    <div class="hero-bar"></div>
   </div>
 
   <div class="timeline-strip">
-    <div class="timeline-item">
-      <div class="tl-year">~1280</div>
-      <div class="tl-event">Born into the royal lineage of the Mali Empire, grandson or grandnephew of Sundiata, its founder</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1312</div>
-      <div class="tl-event">Becomes mansa (emperor) of the Mali Empire after his predecessor vanishes on a sea voyage</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1324</div>
-      <div class="tl-event">Departs for Mecca on the Hajj with a caravan of 60,000 people and 80 camels loaded with gold</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1324</div>
-      <div class="tl-event">Distributes so much gold in Cairo and along the route that Egypt's economy takes 12 years to recover</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1327</div>
-      <div class="tl-event">Commissions the Djinguereber Mosque at Timbuktu; transforms the city into a global center of learning</div>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-year">1375</div>
-      <div class="tl-event">Depicted in the Catalan Atlas — one of the most important maps of the medieval world — seated on a throne holding a gold nugget</div>
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">c. 1230s</div><div class="tl-event">Sundiata Keita establishes the Mali Empire, according to historical and oral traditions.</div></div>
+<div class="tl-item"><div class="tl-date">c. 1280</div><div class="tl-event">Musa is likely born in the Mali Empire, though exact birth details are uncertain.</div></div>
+<div class="tl-item"><div class="tl-date">1312</div><div class="tl-event">Mansa Musa begins ruling Mali, according to common historical chronology.</div></div>
+<div class="tl-item"><div class="tl-date">1324</div><div class="tl-event">Begins his pilgrimage to Mecca, traveling through Cairo with a large royal caravan.</div></div>
+<div class="tl-item"><div class="tl-date">1324-1325</div><div class="tl-event">His spending and gifts in Cairo become famous in Arabic accounts and later historical memory.</div></div>
+<div class="tl-item"><div class="tl-date">1320s-1330s</div><div class="tl-event">Supports mosques, scholarship, and building projects associated with Timbuktu and other cities.</div></div>
+<div class="tl-item"><div class="tl-date">1337</div><div class="tl-event">Commonly cited approximate end of Musa&#039;s reign.</div></div>
+<div class="tl-item"><div class="tl-date">1375</div><div class="tl-event">The Catalan Atlas depicts Mansa Musa holding gold, signaling Mali&#039;s fame in Europe.</div></div>
+<div class="tl-item"><div class="tl-date">1400s</div><div class="tl-event">Mali&#039;s regional dominance weakens as political and trade conditions change.</div></div>
     </div>
   </div>
 
   <div class="bio-section">
-    <div class="section-title">Full Biography</div>
-    <div class="bio-body">
-      <p>Mansa Musa — Musa I of Mali — came to the throne of the Mali Empire around 1312 under unusual circumstances. His predecessor, the ruler Abu-Bakr II, had become obsessed with sailing westward to find the edge of the Atlantic Ocean, and outfitted a fleet of thousands of boats for the voyage. None of them returned. Abu-Bakr II had served as the ruler while Musa was his deputy, and when the fleet disappeared, Musa inherited the throne of one of the largest empires in the world. The Mali Empire at this time stretched from the Atlantic coast of West Africa eastward to the trading city of Gao on the Niger River, and controlled the most important gold and salt trade routes in the known world. Under Musa's reign, it would grow even larger.</p>
-
-      <p>The Mali Empire's wealth was not incidental. Gold from the mines of Bambuk and Bondu flowed northward through trans-Saharan trade routes that the empire controlled, reaching Egypt, North Africa, and from there the Mediterranean world. Salt, equally valuable, moved in the opposite direction. Musa taxed every ounce of gold and salt that passed through his territory, and the accumulation of that wealth over decades made the Mali Empire the largest single source of gold in the known world. Modern economists who have tried to calculate his actual wealth have arrived at figures as high as $400 billion in today's dollars, though comparisons across centuries are inherently imprecise. What is clear is that no person before or since has controlled a comparable fraction of the world's known resources at a single time.</p>
-
-      <p>In 1324, as a devout Muslim, Musa set out on the Hajj — the pilgrimage to Mecca that is one of the five pillars of Islam. He did not travel quietly. His caravan was composed of approximately 60,000 people, including soldiers, servants, heralds, and attendants. He traveled with 12,000 enslaved people, each carrying four pounds of gold dust. He traveled with 80 camels, each carrying 300 pounds of raw gold. The caravan moved through what is now Mali, Mauritania, Senegal, and into North Africa. When it arrived in Cairo, it was an event that the city's chroniclers would be writing about for generations. Musa's encounter with Cairo's ruler, al-Malik al-Nasir, was complicated by a matter of protocol: Musa was unwilling to prostrate himself before another king. He eventually agreed to a compromise bow, but the tension revealed something important — he understood himself as an equal sovereign, not a supplicant.</p>
-
-      <p>Over the weeks he spent in and around Cairo, and continuing along the pilgrimage route, Musa gave away gold so freely and in such quantities that the price of gold in Egypt crashed. Flooded with suddenly abundant gold, the metal lost value, and the Egyptian economy took 12 years to stabilize. He gave gold to mosques, to the poor, to merchants, to dignitaries. He commissioned buildings. He paid for scholars to return with him to Timbuktu. One of those scholars, the Andalusian architect and poet Abu Ishaq al-Sahili, designed the Djinguereber Mosque in Timbuktu — a structure still standing today — for which Musa reportedly paid 200 kilograms of gold. He brought back knowledge, books, and teachers that transformed Timbuktu from an important commercial city into one of the intellectual centers of the Islamic world, home to what became the University of Sankore, the oldest university in Sub-Saharan Africa.</p>
-
-      <p>Musa probably died around 1332 or 1337. By the time the Catalan Atlas was drawn in 1375 on the island of Majorca, he had become famous enough that the mapmakers placed him at the center of West Africa, illustrated on a throne, holding a golden orb, with text describing him as "the richest and most noble king in all the land." European cartographers were drawing him not from imagination but from firsthand accounts of what had happened in Cairo in 1324. The Mali Empire declined after his death, weakened by succession disputes, Tuareg raids, and eventually the rise of the Songhai Empire. But the scholarship and architecture he commissioned outlasted the empire itself.</p>
-    </div>
+    <div class="section-title">Full Story</div>
+<p>Mansa Musa ruled the Mali Empire in the fourteenth century, but the empire&#039;s power was older than him. Mali rose in West Africa after the era of Ghana and was associated with Sundiata Keita, whose story survives through written sources and oral traditions. The empire sat near crucial trade routes linking the savanna, forest zones, Sahara, North Africa, and the wider Islamic world. Gold and salt were central, but so were taxation, military power, diplomacy, and control over cities and routes.</p>
+<p>The title &quot;mansa&quot; means ruler or king. Musa came to the throne around 1312 in many historical chronologies. Some accounts describe his predecessor leaving on an Atlantic expedition and not returning, but that story comes through later Arabic reporting and should be handled carefully. What is clearer is that under Musa, Mali was rich, powerful, and connected. It controlled access to major gold-producing regions and benefited from trans-Saharan trade.</p>
+<p>Gold made Mali famous, but the economy was not a cartoon pile of treasure. Trade moved through complex systems involving merchants, caravan routes, river towns, taxes, credit, and political protection. Salt from the Sahara, gold from West African fields, textiles, horses, copper, books, enslaved people, kola nuts, and other goods moved through the region. Musa&#039;s wealth came from governing and taxing a world of movement.</p>
+<p>In 1324, Musa made the pilgrimage to Mecca. For a Muslim ruler, the hajj was a religious obligation and a public act of legitimacy. For Musa, it also became a diplomatic and economic event. His caravan traveled through Cairo, and Arabic accounts describe enormous quantities of gold, attendants, officials, and gifts. The details vary by source and can become exaggerated in retellings, but the impression is consistent: Cairo had never seen anything quite like the ruler of Mali arriving with such wealth.</p>
+<p>His spending became famous because it affected markets. Later historians report that Musa gave away and spent so much gold that the value of gold in Cairo dropped and took years to recover. Modern versions often turn this into a joke about one man crashing an economy. The better reading is that West African gold was not peripheral to the medieval world. Mali&#039;s resources were significant enough that a ruler&#039;s pilgrimage could be remembered in Mediterranean economic history.</p>
+<p>Musa&#039;s pilgrimage also changed how Mali appeared to outsiders. News of the wealthy West African ruler traveled. In the 1375 Catalan Atlas, Mansa Musa appears seated with gold in hand. The image is European and therefore not neutral, but it is evidence that medieval Europeans knew of West African power and associated Mali with gold and sovereignty. That matters because later colonial stories often pretended Africa had no major states, scholarship, or wealth before Europe arrived.</p>
+<p>After the pilgrimage, Musa is associated with building, scholarship, and Islamic learning. Timbuktu became one of the most famous centers of commerce and scholarship in West Africa. The Library of Congress notes that Timbuktu&#039;s manuscript culture and scholarly networks made it important across the Islamic world. Musa is often linked to mosques and educational patronage, though individual building claims can be hard to separate from later tradition. Careful history should say he helped strengthen the conditions that made these centers flourish rather than imagining he created everything alone.</p>
+<p>Mali was also an empire, and empire requires honest language. It organized power across diverse peoples and territories, used military force, collected tribute and taxes, and participated in systems that included slavery. Admiring African sovereignty should not mean pretending imperial power was gentle. Musa&#039;s rule belongs to the history of African achievement and to the history of states that concentrated wealth and authority.</p>
+<p>The modern claim that Mansa Musa was the richest person who ever lived is difficult to prove precisely. Wealth across centuries cannot be converted cleanly into today&#039;s dollars. The often-repeated dollar estimates are speculative and can mislead. What can be said with confidence is that he was one of the most spectacularly wealthy rulers known to medieval observers, and that his wealth reflected Mali&#039;s control of gold and trade networks central to the world economy.</p>
+<p>Mansa Musa matters because his story restores scale. Africa was not waiting outside history. Mali was governing, trading, building, studying, taxing, traveling, and appearing on maps. Musa&#039;s gold catches attention, but the deeper treasure is what the gold reveals: a connected West African empire whose power was visible to the world long before the world chose to forget.</p>
   </div>
 
   <div class="pull-quote">
-    <p>"He is the richest and most noble king in all the land. Gold is found in great abundance in his country."</p>
-    <cite>— Caption on the 1375 Catalan Atlas, describing Mansa Musa — drawn by European mapmakers 40 years after his death</cite>
+    <div class="pq-bar"></div>
+    <blockquote>This Black ruler is named Musa of Mali, lord of Guinea.</blockquote>
+    <cite>Catalan Atlas caption, 1375, discussed by the British Library</cite>
   </div>
 
-  <div class="why-matters">
-    <h4>Why This Matters</h4>
-    <p>The standard Western historical narrative treats Africa as a continent that received civilization rather than produced it. Mansa Musa is a direct, documented, mathematically verifiable refutation of that narrative. In 1324, while Europe was struggling through wars, plagues, and economic instability, an African emperor walked through Cairo with so much gold that he accidentally broke the Mediterranean economy for over a decade. He funded the construction of a university in Timbuktu that was producing scholars at a time when most of Europe's universities didn't yet exist. His empire controlled more of the world's wealth than any European nation. This isn't mythology or Afrocentric speculation — it's in the historical record, in the Catalan Atlas, in the chronicles of Arab scholars who witnessed his pilgrimage firsthand. The reason most people don't know this is not because the history doesn't exist. It's because of which histories get taught.</p>
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The impact of Mansa Musa&#039;s rule was global visibility for Mali. His pilgrimage broadcast West African wealth through Cairo, Mecca, and eventually Europe. It strengthened diplomatic and religious ties, supported scholarly exchange, and helped attach Timbuktu and Mali to world memory. The Catalan Atlas image shows that medieval Europe could picture African kingship as wealthy and sovereign.</p>
+<p>The cost is more complex because imperial wealth was not equally shared. Mali&#039;s power depended on taxation, hierarchy, labor, military authority, and trade systems that included enslaved people. A serious page should not replace racist erasure with fantasy. Musa&#039;s empire was historically significant because it was powerful, not because it was perfect.</p>
   </div>
 
-  <div class="section-divider"><span>Connections</span></div>
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Mansa Musa matters today because the popular version, &quot;richest man ever,&quot; is both useful and inadequate. It grabs attention, then risks turning African history into trivia. The real lesson is that West Africa was central to medieval trade, scholarship, and state power.</p>
+<p>His story also helps challenge colonial myths. European mapmakers, Arab historians, and surviving manuscript traditions all point to African complexity long before modern colonialism. Africa did not enter world history through European arrival. Europe entered long-running African histories of trade, religion, diplomacy, and knowledge.</p>
+<p>Readers should leave with a sharper question than &quot;How rich was he?&quot; The better question is &quot;What systems made Mali powerful, and why was that power later minimized?&quot; That question teaches more than any dollar estimate can.</p>
+  </div>
 
+  <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-
-    <a href="../index.html?day=2026-02-04" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz · February 4</div>
-        <div class="quiz-link-title">Test your knowledge on Mansa Musa</div>
+    <a href="../index.html?day=2026-02-04" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; February 4</div>
+        <div class="quiz-card-title">Open the daily challenge for Mansa Musa</div>
       </div>
-      <span class="quiz-link-arrow">✊🏾</span>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"><!-- connections auto-generated by encyclopedia-data.js --></div>
-  </div>
-
-  <div class="section-divider"><span>Learn More</span></div>
-
-  <div class="external-section">
-    <div class="section-title">External Links</div>
-    <div class="external-links">
-      <a href="https://www.history.com/articles/who-was-the-richest-man-in-history-mansa-musa" target="_blank" rel="noopener" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">HISTORY.com</div>
-          <div class="ext-title">This 14th-Century African Emperor Remains the Richest Person in History</div>
-        </div>
-        <span class="ext-arrow">↗</span>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/enslaved-labor.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Enslaved Labor &amp; American Infrastructure</div>
+        <div class="connected-desc">Contrasts African wealth and state power with later systems of stolen Black labor.</div>
       </a>
-      <a href="https://www.britannica.com/biography/Musa-I-of-Mali" target="_blank" rel="noopener" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">Encyclopaedia Britannica</div>
-          <div class="ext-title">Mūsā I of Mali — empire, pilgrimage, and legacy</div>
-        </div>
-        <span class="ext-arrow">↗</span>
+<a href="../encyclopedia/hbcus.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">HBCUs</div>
+        <div class="connected-desc">Links Timbuktu&#039;s scholarly reputation to later Black institution-building around education.</div>
       </a>
-      <a href="https://www.smithsonianmag.com/smart-news/richest-man-who-ever-lived-180971409/" target="_blank" rel="noopener" class="ext-link">
-        <div class="ext-left">
-          <div class="ext-source">Smithsonian Magazine</div>
-          <div class="ext-title">New Exhibition Highlights the Story of the Richest Man Who Ever Lived</div>
-        </div>
-        <span class="ext-arrow">↗</span>
+<a href="../generated/pages/web-du-bois.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">W.E.B. Du Bois</div>
+        <div class="connected-desc">Connects African history to later Black scholarship and global historical imagination.</div>
+      </a>
+<a href="../encyclopedia/tulsa-massacre.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Tulsa Race Massacre</div>
+        <div class="connected-desc">Places Mansa Musa beside another page about Black wealth, memory, and erasure.</div>
       </a>
     </div>
   </div>
 
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.metmuseum.org/toah/hd/gold/hd_gold.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">The Metropolitan Museum of Art</div>
+          <div class="ext-title">The Trans-Saharan Gold Trade</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/collections/islamic-manuscripts-from-mali/articles-and-essays/timbuktu-an-islamic-cultural-center/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Timbuktu: An Islamic Cultural Center</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.bl.uk/stories/blogs/posts/african-kings-on-medieval-and-renaissance-maps" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">British Library</div>
+          <div class="ext-title">African Kings on Medieval and Renaissance Maps</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://openstax.org/books/world-history-volume-1/pages/15-2-medieval-sub-saharan-africa" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">OpenStax</div>
+          <div class="ext-title">Medieval Sub-Saharan Africa</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.worldhistory.org/Mansa_Musa_I/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">World History Encyclopedia</div>
+          <div class="ext-title">Mansa Musa I</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-
 <footer>
-  <p>© 2026 <a href="/">Black History in Real Time</a> · <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> · History happens every day 📚✊🏾</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

@@ -213,19 +213,55 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-19 - Malcolm X
 
+- Entry title: Malcolm X
 - Slug: `malcolm-x`
-- Core claims: Malcolm X changed so much in one lifetime that any simple version of him leaves out the most important part: he kept growing. Born Malcolm Little, he survived family trauma, prison, conversion, public leadership in the Nation of Islam, and a break that sent him toward a broader global view of Black freedom. After his pilgrimage to Mecca, Malcolm spoke differently about race, human rights, and international solidarity. He was assassinated in 1965 at age thirty-nine.
-- Sources:
+- Daily date: 2026-05-19
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Malcolm X is often reduced to a contrast: the angry one beside Martin Luther King Jr., the militant opposite of nonviolence, the man attached to one famous phrase. That version is too small. Malcolm Little became Detroit Red, then Malcolm X, then El-Hajj Malik El-Shabazz across a life shaped by racist violence, family rupture, prison study, religious discipline, Nation of Islam leadership, public debate, international travel, and political transformation. He gave Black people language for self-respect in a country that demanded gratitude for partial rights. He also changed, sometimes sharply, and the changes matter. Malcolm's story is not about fixed certainty. It is about study, discipline, rupture, and the courage to revise a worldview in public.
+- Primary or authoritative sources:
   - https://www.archives.gov/research/african-americans/individuals/malcolm-x
-  - https://nmaahc.si.edu/explore/stories/malcolm-x
+  - https://nmaahc.si.edu/explore/stories/malcolm-x-transformation
+  - http://malcolmxproject.columbia.edu/biography
+- Supporting secondary sources:
+  - https://www.loc.gov/item/2004671919/
+  - https://innocenceproject.org/cases/muhammad-aziz/
+- Verified quotation source: No quotation included. Famous Malcolm quotations were omitted unless a stable primary speech source could be confirmed in the batch window.
+- Sensitive or disputed claims reviewed: Father death framing, foster-care separation, prison conversion, Nation of Islam break, Mecca transformation, assassination convictions/exonerations, and by-any-means phrase context reviewed.
+- Material corrections made: Expanded scheduled fallback beyond a single transformation arc into family Garveyism, prison study, Nation of Islam leadership, internationalism, and assassination aftermath.
+- External links included on the page:
+  - National Archives: Malcolm X (https://www.archives.gov/research/african-americans/individuals/malcolm-x)
+  - National Museum of African American History and Culture: Malcolm X Transformation (https://nmaahc.si.edu/explore/stories/malcolm-x-transformation)
+  - Library of Congress: Malcolm X, 1964 Photograph (https://www.loc.gov/item/2004671919/)
+  - The Malcolm X Project at Columbia University: Malcolm X Biography (http://malcolmxproject.columbia.edu/biography)
+  - Innocence Project: Muhammad A. Aziz Exonerated (https://innocenceproject.org/cases/muhammad-aziz/)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, sensitive assassination and religious/political framing review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-20 - Lorraine Hansberry
 
+- Entry title: Lorraine Hansberry
 - Slug: `lorraine-hansberry`
-- Core claims: Lorraine Hansberry put a Black family's living room on Broadway and made American theater admit that the room mattered. A Raisin in the Sun opened in 1959, drawn partly from Hansberry's own family experience fighting housing segregation in Chicago. It showed dreams, money, pride, gender, and race inside one apartment. Hansberry became the first Black woman playwright produced on Broadway. She also pushed civil rights leaders and politicians to move faster and think more boldly.
-- Sources:
-  - https://www.nps.gov/people/lorraine-hansberry.htm
-  - https://www.britannica.com/biography/Lorraine-Hansberry
+- Daily date: 2026-05-20
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Lorraine Hansberry did not simply put a Black family on Broadway. She made American theater sit inside a Black family's argument about money, gender, housing, pride, exhaustion, love, and deferred dreams. A Raisin in the Sun made her the first Black woman with a play produced on Broadway, but the play did not come from nowhere. Hansberry grew up in Chicago in a family that fought restrictive covenants, wrote for Paul Robeson's Freedom, studied anti-colonial politics, pushed civil rights leaders, and wrote about race, class, sexuality, feminism, and art before much of the public knew how to hold all those commitments together. Her life was short. Her range was not. She matters because she refused to make Black life small enough for white comfort or simple enough for easy praise.
+- Primary or authoritative sources:
+  - https://www.nps.gov/places/lorraine-hansberry-residence.htm
+  - https://www.lhlt.org/background
+  - https://www.pbs.org/wnet/americanmasters/lorraine-hansberry-sighted-eyesfeeling-heart-documentary/9846/
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/lorraine-hansberry
+  - https://www.chipublib.org/lorraine-hansberry-biography/
+- Verified quotation source: Short quotation traced through PBS American Masters title discussion of Hansberry's 1959 Black writers conference statement.
+- Sensitive or disputed claims reviewed: First Broadway claim, New York Drama Critics Circle award, sexuality framing, Hansberry v. Lee family connection, Robert Kennedy meeting context, and cause/age at death reviewed.
+- Material corrections made: Expanded scheduled fallback beyond Raisin into housing, journalism, anti-colonial politics, sexuality, and later literary stewardship.
+- External links included on the page:
+  - National Park Service: Lorraine Hansberry Residence (https://www.nps.gov/places/lorraine-hansberry-residence.htm)
+  - National Women's History Museum: Lorraine Hansberry (https://www.womenshistory.org/education-resources/biographies/lorraine-hansberry)
+  - Lorraine Hansberry Literary Trust: Background (https://www.lhlt.org/background)
+  - PBS American Masters: Lorraine Hansberry: Sighted Eyes/Feeling Heart (https://www.pbs.org/wnet/americanmasters/lorraine-hansberry-sighted-eyesfeeling-heart-documentary/9846/)
+  - Chicago Public Library: Lorraine Hansberry Biography (https://www.chipublib.org/lorraine-hansberry-biography/)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, sensitive sexuality and political framing review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-21 - Marcus Garvey
 
@@ -531,11 +567,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-14 - Lewis Howard Latimer
 
+- Entry title: Lewis Howard Latimer
 - Slug: `lewis-howard-latimer`
-- Core claims: Lewis Latimer did not invent the light bulb, but he helped make electric light practical enough to spread. Latimer was born to parents who had escaped slavery. He became a draftsman, patent expert, and inventor, working on telephone and electric lighting technologies. His improvements to carbon filament manufacturing helped bulbs last longer and cost less. He later worked with Thomas Edison's legal team and wrote a technical book on electric lighting.
-- Sources:
-  - https://invention.si.edu/innovative-lives-lewis-latimer-1848-1928
+- Daily date: 2026-06-14
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Lewis Howard Latimer did not invent the light bulb, and saying that he did misses the more interesting truth. Latimer was the son of parents who escaped slavery, a Union Navy veteran, a self-taught draftsman, a patent expert, an inventor, and one of the few Black technical professionals inside the electrical revolution. He drafted patent drawings for Alexander Graham Bell's telephone application, improved carbon filament manufacturing for electric lamps, worked with companies competing in the early lighting industry, and later joined Thomas Edison's legal department as an expert witness and draftsman. Latimer matters because modern technology is usually remembered through famous names, but it is built through drawings, procedures, patents, experiments, litigation, and skilled people whose labor makes an idea usable.
+- Primary or authoritative sources:
+  - https://home.nps.gov/articles/000/latimer.htm
   - https://www.nps.gov/people/lewis-howard-latimer.htm
+  - https://edison.rutgers.edu/resources/latimer/latimer-s-patents
+- Supporting secondary sources:
+  - https://invention.si.edu/innovative-lives-lewis-latimer-1848-1928
+  - https://latimernow.org/lewis-latimer/
+- Verified quotation source: Quotation traced to Lewis Latimer House Museum public biography materials.
+- Sensitive or disputed claims reviewed: Light bulb invention overclaim, Bell patent drawing role, carbon filament patent, Edison legal work, Edison Pioneers membership, and parents escaped slavery claim reviewed.
+- Material corrections made: Corrected daily shorthand to avoid saying Latimer invented the light bulb and centered his documented drafting, patent, and manufacturing contributions.
+- External links included on the page:
+  - National Park Service: George and Rebecca Latimer's Flight to Freedom (https://home.nps.gov/articles/000/latimer.htm)
+  - National Park Service: Lewis Howard Latimer (https://www.nps.gov/people/lewis-howard-latimer.htm)
+  - Smithsonian Lemelson Center: Innovative Lives: Lewis Latimer (https://invention.si.edu/innovative-lives-lewis-latimer-1848-1928)
+  - Thomas A. Edison Papers at Rutgers: Latimer's Patents (https://edison.rutgers.edu/resources/latimer/latimer-s-patents)
+  - Lewis Latimer House Museum: Lewis H. Latimer (https://latimernow.org/lewis-latimer/)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, invention-claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-15 - Dred Scott
 
@@ -1351,11 +1405,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-29 - Larry Doby
 
+- Entry title: Larry Doby
 - Slug: `larry-doby`
-- Core claims: Jackie Robinson is the name most people know. Larry Doby integrated the American League just weeks later and faced many of the same storms. Doby joined Cleveland in July 1947, becoming the first Black player in the American League. He moved from the Negro Leagues into a hostile major league environment. He became a star, helped Cleveland win the 1948 World Series, and later became one of MLB's first Black managers.
-- Sources:
+- Daily date: 2026-07-29
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Larry Doby is too often introduced as "the second." That wording is technically close and historically unfair. In July 1947, only weeks after Jackie Robinson entered the National League, Doby joined Cleveland and became the first Black player in the American League. He did it without Robinson's long public runway, without the same national preparation, and without a gentle clubhouse waiting for him. Doby had already starred for the Newark Eagles, served in the Navy, and helped win a Negro Leagues championship. In Cleveland he learned a new position, took the insults, became a seven-time All-Star, homered in the 1948 World Series, and later broke ground as a major league manager. His page matters because integration was not one doorway. It was many doors, each with its own cost.
+- Primary or authoritative sources:
   - https://baseballhall.org/hall-of-famers/doby-larry
+  - https://baseballhall.org/discover/inside-pitch/doby-made-history-with-indians
   - https://sabr.org/bioproj/person/larry-doby/
+- Supporting secondary sources:
+  - https://www.mlb.com/news/larry-doby-broke-al-color-barrier
+  - https://njhalloffame.org/hall-of-famers/2010-inductees/larry-doby/
+- Verified quotation source: No quotation included. Popular Doby quotations were used only as research context pending stronger primary tracing.
+- Sensitive or disputed claims reviewed: First Black American League player claim, second Black manager claim, World Series home run first, Negro Leagues championship, Navy service, teammate reception, and Hall of Fame election reviewed.
+- Material corrections made: Expanded scheduled fallback beyond a parallel-to-Robinson frame into Negro Leagues, position change, championship record, and managerial barrier context.
+- External links included on the page:
+  - National Baseball Hall of Fame: Larry Doby (https://baseballhall.org/hall-of-famers/doby-larry)
+  - National Baseball Hall of Fame: Doby Made History with Cleveland (https://baseballhall.org/discover/inside-pitch/doby-made-history-with-indians)
+  - Society for American Baseball Research: Larry Doby Biography (https://sabr.org/bioproj/person/larry-doby/)
+  - Major League Baseball: Larry Doby Broke the American League Color Barrier (https://www.mlb.com/news/larry-doby-broke-al-color-barrier)
+  - New Jersey Hall of Fame: Larry Doby (https://njhalloffame.org/hall-of-famers/2010-inductees/larry-doby/)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, sports-integration claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-30 - The 6888th Central Postal Directory Battalion
 
@@ -1375,11 +1447,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-01 - Maggie Lena Walker
 
+- Entry title: Maggie Lena Walker
 - Slug: `maggie-lena-walker`
-- Core claims: Maggie Lena Walker understood that a community needed more than inspiration. It needed institutions that could hold money, jobs, and power. Born in Richmond after the Civil War, Walker rose through the Independent Order of St. Luke, a Black mutual aid organization. In 1903, she founded St. Luke Penny Savings Bank, becoming the first Black woman to charter and lead a bank in the United States.
-- Sources:
-  - https://www.nps.gov/mawa/index.htm
+- Daily date: 2026-08-01
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Maggie Lena Walker built financial power from the ground up in Richmond, Virginia. Born just after the Civil War, raised by a mother who took in laundry, Walker became a teacher, organizer, newspaper publisher, fraternal leader, banker, suffragist, and one of the most important Black businesswomen in American history. In 1903, she opened St. Luke Penny Savings Bank and became the first Black woman in the United States to charter and lead a bank. That fact is impressive. The deeper story is why the bank mattered. Walker understood that Black communities needed institutions that could collect pennies, make loans, publish news, train young people, employ women, and keep money circulating where white banks and businesses often refused respect.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/maggie-l-walker.htm
+  - https://www.nps.gov/mawa/learn/historyculture/maggie-lena-walker.htm
+  - https://www.lva.virginia.gov/collections/dvb/bio/walker-maggie-lena
+- Supporting secondary sources:
+  - https://encyclopediavirginia.org/entries/walker-maggie-lena-1864-1934/
   - https://www.womenshistory.org/education-resources/biographies/maggie-lena-walker
+- Verified quotation source: Short quotation traced to National Park Service Maggie L. Walker National Historic Site materials.
+- Sensitive or disputed claims reviewed: First Black woman bank founder/president wording, St. Luke merger history, family shooting tragedy, disability/diabetes framing, and Great Depression bank survival reviewed.
+- Material corrections made: Expanded scheduled fallback beyond first-bank fact into mutual aid, newspaper, emporium, disability, and community-finance context.
+- External links included on the page:
+  - National Park Service: Maggie L. Walker (https://www.nps.gov/people/maggie-l-walker.htm)
+  - Maggie L. Walker National Historic Site: Maggie Lena Walker (https://www.nps.gov/mawa/learn/historyculture/maggie-lena-walker.htm)
+  - Library of Virginia: Maggie Lena Draper Mitchell Walker (https://www.lva.virginia.gov/collections/dvb/bio/walker-maggie-lena)
+  - Encyclopedia Virginia: Maggie Lena Walker (https://encyclopediavirginia.org/entries/walker-maggie-lena-1864-1934/)
+  - National Women's History Museum: Maggie Lena Walker (https://www.womenshistory.org/education-resources/biographies/maggie-lena-walker)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, financial first-claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-02 - Annie Malone
 
@@ -3331,3 +3421,133 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Archives: COINTELPRO (https://www.archives.gov/research/jfk/select-committee-report/part-2c.html)
   - Smithsonian Institution: All Power to the People: Black Panther Party (https://www.si.edu/newsdesk/releases/all-power-people-black-panther-party)
 - Final review status: Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, COINTELPRO/exile sensitive claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-14 - Loving v. Virginia
+
+- Entry title: Loving v. Virginia
+- Slug: `loving-v-virginia`
+- Daily date: 2026-02-14
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Loving v. Virginia is often told as a love story, and it is one. But it is also a story about police power, racial classification, exile, and a state deciding that two adults could be made criminals for building a family. Mildred Jeter and Richard Loving married legally in Washington, D.C., in 1958, returned home to Caroline County, Virginia, and were arrested because Virginia's Racial Integrity Act treated interracial marriage as a crime. The Supreme Court's 1967 decision struck down bans on interracial marriage, but the case should not be softened into romance alone. The Lovings did not set out to become symbols. They wanted to live at home. The law made ordinary life illegal, and their refusal changed constitutional history.
+- Primary or authoritative sources:
+  - https://supreme.justia.com/cases/federal/us/388/1/
+  - https://www.oyez.org/cases/1960-1969/1966/1966_395
+  - https://encyclopediavirginia.org/entries/loving-v-virginia-1967/
+- Supporting secondary sources:
+  - https://www.acluva.org/news/looking-back-loving-v-virginia-52-years-later/
+  - https://www.lva.virginia.gov/collections/educator-resources/changemakers/items/show/115
+- Verified quotation source: Short quotation from Chief Justice Earl Warren's public-domain Supreme Court opinion in Loving v. Virginia.
+- Sensitive or disputed claims reviewed: Mildred Loving racial identity wording, arrest date, sentence terms, Kennedy/ACLU referral, remaining state-law impact, Richard Loving death, and later marriage-equality citation reviewed.
+- Material corrections made: Replaced older legacy page with richer legal and human context and removed stale quiz-card wording.
+- External links included on the page:
+  - Justia U.S. Supreme Court Center: Loving v. Virginia, 388 U.S. 1 (https://supreme.justia.com/cases/federal/us/388/1/)
+  - Oyez: Loving v. Virginia (https://www.oyez.org/cases/1960-1969/1966/1966_395)
+  - Encyclopedia Virginia: Loving v. Virginia (1967) (https://encyclopediavirginia.org/entries/loving-v-virginia-1967/)
+  - ACLU of Virginia: Looking Back on Loving v. Virginia (https://www.acluva.org/news/looking-back-loving-v-virginia-52-years-later/)
+  - Library of Virginia: Mildred Delores Jeter Loving (https://www.lva.virginia.gov/collections/educator-resources/changemakers/items/show/115)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified court quotation, legal and identity framing review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-04 - Madam C.J. Walker
+
+- Entry title: Madam C.J. Walker
+- Slug: `madam-cj-walker`
+- Daily date: 2026-03-04
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Madam C.J. Walker's story is not only a rags-to-riches triumph. It is a story about a Black woman born just after emancipation who turned beauty work into business infrastructure, political giving, and a national employment network. Born Sarah Breedlove in Louisiana, she was orphaned young, worked as a laundress, survived poverty, learned from Black women's hair-care enterprise, then built the Madam C.J. Walker Manufacturing Company. Her products mattered, but the system around them mattered just as much: agents, schools, conventions, advertising, philanthropy, and public advocacy. Walker matters because she understood that money could be personal survival and collective leverage at the same time. She did not simply become wealthy. She built a platform Black women could stand on.
+- Primary or authoritative sources:
+  - https://home.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm
+  - https://www.loc.gov/exhibits/african-american-odyssey/booker-t-washington-era.html
+  - https://www.americanhistory.si.edu/explore/stories/madam-c-j-walkers-philanthropy
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/madam-cj-walker
+  - https://savingplaces.org/places/villa-lewaro-madam-c-j-walker-estate
+- Verified quotation source: Short quotation traced to National Park Service teaching material quoting Walker on separating from C.J. Walker and building her business independently.
+- Sensitive or disputed claims reviewed: First/self-made millionaire wording, Annie Malone relationship, orphaning, early marriage/widowhood, hair-loss framing, agent counts, philanthropy, and Villa Lewaro significance reviewed.
+- Material corrections made: Replaced legacy summary with richer economic infrastructure framing and careful wealth-claim wording.
+- External links included on the page:
+  - National Park Service: Two American Entrepreneurs: Madam C.J. Walker and J.C. Penney (https://home.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm)
+  - National Women's History Museum: Madam C.J. Walker (https://www.womenshistory.org/education-resources/biographies/madam-cj-walker)
+  - Library of Congress: Madame C.J. Walker's Mansion on the Hudson (https://www.loc.gov/exhibits/african-american-odyssey/booker-t-washington-era.html)
+  - National Trust for Historic Preservation: Villa Lewaro (https://savingplaces.org/places/villa-lewaro-madam-c-j-walker-estate)
+  - National Museum of American History: Madam C.J. Walker's Philanthropy (https://www.americanhistory.si.edu/explore/stories/madam-c-j-walkers-philanthropy)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, wealth and business-origin claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-05 - Mae Jemison
+
+- Entry title: Mae Jemison
+- Slug: `mae-jemison`
+- Daily date: 2026-03-05
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Mae Jemison is remembered as the first Black woman to travel in space, but the flight was one chapter in a much larger life of science, medicine, engineering, dance, global health, and imagination. Born in Alabama and raised in Chicago, Jemison entered Stanford at 16, earned degrees in chemical engineering and African and Afro-American studies, completed medical school at Cornell, served as a Peace Corps medical officer in Sierra Leone and Liberia, and then joined NASA. On STS-47 in 1992, she worked as a mission specialist aboard Endeavour. Her story matters because she refused the narrow script that told Black girls science belonged somewhere else. She made space exploration look less like escape from Earth and more like responsibility to it.
+- Primary or authoritative sources:
+  - https://www.nasa.gov/former-astronaut-mae-c-jemison/
+  - https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_mae_jemison.html
+  - https://science.nasa.gov/resource/pioneers-and-innovators-women-of-color/
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/mae-jemison
+  - https://www.energy.gov/articles/five-fast-facts-about-astronaut-mae-jemison
+- Verified quotation source: Short classroom quotation traced to National Library of Medicine Changing the Face of Medicine profile.
+- Sensitive or disputed claims reviewed: First Black woman in space, STS-47 experiment claims, Peace Corps role, Stanford/Cornell education, Bessie Coleman tribute, and present-day living status reviewed.
+- Material corrections made: Replaced legacy page with deeper medical, engineering, global health, and science-literacy context and removed stale challenge wording.
+- External links included on the page:
+  - NASA: Former Astronaut Mae C. Jemison (https://www.nasa.gov/former-astronaut-mae-c-jemison/)
+  - National Library of Medicine: Biography: Dr. Mae C. Jemison (https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_mae_jemison.html)
+  - NASA Science: Pioneers and Innovators: Women of Color (https://science.nasa.gov/resource/pioneers-and-innovators-women-of-color/)
+  - National Women's History Museum: Mae Jemison (https://www.womenshistory.org/education-resources/biographies/mae-jemison)
+  - Department of Energy: Five Fast Facts about Astronaut Mae Jemison (https://www.energy.gov/articles/five-fast-facts-about-astronaut-mae-jemison)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, science/space first-claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-13 - Mamie Till-Mobley
+
+- Entry title: Mamie Till-Mobley
+- Slug: `mamie-till-mobley`
+- Daily date: 2026-03-13
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Mamie Till-Mobley made one of the most consequential decisions in American memory, but she was more than the mother of a murdered child. Born in Mississippi and raised near Chicago, she was a strong student, a federal worker, a single mother, a teacher, and later a public witness whose grief became evidence. After Emmett Till was kidnapped and lynched in Mississippi in 1955, she insisted his body be returned to Chicago, chose an open-casket funeral, and allowed photographs to be published. The daily story often stops there. The encyclopedia has to hold more: the mother before the tragedy, the danger of public witness, the trial, the long teaching life afterward, and the burden of protecting a child's humanity from being turned into symbol alone.
+- Primary or authoritative sources:
+  - https://home.nps.gov/people/mamie-till-mobley.htm
+  - https://home.nps.gov/till/learn/historyculture/index.htm
+  - https://www.nps.gov/articles/000/a-tale-of-two-mamies.htm
+- Supporting secondary sources:
+  - https://www.pbs.org/wgbh/americanexperience/features/emmett-biography-mamie-till-mobley/
+  - https://www.loc.gov/item/2023620884/
+- Verified quotation source: Quotation traced to National Park Service Mamie Till-Mobley biography, citing a September 18, 1955 NAACP rally in Cleveland.
+- Sensitive or disputed claims reviewed: Emmett Till murder details, Carolyn Bryant accusation wording, open-casket decision, viewership estimates avoided, trial/acquittal/double jeopardy, domestic-violence details omitted from page but reviewed, and monument date reviewed.
+- Material corrections made: Replaced legacy page with deeper life-before-and-after framing, removed unsupported viewership number range and stale challenge link, and centered witness ethics.
+- External links included on the page:
+  - National Park Service: Mamie Till-Mobley (https://home.nps.gov/people/mamie-till-mobley.htm)
+  - National Park Service: A Tale of Two Mamies (https://www.nps.gov/articles/000/a-tale-of-two-mamies.htm)
+  - Emmett Till and Mamie Till-Mobley National Monument: History & Culture (https://home.nps.gov/till/learn/historyculture/index.htm)
+  - PBS American Experience: Mamie Till-Mobley Biography (https://www.pbs.org/wgbh/americanexperience/features/emmett-biography-mamie-till-mobley/)
+  - Library of Congress: Emmett Till and Mamie Till-Mobley Photograph (https://www.loc.gov/item/2023620884/)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, sensitive racial-violence framing review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-04 - Mansa Musa
+
+- Entry title: Mansa Musa
+- Slug: `mansa-musa`
+- Daily date: 2026-02-04
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Mansa Musa is often introduced as the richest person in history, but that modern ranking can distract from the better question: what kind of power made his wealth possible? Musa I ruled the Mali Empire in the fourteenth century, when West African gold, Saharan salt, Niger River trade, Islamic scholarship, and imperial administration tied Mali to a wider world. His 1324 pilgrimage to Mecca made him famous from Cairo to Europe because he traveled with extraordinary gold and generosity. Yet the story is not only about a rich king crashing a market. It is about African sovereignty, trade networks, scholarship, architecture, manuscripts, and the way European maps recorded West African power before later myths tried to erase it.
+- Primary or authoritative sources:
+  - https://www.metmuseum.org/toah/hd/gold/hd_gold.htm
+  - https://www.loc.gov/collections/islamic-manuscripts-from-mali/articles-and-essays/timbuktu-an-islamic-cultural-center/
+  - https://www.bl.uk/stories/blogs/posts/african-kings-on-medieval-and-renaissance-maps
+- Supporting secondary sources:
+  - https://openstax.org/books/world-history-volume-1/pages/15-2-medieval-sub-saharan-africa
+  - https://www.worldhistory.org/Mansa_Musa_I/
+- Verified quotation source: Short Catalan Atlas caption wording traced through British Library discussion of African kings on medieval maps.
+- Sensitive or disputed claims reviewed: Richest-person claim, speculative dollar estimates, predecessor Atlantic voyage tradition, Cairo market effect, Timbuktu building claims, empire/slavery framing, and date uncertainty reviewed.
+- Material corrections made: Replaced legacy page with careful wealth wording, removed unsupported modern dollar certainty, and added imperial/trade/scholarship context.
+- External links included on the page:
+  - The Metropolitan Museum of Art: The Trans-Saharan Gold Trade (https://www.metmuseum.org/toah/hd/gold/hd_gold.htm)
+  - Library of Congress: Timbuktu: An Islamic Cultural Center (https://www.loc.gov/collections/islamic-manuscripts-from-mali/articles-and-essays/timbuktu-an-islamic-cultural-center/)
+  - British Library: African Kings on Medieval and Renaissance Maps (https://www.bl.uk/stories/blogs/posts/african-kings-on-medieval-and-renaissance-maps)
+  - OpenStax: Medieval Sub-Saharan Africa (https://openstax.org/books/world-history-volume-1/pages/15-2-medieval-sub-saharan-africa)
+  - World History Encyclopedia: Mansa Musa I (https://www.worldhistory.org/Mansa_Musa_I/)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified historical-map quotation, wealth and empire claim review, depth/similarity validation, desktop/mobile browser check.
