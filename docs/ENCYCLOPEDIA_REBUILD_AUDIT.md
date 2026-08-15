@@ -97,13 +97,26 @@ Batch 7 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 7 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
 
+## Batch 8 Completed
+
+Completed pages: `education-inequality`, `edward-brooke`, `elijah-mccoy`, `elizabeth-keckley`, `ella-baker`.
+
+Batch 8 continued from row 62 with a five-entry checkpoint. It converted one legacy systems page, one stronger markdown-generated page, and three scheduled fallback pages into rich Claudette-style encyclopedia entries. It removed the unsourced Education Inequality pull quote, replaced empty auto-generated connections with researched internal links, corrected Elizabeth Keckley's stale NPS source URL, replaced an unreachable EdBuild source with a direct Education Law Center report, treated Elijah McCoy's "real McCoy" phrase origin as disputed rather than certain, and expanded Ella Baker beyond "behind the scenes" shorthand into a full account of participatory democratic organizing.
+
+Batch 8 verification:
+
+- External links checked: 21 total, 0 material failures. Two Smithsonian institutional links returned bot-blocking statuses (`403`) during automated checking but were retained because they are direct source pages already verified for subject relevance.
+- Browser rendering checked: 5 Batch 8 pages at desktop `1280x900` and mobile `390x844`, 10 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards, empty links, horizontal overflow, stale quiz wording, loading fallbacks, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 8 source/rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, and external-link verification passed before batch commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 63
-- REWRITE: 78
-- RESEARCH: 69
-- REBUILD: 83
+- PASS: 68
+- REWRITE: 75
+- RESEARCH: 67
+- REBUILD: 79
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -114,7 +127,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished entry: | 62 | Education Inequality by Design | encyclopedia/education-inequality.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+Next unfinished entry: | 67 | Ella Fitzgerald | encyclopedia/ella-fitzgerald.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -183,11 +196,11 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 59 | Duke Ellington | encyclopedia/duke-ellington.html | PASS | Batch 7 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 4 external links, Cotton Club/Strayhorn/Carnegie/cultural-diplomacy claim review, depth/similarity validation, external-link verification. |
 | 60 | Ed Temple | generated/pages/ed-temple.html | PASS | Batch 7 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified Tennessee Secretary of State quotation, Tigerbelles/Olympian/medal/HBCU claim review, stale Team USA source removed, depth/similarity validation, external-link verification. |
 | 61 | Edmonia Lewis | generated/pages/edmonia-lewis.html | PASS | Batch 7 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified Smithsonian quotation, birthplace/ancestry/Oberlin/death-date/Death of Cleopatra claim review, depth/similarity validation, external-link verification. |
-| 62 | Education Inequality by Design | encyclopedia/education-inequality.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 63 | Edward Brooke | generated/pages/edward-brooke.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 64 | Elijah McCoy | generated/pages/elijah-mccoy.html | RESEARCH, REBUILD | Markdown-generated page is stronger than fallback pages but still needs claim-by-claim verification, source ledger expansion, and Claudette visual/template alignment review. |
-| 65 | Elizabeth Keckley | generated/pages/elizabeth-keckley.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 66 | Ella Baker | generated/pages/ella-baker.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 62 | Education Inequality by Design | encyclopedia/education-inequality.html | PASS | Batch 8 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified Brown quotation, Rodriguez/Milliken/funding-gap claim review, removed unsourced pull quote, depth/similarity validation, external-link verification. |
+| 63 | Edward Brooke | generated/pages/edward-brooke.html | PASS | Batch 8 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, first senator/Fair Housing Act/ethics-context claim review, depth/similarity validation, external-link verification. |
+| 64 | Elijah McCoy | generated/pages/elijah-mccoy.html | PASS | Batch 8 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified patent quotation, patent/date/disputed phrase review, corrected "real McCoy" origin from certain to disputed, depth/similarity validation, external-link verification. |
+| 65 | Elizabeth Keckley | generated/pages/elizabeth-keckley.html | PASS | Batch 8 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified memoir quotation, self-purchase/Mary Lincoln/garment attribution/memoir backlash claim review, stale NPS source replaced, depth/similarity validation, external-link verification. |
+| 66 | Ella Baker | generated/pages/ella-baker.html | PASS | Batch 8 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external links, verified quotation, SNCC founding/NAACP/SCLC/gendered leadership claim review, depth/similarity validation, external-link verification. |
 | 67 | Ella Fitzgerald | encyclopedia/ella-fitzgerald.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 68 | Emmett Till | generated/pages/emmett-till.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 69 | Enslaved Labor & American Infrastructure | encyclopedia/enslaved-labor.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |

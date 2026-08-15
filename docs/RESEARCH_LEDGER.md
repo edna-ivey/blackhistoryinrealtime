@@ -1080,11 +1080,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-03 - Elizabeth Keckley
 
+- Entry title: Elizabeth Keckley
 - Slug: `elizabeth-keckley`
-- Core claims: Elizabeth Keckley bought her freedom with her needle, then sewed her way into the rooms where national power lived. Keckley was enslaved, became a skilled dressmaker, purchased freedom for herself and her son, and built a successful business in Washington, D.C. She became dressmaker and confidante to Mary Todd Lincoln and later published Behind the Scenes, a memoir that offered rare testimony from inside slavery and the White House.
-- Sources:
-  - https://www.nps.gov/people/elizabeth-keckley.htm
+- Daily date: 2026-08-03
+- Date researched: 2026-08-14
+- Writer/research status: batch-8-complete
+- Material factual claims: Elizabeth Keckley bought freedom with skilled labor, then used that labor to enter rooms where national power was being dressed, mourned, and remembered. Born enslaved in Virginia, she became a celebrated dressmaker, purchased freedom for herself and her son, built a Washington business serving elite women, became Mary Todd Lincoln's modiste and confidante, organized relief for formerly enslaved people, and published Behind the Scenes in 1868. The easy version calls her Mrs. Lincoln's dressmaker. The fuller story is sharper: Keckley turned sewing into money, testimony, philanthropy, and authorship, then paid heavily when white society decided that a Black woman's memory of the White House was too intimate for print.
+- Primary or authoritative sources:
   - https://docsouth.unc.edu/neh/keckley/keckley.html
+  - https://home.nps.gov/foth/learn/historyculture/elizabeth-keckly.htm
+- Supporting secondary sources:
+  - https://americanhistory.si.edu/explore/stories/elizabeth-keckly-businesswoman-and-philanthropist
+  - https://www.si.edu/object/mary-lincolns-dress%3Anmah_515922
+- Verified quotation source: Public-domain text of Behind the Scenes hosted by Documenting the American South.
+- Sensitive or disputed claims reviewed: Enslavement, self-purchase amount, son George, Mary Lincoln relationship, disputed garment attribution, memoir backlash, relief association work, and final years reviewed.
+- Material corrections made: Expanded scheduled fallback into a fuller account of slavery, skilled labor, self-purchase, business, relief work, authorship, backlash, and archival value.
+- External links included on the page:
+  - National Park Service: Elizabeth Keckly (https://home.nps.gov/foth/learn/historyculture/elizabeth-keckly.htm)
+  - Documenting the American South: Behind the Scenes by Elizabeth Keckley (https://docsouth.unc.edu/neh/keckley/keckley.html)
+  - National Museum of American History: Elizabeth Keckly: Businesswoman and Philanthropist (https://americanhistory.si.edu/explore/stories/elizabeth-keckly-businesswoman-and-philanthropist)
+  - Smithsonian Institution: Mary Lincoln's Dress (https://www.si.edu/object/mary-lincolns-dress%3Anmah_515922)
+- Final review status: Batch 8 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, verified memoir quotation, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-04 - Carl Stokes
 
@@ -1144,11 +1160,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-07 - Ella Baker
 
+- Entry title: Ella Baker
 - Slug: `ella-baker`
-- Core claims: Ella Baker did not want movements built around one famous leader. She trusted ordinary people to lead themselves. Baker worked with the NAACP, SCLC, and the young activists who formed SNCC. She emphasized grassroots organizing, local leadership, and patient relationship building. Her influence shaped the student sit-in movement and helped young organizers develop their own independent voice.
-- Sources:
-  - https://www.nps.gov/people/ella-baker.htm
-  - https://ellabakercenter.org/who-was-ella-baker/
+- Daily date: 2026-08-07
+- Date researched: 2026-08-14
+- Writer/research status: batch-8-complete
+- Material factual claims: Ella Baker did not build movements around applause. She built them around people learning to trust their own power. Born in Norfolk and raised in North Carolina, Baker worked through cooperatives, journalism, the NAACP, SCLC, and SNCC, leaving a deep imprint on the Black freedom struggle without chasing the spotlight. The famous line, strong people don't need strong leaders, is not a slogan for leaderlessness. It is a theory of democracy: ordinary people should not have to wait for a charismatic figure to act. Baker matters because she helps readers see organizing as craft, patience, listening, argument, travel, minutes, meetings, and the slow transfer of confidence from famous names to local people.
+- Primary or authoritative sources:
+  - https://snccdigital.org/people/ella-baker/
+  - https://www.loc.gov/exhibits/naacp/the-civil-rights-era.html
+- Supporting secondary sources:
+  - https://home.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm
+  - https://www.archives.gov/research/african-americans/black-power/sncc
+- Verified quotation source: SNCC Digital Gateway Ella Baker profile attributes the "strong people" line to Baker.
+- Sensitive or disputed claims reviewed: SNCC founding role, NAACP branch work, SCLC tensions, gendered leadership critique, participatory democracy framing, and later human-rights work reviewed.
+- Material corrections made: Expanded scheduled fallback into a fuller account of Baker's cooperative politics, NAACP organizing, SCLC critique, SNCC founding, and democratic leadership theory.
+- External links included on the page:
+  - SNCC Digital Gateway: Ella Baker (https://snccdigital.org/people/ella-baker/)
+  - Library of Congress: Ella Baker, Director of Branches (https://www.loc.gov/exhibits/naacp/the-civil-rights-era.html)
+  - National Park Service: Women in the African American Civil Rights Movement (https://home.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm)
+  - National Archives: The Student Nonviolent Coordinating Committee (https://www.archives.gov/research/african-americans/black-power/sncc)
+- Final review status: Batch 8 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, verified quotation, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-08 - The Greensboro Four
 
@@ -1232,11 +1264,27 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-14 - Edward Brooke
 
+- Entry title: Edward Brooke
 - Slug: `edward-brooke`
-- Core claims: Edward Brooke won a Senate seat from Massachusetts less than two years after the Voting Rights Act became law. In 1966, Brooke became the first Black U.S. senator elected by popular vote and the first Black senator since Reconstruction. He worked on fair housing, consumer protection, and ethics, navigating national politics as a Black Republican during the civil rights era.
-- Sources:
-  - https://history.house.gov/People/Listing/B/BROOKE,-Edward-William-(B000871)/
+- Daily date: 2026-08-14
+- Date researched: 2026-08-14
+- Writer/research status: batch-8-complete
+- Material factual claims: Edward Brooke's story complicates the neat party maps people use to explain Black politics. In 1966, Massachusetts elected him to the United States Senate, making him the first Black senator chosen by popular vote and the first Black senator since Reconstruction. He was a Republican, a World War II veteran, a former Massachusetts attorney general, and the only Black senator serving during some of the civil rights era's hardest national arguments. Brooke mattered because he entered a chamber built for white power and used a moderate, often bipartisan style to press for fair housing, ethics, consumer protection, transit, and voting rights. His career shows both the reach and the limits of being a historic first inside an institution that changes slowly.
+- Primary or authoritative sources:
   - https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Brooke.htm
+  - https://history.house.gov/People/Detail?id=9905
+- Supporting secondary sources:
+  - https://www.senate.gov/artandhistory/senate-stories/edward-brooke-of-massachusetts-the-bridge-builder.htm
+  - https://archives.hud.gov/remarks/preston/speeches/2008-09-23.cfm
+- Verified quotation source: House History, Art & Archives extended biography quoting Brooke after his 1966 Senate victory.
+- Sensitive or disputed claims reviewed: First popular-election claim, first Black senator since Reconstruction, party alignment, Fair Housing Act coauthorship, divorce/ethics scrutiny, and honors reviewed.
+- Material corrections made: Expanded scheduled fallback from a three-sentence milestone note into a fuller political biography with war service, Massachusetts politics, fair housing, party context, and limits of firsts.
+- External links included on the page:
+  - U.S. Senate Historical Office: Edward Brooke: Featured Biography (https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Brooke.htm)
+  - House History, Art & Archives: Edward William Brooke III (https://history.house.gov/People/Detail?id=9905)
+  - U.S. Senate Historical Office: Edward Brooke of Massachusetts: The Bridge Builder (https://www.senate.gov/artandhistory/senate-stories/edward-brooke-of-massachusetts-the-bridge-builder.htm)
+  - HUD Archives: Brooke-Mondale Auditorium Dedication Remarks (https://archives.hud.gov/remarks/preston/speeches/2008-09-23.cfm)
+- Final review status: Batch 8 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, verified quotation, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-15 - Maynard Jackson
 
@@ -2177,3 +2225,53 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Portrait Gallery: Duke Ellington (https://npg.si.edu/object/npg_NPG.92.58)
   - Library of Congress Music Blog: American Composers and Musicians from A to Z: Ellington, Duke (https://blogs.loc.gov/nls-music-notes/2018/05/american-composers-from-a-z-e-part-1-ellington-duke/)
 - Final review status: Batch 7 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-24 - Education Inequality by Design
+
+- Entry title: Education Inequality by Design
+- Slug: `education-inequality`
+- Daily date: 2026-02-24
+- Date researched: 2026-08-14
+- Writer/research status: batch-8-complete
+- Material factual claims: Education inequality in the United States is not only the afterlife of old segregation signs. It is built into maps, property values, school district boundaries, tax systems, court decisions, discipline policies, and the political habit of calling local control neutral. Brown v. Board said state-imposed segregation had no place in public education. It did not create a federal right to equal school funding, erase residential segregation, or stop communities with wealth from buying educational advantage through local property taxes. This page matters because the daily shorthand, ZIP code shapes opportunity, is true but not deep enough. The fuller story asks who drew the ZIP codes, who protected the tax base, and why children are still asked to overcome systems adults designed.
+- Primary or authoritative sources:
+  - https://www.archives.gov/milestone-documents/brown-v-board-of-education
+  - https://www.oyez.org/cases/1972/71-1332
+  - https://www.oyez.org/cases/1973/73-434
+- Supporting secondary sources:
+  - https://edtrust.org/press-room/nations-history-shortchanging-students-color-low-income-students-continues/
+  - https://edlawcenter.org/research/the-color-of-opportunity/
+- Verified quotation source: National Archives transcript of Brown v. Board of Education opinion.
+- Sensitive or disputed claims reviewed: Federal right to education claim, property-tax funding relationship, Brown and Brown II limits, Rodriguez holding, Milliken metropolitan remedy limits, and school-funding gap statistics reviewed.
+- Material corrections made: Removed an unsourced invented-style pull quote and replaced the legacy page with a sourced rich entry, explicit legal chronology, real internal connections, and verified external links.
+- External links included on the page:
+  - National Archives: Brown v. Board of Education (https://www.archives.gov/milestone-documents/brown-v-board-of-education)
+  - Oyez: San Antonio Independent School District v. Rodriguez (https://www.oyez.org/cases/1972/71-1332)
+  - Oyez: Milliken v. Bradley (https://www.oyez.org/cases/1973/73-434)
+  - Education Trust: Funding Gaps 2018 (https://edtrust.org/press-room/nations-history-shortchanging-students-color-low-income-students-continues/)
+  - Education Law Center: The Color of Opportunity (https://edlawcenter.org/research/the-color-of-opportunity/)
+- Final review status: Batch 8 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified Supreme Court quotation, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-02 - Elijah McCoy
+
+- Entry title: Elijah McCoy
+- Slug: `elijah-mccoy`
+- Daily date: 2026-02-02
+- Date researched: 2026-08-14
+- Writer/research status: batch-8-complete
+- Material factual claims: Elijah McCoy is often introduced through one phrase: the real McCoy. The phrase is memorable, but it can flatten the man. McCoy was born in Canada to parents who had escaped slavery, trained in mechanical engineering in Scotland, returned to the United States, and found that racism could shrink a trained engineer into railroad work below his qualifications. From that position, he designed lubrication systems that helped steam engines run longer without stopping. The stronger story is not just that he invented something useful. It is that Black technical skill kept building modern industry even when industry refused to hire Black engineers as engineers. His page also handles the famous phrase carefully, because its origin is widely repeated but disputed.
+- Primary or authoritative sources:
+  - https://patents.google.com/patent/US129843A/en
+  - https://www.nps.gov/articles/000/elijah-mccoy-inventor-of-the-real-mccoy.htm
+- Supporting secondary sources:
+  - https://www.invent.org/inductees/elijah-mccoy
+  - https://www.uspto.gov/about-us/news-updates/derris-banks-appointed-regional-director-usptos-elijah-j-mccoy-midwest
+- Verified quotation source: U.S. Patent No. 129,843 text hosted by Google Patents.
+- Sensitive or disputed claims reviewed: Parent escape from slavery, Scotland training, railroad job discrimination, first patent date and number, patent count, 1922 accident, 2012 USPTO office naming, and disputed "real McCoy" phrase origin reviewed.
+- Material corrections made: Reframed "real McCoy" attribution as disputed rather than certain, and expanded invention story beyond phrase lore into engineering, labor, patents, and exclusion.
+- External links included on the page:
+  - National Park Service: Elijah McCoy: Inventor of The Real McCoy (https://www.nps.gov/articles/000/elijah-mccoy-inventor-of-the-real-mccoy.htm)
+  - Google Patents: U.S. Patent No. 129,843: Improvement in Lubricators for Steam-Engines (https://patents.google.com/patent/US129843A/en)
+  - National Inventors Hall of Fame: Elijah McCoy (https://www.invent.org/inductees/elijah-mccoy)
+  - USPTO: Elijah J. McCoy Midwest Regional Office (https://www.uspto.gov/about-us/news-updates/derris-banks-appointed-regional-director-usptos-elijah-j-mccoy-midwest)
+- Final review status: Batch 8 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, verified patent quotation, depth/similarity validation, desktop/mobile browser check.

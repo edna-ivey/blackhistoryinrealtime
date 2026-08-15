@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Edward Brooke - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Edward Brooke won a Senate seat from Massachusetts less than two years after the Voting Rights Act became law.">
+<meta name="description" content="Edward Brooke&#039;s story complicates the neat party maps people use to explain Black politics. In 1966, Massachusetts elected him to the United States Senate, making him the first Black senator chosen by popular vote and the first Black senator since Reconstruction. He was a Republican, a World War II veteran, a former Massachusetts attorney general, and the only Black senator serving during some of the civil rights era&#039;s hardest national arguments. Brooke mattered because he entered a chamber built for white power and used a moderate, often bipartisan style to press for fair housing, ethics, consumer protection, transit, and voting rights. His career shows both the reach and the limits of being a historic first inside an institution that changes slowly.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="edward-brooke">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,151 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Edward Brooke</h2>
-  <div class="meta">
-    <span class="badge">1919 - 2015</span>
-    <span class="badge">Politics</span>
-    <span class="badge">2026-08-14</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>August 14 &middot; Politics</span>
   </div>
-  <article>
-    <p>Edward Brooke won a Senate seat from Massachusetts less than two years after the Voting Rights Act became law.</p><p>In 1966, Brooke became the first Black U.S. senator elected by popular vote and the first Black senator since Reconstruction.</p><p>He worked on fair housing, consumer protection, and ethics, navigating national politics as a Black Republican during the civil rights era.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Brooke matters because Black political history is broader than one party or region. Power has taken different routes in different moments.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">August 14 &middot; Politics</div>
+    <h1>Edward Brooke</h1>
+    <p class="entry-tagline">Edward Brooke&#039;s story complicates the neat party maps people use to explain Black politics. In 1966, Massachusetts elected him to the United States Senate, making him the first Black senator chosen by popular vote and the first Black senator since Reconstruction. He was a Republican, a World War II veteran, a former Massachusetts attorney general, and the only Black senator serving during some of the civil rights era&#039;s hardest national arguments. Brooke mattered because he entered a chamber built for white power and used a moderate, often bipartisan style to press for fair housing, ethics, consumer protection, transit, and voting rights. His career shows both the reach and the limits of being a historic first inside an institution that changes slowly.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1919 - 2015</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://history.house.gov/People/Listing/B/BROOKE,-Edward-William-(B000871)/" target="_blank" rel="noopener noreferrer">https://history.house.gov/People/Listing/B/BROOKE,-Edward-William-(B000871)/</a></li>
-<li><a href="https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Brooke.htm" target="_blank" rel="noopener noreferrer">https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Brooke.htm</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Oct 26, 1919</div><div class="tl-event">Born in Washington, D.C.</div></div>
+<div class="tl-item"><div class="tl-date">1941</div><div class="tl-event">Graduates from Howard University and enters the U.S. Army during World War II.</div></div>
+<div class="tl-item"><div class="tl-date">1948</div><div class="tl-event">Earns a law degree from Boston University.</div></div>
+<div class="tl-item"><div class="tl-date">1950</div><div class="tl-event">Begins running for office in Massachusetts after opening a law practice in Roxbury.</div></div>
+<div class="tl-item"><div class="tl-date">1961</div><div class="tl-event">Becomes chair of the Boston Finance Commission.</div></div>
+<div class="tl-item"><div class="tl-date">1962</div><div class="tl-event">Elected Massachusetts attorney general, the first African American elected to that office.</div></div>
+<div class="tl-item"><div class="tl-date">Nov 8, 1966</div><div class="tl-event">Wins election to the U.S. Senate from Massachusetts.</div></div>
+<div class="tl-item"><div class="tl-date">1968</div><div class="tl-event">Coauthors fair-housing legislation with Senator Walter Mondale during debate over the Civil Rights Act of 1968.</div></div>
+<div class="tl-item"><div class="tl-date">1972</div><div class="tl-event">Wins reelection to a second Senate term.</div></div>
+<div class="tl-item"><div class="tl-date">1978</div><div class="tl-event">Loses a reelection campaign shaped in part by divorce proceedings and ethics scrutiny.</div></div>
+<div class="tl-item"><div class="tl-date">2004</div><div class="tl-event">Receives the Presidential Medal of Freedom.</div></div>
+<div class="tl-item"><div class="tl-date">Jan 3, 2015</div><div class="tl-event">Dies in Florida and is later buried at Arlington National Cemetery.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-08-14">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Edward Brooke was born into segregated Washington, D.C., not into political inevitability. He attended Dunbar High School, one of the nation&#039;s strongest Black public high schools, then Howard University. When the United States entered World War II, Brooke served in the segregated 366th Infantry Regiment. The contradiction was immediate: Black soldiers were asked to fight fascism abroad while the Army and much of the country treated them as second-class citizens.</p>
+<p>Brooke&#039;s Army experience shaped his legal mind. He defended Black enlisted men in court-martial proceedings even before he had formal legal training. After the war he went to Boston University Law School, earned law degrees, and opened a practice in Roxbury. He did not rise through a machine built for Black candidates. Massachusetts politics was overwhelmingly white, and the Republican Party he joined had room for moderate reform politics but also required him to appeal across racial and ideological lines.</p>
+<p>His early campaigns failed. That matters because the historic Senate victory can make Brooke look inevitable. He ran for the Massachusetts legislature and lost. He ran for secretary of state in 1960 and lost narrowly in a campaign where race was impossible to miss, including a white opponent named Kevin White. Governor John Volpe then appointed Brooke to lead the Boston Finance Commission, a municipal watchdog body. Brooke used the post to investigate corruption and build a statewide reputation for competence.</p>
+<p>In 1962 he was elected Massachusetts attorney general. The House history office identifies him as the first African American elected as a state&#039;s attorney general. He built a public image around clean government, civil rights, and independence. He was not the movement&#039;s street organizer, and he sometimes criticized what he called militancy. That made him acceptable to many white voters, but it also placed him in tension with activists who believed pressure, disruption, and grassroots organizing were necessary because polite appeals had failed for generations.</p>
+<p>In 1966 Brooke ran for the U.S. Senate seat being vacated by Leverett Saltonstall. He defeated former governor Endicott Peabody and entered the Senate in January 1967. His election was nationally significant. Hiram Revels and Blanche K. Bruce had served during Reconstruction, but Brooke was the first Black senator elected by popular vote after the Seventeenth Amendment changed Senate elections. He was also the Senate&#039;s only Black member during years when Congress debated housing, poverty, war, voting, policing, and the meaning of civil rights after landmark legislation.</p>
+<p>Brooke&#039;s most important legislative work included fair housing. He joined Senator Walter Mondale in pushing what became the Fair Housing Act provisions of the Civil Rights Act of 1968. Housing discrimination was not a side issue. It shaped wealth, schooling, health, safety, and political power. The legislation faced strong opposition and compromise. The final law did not end housing discrimination, but it created a federal tool against discrimination in sale, rental, and financing.</p>
+<p>Brooke also worked on consumer protection, minimum wage, mass transit, low-income housing, and government ethics. He was a liberal to moderate Republican in an era before the party realignment hardened into the maps many readers know now. That position gave him room to work across party lines, but it also left him politically exposed as national politics changed. He supported civil rights while distrusting some forms of expansive government. He criticized President Nixon before many Republicans did, and he called for Nixon&#039;s resignation during Watergate.</p>
+<p>His career did not end cleanly. Brooke&#039;s divorce from Remigia Ferrari-Scacco became public and painful. Allegations about financial disclosures and statements during the proceedings fed ethics scrutiny. The Senate Ethics Committee found issues that damaged him politically even as the judgment was not the sort of grand corruption scandal that sometimes fills political memory. In 1978 he lost to Paul Tsongas.</p>
+<p>Brooke&#039;s life after the Senate included law practice, public service, honors, and the long afterlife of being a bridge figure. He received the Presidential Medal of Freedom in 2004 and the Congressional Gold Medal in 2008. His story should not be reduced to the first line in a trivia answer. Brooke shows how Black political power has moved through different parties, regions, temperaments, and strategies. He also shows the pressure placed on a single Black official to represent millions of people inside institutions still built around white assumptions.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>unite men who have not been united before</blockquote>
+    <cite>Edward Brooke, quoted by the House History office</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Brooke paid the cost of isolation in a national institution where he was often treated as a symbol before he was treated as a senator. He had to answer white voters&#039; comfort, civil rights activists&#039; urgency, party expectations, and national curiosity all at once. That is a heavy load for one officeholder.</p>
+<p>His impact was real but not magical. The Fair Housing Act gave federal law a new way to challenge discrimination, yet enforcement remained uneven and housing segregation persisted. Brooke&#039;s career widened the public imagination of Black elected leadership, but it also showed that representation inside the Senate does not automatically redistribute power outside it.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Brooke matters today because Black political history is broader than one party label. His career sits in a world before today&#039;s partisan alignment was fully settled, when Black voters, Black candidates, and civil rights issues moved through complicated coalitions.</p>
+<p>He also matters because fair housing remains unfinished work. School access, wealth gaps, transit, neighborhood health, and policing are all tied to where people are allowed to live and what public systems follow them there. Brooke understood housing as civil rights infrastructure.</p>
+<p>A reader should leave Brooke&#039;s page with a more flexible understanding of power. Firsts open doors, but they do not remove the walls. Brooke used the door he opened, and the institution still asked him to carry more meaning than one person should have to carry.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-08-14" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; August 14</div>
+        <div class="quiz-card-title">Open the daily challenge for Edward Brooke</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../generated/pages/voting-rights-act.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Voting Rights Act</div>
+        <div class="connected-desc">Places Brooke&#039;s Senate election in the national expansion and contest over Black political rights.</div>
+      </a>
+<a href="../../generated/pages/carl-stokes.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Carl Stokes</div>
+        <div class="connected-desc">Another 1960s breakthrough in Black electoral leadership and urban governance.</div>
+      </a>
+<a href="../../encyclopedia/black-women-in-politics.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Women in Politics</div>
+        <div class="connected-desc">Expands the story of representation beyond Senate firsts and party labels.</div>
+      </a>
+<a href="../../encyclopedia/barack-obama.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Barack Obama</div>
+        <div class="connected-desc">Connects Brooke to later national Black electoral milestones.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Brooke.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">U.S. Senate Historical Office</div>
+          <div class="ext-title">Edward Brooke: Featured Biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://history.house.gov/People/Detail?id=9905" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">House History, Art &amp; Archives</div>
+          <div class="ext-title">Edward William Brooke III</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.senate.gov/artandhistory/senate-stories/edward-brooke-of-massachusetts-the-bridge-builder.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">U.S. Senate Historical Office</div>
+          <div class="ext-title">Edward Brooke of Massachusetts: The Bridge Builder</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://archives.hud.gov/remarks/preston/speeches/2008-09-23.cfm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">HUD Archives</div>
+          <div class="ext-title">Brooke-Mondale Auditorium Dedication Remarks</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>
