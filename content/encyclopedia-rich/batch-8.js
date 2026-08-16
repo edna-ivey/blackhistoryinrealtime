@@ -146,8 +146,8 @@ const ENTRIES = [
   },
   {
     encyclopediaSlug: 'elijah-mccoy',
-    fullDate: '2026-02-02',
-    dailyDateLabel: 'February 2',
+    fullDate: '2026-05-02',
+    dailyDateLabel: 'May 2',
     subject: 'Elijah McCoy',
     category: 'Innovation',
     type: 'People',

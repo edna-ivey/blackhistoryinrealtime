@@ -2813,11 +2813,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Education Law Center: The Color of Opportunity (https://edlawcenter.org/research/the-color-of-opportunity/)
 - Final review status: Batch 8 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified Supreme Court quotation, depth/similarity validation, desktop/mobile browser check.
 
-### 2026-02-02 - Elijah McCoy
+### 2026-05-02 - Elijah McCoy
 
 - Entry title: Elijah McCoy
 - Slug: `elijah-mccoy`
-- Daily date: 2026-02-02
+- Daily date: 2026-05-02
 - Date researched: 2026-08-14
 - Writer/research status: batch-8-complete
 - Material factual claims: Elijah McCoy is often introduced through one phrase: the real McCoy. The phrase is memorable, but it can flatten the man. McCoy was born in Canada to parents who had escaped slavery, trained in mechanical engineering in Scotland, returned to the United States, and found that racism could shrink a trained engineer into railroad work below his qualifications. From that position, he designed lubrication systems that helped steam engines run longer without stopping. The stronger story is not just that he invented something useful. It is that Black technical skill kept building modern industry even when industry refused to hire Black engineers as engineers. His page also handles the famous phrase carefully, because its origin is widely repeated but disputed.
