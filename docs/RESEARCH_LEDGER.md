@@ -222,10 +222,10 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Primary or authoritative sources:
   - https://www.archives.gov/research/african-americans/individuals/malcolm-x
   - https://nmaahc.si.edu/explore/stories/malcolm-x-transformation
-  - http://malcolmxproject.columbia.edu/biography
+  - https://kinginstitute.stanford.edu/malcolm-x
 - Supporting secondary sources:
   - https://www.loc.gov/item/2004671919/
-  - https://innocenceproject.org/cases/muhammad-aziz/
+  - https://innocenceproject.org/news/historic-exonerations-muhammad-aziz-khalil-islam-1965-assassination-of-malcolm-x/
 - Verified quotation source: No quotation included. Famous Malcolm quotations were omitted unless a stable primary speech source could be confirmed in the batch window.
 - Sensitive or disputed claims reviewed: Father death framing, foster-care separation, prison conversion, Nation of Islam break, Mecca transformation, assassination convictions/exonerations, and by-any-means phrase context reviewed.
 - Material corrections made: Expanded scheduled fallback beyond a single transformation arc into family Garveyism, prison study, Nation of Islam leadership, internationalism, and assassination aftermath.
@@ -233,8 +233,8 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Archives: Malcolm X (https://www.archives.gov/research/african-americans/individuals/malcolm-x)
   - National Museum of African American History and Culture: Malcolm X Transformation (https://nmaahc.si.edu/explore/stories/malcolm-x-transformation)
   - Library of Congress: Malcolm X, 1964 Photograph (https://www.loc.gov/item/2004671919/)
-  - The Malcolm X Project at Columbia University: Malcolm X Biography (http://malcolmxproject.columbia.edu/biography)
-  - Innocence Project: Muhammad A. Aziz Exonerated (https://innocenceproject.org/cases/muhammad-aziz/)
+  - King Institute at Stanford University: Malcolm X (https://kinginstitute.stanford.edu/malcolm-x)
+  - Innocence Project: Historic Exonerations in the Malcolm X Assassination Case (https://innocenceproject.org/news/historic-exonerations-muhammad-aziz-khalil-islam-1965-assassination-of-malcolm-x/)
 - Final review status: Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, sensitive assassination and religious/political framing review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-20 - Lorraine Hansberry
@@ -574,21 +574,21 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Writer/research status: batch-15-complete
 - Material factual claims: Lewis Howard Latimer did not invent the light bulb, and saying that he did misses the more interesting truth. Latimer was the son of parents who escaped slavery, a Union Navy veteran, a self-taught draftsman, a patent expert, an inventor, and one of the few Black technical professionals inside the electrical revolution. He drafted patent drawings for Alexander Graham Bell's telephone application, improved carbon filament manufacturing for electric lamps, worked with companies competing in the early lighting industry, and later joined Thomas Edison's legal department as an expert witness and draftsman. Latimer matters because modern technology is usually remembered through famous names, but it is built through drawings, procedures, patents, experiments, litigation, and skilled people whose labor makes an idea usable.
 - Primary or authoritative sources:
-  - https://home.nps.gov/articles/000/latimer.htm
-  - https://www.nps.gov/people/lewis-howard-latimer.htm
+  - https://www.nps.gov/articles/000/latimer.htm
+  - https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/bringing-light-all
   - https://edison.rutgers.edu/resources/latimer/latimer-s-patents
 - Supporting secondary sources:
   - https://invention.si.edu/innovative-lives-lewis-latimer-1848-1928
-  - https://latimernow.org/lewis-latimer/
+  - https://www.lewislatimerhouse.org/about
 - Verified quotation source: Quotation traced to Lewis Latimer House Museum public biography materials.
 - Sensitive or disputed claims reviewed: Light bulb invention overclaim, Bell patent drawing role, carbon filament patent, Edison legal work, Edison Pioneers membership, and parents escaped slavery claim reviewed.
 - Material corrections made: Corrected daily shorthand to avoid saying Latimer invented the light bulb and centered his documented drafting, patent, and manufacturing contributions.
 - External links included on the page:
-  - National Park Service: George and Rebecca Latimer's Flight to Freedom (https://home.nps.gov/articles/000/latimer.htm)
-  - National Park Service: Lewis Howard Latimer (https://www.nps.gov/people/lewis-howard-latimer.htm)
+  - National Park Service: George and Rebecca Latimer's Flight to Freedom (https://www.nps.gov/articles/000/latimer.htm)
+  - United States Patent and Trademark Office: Bringing Light for All (https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/bringing-light-all)
   - Smithsonian Lemelson Center: Innovative Lives: Lewis Latimer (https://invention.si.edu/innovative-lives-lewis-latimer-1848-1928)
   - Thomas A. Edison Papers at Rutgers: Latimer's Patents (https://edison.rutgers.edu/resources/latimer/latimer-s-patents)
-  - Lewis Latimer House Museum: Lewis H. Latimer (https://latimernow.org/lewis-latimer/)
+  - Lewis Latimer House Museum: Lewis Howard Latimer Biography (https://www.lewislatimerhouse.org/about)
 - Final review status: Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, invention-claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-15 - Dred Scott
@@ -1416,7 +1416,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - https://baseballhall.org/discover/inside-pitch/doby-made-history-with-indians
   - https://sabr.org/bioproj/person/larry-doby/
 - Supporting secondary sources:
-  - https://www.mlb.com/news/larry-doby-broke-al-color-barrier
+  - https://www.mlb.com/news/larry-doby-legacy-as-first-black-player-in-american-league
   - https://njhalloffame.org/hall-of-famers/2010-inductees/larry-doby/
 - Verified quotation source: No quotation included. Popular Doby quotations were used only as research context pending stronger primary tracing.
 - Sensitive or disputed claims reviewed: First Black American League player claim, second Black manager claim, World Series home run first, Negro Leagues championship, Navy service, teammate reception, and Hall of Fame election reviewed.
@@ -1425,7 +1425,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Baseball Hall of Fame: Larry Doby (https://baseballhall.org/hall-of-famers/doby-larry)
   - National Baseball Hall of Fame: Doby Made History with Cleveland (https://baseballhall.org/discover/inside-pitch/doby-made-history-with-indians)
   - Society for American Baseball Research: Larry Doby Biography (https://sabr.org/bioproj/person/larry-doby/)
-  - Major League Baseball: Larry Doby Broke the American League Color Barrier (https://www.mlb.com/news/larry-doby-broke-al-color-barrier)
+  - Major League Baseball: Larry Doby Legacy as First Black Player in the American League (https://www.mlb.com/news/larry-doby-legacy-as-first-black-player-in-american-league)
   - New Jersey Hall of Fame: Larry Doby (https://njhalloffame.org/hall-of-famers/2010-inductees/larry-doby/)
 - Final review status: Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, sports-integration claim review, depth/similarity validation, desktop/mobile browser check.
 
@@ -3457,7 +3457,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Writer/research status: batch-15-complete
 - Material factual claims: Madam C.J. Walker's story is not only a rags-to-riches triumph. It is a story about a Black woman born just after emancipation who turned beauty work into business infrastructure, political giving, and a national employment network. Born Sarah Breedlove in Louisiana, she was orphaned young, worked as a laundress, survived poverty, learned from Black women's hair-care enterprise, then built the Madam C.J. Walker Manufacturing Company. Her products mattered, but the system around them mattered just as much: agents, schools, conventions, advertising, philanthropy, and public advocacy. Walker matters because she understood that money could be personal survival and collective leverage at the same time. She did not simply become wealthy. She built a platform Black women could stand on.
 - Primary or authoritative sources:
-  - https://home.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm
+  - https://www.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm
   - https://www.loc.gov/exhibits/african-american-odyssey/booker-t-washington-era.html
   - https://www.americanhistory.si.edu/explore/stories/madam-c-j-walkers-philanthropy
 - Supporting secondary sources:
@@ -3467,7 +3467,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Sensitive or disputed claims reviewed: First/self-made millionaire wording, Annie Malone relationship, orphaning, early marriage/widowhood, hair-loss framing, agent counts, philanthropy, and Villa Lewaro significance reviewed.
 - Material corrections made: Replaced legacy summary with richer economic infrastructure framing and careful wealth-claim wording.
 - External links included on the page:
-  - National Park Service: Two American Entrepreneurs: Madam C.J. Walker and J.C. Penney (https://home.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm)
+  - National Park Service: Two American Entrepreneurs: Madam C.J. Walker and J.C. Penney (https://www.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm)
   - National Women's History Museum: Madam C.J. Walker (https://www.womenshistory.org/education-resources/biographies/madam-cj-walker)
   - Library of Congress: Madame C.J. Walker's Mansion on the Hudson (https://www.loc.gov/exhibits/african-american-odyssey/booker-t-washington-era.html)
   - National Trust for Historic Preservation: Villa Lewaro (https://savingplaces.org/places/villa-lewaro-madam-c-j-walker-estate)
@@ -3509,8 +3509,8 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Writer/research status: batch-15-complete
 - Material factual claims: Mamie Till-Mobley made one of the most consequential decisions in American memory, but she was more than the mother of a murdered child. Born in Mississippi and raised near Chicago, she was a strong student, a federal worker, a single mother, a teacher, and later a public witness whose grief became evidence. After Emmett Till was kidnapped and lynched in Mississippi in 1955, she insisted his body be returned to Chicago, chose an open-casket funeral, and allowed photographs to be published. The daily story often stops there. The encyclopedia has to hold more: the mother before the tragedy, the danger of public witness, the trial, the long teaching life afterward, and the burden of protecting a child's humanity from being turned into symbol alone.
 - Primary or authoritative sources:
-  - https://home.nps.gov/people/mamie-till-mobley.htm
-  - https://home.nps.gov/till/learn/historyculture/index.htm
+  - https://www.nps.gov/people/mamie-till-mobley.htm
+  - https://www.nps.gov/till/learn/historyculture/index.htm
   - https://www.nps.gov/articles/000/a-tale-of-two-mamies.htm
 - Supporting secondary sources:
   - https://www.pbs.org/wgbh/americanexperience/features/emmett-biography-mamie-till-mobley/
@@ -3519,9 +3519,9 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Sensitive or disputed claims reviewed: Emmett Till murder details, Carolyn Bryant accusation wording, open-casket decision, viewership estimates avoided, trial/acquittal/double jeopardy, domestic-violence details omitted from page but reviewed, and monument date reviewed.
 - Material corrections made: Replaced legacy page with deeper life-before-and-after framing, removed unsupported viewership number range and stale challenge link, and centered witness ethics.
 - External links included on the page:
-  - National Park Service: Mamie Till-Mobley (https://home.nps.gov/people/mamie-till-mobley.htm)
+  - National Park Service: Mamie Till-Mobley (https://www.nps.gov/people/mamie-till-mobley.htm)
   - National Park Service: A Tale of Two Mamies (https://www.nps.gov/articles/000/a-tale-of-two-mamies.htm)
-  - Emmett Till and Mamie Till-Mobley National Monument: History & Culture (https://home.nps.gov/till/learn/historyculture/index.htm)
+  - Emmett Till and Mamie Till-Mobley National Monument: History & Culture (https://www.nps.gov/till/learn/historyculture/index.htm)
   - PBS American Experience: Mamie Till-Mobley Biography (https://www.pbs.org/wgbh/americanexperience/features/emmett-biography-mamie-till-mobley/)
   - Library of Congress: Emmett Till and Mamie Till-Mobley Photograph (https://www.loc.gov/item/2023620884/)
 - Final review status: Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, sensitive racial-violence framing review, depth/similarity validation, desktop/mobile browser check.

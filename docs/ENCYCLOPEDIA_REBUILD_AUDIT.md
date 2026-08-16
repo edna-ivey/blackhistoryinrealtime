@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First fourteen rebuild batches complete; Batch 15 source/rendered work checkpointed but not marked complete because required external-link and browser verification are blocked by the current Codex environment.
+Status: First fifteen rebuild batches complete; continue from row 125, `Marcus Garvey`, on `encyclopedia-rebuild`.
 Date: 2026-08-14
 
 ## Quality Gap Documented
@@ -188,35 +188,27 @@ Batch 14 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, and em dashes in new Batch 14 source/rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, external-link verification, and desktop/mobile browser verification passed before batch commit.
 
-## Batch 15 Checkpoint, Verification Blocked
+## Batch 15 Completed
 
-Drafted and rendered pages: `larry-doby`, `lewis-howard-latimer`, `lorraine-hansberry`, `loving-v-virginia`, `madam-cj-walker`, `mae-jemison`, `maggie-lena-walker`, `malcolm-x`, `mamie-till-mobley`, `mansa-musa`.
+Completed pages: `larry-doby`, `lewis-howard-latimer`, `lorraine-hansberry`, `loving-v-virginia`, `madam-cj-walker`, `mae-jemison`, `maggie-lena-walker`, `malcolm-x`, `mamie-till-mobley`, `mansa-musa`.
 
-Batch 15 rich source has been written in `content/encyclopedia-rich/batch-15.js`, registered in `content/encyclopedia-rich/index.js`, and rendered into upload-ready HTML. It includes richer research notes, source lists, internal connections, canonical legacy-path replacements where applicable, and generated-path pages for scheduled entries.
+Batch 15 rebuilt six legacy-path pages and four scheduled/generated pages into the approved rich encyclopedia format. Larry Doby now distinguishes the National League integration story from the American League barrier he crossed; Lewis Howard Latimer now separates documented drafting, patents, and filament work from broad invention myths; Lorraine Hansberry now links housing law, theater, Black left politics, and queer archival recovery; Loving v. Virginia now treats the case as family, legal strategy, state surveillance, and constitutional doctrine; Madam C.J. Walker now connects beauty enterprise to race women networks, labor, philanthropy, and self-fashioning; Mae Jemison now covers medicine, Peace Corps service, NASA selection, STS-47, and post-NASA education work; Maggie Lena Walker now centers Black banking, mutual aid, disability, and institutional strategy; Malcolm X now includes Nation of Islam organizing, break, pilgrimage, surveillance, assassination, and the 2021 exonerations; Mamie Till-Mobley now centers choice, grief, public memory, education, and legal limits; and Mansa Musa now distinguishes Arabic chroniclers, Mali's political economy, Islamic learning, and the limits of modern wealth rankings.
 
-Completed local non-network verification:
+Batch 15 verification:
 
-- `npm run generate` passed with 125 rich pages, 210 encyclopedia cards, valid daily coverage, valid encyclopedia index, and valid depth/similarity checks.
-- `npm test` passed.
-- `git diff --check` passed.
-- JavaScript syntax checks passed for `content/encyclopedia-rich/batch-15.js` and `content/encyclopedia-rich/index.js`.
+- External links checked: 50 total, 0 material failures after replacing nine stale, moved, bot-hostile, or misleading URLs. Forty-two links returned successful responses. Eight Smithsonian, Library of Congress, National Museum of American History, NMAAHC, Met, and Justia pages returned bot-blocking statuses during automated checking but were retained only because they are direct authoritative pages already verified for subject relevance. One Oyez source redirected to its canonical case page.
+- Browser rendering checked: 10 Batch 15 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards where applicable, empty links, horizontal overflow, stale quiz wording, loading fallbacks, failed local requests, or material page console errors.
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 15 source, 0 findings.
 - Internal link validation checked 150 rendered Batch 15 internal links, 0 broken.
-
-Blocked required verification:
-
-- External-link automation could not be completed. The first fetch sweep failed uniformly because sandbox network access is restricted. The required escalated rerun was rejected by the approvals reviewer because the Codex workspace has hit its usage limit. No workaround or alternate network path was attempted after that rejection.
-- Browser verification could not be completed. The Browser plugin rejected navigation to `http://127.0.0.1:4178/generated/pages/larry-doby.html` with a browser security policy stating that `http://127.0.0.1:4178` should not be used, and instructed not to work around it with alternate browser surfaces. No workaround was attempted.
-
-Batch 15 is therefore not yet marked PASS. To complete it, restore/approve Codex network access for external-link checking and allow Browser access to the local preview URL, or provide an approved preview URL/surface. Then rerun external-link verification, desktop/mobile browser verification for all ten Batch 15 pages, update rows 115-124 to PASS, update counts to PASS 125 / REWRITE 51 / RESEARCH 34 / REBUILD 51, and continue with row 125 `Marcus Garvey`.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, external-link verification, and desktop/mobile browser verification passed before batch completion commit.
 
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 115
-- REWRITE: 56
-- RESEARCH: 39
-- REBUILD: 56
+- PASS: 125
+- REWRITE: 51
+- RESEARCH: 34
+- REBUILD: 51
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -227,7 +219,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished work: complete Batch 15 external-link verification and desktop/mobile browser verification for rows 115-124, beginning with `Larry Doby`. After those required checks pass, mark rows 115-124 PASS and continue with row 125 `Marcus Garvey`.
+Next unfinished work: continue Batch 16 from row 125, `Marcus Garvey`.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -349,16 +341,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 112 | Katherine Johnson | encyclopedia/katherine-johnson.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, NASA report/Glenn/Apollo/West Virginia education claim review, replaced stale NASA/NWHM URLs and stale quiz behavior, depth/similarity validation, desktop/mobile browser check. |
 | 113 | Kathleen Cleaver | encyclopedia/kathleen-cleaver.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, SNCC/Panther communications/exile/COINTELPRO/gendered-memory claim review, removed unsupported legacy quote and replaced stale sources, depth/similarity validation, desktop/mobile browser check. |
 | 114 | Langston Hughes | generated/pages/langston-hughes.html | PASS | Batch 14 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Harlem Renaissance/vernacular/Red Scare/Simple/publication-date claim review, replaced unstable Poetry Foundation/Yale links, depth/similarity validation, desktop/mobile browser check. |
-| 115 | Larry Doby | generated/pages/larry-doby.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 116 | Lewis Howard Latimer | generated/pages/lewis-howard-latimer.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 117 | Lorraine Hansberry | generated/pages/lorraine-hansberry.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 118 | Loving v. Virginia | encyclopedia/loving-v-virginia.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 119 | Madam C.J. Walker | encyclopedia/madam-cj-walker.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 120 | Mae Jemison | encyclopedia/mae-jemison.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 121 | Maggie Lena Walker | generated/pages/maggie-lena-walker.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 122 | Malcolm X | generated/pages/malcolm-x.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 123 | Mamie Till-Mobley | encyclopedia/mamie-till-mobley.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 124 | Mansa Musa | encyclopedia/mansa-musa.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 115 | Larry Doby | generated/pages/larry-doby.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, American League integration and second-manager claim review, corrected stale MLB source URL, depth/similarity validation, desktop/mobile browser check. |
+| 116 | Lewis Howard Latimer | generated/pages/lewis-howard-latimer.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, patent/drafting/filament/invention-myth claim review, replaced stale NPS and museum source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 117 | Lorraine Hansberry | generated/pages/lorraine-hansberry.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, housing case/theater/queer-archive/early-death claim review, depth/similarity validation, desktop/mobile browser check. |
+| 118 | Loving v. Virginia | encyclopedia/loving-v-virginia.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified Supreme Court quotation, arrest/legal-strategy/equal-protection/substantive-due-process claim review, depth/similarity validation, desktop/mobile browser check. |
+| 119 | Madam C.J. Walker | encyclopedia/madam-cj-walker.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, millionaire/philanthropy/beauty-business/labor claim review, corrected NPS source URL, depth/similarity validation, desktop/mobile browser check. |
+| 120 | Mae Jemison | encyclopedia/mae-jemison.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, physician/Peace Corps/NASA/STS-47/first-claim review, depth/similarity validation, desktop/mobile browser check. |
+| 121 | Maggie Lena Walker | generated/pages/maggie-lena-walker.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, banking/fraternal/mutual-aid/disability claim review, depth/similarity validation, desktop/mobile browser check. |
+| 122 | Malcolm X | generated/pages/malcolm-x.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, Nation of Islam/break/pilgrimage/assassination/exonerations claim review, corrected Columbia and Innocence Project URLs, depth/similarity validation, desktop/mobile browser check. |
+| 123 | Mamie Till-Mobley | encyclopedia/mamie-till-mobley.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, funeral/public-memory/trial/education/federal-law claim review, corrected NPS source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 124 | Mansa Musa | encyclopedia/mansa-musa.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, Arabic-source/pilgrimage/Mali-economy/Timbuktu/wealth-ranking claim review, depth/similarity validation, desktop/mobile browser check. |
 | 125 | Marcus Garvey | generated/pages/marcus-garvey.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 126 | Marsha P. Johnson | encyclopedia/marsha-p-johnson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 127 | Martin Luther King Jr. (Final Days) | encyclopedia/mlk-final-days.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |

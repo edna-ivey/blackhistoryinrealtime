@@ -55,14 +55,14 @@ const ENTRIES = [
       { source: 'National Baseball Hall of Fame', title: 'Larry Doby', url: 'https://baseballhall.org/hall-of-famers/doby-larry' },
       { source: 'National Baseball Hall of Fame', title: 'Doby Made History with Cleveland', url: 'https://baseballhall.org/discover/inside-pitch/doby-made-history-with-indians' },
       { source: 'Society for American Baseball Research', title: 'Larry Doby Biography', url: 'https://sabr.org/bioproj/person/larry-doby/' },
-      { source: 'Major League Baseball', title: 'Larry Doby Broke the American League Color Barrier', url: 'https://www.mlb.com/news/larry-doby-broke-al-color-barrier' },
+      { source: 'Major League Baseball', title: 'Larry Doby Legacy as First Black Player in the American League', url: 'https://www.mlb.com/news/larry-doby-legacy-as-first-black-player-in-american-league' },
       { source: 'New Jersey Hall of Fame', title: 'Larry Doby', url: 'https://njhalloffame.org/hall-of-famers/2010-inductees/larry-doby/' }
     ],
     research: {
       status: 'batch-15-complete',
       dateResearched: RESEARCH_DATE,
       primarySources: ['https://baseballhall.org/hall-of-famers/doby-larry', 'https://baseballhall.org/discover/inside-pitch/doby-made-history-with-indians', 'https://sabr.org/bioproj/person/larry-doby/'],
-      supportingSources: ['https://www.mlb.com/news/larry-doby-broke-al-color-barrier', 'https://njhalloffame.org/hall-of-famers/2010-inductees/larry-doby/'],
+      supportingSources: ['https://www.mlb.com/news/larry-doby-legacy-as-first-black-player-in-american-league', 'https://njhalloffame.org/hall-of-famers/2010-inductees/larry-doby/'],
       verifiedQuoteSource: 'No quotation included. Popular Doby quotations were used only as research context pending stronger primary tracing.',
       sensitiveClaimsReviewed: 'First Black American League player claim, second Black manager claim, World Series home run first, Negro Leagues championship, Navy service, teammate reception, and Hall of Fame election reviewed.',
       materialCorrections: 'Expanded scheduled fallback beyond a parallel-to-Robinson frame into Negro Leagues, position change, championship record, and managerial barrier context.',
@@ -122,17 +122,17 @@ const ENTRIES = [
       { href: '@root/generated/pages/annie-easley.html', title: 'Annie Easley', description: 'Shows a later Black technologist working in complex systems that public memory often simplifies.' }
     ],
     externalLinks: [
-      { source: 'National Park Service', title: "George and Rebecca Latimer's Flight to Freedom", url: 'https://home.nps.gov/articles/000/latimer.htm' },
-      { source: 'National Park Service', title: 'Lewis Howard Latimer', url: 'https://www.nps.gov/people/lewis-howard-latimer.htm' },
+      { source: 'National Park Service', title: "George and Rebecca Latimer's Flight to Freedom", url: 'https://www.nps.gov/articles/000/latimer.htm' },
+      { source: 'United States Patent and Trademark Office', title: 'Bringing Light for All', url: 'https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/bringing-light-all' },
       { source: 'Smithsonian Lemelson Center', title: 'Innovative Lives: Lewis Latimer', url: 'https://invention.si.edu/innovative-lives-lewis-latimer-1848-1928' },
       { source: 'Thomas A. Edison Papers at Rutgers', title: "Latimer's Patents", url: 'https://edison.rutgers.edu/resources/latimer/latimer-s-patents' },
-      { source: 'Lewis Latimer House Museum', title: 'Lewis H. Latimer', url: 'https://latimernow.org/lewis-latimer/' }
+      { source: 'Lewis Latimer House Museum', title: 'Lewis Howard Latimer Biography', url: 'https://www.lewislatimerhouse.org/about' }
     ],
     research: {
       status: 'batch-15-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://home.nps.gov/articles/000/latimer.htm', 'https://www.nps.gov/people/lewis-howard-latimer.htm', 'https://edison.rutgers.edu/resources/latimer/latimer-s-patents'],
-      supportingSources: ['https://invention.si.edu/innovative-lives-lewis-latimer-1848-1928', 'https://latimernow.org/lewis-latimer/'],
+      primarySources: ['https://www.nps.gov/articles/000/latimer.htm', 'https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/bringing-light-all', 'https://edison.rutgers.edu/resources/latimer/latimer-s-patents'],
+      supportingSources: ['https://invention.si.edu/innovative-lives-lewis-latimer-1848-1928', 'https://www.lewislatimerhouse.org/about'],
       verifiedQuoteSource: 'Quotation traced to Lewis Latimer House Museum public biography materials.',
       sensitiveClaimsReviewed: 'Light bulb invention overclaim, Bell patent drawing role, carbon filament patent, Edison legal work, Edison Pioneers membership, and parents escaped slavery claim reviewed.',
       materialCorrections: 'Corrected daily shorthand to avoid saying Latimer invented the light bulb and centered his documented drafting, patent, and manufacturing contributions.',
@@ -337,7 +337,7 @@ const ENTRIES = [
       { href: '@root/encyclopedia/ida-b-wells.html', title: 'Ida B. Wells', description: 'Connects Walker\'s philanthropy to anti-lynching activism.' }
     ],
     externalLinks: [
-      { source: 'National Park Service', title: 'Two American Entrepreneurs: Madam C.J. Walker and J.C. Penney', url: 'https://home.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm' },
+      { source: 'National Park Service', title: 'Two American Entrepreneurs: Madam C.J. Walker and J.C. Penney', url: 'https://www.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm' },
       { source: 'National Women\'s History Museum', title: 'Madam C.J. Walker', url: 'https://www.womenshistory.org/education-resources/biographies/madam-cj-walker' },
       { source: 'Library of Congress', title: 'Madame C.J. Walker\'s Mansion on the Hudson', url: 'https://www.loc.gov/exhibits/african-american-odyssey/booker-t-washington-era.html' },
       { source: 'National Trust for Historic Preservation', title: 'Villa Lewaro', url: 'https://savingplaces.org/places/villa-lewaro-madam-c-j-walker-estate' },
@@ -346,7 +346,7 @@ const ENTRIES = [
     research: {
       status: 'batch-15-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://home.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm', 'https://www.loc.gov/exhibits/african-american-odyssey/booker-t-washington-era.html', 'https://www.americanhistory.si.edu/explore/stories/madam-c-j-walkers-philanthropy'],
+      primarySources: ['https://www.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm', 'https://www.loc.gov/exhibits/african-american-odyssey/booker-t-washington-era.html', 'https://www.americanhistory.si.edu/explore/stories/madam-c-j-walkers-philanthropy'],
       supportingSources: ['https://www.womenshistory.org/education-resources/biographies/madam-cj-walker', 'https://savingplaces.org/places/villa-lewaro-madam-c-j-walker-estate'],
       verifiedQuoteSource: 'Short quotation traced to National Park Service teaching material quoting Walker on separating from C.J. Walker and building her business independently.',
       sensitiveClaimsReviewed: 'First/self-made millionaire wording, Annie Malone relationship, orphaning, early marriage/widowhood, hair-loss framing, agent counts, philanthropy, and Villa Lewaro significance reviewed.',
@@ -551,14 +551,14 @@ const ENTRIES = [
       { source: 'National Archives', title: 'Malcolm X', url: 'https://www.archives.gov/research/african-americans/individuals/malcolm-x' },
       { source: 'National Museum of African American History and Culture', title: 'Malcolm X Transformation', url: 'https://nmaahc.si.edu/explore/stories/malcolm-x-transformation' },
       { source: 'Library of Congress', title: 'Malcolm X, 1964 Photograph', url: 'https://www.loc.gov/item/2004671919/' },
-      { source: 'The Malcolm X Project at Columbia University', title: 'Malcolm X Biography', url: 'http://malcolmxproject.columbia.edu/biography' },
-      { source: 'Innocence Project', title: 'Muhammad A. Aziz Exonerated', url: 'https://innocenceproject.org/cases/muhammad-aziz/' }
+      { source: 'King Institute at Stanford University', title: 'Malcolm X', url: 'https://kinginstitute.stanford.edu/malcolm-x' },
+      { source: 'Innocence Project', title: 'Historic Exonerations in the Malcolm X Assassination Case', url: 'https://innocenceproject.org/news/historic-exonerations-muhammad-aziz-khalil-islam-1965-assassination-of-malcolm-x/' }
     ],
     research: {
       status: 'batch-15-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://www.archives.gov/research/african-americans/individuals/malcolm-x', 'https://nmaahc.si.edu/explore/stories/malcolm-x-transformation', 'http://malcolmxproject.columbia.edu/biography'],
-      supportingSources: ['https://www.loc.gov/item/2004671919/', 'https://innocenceproject.org/cases/muhammad-aziz/'],
+      primarySources: ['https://www.archives.gov/research/african-americans/individuals/malcolm-x', 'https://nmaahc.si.edu/explore/stories/malcolm-x-transformation', 'https://kinginstitute.stanford.edu/malcolm-x'],
+      supportingSources: ['https://www.loc.gov/item/2004671919/', 'https://innocenceproject.org/news/historic-exonerations-muhammad-aziz-khalil-islam-1965-assassination-of-malcolm-x/'],
       verifiedQuoteSource: 'No quotation included. Famous Malcolm quotations were omitted unless a stable primary speech source could be confirmed in the batch window.',
       sensitiveClaimsReviewed: 'Father death framing, foster-care separation, prison conversion, Nation of Islam break, Mecca transformation, assassination convictions/exonerations, and by-any-means phrase context reviewed.',
       materialCorrections: 'Expanded scheduled fallback beyond a single transformation arc into family Garveyism, prison study, Nation of Islam leadership, internationalism, and assassination aftermath.',
@@ -622,16 +622,16 @@ const ENTRIES = [
       { href: '@root/encyclopedia/beulah-mae-donald.html', title: 'Beulah Mae Donald', description: 'Links mothers who turned grief into public accountability after racist violence.' }
     ],
     externalLinks: [
-      { source: 'National Park Service', title: 'Mamie Till-Mobley', url: 'https://home.nps.gov/people/mamie-till-mobley.htm' },
+      { source: 'National Park Service', title: 'Mamie Till-Mobley', url: 'https://www.nps.gov/people/mamie-till-mobley.htm' },
       { source: 'National Park Service', title: 'A Tale of Two Mamies', url: 'https://www.nps.gov/articles/000/a-tale-of-two-mamies.htm' },
-      { source: 'Emmett Till and Mamie Till-Mobley National Monument', title: 'History & Culture', url: 'https://home.nps.gov/till/learn/historyculture/index.htm' },
+      { source: 'Emmett Till and Mamie Till-Mobley National Monument', title: 'History & Culture', url: 'https://www.nps.gov/till/learn/historyculture/index.htm' },
       { source: 'PBS American Experience', title: 'Mamie Till-Mobley Biography', url: 'https://www.pbs.org/wgbh/americanexperience/features/emmett-biography-mamie-till-mobley/' },
       { source: 'Library of Congress', title: 'Emmett Till and Mamie Till-Mobley Photograph', url: 'https://www.loc.gov/item/2023620884/' }
     ],
     research: {
       status: 'batch-15-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://home.nps.gov/people/mamie-till-mobley.htm', 'https://home.nps.gov/till/learn/historyculture/index.htm', 'https://www.nps.gov/articles/000/a-tale-of-two-mamies.htm'],
+      primarySources: ['https://www.nps.gov/people/mamie-till-mobley.htm', 'https://www.nps.gov/till/learn/historyculture/index.htm', 'https://www.nps.gov/articles/000/a-tale-of-two-mamies.htm'],
       supportingSources: ['https://www.pbs.org/wgbh/americanexperience/features/emmett-biography-mamie-till-mobley/', 'https://www.loc.gov/item/2023620884/'],
       verifiedQuoteSource: 'Quotation traced to National Park Service Mamie Till-Mobley biography, citing a September 18, 1955 NAACP rally in Cleveland.',
       sensitiveClaimsReviewed: 'Emmett Till murder details, Carolyn Bryant accusation wording, open-casket decision, viewership estimates avoided, trial/acquittal/double jeopardy, domestic-violence details omitted from page but reviewed, and monument date reviewed.',
