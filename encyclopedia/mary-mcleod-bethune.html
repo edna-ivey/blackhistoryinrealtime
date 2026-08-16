@@ -3,82 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mary McLeod Bethune &mdash; Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Mary McLeod Bethune was born to formerly enslaved parents in South Carolina, the fifteenth of seventeen children. She walked five miles to school. She grew up t">
+<title>Mary McLeod Bethune - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Mary McLeod Bethune turned a school with five girls, a dollar and fifty cents, and salvaged supplies into a college, then turned educational authority into national political power. Born to parents who had been enslaved, she became the only child in her family to attend school, founded what became Bethune-Cookman University, led Black women&#039;s clubs, created the National Council of Negro Women, and advised presidents. Bethune&#039;s life is sometimes told as pure uplift, but the deeper story is sharper. She built institutions because Jim Crow systems denied Black people schooling, jobs, health, safety, and access to government. She also worked inside government during the New Deal, using friendship, discipline, respectability, and pressure to move resources toward Black communities. Her page matters because she shows education as infrastructure, not charity.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--gold),var(--orange));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}
-.why-section p:last-child{margin-bottom:0;}
-.cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}
-.cost-label{font-family:'Bebas Neue',sans-serif;font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:#b45a00;margin-bottom:12px;}
-.cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-.quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all 0.2s;margin-bottom:12px;}
-.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
-.quiz-card-left{flex:1;}.quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}
-.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}
-.quiz-card-icon{font-size:1.8rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="mary-mcleod-bethune">
@@ -110,11 +86,10 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="entry-hero">
     <div class="entry-vol-label">March 18 &middot; Education &amp; Institution Building</div>
     <h1>Mary McLeod Bethune</h1>
-    <p class="entry-tagline">Mary McLeod Bethune was born to formerly enslaved parents in South Carolina, the fifteenth of seventeen children. She walked five miles to school. She grew up to found a school of her own with $1.50, five girls, and boxes for desks. That school became Bethune-Cookman University. She also founded the National Council of Negro Women, advised four U.S. presidents, and was the only Black woman at the founding conference of the United Nations. She built institutions because she understood that access to education was the foundation of everything else.</p>
+    <p class="entry-tagline">Mary McLeod Bethune turned a school with five girls, a dollar and fifty cents, and salvaged supplies into a college, then turned educational authority into national political power. Born to parents who had been enslaved, she became the only child in her family to attend school, founded what became Bethune-Cookman University, led Black women&#039;s clubs, created the National Council of Negro Women, and advised presidents. Bethune&#039;s life is sometimes told as pure uplift, but the deeper story is sharper. She built institutions because Jim Crow systems denied Black people schooling, jobs, health, safety, and access to government. She also worked inside government during the New Deal, using friendship, discipline, respectability, and pressure to move resources toward Black communities. Her page matters because she shows education as infrastructure, not charity.</p>
     <div class="entry-badges">
       <span class="badge">People</span>
-      <span class="badge">1875 &mdash; 1955</span>
-      <span class="badge">Advisor to Four Presidents</span>
+      <span class="badge">1875 - 1955</span>
     </div>
     <div class="hero-bar"></div>
   </div>
@@ -122,87 +97,129 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
     <div class="timeline-items">
-      <div class="tl-item"><div class="tl-date">Jul 10, 1875</div><div class="tl-event">Born in Mayesville, South Carolina, fifteenth of seventeen children of formerly enslaved parents</div></div>
-      <div class="tl-item"><div class="tl-date">1904</div><div class="tl-event">Founds Daytona Literary and Industrial Training School for Negro Girls with $1.50 and five students</div></div>
-      <div class="tl-item"><div class="tl-date">1923</div><div class="tl-event">School merges with Cookman Institute; becomes Bethune-Cookman College</div></div>
-      <div class="tl-item"><div class="tl-date">1935</div><div class="tl-event">Founds National Council of Negro Women</div></div>
-      <div class="tl-item"><div class="tl-date">1936</div><div class="tl-event">Appointed by FDR to head the Division of Negro Affairs of the National Youth Administration; highest federal position held by a Black woman to that point</div></div>
-      <div class="tl-item"><div class="tl-date">1945</div><div class="tl-event">Only Black woman present at the founding conference of the United Nations in San Francisco</div></div>
-      <div class="tl-item"><div class="tl-date">May 18, 1955</div><div class="tl-event">Dies in Daytona Beach, Florida</div></div>
+<div class="tl-item"><div class="tl-date">July 10, 1875</div><div class="tl-event">Born Mary Jane McLeod near Mayesville, South Carolina.</div></div>
+<div class="tl-item"><div class="tl-date">1885</div><div class="tl-event">Becomes the first child in her family to attend school at Trinity Presbyterian Mission School.</div></div>
+<div class="tl-item"><div class="tl-date">1894</div><div class="tl-event">Graduates from Scotia Seminary in North Carolina.</div></div>
+<div class="tl-item"><div class="tl-date">1898</div><div class="tl-event">Marries Albertus Bethune. Their son, Albert, is born the next year.</div></div>
+<div class="tl-item"><div class="tl-date">Oct 3, 1904</div><div class="tl-event">Opens the Daytona Educational and Industrial Training School for Negro Girls.</div></div>
+<div class="tl-item"><div class="tl-date">1923</div><div class="tl-event">Her school merges with Cookman Institute, forming what becomes Bethune-Cookman College.</div></div>
+<div class="tl-item"><div class="tl-date">1924</div><div class="tl-event">Becomes president of the National Association of Colored Women.</div></div>
+<div class="tl-item"><div class="tl-date">Dec 5, 1935</div><div class="tl-event">Founds the National Council of Negro Women.</div></div>
+<div class="tl-item"><div class="tl-date">1936</div><div class="tl-event">Becomes director of the Division of Negro Affairs in the National Youth Administration.</div></div>
+<div class="tl-item"><div class="tl-date">May 18, 1955</div><div class="tl-event">Dies in Daytona Beach, Florida.</div></div>
     </div>
   </div>
 
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>Mary McLeod Bethune was born in 1875 in Mayesville, South Carolina, the fifteenth of seventeen children of Samuel and Patsy McLeod, who had been enslaved. Her parents became sharecroppers after emancipation. She was one of the few children in her community who had access to a school, and she walked five miles each way to attend. She knew education was the doorway to everything else.</p>
-<p>She trained at the Moody Bible Institute in Chicago and attempted to go to Africa as a missionary. Denied that opportunity, she turned her attention to the South. In 1904, she opened the Daytona Literary and Industrial Training School for Negro Girls in Daytona Beach, Florida, with $1.50 in capital, five young students, and improvised materials including boxes used as desks and charcoal burned for pencils.</p>
-<p>She built the school through relentless fundraising, charming wealthy white donors including James Gamble of Procter and Gamble, who became a supporter. She organized bake sales. She never stopped expanding. In 1923, the school merged with Cookman Institute in Jacksonville and eventually became Bethune-Cookman University, which continues to operate today.</p>
-<p>She founded the National Council of Negro Women in 1935 to coordinate the work of dozens of Black women's organizations into a unified political force. She was appointed by President Franklin D. Roosevelt to head the Division of Negro Affairs within the National Youth Administration, making her the highest-ranking Black woman in the federal government to that point in history. She was sometimes called the First Lady of the Struggle and the godmother of civil rights.</p>
-<p>In 1945, she was the only Black woman present at the founding conference of the United Nations in San Francisco. She lived to see the beginning of the modern civil rights movement and died in 1955, just months before Rosa Parks refused to give up her bus seat in Montgomery.</p>
+<p>Mary McLeod Bethune was born in 1875 near Mayesville, South Carolina, the fifteenth of seventeen children. Her parents, Samuel and Patsy McLeod, had been enslaved. That fact shaped the meaning of her education. School was not simply personal improvement. It was a rupture in family history. When a mission school opened nearby, Mary became the first child in her family to attend. She later remembered education as a calling, but the calling was rooted in the visible denial around her.</p>
+<p>Bethune trained at Scotia Seminary and the Moody Bible Institute. She hoped to become a missionary in Africa, but mission boards did not offer her the opportunity she wanted. She eventually redirected that ambition toward Black children in the American South. That redirection matters. Bethune did not abandon global imagination. She concluded that Black people in the United States needed schools, discipline, and power with the same urgency.</p>
+<p>In 1904, Bethune opened the Daytona Educational and Industrial Training School for Negro Girls. The origin story is famous: five girls, her young son, a small amount of money, crates for furniture, and supplies gathered from trash piles. The story can sound sentimental if told too quickly. It was actually a story about structural abandonment. Black girls in Daytona Beach needed schooling because public systems did not serve them equally. Bethune used persuasion, fundraising, performance, religious networks, and relentless public speaking to keep the school alive.</p>
+<p>The school grew. In 1923, it merged with Cookman Institute and later became Bethune-Cookman College. Bethune&#039;s educational philosophy combined academic work, industrial training, moral discipline, racial pride, and practical preparation. Some parts of that model reflected the constraints and respectability politics of her era. But the institution gave Black students access to education in a region where exclusion was routine. Bethune understood that a school could become a platform for leadership far beyond the classroom.</p>
+<p>Her influence expanded through Black women&#039;s club networks. She led the National Association of Colored Women and then founded the National Council of Negro Women in 1935 as an umbrella organization. The NCNW was not created for ceremonial sisterhood. It coordinated Black women&#039;s power around jobs, education, health, voting, anti-lynching work, and access to federal programs. The Council House in Washington, D.C., became a headquarters where strategy could be made and preserved.</p>
+<p>Bethune&#039;s relationship with Eleanor Roosevelt helped her reach the New Deal state. She advised multiple presidents, but her most significant federal role came when she directed the Division of Negro Affairs in the National Youth Administration. That position made her one of the highest-ranking Black women in federal government. She worked to bring training, jobs, and educational support to Black youth who were often excluded from relief programs or treated as afterthoughts.</p>
+<p>Bethune&#039;s access did not mean the Roosevelt administration was free of racism. New Deal programs often compromised with segregationist power. Bethune had to operate inside those limits while pushing for more. She was criticized by some for working too closely with power and admired by others for extracting resources in a hostile system. Both readings show the tension of Black leadership under Jim Crow: outside pressure and inside access were often both necessary and insufficient.</p>
+<p>Bethune died in 1955, just as the modern civil rights movement was accelerating. Her life connected Reconstruction&#039;s children to Brown v. Board, the New Deal, Black women&#039;s clubs, HBCUs, and federal policy. She built rooms where Black women could plan, govern, archive, and demand. Her work reminds readers that movements need schools, budgets, offices, records, and people willing to do the administrative labor of freedom.</p>
   </div>
 
   <div class="pull-quote">
     <div class="pq-bar"></div>
-    <blockquote>The whole world opened to me when I learned to read.</blockquote>
-    <cite>Mary McLeod Bethune</cite>
+    <blockquote>Faith, courage, brotherhood, dignity, ambition, responsibility, these are needed today as never before.</blockquote>
+    <cite>Mary McLeod Bethune, Last Will and Testament</cite>
   </div>
 
   <div class="cost-section">
     <div class="cost-label">Cost / Impact</div>
-    <p>She started a school for Black girls with $1.50 and built a university. She did it during an era when Black education was systematically underfunded, Black teachers were regularly fired for organizing, and Black women had virtually no formal political power. The cost was constant: fundraising from people who often saw her as performing a service for them, navigating white philanthropists without ceding control of her vision.</p>
+<p>Bethune paid with exhaustion, constant fundraising pressure, public scrutiny, and the strain of working inside institutions that welcomed her usefulness more readily than Black equality. Her school survived because she asked again and again for money, supplies, political support, and faith. National influence also required careful navigation of sexism, racism, and partisan expectation.</p>
+<p>Her impact was institutional. Bethune-Cookman, the NCNW, federal youth programs, and the National Archives for Black Women&#039;s History all carry parts of her strategy. She made Black women&#039;s leadership harder to dismiss because she tied it to students, jobs, policy, and organized power.</p>
   </div>
 
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>Mary McLeod Bethune built institutions because she understood that the individual act of getting an education, as important as it was, could be taken away. An institution, a school, a council, a foundation, was harder to erase. She thought in terms of infrastructure because she understood that progress requires structures that outlast individual people.</p>
-<p>Bethune-Cookman University is still open. The National Council of Negro Women is still operating. The records she kept and donated to the National Archives are still used by historians. She built things that lasted because she understood that was the only kind of building that mattered.</p>
+<p>Bethune matters today because schools are often described as places of individual opportunity while the systems around them remain unequal. She understood education as community infrastructure. A school could feed students, train workers, cultivate leaders, and make political claims.</p>
+<p>Her career also helps readers think about inside-outside strategy. Bethune worked with presidents while leading Black women who knew the government could not be trusted to act without pressure. That tension remains familiar in modern advocacy.</p>
+<p>The fuller story is not simply that she started with almost nothing. It is that she turned almost nothing into institutions that could outlive her. That is a different kind of power than inspiration. It is construction.</p>
   </div>
 
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../index.html?day=mary-mcleod-bethune" class="quiz-card">
+    <a href="../index.html?day=2026-03-18" class="quiz-card">
       <div class="quiz-card-left">
-        <div class="quiz-card-label">Take the Quiz &middot; March 18</div>
-        <div class="quiz-card-title">Test your knowledge on Mary McLeod Bethune</div>
+        <div class="quiz-card-label">Take the Challenge &middot; March 18</div>
+        <div class="quiz-card-title">Open the daily challenge for Mary McLeod Bethune</div>
       </div>
-      <div class="quiz-card-icon">&#x270A;&#x1F3FE;</div>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:0;"></div>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/hbcus.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">HBCUs</div>
+        <div class="connected-desc">Places Bethune-Cookman inside the broader history of Black higher education.</div>
+      </a>
+<a href="../encyclopedia/dorothy-height.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Dorothy Height</div>
+        <div class="connected-desc">Connects Bethune to later NCNW leadership and Black women&#039;s organizing.</div>
+      </a>
+<a href="../encyclopedia/carter-woodson.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Carter G. Woodson</div>
+        <div class="connected-desc">Links institution-building in education and Black historical memory.</div>
+      </a>
+<a href="../encyclopedia/black-women-in-politics.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Women in Politics</div>
+        <div class="connected-desc">Extends Bethune&#039;s federal and club work into a longer political lineage.</div>
+      </a>
+    </div>
   </div>
 
   <div class="section-divider"><span>Learn More</span></div>
   <div class="external-section">
     <div class="section-title">External Links</div>
     <div class="external-links">
-      <a href="https://www.history.com/news/mary-mcleod-bethune-achievements" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">Mary McLeod Bethune's Remarkable Achievements</div></div><span class="ext-arrow">&#x2197;</span></a>
-      <a href="https://www.bethune.cookman.edu/about/bethune-history" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">Bethune-Cookman University</div><div class="ext-title">Mary McLeod Bethune's History</div></div><span class="ext-arrow">&#x2197;</span></a>
-      <a href="https://www.smithsonianmag.com/history/mary-mcleod-bethune-how-she-built-an-educational-empire-180975380/" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">How Mary McLeod Bethune Built an Educational Empire</div></div><span class="ext-arrow">&#x2197;</span></a>
+<a href="https://www.nps.gov/people/mary-mcleod-bethune.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Mary McLeod Bethune</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/mamc/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Mary McLeod Bethune Council House</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/mamc/learn/historyculture/mary-mcleod-bethune.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Mary McLeod Bethune History</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/mamc/learn/historyculture/bethune-resume.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Bethune Resume</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/hofr/learn/historyculture/mary-mcleod-bethune.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Home of Franklin D. Roosevelt NHS</div>
+          <div class="ext-title">Mary McLeod Bethune</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
     </div>
   </div>
 </main>
 <footer>
-  <p>&copy; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

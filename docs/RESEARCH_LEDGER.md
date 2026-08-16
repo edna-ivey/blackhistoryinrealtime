@@ -265,11 +265,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-21 - Marcus Garvey
 
+- Entry title: Marcus Garvey
 - Slug: `marcus-garvey`
-- Core claims: Marcus Garvey told Black people scattered by slavery and empire to imagine themselves as a global nation. Through the Universal Negro Improvement Association, Garvey built one of the largest Black mass movements of the twentieth century. His message emphasized pride, economic independence, and connection to Africa. His Black Star Line became a symbol of possibility and controversy. Garvey was later convicted of mail fraud, deported, and debated by other Black leaders, but his influence endured.
-- Sources:
-  - https://www.loc.gov/exhibits/naacp/world-war-i-and-postwar-society.html
-  - https://www.britannica.com/biography/Marcus-Garvey
+- Daily date: 2026-05-21
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: Marcus Garvey built a movement so large that governments, rivals, newspapers, churches, and working people all had to answer it. He did not simply tell Black people to be proud. He organized pride into uniforms, parades, newspapers, businesses, conventions, ships, and a global language of nationhood. The Universal Negro Improvement Association gave Black people across the Americas, the Caribbean, Africa, and Europe a way to imagine themselves as one people in a world built by empire. Garvey's record also requires honesty. His Black Star Line became a symbol and a scandal, his mail-fraud conviction remains debated, his separatist politics drew fierce criticism, and his 1922 meeting with Ku Klux Klan leaders exposed the danger of strategy detached from solidarity. His page matters because the question he forced has not disappeared: what does self-determination require when the nation around you refuses equal belonging?
+- Primary or authoritative sources:
+  - https://www.archives.gov/research/african-americans/individuals/marcus-garvey
+  - https://www.loc.gov/exhibits/naacp/the-new-negro-movement.html
+  - https://international.ucla.edu/africa/mgpp
+- Supporting secondary sources:
+  - https://catalog.archives.gov/search?q=%22USA%20v.%20Marcus%20Garvey%22
+  - https://blackpast.org/global-african-history/garvey-marcus-1887-1940/
+- Verified quotation source: No quotation included. Frequently repeated Garvey quotations were omitted pending a stable primary source in the batch window.
+- Sensitive or disputed claims reviewed: Black Star Line failure, mail-fraud conviction, Hoover surveillance, Klan meeting, separatism, Du Bois/Randolph criticism, and later ideological influence reviewed.
+- Material corrections made: Expanded scheduled fallback beyond pride and the Black Star Line into mass organizing, business collapse, surveillance, criticism, and diaspora legacy.
+- External links included on the page:
+  - National Archives: Marcus Garvey (https://www.archives.gov/research/african-americans/individuals/marcus-garvey)
+  - Library of Congress: The New Negro Movement (https://www.loc.gov/exhibits/naacp/the-new-negro-movement.html)
+  - UCLA: Marcus Garvey and UNIA Papers Project (https://international.ucla.edu/africa/mgpp)
+  - National Archives Catalog: USA v. Marcus Garvey (https://catalog.archives.gov/search?q=%22USA%20v.%20Marcus%20Garvey%22)
+  - BlackPast: Marcus Garvey (https://blackpast.org/global-african-history/garvey-marcus-1887-1940/)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, disputed political and legal claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-22 - The Buffalo Soldiers
 
@@ -431,11 +449,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-02 - Matthew Henson
 
+- Entry title: Matthew Henson
 - Slug: `matthew-henson`
-- Core claims: Matthew Henson knew the ice, the language, the dogs, and the route. For decades, history still treated him like a footnote. Henson joined Robert Peary's Arctic expeditions and became essential to their travel. He learned from Inuit communities, mastered sledging, and was part of the 1909 expedition that claimed to reach the North Pole. Peary received fame quickly. Henson waited decades for broader recognition, even though his skill helped make the expedition possible.
-- Sources:
-  - https://www.nationalgeographic.com/history/article/matthew-henson
-  - https://www.britannica.com/biography/Matthew-Alexander-Henson
+- Daily date: 2026-06-02
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: Matthew Henson's Arctic story is usually told as delayed credit, and that is true, but not enough. Henson was not merely Robert Peary's assistant. He was a skilled navigator, sled driver, craftsman, hunter, translator, and field expert whose relationships with Inughuit communities helped make Arctic travel possible. The 1909 expedition that claimed to reach the North Pole remains historically debated, but Henson's expertise is not. He spent decades in the Arctic, learned languages and survival practices, built sledges, handled dogs, and moved across ice in conditions that punished arrogance. White explorers received medals and institutional recognition first. Henson returned to limited work and late honors. His page matters because exploration history often hides the people who knew how to survive the journey.
+- Primary or authoritative sources:
+  - https://prologue.blogs.archives.gov/2020/04/06/new-york-city-u-s-custom-house-employee-matthew-henson/
+  - https://unwritten-record.blogs.archives.gov/2025/01/21/spotlight-matthew-henson-explorer/
+  - https://www.si.edu/collections/snapshot/matthew-henson-arctic-explorer
+- Supporting secondary sources:
+  - https://www.nationalgeographic.com/culture/article/profile-african-american-north-pole-explorer-matthew-henson
+  - https://visit.archives.gov/whats-on/events/76380
+- Verified quotation source: No quotation included. Peary and Henson quotations were reviewed but omitted to avoid overreliance on disputed expedition narratives.
+- Sensitive or disputed claims reviewed: North Pole reached claim, first-to-pole wording, Inughuit contributors, Peary relationship, late recognition, employment after expedition, and Arlington reburial reviewed.
+- Material corrections made: Expanded scheduled fallback beyond denied credit into Arctic skill, Indigenous knowledge, and debated exploration claims.
+- External links included on the page:
+  - National Archives: New York City U.S. Custom House Employee: Matthew Henson (https://prologue.blogs.archives.gov/2020/04/06/new-york-city-u-s-custom-house-employee-matthew-henson/)
+  - National Archives: Spotlight: Matthew Henson, Explorer (https://unwritten-record.blogs.archives.gov/2025/01/21/spotlight-matthew-henson-explorer/)
+  - Smithsonian Institution: Matthew Henson, Arctic Explorer (https://www.si.edu/collections/snapshot/matthew-henson-arctic-explorer)
+  - National Geographic: Profile: African-American North Pole Explorer Matthew Henson (https://www.nationalgeographic.com/culture/article/profile-african-american-north-pole-explorer-matthew-henson)
+  - National Archives Museum: Co-Discoverer Matthew Henson (https://visit.archives.gov/whats-on/events/76380)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, disputed exploration claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-03 - Charles Richard Drew
 
@@ -1101,11 +1137,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-14 - Mary Eliza Mahoney
 
+- Entry title: Mary Eliza Mahoney
 - Slug: `mary-eliza-mahoney`
-- Core claims: Mary Eliza Mahoney entered nursing when Black women were expected to care for people but not be recognized as professionals. In 1879, Mahoney completed rigorous nurse training in Massachusetts and became the first professionally trained Black nurse in the United States. She spent her career raising standards, advocating for Black nurses, and later supporting women's suffrage.
-- Sources:
+- Daily date: 2026-07-14
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: Mary Eliza Mahoney entered nursing when Black women were expected to provide care but rarely allowed to hold professional authority. She worked for years at the New England Hospital for Women and Children before being admitted to its nurse training program. In 1879, after a demanding course that most students did not complete, she became the first professionally trained Black nurse in the United States. Her career was quiet by design: private-duty nursing, professional discipline, patient trust, and organization-building. But quiet is not small. Mahoney helped force nursing to confront the difference between using Black women's labor and recognizing Black women as trained professionals. She later helped build the National Association of Colored Graduate Nurses and supported women's suffrage. Her story teaches that care work has always been political when respect, credentials, race, and gender decide who is trusted to heal.
+- Primary or authoritative sources:
   - https://www.womenshistory.org/education-resources/biographies/mary-mahoney
-  - https://www.nursingworld.org/ana/about-ana/history/hall-of-fame/1996-1998-inductees/
+  - https://www.nursingworld.org/ana/about-ana/history/hall-of-fame/inductees-listed-alphabetically/
+  - https://www.womenshistory.org/articles/evolution-nursing
+- Supporting secondary sources:
+  - https://www.womenofthehall.org/inductee/mary-mahoney/
+  - https://www.aahn.org/mahoney
+- Verified quotation source: No quotation included. No stable primary Mahoney quotation was verified for this page.
+- Sensitive or disputed claims reviewed: Exact birth date uncertainty, first professionally trained Black nurse wording, class completion count, NACGN role, suffrage registration, breast cancer death, and ANA award history reviewed.
+- Material corrections made: Expanded scheduled fallback from first-nurse recognition into training, professional exclusion, private-duty labor, NACGN, and suffrage context.
+- External links included on the page:
+  - National Women's History Museum: Mary Eliza Mahoney (https://www.womenshistory.org/education-resources/biographies/mary-mahoney)
+  - American Nurses Association: ANA Hall of Fame Inductees: Mary Eliza Mahoney (https://www.nursingworld.org/ana/about-ana/history/hall-of-fame/inductees-listed-alphabetically/)
+  - National Women's History Museum: The Evolution of Nursing (https://www.womenshistory.org/articles/evolution-nursing)
+  - National Women's Hall of Fame: Mary Mahoney (https://www.womenofthehall.org/inductee/mary-mahoney/)
+  - American Association for the History of Nursing: Mary E. Mahoney Gravesite (https://www.aahn.org/mahoney)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, medical first-claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-15 - Jan Matzeliger
 
@@ -1855,11 +1909,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-21 - Mary Ann Shadd Cary
 
+- Entry title: Mary Ann Shadd Cary
 - Slug: `mary-ann-shadd-cary`
-- Core claims: Mary Ann Shadd Cary used a newspaper to speak across borders when Black freedom itself was crossing borders. Born free in Delaware, Shadd Cary moved to Canada after the Fugitive Slave Act of 1850 and published The Provincial Freeman. She advocated emigration, education, self-reliance, abolition, and women's rights, later becoming one of the first Black women lawyers in the United States.
-- Sources:
-  - https://www.womenshistory.org/education-resources/biographies/mary-ann-shadd-cary
+- Daily date: 2026-08-21
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: Mary Ann Shadd Cary used print like a bridge and a weapon. Born free in Delaware, she came from a family that helped freedom seekers before the Fugitive Slave Act made that work even more dangerous. She moved to Canada West, taught in Black refugee communities, and edited the Provincial Freeman, making her the first Black woman newspaper publisher in North America. She argued for emigration, education, self-reliance, abolition, women's rights, and Black political agency, often in a voice that could irritate allies as much as opponents. Later she recruited Black soldiers for the Union, studied law at Howard, and pushed suffrage. Her page matters because she shows Black journalism as more than reporting. It was infrastructure for debate, migration, survival, and freedom across borders.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/mary-ann-shadd-cary.htm
+  - https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/women-impact/human-rights/mary-ann-shadd-cary.html
+  - https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=1705
+- Supporting secondary sources:
+  - https://www.biographi.ca/en/bio/shadd_mary_ann_camberton_12E.html
   - https://www.thecanadianencyclopedia.ca/en/article/mary-ann-shadd
+- Verified quotation source: Short education quotation traced to Government of Canada Mary Ann Shadd Cary profile.
+- Sensitive or disputed claims reviewed: First Black woman publisher claim, Canada migration politics, husband/death dates, law-school framing, suffrage position, and Underground Railroad family activity reviewed.
+- Material corrections made: Expanded scheduled fallback into a cross-border journalism, education, emigration, and suffrage account.
+- External links included on the page:
+  - National Park Service: Mary Ann Shadd Cary (https://www.nps.gov/people/mary-ann-shadd-cary.htm)
+  - Government of Canada: Mary Ann Shadd Cary (https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/women-impact/human-rights/mary-ann-shadd-cary.html)
+  - Parks Canada: Shadd, Mary Ann National Historic Person (https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=1705)
+  - Dictionary of Canadian Biography: Mary Ann Camberton Shadd Cary (https://www.biographi.ca/en/bio/shadd_mary_ann_camberton_12E.html)
+  - The Canadian Encyclopedia: Mary Ann Shadd (https://www.thecanadianencyclopedia.ca/en/article/mary-ann-shadd)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, first-claim and migration-politics review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-22 - The Black Press
 
@@ -1935,11 +2007,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-27 - Mary Jackson
 
+- Entry title: Mary Jackson
 - Slug: `mary-jackson`
-- Core claims: Mary Jackson had to petition for permission to take classes in a segregated school system just to advance in the job she was already doing. Jackson worked at NASA's predecessor, NACA, as a mathematician and later became an engineer after completing required coursework. She became NASA's first Black female engineer and later worked to help women and minorities advance in technical careers.
-- Sources:
-  - https://www.nasa.gov/people/mary-w-jackson-biography/
-  - https://www.nasa.gov/history/mary-w-jackson-biography/
+- Daily date: 2026-08-27
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: Mary Jackson became NASA's first Black female engineer, but the first is only the doorway. The deeper story is a woman from Hampton, Virginia, who moved through teaching, clerical work, segregated computing, wind-tunnel research, graduate-level coursework, technical authorship, and finally equal-opportunity leadership. To become an engineer, she had to get permission to attend classes held at a segregated white school. After two decades of technical work, she accepted a demotion so she could help other women and people of color move through NASA's barriers. Jackson's page matters because it refuses the idea that progress is complete when one person breaks through. She understood the barrier well enough to turn around and work on the doorframe.
+- Primary or authoritative sources:
+  - https://www.nasa.gov/history/mary-w-jackson/
+  - https://blogs.loc.gov/inside_adams/2017/02/hidden-figures-no-more-african-american-women-in-space-exploration/
+  - https://www.nasa.gov/news-release/nasa-names-headquarters-after-hidden-figure-mary-w-jackson/
+- Supporting secondary sources:
+  - https://www.nasa.gov/image-article/mary-jackson-nasa-langley/
+  - https://awis.org/historical-women/mary-jackson/
+- Verified quotation source: Short wording is a NASA biographical characterization, not presented as Jackson's direct speech.
+- Sensitive or disputed claims reviewed: First Black female NASA engineer claim, segregation-class permission, publication count, voluntary demotion, headquarters naming, and Hidden Figures framing reviewed.
+- Material corrections made: Expanded scheduled fallback into a technical, institutional, and mentorship-focused account.
+- External links included on the page:
+  - NASA: Mary W. Jackson (https://www.nasa.gov/history/mary-w-jackson/)
+  - Library of Congress: Hidden Figures No More (https://blogs.loc.gov/inside_adams/2017/02/hidden-figures-no-more-african-american-women-in-space-exploration/)
+  - NASA: Mary Jackson at NASA Langley (https://www.nasa.gov/image-article/mary-jackson-nasa-langley/)
+  - Association for Women in Science: Mary Jackson (https://awis.org/historical-women/mary-jackson/)
+  - NASA: NASA Names Headquarters After Mary W. Jackson (https://www.nasa.gov/news-release/nasa-names-headquarters-after-hidden-figure-mary-w-jackson/)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported personal quote, STEM first-claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-28 - Dorothy Vaughan
 
@@ -3551,3 +3641,133 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - OpenStax: Medieval Sub-Saharan Africa (https://openstax.org/books/world-history-volume-1/pages/15-2-medieval-sub-saharan-africa)
   - World History Encyclopedia: Mansa Musa I (https://www.worldhistory.org/Mansa_Musa_I/)
 - Final review status: Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified historical-map quotation, wealth and empire claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-28 - Marsha P. Johnson
+
+- Entry title: Marsha P. Johnson
+- Slug: `marsha-p-johnson`
+- Daily date: 2026-03-28
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: Marsha P. Johnson is often placed at the front of Pride history, sometimes so quickly that the person disappears behind the symbol. She was a Black gender-nonconforming activist, performer, Christian, sex worker, friend, organizer, and survivor of police harassment, homelessness, poverty, psychiatric institutionalization, and anti-trans violence. She was present in the Stonewall era, co-founded Street Transvestite Action Revolutionaries with Sylvia Rivera, helped house young people who had nowhere safe to go, and later worked with ACT UP during the AIDS crisis. Her death in 1992 was mishandled by police and remains unresolved. A serious page has to hold both joy and danger: the flower crowns, the jokes, the generosity, the organizing, and the systems that treated her life as disposable until public memory needed a saint.
+- Primary or authoritative sources:
+  - https://www.womenshistory.org/education-resources/biographies/marsha-p-johnson
+  - https://www.si.edu/stories/marsha-johnson-sylvia-rivera-and-history-pride-month
+  - https://www.nyclgbtsites.org/theme/transgender-history/
+- Supporting secondary sources:
+  - https://parks.ny.gov/history/lgbtqia-history
+  - https://wams.nyhistory.org/growth-and-turmoil/growing-tensions/marsha-p-johnson/
+- Verified quotation source: No quotation included. The page paraphrases known motto context without using an extended quotation as evidence.
+- Sensitive or disputed claims reviewed: Gender terminology, Stonewall first-action claims, sex work, homelessness, psychiatric history, HIV diagnosis, death investigation, and police reclassification reviewed.
+- Material corrections made: Replaced legacy page with richer sourced context and corrected the daily challenge link from slug form to the real date.
+- External links included on the page:
+  - National Women's History Museum: Marsha P. Johnson (https://www.womenshistory.org/education-resources/biographies/marsha-p-johnson)
+  - Smithsonian Institution: Marsha Johnson, Sylvia Rivera, and the History of Pride Month (https://www.si.edu/stories/marsha-johnson-sylvia-rivera-and-history-pride-month)
+  - NYC LGBT Historic Sites Project: Transgender History (https://www.nyclgbtsites.org/theme/transgender-history/)
+  - New York State Parks: LGBTQIA+ History (https://parks.ny.gov/history/lgbtqia-history)
+  - New-York Historical Society: Life Story: Marsha P. Johnson (https://wams.nyhistory.org/growth-and-turmoil/growing-tensions/marsha-p-johnson/)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, sensitive gender/death-investigation claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-04-02 - Martin Luther King Jr. (Final Days)
+
+- Entry title: Martin Luther King Jr. (Final Days)
+- Slug: `mlk-final-days`
+- Daily date: 2026-04-02
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: Martin Luther King Jr.'s final days are often remembered through the balcony, the bullet, and the last speech. That memory can make his final campaign look like a tragic epilogue instead of the work he was choosing. King was in Memphis because Black sanitation workers were on strike after years of dangerous conditions, racist treatment, low pay, and the deaths of Echol Cole and Robert Walker in a garbage truck. Their signs said "I AM A MAN." King came because his civil rights vision had moved directly into labor, poverty, war, and economic power. By 1968 he was more controversial than memorial versions admit. His last days matter because they show a leader insisting that dignity included wages, safety, union recognition, housing, and the right of poor people to disrupt the nation until it listened.
+- Primary or authoritative sources:
+  - https://www.archives.gov/education/lessons/memphis-v-mlk
+  - https://kinginstitute.stanford.edu/ive-been-mountaintop
+  - https://www.archives.gov/research/jfk/select-committee-report/part-2-king-findings.html
+- Supporting secondary sources:
+  - https://www.afscme.org/about/history/mlk
+  - https://civilrightsmuseum.org/story/mlk50-special-report/
+- Verified quotation source: Short quotation traced to King's March 18, 1968 Memphis sanitation workers speech as documented by labor and King Institute materials.
+- Sensitive or disputed claims reviewed: Assassination timing/location, March 28 violence, worker death details, strike settlement, Poor People's Campaign context, and anti-war/economic-justice criticism reviewed.
+- Material corrections made: Replaced shallow legacy page with a labor-centered final-days account and corrected the daily challenge link from slug form to the real date.
+- External links included on the page:
+  - National Archives: Martin Luther King Jr. and Memphis Sanitation Workers (https://www.archives.gov/education/lessons/memphis-v-mlk)
+  - King Institute at Stanford University: I've Been to the Mountaintop (https://kinginstitute.stanford.edu/ive-been-mountaintop)
+  - AFSCME: AFSCME and Dr. King (https://www.afscme.org/about/history/mlk)
+  - National Archives: Findings on MLK Assassination (https://www.archives.gov/research/jfk/select-committee-report/part-2-king-findings.html)
+  - National Civil Rights Museum: MLK50 Special Report (https://civilrightsmuseum.org/story/mlk50-special-report/)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, assassination/labor claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-18 - Mary McLeod Bethune
+
+- Entry title: Mary McLeod Bethune
+- Slug: `mary-mcleod-bethune`
+- Daily date: 2026-03-18
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: Mary McLeod Bethune turned a school with five girls, a dollar and fifty cents, and salvaged supplies into a college, then turned educational authority into national political power. Born to parents who had been enslaved, she became the only child in her family to attend school, founded what became Bethune-Cookman University, led Black women's clubs, created the National Council of Negro Women, and advised presidents. Bethune's life is sometimes told as pure uplift, but the deeper story is sharper. She built institutions because Jim Crow systems denied Black people schooling, jobs, health, safety, and access to government. She also worked inside government during the New Deal, using friendship, discipline, respectability, and pressure to move resources toward Black communities. Her page matters because she shows education as infrastructure, not charity.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/mary-mcleod-bethune.htm
+  - https://www.nps.gov/mamc/
+  - https://www.nps.gov/mamc/learn/historyculture/mary-mcleod-bethune.htm
+- Supporting secondary sources:
+  - https://www.nps.gov/mamc/learn/historyculture/bethune-resume.htm
+  - https://www.nps.gov/hofr/learn/historyculture/mary-mcleod-bethune.htm
+- Verified quotation source: Quotation traced to Bethune's Last Will and Testament as reproduced by National Park Service Bethune materials.
+- Sensitive or disputed claims reviewed: Birth order, school founding amount, merger dates, NCNW founding, NYA federal role, presidential-adviser framing, and New Deal racial limits reviewed.
+- Material corrections made: Replaced legacy summary with richer institution-building and federal power analysis and corrected the daily challenge link from slug form to the real date.
+- External links included on the page:
+  - National Park Service: Mary McLeod Bethune (https://www.nps.gov/people/mary-mcleod-bethune.htm)
+  - National Park Service: Mary McLeod Bethune Council House (https://www.nps.gov/mamc/)
+  - National Park Service: Mary McLeod Bethune History (https://www.nps.gov/mamc/learn/historyculture/mary-mcleod-bethune.htm)
+  - National Park Service: Bethune Resume (https://www.nps.gov/mamc/learn/historyculture/bethune-resume.htm)
+  - Home of Franklin D. Roosevelt NHS: Mary McLeod Bethune (https://www.nps.gov/hofr/learn/historyculture/mary-mcleod-bethune.htm)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, education/federal-role claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-25 - Mass Incarceration & the 13th Amendment
+
+- Entry title: Mass Incarceration & the 13th Amendment
+- Slug: `13th-amendment`
+- Daily date: 2026-02-25
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: The 13th Amendment abolished slavery in the United States, but it did not abolish every legal form of forced labor. Its exception clause allows slavery or involuntary servitude as punishment for crime after conviction. That clause did not automatically create modern mass incarceration, but it became one constitutional opening through which states rebuilt racial control after the Civil War. Black Codes, convict leasing, chain gangs, prison labor, felony disenfranchisement, the War on Drugs, mandatory sentencing, and racialized policing belong to different eras, but they are connected by a recurring pattern: criminal law has often been used to decide whose labor, movement, vote, and body the state can control. This page matters because the history is not a slogan. It is a chain of policy choices that must be traced carefully.
+- Primary or authoritative sources:
+  - https://www.archives.gov/milestone-documents/13th-amendment
+  - https://eji.org/news/history-racial-injustice-convict-leasing/
+  - https://www.sentencingproject.org/reports/the-color-of-justice-racial-and-ethnic-disparity-in-state-prisons-the-sentencing-project/
+- Supporting secondary sources:
+  - https://www.pbs.org/tpt/slavery-by-another-name/themes/convict-leasing/
+  - https://www.brennancenter.org/our-work/analysis-opinion/history-mass-incarceration
+- Verified quotation source: Quotation is the National Archives transcript of the 13th Amendment.
+- Sensitive or disputed claims reviewed: Exception-clause language, Black Codes, convict leasing chronology, Nixon/drug-war claims, crack-powder disparity, prison racial-disparity statistics, and continuity-versus-causation framing reviewed.
+- Material corrections made: Replaced legacy page with careful system history, removed unsupported invented quote, and avoided overclaiming the 13th Amendment as the sole cause of mass incarceration.
+- External links included on the page:
+  - National Archives: 13th Amendment to the U.S. Constitution (https://www.archives.gov/milestone-documents/13th-amendment)
+  - Equal Justice Initiative: Convict Leasing (https://eji.org/news/history-racial-injustice-convict-leasing/)
+  - PBS: Convict Leasing (https://www.pbs.org/tpt/slavery-by-another-name/themes/convict-leasing/)
+  - The Sentencing Project: The Color of Justice (https://www.sentencingproject.org/reports/the-color-of-justice-racial-and-ethnic-disparity-in-state-prisons-the-sentencing-project/)
+  - Brennan Center for Justice: A Brief History of Mass Incarceration (https://www.brennancenter.org/our-work/analysis-opinion/history-mass-incarceration)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified constitutional quotation, legal/statistical claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-04-01 - Maya Angelou
+
+- Entry title: Maya Angelou
+- Slug: `maya-angelou`
+- Daily date: 2026-04-01
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: Maya Angelou became one of the most recognized literary voices in the United States, but her authority came from more than a famous voice. She was a survivor, dancer, singer, streetcar conductor, single mother, performer, journalist, civil rights worker, editor, memoirist, poet, teacher, and public witness. I Know Why the Caged Bird Sings changed American autobiography by turning a Black girl's interior life, trauma, language, humor, and self-making into literature without asking permission. Her work is beloved and sometimes criticized for being too public, too inspirational, or too often quoted. A serious page has to go deeper than the poster line. Angelou's power was in turning the first-person singular into a collective register: an "I" that carried a "we" without pretending the pain or the beauty was simple.
+- Primary or authoritative sources:
+  - https://www.womenshistory.org/education-resources/biographies/maya-angelou
+  - https://www.poetryfoundation.org/poets/maya-angelou
+  - https://www.nationalbook.org/people/dr-maya-angelou/
+- Supporting secondary sources:
+  - https://mayaangelou.wfu.edu/
+  - https://obamawhitehouse.archives.gov/photos-and-video/video/2011/02/15/2010-presidential-medal-freedom-ceremony?page=2
+- Verified quotation source: Short quotation traced to I Know Why the Caged Bird Sings and kept under excerpt limits.
+- Sensitive or disputed claims reviewed: Childhood rape, mutism duration, streetcar first claim, SCLC role, Ghana/Cairo work, screenplay first claim, inauguration poem, awards, and book-ban controversy reviewed.
+- Material corrections made: Replaced legacy page with a fuller literary, performance, civil-rights, and public-intellectual account and corrected the daily challenge link from slug form to the real date.
+- External links included on the page:
+  - National Women's History Museum: Maya Angelou (https://www.womenshistory.org/education-resources/biographies/maya-angelou)
+  - Poetry Foundation: Maya Angelou (https://www.poetryfoundation.org/poets/maya-angelou)
+  - National Book Foundation: Dr. Maya Angelou (https://www.nationalbook.org/people/dr-maya-angelou/)
+  - Wake Forest University: Maya Angelou (https://mayaangelou.wfu.edu/)
+  - The White House Archives: 2010 Presidential Medal of Freedom Ceremony (https://obamawhitehouse.archives.gov/photos-and-video/video/2011/02/15/2010-presidential-medal-freedom-ceremony?page=2)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, sensitive trauma and literary first-claim review, depth/similarity validation, desktop/mobile browser check.

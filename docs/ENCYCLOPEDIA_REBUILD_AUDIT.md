@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First fifteen rebuild batches complete; continue from row 125, `Marcus Garvey`, on `encyclopedia-rebuild`.
+Status: First sixteen rebuild batches complete; continue from row 135, `Maynard Jackson`, on `encyclopedia-rebuild`.
 Date: 2026-08-14
 
 ## Quality Gap Documented
@@ -202,13 +202,26 @@ Batch 15 verification:
 - Internal link validation checked 150 rendered Batch 15 internal links, 0 broken.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, external-link verification, and desktop/mobile browser verification passed before batch completion commit.
 
+## Batch 16 Completed
+
+Completed pages: `marcus-garvey`, `marsha-p-johnson`, `mlk-final-days`, `mary-ann-shadd-cary`, `mary-eliza-mahoney`, `mary-jackson`, `mary-mcleod-bethune`, `13th-amendment`, `matthew-henson`, `maya-angelou`.
+
+Batch 16 rebuilt five scheduled/generated pages and five legacy-path pages into the approved rich encyclopedia format. Marcus Garvey now includes UNIA mass organizing, Black Star Line controversy, surveillance, deportation, and criticism from Black contemporaries; Marsha P. Johnson now treats gender terminology, STAR, housing, HIV/AIDS, Stonewall memory, and the unresolved death investigation with care; King's final-days page now centers the Memphis sanitation strike, labor dignity, anti-poverty work, and the Poor People's Campaign; Mary Ann Shadd Cary now connects cross-border abolition journalism, emigration debates, education, suffrage, and law; Mary Eliza Mahoney now frames nursing as credentialed labor and professional organizing; Mary Jackson now moves from West Computing to engineering and equal-opportunity work; Mary McLeod Bethune now emphasizes institution-building and federal power; the 13th Amendment page now avoids one-cause simplification while tracing punishment exceptions, convict leasing, prison labor, and mass incarceration; Matthew Henson now handles the debated North Pole claim while centering Arctic skill and Inughuit knowledge; and Maya Angelou now expands beyond quotation-card memory into memoir, performance, civil rights, teaching, trauma, and voice.
+
+Batch 16 verification:
+
+- External links checked: 50 total, 0 material failures after replacing six stale or moved URLs. Forty-four links returned successful responses. Six Smithsonian, New-York Historical Society, Canadian Encyclopedia, Library of Congress blog, and Poetry Foundation pages returned bot-blocking statuses during automated checking but were retained only because they are direct authoritative or high-quality pages already verified for subject relevance. Two source URLs redirected to canonical forms.
+- Browser rendering checked: 10 Batch 16 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards, empty links, horizontal overflow, stale quiz wording, loading fallbacks, failed local requests, or material page console errors.
+- Internal link validation checked 150 rendered Batch 16 internal links, 0 broken.
+- `npm run generate`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, external-link verification, and desktop/mobile browser verification passed before batch completion commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 125
-- REWRITE: 51
-- RESEARCH: 34
-- REBUILD: 51
+- PASS: 135
+- REWRITE: 46
+- RESEARCH: 29
+- REBUILD: 46
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -219,7 +232,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished work: continue Batch 16 from row 125, `Marcus Garvey`.
+Next unfinished work: continue Batch 17 from row 135, `Maynard Jackson`.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -351,16 +364,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 122 | Malcolm X | generated/pages/malcolm-x.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, Nation of Islam/break/pilgrimage/assassination/exonerations claim review, corrected Columbia and Innocence Project URLs, depth/similarity validation, desktop/mobile browser check. |
 | 123 | Mamie Till-Mobley | encyclopedia/mamie-till-mobley.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, funeral/public-memory/trial/education/federal-law claim review, corrected NPS source URLs, depth/similarity validation, desktop/mobile browser check. |
 | 124 | Mansa Musa | encyclopedia/mansa-musa.html | PASS | Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, Arabic-source/pilgrimage/Mali-economy/Timbuktu/wealth-ranking claim review, depth/similarity validation, desktop/mobile browser check. |
-| 125 | Marcus Garvey | generated/pages/marcus-garvey.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 126 | Marsha P. Johnson | encyclopedia/marsha-p-johnson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 127 | Martin Luther King Jr. (Final Days) | encyclopedia/mlk-final-days.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 128 | Mary Ann Shadd Cary | generated/pages/mary-ann-shadd-cary.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 129 | Mary Eliza Mahoney | generated/pages/mary-eliza-mahoney.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 130 | Mary Jackson | generated/pages/mary-jackson.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 131 | Mary McLeod Bethune | encyclopedia/mary-mcleod-bethune.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 132 | Mass Incarceration & the 13th Amendment | encyclopedia/13th-amendment.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 133 | Matthew Henson | generated/pages/matthew-henson.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 134 | Maya Angelou | encyclopedia/maya-angelou.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 125 | Marcus Garvey | generated/pages/marcus-garvey.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Black Star Line/mail-fraud/Klan-meeting/UNIA influence claim review, corrected stale LOC and BlackPast URLs, depth/similarity validation, desktop/mobile browser check. |
+| 126 | Marsha P. Johnson | encyclopedia/marsha-p-johnson.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, gender terminology/Stonewall/STAR/HIV/death-investigation claim review, corrected daily challenge link, depth/similarity validation, desktop/mobile browser check. |
+| 127 | Martin Luther King Jr. (Final Days) | encyclopedia/mlk-final-days.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, Memphis sanitation strike/assassination/poor-people/labor claim review, corrected stale AFSCME and Civil Rights Museum URLs, depth/similarity validation, desktop/mobile browser check. |
+| 128 | Mary Ann Shadd Cary | generated/pages/mary-ann-shadd-cary.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, first-publisher/emigration/education/law/suffrage claim review, replaced stale NWHM source, depth/similarity validation, desktop/mobile browser check. |
+| 129 | Mary Eliza Mahoney | generated/pages/mary-eliza-mahoney.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, first professional nurse/training/NACGN/suffrage claim review, depth/similarity validation, desktop/mobile browser check. |
+| 130 | Mary Jackson | generated/pages/mary-jackson.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported personal quote, NASA first-engineer/technical-publication/equal-opportunity claim review, depth/similarity validation, desktop/mobile browser check. |
+| 131 | Mary McLeod Bethune | encyclopedia/mary-mcleod-bethune.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, school-founding/NCNW/NYA/New Deal claim review, corrected daily challenge link, depth/similarity validation, desktop/mobile browser check. |
+| 132 | Mass Incarceration & the 13th Amendment | encyclopedia/13th-amendment.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified constitutional quotation, exception-clause/convict-leasing/drug-war/statistical claim review, removed unsupported legacy quote and corrected EJI/PBS source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 133 | Matthew Henson | generated/pages/matthew-henson.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, disputed North Pole/Inughuit contributors/late-recognition claim review, depth/similarity validation, desktop/mobile browser check. |
+| 134 | Maya Angelou | encyclopedia/maya-angelou.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, trauma/mutism/streetcar/SCLC/screenplay/inaugural-poem claim review, corrected daily challenge link and White House source URL, depth/similarity validation, desktop/mobile browser check. |
 | 135 | Maynard Jackson | generated/pages/maynard-jackson.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 136 | Medgar Evers | generated/pages/medgar-evers.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 137 | Melvin Van Peebles | encyclopedia/melvin-van-peebles.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
