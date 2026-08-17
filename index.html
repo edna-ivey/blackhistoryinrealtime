@@ -49,28 +49,31 @@
   main { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; padding: 48px 24px 80px; }
   .view { display: none; }
   .view.active { display: block; }
-  .date-header { text-align: center; margin-bottom: 36px; animation: fadeUp 0.5s ease both; }
+  .date-header { text-align: center; margin-bottom: 28px; animation: fadeUp 0.5s ease both; }
   .day-label { font-size: 0.72rem; letter-spacing: 5px; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; }
   .date-header h2 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 5vw, 3rem); font-weight: 900; color: var(--white); line-height: 1.15; margin-bottom: 12px; }
+  .date-header h2[hidden] { display: none; }
   .cat-tag { display: inline-block; background: var(--green); color: var(--cream); font-size: 0.65rem; letter-spacing: 3px; text-transform: uppercase; padding: 5px 14px; border-radius: 100px; }
   @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
   .quiz-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 20px; overflow: hidden; animation: fadeUp 0.5s ease 0.1s both; }
-  .quiz-top { background: linear-gradient(135deg, var(--red) 0%, #7a0020 100%); padding: 28px 32px; position: relative; overflow: hidden; }
-  .quiz-top::after { content: '?'; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); font-family: 'Playfair Display', serif; font-size: 140px; font-weight: 900; color: rgba(255,255,255,0.07); line-height: 1; pointer-events: none; }
-  .quiz-label { font-size: 0.68rem; letter-spacing: 4px; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 10px; }
-  .quiz-kicker { font-size: 0.78rem; letter-spacing: 1.5px; color: rgba(255,255,255,0.68); margin: -4px 0 12px; position: relative; z-index: 1; }
-  .quiz-question { font-family: 'Playfair Display', serif; font-size: clamp(1rem, 2.8vw, 1.45rem); font-weight: 700; color: var(--white); line-height: 1.45; position: relative; z-index: 1; }
+  .quiz-top { background: linear-gradient(135deg, var(--red) 0%, #7a0020 100%); padding: 34px 36px 36px; position: relative; overflow: hidden; }
+  .quiz-top::after { content: '?'; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); font-family: 'Playfair Display', serif; font-size: 160px; font-weight: 900; color: rgba(255,255,255,0.06); line-height: 1; pointer-events: none; }
+  .quiz-question { font-family: 'Playfair Display', serif; font-size: clamp(1.7rem, 5vw, 2.65rem); font-weight: 900; color: var(--white); line-height: 1.16; position: relative; z-index: 1; max-width: 92%; }
   .quiz-body { padding: 28px 32px; }
   .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
   .opt-btn { background: rgba(255,255,255,0.04); border: 1px solid rgba(212,160,23,0.18); border-radius: 12px; padding: 14px 16px; color: var(--cream); font-family: 'DM Sans', sans-serif; font-size: 0.88rem; cursor: pointer; text-align: left; transition: all 0.22s; display: flex; align-items: flex-start; gap: 10px; }
   .opt-btn:hover:not(.disabled) { background: rgba(212,160,23,0.1); border-color: var(--gold); transform: translateY(-2px); }
+  .opt-btn:focus-visible, .reveal-btn:focus-visible, .enc-link-card:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
   .opt-btn.selected { background: rgba(212,160,23,0.12); border-color: var(--gold); }
   .opt-btn.correct { background: rgba(26,92,56,0.35); border-color: #4CAF50; color: #a8e6a8; }
   .opt-btn.wrong { background: rgba(196,30,58,0.25); border-color: var(--red); color: #ffaaaa; }
   .opt-btn.disabled { cursor: default; }
   .opt-letter { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; min-width: 22px; background: rgba(212,160,23,0.15); border-radius: 50%; font-size: 0.7rem; font-weight: 700; color: var(--gold); }
+  .opt-text { flex: 1; }
+  .opt-status { display: block; margin-top: 5px; font-size: 0.68rem; letter-spacing: 1.8px; text-transform: uppercase; color: rgba(245,237,216,0.72); }
   .reveal-btn { width: 100%; background: linear-gradient(135deg, var(--gold), var(--orange)); border: none; border-radius: 12px; padding: 16px; color: var(--black); font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 3px; cursor: pointer; transition: all 0.22s; }
   .reveal-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(212,160,23,0.35); }
+  .reveal-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; box-shadow: none; }
   .reveal-section { display: none; }
   .reveal-section.show { display: block; animation: fadeUp 0.4s ease both; }
   .divider { display: flex; align-items: center; gap: 14px; padding: 0 32px; margin: 28px 0 22px; }
@@ -78,6 +81,7 @@
   .divider span { font-family: 'Bebas Neue', sans-serif; font-size: 0.8rem; letter-spacing: 5px; color: var(--gold); white-space: nowrap; }
   .story-block { padding: 0 32px 28px; }
   .answer-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(26,92,56,0.3); border: 1px solid rgba(76,175,80,0.4); border-radius: 8px; padding: 7px 14px; font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; color: #a8e6a8; margin-bottom: 18px; }
+  .answer-badge.wrong-answer { background: rgba(196,30,58,0.25); border-color: rgba(196,30,58,0.45); color: #ffcccc; }
   .story-name { font-family: 'Playfair Display', serif; font-size: clamp(1.3rem, 3.5vw, 1.9rem); font-weight: 900; color: var(--white); line-height: 1.2; margin-bottom: 4px; }
   .story-dates { font-size: 0.72rem; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 18px; }
   .story-body { font-size: 0.97rem; line-height: 1.85; color: rgba(245,237,216,0.82); }
@@ -151,7 +155,8 @@
     nav { padding: 0 16px; }
     nav button, nav a.nav-link { padding: 10px 12px; font-size: 0.72rem; }
     main { padding: 28px 14px 60px; }
-    .quiz-top { padding: 20px; }
+    .quiz-top { padding: 28px 22px 30px; }
+    .quiz-question { max-width: 100%; }
     .quiz-body { padding: 20px; }
     .options-grid { grid-template-columns: 1fr; }
     .story-block { padding: 0 20px 22px; }
@@ -195,13 +200,11 @@
     </div>
     <div class="quiz-card" id="quizCard">
       <div class="quiz-top">
-        <div class="quiz-label">THE CHALLENGE</div>
-        <div class="quiz-kicker">Think before you swipe.</div>
-        <div class="quiz-question" id="quizQ">Loading...</div>
+        <h2 class="quiz-question" id="quizQ">Loading...</h2>
       </div>
       <div class="quiz-body">
         <div class="options-grid" id="optGrid"></div>
-        <button class="reveal-btn" id="revBtn" onclick="reveal()">Reveal the Story ✊🏾</button>
+        <button type="button" class="reveal-btn" id="revBtn" onclick="reveal()" disabled>Choose an Answer</button>
       </div>
       <div class="reveal-section" id="revealSec">
         <div class="divider"><span>The Story</span></div>
@@ -262,7 +265,7 @@
         <p>We share daily quizzes and deep dives into Black history they didn't always teach in school, alongside current moments of Black excellence, resistance, and progress happening in real time. This history belongs to everyone.</p>
         <div class="pull-quote"><p>"Not a lecture. A gift."</p></div>
         <p>Follow us on Instagram <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> for daily posts, carousel slides, and more.</p>
-        <p style="margin:0;">Questions or story submissions: <a href="/cdn-cgi/l/email-protection#31535d50525a595842455e4348585f4354505d45585c5471565c50585d1f525e5c"><span class="__cf_email__" data-cfemail="c0a2aca1a3aba8a9b3b4afb2b9a9aeb2a5a1acb4a9ada580a7ada1a9aceea3afad">[email&#160;protected]</span></a></p>
+        <p style="margin:0;">Questions or story submissions: <a href="mailto:blackhistoryinrealtime@gmail.com">blackhistoryinrealtime@gmail.com</a></p>
       </div>
     </div>
   </div>
@@ -273,7 +276,7 @@
 </footer>
 <script data-cfasync="false" src="generated/encyclopedia-data.js"></script>
 <script data-cfasync="false" src="generated/daily-data.js"></script>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 const NOW_STORIES = [
   { date:"Ongoing", title:"HBCUs Keep Building the Future", body:"Historically Black Colleges and Universities continue to educate leaders across medicine, law, education, public service, science, sports, and the arts. Their history is not a closed chapter; it is living infrastructure.", tag:"Education" },
   { date:"Ongoing", title:"Local Reparations Work Continues", body:"Communities across the country continue debating and testing local repair programs tied to housing, education, and documented racial harm. The national question remains unsettled, but the local work keeps moving.", tag:"Justice" },
@@ -1516,6 +1519,18 @@ function getTodayIdx() {
   return Math.max(best, 0);
 }
 function storageKey(idx) { return 'bh_' + DATA[idx].fullDate; }
+function resolveDayParam(dayParam) {
+  if (dayParam === null) return -1;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(dayParam)) return findIdx(dayParam);
+  const slugIdx = DATA.findIndex(d => {
+    const pathSlug = d.encyclopediaPath ? d.encyclopediaPath.split('/').pop().replace(/\.html$/, '') : '';
+    return d.encyclopediaSlug === dayParam || pathSlug === dayParam;
+  });
+  if (slugIdx !== -1) return slugIdx;
+  const num = parseInt(dayParam, 10);
+  if (!Number.isNaN(num) && num >= 0 && num < DATA.length) return num;
+  return -1;
+}
 
 let currentIdx = 0;
 let answered = false;
@@ -1533,7 +1548,9 @@ function loadDay(idx) {
   const d = DATA[idx];
   const dateObj = parseLocalDate(d.fullDate);
   document.getElementById('dayLabel').textContent = formatFullDate(dateObj);
-  document.getElementById('storyTitle').textContent = d.title;
+  const storyTitle = document.getElementById('storyTitle');
+  storyTitle.textContent = '';
+  storyTitle.hidden = true;
   document.getElementById('catTag').textContent = d.category;
   document.getElementById('quizQ').textContent = d.question;
   const encLink = document.getElementById('encLink');
@@ -1544,13 +1561,25 @@ function loadDay(idx) {
   grid.innerHTML = '';
   ['A','B','C','D'].forEach((letter,i) => {
     const btn = document.createElement('button');
+    btn.type = 'button';
     btn.className = 'opt-btn';
-    btn.innerHTML = '<span class="opt-letter">'+letter+'</span>'+(d.options[i] || 'Option unavailable');
+    const letterSpan = document.createElement('span');
+    letterSpan.className = 'opt-letter';
+    letterSpan.textContent = letter;
+    const textSpan = document.createElement('span');
+    textSpan.className = 'opt-text';
+    textSpan.textContent = d.options[i] || 'Option unavailable';
+    btn.appendChild(letterSpan);
+    btn.appendChild(textSpan);
     btn.onclick = () => selectOpt(i);
     grid.appendChild(btn);
   });
   document.getElementById('revealSec').classList.remove('show');
-  document.getElementById('revBtn').style.display = 'block';
+  const revealButton = document.getElementById('revBtn');
+  revealButton.style.display = 'block';
+  revealButton.disabled = true;
+  revealButton.textContent = 'Choose an Answer';
+  document.getElementById('answerText').parentElement.classList.remove('wrong-answer');
   const saved = localStorage.getItem(storageKey(idx));
   if (saved !== null) { answered = true; selectedOpt = parseInt(saved); applyAnswerState(idx, selectedOpt); revealContent(); }
 }
@@ -1559,12 +1588,15 @@ function selectOpt(i) {
   if (answered) return;
   selectedOpt = i;
   document.querySelectorAll('.opt-btn').forEach((b,j) => { b.classList.remove('selected'); if (j===i) b.classList.add('selected'); });
+  const revealButton = document.getElementById('revBtn');
+  revealButton.disabled = false;
+  revealButton.textContent = 'Submit Answer';
 }
 
 function reveal() {
+  if (selectedOpt === null && !answered) return;
   if (!answered) {
     answered = true;
-    if (selectedOpt === null) selectedOpt = DATA[currentIdx].answer;
     localStorage.setItem(storageKey(currentIdx), selectedOpt);
     applyAnswerState(currentIdx, selectedOpt);
     updateStreak();
@@ -1574,9 +1606,15 @@ function reveal() {
 
 function revealContent() {
   const d = DATA[currentIdx];
+  const storyTitle = document.getElementById('storyTitle');
+  storyTitle.textContent = d.title;
+  storyTitle.hidden = false;
   document.getElementById('revealSec').classList.add('show');
   document.getElementById('revBtn').style.display = 'none';
-  document.getElementById('answerText').textContent = 'Answer: ' + d.answerText;
+  const wasCorrect = selectedOpt === d.answer;
+  const answerBadge = document.getElementById('answerText').parentElement;
+  answerBadge.classList.toggle('wrong-answer', !wasCorrect);
+  document.getElementById('answerText').textContent = (wasCorrect ? 'Correct' : 'Not quite') + ' · Answer: ' + d.answerText;
   document.getElementById('storyName').textContent = d.subject;
   document.getElementById('storyDates').textContent = d.dates;
   let html = d.story;
@@ -1590,19 +1628,40 @@ function applyAnswerState(idx, sel) {
   const d = DATA[idx];
   document.querySelectorAll('.opt-btn').forEach((b,j) => {
     b.classList.add('disabled');
-    if (j===d.answer) b.classList.add('correct');
-    else if (j===sel && j!==d.answer) b.classList.add('wrong');
+    b.disabled = true;
+    b.setAttribute('aria-disabled', 'true');
+    const text = d.options[j] || 'Option unavailable';
+    const status = document.createElement('span');
+    status.className = 'opt-status';
+    if (j===d.answer) {
+      b.classList.add('correct');
+      status.textContent = j === sel ? 'Correct answer, your choice' : 'Correct answer';
+      b.setAttribute('aria-label', text + ', correct answer');
+    } else if (j===sel) {
+      b.classList.add('wrong');
+      status.textContent = 'Your choice';
+      b.setAttribute('aria-label', text + ', your choice, incorrect');
+    }
+    if (status.textContent && !b.querySelector('.opt-status')) {
+      b.querySelector('.opt-text').appendChild(status);
+    }
   });
 }
 
 function showNoContent(dateString) {
   const fallbackDate = dateString && /^\d{4}-\d{2}-\d{2}$/.test(dateString) ? parseLocalDate(dateString) : parseLocalDate(todayStr());
   document.getElementById('dayLabel').textContent = formatFullDate(fallbackDate);
-  document.getElementById('storyTitle').textContent = 'Coming Soon';
+  const storyTitle = document.getElementById('storyTitle');
+  storyTitle.textContent = 'Coming Soon';
+  storyTitle.hidden = false;
   document.getElementById('catTag').textContent = 'Check Back';
   document.getElementById('quizQ').textContent = 'This entry is not available yet.';
   document.getElementById('optGrid').innerHTML = '';
-  document.getElementById('revBtn').style.display = 'none';
+  const revealButton = document.getElementById('revBtn');
+  revealButton.style.display = 'none';
+  revealButton.disabled = true;
+  revealButton.textContent = 'Choose an Answer';
+  document.getElementById('answerText').parentElement.classList.remove('wrong-answer');
   document.getElementById('revealSec').classList.remove('show');
   document.getElementById('encLink').style.display = 'none';
 }
@@ -1719,11 +1778,7 @@ window.onload = () => {
   loadStreak();
   const params = new URLSearchParams(window.location.search);
   const dayParam = params.get('day');
-  let targetIdx = -1;
-  if (dayParam !== null) {
-    if (dayParam.includes('-')) { targetIdx = findIdx(dayParam); }
-    else { const num = parseInt(dayParam); if (!isNaN(num) && num>=0 && num<DATA.length) targetIdx = num; }
-  }
+  const targetIdx = resolveDayParam(dayParam);
   if (targetIdx !== -1) { loadDay(targetIdx); }
   else if (dayParam !== null) { showNoContent(dayParam); }
   else {
@@ -1733,7 +1788,6 @@ window.onload = () => {
   }
   calViewDate = parseLocalDate(todayStr());
   buildNow();
-  if (dayParam !== null) window.history.replaceState({}, '', window.location.pathname);
   const hashView = window.location.hash.replace('#', '');
   const knownViews = ['today', 'now', 'calendar', 'archive', 'about'];
   if (knownViews.includes(hashView)) {
