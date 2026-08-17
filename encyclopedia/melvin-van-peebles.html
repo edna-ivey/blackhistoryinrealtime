@@ -3,79 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Melvin Van Peebles — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="In 1971, Melvin Van Peebles made Sweet Sweetback's Baadasssss Song entirely outside the Hollywood system — self-financed, self-distributed, X-rated by">
+<title>Melvin Van Peebles - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Melvin Van Peebles did not wait for Hollywood to decide that Black people were worth serious screen time. He wrote novels in French, made films in Europe, directed a studio satire, then built Sweet Sweetback&#039;s Baadasssss Song outside the system and sold it directly to the audience the system had ignored. The film&#039;s politics, sexuality, violence, and marketing were controversial from the beginning, and the industry learned some of the wrong lessons from its success. Still, Van Peebles changed the business argument. Black audiences were not imaginary. Black filmmakers did not need permission to create demand. His page matters because independent Black cinema is not only a style. It is a fight over money, distribution, authorship, risk, and who gets to decide what freedom looks like on screen.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--purple),var(--red));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;transition:all 0.2s;}
-.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
-.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
-.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
-.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
-.external-section{}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="melvin-van-peebles">
@@ -100,101 +79,142 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="breadcrumb">
     <a href="../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>February 17 · Film & Arts</span>
+    <span>February 17 &middot; Film</span>
   </div>
   <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
   <div class="entry-hero">
-    <div class="entry-vol-label">February 17 · Film & Arts</div>
+    <div class="entry-vol-label">February 17 &middot; Film</div>
     <h1>Melvin Van Peebles</h1>
-    <p class="entry-tagline">In 1971, Melvin Van Peebles made Sweet Sweetback's Baadasssss Song entirely outside the Hollywood system — self-financed, self-distributed, X-rated by the MPAA — and it grossed $15 million on a $150,000 budget. Hollywood had spent decades insisting there was no market for Black films. He proved them wrong with a film they refused to touch.</p>
+    <p class="entry-tagline">Melvin Van Peebles did not wait for Hollywood to decide that Black people were worth serious screen time. He wrote novels in French, made films in Europe, directed a studio satire, then built Sweet Sweetback&#039;s Baadasssss Song outside the system and sold it directly to the audience the system had ignored. The film&#039;s politics, sexuality, violence, and marketing were controversial from the beginning, and the industry learned some of the wrong lessons from its success. Still, Van Peebles changed the business argument. Black audiences were not imaginary. Black filmmakers did not need permission to create demand. His page matters because independent Black cinema is not only a style. It is a fight over money, distribution, authorship, risk, and who gets to decide what freedom looks like on screen.</p>
     <div class="entry-badges">
       <span class="badge">People</span>
-      <span class="badge">1932 — 2021</span>
+      <span class="badge">1932 - 2021</span>
     </div>
     <div class="hero-bar"></div>
   </div>
+
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
-    <div class="timeline-items"><div class="tl-item"><div class="tl-date">1932</div><div class="tl-event">Born Melvin Peebles in Chicago, Illinois</div></div>
-<div class="tl-item"><div class="tl-date">1957</div><div class="tl-event">Moves to Paris, studies astronomy; begins making short films</div></div>
-<div class="tl-item"><div class="tl-date">1967</div><div class="tl-event">The Story of a Three-Day Pass — first feature, made in France; shown at San Francisco Film Festival as French entry</div></div>
-<div class="tl-item"><div class="tl-date">1971</div><div class="tl-event">Writes, directs, produces, scores, and stars in Sweet Sweetback's Baadasssss Song — self-distributed</div></div>
-<div class="tl-item"><div class="tl-date">1971</div><div class="tl-event">Sweetback grosses $15M from $150K budget; X rating later changed to R</div></div>
-<div class="tl-item"><div class="tl-date">2021</div><div class="tl-event">Dies September 21 at 89; his son Mario dedicates the film Outlaw Posse to him</div></div>
-</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Aug 21, 1932</div><div class="tl-event">Born Melvin Peebles in Chicago, Illinois.</div></div>
+<div class="tl-item"><div class="tl-date">1953</div><div class="tl-event">Graduates from Ohio Wesleyan University and later serves in the U.S. Air Force.</div></div>
+<div class="tl-item"><div class="tl-date">1950s</div><div class="tl-event">Moves to San Francisco, works as a cable-car gripman, and begins making short films.</div></div>
+<div class="tl-item"><div class="tl-date">1960s</div><div class="tl-event">Lives in Europe, writes in French, and builds a path into filmmaking outside Hollywood.</div></div>
+<div class="tl-item"><div class="tl-date">1967</div><div class="tl-event">Directs The Story of a Three-Day Pass in France.</div></div>
+<div class="tl-item"><div class="tl-date">1970</div><div class="tl-event">Directs the studio film Watermelon Man.</div></div>
+<div class="tl-item"><div class="tl-date">1971</div><div class="tl-event">Writes, directs, produces, scores, edits, markets, and stars in Sweet Sweetback&#039;s Baadasssss Song.</div></div>
+<div class="tl-item"><div class="tl-date">1971</div><div class="tl-event">Ain&#039;t Supposed to Die a Natural Death opens on Broadway.</div></div>
+<div class="tl-item"><div class="tl-date">1970s-2000s</div><div class="tl-event">Continues working across film, theater, music, fiction, television, and finance.</div></div>
+<div class="tl-item"><div class="tl-date">Sept 21, 2021</div><div class="tl-event">Dies in New York at age 89.</div></div>
+    </div>
   </div>
+
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>Melvin Van Peebles was born in Chicago in 1932 and spent his life refusing every career path that had been designed for someone like him. After serving in the Air Force and earning a degree in literature from Ohio Wesleyan University, he moved to San Francisco, drove a cable car, and started making short films with a 16mm camera. When Hollywood showed no interest, he did what he would spend his career doing: he went somewhere else. He moved to the Netherlands to study astronomy, then to Paris, where he lived for years, wrote five novels in French, and eventually secured funding to direct his first feature film, La Permission (The Story of a Three-Day Pass) in 1967. When it was selected for the San Francisco International Film Festival as France's official entry, the American press had to grapple with the fact that the film's director was an African American from Chicago who had made it in France because America hadn't offered him the chance.</p>
-<p>Columbia Pictures saw the festival buzz and offered Van Peebles a directing contract. He used it to make Watermelon Man in 1970 — a studio film about a white racist who wakes up Black, which Van Peebles used to negotiate a salary and, crucially, to buy back control of his next project. That next project was Sweet Sweetback's Baadasssss Song, and Van Peebles made it completely outside the studio system. He wrote it, directed it, produced it, starred in it, scored it (with an early Earth, Wind & Fire), and distributed it himself. He shot it in 19 days. When he submitted it to the MPAA for a rating, it received an X — which he printed on the advertising material as a badge of honor: 'Rated X by an All-White Jury.' He cast his own son, Mario, then 14, in scenes depicting the character's early life.</p>
-<p>The film's story — a street-smart Black man on the run from law enforcement — was deliberate and political. Van Peebles said explicitly that he wanted to make a film where, for once, the Black man wins. Not a tragic hero. Not a suffering symbol. A man who survives by his wits, his sexuality, and his refusal to submit. The film's protagonist escapes. That was revolutionary in 1971 American cinema, where Black characters in mainstream films were almost invariably defined by their relationship to white protagonists — as helpers, victims, or threats. Sweetback was none of those things. He was his own story.</p>
-<p>The film's commercial results demolished the industry's foundational assumption: that Black films couldn't make money. It grossed more than $15 million on a production budget of approximately $150,000. It was the highest-grossing independent film of 1971. Hollywood responded not by understanding what Van Peebles had actually done, but by creating a cheaper, more exploitative version of it: the blaxploitation genre. Films like Shaft and Superfly followed, some of them genuinely meaningful, others simply cashing in on the discovery that Black audiences would pay to see Black protagonists. Van Peebles was critical of many of these films, arguing that they traded Black liberation for Black stereotypes in a different costume.</p>
-<p>Beyond film, Van Peebles was a prolific composer, playwright, and novelist. His 1971 musical Ain't Supposed to Die a Natural Death ran on Broadway and received seven Tony nominations. He wrote and recorded multiple albums. He wrote books. He taught himself options trading on the American Stock Exchange and later wrote a book about it. He never stopped making things on his own terms. When he died on September 21, 2021, at age 89, tributes came from Spike Lee, Ava DuVernay, and virtually every Black filmmaker who had worked in the decades since. The consensus was simple: he had gone first, and he had proved it was possible, and everything that came after owed a debt to that.</p>
-
+<p>Melvin Van Peebles built a career by refusing to stay in the category other people assigned him. He was born in Chicago in 1932, studied literature at Ohio Wesleyan, served in the Air Force, and later worked in San Francisco as a cable-car gripman. That job became material. He wrote about it, photographed it, and learned the city from a working person&#039;s angle. The pattern was already visible: he turned whatever life gave him into a form.</p>
+<p>Hollywood did not open a door for him. Van Peebles moved through Europe, especially France, where he wrote novels in French and found a film culture more willing to let him work. His 1967 feature The Story of a Three-Day Pass explored race, intimacy, and military life through a Black American soldier abroad. It was not a Hollywood calling card in the usual sense. It was proof that he could make a feature when American studios had not imagined him as a director.</p>
+<p>Columbia Pictures hired him to direct Watermelon Man in 1970. The film begins with a white insurance salesman who wakes up Black, a premise that could have become a safe studio joke. Van Peebles pushed it toward satire about racism, performance, and identity. He also learned how little control a Black director could have in a studio system built around other people&#039;s assumptions. His next move was to control as much as possible himself.</p>
+<p>Sweet Sweetback&#039;s Baadasssss Song was made outside normal Hollywood channels. Van Peebles wrote it, directed it, produced it, starred in it, composed music for it, edited it, and pushed its distribution. He used limited money, union and nonunion tensions, dangerous working conditions, and relentless hustle. The result was raw, uneven, angry, sexually explicit, and politically electric. It told a story of a Black man pursued by police who does not end by submitting, dying for white redemption, or disappearing into someone else&#039;s plot.</p>
+<p>The film&#039;s marketing was as important as the film. When it received an X rating, Van Peebles used the phrase &quot;Rated X by an All-White Jury&quot; as a selling point. The Black Panther Party endorsed it. Earth, Wind &amp; Fire recorded music connected to the film before they became globally famous. Audiences came because the film promised something mainstream screens rarely offered: a Black protagonist whose survival was not negotiated for white comfort.</p>
+<p>The success was real, but the aftermath was complicated. Sweetback helped prove the commercial power of Black audiences, and Hollywood responded with a wave of films often grouped under the label blaxploitation. Some gave Black actors and filmmakers new opportunities. Some reduced rebellion to marketable stereotypes. Van Peebles did not simply create a genre and step aside. He remained critical of the ways the industry turned discovery into formula.</p>
+<p>His art never stayed in one lane. Ain&#039;t Supposed to Die a Natural Death reached Broadway in 1971 and brought street language, music, and Black urban life into a theatrical form that resisted polish. He recorded albums, wrote books, acted, directed, and even worked in financial markets. That range can make him difficult to summarize, which is exactly why he matters. He was not a brand-friendly pioneer. He was a restless maker.</p>
+<p>Teaching Van Peebles requires both admiration and care. Sweetback opened doors, but it also raises questions about gender, sexuality, labor, violence, and the cost of making art under pressure. Its use of his underage son Mario in explicit material has been criticized and cannot be brushed away. Van Peebles&#039;s importance does not depend on making every choice defensible. It depends on recognizing that he forced American film to confront Black authorship as business, politics, and provocation.</p>
   </div>
-  <div class="pull-quote">
-<div class="pq-bar"></div>
-<blockquote>Melvin Van Peebles was the godfather of modern Black cinema — not because he was first, but because he fought for independence and won.</blockquote>
-<cite>Smithsonian Magazine, on the legacy of early Black filmmakers</cite>
-</div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Van Peebles paid for independence with financial risk, physical strain, industry isolation, and critical backlash. Working outside the system meant he controlled more of the art, but it also meant he carried more of the danger. Sweetback&#039;s production choices created ethical questions as well as breakthroughs, especially around sexuality, labor conditions, and the pressure put on family members and collaborators.</p>
+<p>The impact was enormous. Black filmmakers after him inherited proof that a Black film could find its audience without waiting for studio belief. They also inherited a warning: once a market is proven, corporations may try to copy the surface while stripping away the politics.</p>
+  </div>
+
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>Van Peebles matters as a case study in what happens when you build outside the system rather than waiting for the system to invite you. Hollywood had decades of infrastructure for telling stories about white people. It did not lack the money or the technology to tell Black stories. It lacked the will, because it had convinced itself — and tried to convince the world — that no market existed. Van Peebles disproved this with one self-financed, self-distributed, independently made film. His influence runs directly through Spike Lee, John Singleton, Julie Dash, F. Gary Gray, Ryan Coogler, and Ava DuVernay — every Black filmmaker who understood that the industry's gatekeeping was a business decision, not a statement about artistic merit, and who found ways around it. The lesson isn't just about film. It's about who gets to tell their own story, and what it costs to make that possible.</p>
+<p>Melvin Van Peebles matters today because distribution still shapes whose stories reach people. A film can be brilliant and unseen if the money, screens, advertising, and gatekeepers never line up. Van Peebles understood that independence had to include the path to the audience, not only the camera.</p>
+<p>His work also complicates easy celebration. Independent does not automatically mean liberating, and representation does not erase questions about gender, exploitation, or craft. That complexity is part of the education. He expanded possibility while leaving behind arguments that Black cinema still has to have with itself.</p>
+<p>The fuller lesson is not simply that Hollywood was wrong about Black audiences. It is that Black artists have repeatedly built new routes when old institutions pretended no route existed. Van Peebles made a path, then dared other people to walk past him.</p>
   </div>
+
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../index.html?day=2026-02-17" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz &middot; Day 17</div>
-        <div class="quiz-link-title">Test your knowledge on Melvin Van Peebles</div>
+    <a href="../index.html?day=2026-02-17" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; February 17</div>
+        <div class="quiz-card-title">Open the daily challenge for Melvin Van Peebles</div>
       </div>
-      <span class="quiz-link-arrow">&#x270A;&#x1F3FE;</span>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;">
-      <!-- connections auto-generated by encyclopedia-data.js -->
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/james-brown.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">James Brown</div>
+        <div class="connected-desc">Links Black creative independence, market power, and the politics of performance.</div>
+      </a>
+<a href="../encyclopedia/josephine-baker.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Josephine Baker</div>
+        <div class="connected-desc">Connects performance, race, sexuality, and European routes around American limits.</div>
+      </a>
+<a href="../encyclopedia/black-fashion.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Fashion &amp; Cultural Appropriation</div>
+        <div class="connected-desc">Shows how Black style can be extracted once institutions discover its market value.</div>
+      </a>
+<a href="../encyclopedia/gordon-parks.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Gordon Parks</div>
+        <div class="connected-desc">Connects Black visual authorship across photography, journalism, and film.</div>
+      </a>
     </div>
   </div>
+
   <div class="section-divider"><span>Learn More</span></div>
   <div class="external-section">
     <div class="section-title">External Links</div>
-    <div class="external-links"><a href="https://www.smithsonianmag.com/history/the-black-western-has-been-around-for-a-century-heres-what-the-genre-represents-in-movie-and-american-history-180983868/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">A Century of Black Westerns and What Van Peebles Built</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.smithsonianmag.com/smart-news/academy-museum-black-cinema-180980636/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">Academy Museum Explores Black Cinema's Early Years — Van Peebles to DuVernay</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.smithsonianmag.com/smart-news/long-lost-artifacts-early-black-cinema-180983731/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">The Long-Lost History of Black Film — From Oscar Micheaux to Van Peebles</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-</div>
+    <div class="external-links">
+<a href="https://www.criterion.com/films/33049-sweet-sweetback-s-baadasssss-song" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Criterion Collection</div>
+          <div class="ext-title">Sweet Sweetback&#039;s Baadasssss Song</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.criterion.com/current/posts/7527-melvin-van-peebles-1932-2021" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Criterion Current</div>
+          <div class="ext-title">Melvin Van Peebles, 1932-2021</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://catalog.afi.com/Film/54130-SWEET-SWEETBACKS-BAADASSSSS-SONG?cxt=filmography" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">AFI Catalog</div>
+          <div class="ext-title">Sweet Sweetback&#039;s Baadasssss Song</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.britannica.com/biography/Melvin-Van-Peebles" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Encyclopaedia Britannica</div>
+          <div class="ext-title">Melvin Van Peebles</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nytimes.com/2021/09/22/movies/melvin-van-peebles-dead.html" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">The New York Times</div>
+          <div class="ext-title">Melvin Van Peebles, Champion of New Black Cinema, Dies at 89</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
   </div>
 </main>
 <footer>
-  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

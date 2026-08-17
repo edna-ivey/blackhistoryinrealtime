@@ -1,7 +1,7 @@
 # Encyclopedia Rebuild Audit
 
-Status: First sixteen rebuild batches complete; continue from row 135, `Maynard Jackson`, on `encyclopedia-rebuild`.
-Date: 2026-08-14
+Status: First seventeen rebuild batches complete; continue from row 145, `Myrlie Evers-Williams`, on `encyclopedia-rebuild`.
+Date: 2026-08-17
 
 ## Quality Gap Documented
 
@@ -215,24 +215,38 @@ Batch 16 verification:
 - Internal link validation checked 150 rendered Batch 16 internal links, 0 broken.
 - `npm run generate`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, internal-link validation, external-link verification, and desktop/mobile browser verification passed before batch completion commit.
 
+## Batch 17 Completed
+
+Completed pages: `maynard-jackson`, `medgar-evers`, `melvin-van-peebles`, `meta-warrick-fuller`, `michelle-obama`, `miles-davis`, `mississippi-freedom-summer`, `modern-civil-rights`, `move-bombing`, `muhammad-ali`.
+
+Batch 17 rebuilt seven scheduled/generated pages and three legacy-path pages into the approved rich encyclopedia format. Maynard Jackson now connects first-mayor history to procurement, the airport, contracts, and the limits of representation; Medgar Evers now centers field organizing, family risk, Mississippi context, and delayed accountability; Melvin Van Peebles now frames independent Black cinema through authorship, distribution, ethics, and industry extraction; Meta Warrick Fuller now includes training, archival loss, gendered barriers, Ethiopia Awakening, and Black modernist context; Michelle Obama now expands beyond symbol into education, institutional work, First Lady initiatives, scrutiny, and self-definition; Miles Davis now treats musical innovation alongside addiction, racist policing, domestic violence, collaboration, and reinvention while removing a weakly sourced quote; Freedom Summer now centers local Mississippi leadership, Freedom Schools, the MFDP, violence, and movement tensions; Modern Civil Rights Leaders now treats present-history leadership as a network rather than a single-hero story; the MOVE Bombing now traces official decision-making, neighborhood harm, legal aftermath, rebuilding failures, remains mishandling, and memory; and Muhammad Ali now includes faith, draft resistance, legal consequences, contradictions, boxing harm, and later public memory.
+
+Batch 17 verification:
+
+- External links checked: 50 total, 0 material failures after replacing stale, moved, misleading, or automation-hostile URLs. Forty links returned successful `200` responses. Ten FBI, Criterion, Britannica, New York Times, NMAAHC, Library of Congress, Kennedy Center, Black Lives Matter, City of Philadelphia PDF, and Britannica pages returned bot-blocking statuses during automated checking but were retained only because they are direct authoritative or high-quality pages already verified for subject relevance. One Oyez case page is a JavaScript application and was verified by URL/title rather than page-text extraction.
+- Browser rendering checked: 10 Batch 17 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for section presence, connected cards, external links, daily challenge cards, empty links, horizontal overflow, stale quiz wording, loading fallbacks, failed local requests, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 17 source and rendered pages, 0 findings.
+- Internal link validation checked 175 encyclopedia quiz CTAs through `scripts/validate-quiz-links.js`; rendered internal connections also passed depth validation.
+- `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, and desktop/mobile browser verification passed before batch completion commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 135
-- REWRITE: 46
-- RESEARCH: 29
-- REBUILD: 46
+- PASS: 145
+- REWRITE: 39
+- RESEARCH: 26
+- REBUILD: 39
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
 
-Classification note: `PASS`, `REWRITE`, and `RESEARCH` are the current primary editorial buckets. `REBUILD` is an overlapping layout/template flag, not an additional exclusive group of 97 pages. A page can be counted as `REWRITE, REBUILD` or `RESEARCH, REBUILD` when it needs both content/source work and Claudette-style template alignment. This is why the status counts do not add up to 210.
+Classification note: `PASS`, `REWRITE`, and `RESEARCH` are the exclusive editorial buckets and reconcile to 210 total cards. `REBUILD` is an overlapping layout/template flag, not an additional exclusive group. A page can be counted as `REWRITE, REBUILD` when it needs both content/source work and Claudette-style template alignment.
 
 Owner review gate: cleared. Continue future batches using Batch 1 as the locked standard. Do not reduce depth, flatten the voice, weaken research standards, or mass-produce formulaic pages.
 
 ## Continuation Checkpoint
 
-Next unfinished work: continue Batch 17 from row 135, `Maynard Jackson`.
+Next unfinished work: continue Batch 18 from row 145, `Myrlie Evers-Williams`.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -374,16 +388,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 132 | Mass Incarceration & the 13th Amendment | encyclopedia/13th-amendment.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified constitutional quotation, exception-clause/convict-leasing/drug-war/statistical claim review, removed unsupported legacy quote and corrected EJI/PBS source URLs, depth/similarity validation, desktop/mobile browser check. |
 | 133 | Matthew Henson | generated/pages/matthew-henson.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, disputed North Pole/Inughuit contributors/late-recognition claim review, depth/similarity validation, desktop/mobile browser check. |
 | 134 | Maya Angelou | encyclopedia/maya-angelou.html | PASS | Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, trauma/mutism/streetcar/SCLC/screenplay/inaugural-poem claim review, corrected daily challenge link and White House source URL, depth/similarity validation, desktop/mobile browser check. |
-| 135 | Maynard Jackson | generated/pages/maynard-jackson.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 136 | Medgar Evers | generated/pages/medgar-evers.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 137 | Melvin Van Peebles | encyclopedia/melvin-van-peebles.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 138 | Meta Warrick Fuller | generated/pages/meta-warrick-fuller.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 139 | Michelle Obama | encyclopedia/michelle-obama.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 140 | Miles Davis | generated/pages/miles-davis.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 141 | Mississippi Freedom Summer | generated/pages/mississippi-freedom-summer.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 142 | Modern Civil Rights Leaders | encyclopedia/modern-civil-rights.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 143 | MOVE Bombing | generated/pages/move-bombing.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 144 | Muhammad Ali | generated/pages/muhammad-ali.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 135 | Maynard Jackson | generated/pages/maynard-jackson.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, first-mayor/airport/procurement/minority-contracting claim review, replaced unstable archive and airport URLs, depth/similarity validation, desktop/mobile browser check. |
+| 136 | Medgar Evers | generated/pages/medgar-evers.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, assassination/field-organizing/family-risk/delayed-accountability claim review, corrected stale Archives and FBI URLs, depth/similarity validation, desktop/mobile browser check. |
+| 137 | Melvin Van Peebles | encyclopedia/melvin-van-peebles.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, Black cinema/distribution/Sweetback/genre-influence/sensitive production claim review, replaced stale AFI source, depth/similarity validation, desktop/mobile browser check. |
+| 138 | Meta Warrick Fuller | generated/pages/meta-warrick-fuller.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, art-history/studio-fire/Ethiopia Awakening/death-date claim review, corrected death date and replaced stale museum URLs, depth/similarity validation, desktop/mobile browser check. |
+| 139 | Michelle Obama | encyclopedia/michelle-obama.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, First Lady/education/professional-role/public-scrutiny initiative claim review, corrected Penguin Random House redirect, depth/similarity validation, desktop/mobile browser check. |
+| 140 | Miles Davis | generated/pages/miles-davis.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, weakly sourced legacy quote removed, Kind of Blue/second quintet/electric-fusion/policing/domestic-violence claim review, corrected GRAMMY and estate URLs, depth/similarity validation, desktop/mobile browser check. |
+| 141 | Mississippi Freedom Summer | generated/pages/mississippi-freedom-summer.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, local-leadership/Chaney-Goodman-Schwerner/Freedom Schools/MFDP claim review, replaced unstable SNCC URL, depth/similarity validation, desktop/mobile browser check. |
+| 142 | Modern Civil Rights Leaders | encyclopedia/modern-civil-rights.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, BLM/current-history/intersectionality/voting-rights/disputed-strategy claim review, corrected AAPF and Stacey Abrams URLs, depth/similarity validation, desktop/mobile browser check. |
+| 143 | MOVE Bombing | generated/pages/move-bombing.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified commission quotation, death-count/fire/remains-mishandling/rebuilding/legal-aftermath claim review, replaced stale Temple and WHYY URLs, depth/similarity validation, desktop/mobile browser check. |
+| 144 | Muhammad Ali | generated/pages/muhammad-ali.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short anti-war quotation, name-change/Nation of Islam/draft case/Frazier/Parkinson's/athlete-activism claim review, corrected NPS and NMAAHC URLs, depth/similarity validation, desktop/mobile browser check. |
 | 145 | Myrlie Evers-Williams | encyclopedia/myrlie-evers-williams.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 146 | Nat Turner | generated/pages/nat-turner.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 147 | New York Slave Revolt of 1712 | encyclopedia/ny-slave-revolt.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |

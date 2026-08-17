@@ -112,11 +112,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-13 - MOVE Bombing
 
+- Entry title: MOVE Bombing
 - Slug: `move-bombing`
-- Core claims: On May 13, 1985, a city government used explosives against its own residents and then let a Black neighborhood burn. Philadelphia police were trying to evict members of MOVE, a Black liberation and back-to-nature organization. After a long confrontation, police dropped a bomb on the group's rowhouse from a helicopter. The fire killed eleven people, including five children, and destroyed more than sixty homes. The disaster became one of the clearest examples of state violence against a Black community in modern U.S. history.
-- Sources:
+- Daily date: 2026-05-13
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: On May 13, 1985, Philadelphia police dropped explosives on a rowhouse at 6221 Osage Avenue after a long confrontation with MOVE, a Black liberation and back-to-nature organization that city officials had treated as a public-order problem for years. The fire that followed killed eleven people, including five children, and destroyed more than sixty homes. The story is sometimes told as an extreme police mistake. That is too easy. The bombing was the result of official decisions: surveillance, escalation, military-style tactics, an explosive device, a command choice to let the fire burn, and years of conflict between MOVE, neighbors, police, and city government. Its page matters because it shows what happens when a city treats a Black neighborhood as expendable in the name of control.
+- Primary or authoritative sources:
+  - https://www.phila.gov/media/20210621133347/MOVE-Investigation-Report.pdf
   - https://philadelphiaencyclopedia.org/essays/move/
+  - https://www.phila.gov/2021-05-13-mayor-jim-kenney-announces-resignation-of-health-commissioner-dr-thomas-farley/
+- Supporting secondary sources:
   - https://www.pbs.org/independentlens/documentaries/let-the-fire-burn/
+  - https://whyy.org/articles/former-mayor-w-wilson-goode-sr-philly-must-apologize-for-move-bombing-35-years-ago/
+- Verified quotation source: Short quotation traced to the Philadelphia Special Investigation Commission report and kept as a concise official finding.
+- Sensitive or disputed claims reviewed: Number of people killed, children killed, homes destroyed, 1978 confrontation, decision to let fire burn, excessive-force verdict, remains mishandling, and apology reviewed.
+- Material corrections made: Expanded scheduled fallback beyond "city dropped a bomb" into MOVE history, neighbor conflict, command decisions, legal aftermath, rebuilding harm, and memory politics.
+- External links included on the page:
+  - Encyclopedia of Greater Philadelphia: MOVE (https://philadelphiaencyclopedia.org/essays/move/)
+  - City of Philadelphia: MOVE Investigation Report (https://www.phila.gov/media/20210621133347/MOVE-Investigation-Report.pdf)
+  - PBS Independent Lens: Let the Fire Burn (https://www.pbs.org/independentlens/documentaries/let-the-fire-burn/)
+  - City of Philadelphia: Resignation of Health Commissioner Dr. Thomas Farley (https://www.phila.gov/2021-05-13-mayor-jim-kenney-announces-resignation-of-health-commissioner-dr-thomas-farley/)
+  - WHYY: Former Mayor Goode Says Philly Must Apologize for MOVE Bombing (https://whyy.org/articles/former-mayor-w-wilson-goode-sr-philly-must-apologize-for-move-bombing-35-years-ago/)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified commission quotation, state-violence and death-count claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-14 - Freedom Riders Attacked in Anniston
 
@@ -357,11 +375,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-26 - Miles Davis
 
+- Entry title: Miles Davis
 - Slug: `miles-davis`
-- Core claims: Miles Davis did not protect one sound. He kept walking away from success to find the next one. Born May 26, 1926, Davis became one of the most influential musicians in jazz history. His work shaped cool jazz, hard bop, modal jazz, and jazz fusion. Kind of Blue became a landmark recording, but Davis refused to stay there. His career is a map of invention, risk, collaboration, and restlessness.
-- Sources:
+- Daily date: 2026-05-26
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Miles Davis kept changing the room and then leaving before everyone else got comfortable. He was a trumpeter, bandleader, composer, arranger of space, and one of the most influential musicians of the twentieth century. Bebop, cool jazz, hard bop, modal jazz, orchestral collaborations, electric fusion, funk, and studio experimentation all pass through his career. But Davis was not only a sequence of innovations. He was a demanding collaborator whose bands became schools for other giants, a Black celebrity navigating racism and policing, a musician whose beauty could sit beside cruelty, and a public figure whose life included addiction, violence, illness, and reinvention. His page matters because genius here is not a clean statue. It is sound, discipline, risk, harm, style, and the courage to make the next note unfamiliar.
+- Primary or authoritative sources:
   - https://www.loc.gov/item/ihas.200152693/
   - https://www.arts.gov/honors/jazz/miles-davis
+  - https://www.kennedy-center.org/artists/d/do-dz/miles-davis/
+- Supporting secondary sources:
+  - https://www.grammy.com/artists/miles-davis/11305/
+  - https://www.milesdavis.com/timeline/
+- Verified quotation source: No quotation included. A legacy quotation was removed because source tracing was not strong enough for the rebuilt encyclopedia standard.
+- Sensitive or disputed claims reviewed: Kind of Blue sales phrasing, addiction, police beating at Birdland, domestic violence, electric fusion backlash, and second-quintet personnel reviewed.
+- Material corrections made: Expanded scheduled fallback beyond innovation shorthand into bandleading, genre shifts, racism, harm, and collaborator influence.
+- External links included on the page:
+  - Library of Congress: Miles Davis (https://www.loc.gov/item/ihas.200152693/)
+  - National Endowment for the Arts: Miles Davis, NEA Jazz Master (https://www.arts.gov/honors/jazz/miles-davis)
+  - GRAMMY Museum: Miles Davis (https://www.grammy.com/artists/miles-davis/11305/)
+  - Kennedy Center: Miles Davis (https://www.kennedy-center.org/artists/d/do-dz/miles-davis/)
+  - Miles Davis Estate: Timeline (https://www.milesdavis.com/timeline/)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, sensitive biographical and music-history claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-27 - The Great Migration
 
@@ -587,11 +623,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-12 - Medgar Evers
 
+- Entry title: Medgar Evers
 - Slug: `medgar-evers`
-- Core claims: Medgar Evers spent his life organizing in Mississippi, then was killed in his own driveway while his family was inside. As NAACP field secretary, Evers investigated violence, organized boycotts, supported desegregation efforts, and pushed voter registration in one of the most dangerous states for civil rights work. He was assassinated on June 12, 1963. His killer was not convicted until 1994, after decades of delayed justice.
-- Sources:
+- Daily date: 2026-06-12
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Medgar Evers is often remembered at the moment of his murder, lying in his driveway in Jackson, Mississippi, while his family was inside the house. That ending is devastating, but it is not the whole life. Evers was a World War II veteran, college student, insurance worker, husband, father, and the NAACP's first field secretary in Mississippi. His work was local, relentless, and dangerous: voter registration, school desegregation, boycotts, investigations of racial violence, and support for people whose names did not make national news. He was not waiting for the movement to arrive in Mississippi. He was building it under threat every day. His story matters because civil rights depended on organizers who knew the risks and stayed anyway.
+- Primary or authoritative sources:
   - https://www.nps.gov/people/medgar-evers.htm
-  - https://www.archives.gov/research/african-americans/individuals/medgar-evers
+  - https://www.nps.gov/memy/
+  - https://department.va.gov/history/medgar-evers/
+- Supporting secondary sources:
+  - https://naacp.org/find-resources/history-explained/civil-rights-leaders/medgar-evers
+  - https://www.fbi.gov/history/cases-and-criminals/medgar-evers
+- Verified quotation source: Short quotation traced to the U.S. Department of Veterans Affairs/National Cemetery Administration Medgar Evers remembrance and cross-checked against institutional Evers biographies.
+- Sensitive or disputed claims reviewed: Assassination chronology, firebombing/threat claims, Emmett Till investigation role, Ole Miss integration, De La Beckwith trials and conviction, and family danger reviewed.
+- Material corrections made: Expanded scheduled fallback beyond assassination into field organizing, family risk, Mississippi context, and delayed accountability.
+- External links included on the page:
+  - National Park Service: Medgar Evers (https://www.nps.gov/people/medgar-evers.htm)
+  - National Park Service: Medgar and Myrlie Evers Home National Monument (https://www.nps.gov/memy/)
+  - U.S. Department of Veterans Affairs: Medgar Evers (https://department.va.gov/history/medgar-evers/)
+  - NAACP: Medgar Evers (https://naacp.org/find-resources/history-explained/civil-rights-leaders/medgar-evers)
+  - FBI: Medgar Evers (https://www.fbi.gov/history/cases-and-criminals/medgar-evers)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, assassination and delayed-justice claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-13 - The Black Panther Party
 
@@ -765,11 +819,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-21 - Mississippi Freedom Summer
 
+- Entry title: Mississippi Freedom Summer
 - Slug: `mississippi-freedom-summer`
-- Core claims: In 1964, volunteers went to Mississippi knowing democracy there was being guarded by violence. Freedom Summer brought civil rights workers to support Black voter registration, create Freedom Schools, and challenge Mississippi's all-white political structure. James Chaney, Andrew Goodman, and Michael Schwerner disappeared on June 21 and were later found murdered. Their deaths exposed the terror surrounding voting rights work.
-- Sources:
-  - https://www.crmvet.org/tim/timhis64.htm
+- Daily date: 2026-06-21
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Freedom Summer was not a field trip for idealistic students. It was a high-risk campaign built by local Black Mississippians and movement organizers who knew that voting rights in the state were guarded by terror. In 1964, the Council of Federated Organizations, with SNCC at its center, brought hundreds of mostly young volunteers to Mississippi to support voter registration, Freedom Schools, community centers, and the Mississippi Freedom Democratic Party. The murders of James Chaney, Andrew Goodman, and Michael Schwerner exposed the danger, but the campaign was larger than those three names. Its page matters because democracy here was not a slogan. It was a door knock, a classroom, a jail cell, a funeral, a testimony, and a challenge to a national party that preferred order over justice.
+- Primary or authoritative sources:
   - https://www.archives.gov/research/african-americans/vote/freedom-summer
+  - https://kinginstitute.stanford.edu/freedom-summer
+  - https://www.crmvet.org/tim/timhis64.htm
+- Supporting secondary sources:
+  - https://www.wisconsinhistory.org/Records/Article/CS3707
+  - https://www.loc.gov/collections/civil-rights-history-project/articles-and-essays/voting-rights/
+- Verified quotation source: Short quotation traced to Fannie Lou Hamer's August 22, 1964 Democratic National Convention testimony and used under excerpt limits.
+- Sensitive or disputed claims reviewed: Chaney/Goodman/Schwerner murders, local versus volunteer leadership, MFDP compromise, registration retaliation, federal convictions, and Freedom School claims reviewed.
+- Material corrections made: Expanded scheduled fallback beyond a single campaign summary into local leadership, Freedom Schools, MFDP strategy, violence, and political consequences.
+- External links included on the page:
+  - National Archives: Freedom Summer (https://www.archives.gov/research/african-americans/vote/freedom-summer)
+  - King Institute: Freedom Summer (https://kinginstitute.stanford.edu/freedom-summer)
+  - Civil Rights Movement Archive: Freedom Summer History and Timeline (https://www.crmvet.org/tim/timhis64.htm)
+  - Wisconsin Historical Society: Freedom Summer (https://www.wisconsinhistory.org/Records/Article/CS3707)
+  - Library of Congress: Voting Rights (https://www.loc.gov/collections/civil-rights-history-project/articles-and-essays/voting-rights/)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, racial-violence and movement-tension claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-06-22 - Joe Louis
 
@@ -1197,11 +1269,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-17 - Meta Warrick Fuller
 
+- Entry title: Meta Warrick Fuller
 - Slug: `meta-warrick-fuller`
-- Core claims: Meta Warrick Fuller shaped sculpture into memory, mourning, pride, and awakening. Fuller studied art in Philadelphia and Paris and became known for sculptures that explored Black identity, history, and spiritual force. Her 1921 sculpture Ethiopia Awakening became a powerful image of African diasporic pride during the New Negro era.
-- Sources:
-  - https://americanart.si.edu/artist/meta-vaux-warrick-fuller-1696
-  - https://nmaahc.si.edu/explore/stories/meta-warrick-fuller
+- Daily date: 2026-07-17
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Meta Warrick Fuller gave Black history form before many institutions wanted to display it. Born in Philadelphia, trained in art schools, and shaped by study in Paris, she became a sculptor whose work moved through horror, symbolism, mourning, spirituality, and racial memory. Her Ethiopia Awakening has often been read as a visual signal of Black cultural rebirth, but Fuller should not be reduced to one sculpture. She made art through gender barriers, racist art-world limits, domestic responsibilities, fire, grief, and decades when museums did not know what to do with a Black woman sculptor making ambitious historical work. Her page matters because she shows that Black visual modernism was not waiting for permission. It was already carving the future out of clay, plaster, and memory.
+- Primary or authoritative sources:
+  - https://danforth.framingham.edu/exhibition/meta-fuller/
+  - https://nmaahc.si.edu/meta-vaux-warrick-fuller-ethiopia-1921
+  - https://www.nypl.org/events/exhibitions/galleries/fortitude/item/16726
+- Supporting secondary sources:
+  - https://blackpast.org/african-american-history/fuller-meta-warrick-1877-1968/
+  - https://www.masshist.org/beehiveblog/2018/02/when-the-harlem-renaissance-meets-jim-crow/
+- Verified quotation source: No quotation included. Existing interpretive claims were grounded in museum records rather than unverifiable artist quotations.
+- Sensitive or disputed claims reviewed: Paris training, Rodin influence language, studio fire, Ethiopia Awakening interpretation, Harlem Renaissance framing, death date, and marriage/domestic-labor context reviewed.
+- Material corrections made: Expanded scheduled fallback beyond a single sculpture into training, archival loss, gendered barriers, and Black modernist context.
+- External links included on the page:
+  - Danforth Art Museum: Meta Vaux Warrick Fuller: Legacy (https://danforth.framingham.edu/exhibition/meta-fuller/)
+  - NMAAHC: Meta Vaux Warrick Fuller, Ethiopia, 1921 (https://nmaahc.si.edu/meta-vaux-warrick-fuller-ethiopia-1921)
+  - New York Public Library: Meta Vaux Warrick Fuller (https://www.nypl.org/events/exhibitions/galleries/fortitude/item/16726)
+  - BlackPast: Meta Vaux Warrick Fuller (https://blackpast.org/african-american-history/fuller-meta-warrick-1877-1968/)
+  - Massachusetts Historical Society: When the Harlem Renaissance Meets Jim Crow (https://www.masshist.org/beehiveblog/2018/02/when-the-harlem-renaissance-meets-jim-crow/)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, art-history interpretation review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-18 - Augusta Savage
 
@@ -1377,11 +1467,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-25 - Muhammad Ali
 
+- Entry title: Muhammad Ali
 - Slug: `muhammad-ali`
-- Core claims: Muhammad Ali did not only fight opponents. He fought over his name, his faith, his politics, and his right to say no. Ali won Olympic gold and became heavyweight champion as Cassius Clay, then joined the Nation of Islam and took the name Muhammad Ali. He refused induction into the U.S. military during the Vietnam War, was stripped of his title, and later won his case at the Supreme Court.
-- Sources:
+- Daily date: 2026-07-25
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Muhammad Ali was not simply a champion who talked beautifully. He remade what a Black athlete could say in public and what the public could demand in return. Born Cassius Clay in Louisville, he won Olympic gold, became heavyweight champion, joined the Nation of Islam, changed his name, refused military induction during the Vietnam War, lost his boxing license and title, won at the Supreme Court, returned to the ring, and became a global figure of sport, faith, conscience, style, and contradiction. Ali could be funny, generous, cruel, brilliant, strategic, and wrong. His page matters because greatness here is not only speed and footwork. It is the price of self-definition when a country wants your body, your labor, your silence, and your old name.
+- Primary or authoritative sources:
+  - https://alicenter.org/meet-ali/
   - https://www.oyez.org/cases/1970/783
+  - https://www.fjc.gov/history/cases/famous-federal-trials/us-v-cassius-clay-muhammad-alis-fight-against-vietnam-draft
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/float-butterfly
   - https://www.britannica.com/biography/Muhammad-Ali-boxer
+- Verified quotation source: Short anti-war quotation is widely reported from Ali's 1966 draft-era statements and cross-checked against institutional Ali materials; kept under excerpt limits.
+- Sensitive or disputed claims reviewed: Name change, Nation of Islam membership, Malcolm X break, conscientious-objector case, title stripping, Supreme Court reversal, Frazier insults, Parkinson's disease, and athlete-activism framing reviewed.
+- Material corrections made: Expanded scheduled fallback beyond name-change shorthand into faith, draft resistance, legal consequences, boxing return, contradictions, and later public memory.
+- External links included on the page:
+  - Muhammad Ali Center: Meet Muhammad Ali (https://alicenter.org/meet-ali/)
+  - Oyez: Clay v. United States (https://www.oyez.org/cases/1970/783)
+  - Federal Judicial Center: U.S. v. Cassius Clay: Muhammad Ali's Fight Against the Vietnam Draft (https://www.fjc.gov/history/cases/famous-federal-trials/us-v-cassius-clay-muhammad-alis-fight-against-vietnam-draft)
+  - NMAAHC: Float Like a Butterfly (https://nmaahc.si.edu/explore/stories/float-butterfly)
+  - Encyclopaedia Britannica: Muhammad Ali (https://www.britannica.com/biography/Muhammad-Ali-boxer)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, religion/war/sports harm claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-26 - Ed Temple
 
@@ -1777,11 +1885,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-15 - Maynard Jackson
 
+- Entry title: Maynard Jackson
 - Slug: `maynard-jackson`
-- Core claims: Maynard Jackson understood that political power had to reach contracts, airports, hiring, and who got to build the city. Elected in 1973, Jackson became Atlanta's first Black mayor. He expanded minority business participation and shaped the city's growth. His leadership during airport expansion connected civil rights to economic access, insisting that public projects should not leave Black businesses outside.
-- Sources:
+- Daily date: 2026-08-15
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Maynard Jackson did not treat representation as a portrait on the wall. In 1973, he was elected Atlanta's first Black mayor and one of the first Black mayors of a major Southern city. That victory mattered, but the larger story is what he did with power once he had it. Jackson insisted that the city's airport expansion, public contracts, and municipal decisions had to open doors for Black-owned and minority-owned businesses that had long been locked out. He was brilliant, forceful, sometimes combative, and willing to make Atlanta's business establishment uncomfortable. His page matters because it asks a harder question than who gets elected: what changes when a Black leader uses the budget, the bond market, the airport, and the procurement process as civil rights tools?
+- Primary or authoritative sources:
   - https://www.georgiaencyclopedia.org/articles/government-politics/maynard-jackson-1938-2003/
-  - https://www.atlantaga.gov/government/mayor-s-office/maynard-jackson
+  - https://www.nps.gov/features/malu/feat0002/wof/Maynard_Jackson.htm
+  - https://storymaps.arcgis.com/stories/17d252b3f7f049d8b06fa6ca75765a6d
+- Supporting secondary sources:
+  - https://www.atlantahistorycenter.com/blog/celebrating-maynard-jackson-50-years-of-influence/
+  - https://southernchanges.digitalscholarship.emory.edu/sc01-2_001/sc01-2_011/
+- Verified quotation source: No quotation included. Airport procurement and first-mayor claims were supported through institutional sources rather than a pull quote.
+- Sensitive or disputed claims reviewed: First Black Atlanta mayor claim, family lineage, airport expansion, minority-contracting policy, business backlash, and inequality limits reviewed.
+- Material corrections made: Expanded scheduled fallback beyond first-mayor framing into procurement, airport power, business opposition, and the limits of representation.
+- External links included on the page:
+  - New Georgia Encyclopedia: Maynard Jackson (1938-2003) (https://www.georgiaencyclopedia.org/articles/government-politics/maynard-jackson-1938-2003/)
+  - National Park Service: Maynard Jackson (https://www.nps.gov/features/malu/feat0002/wof/Maynard_Jackson.htm)
+  - Atlanta University Center Archives: Maynard Jackson Archival Story Map (https://storymaps.arcgis.com/stories/17d252b3f7f049d8b06fa6ca75765a6d)
+  - Atlanta History Center: Celebrating Maynard Jackson: 50 Years of Influence (https://www.atlantahistorycenter.com/blog/celebrating-maynard-jackson-50-years-of-influence/)
+  - Southern Changes: Maynard Jackson: A Different Kind of Politics (https://southernchanges.digitalscholarship.emory.edu/sc01-2_001/sc01-2_011/)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, municipal-contracting claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-16 - Harold Washington
 
@@ -3771,3 +3897,81 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Wake Forest University: Maya Angelou (https://mayaangelou.wfu.edu/)
   - The White House Archives: 2010 Presidential Medal of Freedom Ceremony (https://obamawhitehouse.archives.gov/photos-and-video/video/2011/02/15/2010-presidential-medal-freedom-ceremony?page=2)
 - Final review status: Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, sensitive trauma and literary first-claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-17 - Melvin Van Peebles
+
+- Entry title: Melvin Van Peebles
+- Slug: `melvin-van-peebles`
+- Daily date: 2026-02-17
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Melvin Van Peebles did not wait for Hollywood to decide that Black people were worth serious screen time. He wrote novels in French, made films in Europe, directed a studio satire, then built Sweet Sweetback's Baadasssss Song outside the system and sold it directly to the audience the system had ignored. The film's politics, sexuality, violence, and marketing were controversial from the beginning, and the industry learned some of the wrong lessons from its success. Still, Van Peebles changed the business argument. Black audiences were not imaginary. Black filmmakers did not need permission to create demand. His page matters because independent Black cinema is not only a style. It is a fight over money, distribution, authorship, risk, and who gets to decide what freedom looks like on screen.
+- Primary or authoritative sources:
+  - https://www.criterion.com/films/33049-sweet-sweetback-s-baadasssss-song
+  - https://www.criterion.com/current/posts/7527-melvin-van-peebles-1932-2021
+  - https://catalog.afi.com/Film/54130-SWEET-SWEETBACKS-BAADASSSSS-SONG?cxt=filmography
+- Supporting secondary sources:
+  - https://www.britannica.com/biography/Melvin-Van-Peebles
+  - https://www.nytimes.com/2021/09/22/movies/melvin-van-peebles-dead.html
+- Verified quotation source: No quotation included. Earlier legacy pull-quote language was removed because it was commentary rather than a traceable Van Peebles quotation.
+- Sensitive or disputed claims reviewed: Sweetback budget/gross claims, X-rating marketing, Black Panther endorsement, blaxploitation influence, underage Mario Van Peebles scene concerns, and industry-impact framing reviewed.
+- Material corrections made: Replaced legacy page with a deeper Black cinema and distribution history and removed unsupported quote styling.
+- External links included on the page:
+  - Criterion Collection: Sweet Sweetback's Baadasssss Song (https://www.criterion.com/films/33049-sweet-sweetback-s-baadasssss-song)
+  - Criterion Current: Melvin Van Peebles, 1932-2021 (https://www.criterion.com/current/posts/7527-melvin-van-peebles-1932-2021)
+  - AFI Catalog: Sweet Sweetback's Baadasssss Song (https://catalog.afi.com/Film/54130-SWEET-SWEETBACKS-BAADASSSSS-SONG?cxt=filmography)
+  - Encyclopaedia Britannica: Melvin Van Peebles (https://www.britannica.com/biography/Melvin-Van-Peebles)
+  - The New York Times: Melvin Van Peebles, Champion of New Black Cinema, Dies at 89 (https://www.nytimes.com/2021/09/22/movies/melvin-van-peebles-dead.html)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, sensitive production and genre claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-03-31 - Michelle Obama
+
+- Entry title: Michelle Obama
+- Slug: `michelle-obama`
+- Daily date: 2026-03-31
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Michelle Obama became the first Black First Lady of the United States, but treating her only as a symbol misses the discipline that made the symbol matter. She came from the South Side of Chicago, studied at Princeton and Harvard Law School, worked as a lawyer, public servant, nonprofit executive, university administrator, hospital leader, campaign partner, mother, author, and education advocate. In the White House, she turned a role built around ceremony into a platform for children's health, military families, college access, and girls' education. She also endured racist and sexist scrutiny that tried to make her presence seem unnatural. Her page matters because the story is not just that she entered the White House. It is how she carried herself, what she built, and how she refused to be flattened into someone else's accessory.
+- Primary or authoritative sources:
+  - https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama
+  - https://letsmove.obamawhitehouse.archives.gov/learn-facts/epidemic-childhood-obesity
+  - https://obamawhitehouse.archives.gov/reach-higher
+- Supporting secondary sources:
+  - https://obamawhitehouse.archives.gov/joiningforces
+  - https://www.penguinrandomhouse.com/books/562881/becoming-by-michelle-obama/
+- Verified quotation source: Quotation traced to Michelle Obama's July 25, 2016 Democratic National Convention speech transcript and widely available official video records.
+- Sensitive or disputed claims reviewed: First Black First Lady claim, Princeton/Harvard education, professional roles, initiative dates, racist/sexist public scrutiny, memoir sales phrasing, and living-status claims reviewed.
+- Material corrections made: Replaced legacy page with a deeper career and public-role analysis, avoided unverified "best-selling memoir in American history" certainty, and retained the real March 31 challenge link.
+- External links included on the page:
+  - Obama White House Archives: First Lady Michelle Obama (https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama)
+  - Let's Move Archives: Learn the Facts (https://letsmove.obamawhitehouse.archives.gov/learn-facts/epidemic-childhood-obesity)
+  - Obama White House Archives: Joining Forces (https://obamawhitehouse.archives.gov/joiningforces)
+  - Obama White House Archives: Reach Higher (https://obamawhitehouse.archives.gov/reach-higher)
+  - Penguin Random House: Becoming by Michelle Obama (https://www.penguinrandomhouse.com/books/562881/becoming-by-michelle-obama/)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, public-scrutiny and initiative claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-02-27 - Modern Civil Rights Leaders
+
+- Entry title: Modern Civil Rights Leaders
+- Slug: `modern-civil-rights`
+- Daily date: 2026-02-27
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Modern civil rights leadership is not one person at one podium. It is a network of organizers, lawyers, scholars, voters, survivors, local groups, digital strategists, clergy, students, families, and policy workers fighting over policing, voting, prisons, education, housing, health, and memory. Black Lives Matter, founded by Alicia Garza, Patrisse Cullors, and Opal Tometi after Trayvon Martin's killer was acquitted, became one visible language for a wider movement. Bryan Stevenson, Kimberle Crenshaw, Stacey Abrams, Darnella Frazier, and countless local organizers show different kinds of leadership. This page matters because civil rights is not a finished chapter. It is being argued, filmed, litigated, organized, funded, attacked, misunderstood, and remade in public.
+- Primary or authoritative sources:
+  - https://blacklivesmatter.com/herstory/
+  - https://eji.org/bryan-stevenson/
+  - https://www.aapf.org/about
+- Supporting secondary sources:
+  - https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/
+  - https://www.staceyabrams.com/about-stacey
+- Verified quotation source: Short quotation traced to Alicia Garza's 2013 post as reproduced and contextualized by Black Lives Matter herstory materials.
+- Sensitive or disputed claims reviewed: BLM founding, George Floyd protest scale phrasing, Darnella Frazier role, Derek Chauvin conviction, intersectionality, voting suppression language, nonprofit/accountability criticism, and current-history uncertainty reviewed.
+- Material corrections made: Replaced legacy page with careful current-history framing, removed generic movement quote, and treated modern civil rights as networked rather than single-hero leadership.
+- External links included on the page:
+  - Black Lives Matter: Herstory (https://blacklivesmatter.com/herstory/)
+  - Pew Research Center: Support for Black Lives Matter Amid Protests (https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/)
+  - Equal Justice Initiative: Bryan Stevenson (https://eji.org/bryan-stevenson/)
+  - African American Policy Forum: About AAPF (https://www.aapf.org/about)
+  - Stacey Abrams: About Stacey Abrams (https://www.staceyabrams.com/about-stacey)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, current-history and disputed-strategy claim review, depth/similarity validation, desktop/mobile browser check.
