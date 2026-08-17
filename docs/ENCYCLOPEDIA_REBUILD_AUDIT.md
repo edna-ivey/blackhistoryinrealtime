@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First twenty-one rebuild batches complete; continue from row 185, `The Buffalo Soldiers`, on `encyclopedia-rebuild`.
+Status: First twenty-two rebuild batches complete; continue from row 195, `The Rosewood Massacre`, on `encyclopedia-rebuild`.
 Date: 2026-08-17
 
 ## Quality Gap Documented
@@ -281,13 +281,25 @@ Batch 21 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 21 source and rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
 
+## Batch 22 Completed
+
+Completed pages: `buffalo-soldiers`, `convict-leasing`, `freedmens-bureau`, `great-migration`, `greensboro-four`, `harlem-hellfighters`, `harlem-renaissance`, `little-rock-nine`, `mcdonogh-three`, `mis-education`.
+
+Batch 22 rebuilt seven scheduled/generated pages and three legacy-path pages into the approved rich encyclopedia format. Buffalo Soldiers now holds military pride and U.S. expansion honestly together; convict leasing now traces punishment, profit, Black Codes, court debt, state revenue, and forced labor after emancipation; the Freedmen's Bureau now centers freedom infrastructure, land failure, schools, marriage records, family searches, labor contracts, and federal retreat; the Great Migration now treats movement as labor action, family strategy, housing struggle, culture, and political transformation; the Greensboro Four page now adds HBCU context, nonviolent discipline, community support, economic pressure, and SNCC momentum; the Harlem Hellfighters now connect WWI service, French command, Black music, Red Summer, and delayed recognition; the Harlem Renaissance now handles migration, publishing, patronage, women, nightlife, visual art, and cultural argument; the Little Rock Nine now centers state defiance, family cost, Daisy Bates and NAACP support, federal troops, daily harassment, and the Lost Year; the McDonogh Three now restores Leona Tate, Tessie Prevost, and Gail Etienne to New Orleans integration memory; and Mis-Education now expands Carter G. Woodson's book into a deeper critique of curriculum, credentials, community power, and Black History Month's purpose.
+
+Batch 22 verification:
+
+- External links checked: 50 page-level sources plus repeated site-wide external assets, 0 material failures after replacing stale National Archives, Smithsonian Magazine, Library of Congress, Chicago History Museum, NCAT, NPS, 64 Parishes, HNOC, and other moved URLs. NMAAHC, LOC, Facing History, Smithsonian, SNCC Digital, NGA, Poetry Foundation, Met, Louisiana Travel, PRCNO, and ASALH pages that returned automated bot-blocking, throttling, or dynamic-fetch errors were retained only because they are direct authoritative or high-quality pages verified for subject relevance.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 22 source and rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 185
-- REWRITE: 14
-- RESEARCH: 11
-- REBUILD: 14
+- PASS: 195
+- REWRITE: 7
+- RESEARCH: 8
+- REBUILD: 7
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -298,7 +310,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished work: continue Batch 22 from row 185, `The Buffalo Soldiers`.
+Next unfinished work: continue Batch 23 from row 195, `The Rosewood Massacre`.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -490,16 +502,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 182 | The Black Panther Party | generated/pages/black-panther-party.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, self-defense/survival programs/women/COINTELPRO/internationalism claim review, corrected Stanford and Berkeley source URLs, depth/similarity validation, desktop/mobile browser check. |
 | 183 | The Black Press & Media | encyclopedia/black-press.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified Freedom's Journal quotation, first-newspaper/anti-lynching/Great Migration/Double V/narrative-power claim review, corrected Chicago Defender source URL, depth/similarity validation, desktop/mobile browser check. |
 | 184 | The Blues | encyclopedia/the-blues.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no lyric quotation, origins/Mamie Smith/women performers/migration/influence/exploitation claim review, corrected Mississippi Blues Trail source URL, depth/similarity validation, desktop/mobile browser check. |
-| 185 | The Buffalo Soldiers | generated/pages/buffalo-soldiers.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 186 | The Convict Leasing System | generated/pages/convict-leasing.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 187 | The Freedmen's Bureau | generated/pages/freedmens-bureau.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 188 | The Great Migration | encyclopedia/great-migration.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 189 | The Greensboro Four | generated/pages/greensboro-four.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 190 | The Harlem Hellfighters | generated/pages/harlem-hellfighters.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 191 | The Harlem Renaissance | encyclopedia/harlem-renaissance.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 192 | The Little Rock Nine | generated/pages/little-rock-nine.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 193 | The McDonogh Three | generated/pages/mcdonogh-three.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 194 | The Mis-Education of the Negro | encyclopedia/mis-education.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 185 | The Buffalo Soldiers | generated/pages/buffalo-soldiers.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, service/frontier/Native dispossession/national-park/Houston complexity reviewed, corrected stale Archives source, depth/similarity validation, desktop/mobile browser check. |
+| 186 | The Convict Leasing System | generated/pages/convict-leasing.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, punishment exception/Black Codes/court debt/state revenue/forced labor claim review, corrected stale Smithsonian source, depth/similarity validation, desktop/mobile browser check. |
+| 187 | The Freedmen's Bureau | generated/pages/freedmens-bureau.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links across 4 distinct source groups, no unsupported quote, land/schools/marriage records/family searches/labor contracts claim review, corrected HBCU path, depth/similarity validation, desktop/mobile browser check. |
+| 188 | The Great Migration | encyclopedia/great-migration.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, six-million/migration causes/housing/labor/culture/politics claim review, corrected moved LOC and Chicago links, depth/similarity validation, desktop/mobile browser check. |
+| 189 | The Greensboro Four | generated/pages/greensboro-four.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, names/date/Woolworth/SNCC/community-support claim review, corrected NCAT/NPS source URLs and Diane Nash path, depth/similarity validation, desktop/mobile browser check. |
+| 190 | The Harlem Hellfighters | generated/pages/harlem-hellfighters.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, French command/Henry Johnson/James Reese Europe/Red Summer/delayed recognition claim review, corrected stale Archives source, depth/similarity validation, desktop/mobile browser check. |
+| 191 | The Harlem Renaissance | encyclopedia/harlem-renaissance.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, migration/patronage/women/art/nightlife/publishing claim review, depth/similarity validation, desktop/mobile browser check. |
+| 192 | The Little Rock Nine | generated/pages/little-rock-nine.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, student names/federalization/Eckford/Minnijean Brown/Lost Year claim review, corrected stale NPS person source, depth/similarity validation, desktop/mobile browser check. |
+| 193 | The McDonogh Three | generated/pages/mcdonogh-three.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, names/date/McDonogh 19/Ruby Bridges same-day/building afterlife claim review, corrected stale 64 Parishes/NPS/HNOC URLs, depth/similarity validation, desktop/mobile browser check. |
+| 194 | The Mis-Education of the Negro | encyclopedia/mis-education.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, Woodson/book/ASALH/curriculum/economics/Black History Month claim review, corrected HBCU path, depth/similarity validation, desktop/mobile browser check. |
 | 195 | The Rosewood Massacre | encyclopedia/rosewood-massacre.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 196 | The Scottsboro Boys | generated/pages/scottsboro-boys.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 197 | The Tuskegee Airmen | encyclopedia/tuskegee-airmen.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |

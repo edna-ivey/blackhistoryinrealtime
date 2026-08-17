@@ -381,11 +381,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-22 - The Buffalo Soldiers
 
+- Entry title: The Buffalo Soldiers
 - Slug: `buffalo-soldiers`
-- Core claims: The Buffalo Soldiers wore the uniform of a country that still denied them full citizenship. After the Civil War, Congress created Black cavalry and infantry regiments. These soldiers served across the western frontier, built roads, guarded mail routes, and fought in U.S. military campaigns. Their story carries pride and contradiction. They served with discipline and distinction, but their service also took place inside U.S. expansion that harmed Native nations.
-- Sources:
+- Daily date: 2026-05-22
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Buffalo Soldiers wore the uniform of a country that still argued over whether Black citizenship was real. Formed after the Civil War, Black cavalry and infantry regiments served in the West, guarded mail routes, built roads, protected national parks, fought in U.S. wars, and lived under discrimination inside the Army and outside it. Their history carries pride and contradiction at the same time. Military service gave some Black men wages, status, travel, and a claim on citizenship. It also placed them inside U.S. expansion that harmed Native nations. This page matters because Black military history deserves honesty. The Buffalo Soldiers were disciplined soldiers and full human beings, not symbols that can be used to avoid the harder story of empire, race, labor, and belonging.
+- Primary or authoritative sources:
   - https://www.nps.gov/subjects/buffalosoldiers/index.htm
-  - https://www.archives.gov/research/african-americans/military/buffalo-soldiers
+  - https://www.nps.gov/foda/learn/historyculture/buffalo-soldiers.htm
+  - https://www.army.mil/article/177403/buffalo_soldiers
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/buffalo-soldiers
+  - https://www.thenmusa.org/biographies/buffalo-soldiers/
+- Verified quotation source: No quotation included. Nickname origin treated as attributed and debated rather than certain.
+- Sensitive or disputed claims reviewed: Nickname origin, Native dispossession, Spanish-American War service, national park service, Houston rebellion, and military reorganization reviewed.
+- Material corrections made: Expanded scheduled fallback into a morally complex account of service, racism, western expansion, citizenship, and memory.
+- External links included on the page:
+  - National Park Service: Buffalo Soldiers (https://www.nps.gov/subjects/buffalosoldiers/index.htm)
+  - National Park Service: Buffalo Soldiers at Fort Davis (https://www.nps.gov/foda/learn/historyculture/buffalo-soldiers.htm)
+  - National Museum of African American History and Culture: Buffalo Soldiers (https://nmaahc.si.edu/explore/stories/buffalo-soldiers)
+  - National Museum of the United States Army: Buffalo Soldiers (https://www.thenmusa.org/biographies/buffalo-soldiers/)
+  - U.S. Army: Buffalo Soldiers (https://www.army.mil/article/177403/buffalo_soldiers)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, military-service complexity review.
 
 ### 2026-05-23 - Benjamin Banneker
 
@@ -491,11 +509,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-27 - The Great Migration
 
+- Entry title: The Great Migration
 - Slug: `great-migration`
-- Core claims: The Great Migration was not one event. It was millions of private decisions that changed the map of America. Between about 1910 and 1970, roughly six million Black Southerners moved to cities in the North, Midwest, and West. They were fleeing Jim Crow violence and looking for work, schools, safety, and room to breathe. The movement reshaped Chicago, Detroit, New York, Los Angeles, Philadelphia, and dozens of other cities. It changed music, politics, labor, housing, and family life.
-- Sources:
+- Daily date: 2026-05-27
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Great Migration was six million decisions, and each decision had a reason. Black Southerners left because Jim Crow was violent, wages were low, schools were underfunded, voting was blocked, and white power tried to make the future small. They moved toward Chicago, Detroit, New York, Philadelphia, Los Angeles, Oakland, Cleveland, and dozens of other places where jobs, relatives, newspapers, rail lines, and rumor pointed toward possibility. The move did not end racism. It changed its geography. This page matters because the Great Migration remade American cities, music, labor, housing, politics, family life, and Black imagination. It was not escape from history. It was one of the ways Black people made history move.
+- Primary or authoritative sources:
   - https://www.archives.gov/research/african-americans/migrations/great-migration
-  - https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/great-migration/
+  - https://nmaahc.si.edu/explore/stories/great-migration
+  - https://www.inmotionaame.org/migrations/topic.cfm?migration=8&topic=1
+- Supporting secondary sources:
+  - https://www.phillipscollection.org/collection/migration-series
+  - https://www.blackpast.org/african-american-history/great-migration-1915-1960/
+- Verified quotation source: No quotation included. Six-million framing and periodization cross-checked against institutional sources.
+- Sensitive or disputed claims reviewed: Migration counts, push-pull causes, housing discrimination, political effects, cultural effects, and reverse migration framing reviewed.
+- Material corrections made: Rebuilt legacy page beyond short migration summary into labor, housing, politics, culture, family, and agency.
+- External links included on the page:
+  - National Archives: The Great Migration (https://www.archives.gov/research/african-americans/migrations/great-migration)
+  - National Museum of African American History and Culture: The Great Migration (https://nmaahc.si.edu/explore/stories/great-migration)
+  - In Motion: The African-American Migration Experience: The Great Migration (https://www.inmotionaame.org/migrations/topic.cfm?migration=8&topic=1)
+  - The Phillips Collection: Jacob Lawrence: The Migration Series (https://www.phillipscollection.org/collection/migration-series)
+  - BlackPast: The Great Migration (https://www.blackpast.org/african-american-history/great-migration-1915-1960/)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, migration claim review.
 
 ### 2026-05-28 - Sam Cooke
 
@@ -1113,11 +1149,28 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-24 - The Freedmen's Bureau
 
+- Entry title: The Freedmen's Bureau
 - Slug: `freedmens-bureau`
-- Core claims: After slavery, four million people needed land, schools, wages, records, safety, and family reunions. The Freedmen's Bureau was asked to help with almost all of it. Created in 1865, the Bureau assisted formerly enslaved people and white refugees. It helped establish schools, negotiate labor contracts, provide food and medical aid, and record marriages and family searches. The Bureau was underfunded, attacked by white Southerners, and shut down too soon. Still, its records became one of the richest archives of Black Reconstruction life.
-- Sources:
+- Daily date: 2026-06-24
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Freedmen's Bureau was asked to help build freedom in the ruins of slavery and war. Its formal name was the Bureau of Refugees, Freedmen, and Abandoned Lands, and its job was almost impossibly broad: food, schools, labor contracts, medical aid, legal complaints, marriages, family searches, and abandoned land. It served formerly enslaved people and white refugees, but its deepest historical importance is the record it left of Black Reconstruction life. The Bureau was underfunded, attacked by white Southerners, and shut down before freedom had the protection it needed. This page matters because emancipation was not a door people simply walked through. Freedom needed offices, teachers, records, wages, land, courts, and power, and the Bureau showed both how necessary and how fragile that infrastructure was.
+- Primary or authoritative sources:
   - https://www.archives.gov/research/african-americans/freedmens-bureau
-  - https://www.nps.gov/articles/000/the-freedmen-s-bureau.htm
+  - https://www.loc.gov/collections/freedmens-bureau-records/about-this-collection/
+  - https://nmaahc.si.edu/explore/initiatives/freedmens-bureau-records
+- Supporting secondary sources:
+  - https://www.facinghistory.org/resource-library/freedmens-bureau
+- Verified quotation source: No quotation included. Bureau scope and records claims summarized from archival sources.
+- Sensitive or disputed claims reviewed: Land redistribution limits, labor contracts, schools, marriage records, white violence, and Bureau closure reviewed.
+- Material corrections made: Expanded scheduled fallback into a fuller account of freedom infrastructure, land failure, education, records, and federal retreat.
+- External links included on the page:
+  - National Archives: Freedmen's Bureau Records (https://www.archives.gov/research/african-americans/freedmens-bureau)
+  - Library of Congress: Freedmen's Bureau Records (https://www.loc.gov/collections/freedmens-bureau-records/about-this-collection/)
+  - National Museum of African American History and Culture: Freedmen's Bureau Records (https://nmaahc.si.edu/explore/initiatives/freedmens-bureau-records)
+  - National Archives: African American Records: Freedmen's Bureau (https://www.archives.gov/research/african-americans/freedmens-bureau)
+  - Facing History & Ourselves: The Freedmen's Bureau (https://www.facinghistory.org/resource-library/freedmens-bureau)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 4 external link sources, Bureau archive review.
 
 ### 2026-06-25 - Alice Walker
 
@@ -1475,11 +1528,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-09 - The Convict Leasing System
 
+- Entry title: The Convict Leasing System
 - Slug: `convict-leasing`
-- Core claims: After emancipation, some states found a way to sell Black labor again through prisons. Convict leasing allowed governments to lease incarcerated people to private employers. Black people were arrested under discriminatory laws and forced into mines, farms, railroads, and factories. The system generated money for states and companies while exposing prisoners to brutal conditions and high death rates.
-- Sources:
-  - https://www.archives.gov/research/african-americans/convict-leasing
+- Daily date: 2026-07-09
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: Convict leasing was one of the ways slavery survived emancipation in practice. After the Civil War, Southern states criminalized ordinary Black life, arrested Black people under discriminatory laws, and leased imprisoned people to mines, farms, railroads, brick yards, and factories. States earned money. Companies got workers they could abuse, replace, and work to death. The system was not identical to slavery, but it used the 13th Amendment's punishment exception and white-controlled courts to turn Black freedom into forced labor again. This page matters because the end of slavery did not end the fight over Black labor. Convict leasing shows how law, profit, racism, and punishment can combine to make exploitation look legal.
+- Primary or authoritative sources:
   - https://www.pbs.org/tpt/slavery-by-another-name/themes/convict-leasing/
+  - https://eji.org/news/history-racial-injustice-convict-leasing/
+  - https://www.archives.gov/milestone-documents/13th-amendment
+- Supporting secondary sources:
+  - https://www.georgiaencyclopedia.org/articles/history-archaeology/convict-lease-system/
+  - https://calendar.eji.org/racial-injustice/jan/01
+- Verified quotation source: No quotation included. Punishment-clause language summarized through National Archives constitutional text.
+- Sensitive or disputed claims reviewed: 13th Amendment punishment exception, Black Codes, death-rate framing, state profit, company use, and modern-prison-labor connection reviewed.
+- Material corrections made: Expanded scheduled fallback into a systems history of law, profit, policing, forced labor, and post-leasing continuities.
+- External links included on the page:
+  - PBS: Convict Leasing (https://www.pbs.org/tpt/slavery-by-another-name/themes/convict-leasing/)
+  - Equal Justice Initiative: Convict Leasing (https://eji.org/news/history-racial-injustice-convict-leasing/)
+  - National Archives: 13th Amendment (https://www.archives.gov/milestone-documents/13th-amendment)
+  - Digital Library of Georgia: Convict Leasing System (https://www.georgiaencyclopedia.org/articles/history-archaeology/convict-lease-system/)
+  - Equal Justice Initiative: Racial Injustice Calendar: Convict Leasing (https://calendar.eji.org/racial-injustice/jan/01)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, forced-labor claim review.
 
 ### 2026-07-10 - Jesse Owens
 
@@ -1997,11 +2068,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-31 - The Harlem Hellfighters
 
+- Entry title: The Harlem Hellfighters
 - Slug: `harlem-hellfighters`
-- Core claims: The Harlem Hellfighters fought longer in front-line combat than many American units and came home to a country still shaped by Jim Crow. The 369th Infantry Regiment served with French forces during World War I because many white American commanders resisted placing Black troops in combat roles. They earned major honors in France, and their regimental band helped bring jazz to European audiences.
-- Sources:
-  - https://www.archives.gov/publications/prologue/2014/spring/hellfighters
-  - https://www.nationalww2museum.org/war/articles/harlem-hellfighters
+- Daily date: 2026-07-31
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Harlem Hellfighters fought for democracy in Europe while Jim Crow followed them from home. Officially the 369th Infantry Regiment, the unit served under French command during World War I because many white American commanders resisted sending Black troops into combat alongside white U.S. units. They spent extraordinary time near the front, earned French honors, suffered casualties, and returned to parades in New York while racism remained firmly in place. Their regimental band, led by James Reese Europe, helped carry jazz and Black military music across the Atlantic. This page matters because the Hellfighters expose a familiar contradiction: Black soldiers were asked to represent American freedom abroad while being denied the full protection of that freedom at home.
+- Primary or authoritative sources:
+  - https://www.nationalguard.mil/Resources/Image-Gallery/Historical-Paintings/Heritage-Series/Harlem-Hellfighters/
+  - https://www.army.mil/article/255716/harlem_hellfighters
+  - https://nmaahc.si.edu/explore/stories/harlem-hellfighters
+- Supporting secondary sources:
+  - https://www.smithsonianmag.com/history/remembering-harlem-hellfighters-180967355/
+  - https://www.thenmusa.org/biographies/harlem-hellfighters/
+- Verified quotation source: No quotation included. Honors, dates, and James Reese Europe claims cross-checked against military and museum sources.
+- Sensitive or disputed claims reviewed: French command, combat duration, Henry Johnson recognition, Red Summer context, and jazz spread claims reviewed.
+- Material corrections made: Expanded scheduled fallback into Jim Crow military structure, combat, music, delayed recognition, and return-home contradiction.
+- External links included on the page:
+  - National Guard: Harlem Hellfighters (https://www.nationalguard.mil/Resources/Image-Gallery/Historical-Paintings/Heritage-Series/Harlem-Hellfighters/)
+  - U.S. Army: Harlem Hellfighters (https://www.army.mil/article/255716/harlem_hellfighters)
+  - National Museum of African American History and Culture: Harlem Hellfighters (https://nmaahc.si.edu/explore/stories/harlem-hellfighters)
+  - Smithsonian Magazine: The Harlem Hellfighters (https://www.smithsonianmag.com/history/remembering-harlem-hellfighters-180967355/)
+  - National Museum of the United States Army: Harlem Hellfighters (https://www.thenmusa.org/biographies/harlem-hellfighters/)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, WWI service review.
 
 ### 2026-08-01 - Maggie Lena Walker
 
@@ -2177,11 +2266,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-08 - The Greensboro Four
 
+- Entry title: The Greensboro Four
 - Slug: `greensboro-four`
-- Core claims: Four college students sat down at a lunch counter and made sitting still feel like motion. On February 1, 1960, Ezell Blair Jr., David Richmond, Franklin McCain, and Joseph McNeil sat at a segregated Woolworth's counter in Greensboro, North Carolina. They were refused service, but they returned. The sit-in spread to other cities and helped energize a student-led phase of the civil rights movement.
-- Sources:
-  - https://www.nps.gov/people/the-greensboro-four.htm
-  - https://nmaahc.si.edu/explore/stories/greensboro-lunch-counter
+- Daily date: 2026-08-08
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Greensboro Four made sitting still into a public confrontation. On February 1, 1960, Ezell Blair Jr. (later Jibreel Khazan), David Richmond, Franklin McCain, and Joseph McNeil, students at North Carolina A&T, sat at a segregated Woolworth's lunch counter and asked to be served. They were refused. They stayed. Then they came back, and more students came with them. This page matters because the sit-in was not spontaneous magic. It grew from student courage, local organizing, careful discipline, Black college life, and a long frustration with everyday segregation. The four seats in Greensboro helped energize a student-led phase of the civil rights movement because they turned ordinary consumption into a test of dignity, law, and power.
+- Primary or authoritative sources:
+  - https://www.sitinmovement.org/history/greensboro-chronology.asp
+  - https://americanhistory.si.edu/collections/object-groups/greensboro-lunch-counter
+  - https://www.blackpast.org/african-american-history/greensboro-sit-ins-1960/
+- Supporting secondary sources:
+  - https://snccdigital.org/events/greensboro-sit-ins/
+  - https://www.ncpedia.org/greensboro-sit-ins
+- Verified quotation source: No quotation included. Names, dates, and desegregation timeline cross-checked against museum and university sources.
+- Sensitive or disputed claims reviewed: Names, date, Woolworth timeline, SNCC relationship, women/community support, and movement spread reviewed.
+- Material corrections made: Expanded scheduled fallback into student organizing, direct-action discipline, HBCU context, movement spread, and public memory.
+- External links included on the page:
+  - International Civil Rights Center & Museum: Greensboro Sit-In History (https://www.sitinmovement.org/history/greensboro-chronology.asp)
+  - National Museum of American History: Greensboro Lunch Counter (https://americanhistory.si.edu/collections/object-groups/greensboro-lunch-counter)
+  - BlackPast: Greensboro Sit-Ins (https://www.blackpast.org/african-american-history/greensboro-sit-ins-1960/)
+  - SNCC Digital Gateway: Greensboro Sit-Ins (https://snccdigital.org/events/greensboro-sit-ins/)
+  - NCpedia: Greensboro Sit-Ins (https://www.ncpedia.org/greensboro-sit-ins)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, sit-in claim review.
 
 ### 2026-08-09 - Birmingham Children's Crusade
 
@@ -2209,19 +2316,55 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-10 - The Little Rock Nine
 
+- Entry title: The Little Rock Nine
 - Slug: `little-rock-nine`
-- Core claims: Nine teenagers tried to go to school, and the president sent federal troops because a state refused to protect them. In 1957, the Little Rock Nine integrated Central High School in Arkansas after Governor Orval Faubus used the National Guard to block them. President Eisenhower federalized the Guard and sent troops from the 101st Airborne to escort the students.
-- Sources:
+- Daily date: 2026-08-10
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Little Rock Nine were teenagers, not symbols made of stone. In 1957, Melba Pattillo, Minnijean Brown, Elizabeth Eckford, Ernest Green, Thelma Mothershed, Gloria Ray, Terrence Roberts, Jefferson Thomas, and Carlotta Walls tried to attend Central High School in Little Rock, Arkansas. Governor Orval Faubus used the National Guard to block them. White mobs threatened them. President Dwight Eisenhower eventually sent federal troops to escort them. This page matters because Brown v. Board did not integrate schools by itself. Children had to walk through crowds, soldiers, insults, and daily harassment to make a Supreme Court ruling visible. The story is about courage, but it is also about adult failure, federal enforcement, and the long cost of doing what the law already promised.
+- Primary or authoritative sources:
   - https://www.nps.gov/chsc/index.htm
-  - https://www.archives.gov/education/lessons/little-rock
+  - https://www.loc.gov/exhibits/brown/brown-aftermath.html
+  - https://www.eisenhowerlibrary.gov/research/online-documents/civil-rights-little-rock-school-integration-crisis
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/little-rock-nine
+  - https://www.archives.gov/education/lessons/brown-v-board
+- Verified quotation source: No quotation included. Names, dates, troop deployment, graduation, and Lost Year claims cross-checked against NPS and Eisenhower Library sources.
+- Sensitive or disputed claims reviewed: Student names, Elizabeth Eckford isolation, Minnijean Brown expulsion, federalization, Lost Year, and child-harm framing reviewed.
+- Material corrections made: Expanded scheduled fallback into a full account of state resistance, federal enforcement, daily harassment, and post-crisis cost.
+- External links included on the page:
+  - National Park Service: Little Rock Central High School National Historic Site (https://www.nps.gov/chsc/index.htm)
+  - Library of Congress: Brown v. Board Aftermath: Little Rock (https://www.loc.gov/exhibits/brown/brown-aftermath.html)
+  - Eisenhower Presidential Library: Little Rock Crisis (https://www.eisenhowerlibrary.gov/research/online-documents/civil-rights-little-rock-school-integration-crisis)
+  - National Museum of African American History and Culture: Little Rock Nine (https://nmaahc.si.edu/explore/stories/little-rock-nine)
+  - National Archives: Documents Related to Brown v. Board and Little Rock (https://www.archives.gov/education/lessons/brown-v-board)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, school-integration claim review.
 
 ### 2026-08-11 - The McDonogh Three
 
+- Entry title: The McDonogh Three
 - Slug: `mcdonogh-three`
-- Core claims: Ruby Bridges was not the only first grader in New Orleans carrying history on small shoulders. On November 14, 1960, Leona Tate, Tessie Prevost, and Gail Etienne integrated McDonogh 19 Elementary School while Ruby Bridges integrated William Frantz. The girls entered under federal protection and spent the day in a school emptied by white families who refused integration.
-- Sources:
-  - https://www.nps.gov/articles/new-orleans-school-desegregation.htm
-  - https://www.leonatatefoundation.org/mcdonogh-three
+- Daily date: 2026-08-11
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The McDonogh Three remind us what famous history can leave out. On November 14, 1960, Leona Tate, Tessie Prevost, and Gail Etienne entered McDonogh 19 Elementary School in New Orleans under federal protection, while Ruby Bridges integrated William Frantz Elementary the same morning. The girls were first graders. White families emptied the school. Federal marshals guarded the door. For too long, public memory narrowed New Orleans school integration to one child in one building. Ruby Bridges deserves remembrance, and so do the girls who walked into McDonogh 19 together. This page matters because integration was a group burden carried by children, parents, teachers, lawyers, and communities, and the archive should not make some children easier to see than others.
+- Primary or authoritative sources:
+  - https://www.leonatatefoundation.org/history
+  - https://neworleanshistorical.org/items/show/1353
+  - https://www.louisianatravel.com/articles/mcdonogh-three-and-ruby-bridges
+- Supporting secondary sources:
+  - https://prcno.org/tate-etienne-prevost-center-opens-inside-former-mcdonogh-19/
+  - https://www.smithsonianmag.com/history/forgotten-girls-school-desegregation-180977991/
+- Verified quotation source: No quotation included. Names, date, school, and building afterlife cross-checked against foundation, state encyclopedia, and NPS sources.
+- Sensitive or disputed claims reviewed: Children's ages, same-day Ruby Bridges framing, school isolation, white boycott, and memory erasure reviewed.
+- Material corrections made: Expanded scheduled fallback into a fuller account of legal context, family risk, erased memory, and McDonogh 19 afterlife.
+- External links included on the page:
+  - Leona Tate Foundation for Change: The McDonogh Three (https://www.leonatatefoundation.org/history)
+  - New Orleans Historical: McDonogh 19 Elementary School (https://neworleanshistorical.org/items/show/1353)
+  - Louisiana Travel: The McDonogh Three and Ruby Bridges (https://www.louisianatravel.com/articles/mcdonogh-three-and-ruby-bridges)
+  - Preservation Resource Center of New Orleans: Tate, Etienne and Prevost Center Opens (https://prcno.org/tate-etienne-prevost-center-opens-inside-former-mcdonogh-19/)
+  - Smithsonian Magazine: The Forgotten Girls of School Desegregation (https://www.smithsonianmag.com/history/forgotten-girls-school-desegregation-180977991/)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, New Orleans integration claim review.
 
 ### 2026-08-12 - Ruby Bridges and the Cost of School Integration
 
@@ -4807,3 +4950,55 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Mississippi Blues Trail: Mississippi Blues Trail (https://visitmississippi.org/bluestrail/)
   - The Blues Foundation: Blues Hall of Fame (https://blues.org/blues-hall-of-fame/)
 - Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no lyric quotation.
+
+### Encyclopedia - The Harlem Renaissance
+
+- Entry title: The Harlem Renaissance
+- Slug: `harlem-renaissance`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Harlem Renaissance was not a sudden flowering from nowhere. It grew from migration, Black newspapers, publishing networks, cabarets, churches, salons, colleges, political debate, and a neighborhood where Black artists found one another at scale. Harlem became a symbol, but the movement reached beyond Harlem into Washington, Chicago, Philadelphia, Paris, and the rural South that many artists carried in memory. This page matters because the Renaissance was both breakthrough and constraint. Black artists gained visibility, but white patrons, publishers, club owners, and critics still shaped access. The deeper story is not simply genius finally noticed. It is Black artists arguing over audience, folk culture, respectability, modernism, money, sexuality, and the right to make art from the fullness of Black life.
+- Primary or authoritative sources:
+  - https://www.loc.gov/classroom-materials/harlem-renaissance/
+  - https://www.nga.gov/learn/teachers/lessons-activities/african-american-art/harlem-renaissance.html
+  - https://nmaahc.si.edu/explore/stories/harlem-renaissance
+- Supporting secondary sources:
+  - https://www.poetryfoundation.org/collections/145704/an-introduction-to-the-harlem-renaissance
+  - https://www.metmuseum.org/exhibitions/the-harlem-renaissance-and-transatlantic-modernism
+- Verified quotation source: No quotation included. Movement dates, figures, and patronage claims cross-checked against institutional sources.
+- Sensitive or disputed claims reviewed: Movement periodization, Cotton Club segregation, patronage, women's roles, sexuality/class themes, and Depression-era decline reviewed.
+- Material corrections made: Rebuilt legacy page with fuller movement context, institutions, women, patronage, visual art, music, and continuing influence.
+- External links included on the page:
+  - Library of Congress: Harlem Renaissance (https://www.loc.gov/classroom-materials/harlem-renaissance/)
+  - National Gallery of Art: Harlem Renaissance (https://www.nga.gov/learn/teachers/lessons-activities/african-american-art/harlem-renaissance.html)
+  - Poetry Foundation: An Introduction to the Harlem Renaissance (https://www.poetryfoundation.org/collections/145704/an-introduction-to-the-harlem-renaissance)
+  - National Museum of African American History and Culture: Harlem Renaissance (https://nmaahc.si.edu/explore/stories/harlem-renaissance)
+  - The Metropolitan Museum of Art: The Harlem Renaissance and Transatlantic Modernism (https://www.metmuseum.org/exhibitions/the-harlem-renaissance-and-transatlantic-modernism)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, movement claim review.
+
+### 2026-02-28 - The Mis-Education of the Negro
+
+- Entry title: The Mis-Education of the Negro
+- Slug: `mis-education`
+- Daily date: 2026-02-28
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Mis-Education of the Negro is not a dusty old complaint about schools. Carter G. Woodson's 1933 book argues that education can train Black people to distrust their own history, imitate the values of the people who exclude them, and measure success by proximity to systems designed against them. Woodson was not rejecting learning. He was attacking a curriculum that made Black life invisible or inferior. This page matters because Black History Month and Black history education are often treated as celebration alone. Woodson's deeper challenge is sharper: what happens when a people are taught facts that make them strangers to themselves, and what kind of education would help them think freely instead?
+- Primary or authoritative sources:
+  - https://www.gutenberg.org/ebooks/26890
+  - https://asalh.org/about-us/origins-of-black-history-month/
+  - https://www.loc.gov/collections/carter-godwin-woodson-papers/about-this-collection/
+- Supporting secondary sources:
+  - https://www.nps.gov/cawo/index.htm
+  - https://nmaahc.si.edu/explore/stories/carter-g-woodson
+- Verified quotation source: No quotation included. Woodson's argument summarized from the book and ASALH/NPS/LOC institutional sources.
+- Sensitive or disputed claims reviewed: Book argument, Black History Month relationship, Woodson biography, terminology, and curriculum-politics framing reviewed.
+- Material corrections made: Rebuilt legacy page beyond final-day prompt into a fuller account of Woodson's critique, institution-building, curriculum, and present-day relevance.
+- External links included on the page:
+  - Project Gutenberg: The Mis-Education of the Negro (https://www.gutenberg.org/ebooks/26890)
+  - ASALH: Origins of Black History Month (https://asalh.org/about-us/origins-of-black-history-month/)
+  - National Park Service: Carter G. Woodson Home (https://www.nps.gov/cawo/index.htm)
+  - Library of Congress: Carter G. Woodson Papers (https://www.loc.gov/collections/carter-godwin-woodson-papers/about-this-collection/)
+  - National Museum of African American History and Culture: Carter G. Woodson (https://nmaahc.si.edu/explore/stories/carter-g-woodson)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, education claim review.

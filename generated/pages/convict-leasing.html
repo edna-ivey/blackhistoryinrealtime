@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Convict Leasing System - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="After emancipation, some states found a way to sell Black labor again through prisons.">
+<meta name="description" content="Convict leasing was one of the ways slavery survived emancipation in practice. After the Civil War, Southern states criminalized ordinary Black life, arrested Black people under discriminatory laws, and leased imprisoned people to mines, farms, railroads, brick yards, and factories. States earned money. Companies got workers they could abuse, replace, and work to death. The system was not identical to slavery, but it used the 13th Amendment&#039;s punishment exception and white-controlled courts to turn Black freedom into forced labor again. This page matters because the end of slavery did not end the fight over Black labor. Convict leasing shows how law, profit, racism, and punishment can combine to make exploitation look legal.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="convict-leasing">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,153 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>The Convict Leasing System</h2>
-  <div class="meta">
-    <span class="badge">1860s - 1940s</span>
-    <span class="badge">Labor</span>
-    <span class="badge">2026-07-09</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>July 9 &middot; Labor</span>
   </div>
-  <article>
-    <p>After emancipation, some states found a way to sell Black labor again through prisons.</p><p>Convict leasing allowed governments to lease incarcerated people to private employers. Black people were arrested under discriminatory laws and forced into mines, farms, railroads, and factories.</p><p>The system generated money for states and companies while exposing prisoners to brutal conditions and high death rates.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Convict leasing matters because emancipation did not end forced labor in one clean break. The 13th Amendment&#039;s punishment clause left a door open.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">July 9 &middot; Labor</div>
+    <h1>The Convict Leasing System</h1>
+    <p class="entry-tagline">Convict leasing was one of the ways slavery survived emancipation in practice. After the Civil War, Southern states criminalized ordinary Black life, arrested Black people under discriminatory laws, and leased imprisoned people to mines, farms, railroads, brick yards, and factories. States earned money. Companies got workers they could abuse, replace, and work to death. The system was not identical to slavery, but it used the 13th Amendment&#039;s punishment exception and white-controlled courts to turn Black freedom into forced labor again. This page matters because the end of slavery did not end the fight over Black labor. Convict leasing shows how law, profit, racism, and punishment can combine to make exploitation look legal.</p>
+    <div class="entry-badges">
+      <span class="badge">System</span>
+      <span class="badge">1860s - 1940s</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.archives.gov/research/african-americans/convict-leasing" target="_blank" rel="noopener noreferrer">https://www.archives.gov/research/african-americans/convict-leasing</a></li>
-<li><a href="https://www.pbs.org/tpt/slavery-by-another-name/themes/convict-leasing/" target="_blank" rel="noopener noreferrer">https://www.pbs.org/tpt/slavery-by-another-name/themes/convict-leasing/</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1865</div><div class="tl-event">The 13th Amendment abolishes slavery except as punishment for crime.</div></div>
+<div class="tl-item"><div class="tl-date">1865-1866</div><div class="tl-event">Southern Black Codes criminalize unemployment, movement, labor resistance, and other parts of Black freedom.</div></div>
+<div class="tl-item"><div class="tl-date">1868</div><div class="tl-event">Georgia begins leasing convicts to private businesses in a system that other states also use.</div></div>
+<div class="tl-item"><div class="tl-date">1870s-1890s</div><div class="tl-event">Convict leasing expands across the South in mines, railroads, plantations, and industrial work.</div></div>
+<div class="tl-item"><div class="tl-date">1880s-1900s</div><div class="tl-event">Investigations expose brutal conditions and high death rates in leased labor camps.</div></div>
+<div class="tl-item"><div class="tl-date">1890s</div><div class="tl-event">Alabama becomes heavily dependent on convict leasing revenue.</div></div>
+<div class="tl-item"><div class="tl-date">1908</div><div class="tl-event">Georgia abolishes convict leasing but continues chain gangs and other forced prison labor systems.</div></div>
+<div class="tl-item"><div class="tl-date">1928</div><div class="tl-event">Alabama ends state convict leasing, among the last states to do so.</div></div>
+<div class="tl-item"><div class="tl-date">1941</div><div class="tl-event">Federal action against peonage and forced labor intensifies during World War II.</div></div>
+<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Prison labor and punishment-clause debates continue.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-07-09">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Emancipation ended legal ownership of people, but it did not end the hunger for Black labor. Southern planters, industrialists, and state governments wanted workers who could be controlled. The 13th Amendment included an exception for punishment after conviction. That exception became one of the openings through which forced labor returned under another name.</p>
+<p>Black Codes and later vagrancy laws made freedom precarious. A Black person could be arrested for not having proof of employment, for changing jobs, for speaking back, for being in the wrong place, or for offenses enforced differently by race. Courts imposed fines and fees people could not pay. Once imprisoned, they could be leased to private employers. The law converted poverty and racist policing into labor supply.</p>
+<p>Convict leasing was profitable because private companies had little incentive to keep workers alive. Enslavers had treated human beings as property with resale value. Lessees often treated prisoners as disposable. Mines, turpentine camps, railroads, plantations, and factories could push people under deadly conditions, then receive more prisoners. Death rates in some camps were horrific.</p>
+<p>The system made money for states. Leasing fees helped fund budgets without taxing white citizens at the same level. That financial incentive made cruelty durable. Officials could claim they were managing prisons while actually selling labor. Companies could claim they were hiring through legal contracts while benefiting from violence backed by the state.</p>
+<p>Black men were the main targets, but women and children were not untouched by the carceral labor system. Families lost wages, parents, spouses, and children to arrests and forced labor. Communities lived under the threat that any encounter with white authority could become a sentence to a mine or camp.</p>
+<p>The legal process itself became part of the extraction. Sheriffs, judges, local officials, and employers could benefit from arrests, fees, and labor contracts. People convicted of minor or manufactured charges might owe fines they could never pay, then be sent into labor arrangements that looked official on paper. The courtroom gave the system a language of legality while racism shaped who was arrested and who profited.</p>
+<p>Convict leasing also fed industrial development. Coal mines, railroads, and factories in the New South used leased labor to build wealth. The phrase New South can sound modernizing, but much of that modernization rested on coerced Black labor. Industrial progress and racial terror were not opposites. They worked together.</p>
+<p>The system also shaped political power. If Black people could be arrested, leased, and disenfranchised, then white officials could control labor and elections at the same time. Punishment removed people from communities, intimidated those who remained, and made resistance costly. Convict leasing was not only an economic system. It was a governing strategy.</p>
+<p>Reformers, journalists, Black communities, and some officials exposed abuses. States eventually ended formal leasing, but the end of leasing did not end forced prison labor. Chain gangs, prison farms, debt peonage, and other systems continued to discipline Black labor. The shape changed when public scandal made one form too visible.</p>
+<p>The system&#039;s legacy reaches into present debates over prison labor, felony disenfranchisement, policing, court debt, and the punishment clause. It does not mean every modern prison practice is identical to convict leasing. It means the history of punishment and labor in the United States cannot be separated from Reconstruction backlash and racial capitalism.</p>
+<p>Convict leasing matters because it shows how freedom can be undermined without being openly repealed. A society can write emancipation into law and then build courts, policing, fees, contracts, and prisons that pull Black people back into forced labor. The lesson is not only historical. It is structural: watch the systems that turn punishment into profit.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost was death, injury, family separation, stolen wages, criminal records, terror, and generational harm. Leased prisoners worked in mines, camps, and fields where private employers could brutalize them with little accountability. Families often had no meaningful way to challenge the convictions or recover the lost labor of loved ones.</p>
+<p>The impact was economic and political. States and companies built wealth through coerced labor while Black communities were stripped of workers, safety, and legal protection. Convict leasing also helped establish a longer connection between incarceration, racial control, and profit.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Convict leasing matters today because it breaks the myth that emancipation created a clean line between slavery and freedom. The line existed in law, but systems were built to cross it. Punishment became one of the places where forced labor could hide in plain sight.</p>
+<p>The history also helps readers understand why prison labor, court fines, parole fees, felony disenfranchisement, and policing cannot be discussed as race-neutral abstractions. They developed inside a long struggle over Black labor and civic power.</p>
+<p>The point is not to collapse every present practice into the past. It is to recognize the design pattern: criminalize, extract, profit, and call it order.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-07-09" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; July 9</div>
+        <div class="quiz-card-title">Open the daily challenge for The Convict Leasing System</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/13th-amendment.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The 13th Amendment</div>
+        <div class="connected-desc">Explains the punishment exception that made post-emancipation forced labor possible.</div>
+      </a>
+<a href="../../generated/pages/black-codes.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Codes</div>
+        <div class="connected-desc">Shows the legal restrictions that helped funnel Black people into coerced labor.</div>
+      </a>
+<a href="../../generated/pages/reconstruction.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Reconstruction</div>
+        <div class="connected-desc">Places convict leasing inside the rollback of Black freedom after the Civil War.</div>
+      </a>
+<a href="../../encyclopedia/slave-patrols.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Slave Patrols &amp; Policing</div>
+        <div class="connected-desc">Connects punishment, surveillance, and racial control across eras.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.pbs.org/tpt/slavery-by-another-name/themes/convict-leasing/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">PBS</div>
+          <div class="ext-title">Convict Leasing</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://eji.org/news/history-racial-injustice-convict-leasing/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Equal Justice Initiative</div>
+          <div class="ext-title">Convict Leasing</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.archives.gov/milestone-documents/13th-amendment" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">13th Amendment</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.georgiaencyclopedia.org/articles/history-archaeology/convict-lease-system/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Digital Library of Georgia</div>
+          <div class="ext-title">Convict Leasing System</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://calendar.eji.org/racial-injustice/jan/01" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Equal Justice Initiative</div>
+          <div class="ext-title">Racial Injustice Calendar: Convict Leasing</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

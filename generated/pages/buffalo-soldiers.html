@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Buffalo Soldiers - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="The Buffalo Soldiers wore the uniform of a country that still denied them full citizenship.">
+<meta name="description" content="The Buffalo Soldiers wore the uniform of a country that still argued over whether Black citizenship was real. Formed after the Civil War, Black cavalry and infantry regiments served in the West, guarded mail routes, built roads, protected national parks, fought in U.S. wars, and lived under discrimination inside the Army and outside it. Their history carries pride and contradiction at the same time. Military service gave some Black men wages, status, travel, and a claim on citizenship. It also placed them inside U.S. expansion that harmed Native nations. This page matters because Black military history deserves honesty. The Buffalo Soldiers were disciplined soldiers and full human beings, not symbols that can be used to avoid the harder story of empire, race, labor, and belonging.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="buffalo-soldiers">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,152 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>The Buffalo Soldiers</h2>
-  <div class="meta">
-    <span class="badge">1866 - 1944</span>
-    <span class="badge">Military</span>
-    <span class="badge">2026-05-22</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>May 22 &middot; Military</span>
   </div>
-  <article>
-    <p>The Buffalo Soldiers wore the uniform of a country that still denied them full citizenship.</p><p>After the Civil War, Congress created Black cavalry and infantry regiments. These soldiers served across the western frontier, built roads, guarded mail routes, and fought in U.S. military campaigns.</p><p>Their story carries pride and contradiction. They served with discipline and distinction, but their service also took place inside U.S. expansion that harmed Native nations.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>The Buffalo Soldiers matter because Black military history is morally complex. Service could open opportunity while still serving a nation with unequal laws and unequal aims.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 22 &middot; Military</div>
+    <h1>The Buffalo Soldiers</h1>
+    <p class="entry-tagline">The Buffalo Soldiers wore the uniform of a country that still argued over whether Black citizenship was real. Formed after the Civil War, Black cavalry and infantry regiments served in the West, guarded mail routes, built roads, protected national parks, fought in U.S. wars, and lived under discrimination inside the Army and outside it. Their history carries pride and contradiction at the same time. Military service gave some Black men wages, status, travel, and a claim on citizenship. It also placed them inside U.S. expansion that harmed Native nations. This page matters because Black military history deserves honesty. The Buffalo Soldiers were disciplined soldiers and full human beings, not symbols that can be used to avoid the harder story of empire, race, labor, and belonging.</p>
+    <div class="entry-badges">
+      <span class="badge">Military Unit</span>
+      <span class="badge">1866 - 1944</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.nps.gov/subjects/buffalosoldiers/index.htm" target="_blank" rel="noopener noreferrer">https://www.nps.gov/subjects/buffalosoldiers/index.htm</a></li>
-<li><a href="https://www.archives.gov/research/african-americans/military/buffalo-soldiers" target="_blank" rel="noopener noreferrer">https://www.archives.gov/research/african-americans/military/buffalo-soldiers</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1866</div><div class="tl-event">Congress creates six Black Regular Army regiments after the Civil War.</div></div>
+<div class="tl-item"><div class="tl-date">1869</div><div class="tl-event">Army reorganization consolidates Black cavalry into the 9th and 10th Cavalry and Black infantry into the 24th and 25th Infantry.</div></div>
+<div class="tl-item"><div class="tl-date">1870s-1880s</div><div class="tl-event">Buffalo Soldiers serve across western posts, campaigns, road construction, escort duty, and mail protection.</div></div>
+<div class="tl-item"><div class="tl-date">1890</div><div class="tl-event">Some Buffalo Soldiers are present during the Pine Ridge campaign around the Wounded Knee period.</div></div>
+<div class="tl-item"><div class="tl-date">1898</div><div class="tl-event">Buffalo Soldiers fight in the Spanish-American War, including in Cuba.</div></div>
+<div class="tl-item"><div class="tl-date">1903</div><div class="tl-event">Black cavalry soldiers serve as some of the first park rangers in Yosemite and Sequoia.</div></div>
+<div class="tl-item"><div class="tl-date">1916</div><div class="tl-event">The 10th Cavalry serves during the Punitive Expedition into Mexico.</div></div>
+<div class="tl-item"><div class="tl-date">1917</div><div class="tl-event">The Houston rebellion follows racist policing and abuse of Black soldiers in Texas.</div></div>
+<div class="tl-item"><div class="tl-date">1944</div><div class="tl-event">The 9th and 10th Cavalry are effectively inactivated as horse cavalry in World War II reorganization.</div></div>
+<div class="tl-item"><div class="tl-date">1992</div><div class="tl-event">Congress designates July 28 as Buffalo Soldiers Day.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-05-22">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>The Buffalo Soldiers came out of Reconstruction, when Black citizenship was being written into law and attacked on the ground. After the Civil War, the U.S. Army created Black Regular Army regiments. Many soldiers were formerly enslaved men or free Black men who saw military service as wages, protection, travel, and a way to claim public manhood in a country still trying to deny it.</p>
+<p>The nickname Buffalo Soldiers is usually attributed to Native people, though the exact origin is debated. The name became attached especially to the 9th and 10th Cavalry and later to Black soldiers more broadly. It is often used today with honor, but the history behind it sits inside conflict. These soldiers served the U.S. government during campaigns that helped enforce westward expansion and Native dispossession.</p>
+<p>That contradiction cannot be skipped. Buffalo Soldiers faced racism from white officers, white civilians, and the larger military system. They also participated in military actions against Native nations whose lands were being taken by the same government that denied Black people equality. A serious page does not resolve that tension with a slogan. It asks readers to hold both truths: Black soldiers pursued dignity and survival, and the Army used their labor in imperial projects.</p>
+<p>Life at western posts was hard. Soldiers built roads, repaired telegraph lines, escorted stagecoaches and mail, guarded forts, and patrolled long distances. The work was often tedious, dangerous, and physically demanding. Pay was steady compared with many civilian opportunities available to Black men, but racism followed them into towns, saloons, courts, and barracks. Uniforms did not erase white hostility.</p>
+<p>Buffalo Soldiers also served outside the continental West. In the Spanish-American War, Black regiments fought in Cuba, including around San Juan Heights. Their battlefield performance challenged racist assumptions, but praise did not translate into equal treatment. Black soldiers returned to Jim Crow America, where voting rights were being crushed and racial violence was rising.</p>
+<p>Some Buffalo Soldiers played an overlooked role in early national park history. In 1903, units of Black cavalry served in Yosemite and Sequoia, protecting park resources, building roads and trails, and enforcing rules before the National Park Service existed. That history complicates the image of conservation as an all-white story and places Black soldiers inside the making of public lands, even as those lands carried their own histories of Native removal.</p>
+<p>Their daily work also involved skilled labor the word soldier can hide. They cared for horses, mapped terrain, repaired equipment, navigated deserts and mountains, managed supply lines, and communicated across isolated posts. The western Army depended on their discipline in places where weather, distance, disease, and poor provisions could be as dangerous as combat. The labor was military, but it was also infrastructure work for a growing state.</p>
+<p>The story also includes rebellion and repression. In 1917, Black soldiers stationed in Houston faced racist abuse and police violence. A confrontation escalated into armed revolt, deaths, courts-martial, and executions. The Houston rebellion shows the breaking point created when men trained to serve the country were treated as targets by the country&#039;s own racial order.</p>
+<p>Buffalo Soldiers have become symbols of perseverance, but symbol can flatten them. They were not simply patriotic proof that Black people deserved rights. They were workers, veterans, husbands, sons, migrants, disciplined professionals, and sometimes men caught inside military orders they did not choose. Their service gave them leverage in arguments over citizenship, but it also showed how often Black loyalty was demanded without Black equality.</p>
+<p>Their history belongs with other Black military stories, from the 54th Massachusetts to the Harlem Hellfighters to the 6888th. In each case, Black service exposed a national contradiction. The country needed Black labor, skill, courage, and discipline, then resisted the claims those qualities made.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost included isolation, danger, racism, low status within the Army, violence from white civilians, and moral entanglement in U.S. campaigns against Native nations. Black soldiers could serve with distinction and still be denied equal protection, voting rights, and basic dignity outside the uniform.</p>
+<p>The impact was lasting. Buffalo Soldiers helped define Black regular military service after the Civil War, shaped national park and western military history, and gave later generations a powerful but complicated example of service as both opportunity and contradiction.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>The Buffalo Soldiers matter today because public memory often wants Black military history to be uncomplicated pride. Pride is earned, but honesty is necessary. These soldiers fought racism while serving a government that expanded through conquest and removal. That is not a reason to erase them. It is a reason to study them more carefully.</p>
+<p>Their history also helps readers separate citizenship claims from blind nationalism. Black soldiers used service to demand rights, but the demand was not that the nation was already just. It was that the nation owed justice to the people it asked to serve.</p>
+<p>The fuller lesson is that Black history can hold contradiction without collapsing. The Buffalo Soldiers were brave, exploited, disciplined, ambitious, constrained, and historically important all at once.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-05-22" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; May 22</div>
+        <div class="quiz-card-title">Open the daily challenge for The Buffalo Soldiers</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../generated/pages/54th-massachusetts-infantry.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The 54th Massachusetts Infantry</div>
+        <div class="connected-desc">Connects Civil War service to later Black Regular Army regiments.</div>
+      </a>
+<a href="../../generated/pages/6888th-battalion.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The 6888th Battalion</div>
+        <div class="connected-desc">Shows Black military service through women&#039;s wartime logistics and leadership.</div>
+      </a>
+<a href="../../generated/pages/harlem-hellfighters.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Harlem Hellfighters</div>
+        <div class="connected-desc">Another Black regiment whose service exposed Jim Crow contradictions.</div>
+      </a>
+<a href="../../generated/pages/14th-amendment.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The 14th Amendment</div>
+        <div class="connected-desc">Links Black military service to citizenship claims after the Civil War.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.nps.gov/subjects/buffalosoldiers/index.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Buffalo Soldiers</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/foda/learn/historyculture/buffalo-soldiers.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Buffalo Soldiers at Fort Davis</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/explore/stories/buffalo-soldiers" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Buffalo Soldiers</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.thenmusa.org/biographies/buffalo-soldiers/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of the United States Army</div>
+          <div class="ext-title">Buffalo Soldiers</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.army.mil/article/177403/buffalo_soldiers" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">U.S. Army</div>
+          <div class="ext-title">Buffalo Soldiers</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>
