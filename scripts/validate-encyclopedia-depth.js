@@ -112,6 +112,7 @@ function run() {
       ['lede', 'context', 'turning', 'whyItMatters', 'answerText'].forEach(field => {
         const dailyField = normalize(daily[field] || '');
         if (field === 'answerText' && dailyField.split(/\s+/).filter(Boolean).length < 6) return;
+        if (field === 'answerText' && dailyField === normalize(entry.subject || '')) return;
         if (dailyField && normalize(html).includes(dailyField)) {
           errors.push(`${label}: reuses daily ${field} verbatim`);
         }

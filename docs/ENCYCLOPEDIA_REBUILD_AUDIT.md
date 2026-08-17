@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First twenty rebuild batches complete; continue from row 175, `Stonewall Riots`, on `encyclopedia-rebuild`.
+Status: First twenty-one rebuild batches complete; continue from row 185, `The Buffalo Soldiers`, on `encyclopedia-rebuild`.
 Date: 2026-08-17
 
 ## Quality Gap Documented
@@ -269,13 +269,25 @@ Batch 20 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 20 source and rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
 
+## Batch 21 Completed
+
+Completed pages: `stonewall-riots`, `14th-amendment`, `15th-amendment`, `54th-massachusetts-infantry`, `6888th-battalion`, `black-arts-movement`, `black-church`, `black-panther-party`, `black-press`, `the-blues`.
+
+Batch 21 rebuilt eight scheduled/generated pages and two legacy-path pages into the approved rich encyclopedia format. Stonewall now avoids single-hero and first-brick myths while centering policing, street youth, Black and brown queer and trans people, post-uprising organizing, and memory politics; the 14th Amendment now connects Dred Scott, Reconstruction politics, citizenship, due process, equal protection, court narrowing, and modern enforcement debates; the 15th Amendment now treats Black male suffrage, Black women's exclusion, Reconstruction officeholding, terror, Jim Crow evasion, and Voting Rights Act enforcement; the 54th Massachusetts page now moves beyond Fort Wagner into recruitment, family cost, unequal pay, and citizenship; the 6888th now frames mail as wartime logistics, morale, data work, Black women's military leadership, and delayed recognition; the Black Arts Movement now includes institutions, language, publishing, gender critique, and cultural power; the Black Church now balances faith, music, politics, migration, gendered labor, contradictions, and institution-building; the Black Panther Party now treats self-defense, survival programs, women, media, COINTELPRO, internationalism, and contested memory; the Black Press now restores ownership, anti-lynching journalism, migration, visual archives, business constraints, and narrative power; and The Blues now expands beyond genre-origin shorthand into form, women performers, migration, exploitation, and living tradition.
+
+Batch 21 verification:
+
+- External links checked: 50 page-level sources plus repeated site-wide external assets, 0 material failures after replacing stale NPS, MassHist, Battlefield Trust, National Archives, Black church, Black Panther, Chicago Defender, and Mississippi Blues Trail URLs. Smithsonian, Library of Congress, National Gallery of Art, Congress.gov, Poetry Foundation, Britannica, Oxford African American Studies Center, FBI Vault, and NMAAHC pages that returned automated bot-blocking, throttling, or dynamic-fetch errors were retained only because they are direct authoritative or high-quality pages verified for subject relevance.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 21 source and rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 175
-- REWRITE: 22
-- RESEARCH: 13
-- REBUILD: 22
+- PASS: 185
+- REWRITE: 14
+- RESEARCH: 11
+- REBUILD: 14
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -286,7 +298,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished work: continue Batch 21 from row 175, `Stonewall Riots`.
+Next unfinished work: continue Batch 22 from row 185, `The Buffalo Soldiers`.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -468,16 +480,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 172 | Solomon Northup | generated/pages/solomon-northup.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, kidnapping/narrative/legal/final-years uncertainty claim review, replaced stale source URLs, depth/similarity validation, desktop/mobile browser check. |
 | 173 | Sports Integration Beyond Jackie Robinson | encyclopedia/sports-integration.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, football/basketball/tennis/golf/institutional-memory claim review, corrected sports source URLs, depth/similarity validation, desktop/mobile browser check. |
 | 174 | Stokely Carmichael / Kwame Ture | generated/pages/stokely-carmichael.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, unsupported quote omitted, SNCC/Black Power/Lowndes County/Pan-Africanism/surveillance claim review, corrected BlackPast source URL, depth/similarity validation, desktop/mobile browser check. |
-| 175 | Stonewall Riots | generated/pages/stonewall-riots.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 176 | The 14th Amendment | generated/pages/14th-amendment.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 177 | The 15th Amendment | generated/pages/15th-amendment.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 178 | The 54th Massachusetts Infantry | generated/pages/54th-massachusetts-infantry.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 179 | The 6888th Central Postal Directory Battalion | generated/pages/6888th-battalion.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 180 | The Black Arts Movement | generated/pages/black-arts-movement.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 181 | The Black Church | generated/pages/black-church.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 182 | The Black Panther Party | generated/pages/black-panther-party.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 183 | The Black Press & Media | encyclopedia/black-press.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 184 | The Blues | encyclopedia/the-blues.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 175 | Stonewall Riots | generated/pages/stonewall-riots.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Stonewall chronology/first-brick myth/Black and brown queer and trans memory reviewed, stale NPS source corrected, depth/similarity validation, desktop/mobile browser check. |
+| 176 | The 14th Amendment | generated/pages/14th-amendment.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified constitutional quotation, Dred Scott/Reconstruction/birthright citizenship/equal protection claim review, depth/similarity validation, desktop/mobile browser check. |
+| 177 | The 15th Amendment | generated/pages/15th-amendment.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified constitutional quotation, Black male suffrage/Black women exclusion/Jim Crow evasion/enforcement claim review, depth/similarity validation, desktop/mobile browser check. |
+| 178 | The 54th Massachusetts Infantry | generated/pages/54th-massachusetts-infantry.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Fort Wagner/unequal pay/family cost/citizenship claim review, corrected MassHist and Battlefield Trust URLs, depth/similarity validation, desktop/mobile browser check. |
+| 179 | The 6888th Central Postal Directory Battalion | generated/pages/6888th-battalion.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified motto, only-all-Black-WAC-overseas/logistics/Charity Adams/recognition claim review, corrected National Archives and military-history URLs, depth/similarity validation, desktop/mobile browser check. |
+| 180 | The Black Arts Movement | generated/pages/black-arts-movement.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, movement dates/Baraka role/Black Power/gender critique/institution-building claim review, depth/similarity validation, desktop/mobile browser check. |
+| 181 | The Black Church | generated/pages/black-church.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, institution/denomination/music/women's labor/civil-rights infrastructure claim review, corrected LOC and NPS source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 182 | The Black Panther Party | generated/pages/black-panther-party.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, self-defense/survival programs/women/COINTELPRO/internationalism claim review, corrected Stanford and Berkeley source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 183 | The Black Press & Media | encyclopedia/black-press.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified Freedom's Journal quotation, first-newspaper/anti-lynching/Great Migration/Double V/narrative-power claim review, corrected Chicago Defender source URL, depth/similarity validation, desktop/mobile browser check. |
+| 184 | The Blues | encyclopedia/the-blues.html | PASS | Batch 21 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no lyric quotation, origins/Mamie Smith/women performers/migration/influence/exploitation claim review, corrected Mississippi Blues Trail source URL, depth/similarity validation, desktop/mobile browser check. |
 | 185 | The Buffalo Soldiers | generated/pages/buffalo-soldiers.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 186 | The Convict Leasing System | generated/pages/convict-leasing.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 187 | The Freedmen's Bureau | generated/pages/freedmens-bureau.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |

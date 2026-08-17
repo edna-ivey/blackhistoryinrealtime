@@ -3,79 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Black Press & Media — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Freedom's Journal launched in 1827 with a mission that still resonates: 'We wish to plead our own cause. Too long have others spoken for us.' The Blac">
+<title>The Black Press - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="The Black press began from a simple refusal: Black people would not let others tell the whole story for them. Beginning with Freedom&#039;s Journal in 1827, Black newspapers reported weddings, deaths, church news, lynchings, lawsuits, elections, migration routes, jobs, beauty culture, war service, school fights, and the arguments a community needed to have with itself. They corrected white newspapers that ignored Black life or distorted it. They also built businesses, audiences, political campaigns, and networks across distance. This page matters because journalism is not only information. For Black communities, the press has often been protection, memory, warning system, organizing tool, and proof that a people could speak in public under their own names.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,#333,var(--orange));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;transition:all 0.2s;}
-.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
-.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
-.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
-.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
-.external-section{}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="black-press">
@@ -100,99 +79,150 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="breadcrumb">
     <a href="../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>February 22 · Media & Journalism</span>
+    <span>August 22 &middot; Journalism</span>
   </div>
   <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
   <div class="entry-hero">
-    <div class="entry-vol-label">February 22 · Media & Journalism</div>
-    <h1>The Black Press & Media</h1>
-    <p class="entry-tagline">Freedom's Journal launched in 1827 with a mission that still resonates: 'We wish to plead our own cause. Too long have others spoken for us.' The Black press has been a lifeline, a record, an organizing tool, and a target — from Frederick Douglass's North Star to the Chicago Defender to Black social media today.</p>
+    <div class="entry-vol-label">August 22 &middot; Journalism</div>
+    <h1>The Black Press</h1>
+    <p class="entry-tagline">The Black press began from a simple refusal: Black people would not let others tell the whole story for them. Beginning with Freedom&#039;s Journal in 1827, Black newspapers reported weddings, deaths, church news, lynchings, lawsuits, elections, migration routes, jobs, beauty culture, war service, school fights, and the arguments a community needed to have with itself. They corrected white newspapers that ignored Black life or distorted it. They also built businesses, audiences, political campaigns, and networks across distance. This page matters because journalism is not only information. For Black communities, the press has often been protection, memory, warning system, organizing tool, and proof that a people could speak in public under their own names.</p>
     <div class="entry-badges">
-      <span class="badge">Systems</span>
-      <span class="badge">1827 — Present</span>
+      <span class="badge">Institution</span>
+      <span class="badge">1827 - present</span>
     </div>
     <div class="hero-bar"></div>
   </div>
+
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
-    <div class="timeline-items"><div class="tl-item"><div class="tl-date">March 16, 1827</div><div class="tl-event">Freedom's Journal founded — first Black-owned newspaper in the United States</div></div>
-<div class="tl-item"><div class="tl-date">Dec 3, 1847</div><div class="tl-event">Frederick Douglass launches The North Star in Rochester, NY</div></div>
-<div class="tl-item"><div class="tl-date">1892</div><div class="tl-event">Ida B. Wells begins anti-lynching journalism in Memphis; office firebombed, she goes into exile</div></div>
-<div class="tl-item"><div class="tl-date">1905</div><div class="tl-event">Robert Sengstacke Abbott founds the Chicago Defender — within a decade the most influential Black newspaper in America</div></div>
-<div class="tl-item"><div class="tl-date">1945</div><div class="tl-event">Ebony magazine founded by John H. Johnson; reaches 1.5 million readers within its first year</div></div>
-<div class="tl-item"><div class="tl-date">2012–present</div><div class="tl-event">Social media becomes the new Black press: #BlackLivesMatter, #SayHerName, #BlackTwitter document and drive national conversations</div></div>
-</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Mar 16, 1827</div><div class="tl-event">Freedom&#039;s Journal, the first Black-owned and operated newspaper in the United States, publishes its first issue.</div></div>
+<div class="tl-item"><div class="tl-date">1847</div><div class="tl-event">Frederick Douglass begins publishing The North Star.</div></div>
+<div class="tl-item"><div class="tl-date">1889</div><div class="tl-event">Ida B. Wells becomes a co-owner and editor of the Memphis Free Speech.</div></div>
+<div class="tl-item"><div class="tl-date">1905</div><div class="tl-event">Robert S. Abbott founds the Chicago Defender.</div></div>
+<div class="tl-item"><div class="tl-date">1910s-1920s</div><div class="tl-event">Black newspapers help circulate Great Migration information, warnings, and opportunity.</div></div>
+<div class="tl-item"><div class="tl-date">1930s-1940s</div><div class="tl-event">The Pittsburgh Courier, Chicago Defender, Baltimore Afro-American, and others build national influence.</div></div>
+<div class="tl-item"><div class="tl-date">1942</div><div class="tl-event">The Pittsburgh Courier popularizes the Double V campaign during World War II.</div></div>
+<div class="tl-item"><div class="tl-date">1950s-1960s</div><div class="tl-event">Black newspapers cover civil rights activism often ignored or distorted by white outlets.</div></div>
+<div class="tl-item"><div class="tl-date">1960s-present</div><div class="tl-event">Black radio, magazines, television, digital outlets, and local papers expand the Black media ecosystem.</div></div>
+    </div>
   </div>
+
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>When Samuel Cornish and John Russwurm launched Freedom's Journal on March 16, 1827, they stated their purpose in the first issue with a directness that has rarely been matched: 'We wish to plead our own cause. Too long have others spoken for us.' That sentence was written in a country where Black people could be legally owned, where the mainstream press covered Black Americans either as property or as threats, and where even abolitionist white newspapers often spoke about Black people rather than to them or with them. The Black press was founded specifically to fill that gap — to create a media infrastructure that Black Americans controlled, that reported Black life accurately, and that could be used to organize against the conditions they were fighting.</p>
-<p>Frederick Douglass launched The North Star on December 3, 1847, naming it for the star that guided enslaved people north toward freedom. The paper, published out of Rochester, New York, ran a masthead motto that was itself a political statement: 'Right is of no Sex — Truth is of no Color — God is the Father of us all, and we are all Brethren.' Douglass used the paper to publish abolitionist arguments, document the conditions of slavery, and create a public record that the mainstream press was not providing. The North Star later merged with another paper and was renamed Frederick Douglass' Paper, which ran until 1860. After the Civil War, Douglass started the New Era, covering Reconstruction from Washington, D.C. At every stage, the Black press under Douglass was doing what it was always doing: providing coverage that the white press would not.</p>
-<p>Ida B. Wells is one of the most important investigative journalists in American history, and she pioneered that work in the Black press. After her friend Thomas Moss and his business partners were lynched in Memphis in 1892 — killed because their grocery store was successfully competing with a white-owned store — Wells began using her newspaper, the Memphis Free Speech, to investigate and document lynchings across the South. She was the first journalist to systematically study the data and challenge the narrative that lynching was a response to sexual assault. Her investigations showed that in many documented cases, the accusation was false, or the underlying cause was economic competition, or the victim had simply violated some expectation of racial deference. While Wells was traveling, a white mob burned down her office and threatened her life. She never returned to Memphis. She continued her anti-lynching journalism from New York, then Chicago, where she lived the rest of her life.</p>
-<p>Robert Sengstacke Abbott founded the Chicago Defender in 1905. Within a decade it was the most influential Black newspaper in the United States, with a national circulation of more than 230,000 — including copies smuggled into the South by Pullman porters, because the paper was so explicitly pro-migration and anti-Jim Crow that white Southerners tried to ban it. The Defender published employment listings for Northern factory jobs, first-person accounts of migrants who had made the move, editorials urging Black Southerners to leave, and detailed coverage of the Chicago Race Riot of 1919. Historians credit the Defender with being a significant driver of the Great Migration. It also covered the 1919 race riot, anti-Black violence in the North, and the persistent segregation that greeted migrants in their new cities. The paper's 250,000-photograph archive, now being digitized with Google Arts & Culture, is one of the most comprehensive visual records of Black urban life in 20th-century America.</p>
-<p>John H. Johnson founded Ebony magazine in 1945 and Jet in 1951, creating the first mass-market Black publications aimed at middle-class Black consumers. Ebony reached 1.5 million readers in its first year. Jet published the photo of Emmett Till's open casket in 1955 — a decision made by Till's mother, Mamie Till-Mobley, who insisted that the world see what had been done to her son. The photo ran in Jet and was credited by civil rights leaders including Rosa Parks and John Lewis as a galvanizing moment. The mainstream white press would not have published it. Today, the tradition of the Black press has migrated substantially to social media. Black Twitter documented and amplified events including the killing of Trayvon Martin, Michael Brown, Philando Castile, Breonna Taylor, and George Floyd before or simultaneously with mainstream coverage. The hashtags #BlackLivesMatter, #SayHerName, and #BlackTwitter became organizing tools, grief communities, and information networks that function in precisely the same way the Black press always has: providing coverage, context, and community that the mainstream will not.</p>
-
+<p>The first issue of Freedom&#039;s Journal appeared in 1827 with a declaration of purpose: Black people wanted to plead their own cause. That was not a slogan for vanity. White newspapers often defended slavery, mocked free Black communities, ignored Black achievement, or reported Black life only through crime and control. A Black newspaper created a public counter-record.</p>
+<p>Early Black editors operated under pressure. They needed money, printers, subscribers, distribution networks, and courage. They reported on abolition, education, colonization debates, church life, racism, and international struggles. Newspapers connected free Black communities in different cities and made it harder for white America to pretend Black political thought did not exist.</p>
+<p>Frederick Douglass understood the press as movement infrastructure. The North Star and his later papers carried abolitionist argument, personal testimony, political analysis, and news. Printing was not separate from oratory. It extended the speech, preserved it, and sent it where Douglass could not stand in person.</p>
+<p>Ida B. Wells showed the press at its most dangerous. After her friends were lynched in Memphis, she investigated lynching and exposed the lies used to justify racial terror. White mobs destroyed her newspaper office, and she was forced into exile from Memphis. Her work demonstrated that journalism could threaten the whole machinery of white violence because facts, names, and patterns made terror harder to hide.</p>
+<p>In the twentieth century, papers like the Chicago Defender shaped migration. The Defender published stories about jobs, housing, racism, and possibility in Northern cities. Copies circulated far beyond official subscription lists, passed from hand to hand and carried by rail workers. The paper did not cause the Great Migration by itself, but it helped people imagine routes out of the South and warned them about what awaited.</p>
+<p>The Black press also covered ordinary life. Society pages, sports, church anniversaries, advertisements, school achievements, obituaries, beauty salons, and entertainment news mattered. A community under constant distortion needed records of joy, ambition, style, business, and family. The ordinary was political because white media often denied Black ordinariness.</p>
+<p>During World War II, the Pittsburgh Courier&#039;s Double V campaign connected victory against fascism abroad to victory against racism at home. That framing angered officials who wanted Black loyalty without Black demands. It also showed how Black newspapers could turn patriotism into accountability.</p>
+<p>The civil rights movement relied on Black media ecosystems. Black newspapers covered local organizers, mass meetings, boycotts, police violence, court cases, and voter registration with a depth many white outlets lacked until crisis made stories national. Photographers, reporters, editors, and publishers helped document violence and strategy for readers who needed both warning and courage.</p>
+<p>The Black press has also had internal limits. It could reflect class bias, gender bias, respectability politics, and political disagreements. Some outlets were cautious when advertisers, politicians, or local power structures pressured them. That complexity makes the institution more real. It was a business, a calling, a political instrument, and a community argument all at once.</p>
+<p>Photography and layout mattered too. Images of soldiers, debutantes, ballplayers, pastors, protestors, musicians, and victims of violence taught readers what was worth seeing. A front page could honor a local child, expose a lynching, sell war bonds, promote a boycott, or make a beauty contestant into a community celebrity. The Black press created a visual archive as well as a written one.</p>
+<p>The business side was always fragile. Subscription drives, advertising, printing costs, delivery routes, and competition shaped what papers could do. Black publishers had to build markets while serving readers whose communities were often economically squeezed. Survival required political courage and practical accounting at the same time.</p>
+<p>Today, Black journalism lives through newspapers, radio, magazines, podcasts, newsletters, documentary work, social media, and digital newsrooms. The old question remains: who gets to define Black life in public? The Black press answers by building platforms where Black communities are not merely subjects of news. They are reporters, editors, owners, critics, witnesses, and readers with a right to the full record.</p>
   </div>
+
   <div class="pull-quote">
-<div class="pq-bar"></div>
-<blockquote>We wish to plead our own cause. Too long have others spoken for us.</blockquote>
-<cite>Freedom's Journal, March 16, 1827 — first issue, first sentence</cite>
-</div>
+    <div class="pq-bar"></div>
+    <blockquote>We wish to plead our own cause.</blockquote>
+    <cite>Freedom&#039;s Journal, first issue, 1827</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost of Black journalism included mob violence, destroyed presses, lawsuits, surveillance, poverty, advertiser pressure, and personal danger. Ida B. Wells lost her Memphis newspaper office and home base because her reporting named lynching honestly. Other editors risked retaliation simply by printing what white power wanted hidden.</p>
+<p>The impact was community survival. The Black press carried warnings, migration information, anti-lynching evidence, political endorsements, local pride, and national campaigns. It helped readers understand themselves as connected across city, region, and class.</p>
+  </div>
+
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>The Black press matters because it has always done what no other institution was going to do: document Black life accurately, on Black terms, for Black audiences. This isn't a historical fact that ended when mainstream media desegregated its newsrooms. Today, Black journalists remain underrepresented in major news organizations, coverage of Black communities remains disproportionately crime-focused in mainstream outlets, and Black social media has filled in the gap the same way the Chicago Defender did in 1905. The record that the Black press has created — from Freedom's Journal through Ebony to Black Twitter — is also an irreplaceable historical archive. When Jet published the Emmett Till photo, it made it impossible to look away. That is what the Black press has always done, and why it has always been a target.</p>
+<p>The Black press matters today because distorted coverage did not end with nineteenth-century newspapers. Crime framing, protest framing, missing-person coverage, political stereotypes, and algorithmic amplification still shape what the public thinks Black life is. Ownership and editorial power remain central.</p>
+<p>It also matters because communities need more than crisis reporting. They need archives of everyday life: births, books, games, sermons, recipes, arguments, grief, jokes, and local victories. The Black press preserved those records when larger outlets did not care.</p>
+<p>The deeper lesson is that a community without narrative power is easier to govern from the outside. The Black press made Black public life harder to erase.</p>
   </div>
+
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../index.html?day=2026-08-22" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz &middot; August 22</div>
-        <div class="quiz-link-title">Test your knowledge on The Black Press & Media</div>
+    <a href="../index.html?day=2026-08-22" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; August 22</div>
+        <div class="quiz-card-title">Open the daily challenge for The Black Press</div>
       </div>
-      <span class="quiz-link-arrow">&#x270A;&#x1F3FE;</span>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"></div>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/ida-b-wells.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Ida B. Wells</div>
+        <div class="connected-desc">Shows investigative Black journalism confronting lynching and white terror.</div>
+      </a>
+<a href="../generated/pages/frederick-douglass.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Frederick Douglass</div>
+        <div class="connected-desc">Connects abolitionist oratory to Black newspaper publishing.</div>
+      </a>
+<a href="../encyclopedia/great-migration.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Great Migration</div>
+        <div class="connected-desc">Shows how papers like the Chicago Defender helped carry information north.</div>
+      </a>
+<a href="../generated/pages/black-church.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Black Church</div>
+        <div class="connected-desc">Another institution that helped Black communities organize, remember, and communicate.</div>
+      </a>
+    </div>
   </div>
+
   <div class="section-divider"><span>Learn More</span></div>
   <div class="external-section">
     <div class="section-title">External Links</div>
-    <div class="external-links"><a href="https://www.history.com/articles/black-newspapers-anti-slavery-abolition-movement" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">How Black-Run Newspapers Bolstered the Abolitionist Movement — Freedom's Journal to the North Star</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.smithsonianmag.com/arts-culture/against-all-odds-65322127/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">Ida B. Wells — Against All Odds, Investigative Journalist and Anti-Lynching Crusader</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.smithsonianmag.com/smart-news/explore-archives-historic-black-newspapers-180969292/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">The Archives of Historic Black Newspapers — Chicago Defender Collection Goes Digital</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-</div>
+    <div class="external-links">
+<a href="https://www.loc.gov/collections/african-american-newspapers-1827-to-1998/about-this-collection/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">African American Newspapers, 1827 to 1998</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/item/sn83030140/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Freedom&#039;s Journal</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/explore/stories/power-black-press" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">The Power of the Black Press</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.pbs.org/blackpress/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">PBS</div>
+          <div class="ext-title">The Black Press: Soldiers Without Swords</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.pbs.org/blackpress/news_bios/defender.html" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">PBS</div>
+          <div class="ext-title">The Chicago Defender</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
   </div>
 </main>
 <footer>
-  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

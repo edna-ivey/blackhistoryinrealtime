@@ -413,11 +413,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-24 - The Black Church
 
+- Entry title: The Black Church
 - Slug: `black-church`
-- Core claims: For many Black communities, the church was not only where people prayed. It was where they planned. Black churches became spaces for worship, education, mutual aid, music, political organizing, and protection. During slavery and after emancipation, independent Black congregations helped build community power. Civil rights meetings, voter registration drives, mass gatherings, and local organizing often moved through church networks. The building was sacred, but it was also strategic.
-- Sources:
-  - https://nmaahc.si.edu/explore/initiatives/black-church
-  - https://www.pbs.org/black-church/
+- Daily date: 2026-05-24
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The Black church has never been only Sunday morning. Across generations, Black congregations have held worship, education, burial societies, political meetings, music, mutual aid, childcare, fundraising, debate, grief, and strategy. That does not mean every Black person is Christian or every Black church has been liberating in the same way. The institution is powerful because it is human: full of faith, hierarchy, care, conflict, gendered labor, prophetic courage, respectability politics, and community survival. This page matters because Black freedom work needed places where people could gather without asking white institutions for permission. The Black church often became that room, not perfect, but strong enough to hold a people under pressure.
+- Primary or authoritative sources:
+  - https://www.pbs.org/weta/black-church/
+  - https://nmaahc.si.edu/explore/stories/black-church
+  - https://guides.loc.gov/religion-collections-libraries-archives/dc-smithsonian-national-museum-african-american-hist-culture
+- Supporting secondary sources:
+  - https://www.nps.gov/articles/000/inde-preamble-and-articles-of-association-for-the-free-african-society.htm
+  - https://www.pewresearch.org/religion/2021/02/16/faith-among-black-americans/
+- Verified quotation source: No quotation included. Institutional claims summarized from PBS, NMAAHC, LOC, NPS, and Pew sources.
+- Sensitive or disputed claims reviewed: Christianity and slavery, denominational variety, women's labor, queer exclusion, civil-rights infrastructure, and church-targeted violence reviewed.
+- Material corrections made: Expanded scheduled fallback beyond organizing shorthand into faith, institution-building, music, contradictions, and community infrastructure.
+- External links included on the page:
+  - PBS: The Black Church (https://www.pbs.org/weta/black-church/)
+  - National Museum of African American History and Culture: The Black Church (https://nmaahc.si.edu/explore/stories/black-church)
+  - Library of Congress: African American Religion Collections (https://guides.loc.gov/religion-collections-libraries-archives/dc-smithsonian-national-museum-african-american-hist-culture)
+  - National Park Service: Free African Society Articles of Association (https://www.nps.gov/articles/000/inde-preamble-and-articles-of-association-for-the-free-african-society.htm)
+  - Pew Research Center: Faith Among Black Americans (https://www.pewresearch.org/religion/2021/02/16/faith-among-black-americans/)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, Black church institution claim review.
 
 ### 2026-05-25 - George Floyd
 
@@ -829,11 +847,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-13 - The Black Panther Party
 
+- Entry title: The Black Panther Party
 - Slug: `black-panther-party`
-- Core claims: The Black Panther Party was famous for images of guns. The part many people skip is the breakfast. Founded in Oakland in 1966, the Panthers organized against police brutality and built community survival programs including free breakfasts, health clinics, liberation schools, and sickle cell testing. Federal agencies targeted the Party through COINTELPRO, while local chapters kept feeding children and organizing services the state had failed to provide.
-- Sources:
-  - https://nmaahc.si.edu/explore/stories/black-panther-party
+- Daily date: 2026-06-13
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The Black Panther Party is often remembered through the image of armed Black men in leather jackets. That image was real, but it is not enough. The Panthers built patrols against police brutality, political education classes, newspapers, free breakfast programs, health clinics, sickle cell testing, liberation schools, and coalitions with other oppressed communities. They also faced internal conflict, sexism, state repression, criminal charges, informants, and deadly police violence. This page matters because the Panthers understood power as both defense and care. A rifle could symbolize refusal, but breakfast before school, a clinic visit, or a newspaper in a neighbor's hand could also expose the state's failures.
+- Primary or authoritative sources:
+  - https://www.archives.gov/research/african-americans/black-power
   - https://www.archives.gov/research/african-americans/black-power/black-panthers
+  - https://vault.fbi.gov/Black%20Panther%20Party
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/collection/search?edan_q=Black%20Panther%20Party
+  - https://guides.lib.berkeley.edu/blackpantherparty
+- Verified quotation source: No quotation included. Ten-Point Program and survival-program claims summarized from institutional and archival sources.
+- Sensitive or disputed claims reviewed: Armed patrols, women's roles, sexism, COINTELPRO, Fred Hampton raid, survival programs, internal conflict, and dissolution framing reviewed.
+- Material corrections made: Expanded scheduled fallback beyond breakfast shorthand into self-defense, survival programs, media, gender, repression, and contested memory.
+- External links included on the page:
+  - National Archives: Black Power (https://www.archives.gov/research/african-americans/black-power)
+  - National Archives: Black Panthers (https://www.archives.gov/research/african-americans/black-power/black-panthers)
+  - FBI Records: The Vault: Black Panther Party (https://vault.fbi.gov/Black%20Panther%20Party)
+  - National Museum of African American History and Culture: Black Panther Party Materials (https://nmaahc.si.edu/explore/collection/search?edan_q=Black%20Panther%20Party)
+  - UC Berkeley Library: Black Panther Party Research Guide (https://guides.lib.berkeley.edu/blackpantherparty)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, Panther history claim review.
 
 ### 2026-06-14 - Lewis Howard Latimer
 
@@ -1051,11 +1087,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-23 - The Black Arts Movement
 
+- Entry title: The Black Arts Movement
 - Slug: `black-arts-movement`
-- Core claims: The Black Arts Movement treated poems, plays, murals, and music as tools a community could use. Emerging after the assassination of Malcolm X, the movement connected cultural production to Black Power, community institutions, publishing, theater, and self-definition. Writers and artists built presses, theaters, workshops, and journals that centered Black audiences rather than seeking approval from white institutions.
-- Sources:
+- Daily date: 2026-06-23
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The Black Arts Movement treated culture as a place where power could be built. Poems, plays, murals, presses, journals, music, and theaters were not side projects to politics. They were tools for making Black audiences, Black language, Black anger, Black beauty, and Black imagination central. The movement emerged after the assassination of Malcolm X and grew alongside Black Power, but it was never one single organization or one single style. It included brilliance, institution-building, gender conflict, nationalism, experimentation, and argument. This page matters because art does not only decorate a movement. It teaches people what they can name, what they can refuse, and what futures they can rehearse before institutions are ready to permit them.
+- Primary or authoritative sources:
   - https://www.poetryfoundation.org/collections/148936/an-introduction-to-the-black-arts-movement
+  - https://poets.org/text/brief-guide-black-arts-movement
+  - https://www.oxfordaasc.com/page/black-arts-movement
+- Supporting secondary sources:
   - https://www.britannica.com/event/Black-Arts-movement
+  - https://nmaahc.si.edu/explore/exhibitions/afrofuturism
+- Verified quotation source: No quotation included. Movement claims summarized from literary and institutional sources.
+- Sensitive or disputed claims reviewed: Movement dates, Malcolm X relationship, Amiri Baraka role, gender/sexuality criticism, Black Power connection, and institutional legacy reviewed.
+- Material corrections made: Expanded scheduled fallback into a fuller account of institutions, aesthetics, politics, internal critique, and continuing influence.
+- External links included on the page:
+  - Poetry Foundation: Black Arts Movement (https://www.poetryfoundation.org/collections/148936/an-introduction-to-the-black-arts-movement)
+  - Academy of American Poets: A Brief Guide to the Black Arts Movement (https://poets.org/text/brief-guide-black-arts-movement)
+  - National Museum of African American History and Culture: Afrofuturism and Black Arts Context (https://nmaahc.si.edu/explore/exhibitions/afrofuturism)
+  - Encyclopaedia Britannica: Black Arts Movement (https://www.britannica.com/event/Black-Arts-movement)
+  - Oxford African American Studies Center: Black Arts Movement (https://www.oxfordaasc.com/page/black-arts-movement)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, Black Arts claim review.
 
 ### 2026-06-24 - The Freedmen's Bureau
 
@@ -1091,11 +1145,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-26 - The 54th Massachusetts Infantry
 
+- Entry title: The 54th Massachusetts Infantry
 - Slug: `54th-massachusetts-infantry`
-- Core claims: The 54th Massachusetts Infantry fought for a country that had not yet fully decided Black men were citizens. Formed in 1863, the 54th was one of the first official Black regiments in the Union Army. Its soldiers faced unequal pay, racism, and the danger of enslavement or execution if captured. Their assault on Fort Wagner in South Carolina cost many lives but changed Northern perceptions of Black military service and helped encourage further Black enlistment.
-- Sources:
-  - https://www.nps.gov/boaf/learn/historyculture/54th-massachusetts-regiment.htm
+- Daily date: 2026-06-26
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The 54th Massachusetts Infantry fought in a war that had not yet fully admitted what its service meant. Black men were asked to risk death for a Union that still paid them less, questioned their courage, and could not guarantee protection if Confederate forces captured them. The regiment became famous for its assault on Fort Wagner, but its story is bigger than a single charge. It is about recruitment, citizenship, unequal pay, family sacrifice, abolitionist politics, Black discipline under racist scrutiny, and the argument that military service made against white supremacy. This page matters because the 54th did not prove Black humanity. Black humanity was never in question. It exposed a country that needed Black soldiers while still resisting Black equality.
+- Primary or authoritative sources:
+  - https://www.nps.gov/articles/54th-massachusetts-regiment.htm
+  - https://www.masshist.org/features/54thregiment
   - https://www.archives.gov/education/lessons/blacks-civil-war
+- Supporting secondary sources:
+  - https://www.nga.gov/collection/art-object-page.46647.html
+  - https://www.battlefields.org/learn/articles/54th-massachusetts-infantry-regiment
+- Verified quotation source: No quotation included. Pay and battle claims summarized from institutional sources.
+- Sensitive or disputed claims reviewed: Fort Wagner casualty framing, unequal pay, Black enlistment numbers, officer hierarchy, and monument memory reviewed.
+- Material corrections made: Expanded scheduled fallback beyond Fort Wagner into recruitment, citizenship, pay protest, memory, and wider Black military service.
+- External links included on the page:
+  - National Park Service: The 54th Massachusetts Regiment (https://www.nps.gov/articles/54th-massachusetts-regiment.htm)
+  - Massachusetts Historical Society: 54th Massachusetts Regiment (https://www.masshist.org/features/54thregiment)
+  - National Gallery of Art: Shaw Memorial (https://www.nga.gov/collection/art-object-page.46647.html)
+  - American Battlefield Trust: 54th Massachusetts Infantry Regiment (https://www.battlefields.org/learn/articles/54th-massachusetts-infantry-regiment)
+  - National Archives: Black Soldiers in the U.S. Military During the Civil War (https://www.archives.gov/education/lessons/blacks-civil-war)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, military-service and citizenship claim review.
 
 ### 2026-06-27 - Harriet Jacobs
 
@@ -1125,11 +1197,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-28 - Stonewall Riots
 
+- Entry title: Stonewall Riots
 - Slug: `stonewall-riots`
-- Core claims: Stonewall was not the first LGBTQ+ resistance, but on June 28, 1969, the fight spilled into the street and stayed there. Police raided the Stonewall Inn in Greenwich Village, a gathering place for LGBTQ+ people, including Black and brown queer and trans people who faced heavy policing. People resisted the raid, and nights of protest followed. The uprising helped energize a new phase of LGBTQ+ organizing and Pride marches.
-- Sources:
-  - https://www.nps.gov/places/stonewall.htm
-  - https://www.loc.gov/item/today-in-history/june-28/
+- Daily date: 2026-06-28
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: Stonewall was not the first time LGBTQ+ people resisted police, and it was not a neat origin story with one hero throwing one object. It was a series of confrontations that began after a police raid at the Stonewall Inn in Greenwich Village and grew because queer and trans people were tired of being treated as disposable. Black and brown patrons, street youth, drag performers, lesbians, gay men, trans people, and gender-nonconforming people all lived under heavy policing. Stonewall matters because it turned routine humiliation into public refusal. The deeper story is not that liberation began in one bar. It is that a community pushed to the edge made the edge visible, then built organizations, marches, newspapers, and arguments that changed public life.
+- Primary or authoritative sources:
+  - https://www.nps.gov/ston/index.htm
+  - https://www.nps.gov/ston/learn/historyculture.htm
+  - https://www.loc.gov/lgbt-pride-month/about/
+- Supporting secondary sources:
+  - https://www.nyclgbtsites.org/site/stonewall-inn-christopher-park/
+  - https://americanhistory.si.edu/explore/stories/stonewall-uprising
+- Verified quotation source: No quotation included. First-brick claims were deliberately avoided because sources do not support a single-person origin story.
+- Sensitive or disputed claims reviewed: Police raid chronology, Black and brown participation, Marsha P. Johnson first-brick myth, trans terminology, Mafia bar control, and Pride origin framing reviewed.
+- Material corrections made: Expanded scheduled fallback into a researched account of policing, coalition, post-Stonewall organizing, and memory politics.
+- External links included on the page:
+  - National Park Service: Stonewall National Monument (https://www.nps.gov/ston/index.htm)
+  - National Park Service: History and Culture: Stonewall (https://www.nps.gov/ston/learn/historyculture.htm)
+  - Library of Congress: LGBTQ+ Pride Month: About (https://www.loc.gov/lgbt-pride-month/about/)
+  - NYC LGBT Historic Sites Project: Stonewall Inn (https://www.nyclgbtsites.org/site/stonewall-inn-christopher-park/)
+  - National Museum of American History: The Stonewall Uprising (https://americanhistory.si.edu/explore/stories/stonewall-uprising)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, sensitive Stonewall memory review.
 
 ### 2026-06-29 - Stokely Carmichael / Kwame Ture
 
@@ -1209,19 +1299,55 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-02 - The 14th Amendment
 
+- Entry title: The 14th Amendment
 - Slug: `14th-amendment`
-- Core claims: After Dred Scott tried to deny Black citizenship, the 14th Amendment wrote citizenship into the Constitution. Ratified in 1868, the amendment established birthright citizenship, due process, and equal protection. It was a direct Reconstruction answer to slavery and the Supreme Court's Dred Scott decision. Its promises became central to civil rights lawsuits, school desegregation, voting rights, marriage equality, and debates over who counts as fully protected by law.
-- Sources:
+- Daily date: 2026-07-02
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The 14th Amendment is where the Constitution tried to answer the lie at the center of Dred Scott: that Black people could be permanently outside American citizenship. Ratified after the Civil War, it wrote birthright citizenship, due process, and equal protection into constitutional law. But the amendment was not magic. It was written in a country still fighting over emancipation, enforced unevenly, narrowed by courts, and later revived by movements that used its words against segregation, exclusion, and state violence. This page matters because the 14th Amendment is not only a legal phrase people quote during court fights. It is a Reconstruction promise, born from Black freedom struggle and still contested wherever citizenship and equality are treated as conditional.
+- Primary or authoritative sources:
   - https://www.archives.gov/milestone-documents/14th-amendment
+  - https://guides.loc.gov/14th-amendment
   - https://constitutioncenter.org/the-constitution/amendments/amendment-xiv
+- Supporting secondary sources:
+  - https://www.oyez.org/cases/1940-1955/347us483
+  - https://www.law.cornell.edu/constitution/amendmentxiv
+- Verified quotation source: Constitutional text from National Archives and Cornell Legal Information Institute.
+- Sensitive or disputed claims reviewed: Dred Scott relationship, ratification dates, Johnson conflict, privileges or immunities narrowing, birthright citizenship, and equal-protection case uses reviewed.
+- Material corrections made: Expanded scheduled fallback into constitutional history, Reconstruction politics, judicial narrowing, and modern enforcement analysis.
+- External links included on the page:
+  - National Archives: 14th Amendment to the U.S. Constitution (https://www.archives.gov/milestone-documents/14th-amendment)
+  - Library of Congress: Primary Documents in American History: 14th Amendment (https://guides.loc.gov/14th-amendment)
+  - National Constitution Center: 14th Amendment (https://constitutioncenter.org/the-constitution/amendments/amendment-xiv)
+  - Oyez: Brown v. Board of Education (https://www.oyez.org/cases/1940-1955/347us483)
+  - Cornell Legal Information Institute: Fourteenth Amendment (https://www.law.cornell.edu/constitution/amendmentxiv)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified constitutional quotation.
 
 ### 2026-07-03 - The 15th Amendment
 
+- Entry title: The 15th Amendment
 - Slug: `15th-amendment`
-- Core claims: The 15th Amendment promised that race could not be used to deny the vote. Then opponents spent nearly a century inventing workarounds. Ratified in 1870, the amendment protected Black men's voting rights after the Civil War. It did not include women, and it did not enforce itself. Poll taxes, literacy tests, grandfather clauses, violence, and fraud gutted the promise until later movements forced new protections.
-- Sources:
+- Daily date: 2026-07-03
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The 15th Amendment promised that race, color, or previous enslavement could not be used to deny the vote. That promise changed American democracy, but it arrived with a wound: it protected Black men's voting rights while women, including Black women who had fought for abolition, were left outside the amendment's direct protection. It also did not enforce itself. Black men voted, held office, built schools, wrote laws, and reshaped Reconstruction governments. Then white supremacists used terror, fraud, poll taxes, literacy tests, grandfather clauses, and court decisions to drain the amendment of power. This page matters because voting rights history is not a straight line from amendment to access. It is a long fight over whether a right on paper can survive organized resistance.
+- Primary or authoritative sources:
   - https://www.archives.gov/milestone-documents/15th-amendment
+  - https://guides.loc.gov/15th-amendment
   - https://constitutioncenter.org/the-constitution/amendments/amendment-xv
+- Supporting secondary sources:
+  - https://www.archives.gov/milestone-documents/voting-rights-act
+  - https://www.oyez.org/cases/2012/12-96
+- Verified quotation source: Constitutional text from National Archives and National Constitution Center.
+- Sensitive or disputed claims reviewed: Gender exclusion, Black women suffrage history, Reconstruction officeholding, terror, poll taxes, literacy tests, grandfather clauses, and modern suppression framing reviewed.
+- Material corrections made: Expanded scheduled fallback into enforcement history, gender limitations, Reconstruction power, Jim Crow evasion, and modern voting-rights analysis.
+- External links included on the page:
+  - National Archives: 15th Amendment to the U.S. Constitution (https://www.archives.gov/milestone-documents/15th-amendment)
+  - Library of Congress: Primary Documents in American History: 15th Amendment (https://guides.loc.gov/15th-amendment)
+  - National Constitution Center: 15th Amendment (https://constitutioncenter.org/the-constitution/amendments/amendment-xv)
+  - National Archives: Voting Rights Act of 1965 (https://www.archives.gov/milestone-documents/voting-rights-act)
+  - Oyez: Shelby County v. Holder (https://www.oyez.org/cases/2012/12-96)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified constitutional quotation.
 
 ### 2026-07-04 - Frederick Douglass and the Fourth of July Speech
 
@@ -1845,11 +1971,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-30 - The 6888th Central Postal Directory Battalion
 
+- Entry title: The 6888th Central Postal Directory Battalion
 - Slug: `6888th-battalion`
-- Core claims: Mountains of undelivered mail were hurting morale during World War II. The 6888th took the job and moved faster than expected. The 6888th Central Postal Directory Battalion was the only all-Black women's Army Corps unit deployed overseas during the war. Working in difficult conditions in Europe, they sorted millions of pieces of mail under the motto "No mail, low morale."
-- Sources:
-  - https://www.army.mil/article/256480/six_triple_eight_awarded_congressional_gold_medal
-  - https://www.nationalww2museum.org/war/articles/sixtripleeight-6888th-battalion
+- Daily date: 2026-07-30
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The 6888th Central Postal Directory Battalion did work that sounds ordinary until you understand what mail meant in wartime. Millions of letters and packages were stalled in Europe, cutting soldiers off from families and families off from proof that loved ones were alive. The 6888th, an all-Black Women's Army Corps unit, was sent overseas to clear the backlog under cold, dark, segregated, and often disrespectful conditions. Their motto was "No mail, low morale." This page matters because military history is not only combat. It is logistics, care, memory, morale, and Black women doing essential work while fighting the racism and sexism of the institution they served.
+- Primary or authoritative sources:
+  - https://www.army.mil/article/255368/six_triple_eight
+  - https://rediscovering-black-history.blogs.archives.gov/2024/12/04/the-6888th-central-postal-directory-battalion-and-the-womens-army-corps-wacs-in-world-war-ii/
+  - https://armyhistory.org/6888th-central-postal-directory-battalion/
+- Supporting secondary sources:
+  - https://postalmuseum.si.edu/the-6888th-central-postal-directory-battalion
+  - https://www.congress.gov/bill/117th-congress/senate-bill/321
+- Verified quotation source: Unit motto verified through U.S. Army, National Archives, and Postal Museum materials.
+- Sensitive or disputed claims reviewed: Only all-Black WAC unit overseas, mail volume framing, timeline, Charity Adams rank/role, Congressional Gold Medal, and segregation conditions reviewed.
+- Material corrections made: Expanded scheduled fallback beyond mail backlog into logistics, morale, Black women's leadership, discrimination, and delayed recognition.
+- External links included on the page:
+  - U.S. Army: The Six Triple Eight (https://www.army.mil/article/255368/six_triple_eight)
+  - National Archives: The 6888th Central Postal Directory Battalion and the Women's Army Corps (https://rediscovering-black-history.blogs.archives.gov/2024/12/04/the-6888th-central-postal-directory-battalion-and-the-womens-army-corps-wacs-in-world-war-ii/)
+  - Army Historical Foundation: 6888th Central Postal Directory Battalion (https://armyhistory.org/6888th-central-postal-directory-battalion/)
+  - Smithsonian National Postal Museum: The 6888th Central Postal Directory Battalion (https://postalmuseum.si.edu/the-6888th-central-postal-directory-battalion)
+  - Congress.gov: Six Triple Eight Congressional Gold Medal Act (https://www.congress.gov/bill/117th-congress/senate-bill/321)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified motto.
 
 ### 2026-07-31 - The Harlem Hellfighters
 
@@ -2331,11 +2475,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-22 - The Black Press
 
+- Entry title: The Black Press
 - Slug: `black-press`
-- Core claims: The Black press reported weddings and funerals, lynchings and lawsuits, victories and warnings - the news a community needed to survive. Beginning with Freedom's Journal in 1827, Black newspapers created space for Black voices, political debate, organizing, culture, and protection. Papers like the Chicago Defender helped fuel the Great Migration by publishing stories and opportunities beyond the South.
-- Sources:
+- Daily date: 2026-08-22
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The Black press began from a simple refusal: Black people would not let others tell the whole story for them. Beginning with Freedom's Journal in 1827, Black newspapers reported weddings, deaths, church news, lynchings, lawsuits, elections, migration routes, jobs, beauty culture, war service, school fights, and the arguments a community needed to have with itself. They corrected white newspapers that ignored Black life or distorted it. They also built businesses, audiences, political campaigns, and networks across distance. This page matters because journalism is not only information. For Black communities, the press has often been protection, memory, warning system, organizing tool, and proof that a people could speak in public under their own names.
+- Primary or authoritative sources:
+  - https://www.loc.gov/collections/african-american-newspapers-1827-to-1998/about-this-collection/
+  - https://www.loc.gov/item/sn83030140/
+  - https://nmaahc.si.edu/explore/stories/power-black-press
+- Supporting secondary sources:
   - https://www.pbs.org/blackpress/
-  - https://www.loc.gov/collections/chronicling-america/articles-and-essays/history-of-american-newspapers/
+  - https://www.pbs.org/blackpress/news_bios/defender.html
+- Verified quotation source: Freedom's Journal motto verified through Library of Congress collection record and first-issue context.
+- Sensitive or disputed claims reviewed: First-newspaper claim, anti-lynching retaliation, Chicago Defender migration influence, Double V campaign, and media-bias framing reviewed.
+- Material corrections made: Rebuilt legacy page beyond general media praise into a fuller account of ownership, archives, migration, anti-lynching journalism, ordinary life, and narrative power.
+- External links included on the page:
+  - Library of Congress: African American Newspapers, 1827 to 1998 (https://www.loc.gov/collections/african-american-newspapers-1827-to-1998/about-this-collection/)
+  - Library of Congress: Freedom's Journal (https://www.loc.gov/item/sn83030140/)
+  - National Museum of African American History and Culture: The Power of the Black Press (https://nmaahc.si.edu/explore/stories/power-black-press)
+  - PBS: The Black Press: Soldiers Without Swords (https://www.pbs.org/blackpress/)
+  - PBS: The Chicago Defender (https://www.pbs.org/blackpress/news_bios/defender.html)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quote.
 
 ### 2026-08-23 - Nikki Giovanni
 
@@ -4619,3 +4781,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - International Tennis Hall of Fame: Althea Gibson (https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/)
   - PGA Tour: Charles Sifford Player Profile (https://www.pgatour.com/player/02091/charles-sifford)
 - Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, sports-integration first-claim review.
+
+### 2026-02-11 - The Blues
+
+- Entry title: The Blues
+- Slug: `the-blues`
+- Daily date: 2026-02-11
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The blues is not just sad music, and it is not just the raw material other genres borrowed from. It is a Black musical language shaped by work, migration, church, dance, desire, humor, grief, and invention. Emerging from African American life in the South after slavery, blues musicians turned everyday speech, bent notes, repeated lines, guitar figures, piano patterns, and personal testimony into an art form that changed the sound of the world. This page matters because the blues is often honored after being stripped for parts. Rock, jazz, R&B, soul, country, and hip-hop all carry its influence, but the people who built the form were often exploited, underpaid, copied, or remembered only as sources for someone else's greatness.
+- Primary or authoritative sources:
+  - https://music.si.edu/story/blues
+  - https://blogs.loc.gov/folklife/2020/06/black-lives-and-the-blues/
+  - https://nmaahc.si.edu/explore/exhibitions/musical-crossroads
+- Supporting secondary sources:
+  - https://visitmississippi.org/bluestrail/
+  - https://blues.org/blues-hall-of-fame/
+- Verified quotation source: No lyrics quoted. Song title mentioned only as historical recording title.
+- Sensitive or disputed claims reviewed: Origins, Mamie Smith commercial breakthrough, women's centrality, Great Migration/electric blues, genre influence, and exploitation claims reviewed.
+- Material corrections made: Rebuilt legacy page beyond source-of-everything shorthand into a fuller account of form, women performers, migration, ownership, exploitation, and living tradition.
+- External links included on the page:
+  - Smithsonian Music: The Blues (https://music.si.edu/story/blues)
+  - Library of Congress: Blues as Protest (https://blogs.loc.gov/folklife/2020/06/black-lives-and-the-blues/)
+  - National Museum of African American History and Culture: Musical Crossroads (https://nmaahc.si.edu/explore/exhibitions/musical-crossroads)
+  - Mississippi Blues Trail: Mississippi Blues Trail (https://visitmississippi.org/bluestrail/)
+  - The Blues Foundation: Blues Hall of Fame (https://blues.org/blues-hall-of-fame/)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no lyric quotation.
