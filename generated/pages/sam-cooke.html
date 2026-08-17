@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sam Cooke - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Sam Cooke could make a song feel smooth enough for radio and deep enough for a movement.">
+<meta name="description" content="Sam Cooke made smoothness sound like power. He came out of gospel music with the Soul Stirrers, crossed into pop stardom, helped define soul, built business control through publishing and label work, and wrote &quot;A Change Is Gonna Come,&quot; one of the great civil rights songs of the twentieth century. The song is often treated as prophecy, but Cooke&#039;s life was also about labor: who owns the song, who reaches the audience, who controls the voice, and what it costs a Black artist to move from sacred music into the pop marketplace. His page matters because Cooke was not only a beautiful singer. He was an architect of Black musical modernity.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="sam-cooke">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,152 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Sam Cooke</h2>
-  <div class="meta">
-    <span class="badge">1931 - 1964</span>
-    <span class="badge">Music</span>
-    <span class="badge">2026-05-28</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>May 28 &middot; Music</span>
   </div>
-  <article>
-    <p>Sam Cooke could make a song feel smooth enough for radio and deep enough for a movement.</p><p>Cooke moved from gospel fame with the Soul Stirrers into pop stardom, helping define soul music. He also built business power by controlling parts of his publishing and label work.</p><p>After encounters with racism and inspired by civil rights struggles, he wrote &quot;A Change Is Gonna Come.&quot; Released after his death, the song became one of the era&#039;s most enduring anthems.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Cooke matters because beauty can carry protest. His voice made longing sound disciplined, wounded, and determined.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 28 &middot; Music</div>
+    <h1>Sam Cooke</h1>
+    <p class="entry-tagline">Sam Cooke made smoothness sound like power. He came out of gospel music with the Soul Stirrers, crossed into pop stardom, helped define soul, built business control through publishing and label work, and wrote &quot;A Change Is Gonna Come,&quot; one of the great civil rights songs of the twentieth century. The song is often treated as prophecy, but Cooke&#039;s life was also about labor: who owns the song, who reaches the audience, who controls the voice, and what it costs a Black artist to move from sacred music into the pop marketplace. His page matters because Cooke was not only a beautiful singer. He was an architect of Black musical modernity.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1931 - 1964</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.loc.gov/static/programs/national-recording-preservation-board/documents/AChangeIsGonnaCome.pdf" target="_blank" rel="noopener noreferrer">https://www.loc.gov/static/programs/national-recording-preservation-board/documents/AChangeIsGonnaCome.pdf</a></li>
-<li><a href="https://www.rockhall.com/inductees/sam-cooke" target="_blank" rel="noopener noreferrer">https://www.rockhall.com/inductees/sam-cooke</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Jan 22, 1931</div><div class="tl-event">Born Samuel Cook in Clarksdale, Mississippi.</div></div>
+<div class="tl-item"><div class="tl-date">1933</div><div class="tl-event">Moves with his family to Chicago.</div></div>
+<div class="tl-item"><div class="tl-date">1950</div><div class="tl-event">Joins the Soul Stirrers and becomes a major gospel singer.</div></div>
+<div class="tl-item"><div class="tl-date">1957</div><div class="tl-event">Releases &quot;You Send Me,&quot; which becomes a pop and R&amp;B hit.</div></div>
+<div class="tl-item"><div class="tl-date">1959</div><div class="tl-event">Founds SAR Records with J. W. Alexander and Roy Crain.</div></div>
+<div class="tl-item"><div class="tl-date">1963</div><div class="tl-event">Experiences a racist refusal at a motel in Shreveport, Louisiana.</div></div>
+<div class="tl-item"><div class="tl-date">1964</div><div class="tl-event">Records &quot;A Change Is Gonna Come.&quot;</div></div>
+<div class="tl-item"><div class="tl-date">Dec 11, 1964</div><div class="tl-event">Is shot and killed in Los Angeles.</div></div>
+<div class="tl-item"><div class="tl-date">Dec 22, 1964</div><div class="tl-event">&quot;A Change Is Gonna Come&quot; is released as a single after his death.</div></div>
+<div class="tl-item"><div class="tl-date">1986</div><div class="tl-event">Is inducted into the Rock &amp; Roll Hall of Fame in its first class.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-05-28">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Sam Cooke was born in Mississippi and raised in Chicago, a migration path that placed Southern Black church sound inside an urban music marketplace. His father was a minister, and Cooke&#039;s early training came through gospel. With the Soul Stirrers, he became one of the most admired voices in the genre: light, controlled, intimate, and thrilling without needing to shout. He learned how to make listeners lean toward him.</p>
+<p>Crossing from gospel into secular pop was risky. Gospel audiences could see secular music as betrayal, and the pop industry could take Black sound while denying Black control. Cooke crossed anyway. &quot;You Send Me&quot; made him a star in 1957. The song&#039;s ease can hide the calculation behind it. Cooke understood melody, phrasing, charm, radio, and the power of sounding effortless.</p>
+<p>He also understood business. Cooke founded SAR Records and managed publishing interests at a time when many Black artists lost control of the songs that made companies rich. He supported and recorded other artists, including the Valentinos and Bobby Womack. That business work matters because soul music was not only feeling. It was contracts, studios, ownership, and infrastructure.</p>
+<p>&quot;A Change Is Gonna Come&quot; came from a different register of Cooke&#039;s life. He was influenced by Bob Dylan&#039;s &quot;Blowin&#039; in the Wind,&quot; by civil rights struggle, and by his own experiences with racism. In 1963, Cooke and his party were turned away from a Shreveport motel. The incident did not single-handedly create the song, but it sharpened the world the song answered. Cooke wrote from hope that was not naive. The song carries exhaustion, danger, longing, and belief in the same breath.</p>
+<p>The record was not an easy pop single. Its orchestration is stately, almost cinematic. Cooke&#039;s voice moves as if it is holding back tears and still refusing defeat. The song mentions being born by the river, fear of death, asking a brother for help, and the conviction that change will come. It became larger after Cooke&#039;s death, when listeners heard it through grief and movement memory.</p>
+<p>Cooke&#039;s death remains part of his story and must be treated with care. He was shot by a motel manager in Los Angeles in December 1964. The official ruling was justifiable homicide, but many details have been questioned by family members, writers, and fans. An encyclopedia page should not pretend to solve what the record does not settle. It can say that his death was sudden, violent, and disputed in public memory without inventing a conspiracy as fact.</p>
+<p>The tragedy of his death sometimes overshadows the breadth of his work. Cooke&#039;s catalog includes pop romance, dance records, gospel memory, civil rights yearning, and business ambition. He helped build a model for Black artists who wanted crossover success without surrendering all control. Later soul singers, R&amp;B artists, and socially conscious musicians inherited both the sound and the business lesson.</p>
+<p>Cooke also makes the line between sacred and secular more complicated than a simple break. Gospel technique stayed in the phrasing, the call, the lift, and the ache of his pop records. When he moved into secular music, he did not leave the Black church behind as much as carry some of its emotional grammar into new rooms. That movement unsettled people because it showed how closely pleasure, longing, faith, and commerce could sit together in Black sound.</p>
+<p>Cooke&#039;s polish was not apolitical. In a segregated market, a Black man presenting elegance, desire, control, and business intelligence to mass audiences was itself a challenge. He did not always sound like protest. Sometimes he sounded like pleasure, sophistication, and confidence, and those sounds mattered too.</p>
+<p>Sam Cooke matters because he made transition into art: South to North, gospel to pop, singer to owner, romance to protest, voice to institution. &quot;A Change Is Gonna Come&quot; is the song many people remember, but the deeper history is the life that made such a song possible.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Cooke paid the cost of crossing boundaries. Gospel audiences could view his secular career as betrayal, while the white-dominated music industry still tried to control Black artistry and profit. His death at thirty-three cut short a business and artistic project that was still expanding.</p>
+<p>His impact was wide: soul music, Black artist ownership, gospel-pop vocal style, and civil rights sound all carry his imprint. &quot;A Change Is Gonna Come&quot; gave the movement a language of wounded confidence that still feels alive.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Sam Cooke matters today because Black music history is also ownership history. A voice can move millions and still be vulnerable if publishing, masters, labels, and contracts are controlled elsewhere. Cooke saw that early and tried to build power around the sound.</p>
+<p>His story also shows that protest music does not have to abandon beauty. &quot;A Change Is Gonna Come&quot; works because it is musically disciplined, emotionally restrained, and spiritually open. It does not shout its seriousness. It earns it.</p>
+<p>The fuller lesson is that style can be strategy. Cooke&#039;s smoothness was not softness. It was control.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-05-28" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; May 28</div>
+        <div class="quiz-card-title">Open the daily challenge for Sam Cooke</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/nina-simone.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Nina Simone</div>
+        <div class="connected-desc">Connects civil rights music, performance control, and artistic risk.</div>
+      </a>
+<a href="../../generated/pages/prince.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Prince</div>
+        <div class="connected-desc">Links Cooke&#039;s ownership work to later battles over masters and control.</div>
+      </a>
+<a href="../../generated/pages/james-brown.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">James Brown</div>
+        <div class="connected-desc">Another artist who joined musical innovation to business and public power.</div>
+      </a>
+<a href="../../generated/pages/black-church.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Black Church</div>
+        <div class="connected-desc">Places Cooke&#039;s gospel foundation inside a larger Black sacred tradition.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.rockhall.com/inductees/sam-cooke" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Rock &amp; Roll Hall of Fame</div>
+          <div class="ext-title">Sam Cooke</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/descriptions-and-essays/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">National Recording Registry: A Change Is Gonna Come</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.songhall.org/profiles/sam-cooke" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Songwriters Hall of Fame</div>
+          <div class="ext-title">Sam Cooke</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/descriptions-and-essays/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">A Change Is Gonna Come</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.britannica.com/biography/Sam-Cooke" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Encyclopaedia Britannica</div>
+          <div class="ext-title">Sam Cooke</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

@@ -481,11 +481,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-28 - Sam Cooke
 
+- Entry title: Sam Cooke
 - Slug: `sam-cooke`
-- Core claims: Sam Cooke could make a song feel smooth enough for radio and deep enough for a movement. Cooke moved from gospel fame with the Soul Stirrers into pop stardom, helping define soul music. He also built business power by controlling parts of his publishing and label work. After encounters with racism and inspired by civil rights struggles, he wrote "A Change Is Gonna Come." Released after his death, the song became one of the era's most enduring anthems.
-- Sources:
-  - https://www.loc.gov/static/programs/national-recording-preservation-board/documents/AChangeIsGonnaCome.pdf
+- Daily date: 2026-05-28
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Sam Cooke made smoothness sound like power. He came out of gospel music with the Soul Stirrers, crossed into pop stardom, helped define soul, built business control through publishing and label work, and wrote "A Change Is Gonna Come," one of the great civil rights songs of the twentieth century. The song is often treated as prophecy, but Cooke's life was also about labor: who owns the song, who reaches the audience, who controls the voice, and what it costs a Black artist to move from sacred music into the pop marketplace. His page matters because Cooke was not only a beautiful singer. He was an architect of Black musical modernity.
+- Primary or authoritative sources:
   - https://www.rockhall.com/inductees/sam-cooke
+  - https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/descriptions-and-essays/
+  - https://www.songhall.org/profiles/sam-cooke
+- Supporting secondary sources:
+  - https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/descriptions-and-essays/
+  - https://www.britannica.com/biography/Sam-Cooke
+- Verified quotation source: No song lyric quoted beyond title. Death circumstances and civil rights song claims were summarized from institutional sources.
+- Sensitive or disputed claims reviewed: Death circumstances, motel refusal, gospel-to-pop criticism, publishing/business claims, and posthumous song release reviewed.
+- Material corrections made: Expanded scheduled fallback beyond one anthem into gospel roots, business control, soul style, civil rights context, and careful death framing.
+- External links included on the page:
+  - Rock & Roll Hall of Fame: Sam Cooke (https://www.rockhall.com/inductees/sam-cooke)
+  - Library of Congress: National Recording Registry: A Change Is Gonna Come (https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/descriptions-and-essays/)
+  - Songwriters Hall of Fame: Sam Cooke (https://www.songhall.org/profiles/sam-cooke)
+  - Library of Congress: A Change Is Gonna Come (https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/descriptions-and-essays/)
+  - Encyclopaedia Britannica: Sam Cooke (https://www.britannica.com/biography/Sam-Cooke)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, death and ownership claim review.
 
 ### 2026-05-29 - Reconstruction
 
@@ -567,11 +585,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-01 - Sojourner Truth
 
+- Entry title: Sojourner Truth
 - Slug: `sojourner-truth`
-- Core claims: She was born Isabella Baumfree. She walked away from slavery, went to court for her son, and later chose a name that sounded like a mission. Sojourner Truth escaped slavery in New York in 1826. When her young son was illegally sold south, she fought in court and won his return, an extraordinary victory for a Black woman at that time. She became a traveling preacher, abolitionist, and women's rights speaker. Her voice carried the authority of someone who had survived the system she was condemning.
-- Sources:
+- Daily date: 2026-06-01
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Sojourner Truth was born Isabella Baumfree in slavery in New York, walked away from bondage, fought in court for the return of her son, renamed herself for a religious mission, and became one of the most powerful abolitionist and women's rights speakers of the nineteenth century. She is often reduced to a single speech, usually in a version she almost certainly did not deliver in that wording. The real Truth is more interesting: Dutch-speaking in childhood, deeply religious, legally strategic, physically imposing, funny, sharp, and politically mobile. Her page matters because she shows freedom as motion: walking away, speaking publicly, suing successfully, selling her own narrative, and refusing the small place the country assigned to Black women.
+- Primary or authoritative sources:
   - https://www.nps.gov/people/sojourner-truth.htm
+  - https://www.loc.gov/item/11012984/
+  - https://www.thesojournertruthproject.com/compare-the-speeches/
+- Supporting secondary sources:
   - https://www.womenshistory.org/education-resources/biographies/sojourner-truth
+  - https://www.nationalabolitionhalloffameandmuseum.org/sojourner-truth.html
+- Verified quotation source: No quotation included because the most famous speech wording is textually disputed.
+- Sensitive or disputed claims reviewed: Birth year uncertainty, Dutch-speaking background, son Peter court case, Akron speech versions, and abolition/women's rights framing reviewed.
+- Material corrections made: Expanded scheduled fallback beyond rename and escape into legal action, religious mission, narrative publication, disputed speech memory, and land advocacy.
+- External links included on the page:
+  - National Park Service: Sojourner Truth (https://www.nps.gov/people/sojourner-truth.htm)
+  - National Women's History Museum: Sojourner Truth (https://www.womenshistory.org/education-resources/biographies/sojourner-truth)
+  - Library of Congress: Narrative of Sojourner Truth (https://www.loc.gov/item/11012984/)
+  - Sojourner Truth Project: Compare the Speeches (https://www.thesojournertruthproject.com/compare-the-speeches/)
+  - National Abolition Hall of Fame: Sojourner Truth (https://www.nationalabolitionhalloffameandmuseum.org/sojourner-truth.html)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, disputed-speech and legal-claim review.
 
 ### 2026-06-02 - Matthew Henson
 
@@ -709,11 +745,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-09 - Solomon Northup
 
+- Entry title: Solomon Northup
 - Slug: `solomon-northup`
-- Core claims: Solomon Northup was free in New York. Then he was kidnapped, drugged, chained, and sold as if his freedom had never existed. Northup spent twelve years enslaved in Louisiana before allies helped prove his identity and secure his release. He published Twelve Years a Slave in 1853. His narrative documented kidnapping, forced labor, family separation, and the legal vulnerability of free Black people in a country where slavery shaped every border.
-- Sources:
-  - https://www.nps.gov/people/solomon-northup.htm
+- Daily date: 2026-06-09
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Solomon Northup was born free in New York, kidnapped in Washington, D.C., sold into slavery in Louisiana, and held for twelve years before allies helped prove his identity and secure his release. His memoir, Twelve Years a Slave, did more than tell a personal story. It exposed how slavery threatened free Black life across state lines, how law could fail when documents were stripped away, and how testimony became political evidence. His page matters because Northup's freedom was not stolen by accident alone. It was stolen by a system where Black personhood could be doubted, traded, renamed, and forced to prove itself.
+- Primary or authoritative sources:
+  - https://www.loc.gov/item/10034857/
   - https://docsouth.unc.edu/fpn/northup/northup.html
+  - https://www.nps.gov/wori/learn/news/commemorate-the-life-of-solomon-northup.htm
+- Supporting secondary sources:
+  - https://edsitement.neh.gov/lesson-plans/twelve-years-slave-analyzing-slave-narratives
+  - https://www.britannica.com/biography/Solomon-Northup
+- Verified quotation source: No quotation included. Narrative claims were summarized from digitized editions and institutional context.
+- Sensitive or disputed claims reviewed: Kidnapping, drugging, sale, enslaver descriptions, restoration to freedom, failed prosecution, and uncertain death date reviewed.
+- Material corrections made: Expanded scheduled fallback beyond kidnapping summary into free Black vulnerability, legal proof, plantation labor detail, publication, and archival uncertainty.
+- External links included on the page:
+  - Library of Congress: Twelve Years a Slave (https://www.loc.gov/item/10034857/)
+  - National Park Service: Commemorate the Life of Solomon Northup (https://www.nps.gov/wori/learn/news/commemorate-the-life-of-solomon-northup.htm)
+  - EDSITEment: Twelve Years a Slave: Analyzing Slave Narratives (https://edsitement.neh.gov/lesson-plans/twelve-years-slave-analyzing-slave-narratives)
+  - Documenting the American South: Twelve Years a Slave (https://docsouth.unc.edu/fpn/northup/northup.html)
+  - Encyclopaedia Britannica: Solomon Northup (https://www.britannica.com/biography/Solomon-Northup)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, kidnapping/legal-testimony claim review.
 
 ### 2026-06-10 - Ann Lowe
 
@@ -1079,11 +1133,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-29 - Stokely Carmichael / Kwame Ture
 
+- Entry title: Stokely Carmichael / Kwame Ture
 - Slug: `stokely-carmichael`
-- Core claims: When Stokely Carmichael said "Black Power," the phrase sounded like a door opening and an alarm bell ringing at the same time. Carmichael organized with SNCC, worked in Mississippi and Alabama, and helped build the Lowndes County Freedom Organization. In 1966, during the March Against Fear, he popularized "Black Power." He later moved toward Pan-African politics, changed his name to Kwame Ture, and lived in Guinea, linking Black freedom in America to liberation struggles abroad.
-- Sources:
-  - https://www.crmvet.org/vet/carmicha.htm
+- Daily date: 2026-06-29
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Stokely Carmichael, later Kwame Ture, did not simply shout "Black Power" and walk away from the civil rights movement. He was a disciplined SNCC organizer shaped by jail, Mississippi, Lowndes County, the March Against Fear, antiwar politics, Pan-Africanism, and frustration with liberal promises that left Black communities exposed. The phrase "Black Power" made him famous and feared, but his life before and after the slogan is the real education. His page matters because movements change when conditions change. Carmichael's shift from integrationist student activism to Black self-determination and global Pan-African politics shows a generation arguing over what freedom required after courage alone had proved insufficient.
+- Primary or authoritative sources:
+  - https://snccdigital.org/people/stokely-carmichael/
+  - https://kinginstitute.stanford.edu/carmichael-stokely
+  - https://www.archives.gov/research/african-americans/black-power
+- Supporting secondary sources:
   - https://www.britannica.com/biography/Stokely-Carmichael
+  - https://www.blackpast.org/african-american-history/carmichael-stokely-kwame-ture-1941-1998/
+- Verified quotation source: No quotation included. Black Power explanations were summarized rather than quoted because exact short wording varies by source.
+- Sensitive or disputed claims reviewed: Black Power phrase, Lowndes County role, Pan-African name change, surveillance, sexism criticism, and exile framing reviewed.
+- Material corrections made: Expanded scheduled fallback beyond slogan into SNCC organizing, Lowndes County, movement debates, Pan-Africanism, and state surveillance.
+- External links included on the page:
+  - SNCC Digital Gateway: Stokely Carmichael (https://snccdigital.org/people/stokely-carmichael/)
+  - King Institute: Stokely Carmichael (https://kinginstitute.stanford.edu/carmichael-stokely)
+  - National Archives: Black Power (https://www.archives.gov/research/african-americans/black-power)
+  - Encyclopaedia Britannica: Stokely Carmichael (https://www.britannica.com/biography/Stokely-Carmichael)
+  - BlackPast: Stokely Carmichael / Kwame Ture (https://www.blackpast.org/african-american-history/carmichael-stokely-kwame-ture-1941-1998/)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, movement-evolution claim review.
 
 ### 2026-06-30 - Black Lives Matter
 
@@ -2009,11 +2081,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-12 - Ruby Bridges and the Cost of School Integration
 
+- Entry title: Ruby Bridges and the Cost of School Integration
 - Slug: `ruby-bridges-integration`
-- Core claims: Ruby Bridges was six, not nine, when she entered William Frantz Elementary. The number matters because the child was even younger than memory sometimes allows. In 1960, Bridges became the first Black child to integrate the school in New Orleans, escorted by federal marshals through hostile crowds. She spent months in a classroom alone because white parents pulled their children out rather than allow integration.
-- Sources:
-  - https://www.nps.gov/people/ruby-bridges.htm
+- Daily date: 2026-08-12
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Ruby Bridges is often remembered through a single image: a small Black girl escorted by federal marshals into a New Orleans school. That image is true, but it can make the adult decisions around her disappear. School integration was not simply a child being brave. It was federal courts confronting local resistance, Black parents taking enormous risks, white parents pulling children out, teachers refusing to teach, neighbors punishing a family, and a six-year-old spending much of first grade alone. This page focuses on the cost of integration because the policy story is incomplete without the people asked to carry it. Brown v. Board changed constitutional law. Ruby Bridges showed what enforcement demanded from a child.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/rubybridges.htm
   - https://www.womenshistory.org/education-resources/biographies/ruby-bridges
+  - https://www.rubybridges.com/
+- Supporting secondary sources:
+  - https://www.nrm.org/thinglink/text/Problem_live_with.html
+  - https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html
+- Verified quotation source: Short quotation traced to Ruby Bridges public materials and cross-checked against institutional sources.
+- Sensitive or disputed claims reviewed: Age, federal marshals, family retaliation, other New Orleans children, classroom isolation, and present-day school inequality framing reviewed.
+- Material corrections made: Expanded scheduled fallback into a distinct systems-and-cost page that does not duplicate the Ruby Bridges biography.
+- External links included on the page:
+  - National Park Service: Ruby Bridges (https://www.nps.gov/people/rubybridges.htm)
+  - National Women's History Museum: Ruby Bridges (https://www.womenshistory.org/education-resources/biographies/ruby-bridges)
+  - Official Ruby Bridges Website: Ruby Bridges (https://www.rubybridges.com/)
+  - Norman Rockwell Museum: The Problem We All Live With (https://www.nrm.org/thinglink/text/Problem_live_with.html)
+  - National Museum of American History: Ruby Bridges and School Desegregation (https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, child-centered integration claim review.
 
 ### 2026-08-13 - Fannie Lou Hamer's Testimony
 
@@ -4399,3 +4489,133 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Norman Rockwell Museum: The Problem We All Live With (https://www.nrm.org/thinglink/text/Problem_live_with.html)
   - National Museum of American History: Ruby Bridges and School Desegregation (https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html)
 - Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, child-centered and living-person claim review.
+
+### 2026-03-10 - Sarah Rector
+
+- Entry title: Sarah Rector
+- Slug: `sarah-rector`
+- Daily date: 2026-03-10
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Sarah Rector was not a fairy-tale child millionaire. She was a Black Creek Freedman girl whose land allotment in Oklahoma became oil-rich, then immediately drew the attention of courts, guardians, newspapers, speculators, and reformers. Her wealth was real. So was the system that tried to manage it for her. Rector's story sits at the crossing of Black history, Native history, federal land policy, oil capitalism, guardianship law, and the public appetite for spectacle. This page matters because Black wealth is often remembered only when it is destroyed. Rector forces a sharper question: what happens when a Black child owns valuable land in a society determined to decide whether she is allowed to control it?
+- Primary or authoritative sources:
+  - https://www.okhistory.org/publications/enc/entry?entry=RE017
+  - https://www.archives.gov/milestone-documents/dawes-act
+  - https://www.kgou.org/show/how-curious/2023-06-27/which-young-oklahoman-was-known-as-the-richest-colored-girl-in-america
+- Supporting secondary sources:
+  - https://www.blackpast.org/african-american-history/rector-sarah-1902-1967/
+  - https://www.nps.gov/subjects/africanamericanheritage/index.htm
+- Verified quotation source: No quotation included. Sensational newspaper language was summarized rather than reused as a pull quote.
+- Sensitive or disputed claims reviewed: Creek Freedmen status, allotment law, guardian control, wealth estimates, press exaggeration, and living-condition claims reviewed.
+- Material corrections made: Rebuilt legacy page beyond child-millionaire framing into allotment policy, guardianship, oil, Black-Native history, and autonomy.
+- External links included on the page:
+  - Oklahoma Historical Society: Sarah Rector (https://www.okhistory.org/publications/enc/entry?entry=RE017)
+  - KGOU: How Did Sarah Rector Become Known as the Richest Black Girl in America? (https://www.kgou.org/show/how-curious/2023-06-27/which-young-oklahoman-was-known-as-the-richest-colored-girl-in-america)
+  - National Archives: Dawes Act (https://www.archives.gov/milestone-documents/dawes-act)
+  - BlackPast: Sarah Rector (https://www.blackpast.org/african-american-history/rector-sarah-1902-1967/)
+  - National Park Service: Muscogee Creek Freedmen and Indian Territory (https://www.nps.gov/subjects/africanamericanheritage/index.htm)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, wealth and guardianship claim review.
+
+### 2026-03-08 - Septima Clark
+
+- Entry title: Septima Clark
+- Slug: `septima-clark`
+- Daily date: 2026-03-08
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Septima Clark built one of the civil rights movement's most important engines: citizenship education. She understood that voting rights meant little when registrars used literacy tests, intimidation, and arbitrary power to keep Black adults from registering. Her citizenship schools taught reading, writing, civic knowledge, and confidence, often in community spaces where people already trusted one another. Clark lost her teaching job and pension because she refused to leave the NAACP. She received less public credit than male leaders who used the program she helped build. Her page matters because movements do not run on speeches alone. They run on teachers, lesson plans, local trust, and people who know how power actually blocks the door.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/septimapoinsetteclark.htm
+  - https://kinginstitute.stanford.edu/clark-septima-poinsette
+  - https://snccdigital.org/people/septima-clark/
+- Supporting secondary sources:
+  - https://lcdl.library.cofc.edu/content/septima-p-clark-papers-ca-1910-ca-1990
+  - https://www.scencyclopedia.org/sce/entries/clark-septima-poinsette/
+- Verified quotation source: No quotation included. Citizenship education claims were summarized rather than quoted because the exact short phrasing needs tighter source verification.
+- Sensitive or disputed claims reviewed: Firing and pension loss, citizenship-school origins, SCLC transfer, Fannie Lou Hamer connection, gendered movement erasure, and death date reviewed.
+- Material corrections made: Rebuilt legacy page beyond teacher shorthand into citizenship-school infrastructure, voter suppression mechanics, Highlander/SCLC transition, and gendered credit.
+- External links included on the page:
+  - National Park Service: Septima Poinsette Clark (https://www.nps.gov/people/septimapoinsetteclark.htm)
+  - King Institute: Septima Poinsette Clark (https://kinginstitute.stanford.edu/clark-septima-poinsette)
+  - SNCC Digital Gateway: Septima Clark (https://snccdigital.org/people/septima-clark/)
+  - College of Charleston Lowcountry Digital Library: Septima P. Clark Papers (https://lcdl.library.cofc.edu/content/septima-p-clark-papers-ca-1910-ca-1990)
+  - South Carolina Encyclopedia: Septima Poinsette Clark (https://www.scencyclopedia.org/sce/entries/clark-septima-poinsette/)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, citizenship-school and gendered-credit claim review.
+
+### 2026-02-02 - Shirley Chisholm
+
+- Entry title: Shirley Chisholm
+- Slug: `shirley-chisholm`
+- Daily date: 2026-02-02
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Shirley Chisholm was the first Black woman elected to Congress and the first Black major-party candidate to seek the presidency, but firsts alone do not explain her. She was a Brooklyn educator, organizer, legislator, coalition-builder, and sharp critic of a political system that expected Black women to wait their turn. Her 1972 presidential campaign was underfunded, dismissed, and sometimes attacked from inside the movements it helped open. She ran anyway, not because she expected the country to be ready, but because she believed people had to see a different kind of candidacy before it could become possible. Her page matters because representation without independence was never enough for Chisholm.
+- Primary or authoritative sources:
+  - https://history.house.gov/People/Listing/C/CHISHOLM,-Shirley-Anita-(C000371)/
+  - https://www.nps.gov/people/shirley-chisholm.htm
+  - https://www.loc.gov/item/2016648550/
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/shirley-chisholm
+  - https://www.brooklynmuseum.org/eascfa/feminist_art_base/shirley-chisholm
+- Verified quotation source: Short phrase is Chisholm's campaign slogan and book title, verified through House/NPS biographical materials.
+- Sensitive or disputed claims reviewed: First Black woman in Congress, first Black major-party presidential candidate framing, Wallace hospital visit, campaign opposition, and coalition politics reviewed.
+- Material corrections made: Rebuilt legacy page beyond firsts into education work, Brooklyn organizing, Congress, presidential campaign, coalition tensions, and policy commitments.
+- External links included on the page:
+  - U.S. House of Representatives: Shirley Anita Chisholm (https://history.house.gov/People/Listing/C/CHISHOLM,-Shirley-Anita-(C000371)/)
+  - National Park Service: Shirley Chisholm (https://www.nps.gov/people/shirley-chisholm.htm)
+  - National Women's History Museum: Shirley Chisholm (https://www.womenshistory.org/education-resources/biographies/shirley-chisholm)
+  - Brooklyn Museum: Shirley Chisholm (https://www.brooklynmuseum.org/eascfa/feminist_art_base/shirley-chisholm)
+  - Library of Congress: Shirley Chisholm Presidential Campaign Materials (https://www.loc.gov/item/2016648550/)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short slogan quote, first-claim and campaign claim review.
+
+### 2026-02-22 - Slave Patrols and the Origins of American Policing
+
+- Entry title: Slave Patrols and the Origins of American Policing
+- Slug: `slave-patrols`
+- Daily date: 2026-02-22
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Slave patrols were organized systems of racial surveillance created to protect slavery. They searched quarters, checked passes, broke up gatherings, chased people who fled, and enforced the idea that Black movement required white permission. They were not the only origin of American policing, and Northern cities developed police departments through different labor, immigration, and urban-control pressures. But in the South, slave patrols were a direct ancestor of law enforcement practices built around controlling Black life. This page matters because history should be precise. The point is not that every modern police institution is identical to a patrol. The point is that racial control sits deep in the roots of American law enforcement and public order.
+- Primary or authoritative sources:
+  - https://www.ncpedia.org/slave-patrols
+  - https://nleomf.org/slave-patrols-an-early-form-of-american-policing/
+  - https://www.loc.gov/collections/slavery-and-the-judiciary-from-1740-to-1860/articles-and-essays/slave-code-for-the-district-of-columbia/
+- Supporting secondary sources:
+  - https://eji.org/report/slavery-in-america/
+  - https://www.archives.gov/milestone-documents/13th-amendment
+- Verified quotation source: No quotation included. Policing-origin claims were summarized with careful qualification.
+- Sensitive or disputed claims reviewed: Origins of policing claim, Southern versus Northern policing histories, slave-code enforcement, Black Codes, punishment exception, and present-day policing connections reviewed.
+- Material corrections made: Rebuilt legacy page to avoid overbroad first-police-force language while preserving the documented slave-patrol lineage of racial control.
+- External links included on the page:
+  - NCpedia: Slave Patrols (https://www.ncpedia.org/slave-patrols)
+  - National Law Enforcement Museum: Slave Patrols: An Early Form of American Policing (https://nleomf.org/slave-patrols-an-early-form-of-american-policing/)
+  - Equal Justice Initiative: Slavery in America (https://eji.org/report/slavery-in-america/)
+  - Library of Congress: Slave Code for the District of Columbia (https://www.loc.gov/collections/slavery-and-the-judiciary-from-1740-to-1860/articles-and-essays/slave-code-for-the-district-of-columbia/)
+  - National Archives: The 13th Amendment (https://www.archives.gov/milestone-documents/13th-amendment)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, policing-origin claim review.
+
+### 2026-02-21 - Sports Integration Beyond Jackie Robinson
+
+- Entry title: Sports Integration Beyond Jackie Robinson
+- Slug: `sports-integration`
+- Daily date: 2026-02-21
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Jackie Robinson's 1947 debut with the Brooklyn Dodgers matters, but sports integration was never one door opening once. The NFL had Black players early, then shut them out for years before Kenny Washington and Woody Strode returned in 1946. The NBA integrated in 1950 through Chuck Cooper, Nat Clifton, and Earl Lloyd. Althea Gibson broke tennis barriers. Charlie Sifford forced golf to confront its Caucasians-only clause. Each sport had its own gatekeepers, timelines, costs, and myths. This page matters because the simplified Jackie-only story can make integration look cleaner than it was. The fuller history is sport by sport, contract by contract, trip by trip, and insult by insult.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/explore/exhibitions/sports
+  - https://www.nfl.com/news/kenny-washington-belongs-in-the-hall-of-fame-0ap2000000341520
+  - https://www.nba.com/news/history-nba-legend-earl-lloyd
+- Supporting secondary sources:
+  - https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/
+  - https://www.pgatour.com/player/02091/charles-sifford
+- Verified quotation source: No quotation included. First-claim and integration chronology are summarized from institutional sports-history sources.
+- Sensitive or disputed claims reviewed: NFL informal exclusion, three NBA firsts, Gibson admission, O'Ree debut, PGA Caucasians-only clause, and leadership-versus-player-access distinction reviewed.
+- Material corrections made: Rebuilt legacy page beyond Jackie-only contrast into sport-specific timelines, legal/economic pressure, athlete costs, and unfinished leadership access.
+- External links included on the page:
+  - National Museum of African American History and Culture: Sports: Leveling the Playing Field (https://nmaahc.si.edu/explore/exhibitions/sports)
+  - NFL: Kenny Washington Belongs in the Hall of Fame (https://www.nfl.com/news/kenny-washington-belongs-in-the-hall-of-fame-0ap2000000341520)
+  - NBA History: NBA Pioneers (https://www.nba.com/news/history-nba-legend-earl-lloyd)
+  - International Tennis Hall of Fame: Althea Gibson (https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/)
+  - PGA Tour: Charles Sifford Player Profile (https://www.pgatour.com/player/02091/charles-sifford)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, sports-integration first-claim review.

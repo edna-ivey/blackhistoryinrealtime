@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First nineteen rebuild batches complete; continue from row 165, `Ruby Bridges and the Cost of School Integration`, on `encyclopedia-rebuild`.
+Status: First twenty rebuild batches complete; continue from row 175, `Stonewall Riots`, on `encyclopedia-rebuild`.
 Date: 2026-08-17
 
 ## Quality Gap Documented
@@ -256,13 +256,26 @@ Batch 19 verification:
 - Shared rich-page quiz CTA language was corrected from `Take the Challenge` to `Take the Quiz`; two older legacy CTA labels on `encyclopedia/great-migration.html` and `encyclopedia/black-press.html` were corrected so stale challenge wording is not reintroduced outside the rich renderer.
 - `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
 
+## Batch 20 Completed
+
+Completed pages: `ruby-bridges-integration`, `sam-cooke`, `sarah-rector`, `septima-clark`, `shirley-chisholm`, `slave-patrols`, `sojourner-truth`, `solomon-northup`, `sports-integration`, `stokely-carmichael`.
+
+Batch 20 rebuilt five scheduled/generated pages and five legacy-path pages into the approved rich encyclopedia format. Ruby Bridges and the Cost of School Integration now separates the symbolic classroom photograph from the adult decisions, family costs, school isolation, and delayed public memory around integration; Sam Cooke now treats gospel training, Black business ownership, crossover pressure, civil-rights songwriting, and the unanswered questions around his death with care; Sarah Rector now connects allotment, Creek Freedmen citizenship, guardianship, oil wealth, press spectacle, and archival limits; Septima Clark now centers citizenship schools, adult education, Highlander, SCLC, and the gendered undervaluing of movement infrastructure; Shirley Chisholm now includes legislative work, campaign strategy, coalition limits, and the cost of being "unbought and unbossed"; Slave Patrols now treats colonial law, policing power, resistance, and the danger of flattening policing history into a single origin story; Sojourner Truth now handles enslavement, faith, legal action, speech transmission, and the difference between remembered and documented words; Solomon Northup now distinguishes his published narrative, kidnapping, law, abolitionist print culture, and uncertain final years; Sports Integration now looks beyond Jackie Robinson to football, basketball, tennis, golf, money, travel, and institutional memory; and Stokely Carmichael / Kwame Ture now traces SNCC, Lowndes County, Black Power, Panthers, Pan-Africanism, surveillance, and contested memory without unsupported quotation.
+
+Batch 20 verification:
+
+- External links checked: 50 page-level sources plus repeated site-wide external assets, 0 material failures after replacing stale or unreliable Sam Cooke, Septima Clark, and Stokely Carmichael URLs. Smithsonian, Library of Congress, Britannica, Brooklyn Museum, SNCC Digital, and National Museum of African American History and Culture pages that returned automated bot-blocking, throttling, or dynamic-fetch errors were retained only because they are direct authoritative or high-quality pages verified for subject relevance.
+- Browser rendering checked: 10 Batch 20 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, with section presence, connected cards, external links, daily challenge cards, empty links, horizontal overflow, stale quiz wording, loading fallbacks, failed local requests, and material page console errors included in the checklist.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 20 source and rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 165
-- REWRITE: 27
-- RESEARCH: 18
-- REBUILD: 27
+- PASS: 175
+- REWRITE: 22
+- RESEARCH: 13
+- REBUILD: 22
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -273,7 +286,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished work: continue Batch 20 from row 165, `Ruby Bridges and the Cost of School Integration`.
+Next unfinished work: continue Batch 21 from row 175, `Stonewall Riots`.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -445,16 +458,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 162 | Robert Smalls | generated/pages/robert-smalls.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Planter escape/collective action/Union service/Reconstruction officeholding claim review, corrected National Archives and Smithsonian URLs, depth/similarity validation, desktop/mobile browser check. |
 | 163 | Rosa Parks | generated/pages/rosa-parks.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, Recy Taylor/Highlander/tired myth/job loss/Detroit activism claim review, corrected Highlander and museum source URLs, depth/similarity validation, desktop/mobile browser check. |
 | 164 | Ruby Bridges | encyclopedia/ruby-bridges.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, age/integration date/family retaliation/Barbara Henry/other New Orleans children claim review, corrected NPS and official-site sources, depth/similarity validation, desktop/mobile browser check. |
-| 165 | Ruby Bridges and the Cost of School Integration | generated/pages/ruby-bridges-integration.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 166 | Sam Cooke | generated/pages/sam-cooke.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 167 | Sarah Rector | encyclopedia/sarah-rector.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 168 | Septima Clark | encyclopedia/septima-clark.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 169 | Shirley Chisholm | encyclopedia/shirley-chisholm.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 170 | Slave Patrols & The Origins of American Policing | encyclopedia/slave-patrols.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 171 | Sojourner Truth | generated/pages/sojourner-truth.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 172 | Solomon Northup | generated/pages/solomon-northup.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 173 | Sports Integration Beyond Jackie Robinson | encyclopedia/sports-integration.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 174 | Stokely Carmichael / Kwame Ture | generated/pages/stokely-carmichael.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 165 | Ruby Bridges and the Cost of School Integration | generated/pages/ruby-bridges-integration.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, school-integration/family-cost/Barbara Henry/Norman Rockwell claim review, depth/similarity validation, desktop/mobile browser check. |
+| 166 | Sam Cooke | generated/pages/sam-cooke.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no lyric quotation reproduced, gospel/crossover/business/civil-rights-song/death-context claim review, replaced unreliable source URL, depth/similarity validation, desktop/mobile browser check. |
+| 167 | Sarah Rector | encyclopedia/sarah-rector.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, allotment/guardianship/oil-wealth/press-label/archive-limit claim review, corrected source set, depth/similarity validation, desktop/mobile browser check. |
+| 168 | Septima Clark | encyclopedia/septima-clark.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, unsupported legacy quote omitted, citizenship-school/Highlander/SCLC/gendered-labor claim review, replaced stale source URL, depth/similarity validation, desktop/mobile browser check. |
+| 169 | Shirley Chisholm | encyclopedia/shirley-chisholm.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short campaign quotation, first-claim/coalition/campaign-finance/legislative-work claim review, depth/similarity validation, desktop/mobile browser check. |
+| 170 | Slave Patrols & The Origins of American Policing | encyclopedia/slave-patrols.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, colonial-law/patrol-power/continuity-and-caution claim review, direct LOC page manually verified after bot-blocking, depth/similarity validation, desktop/mobile browser check. |
+| 171 | Sojourner Truth | generated/pages/sojourner-truth.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified documented quotation issue, speech-transmission/legal-action/faith/enslavement claim review, depth/similarity validation, desktop/mobile browser check. |
+| 172 | Solomon Northup | generated/pages/solomon-northup.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, kidnapping/narrative/legal/final-years uncertainty claim review, replaced stale source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 173 | Sports Integration Beyond Jackie Robinson | encyclopedia/sports-integration.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, football/basketball/tennis/golf/institutional-memory claim review, corrected sports source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 174 | Stokely Carmichael / Kwame Ture | generated/pages/stokely-carmichael.html | PASS | Batch 20 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, unsupported quote omitted, SNCC/Black Power/Lowndes County/Pan-Africanism/surveillance claim review, corrected BlackPast source URL, depth/similarity validation, desktop/mobile browser check. |
 | 175 | Stonewall Riots | generated/pages/stonewall-riots.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 176 | The 14th Amendment | generated/pages/14th-amendment.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 177 | The 15th Amendment | generated/pages/15th-amendment.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
