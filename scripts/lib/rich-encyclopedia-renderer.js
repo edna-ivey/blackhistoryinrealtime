@@ -53,7 +53,7 @@ function renderQuizCard(entry, basePath, dateLabel) {
   if (!entry.fullDate) return '';
   return `    <a href="${basePath}index.html?day=${escapeHTML(entry.fullDate)}" class="quiz-card">
       <div class="quiz-card-left">
-        <div class="quiz-card-label">Take the Challenge &middot; ${escapeHTML(dateLabel)}</div>
+        <div class="quiz-card-label">Take the Quiz &middot; ${escapeHTML(dateLabel)}</div>
         <div class="quiz-card-title">Open the daily challenge for ${escapeHTML(entry.subject)}</div>
       </div>
       <div class="quiz-card-icon">&#x2192;</div>

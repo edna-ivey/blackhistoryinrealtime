@@ -277,11 +277,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-18 - Plessy v. Ferguson
 
+- Entry title: Plessy v. Ferguson
 - Slug: `plessy-v-ferguson`
-- Core claims: The phrase sounded balanced: separate but equal. In practice, it gave Jim Crow a constitutional costume. Homer Plessy, a mixed-race Black man in Louisiana, challenged a state law requiring segregated railroad cars. On May 18, 1896, the Supreme Court ruled against him. The decision allowed segregation to spread across public life for more than half a century. Justice John Marshall Harlan dissented, warning that the Constitution should be color-blind.
-- Sources:
+- Daily date: 2026-05-18
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Plessy v. Ferguson did not invent segregation, but it gave segregation a constitutional shield. The case began with a planned challenge to Louisiana's Separate Car Act and ended with the Supreme Court saying racial separation did not violate the Fourteenth Amendment as long as the facilities were supposedly equal. That word, equal, did enormous damage. It let states call exclusion fairness, let white officials decide what equality meant, and helped Jim Crow spread through schools, trains, parks, hospitals, voting, housing, and daily public life. This page matters because Plessy shows how a legal sentence can turn a racial order into public policy. It also shows that dissent existed inside the decision from the start.
+- Primary or authoritative sources:
   - https://www.archives.gov/milestone-documents/plessy-v-ferguson
   - https://www.oyez.org/cases/1850-1900/163us537
+  - https://supreme.justia.com/cases/federal/us/163/537/
+- Supporting secondary sources:
+  - https://www.fjc.gov/history/cases/famous-federal-trials/plessy-v-ferguson
+  - https://www.pbs.org/wnet/supremecourt/antebellum/landmark_plessy.html
+- Verified quotation source: Short dissent quotation traced to the Supreme Court text via Justia and the National Archives.
+- Sensitive or disputed claims reviewed: Homer Plessy racial classification, planned test case, Separate Car Act, Fourteenth Amendment reasoning, Harlan dissent limits, Brown relationship, and 2022 pardon reviewed.
+- Material corrections made: Expanded scheduled fallback beyond the case result into organized test-case strategy, legal reasoning, dissent complexity, Jim Crow effects, and later civil rights law.
+- External links included on the page:
+  - National Archives: Plessy v. Ferguson (https://www.archives.gov/milestone-documents/plessy-v-ferguson)
+  - Oyez: Plessy v. Ferguson (https://www.oyez.org/cases/1850-1900/163us537)
+  - Justia U.S. Supreme Court: Plessy v. Ferguson, 163 U.S. 537 (https://supreme.justia.com/cases/federal/us/163/537/)
+  - Federal Judicial Center: Plessy v. Ferguson (https://www.fjc.gov/history/cases/famous-federal-trials/plessy-v-ferguson)
+  - PBS: Landmark Cases: Plessy v. Ferguson (https://www.pbs.org/wnet/supremecourt/antebellum/landmark_plessy.html)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short court quotation, constitutional and Jim Crow claim review.
 
 ### 2026-05-19 - Malcolm X
 
@@ -471,11 +489,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-29 - Reconstruction
 
+- Entry title: Reconstruction
 - Slug: `reconstruction`
-- Core claims: Reconstruction was the moment the United States came closest to rebuilding democracy after slavery - and then chose not to protect it long enough. After the Civil War, formerly enslaved people pursued land, schools, family reunification, voting rights, and political office. Black legislators helped write new state constitutions and build public education systems. White supremacist violence and political compromise undermined those gains. Federal troops withdrew from the South in 1877, leaving Black communities exposed to Jim Crow's rise.
-- Sources:
-  - https://www.archives.gov/research/african-americans/reconstruction
-  - https://www.nps.gov/reer/index.htm
+- Daily date: 2026-05-29
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Reconstruction was the country's best chance to build democracy after slavery, and one of its clearest examples of political abandonment. Between 1865 and 1877, formerly enslaved people reunited families, built schools, negotiated labor, voted, held office, bought land when they could, founded churches, demanded protection, and helped rewrite state constitutions. White supremacists answered with terror, and federal commitment weakened. This page matters because Reconstruction was not a failure of Black citizenship. It was a struggle over whether the United States would defend Black freedom after emancipation. The answer changed the next century of American life.
+- Primary or authoritative sources:
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/
+  - https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/
+  - https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538
+- Supporting secondary sources:
+  - https://constitutioncenter.org/the-constitution/amendments/amendment-xiii
+  - https://www.facinghistory.org/resource-library/reconstruction-era-fragility-democracy
+- Verified quotation source: Short Du Bois quotation traced to Black Reconstruction in America and used as interpretive framing.
+- Sensitive or disputed claims reviewed: Periodization, federal withdrawal, Black Codes, land redistribution limits, white supremacist violence, Lost Cause memory, and constitutional-amendment chronology reviewed.
+- Material corrections made: Expanded scheduled fallback beyond promise-and-abandonment summary into Black agency, federal policy, land, violence, public education, amendments, and memory politics.
+- External links included on the page:
+  - U.S. House of Representatives: Reconstruction and Black Political Activism (https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/)
+  - Library of Congress: Reconstruction and Rights (https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/)
+  - Smithsonian Institution: Make Good the Promises: Reconstruction and Its Legacies (https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538)
+  - National Constitution Center: Reconstruction Amendments (https://constitutioncenter.org/the-constitution/amendments/amendment-xiii)
+  - Facing History & Ourselves: The Reconstruction Era and the Fragility of Democracy (https://www.facinghistory.org/resource-library/reconstruction-era-fragility-democracy)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, chronology and backlash claim review.
 
 ### 2026-05-30 - Historically Black Colleges and Universities
 
@@ -613,19 +649,55 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-05 - Rosa Parks
 
+- Entry title: Rosa Parks
 - Slug: `rosa-parks`
-- Core claims: Rosa Parks was not simply tired from work. She was trained, prepared, and clear about what she was refusing. Parks had been active in the NAACP and had attended organizer training at Highlander Folk School. On December 1, 1955, she refused to give up her bus seat in Montgomery, Alabama. Her arrest helped launch the Montgomery Bus Boycott, a mass campaign that lasted more than a year and ended with a Supreme Court ruling against bus segregation.
-- Sources:
-  - https://www.nps.gov/people/rosa-parks.htm
+- Daily date: 2026-06-05
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Rosa Parks was not a tired seamstress who accidentally started a movement. She was a trained organizer, NAACP secretary, investigator of racial violence, Highlander Folk School participant, and a woman who made a deliberate choice on a Montgomery bus on December 1, 1955. The tired myth is comforting because it makes movements look spontaneous and harmless. The real Parks is more powerful. She knew the law, knew the danger, and knew that Black Montgomery had networks ready to act. Her page matters because it restores strategy to a story too often reduced to politeness and fatigue.
+- Primary or authoritative sources:
   - https://www.loc.gov/collections/rosa-parks-papers/about-this-collection/
+  - https://www.nps.gov/people/rosa-parks.htm
+  - https://www.archives.gov/education/lessons/rosa-parks
+- Supporting secondary sources:
+  - https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/the-bus-boycott/highlander-folk-school/
+  - https://www.troy.edu/student-life-resources/arts-culture/rosa-parks-museum/about/index.html
+- Verified quotation source: Short quotation traced to Rosa Parks accounts and cross-checked through institutional biographies.
+- Sensitive or disputed claims reviewed: Recy Taylor investigation, Highlander attendance, tired myth correction, job loss/threats, Detroit activism, and collective boycott role reviewed.
+- Material corrections made: Expanded scheduled fallback beyond bus refusal into NAACP work, sexual-violence investigation, organizer training, boycott infrastructure, and later Detroit activism.
+- External links included on the page:
+  - Library of Congress: Rosa Parks Papers (https://www.loc.gov/collections/rosa-parks-papers/about-this-collection/)
+  - National Park Service: Rosa Parks (https://www.nps.gov/people/rosa-parks.htm)
+  - National Archives: The Arrest Records of Rosa Parks (https://www.archives.gov/education/lessons/rosa-parks)
+  - Library of Congress: Highlander Folk School (https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/the-bus-boycott/highlander-folk-school/)
+  - Rosa Parks Museum: About Rosa Parks (https://www.troy.edu/student-life-resources/arts-culture/rosa-parks-museum/about/index.html)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, organizer-role and sensitive-violence claim review.
 
 ### 2026-06-07 - Prince
 
+- Entry title: Prince
 - Slug: `prince`
-- Core claims: Prince could play almost anything, but one of his biggest battles was over a question behind the music: who owns the work? Born June 7, 1958, Prince became one of the most inventive artists in popular music. He blended funk, rock, R&B, pop, and gospel into a sound that resisted categories. During a contract fight with Warner Bros., he changed his name to a symbol and wrote "slave" on his face to protest lack of control over his masters and artistic output.
-- Sources:
+- Daily date: 2026-06-07
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Prince Rogers Nelson was not only a dazzling performer in purple light. He was a songwriter, producer, arranger, multi-instrumentalist, bandleader, studio obsessive, business strategist, and public critic of music-industry control. The famous story says he changed his name to a symbol and wrote "slave" on his face. That is true, but it is only the doorway. Prince was arguing that art is labor and that ownership decides who profits from genius. His page matters because Black musical brilliance has often been celebrated while contracts, masters, publishing, and corporate power stayed hidden in the shadows. Prince dragged those shadows onto the stage.
+- Primary or authoritative sources:
   - https://www.rockhall.com/inductees/prince
+  - https://prince.com/
+  - https://www.grammy.com/artists/prince/5675
+- Supporting secondary sources:
+  - https://www.paisleypark.com/
   - https://www.britannica.com/biography/Prince-singer-and-songwriter
+- Verified quotation source: No quotation included. Ownership claims were summarized from artist, industry, and institutional sources rather than a weakly traceable pull quote.
+- Sensitive or disputed claims reviewed: Name-change chronology, Warner Bros. conflict, master-recording ownership, 2014 agreement, slavery metaphor limits, death date/location, and multi-instrumentalist framing reviewed.
+- Material corrections made: Expanded scheduled fallback beyond the name-change anecdote into authorship, contracts, masters, genre control, distribution, and estate questions.
+- External links included on the page:
+  - Rock & Roll Hall of Fame: Prince (https://www.rockhall.com/inductees/prince)
+  - Official Prince Site: Prince (https://prince.com/)
+  - GRAMMY.com: Prince Artist Profile (https://www.grammy.com/artists/prince/5675)
+  - Paisley Park: About Paisley Park (https://www.paisleypark.com/)
+  - Encyclopaedia Britannica: Prince (https://www.britannica.com/biography/Prince-singer-and-songwriter)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, quotation/source sensitivity noted, music ownership and metaphor claim review.
 
 ### 2026-06-08 - The Underground Railroad
 
@@ -1039,11 +1111,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-01 - Robert Smalls
 
+- Entry title: Robert Smalls
 - Slug: `robert-smalls`
-- Core claims: Before sunrise, Robert Smalls put on a Confederate captain's hat, guided a ship past armed checkpoints, and carried his family toward freedom. Smalls was enslaved in Charleston and forced to work aboard the Confederate transport Planter. In 1862, he and other enslaved crew members seized the ship while white officers were away. He delivered the Planter to Union forces, won freedom for the people aboard, later served as a pilot, and became a South Carolina congressman during Reconstruction.
-- Sources:
+- Daily date: 2026-07-01
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Robert Smalls did something almost cinematic before sunrise on May 13, 1862: he guided the Confederate transport Planter out of Charleston harbor, passed armed checkpoints, picked up family members and other enslaved people, and delivered the ship to Union forces. But the ship escape is only the first act. Smalls became a Union pilot, a political leader, a South Carolina legislator, and a member of Congress during Reconstruction. His page matters because he turned knowledge extracted by slavery into freedom, then turned freedom into lawmaking. He was not only a daring escape story. He was a builder of Black citizenship under fire.
+- Primary or authoritative sources:
   - https://www.nps.gov/people/robert-smalls.htm
   - https://history.house.gov/People/Listing/S/SMALLS,-Robert-(S000502)/
+  - https://prologue.blogs.archives.gov/2022/02/04/facial-hair-friday-robert-smalls/
+- Supporting secondary sources:
+  - https://www.smithsonianmag.com/history/thrilling-tale-how-robert-smalls-heroically-sailed-stolen-confederate-ship-freedom-180963689/
+  - https://www.scencyclopedia.org/sce/entries/smalls-robert/
+- Verified quotation source: No quotation included. Escape and officeholding claims were supported through NPS, House, and National Archives records.
+- Sensitive or disputed claims reviewed: Planter escape details, collective participation, prize money, congressional service, bribery conviction and pardon, Reconstruction backlash, and death date reviewed.
+- Material corrections made: Expanded scheduled fallback beyond escape anecdote into maritime expertise, Union service, Reconstruction politics, legal controversy, and citizenship building.
+- External links included on the page:
+  - National Park Service: Robert Smalls (https://www.nps.gov/people/robert-smalls.htm)
+  - U.S. House of Representatives: Robert Smalls (https://history.house.gov/People/Listing/S/SMALLS,-Robert-(S000502)/)
+  - National Archives: Facial Hair Friday: Robert Smalls (https://prologue.blogs.archives.gov/2022/02/04/facial-hair-friday-robert-smalls/)
+  - Smithsonian Magazine: The Thrilling Tale of How Robert Smalls Seized a Confederate Ship and Sailed It to Freedom (https://www.smithsonianmag.com/history/thrilling-tale-how-robert-smalls-heroically-sailed-stolen-confederate-ship-freedom-180963689/)
+  - South Carolina Encyclopedia: Smalls, Robert (https://www.scencyclopedia.org/sce/entries/smalls-robert/)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Civil War and Reconstruction claim review.
 
 ### 2026-07-02 - The 14th Amendment
 
@@ -1255,11 +1345,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-13 - Rebecca Lee Crumpler
 
+- Entry title: Rebecca Lee Crumpler
 - Slug: `rebecca-lee-crumpler`
-- Core claims: Rebecca Lee Crumpler entered medicine when the profession barely admitted women and almost never admitted Black women. In 1864, she earned a medical degree from New England Female Medical College, becoming the first Black woman physician in the United States. After the Civil War, she worked with formerly enslaved people in Richmond, Virginia, and later wrote a medical book focused on women and children.
-- Sources:
+- Daily date: 2026-07-13
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Rebecca Lee Crumpler became the first Black woman in the United States known to earn a medical degree, but the achievement matters for more than a first. She entered medicine when white male institutions barely admitted women, Black people were excluded from most formal training, and the Civil War had torn open questions of health, freedom, and citizenship. After graduating in 1864, she treated formerly enslaved people in Richmond and later wrote a medical book for women and children. Her page matters because medical history is not only discoveries and famous hospitals. It is access: who gets trained, who gets believed, who receives care, and who writes knowledge down for families shut out of formal systems.
+- Primary or authoritative sources:
   - https://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_73.html
+  - https://resource.nlm.nih.gov/67521160R
+  - https://magazine.medlineplus.gov/article/dr-rebecca-lee-crumpler-a-medical-pioneer
+- Supporting secondary sources:
   - https://www.womenshistory.org/education-resources/biographies/rebecca-lee-crumpler
+  - https://bwht.org/rebecca-lee-crumpler/
+- Verified quotation source: Short quotation traced to Crumpler's A Book of Medical Discourses via digitized National Library of Medicine copy.
+- Sensitive or disputed claims reviewed: First known Black woman physician claim, birth/death dates, no confirmed photograph, Richmond/Freedmen's Bureau context, and medical-book significance reviewed.
+- Material corrections made: Expanded scheduled fallback beyond first-physician framing into nursing, medical education, Reconstruction care, women and children's health, and archival limits.
+- External links included on the page:
+  - National Library of Medicine: Dr. Rebecca Lee Crumpler (https://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_73.html)
+  - National Women's History Museum: Rebecca Lee Crumpler (https://www.womenshistory.org/education-resources/biographies/rebecca-lee-crumpler)
+  - NIH MedlinePlus Magazine: Dr. Rebecca Lee Crumpler: A Medical Pioneer (https://magazine.medlineplus.gov/article/dr-rebecca-lee-crumpler-a-medical-pioneer)
+  - Boston Women's Heritage Trail: Rebecca Lee Crumpler (https://bwht.org/rebecca-lee-crumpler/)
+  - NLM Digital Collections: A Book of Medical Discourses (https://resource.nlm.nih.gov/67521160R)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, first-claim and archival-evidence review.
 
 ### 2026-07-14 - Mary Eliza Mahoney
 
@@ -4187,3 +4295,107 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Library of Congress: Pauli Murray Papers (https://www.loc.gov/collections/pauli-murray-papers/about-this-collection/)
   - Episcopal Church Archives: Pauli Murray (https://exhibits.episcopalarchives.org/s/church-awakens/item/9196)
 - Final review status: Batch 18 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, gender/law/religion claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Rachel Robinson
+
+- Entry title: Rachel Robinson
+- Slug: `rachel-robinson`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Rachel Robinson is often introduced as Jackie Robinson's wife, but that phrase is far too small for her life. She was a trained nurse, educator, mother, strategist, public witness, preservationist, and founder of the Jackie Robinson Foundation. She helped carry the pressure of baseball integration in real time, then spent decades turning memory into scholarships, leadership development, archives, and public education. Her page matters because integration stories often place women in the background as patient supporters. Rachel Robinson was not background. She was part of the emotional, practical, and institutional work that helped one breakthrough become a durable public legacy.
+- Primary or authoritative sources:
+  - https://jackierobinson.org/people/rachel-robinson/
+  - https://jackierobinson.org/about/
+  - https://baseballhall.org/discover-more/awards/oneil/rachel-robinson
+- Supporting secondary sources:
+  - https://www.jackierobinsonmuseum.org/about/rachel-robinson/
+  - https://www.britannica.com/biography/Rachel-Robinson
+- Verified quotation source: No quotation included. Living-person claims were summarized from institutional profiles rather than excerpted.
+- Sensitive or disputed claims reviewed: Living status, nursing education and career, marriage and family grief, 1946 Montreal context, 1947 integration pressure, and foundation founding reviewed.
+- Material corrections made: Rebuilt legacy page beyond spouse framing into nursing, integration-era care work, foundation leadership, memory, and education infrastructure.
+- External links included on the page:
+  - Jackie Robinson Foundation: Rachel Robinson (https://jackierobinson.org/people/rachel-robinson/)
+  - National Baseball Hall of Fame: 2017 Buck O'Neil Award Winner Rachel Robinson (https://baseballhall.org/discover-more/awards/oneil/rachel-robinson)
+  - Jackie Robinson Museum: Rachel Robinson (https://www.jackierobinsonmuseum.org/about/rachel-robinson/)
+  - Britannica: Rachel Robinson (https://www.britannica.com/biography/Rachel-Robinson)
+  - Jackie Robinson Foundation: About the Foundation (https://jackierobinson.org/about/)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, living-person and family-history claim review.
+
+### Encyclopedia - Redlining
+
+- Entry title: Redlining
+- Slug: `redlining`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Redlining was not a rumor about banks being unfair. It was a mapped system of public and private decisions that marked many Black neighborhoods as risky, denied or restricted mortgage credit, and helped make homeownership a major engine of white wealth while Black families were blocked from the same terms. The famous red areas on Home Owners' Loan Corporation maps were only one part of the story, but they make the logic visible: race was treated as a financial hazard. This page matters because the racial wealth gap is not just the result of individual choices. It was built into maps, appraisals, lending rules, insurance, zoning, and public policy.
+- Primary or authoritative sources:
+  - https://dsl.richmond.edu/panorama/redlining/
+  - https://ncrc.org/holc/
+  - https://www.federalreservehistory.org/essays/redlining
+- Supporting secondary sources:
+  - https://history.house.gov/Historical-Highlights/1951-2000/hh_1968_04_10/
+  - https://www.brookings.edu/articles/devaluation-of-assets-in-black-neighborhoods/
+- Verified quotation source: No quotation included. Structural claims rely on mapping, Federal Reserve history, and housing-policy research rather than a pull quote.
+- Sensitive or disputed claims reviewed: HOLC map role, FHA underwriting, racial covenants, GI Bill effects in practice, reverse redlining, present-day correlation versus causation, and wealth-gap claims reviewed.
+- Material corrections made: Rebuilt legacy page with careful distinction between HOLC maps as evidence and redlining as a broader public-private housing system.
+- External links included on the page:
+  - Mapping Inequality: Redlining in New Deal America (https://dsl.richmond.edu/panorama/redlining/)
+  - National Community Reinvestment Coalition: HOLC Redlining Maps (https://ncrc.org/holc/)
+  - Federal Reserve History: Redlining (https://www.federalreservehistory.org/essays/redlining)
+  - U.S. House of Representatives: The Fair Housing Act of 1968 (https://history.house.gov/Historical-Highlights/1951-2000/hh_1968_04_10/)
+  - Brookings Institution: Devaluation of Assets in Black Neighborhoods (https://www.brookings.edu/articles/devaluation-of-assets-in-black-neighborhoods/)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, housing-system and present-effect claim review.
+
+### Encyclopedia - Rihanna
+
+- Entry title: Rihanna
+- Slug: `rihanna`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Rihanna is a global pop star, but her history is bigger than hits. Born Robyn Rihanna Fenty in Barbados, she became one of the defining recording artists of the 2000s and 2010s, then turned celebrity into a business platform that changed beauty, fashion, and expectations around inclusion. Fenty Beauty's wide foundation range did not invent shade diversity, but it forced a mainstream industry to answer why many brands had treated darker skin as an afterthought. Her page matters because contemporary Black history includes culture, branding, migration, beauty politics, philanthropy, motherhood, and ownership. Rihanna's power is not only that people watched her. It is that she changed what companies had to compete with after they watched.
+- Primary or authoritative sources:
+  - https://fentybeauty.com/pages/about-fenty-beauty
+  - https://claralionelfoundation.org/about/
+  - https://gisbarbados.gov.bb/blog/rihanna-is-national-hero/
+- Supporting secondary sources:
+  - https://www.grammy.com/artists/rihanna/5943/
+  - https://www.britannica.com/biography/Rihanna
+- Verified quotation source: No quotation included. Living-person and business claims were summarized from official and institutional sources.
+- Sensitive or disputed claims reviewed: Living status, Barbados National Hero status, Fenty Beauty inclusivity claims, wealth/business framing, 2009 assault mention, pregnancy/public-body framing, and philanthropy scope reviewed.
+- Material corrections made: Rebuilt legacy page beyond wealth list framing into music, Caribbean identity, beauty-industry standards, philanthropy, commerce, and careful living-person analysis.
+- External links included on the page:
+  - Fenty Beauty: About Fenty Beauty (https://fentybeauty.com/pages/about-fenty-beauty)
+  - Clara Lionel Foundation: About the Clara Lionel Foundation (https://claralionelfoundation.org/about/)
+  - GRAMMY.com: Rihanna Artist Profile (https://www.grammy.com/artists/rihanna/5943/)
+  - Encyclopaedia Britannica: Rihanna (https://www.britannica.com/biography/Rihanna)
+  - Government of Barbados: Rihanna Named National Hero (https://gisbarbados.gov.bb/blog/rihanna-is-national-hero/)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, living-person and business-history claim review.
+
+### Encyclopedia - Ruby Bridges
+
+- Entry title: Ruby Bridges
+- Slug: `ruby-bridges`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Ruby Bridges was six years old when federal marshals escorted her into William Frantz Elementary School in New Orleans in 1960. The image is famous because a child looks small against the machinery of adult hatred. But the fuller story includes Black parents making hard decisions, federal courts forcing local compliance, white parents withdrawing children, a teacher who stayed, a family paying economic costs, and a little girl spending much of first grade in a classroom by herself. Her page matters because school integration was not carried by policy alone. It was carried by children and families asked to absorb what adults refused to fix.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/rubybridges.htm
+  - https://www.womenshistory.org/education-resources/biographies/ruby-bridges
+  - https://www.rubybridges.com/
+- Supporting secondary sources:
+  - https://www.nrm.org/thinglink/text/Problem_live_with.html
+  - https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html
+- Verified quotation source: Short quotation traced to Ruby Bridges' official website and cross-checked against institutional biographies.
+- Sensitive or disputed claims reviewed: Age, date of integration, marshals, family retaliation, classroom isolation, Barbara Henry role, other New Orleans children, living status, and Rockwell painting reviewed.
+- Material corrections made: Rebuilt legacy page with fuller attention to family decision-making, federal enforcement, classroom isolation, other New Orleans children, and adult responsibility.
+- External links included on the page:
+  - National Park Service: Ruby Bridges (https://www.nps.gov/people/rubybridges.htm)
+  - National Women's History Museum: Ruby Bridges (https://www.womenshistory.org/education-resources/biographies/ruby-bridges)
+  - Official Ruby Bridges Website: Ruby Bridges (https://www.rubybridges.com/)
+  - Norman Rockwell Museum: The Problem We All Live With (https://www.nrm.org/thinglink/text/Problem_live_with.html)
+  - National Museum of American History: Ruby Bridges and School Desegregation (https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, child-centered and living-person claim review.

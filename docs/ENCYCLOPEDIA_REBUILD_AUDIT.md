@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First eighteen rebuild batches complete; continue from row 155, `Plessy v. Ferguson`, on `encyclopedia-rebuild`.
+Status: First nineteen rebuild batches complete; continue from row 165, `Ruby Bridges and the Cost of School Integration`, on `encyclopedia-rebuild`.
 Date: 2026-08-17
 
 ## Quality Gap Documented
@@ -242,13 +242,27 @@ Batch 18 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 18 source and rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, and desktop/mobile browser verification passed before batch completion commit.
 
+## Batch 19 Completed
+
+Completed pages: `plessy-v-ferguson`, `prince`, `rachel-robinson`, `rebecca-lee-crumpler`, `reconstruction`, `redlining`, `rihanna`, `robert-smalls`, `rosa-parks`, `ruby-bridges`.
+
+Batch 19 rebuilt six scheduled/generated pages and four legacy-path pages into the approved rich encyclopedia format. Plessy v. Ferguson now treats the planned New Orleans test case, Supreme Court reasoning, Harlan dissent, Jim Crow effects, and later civil rights law; Prince now moves beyond the symbol/name anecdote into Black artistic ownership, masters, genre control, and contract power; Rachel Robinson is no longer framed as background to Jackie Robinson but as a nurse, educator, foundation founder, and steward of public memory; Rebecca Lee Crumpler now connects first-physician history to Reconstruction health care, women and children, medical publishing, and archival limits; Reconstruction now centers Black agency, land, schools, constitutional amendments, white supremacist violence, and national abandonment; Redlining now distinguishes HOLC maps from the broader public-private housing system; Rihanna is treated as living contemporary history through music, Caribbean identity, beauty-industry standards, philanthropy, commerce, and careful inclusion analysis; Robert Smalls now connects the Planter escape to Union service and Reconstruction officeholding; Rosa Parks now restores NAACP organizing, Recy Taylor investigation, Highlander training, boycott infrastructure, and Detroit activism; and Ruby Bridges now includes family decision-making, federal enforcement, classroom isolation, other New Orleans children, and adult responsibility.
+
+Batch 19 verification:
+
+- External links checked: 50 total, 0 material failures after replacing stale, moved, or wrong-page URLs for Rachel Robinson, Rebecca Lee Crumpler, Reconstruction, Redlining, Rihanna, Robert Smalls, Rosa Parks, and Ruby Bridges. Thirty-eight links returned successful responses with text relevance. Twelve Oyez, Justia, PBS/THIRTEEN, Britannica, Smithsonian, Facing History, Barbados GIS, Library of Congress, Norman Rockwell Museum, and Smithsonian/NMAH pages returned bot-blocking, dynamic, or non-text statuses during automated checking but were retained only because they are direct authoritative or high-quality pages verified for subject relevance.
+- Browser rendering checked: 10 Batch 19 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for section presence, timeline counts, connected cards, external links, daily challenge cards where applicable, empty links, horizontal overflow, stale quiz wording, loading fallbacks, failed local requests, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 19 source and rendered pages, 0 findings.
+- Shared rich-page quiz CTA language was corrected from `Take the Challenge` to `Take the Quiz`; two older legacy CTA labels on `encyclopedia/great-migration.html` and `encyclopedia/black-press.html` were corrected so stale challenge wording is not reintroduced outside the rich renderer.
+- `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 155
-- REWRITE: 33
-- RESEARCH: 22
-- REBUILD: 33
+- PASS: 165
+- REWRITE: 27
+- RESEARCH: 18
+- REBUILD: 27
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -259,7 +273,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished work: continue Batch 19 from row 155, `Plessy v. Ferguson`.
+Next unfinished work: continue Batch 20 from row 165, `Ruby Bridges and the Cost of School Integration`.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -421,16 +435,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 152 | Paul Robeson | generated/pages/paul-robeson.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, passport/blacklist/Peekskill/Soviet-controversy/labor claim review, replaced stale Archives and Rutgers URLs, depth/similarity validation, desktop/mobile browser check. |
 | 153 | Pauli Murray | encyclopedia/pauli-murray.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, gender-language/Jane Crow/legal influence/ordination claim review, corrected Pauli Murray Center/NPS/Episcopal URLs, depth/similarity validation, desktop/mobile browser check. |
 | 154 | Phillis Wheatley | generated/pages/phillis-wheatley.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, first-book/birthplace uncertainty/attestation/enslavement/patronage claim review, depth/similarity validation, desktop/mobile browser check. |
-| 155 | Plessy v. Ferguson | generated/pages/plessy-v-ferguson.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 156 | Prince | generated/pages/prince.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 157 | Rachel Robinson | encyclopedia/rachel-robinson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 158 | Rebecca Lee Crumpler | generated/pages/rebecca-lee-crumpler.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 159 | Reconstruction | generated/pages/reconstruction.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 160 | Redlining | encyclopedia/redlining.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 161 | Rihanna | encyclopedia/rihanna.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 162 | Robert Smalls | generated/pages/robert-smalls.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 163 | Rosa Parks | generated/pages/rosa-parks.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 164 | Ruby Bridges | encyclopedia/ruby-bridges.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 155 | Plessy v. Ferguson | generated/pages/plessy-v-ferguson.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short court quotation, planned-test-case/Harlan-dissent/Jim Crow claim review, replaced stale or bot-hostile sources, depth/similarity validation, desktop/mobile browser check. |
+| 156 | Prince | generated/pages/prince.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no weakly traceable quote, name-change/masters/Warner Bros./slavery-metaphor claim review, depth/similarity validation, desktop/mobile browser check. |
+| 157 | Rachel Robinson | encyclopedia/rachel-robinson.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, living-person/nursing/foundation/family-history claim review, corrected stale foundation/Hall/UCLA source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 158 | Rebecca Lee Crumpler | generated/pages/rebecca-lee-crumpler.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation from A Book of Medical Discourses, first-physician/archival-limit/Reconstruction-health claim review, corrected NLM book source, depth/similarity validation, desktop/mobile browser check. |
+| 159 | Reconstruction | generated/pages/reconstruction.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short Du Bois quotation, federal-policy/land/violence/periodization/Lost Cause claim review, replaced stale National Archives source, depth/similarity validation, desktop/mobile browser check. |
+| 160 | Redlining | encyclopedia/redlining.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, HOLC/FHA/GI Bill/reverse-redlining/present-effects claim review, corrected Fair Housing Act source, depth/similarity validation, desktop/mobile browser check. |
+| 161 | Rihanna | encyclopedia/rihanna.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, living-person/Fenty/Barbados National Hero/philanthropy/sensitive public-history claim review, corrected GRAMMY source URL, depth/similarity validation, desktop/mobile browser check. |
+| 162 | Robert Smalls | generated/pages/robert-smalls.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Planter escape/collective action/Union service/Reconstruction officeholding claim review, corrected National Archives and Smithsonian URLs, depth/similarity validation, desktop/mobile browser check. |
+| 163 | Rosa Parks | generated/pages/rosa-parks.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, Recy Taylor/Highlander/tired myth/job loss/Detroit activism claim review, corrected Highlander and museum source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 164 | Ruby Bridges | encyclopedia/ruby-bridges.html | PASS | Batch 19 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, age/integration date/family retaliation/Barbara Henry/other New Orleans children claim review, corrected NPS and official-site sources, depth/similarity validation, desktop/mobile browser check. |
 | 165 | Ruby Bridges and the Cost of School Integration | generated/pages/ruby-bridges-integration.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 166 | Sam Cooke | generated/pages/sam-cooke.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 167 | Sarah Rector | encyclopedia/sarah-rector.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
