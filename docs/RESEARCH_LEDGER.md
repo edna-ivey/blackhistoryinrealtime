@@ -30,11 +30,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-07 - Nat Turner
 
+- Entry title: Nat Turner
 - Slug: `nat-turner`
-- Core claims: Nat Turner forced Virginia to confront a truth enslavers worked hard to deny: enslaved people were not passive, and the system they built was always afraid of the people trapped inside it. Turner was an enslaved preacher in Southampton County, Virginia. In August 1831, he and a small group began an uprising that killed dozens of white people before local militias and vigilantes crushed it. The retaliation was enormous. Turner was captured, tried, and hanged. Many Black people who had no connection to the revolt were killed, and Southern lawmakers passed even harsher restrictions on enslaved and free Black communities.
-- Sources:
-  - https://encyclopediavirginia.org/entries/turner-nat-1800-1831/
-  - https://www.loc.gov/item/02002919/
+- Daily date: 2026-05-07
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Nat Turner is one of the most difficult figures in American history to teach honestly. In August 1831, he led an armed uprising in Southampton County, Virginia, that killed dozens of white people, including children, and led to massive white retaliation against Black people, many of whom had no connection to the revolt. Turner was an enslaved preacher who interpreted visions as divine instruction and lived inside a system that was already violent every day. His page matters because it refuses the easy versions. The revolt was terrifying. So was slavery. The question is not how to make Turner simple. The question is how to understand resistance, religion, terror, retaliation, and historical memory without pretending slavery was peaceful until the enslaved fought back.
+- Primary or authoritative sources:
+  - https://encyclopediavirginia.org/entries/turners-revolt-nat-1831/
+  - https://encyclopediavirginia.org/entries/confessions-of-nat-turner-the-1831/
+  - https://virginiahistory.org/learn/nat-turners-rebellion
+- Supporting secondary sources:
+  - https://www.nps.gov/jeff/learn/historyculture/slave-insurrections.htm
+  - https://www.pbs.org/wgbh/aia/part3/3p1518.html
+- Verified quotation source: No quotation included. The Confessions is treated as a mediated legal text rather than a clean quotation source.
+- Sensitive or disputed claims reviewed: Deaths during revolt, white retaliation, trial/execution chronology, religious visions, mediated confession text, and moral framing of violence reviewed.
+- Material corrections made: Expanded scheduled fallback into a careful account of slavery, religious interpretation, revolt, retaliation, law, and historical memory.
+- External links included on the page:
+  - Encyclopedia Virginia: Nat Turner's Revolt (1831) (https://encyclopediavirginia.org/entries/turners-revolt-nat-1831/)
+  - National Park Service: Slave Insurrections (https://www.nps.gov/jeff/learn/historyculture/slave-insurrections.htm)
+  - Encyclopedia Virginia: The Confessions of Nat Turner (https://encyclopediavirginia.org/entries/confessions-of-nat-turner-the-1831/)
+  - Virginia Museum of History & Culture: Nat Turner's Rebellion (https://virginiahistory.org/learn/nat-turners-rebellion)
+  - PBS American Experience: Nat Turner (https://www.pbs.org/wgbh/aia/part3/3p1518.html)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, revolt/retaliation claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-08 - The Scottsboro Boys
 
@@ -104,11 +122,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-12 - Paul Robeson
 
+- Entry title: Paul Robeson
 - Slug: `paul-robeson`
-- Core claims: Paul Robeson had one of the most powerful voices in the world. The United States government tried to make sure fewer people could hear it. Robeson was a brilliant student, star athlete, actor, singer, and activist. He spoke against racism, colonialism, and fascism, and he supported labor movements and anti-imperial struggles around the world. During the Cold War, the government revoked his passport and damaged his career because of his politics. Concert halls closed their doors, but Robeson kept insisting that art and freedom belonged together.
-- Sources:
+- Daily date: 2026-05-12
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Paul Robeson had a voice that could fill a hall and a politics that made governments nervous. He was a scholar, Rutgers athlete, lawyer, actor, concert singer, linguist, labor ally, anti-colonial advocate, and civil rights figure whose career was damaged by Cold War repression. The United States revoked his passport, concert halls closed to him, and his income collapsed because he refused to separate art from freedom struggles around the world. His page matters because Robeson shows what can happen when a Black artist becomes too international, too pro-labor, too anti-racist, and too unwilling to perform gratitude for a country that denies full citizenship.
+- Primary or authoritative sources:
+  - https://www.archives.gov/research/african-americans/individuals/paul-robeson
   - https://nmaahc.si.edu/paul-robeson
-  - https://www.archives.gov/publications/prologue/2018/spring/paul-robeson
+  - https://prcc.rutgers.edu/about-prcc/biography
+- Supporting secondary sources:
+  - https://vault.fbi.gov/Paul%20Robeson
+  - https://www.loc.gov/item/ihas.200197456/
+- Verified quotation source: Short artist-duty quotation traced to Robeson's 1937 statement as reproduced in institutional Robeson materials.
+- Sensitive or disputed claims reviewed: Passport revocation, Cold War repression, Soviet Union controversy, blacklisting, law-office discrimination, and internationalism reviewed.
+- Material corrections made: Expanded scheduled fallback beyond passport revocation into art, labor, anti-colonial politics, state repression, and political complexity.
+- External links included on the page:
+  - National Archives: Paul Robeson and the Cold War (https://www.archives.gov/research/african-americans/individuals/paul-robeson)
+  - NMAAHC: Paul Robeson (https://nmaahc.si.edu/paul-robeson)
+  - Paul Robeson Cultural Center, Rutgers University: Paul Robeson Biography (https://prcc.rutgers.edu/about-prcc/biography)
+  - FBI Records: The Vault: Paul Robeson (https://vault.fbi.gov/Paul%20Robeson)
+  - Library of Congress: Paul Robeson Concert Program (https://www.loc.gov/item/ihas.200197456/)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, Cold War and surveillance claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-13 - MOVE Bombing
 
@@ -191,11 +227,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-16 - Phillis Wheatley
 
+- Entry title: Phillis Wheatley
 - Slug: `phillis-wheatley`
-- Core claims: Before Phillis Wheatley could publish her poems, powerful men demanded proof that a young enslaved Black woman had actually written them. Wheatley was kidnapped from West Africa as a child and enslaved in Boston. She learned English, Latin, and classical literature, then wrote poetry that circulated across the Atlantic world. In 1773, her book Poems on Various Subjects, Religious and Moral was published in London. A panel of Boston men had examined her first, as if her brilliance needed a certificate.
-- Sources:
+- Daily date: 2026-05-16
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Phillis Wheatley published a book before the United States existed, and powerful men still demanded proof that she had written it. Kidnapped from West Africa as a child, enslaved in Boston, educated in the Wheatley household, and published in London in 1773, she became the first Black woman in America to publish a book of poetry. That achievement is astonishing, but the deeper story is not only triumph. Wheatley wrote inside enslavement, patronage, Christian and classical learning, Revolutionary politics, and a white reading public that treated Black intelligence as something to be examined. Her page matters because her poetry exposed the lie of Black inferiority while showing how expensive recognition could be when freedom itself was still denied.
+- Primary or authoritative sources:
   - https://www.poetryfoundation.org/poets/phillis-wheatley
-  - https://www.loc.gov/item/2002552146/
+  - https://www.loc.gov/item/2021667201/
+  - https://www.masshist.org/database/163
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/phillis-wheatley
+  - https://bwht.org/phillis-wheatley/
+- Verified quotation source: Short quotation traced to Wheatley's published poem "On Being Brought from Africa to America" and kept under excerpt limits.
+- Sensitive or disputed claims reviewed: Birthplace uncertainty, first Black woman book-publication claim, attestation by Boston men, enslavement/manumission, marriage and poverty, and interpretation of religious language reviewed.
+- Material corrections made: Expanded scheduled fallback beyond first-book framing into Atlantic slavery, publication politics, attestation, patronage, poverty, and reading context.
+- External links included on the page:
+  - Poetry Foundation: Phillis Wheatley (https://www.poetryfoundation.org/poets/phillis-wheatley)
+  - Library of Congress: Phillis Wheatley Peters (https://www.loc.gov/item/2021667201/)
+  - Massachusetts Historical Society: Phillis Wheatley (https://www.masshist.org/database/163)
+  - National Women's History Museum: Phillis Wheatley (https://www.womenshistory.org/education-resources/biographies/phillis-wheatley)
+  - Boston Women's Heritage Trail: Phillis Wheatley (https://bwht.org/phillis-wheatley/)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, first-claim and slavery/patronage claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-05-17 - Brown v. Board - The Plaintiffs
 
@@ -1261,11 +1315,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-16 - Norbert Rillieux
 
+- Entry title: Norbert Rillieux
 - Slug: `norbert-rillieux`
-- Core claims: Norbert Rillieux made sugar refining more efficient and less dangerous, changing an industry built on brutal labor. Rillieux, a free man of color from New Orleans, developed a multiple-effect evaporator that improved how sugar was processed. His invention reduced fuel use and worker danger while producing better sugar. It became one of the major chemical engineering advances of the nineteenth century.
-- Sources:
+- Daily date: 2026-07-16
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Norbert Rillieux did not simply make sugar cheaper. He helped transform chemical engineering while working inside a world structured by slavery, race, and industry. Born free in New Orleans to a wealthy white father and a free woman of color, Rillieux was educated in France and developed a multiple-effect evaporator that made sugar refining more efficient, safer, and less fuel-intensive. The invention mattered technically, but the setting matters morally. Sugar wealth was tied to brutal plantation labor. Rillieux's brilliance improved an industry built on exploitation, and his own professional life was constrained by racial law. His page matters because invention history is rarely clean. It lives inside markets, labor, danger, patents, and power.
+- Primary or authoritative sources:
   - https://www.invent.org/inductees/norbert-rillieux
+  - https://www.acs.org/education/whatischemistry/landmarks/rillieux.html
+  - https://invention.si.edu/norbert-rillieux
+- Supporting secondary sources:
   - https://www.britannica.com/biography/Norbert-Rillieux
+  - https://www.blackpast.org/african-american-history/rillieux-norbert-1806-1894/
+- Verified quotation source: No quotation included. Technical and biographical claims were supported through invention and chemistry-history sources rather than a pull quote.
+- Sensitive or disputed claims reviewed: Invented versus improved wording, patent dates, free person of color status, relationship to slavery and sugar labor, France education, and chemical-engineering significance reviewed.
+- Material corrections made: Expanded scheduled fallback beyond a simple invention note into process engineering, worker safety, sugar labor, racial constraints, and recognition.
+- External links included on the page:
+  - National Inventors Hall of Fame: Norbert Rillieux (https://www.invent.org/inductees/norbert-rillieux)
+  - American Chemical Society: Norbert Rillieux and the Multiple Effect Evaporator (https://www.acs.org/education/whatischemistry/landmarks/rillieux.html)
+  - Smithsonian Lemelson Center: Norbert Rillieux (https://invention.si.edu/norbert-rillieux)
+  - Encyclopaedia Britannica: Norbert Rillieux (https://www.britannica.com/biography/Norbert-Rillieux)
+  - BlackPast: Norbert Rillieux (https://www.blackpast.org/african-american-history/rillieux-norbert-1806-1894/)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, invention and labor-context claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-07-17 - Meta Warrick Fuller
 
@@ -2069,11 +2141,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-23 - Nikki Giovanni
 
+- Entry title: Nikki Giovanni
 - Slug: `nikki-giovanni`
-- Core claims: Nikki Giovanni wrote poems that could sound like a rally, a joke, a dare, and a family conversation. Giovanni emerged during the Black Arts Movement and became known for poetry that celebrated Black pride, love, memory, politics, and everyday life. Her work reached classrooms, stages, recordings, and television, helping make poetry feel immediate and alive to broad audiences.
-- Sources:
+- Daily date: 2026-08-23
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Nikki Giovanni made poetry sound like somebody talking to you across a kitchen table, then made that kitchen table big enough for Black pride, grief, jokes, mothers, food, space travel, political anger, and love. She emerged during the Black Arts Movement with poems that were sharp, public, and unapologetically Black, but she was never only a movement slogan. Giovanni wrote for children, recorded albums, taught generations of students, argued in public, mourned, laughed, and kept revising what freedom could sound like. Her page matters because she helped move poetry out of the glass case. She made it intimate, performative, popular, and intellectually alive without asking permission from institutions that had not built rooms for her voice.
+- Primary or authoritative sources:
   - https://www.poetryfoundation.org/poets/nikki-giovanni
-  - https://www.britannica.com/biography/Nikki-Giovanni
+  - https://news.vt.edu/articles/2024/12/clahs-giovannimemoriam.html
+  - https://news.vt.edu/magazine/issues/spring-2025/giovanni.html
+- Supporting secondary sources:
+  - https://www.thehistorymakers.org/biography/nikki-giovanni
+  - https://poets.org/poet/nikki-giovanni
+- Verified quotation source: Short quotation traced to the Poetry Foundation biography page.
+- Sensitive or disputed claims reviewed: Death date, Fisk enrollment/graduation, Black Arts Movement framing, Virginia Tech role, 2007 convocation, and public-voice interpretation reviewed.
+- Material corrections made: Expanded scheduled fallback beyond Black Arts shorthand into teaching, performance, recordings, children's literature, grief work, and craft.
+- External links included on the page:
+  - Poetry Foundation: Nikki Giovanni (https://www.poetryfoundation.org/poets/nikki-giovanni)
+  - Virginia Tech News: Celebrating the Life and Legacy of Nikki Giovanni (https://news.vt.edu/articles/2024/12/clahs-giovannimemoriam.html)
+  - Virginia Tech Magazine: For the Love of Nikki (https://news.vt.edu/magazine/issues/spring-2025/giovanni.html)
+  - The HistoryMakers: Nikki Giovanni Biography (https://www.thehistorymakers.org/biography/nikki-giovanni)
+  - Academy of American Poets: Nikki Giovanni (https://poets.org/poet/nikki-giovanni)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, death-date and literary claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-24 - Audre Lorde
 
@@ -2101,11 +2191,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-25 - Ntozake Shange
 
+- Entry title: Ntozake Shange
 - Slug: `ntozake-shange`
-- Core claims: Ntozake Shange made poetry move across the stage with dance, music, pain, and survival in the same breath. Her 1976 choreopoem for colored girls... brought Black women's voices, bodies, friendship, trauma, and joy into a theatrical form she shaped herself. The work moved to Broadway and became a landmark, refusing to make Black women's interior lives secondary.
-- Sources:
+- Daily date: 2026-08-25
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Ntozake Shange changed the stage by refusing to choose between poem, dance, music, pain, friendship, and Black women's survival. Her 1976 work for colored girls who have considered suicide / when the rainbow is enuf became a landmark, but the title alone cannot carry the whole history. Shange built a form she called a choreopoem because the old categories were not enough. She wrote about love, violation, language, migration, food, color, and the body with a syntax that did not ask standard English to approve it. Her page matters because innovation sometimes begins when a writer admits that the inherited form cannot hold the truth she needs to tell.
+- Primary or authoritative sources:
   - https://www.poetryfoundation.org/poets/ntozake-shange
+  - https://barnard.edu/magazine/winter-new/somebody-anybody-sing-black-girls-song-remembering-ntozake-shange-70
+  - https://bcrw.barnard.edu/fcg40-calling-for-colored-girls/
+- Supporting secondary sources:
+  - https://www.nytimes.com/2018/10/27/obituaries/ntozake-shange-dead.html
   - https://www.britannica.com/biography/Ntozake-Shange
+- Verified quotation source: Short quotation traced to Sassafrass, Cypress & Indigo and cross-checked against Shange bibliographic sources.
+- Sensitive or disputed claims reviewed: Name meaning, depression/personal crisis, sexual violence themes, Broadway chronology, genre term choreopoem, and criticism of the work reviewed.
+- Material corrections made: Expanded scheduled fallback beyond landmark-title summary into form, language, Black feminist performance, criticism, and later work.
+- External links included on the page:
+  - Poetry Foundation: Ntozake Shange (https://www.poetryfoundation.org/poets/ntozake-shange)
+  - Barnard College: Remembering Ntozake Shange (https://barnard.edu/magazine/winter-new/somebody-anybody-sing-black-girls-song-remembering-ntozake-shange-70)
+  - Barnard Center for Research on Women: Calling for Colored Girls (https://bcrw.barnard.edu/fcg40-calling-for-colored-girls/)
+  - The New York Times: Ntozake Shange, Who Gave Words to Colored Girls, Is Dead at 70 (https://www.nytimes.com/2018/10/27/obituaries/ntozake-shange-dead.html)
+  - Encyclopaedia Britannica: Ntozake Shange (https://www.britannica.com/biography/Ntozake-Shange)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, form and sensitive-theme claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-08-26 - Christine Darden
 
@@ -3975,3 +4083,107 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - African American Policy Forum: About AAPF (https://www.aapf.org/about)
   - Stacey Abrams: About Stacey Abrams (https://www.staceyabrams.com/about-stacey)
 - Final review status: Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, current-history and disputed-strategy claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Myrlie Evers-Williams
+
+- Entry title: Myrlie Evers-Williams
+- Slug: `myrlie-evers-williams`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Myrlie Evers-Williams is often introduced through the worst night of her life: June 12, 1963, when Medgar Evers was shot outside their home in Jackson, Mississippi. But she was never only a widow guarding someone else's legacy. She had been a partner in dangerous Mississippi organizing before the assassination, then became a public witness, author, institutional leader, corporate executive, NAACP chair, and one of the people most responsible for keeping the murder case alive until Byron De La Beckwith was convicted in 1994. Her page matters because memory is not passive. Evers-Williams shows how grief can become evidence, leadership, pressure, and public education without becoming neat or painless.
+- Primary or authoritative sources:
+  - https://naacp.org/find-resources/history-explained/civil-rights-leaders/myrlie-evers-williams
+  - https://www.nps.gov/memy/index.htm
+  - https://www.history.com/articles/myrlie-evers-williams
+- Supporting secondary sources:
+  - https://www.thehistorymakers.org/biography/myrlie-evers-williams
+  - https://womensmediacenter.com/news-features/myrlie-evers-williamsmaking-her-own-history
+- Verified quotation source: No quotation included. Inaugural prayer and public-life claims were used as source context, not excerpted as a quote.
+- Sensitive or disputed claims reviewed: Assassination trauma, family danger, trial history, De La Beckwith conviction, NAACP leadership crisis, and living-person status reviewed.
+- Material corrections made: Rebuilt legacy page beyond widow framing into organizing partnership, witness, institutional leadership, and long legal accountability.
+- External links included on the page:
+  - NAACP: Myrlie Evers-Williams (https://naacp.org/find-resources/history-explained/civil-rights-leaders/myrlie-evers-williams)
+  - National Park Service: Medgar and Myrlie Evers Home National Monument (https://www.nps.gov/memy/index.htm)
+  - The HistoryMakers: Myrlie Evers-Williams Biography (https://www.thehistorymakers.org/biography/myrlie-evers-williams)
+  - HISTORY: Myrlie Evers-Williams (https://www.history.com/articles/myrlie-evers-williams)
+  - Women's Media Center: Myrlie Evers-Williams: Making Her Own History (https://womensmediacenter.com/news-features/myrlie-evers-williamsmaking-her-own-history)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, delayed-justice and public-memory claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - New York Slave Revolt of 1712
+
+- Entry title: New York Slave Revolt of 1712
+- Slug: `ny-slave-revolt`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: The New York Slave Revolt of 1712 breaks the myth that slavery in the North was mild, marginal, or disconnected from urban life. In colonial New York City, enslaved Africans and Indigenous people lived close to the people who claimed to own them, worked in households, docks, workshops, streets, and farms, and faced a tightening racial order. On the night of April 6 into April 7, 1712, a group of enslaved people set fire to a building and attacked white residents who came toward the flames. The uprising was quickly suppressed, and the executions that followed were brutal. This page matters because Northern slavery was not an footnote. It was law, labor, fear, resistance, punishment, and profit in the heart of a city that would later prefer to remember itself as free.
+- Primary or authoritative sources:
+  - https://www.gilderlehrman.org/history-resources/spotlight-primary-source/new-york-slave-revolt-1712
+  - https://maap.columbia.edu/place/20.html
+  - https://maap.columbia.edu/place/37.html
+- Supporting secondary sources:
+  - https://www.nyhistory.org/exhibitions/slavery-new-york
+  - https://www.digitalhistory.uh.edu/disp_textbook.cfm?smtid=2&psid=3042
+- Verified quotation source: No quotation included. Surviving records are mediated colonial documents and were summarized rather than quoted.
+- Sensitive or disputed claims reviewed: Date across April 6 and 7, death/execution counts, public punishment methods, Northern slavery framing, slave market location, and archival limits reviewed.
+- Material corrections made: Rebuilt legacy page into a fuller account of Northern urban slavery, revolt, punishment, legal backlash, and public memory.
+- External links included on the page:
+  - Gilder Lehrman Institute: New York Slave Revolt of 1712 (https://www.gilderlehrman.org/history-resources/spotlight-primary-source/new-york-slave-revolt-1712)
+  - New-York Historical Society: Slavery in New York (https://www.nyhistory.org/exhibitions/slavery-new-york)
+  - Mapping the African American Past: New York Slave Revolt of 1712 (https://maap.columbia.edu/place/20.html)
+  - Digital History: Slave Rebellions (https://www.digitalhistory.uh.edu/disp_textbook.cfm?smtid=2&psid=3042)
+  - Mapping the African American Past: Wall Street Slave Market (https://maap.columbia.edu/place/37.html)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, revolt/legal-memory claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Nina Simone
+
+- Entry title: Nina Simone
+- Slug: `nina-simone`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Nina Simone did not fit inside the categories the music industry tried to sell. She was a classically trained pianist, singer, arranger, composer, civil rights artist, and performer whose concerts could feel like church, conservatory, nightclub, protest meeting, and confession all at once. She wanted to be the first Black classical concert pianist, but racism narrowed the path before the public knew her name. She made another path through jazz, blues, folk, gospel, pop, and political song. Her page matters because Simone's genius was not only her voice. It was the way she used tempo, silence, anger, tenderness, and discipline to make listeners sit with the truth she was carrying.
+- Primary or authoritative sources:
+  - https://www.loc.gov/item/ihas.200186124/
+  - https://www.ninasimone.com/biography/
+  - https://rockhall.com/inductees/nina-simone/
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/nina-simone
+  - https://northcarolinamusichalloffame.org/inductee-item/nina-simone/
+- Verified quotation source: Short quotation traced to Library of Congress Nina Simone materials and kept under excerpt limits.
+- Sensitive or disputed claims reviewed: Curtis rejection and racism framing, domestic abuse, mental health, exile, protest-song backlash, and genre classification reviewed.
+- Material corrections made: Rebuilt legacy page beyond civil-rights singer shorthand into classical ambition, genre control, political cost, personal complexity, and performance practice.
+- External links included on the page:
+  - Library of Congress: Nina Simone (https://www.loc.gov/item/ihas.200186124/)
+  - NMAAHC: Nina Simone (https://nmaahc.si.edu/nina-simone)
+  - Nina Simone Estate: Biography (https://www.ninasimone.com/biography/)
+  - Rock & Roll Hall of Fame: Nina Simone (https://rockhall.com/inductees/nina-simone/)
+  - North Carolina Music Hall of Fame: Nina Simone (https://northcarolinamusichalloffame.org/inductee-item/nina-simone/)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, sensitive biographical and music-history claim review, depth/similarity validation, desktop/mobile browser check.
+
+### Encyclopedia - Pauli Murray
+
+- Entry title: Pauli Murray
+- Slug: `pauli-murray`
+- Daily date: Encyclopedia
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Pauli Murray kept arriving before institutions were ready to admit what Murray had already seen. Murray was a lawyer, poet, civil rights strategist, labor activist, legal theorist, Episcopal priest, and one of the sharpest minds behind arguments that connected race and sex discrimination. Murray challenged segregation before Brown, coined "Jane Crow" to describe the combined force of racism and sexism, influenced Ruth Bader Ginsburg's constitutional thinking, and became the first Black person perceived as a woman to be ordained an Episcopal priest. Murray also wrestled privately with gender identity in language and medical systems that did not offer the vocabulary many readers use today. This page matters because Murray's life shows how history often depends on people whose ideas are cited long before their names are known.
+- Primary or authoritative sources:
+  - https://www.paulimurraycenter.com/
+  - https://www.nps.gov/articles/000/pauli-murray-center-for-history-and-social-justice.htm
+  - https://www.loc.gov/collections/pauli-murray-papers/about-this-collection/
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/pauli-murray
+  - https://exhibits.episcopalarchives.org/s/church-awakens/item/9196
+- Verified quotation source: Short typewriter quotation traced to Pauli Murray Center public biography materials.
+- Sensitive or disputed claims reviewed: Gender identity language, Harvard rejection, UNC rejection, bus arrest chronology, Jane Crow concept, Reed v. Reed influence, ordination first-claim wording, and pronoun framing reviewed.
+- Material corrections made: Rebuilt legacy page into a deeper account of legal strategy, race and sex discrimination, gender complexity, faith, and delayed recognition.
+- External links included on the page:
+  - Pauli Murray Center: Pauli Murray Center (https://www.paulimurraycenter.com/)
+  - National Park Service: Pauli Murray Center for History and Social Justice (https://www.nps.gov/articles/000/pauli-murray-center-for-history-and-social-justice.htm)
+  - National Women's History Museum: Pauli Murray (https://www.womenshistory.org/education-resources/biographies/pauli-murray)
+  - Library of Congress: Pauli Murray Papers (https://www.loc.gov/collections/pauli-murray-papers/about-this-collection/)
+  - Episcopal Church Archives: Pauli Murray (https://exhibits.episcopalarchives.org/s/church-awakens/item/9196)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, gender/law/religion claim review, depth/similarity validation, desktop/mobile browser check.

@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Phillis Wheatley - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Before Phillis Wheatley could publish her poems, powerful men demanded proof that a young enslaved Black woman had actually written them.">
+<meta name="description" content="Phillis Wheatley published a book before the United States existed, and powerful men still demanded proof that she had written it. Kidnapped from West Africa as a child, enslaved in Boston, educated in the Wheatley household, and published in London in 1773, she became the first Black woman in America to publish a book of poetry. That achievement is astonishing, but the deeper story is not only triumph. Wheatley wrote inside enslavement, patronage, Christian and classical learning, Revolutionary politics, and a white reading public that treated Black intelligence as something to be examined. Her page matters because her poetry exposed the lie of Black inferiority while showing how expensive recognition could be when freedom itself was still denied.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="phillis-wheatley">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,156 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Phillis Wheatley</h2>
-  <div class="meta">
-    <span class="badge">c. 1753 - 1784</span>
-    <span class="badge">Literature</span>
-    <span class="badge">2026-05-16</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>May 16 &middot; Literature</span>
   </div>
-  <article>
-    <p>Before Phillis Wheatley could publish her poems, powerful men demanded proof that a young enslaved Black woman had actually written them.</p><p>Wheatley was kidnapped from West Africa as a child and enslaved in Boston. She learned English, Latin, and classical literature, then wrote poetry that circulated across the Atlantic world.</p><p>In 1773, her book Poems on Various Subjects, Religious and Moral was published in London. A panel of Boston men had examined her first, as if her brilliance needed a certificate.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Wheatley matters because she exposed the lie that Black intelligence needed white permission to exist. Her work survived the people who doubted her.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 16 &middot; Literature</div>
+    <h1>Phillis Wheatley</h1>
+    <p class="entry-tagline">Phillis Wheatley published a book before the United States existed, and powerful men still demanded proof that she had written it. Kidnapped from West Africa as a child, enslaved in Boston, educated in the Wheatley household, and published in London in 1773, she became the first Black woman in America to publish a book of poetry. That achievement is astonishing, but the deeper story is not only triumph. Wheatley wrote inside enslavement, patronage, Christian and classical learning, Revolutionary politics, and a white reading public that treated Black intelligence as something to be examined. Her page matters because her poetry exposed the lie of Black inferiority while showing how expensive recognition could be when freedom itself was still denied.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">c. 1753 - 1784</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.poetryfoundation.org/poets/phillis-wheatley" target="_blank" rel="noopener noreferrer">https://www.poetryfoundation.org/poets/phillis-wheatley</a></li>
-<li><a href="https://www.loc.gov/item/2002552146/" target="_blank" rel="noopener noreferrer">https://www.loc.gov/item/2002552146/</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">c. 1753</div><div class="tl-event">Born in West Africa, likely in the Senegambia region, though exact birthplace is unknown.</div></div>
+<div class="tl-item"><div class="tl-date">1761</div><div class="tl-event">Kidnapped as a child and transported to Boston aboard the Phillis.</div></div>
+<div class="tl-item"><div class="tl-date">1761</div><div class="tl-event">Purchased by John and Susanna Wheatley and named after the ship.</div></div>
+<div class="tl-item"><div class="tl-date">1760s</div><div class="tl-event">Learns English, Latin, scripture, and classical literature in the Wheatley household.</div></div>
+<div class="tl-item"><div class="tl-date">1767</div><div class="tl-event">Publishes an elegy, one of her earliest known printed poems.</div></div>
+<div class="tl-item"><div class="tl-date">1772</div><div class="tl-event">Examined by prominent Boston men who attest that she wrote her poems.</div></div>
+<div class="tl-item"><div class="tl-date">1773</div><div class="tl-event">Poems on Various Subjects, Religious and Moral is published in London.</div></div>
+<div class="tl-item"><div class="tl-date">1773</div><div class="tl-event">Travels to London with Nathaniel Wheatley and gains attention in abolitionist and literary circles.</div></div>
+<div class="tl-item"><div class="tl-date">1778</div><div class="tl-event">Marries John Peters, a free Black man in Boston.</div></div>
+<div class="tl-item"><div class="tl-date">Dec 5, 1784</div><div class="tl-event">Dies in Boston in poverty.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-05-16">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Phillis Wheatley entered the historical record through violence. Around age seven, she was kidnapped from West Africa and forced across the Atlantic to Boston. The child who survived the voyage was purchased by the Wheatley family and named Phillis after the ship that carried her. That naming is a reminder that the archive often begins with what was done to her, not what she would have called herself before capture.</p>
+<p>In the Wheatley household, Phillis learned English with unusual speed and was taught Latin, scripture, and classical literature. Her education was exceptional for an enslaved child in Boston, but exception should not be confused with freedom. The same household that encouraged her learning also held her in bondage. Her brilliance developed inside a system that made her personhood legally conditional.</p>
+<p>Wheatley&#039;s poems circulated in newspapers and manuscript before her book appeared. She wrote elegies, religious poems, classical references, and occasional poems addressed to public figures. Her style belonged to the eighteenth-century Atlantic literary world. Modern readers sometimes want a more direct abolitionist voice from her, but that expectation can miss the constraints and conventions of her era. Wheatley wrote within forms that educated readers recognized, and her presence inside those forms was itself a challenge to racist assumptions.</p>
+<p>Before her book could be published, a group of prominent Boston men examined her and signed an attestation that she had written the poems. The document is both evidence and insult. It helped make publication possible, but it also shows the racial disbelief surrounding her work. White authority demanded proof not because the poems lacked skill, but because the poet was an enslaved Black girl.</p>
+<p>Poems on Various Subjects, Religious and Moral was published in London in 1773, after Boston publishers did not bring it out. The book made Wheatley internationally known. She traveled to London, where abolitionist networks and literary patrons received her with interest. Soon after, she was manumitted. Yet freedom did not bring security.</p>
+<p>The American Revolution changed the world around Wheatley and disrupted patronage networks. Members of the Wheatley family died. Phillis married John Peters, a free Black man, and struggled with poverty, illness, and the deaths of children. She tried to publish another volume but could not secure enough support. The poet who had been asked to prove her genius died young in Boston in 1784.</p>
+<p>Wheatley&#039;s work has been argued over for generations. Some readers criticize her for using Christian and classical language that can seem restrained in the face of slavery. Others point to the subtlety of her critique, the difficulty of her position, and the radical fact of her authorship. Both the poems and the conditions of publication matter. She was writing to a world that doubted Black intellect and controlled Black bodies.</p>
+<p>Her correspondence also shows a writer aware of the politics around her. Wheatley addressed George Washington, wrote elegies for public figures, and moved through networks where religion, abolition, empire, and revolution met. She was not outside the age of liberty talk. She was one of the people whose very presence exposed its contradictions. The colonies could declare rights while holding a poet in bondage and then ask whether she was capable of verse.</p>
+<p>Phillis Wheatley matters because she makes the contradiction impossible to miss. A society that claimed liberty questioned whether an enslaved Black woman could think. Her book answered in polished couplets, biblical allusion, and Atlantic literary form. The answer did not free her from poverty or exploitation, but it left a record no racist theory could honestly survive.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>Remember, Christians, Negroes, black as Cain, may be refin&#039;d, and join th&#039; angelic train.</blockquote>
+    <cite>Phillis Wheatley, &quot;On Being Brought from Africa to America&quot;</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Wheatley&#039;s achievement cost more than talent. It required surviving kidnapping, enslavement, public examination, dependence on patrons, and a literary marketplace shaped by racism. Even after publication and manumission, she faced poverty and personal loss. Recognition did not become protection.</p>
+<p>Her impact was immediate and lasting. Her book gave abolitionists evidence against claims of Black intellectual inferiority, while later Black writers inherited both her breakthrough and the burden of being measured against white doubts. Wheatley&#039;s career shows that publication can be liberation and constraint at the same time.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Phillis Wheatley matters today because debates about Black authorship, proof, audience, and respectability have not disappeared. Her examination by Boston elites is an eighteenth-century version of a familiar demand: prove you belong before your work can be received.</p>
+<p>Her story also asks readers to read historical texts on their own terms. Wheatley did not write like a twenty-first-century activist, and she should not have to. Her poetry worked inside the language available to her while making that language carry a Black woman&#039;s intellect across the Atlantic.</p>
+<p>The fuller lesson is that firsts can be both glorious and lonely. Wheatley opened a door, but the world beyond it remained harsh. Her page should honor the brilliance without pretending recognition solved the conditions that made the brilliance so contested.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-05-16" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Challenge &middot; May 16</div>
+        <div class="quiz-card-title">Open the daily challenge for Phillis Wheatley</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../generated/pages/benjamin-banneker.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Benjamin Banneker</div>
+        <div class="connected-desc">Connects Wheatley to Black intellectuals who challenged racist claims during the founding era.</div>
+      </a>
+<a href="../../generated/pages/frederick-douglass.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Frederick Douglass</div>
+        <div class="connected-desc">Links literacy, authorship, slavery, and public proof of Black intellect.</div>
+      </a>
+<a href="../../generated/pages/frances-harper.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Frances E.W. Harper</div>
+        <div class="connected-desc">Shows a later Black woman writer using poetry, fiction, and public speech for abolition and rights.</div>
+      </a>
+<a href="../../generated/pages/sojourner-truth.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Sojourner Truth</div>
+        <div class="connected-desc">Connects authorship, public voice, and the politics of how Black women are recorded.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.poetryfoundation.org/poets/phillis-wheatley" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Poetry Foundation</div>
+          <div class="ext-title">Phillis Wheatley</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/item/2021667201/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Phillis Wheatley Peters</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.masshist.org/database/163" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Massachusetts Historical Society</div>
+          <div class="ext-title">Phillis Wheatley</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.womenshistory.org/education-resources/biographies/phillis-wheatley" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Women&#039;s History Museum</div>
+          <div class="ext-title">Phillis Wheatley</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://bwht.org/phillis-wheatley/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Boston Women&#039;s Heritage Trail</div>
+          <div class="ext-title">Phillis Wheatley</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

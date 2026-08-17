@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First seventeen rebuild batches complete; continue from row 145, `Myrlie Evers-Williams`, on `encyclopedia-rebuild`.
+Status: First eighteen rebuild batches complete; continue from row 155, `Plessy v. Ferguson`, on `encyclopedia-rebuild`.
 Date: 2026-08-17
 
 ## Quality Gap Documented
@@ -229,13 +229,26 @@ Batch 17 verification:
 - Internal link validation checked 175 encyclopedia quiz CTAs through `scripts/validate-quiz-links.js`; rendered internal connections also passed depth validation.
 - `npm run generate`, `npm test`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, and desktop/mobile browser verification passed before batch completion commit.
 
+## Batch 18 Completed
+
+Completed pages: `myrlie-evers-williams`, `nat-turner`, `ny-slave-revolt`, `nikki-giovanni`, `nina-simone`, `norbert-rillieux`, `ntozake-shange`, `paul-robeson`, `pauli-murray`, `phillis-wheatley`.
+
+Batch 18 rebuilt six scheduled/generated pages and four legacy-path pages into the approved rich encyclopedia format. Myrlie Evers-Williams now centers organizing partnership, witness, institutional leadership, and delayed legal accountability; Nat Turner now handles rebellion, slavery, religion, mediated sources, violence, and retaliation with moral care; the 1712 New York revolt now restores Northern urban slavery, Wall Street's slave market, public punishment, and archival limits; Nikki Giovanni now expands beyond Black Arts shorthand into voice, performance, teaching, recordings, grief, humor, and craft; Nina Simone now connects classical ambition, arrangement, protest, exile, harm, and musical control; Norbert Rillieux now distinguishes improved sugar refining from overbroad invention myths while placing engineering inside sugar labor and racial law; Ntozake Shange now treats choreopoem form, Black feminist performance, language, criticism, and later work; Paul Robeson now connects art, labor, anti-colonial politics, Cold War repression, Peekskill, and political complexity; Pauli Murray now handles race, sex discrimination, gender complexity, law, faith, and delayed recognition; and Phillis Wheatley now expands first-book framing into Atlantic slavery, attestation, patronage, publication politics, poverty, and reading context.
+
+Batch 18 verification:
+
+- External links checked: 50 total, 0 material failures after replacing moved, stale, misleading, or generic-search URLs. Thirty links returned successful `200` responses with text relevance. Twenty HistoryMakers, Virginia Museum of History & Culture, Gilder Lehrman, New-York Historical Society, Poetry Foundation, NMAAHC, Library of Congress, Smithsonian Lemelson Center, Britannica, New York Times, FBI Vault, Massachusetts Historical Society, and similar institutional pages returned bot-blocking, dynamic, or non-text statuses during automated checking but were retained only because they are direct authoritative or high-quality pages verified for subject relevance.
+- Browser rendering checked: 10 Batch 18 pages at desktop `1280x900` and mobile `390x844`, 20 page/viewport checks, 0 failures for section presence, connected cards, external links, daily challenge cards where applicable, empty links, horizontal overflow, stale quiz wording, loading fallbacks, failed local requests, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 18 source and rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, and desktop/mobile browser verification passed before batch completion commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 145
-- REWRITE: 39
-- RESEARCH: 26
-- REBUILD: 39
+- PASS: 155
+- REWRITE: 33
+- RESEARCH: 22
+- REBUILD: 33
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -246,7 +259,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished work: continue Batch 18 from row 145, `Myrlie Evers-Williams`.
+Next unfinished work: continue Batch 19 from row 155, `Plessy v. Ferguson`.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -398,16 +411,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 142 | Modern Civil Rights Leaders | encyclopedia/modern-civil-rights.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, BLM/current-history/intersectionality/voting-rights/disputed-strategy claim review, corrected AAPF and Stacey Abrams URLs, depth/similarity validation, desktop/mobile browser check. |
 | 143 | MOVE Bombing | generated/pages/move-bombing.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified commission quotation, death-count/fire/remains-mishandling/rebuilding/legal-aftermath claim review, replaced stale Temple and WHYY URLs, depth/similarity validation, desktop/mobile browser check. |
 | 144 | Muhammad Ali | generated/pages/muhammad-ali.html | PASS | Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short anti-war quotation, name-change/Nation of Islam/draft case/Frazier/Parkinson's/athlete-activism claim review, corrected NPS and NMAAHC URLs, depth/similarity validation, desktop/mobile browser check. |
-| 145 | Myrlie Evers-Williams | encyclopedia/myrlie-evers-williams.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 146 | Nat Turner | generated/pages/nat-turner.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 147 | New York Slave Revolt of 1712 | encyclopedia/ny-slave-revolt.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 148 | Nikki Giovanni | generated/pages/nikki-giovanni.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 149 | Nina Simone | encyclopedia/nina-simone.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 150 | Norbert Rillieux | generated/pages/norbert-rillieux.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 151 | Ntozake Shange | generated/pages/ntozake-shange.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 152 | Paul Robeson | generated/pages/paul-robeson.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 153 | Pauli Murray | encyclopedia/pauli-murray.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 154 | Phillis Wheatley | generated/pages/phillis-wheatley.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 145 | Myrlie Evers-Williams | encyclopedia/myrlie-evers-williams.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, assassination/organizing/NAACP/delayed-justice claim review, corrected stale source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 146 | Nat Turner | generated/pages/nat-turner.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, revolt/retaliation/confession-source/religion/violence claim review, corrected primary-source URL, depth/similarity validation, desktop/mobile browser check. |
+| 147 | New York Slave Revolt of 1712 | encyclopedia/ny-slave-revolt.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, Northern urban slavery/revolt/executions/Wall Street market/archive-limit claim review, replaced stale NYC Archives URL, depth/similarity validation, desktop/mobile browser check. |
+| 148 | Nikki Giovanni | generated/pages/nikki-giovanni.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, Black Arts/Fisk/Virginia Tech/death-date/performance claim review, replaced stale VT/Fisk/LVA/search URLs, depth/similarity validation, desktop/mobile browser check. |
+| 149 | Nina Simone | encyclopedia/nina-simone.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, Curtis rejection/protest-song/domestic-abuse/mental-health/exile claim review, replaced stale NMAAM URL, depth/similarity validation, desktop/mobile browser check. |
+| 150 | Norbert Rillieux | generated/pages/norbert-rillieux.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, invention-versus-improvement/patent/sugar-labor/free-person-of-color claim review, replaced stale Lemelson URL, depth/similarity validation, desktop/mobile browser check. |
+| 151 | Ntozake Shange | generated/pages/ntozake-shange.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, choreopoem/name-meaning/sexual-violence/theme/Broadway claim review, replaced stale Barnard and search URLs, depth/similarity validation, desktop/mobile browser check. |
+| 152 | Paul Robeson | generated/pages/paul-robeson.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, passport/blacklist/Peekskill/Soviet-controversy/labor claim review, replaced stale Archives and Rutgers URLs, depth/similarity validation, desktop/mobile browser check. |
+| 153 | Pauli Murray | encyclopedia/pauli-murray.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, gender-language/Jane Crow/legal influence/ordination claim review, corrected Pauli Murray Center/NPS/Episcopal URLs, depth/similarity validation, desktop/mobile browser check. |
+| 154 | Phillis Wheatley | generated/pages/phillis-wheatley.html | PASS | Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, first-book/birthplace uncertainty/attestation/enslavement/patronage claim review, depth/similarity validation, desktop/mobile browser check. |
 | 155 | Plessy v. Ferguson | generated/pages/plessy-v-ferguson.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 156 | Prince | generated/pages/prince.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 157 | Rachel Robinson | encyclopedia/rachel-robinson.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
