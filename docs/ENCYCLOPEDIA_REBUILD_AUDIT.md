@@ -1,6 +1,6 @@
 # Encyclopedia Rebuild Audit
 
-Status: First twenty-three rebuild batches complete; continue from row 205, `Vivien Thomas`, on `encyclopedia-rebuild`.
+Status: All twenty-four rebuild batches complete; 210 encyclopedia cards are PASS on `encyclopedia-rebuild`. Final whole-site audit, production promotion, and live verification remain.
 Date: 2026-08-18
 
 ## Quality Gap Documented
@@ -305,13 +305,26 @@ Batch 23 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 23 source and rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
 
+## Batch 24 Completed
+
+Completed pages: `vivien-thomas`, `voting-rights`, `web-du-bois`, `wilma-rudolph`, `zora-neale-hurston`.
+
+Batch 24 completed the remaining unfinished entries while preserving the approved Batch 1 voice and Claudette-style presentation. Vivien Thomas now treats heart-surgery innovation through medical labor, credit, race, pay, and training rather than miracle-genius shorthand; Voting Rights and Suppression now removes the legacy synthetic pull quote and expands into a chronological systems history from the 15th Amendment through Shelby County and present access fights; W.E.B. Du Bois now moves beyond double consciousness into sociology, The Crisis, the NAACP, Black Reconstruction, Pan-Africanism, Cold War repression, and Ghana; Wilma Rudolph now deepens the polio-to-Olympics frame with family care, segregated medicine, Tennessee State's Tigerbelles, Cold War visibility, and her integrated Clarksville homecoming demand; and Zora Neale Hurston now expands beyond rediscovery into Eatonville, anthropology, Black Southern vernacular, literary debate, political complexity, late-life poverty, and Black feminist recovery work.
+
+Batch 24 verification:
+
+- External links checked: 25 total, 0 broken after replacing stale Achievement.org, Brennan Center, Harvard, USATF, and Barnard URLs. Eighteen links returned successful responses. Seven Johns Hopkins, Britannica, Library of Congress, Smithsonian, and Florida Memory institutional links returned bot-blocking, throttling, or dynamic-fetch errors during automated checking but were retained only because they are direct authoritative or high-quality pages verified for subject relevance.
+- Browser rendering checked: 5 Batch 24 pages at desktop `1280x900` and mobile `390x844`, 10 page/viewport checks in the in-app browser plus 10 supplemental Playwright page/viewport checks, 0 failures for required sections, connected cards, external links, quiz CTAs, empty links, broken images, horizontal overflow, stale quiz wording, loading fallbacks, failed local requests, or material page console errors.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 24 source and rendered pages, 0 findings.
+- `npm run generate`, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 205
-- REWRITE: 2
-- RESEARCH: 3
-- REBUILD: 2
+- PASS: 210
+- REWRITE: 0
+- RESEARCH: 0
+- REBUILD: 0
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -322,7 +335,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished work: continue Batch 24 from row 205, `Vivien Thomas`.
+Next unfinished work: all encyclopedia rows are PASS. Continue with the final whole-encyclopedia verification, random-sample editorial audit, production promotion to `main`, GitHub Pages monitoring, and live production verification.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -534,9 +547,9 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 202 | Tupac Shakur | generated/pages/tupac-shakur.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, art/legal-controversy/commercial-pressure/death/posthumous-memory claim review, corrected source mix, depth/similarity validation, desktop/mobile browser check. |
 | 203 | University of Alabama Integration | generated/pages/university-of-alabama-integration.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, court-order/Wallace/Kennedy/Malone/Hood/Vivian Malone Jones claim review, corrected JFK and university sources, depth/similarity validation, desktop/mobile browser check. |
 | 204 | Valerie Thomas | generated/pages/valerie-thomas.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Landsat/image-processing/illusion-transmitter/patent/NASA-career claim review, corrected NASA and Landsat source URLs, depth/similarity validation, desktop/mobile browser check. |
-| 205 | Vivien Thomas | generated/pages/vivien-thomas.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 206 | Voting Rights & Suppression | encyclopedia/voting-rights.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 205 | Vivien Thomas | generated/pages/vivien-thomas.html | PASS | Batch 24 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, medical-credit/Blalock-Taussig/title/pay-recognition claim review, corrected stale external source, depth/similarity validation, desktop/mobile browser check. |
+| 206 | Voting Rights & Suppression | encyclopedia/voting-rights.html | PASS | Batch 24 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, removed unsourced legacy quote, 15th Amendment/Jim Crow devices/VRA/Shelby/modern-access claim review, depth/similarity validation, desktop/mobile browser check. |
 | 207 | Voting Rights Act of 1965 | generated/pages/voting-rights-act.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |
-| 208 | W.E.B. Du Bois | generated/pages/web-du-bois.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 209 | Wilma Rudolph | encyclopedia/wilma-rudolph.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 210 | Zora Neale Hurston | encyclopedia/zora-neale-hurston.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
+| 208 | W.E.B. Du Bois | generated/pages/web-du-bois.html | PASS | Batch 24 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, Harvard/NAACP/Crisis/Black Reconstruction/Pan-Africanism/Ghana claim review, corrected stale Harvard source, depth/similarity validation, desktop/mobile browser check. |
+| 209 | Wilma Rudolph | encyclopedia/wilma-rudolph.html | PASS | Batch 24 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, polio/1956 bronze/1960 gold medals/Tigerbelles/integrated homecoming claim review, corrected stale USATF source, depth/similarity validation, desktop/mobile browser check. |
+| 210 | Zora Neale Hurston | encyclopedia/zora-neale-hurston.html | PASS | Batch 24 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, birth/Eatonville/Barnard/Boas/folklore/reception/Brown-position/recovery claim review, corrected stale Barnard source, depth/similarity validation, desktop/mobile browser check. |

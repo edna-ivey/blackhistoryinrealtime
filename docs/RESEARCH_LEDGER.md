@@ -108,11 +108,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-10 - W.E.B. Du Bois
 
+- Entry title: W.E.B. Du Bois
 - Slug: `web-du-bois`
-- Core claims: W.E.B. Du Bois studied America so closely that he gave people a language for the split Black Americans were forced to carry inside themselves. Du Bois became the first Black person to earn a PhD from Harvard and helped found the NAACP. His book The Souls of Black Folk introduced the idea of double consciousness to describe living as both Black and American in a country that treated those identities as a conflict. He challenged Booker T. Washington's accommodationist politics, edited The Crisis, and spent decades connecting Black freedom in the United States to struggles across the African diaspora.
-- Sources:
+- Daily date: 2026-05-10
+- Date researched: 2026-08-18
+- Writer/research status: batch-24-complete
+- Material factual claims: W.E.B. Du Bois was not only a brilliant scholar who coined a phrase people still quote. He was an institution builder, sociologist, editor, historian, novelist, organizer, Pan-Africanist, and public fighter whose long life kept changing shape. He studied Black life with data before American sociology knew how much it needed him. He helped found the NAACP, edited The Crisis, challenged Booker T. Washington, wrote The Souls of Black Folk and Black Reconstruction, and connected Black freedom in the United States to anti-colonial struggles around the world. His page matters because Du Bois refused to treat Black people as a social problem. He treated racism, capitalism, empire, and democracy as the problem, and he spent nearly a century making the country answer for that difference.
+- Primary or authoritative sources:
   - https://www.loc.gov/exhibits/naacp/prelude.html
-  - https://www.britannica.com/biography/W-E-B-Du-Bois
+  - https://credo.library.umass.edu/view/collection/mums312
+  - https://duboiscenter.library.umass.edu/about-du-bois/
+- Supporting secondary sources:
+  - https://naacp.org/find-resources/history-explained/civil-rights-leaders/web-du-bois
+  - https://guides.library.harvard.edu/hua/dubois
+- Verified quotation source: The Souls of Black Folk wording verified through standard public-domain text and cross-checked against LOC/UMass Du Bois context.
+- Sensitive or disputed claims reviewed: First Harvard PhD claim, The Philadelphia Negro significance, NAACP role, The Crisis editorship, Washington debate framing, Black Reconstruction interpretation, indictment/acquittal, Ghana citizenship, and death-date context reviewed.
+- Material corrections made: Expanded scheduled fallback into full intellectual, institutional, and political biography; added complexity around elitism, Cold War repression, Pan-Africanism, and Reconstruction historiography.
+- External links included on the page:
+  - Library of Congress: NAACP: A Century in the Fight for Freedom, Prelude (https://www.loc.gov/exhibits/naacp/prelude.html)
+  - UMass Amherst Libraries: W.E.B. Du Bois Papers (https://credo.library.umass.edu/view/collection/mums312)
+  - W.E.B. Du Bois Center at UMass Amherst: About W.E.B. Du Bois (https://duboiscenter.library.umass.edu/about-du-bois/)
+  - NAACP: W.E.B. Du Bois (https://naacp.org/find-resources/history-explained/civil-rights-leaders/web-du-bois)
+  - Harvard University Archives: W.E.B. Du Bois, Harvard PhD 1895 (https://guides.library.harvard.edu/hua/dubois)
+- Final review status: Batch 24 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, scholar/activist claim review.
 
 ### 2026-05-11 - Booker T. Washington
 
@@ -1680,11 +1698,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-07-12 - Vivien Thomas
 
+- Entry title: Vivien Thomas
 - Slug: `vivien-thomas`
-- Core claims: Vivien Thomas trained surgeons with hands the hospital would not fully honor. Thomas was a laboratory assistant and surgical technician whose skill was central to developing a heart surgery for "blue baby" syndrome at Johns Hopkins. He trained many surgeons and contributed to lifesaving techniques while being paid and titled far below his expertise for years.
-- Sources:
+- Daily date: 2026-07-12
+- Date researched: 2026-08-18
+- Writer/research status: batch-24-complete
+- Material factual claims: Vivien Thomas did not have the title the hospital world respected most. He did not have a medical degree. For years, he was paid like a janitor while doing work that shaped modern heart surgery. At Vanderbilt and then Johns Hopkins, Thomas became the laboratory technician and surgical teacher whose hands helped make the Blalock-Taussig shunt possible, a procedure that saved children with cyanotic heart disease. The simplified version calls him hidden genius. The deeper story is sharper: Thomas worked inside a medical system that needed his skill, copied his technique, trusted his judgment, and still refused to name him properly for decades. His page matters because medical history is full of people whose labor made breakthroughs possible while institutions arranged the credit around rank, race, and credentials.
+- Primary or authoritative sources:
   - https://www.hopkinsmedicine.org/about/history/history-of-medicine/vivien-thomas
+  - https://www.hopkinsmedicine.org/heart-vascular-institute/cardiovascular-research/by-laboratory/cardiac-surgery-research-lab/history
+  - https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html
+- Supporting secondary sources:
+  - https://www.pbs.org/wgbh/americanexperience/films/partners/
   - https://www.britannica.com/biography/Vivien-Thomas
+- Verified quotation source: No quotation included. Hospital, surgery, title, and recognition claims verified through Johns Hopkins and National Library of Medicine materials.
+- Sensitive or disputed claims reviewed: Medical-credit claims, Blalock-Taussig naming, Eileen Saxon operation date, lack of medical degree, pay/status disparity, honorary doctorate, and institutional segregation reviewed.
+- Material corrections made: Expanded scheduled fallback into full medical-labor history and avoided implying Thomas alone invented the procedure outside the Blalock-Taussig-Thomas collaboration.
+- External links included on the page:
+  - Johns Hopkins Medicine: Vivien Thomas (https://www.hopkinsmedicine.org/about/history/history-of-medicine/vivien-thomas)
+  - Johns Hopkins Medicine: Cardiac Surgery Research Laboratory History (https://www.hopkinsmedicine.org/heart-vascular-institute/cardiovascular-research/by-laboratory/cardiac-surgery-research-lab/history)
+  - National Library of Medicine: African American Surgeons: Pioneers (https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html)
+  - PBS American Experience: Partners of the Heart (https://www.pbs.org/wgbh/americanexperience/films/partners/)
+  - Britannica: Vivien Thomas (https://www.britannica.com/biography/Vivien-Thomas)
+- Final review status: Batch 24 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, medical-credit claim review.
 
 ### 2026-07-13 - Rebecca Lee Crumpler
 
@@ -5224,3 +5260,81 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - City of Tulsa: 1921 Graves Investigation (https://www.cityoftulsa.org/1921graves)
   - Oklahoma Digital Prairie: Tulsa Race Massacre Collection (https://digitalprairie.ok.gov/digital/collection/race-riot)
 - Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, racial-terror/property/memory claim review.
+
+### 2026-02-23 - Voting Rights & Suppression
+
+- Entry title: Voting Rights & Suppression
+- Slug: `voting-rights`
+- Daily date: 2026-02-23
+- Date researched: 2026-08-18
+- Writer/research status: batch-24-complete
+- Material factual claims: Voting suppression is not one trick. It is a moving system. After the 15th Amendment promised that voting rights could not be denied because of race, white officials, courts, mobs, employers, registrars, and legislatures built new barriers to keep Black political power from becoming real. Poll taxes, literacy tests, grandfather clauses, white primaries, intimidation, purges, district maps, felony disenfranchisement, polling-place closures, and registration obstacles belong to the same long argument over who gets to shape democracy. This page is not only about the right to cast a ballot. It is about the power behind the ballot: schools, courts, sheriffs, land, budgets, juries, and public memory. The popular version treats 1965 as the victory. The fuller story shows why every victory created a new backlash.
+- Primary or authoritative sources:
+  - https://www.archives.gov/milestone-documents/15th-amendment
+  - https://www.archives.gov/milestone-documents/voting-rights-act
+  - https://www.oyez.org/cases/2012/12-96
+- Supporting secondary sources:
+  - https://www.loc.gov/collections/civil-rights-history-project/articles-and-essays/voting-rights/
+  - https://www.brennancenter.org/our-work/research-reports/shelby-county-v-holder-turns-10-and-voting-rights-continue-suffer-it
+- Verified quotation source: No quotation included. Removed legacy synthetic quote-like language and replaced with sourced analysis.
+- Sensitive or disputed claims reviewed: Black male suffrage framing, Reconstruction officeholding, Mississippi constitution, grandfather clauses, white primaries, poll taxes, Voting Rights Act scope, Shelby County effect, and modern suppression wording reviewed.
+- Material corrections made: Removed unsourced pull quote and expanded legacy page into a chronological systems history with careful distinction between Jim Crow devices and modern voting-access fights.
+- External links included on the page:
+  - National Archives: 15th Amendment to the U.S. Constitution (https://www.archives.gov/milestone-documents/15th-amendment)
+  - National Archives: Voting Rights Act of 1965 (https://www.archives.gov/milestone-documents/voting-rights-act)
+  - Library of Congress: Voting Rights (https://www.loc.gov/collections/civil-rights-history-project/articles-and-essays/voting-rights/)
+  - Oyez: Shelby County v. Holder (https://www.oyez.org/cases/2012/12-96)
+  - Brennan Center for Justice: Shelby County v. Holder Turns 10 (https://www.brennancenter.org/our-work/research-reports/shelby-county-v-holder-turns-10-and-voting-rights-continue-suffer-it)
+- Final review status: Batch 24 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, voting-rights claim review.
+
+### 2026-04-18 - Wilma Rudolph
+
+- Entry title: Wilma Rudolph
+- Slug: `wilma-rudolph`
+- Daily date: 2026-04-18
+- Date researched: 2026-08-18
+- Writer/research status: batch-24-complete
+- Material factual claims: Wilma Rudolph is often introduced as the child who had polio and became the fastest woman in the world. That is true, but it can turn her life into a miracle story and skip the work. Rudolph grew up in segregated Clarksville, Tennessee, in a large family that carried her to medical care because Black children were not welcomed equally into white health systems. She learned to walk without a brace, played basketball, joined Ed Temple's Tigerbelles at Tennessee State, and became an Olympic star. In 1960, she won three gold medals in Rome and became one of the most visible Black women athletes on earth. Her page matters because her speed was never only individual triumph. It came from family care, HBCU coaching, discipline, segregation-era travel, Cold War publicity, and a young woman insisting that celebration at home could not be segregated.
+- Primary or authoritative sources:
+  - https://olympics.com/en/athletes/wilma-rudolph
+  - https://usatf.org/athlete-bios/wilma-rudolph
+  - https://www.tnstate.edu/library/digital/tigerbelles.aspx
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/wilma-rudolph
+  - https://americanhistory.si.edu/collections/search/object/nmah_1366535
+- Verified quotation source: No quotation included. Common inspirational Rudolph quotations were omitted because a direct primary source was not used for this page.
+- Sensitive or disputed claims reviewed: Polio and childhood illness, age at 1956 Olympics, 1960 medal events, Tigerbelles training, integrated Clarksville celebration, retirement timing, and death from cancer reviewed.
+- Material corrections made: Expanded legacy page beyond miracle framing, avoided using disability as simple inspiration, and tied Rudolph to family care, HBCU coaching, segregation, and Black women athletes' public burden.
+- External links included on the page:
+  - Olympics: Wilma Rudolph (https://olympics.com/en/athletes/wilma-rudolph)
+  - National Women's History Museum: Wilma Rudolph (https://www.womenshistory.org/education-resources/biographies/wilma-rudolph)
+  - USA Track & Field: Wilma Rudolph (https://usatf.org/athlete-bios/wilma-rudolph)
+  - Tennessee State University: Tigerbelles (https://www.tnstate.edu/library/digital/tigerbelles.aspx)
+  - Smithsonian National Museum of American History: Wilma Rudolph Olympic Collection (https://americanhistory.si.edu/collections/search/object/nmah_1366535)
+- Final review status: Batch 24 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, sports/disability/segregation claim review.
+
+### 2026-03-14 - Zora Neale Hurston
+
+- Entry title: Zora Neale Hurston
+- Slug: `zora-neale-hurston`
+- Daily date: 2026-03-14
+- Date researched: 2026-08-18
+- Writer/research status: batch-24-complete
+- Material factual claims: Zora Neale Hurston wrote Black life as if Black people were already enough. That sounds simple now because her influence is everywhere. In her own lifetime, it was risky. Hurston was a novelist, folklorist, anthropologist, performer, and collector of stories who treated Black Southern speech, humor, religion, work, desire, and argument as serious knowledge. She grew up in Eatonville, Florida, studied at Howard and Barnard, collected folklore in the South and Caribbean, and wrote Their Eyes Were Watching God in 1937. Some contemporaries criticized her for not writing protest fiction in the expected way. Later, her books fell out of print and her grave went unmarked until Alice Walker helped revive public attention. Her page matters because recovery is not just praise after neglect. It asks why a writer who saw Black people so clearly had to be found again.
+- Primary or authoritative sources:
+  - https://www.loc.gov/item/n50008850/zora-neale-hurston-1891-1960/
+  - https://guides.loc.gov/zora-neale-hurston
+  - https://barnard.edu/zora-neale-hurston-at-barnard
+- Supporting secondary sources:
+  - https://www.floridamemory.com/learn/exhibits/photo_exhibits/zora-neale-hurston/
+  - https://www.womenshistory.org/education-resources/biographies/zora-hurston
+- Verified quotation source: "How It Feels to Be Colored Me" quotation verified through standard published text and Library of Congress/Barnard Hurston context.
+- Sensitive or disputed claims reviewed: Birthplace/year ambiguity, Eatonville framing, Barnard/Boas training, folklore fieldwork, Their Eyes Were Watching God reception, Richard Wright criticism, Brown v. Board position, poverty, unmarked grave, and Alice Walker recovery framing reviewed.
+- Material corrections made: Rebuilt legacy page to remove em dashes in new copy, deepen anthropology and literary debates, add political complexity, and move beyond rediscovery shorthand.
+- External links included on the page:
+  - Library of Congress: Zora Neale Hurston (https://www.loc.gov/item/n50008850/zora-neale-hurston-1891-1960/)
+  - Library of Congress Research Guides: Zora Neale Hurston: A Resource Guide (https://guides.loc.gov/zora-neale-hurston)
+  - Barnard College: Zora at Barnard (https://barnard.edu/zora-neale-hurston-at-barnard)
+  - Florida Memory: Zora Neale Hurston (https://www.floridamemory.com/learn/exhibits/photo_exhibits/zora-neale-hurston/)
+  - National Women's History Museum: Zora Neale Hurston (https://www.womenshistory.org/education-resources/biographies/zora-hurston)
+- Final review status: Batch 24 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, literary/anthropology claim review.
