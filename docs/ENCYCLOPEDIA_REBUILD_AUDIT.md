@@ -1,7 +1,7 @@
 # Encyclopedia Rebuild Audit
 
-Status: First twenty-two rebuild batches complete; continue from row 195, `The Rosewood Massacre`, on `encyclopedia-rebuild`.
-Date: 2026-08-17
+Status: First twenty-three rebuild batches complete; continue from row 205, `Vivien Thomas`, on `encyclopedia-rebuild`.
+Date: 2026-08-18
 
 ## Quality Gap Documented
 
@@ -293,13 +293,25 @@ Batch 22 verification:
 - Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 22 source and rendered pages, 0 findings.
 - `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
 
+## Batch 23 Completed
+
+Completed pages: `rosewood-massacre`, `scottsboro-boys`, `tuskegee-airmen`, `underground-railroad`, `thurgood-marshall`, `toni-morrison`, `tulsa-massacre`, `tupac-shakur`, `university-of-alabama-integration`, `valerie-thomas`.
+
+Batch 23 rebuilt five legacy-path pages and five scheduled/generated pages into the approved rich encyclopedia format. Rosewood now treats racial terror, property loss, state silence, survivor testimony, compensation, and contested death counts with care; the Scottsboro Boys page now follows arrest, all-white juries, Supreme Court due-process rulings, Communist legal defense, and the cost to the nine young defendants; the Tuskegee Airmen page now connects training, combat, maintenance work, segregation, command strategy, and delayed recognition; the Underground Railroad now centers networks, risk, local knowledge, law, Black leadership, and the limits of myth; Thurgood Marshall now expands beyond Brown into legal strategy, NAACP work, Solicitor General service, Supreme Court judging, and institutional cost; Toni Morrison now treats editing, language, memory, motherhood, literary form, and Black interior life; Tulsa now restores Greenwood's institutions, white mob violence, official failures, survivor advocacy, and mass-grave investigation; Tupac Shakur now handles art, commercial pressure, legal controversy, surveillance, grief, and posthumous memory without flattening him into either icon or cautionary tale; University of Alabama Integration now traces federal court orders, Wallace's staged defiance, Kennedy's civil-rights address, and the burden on Vivian Malone and James Hood; and Valerie Thomas now distinguishes Landsat image-processing work from the illusion-transmitter patent while placing her career inside NASA's hidden technical labor.
+
+Batch 23 verification:
+
+- External links checked: 51 total, 0 broken after replacing a dead Florida Memory Rosewood collection URL with a direct Florida Memory record. Forty-three links returned successful responses. Eight Florida Memory, Florida Historical Quarterly, Library of Congress, JFK Library, Britannica, NASA/My NASA Data, and similar institutional links returned bot-blocking, throttling, or dynamic-fetch errors during automated checking but were retained only because they are direct authoritative or high-quality pages verified for subject relevance.
+- Copy-quality scan checked for banned generic phrases, placeholders, unresolved markers, stale quiz wording, loading fallbacks, and em dashes in Batch 23 source and rendered pages, 0 findings.
+- `npm run generate`, `npm test`, `npm run check-links`, `git diff --check`, syntax check, depth/similarity validation, daily-content validation, encyclopedia-index validation, quiz-link validation, external-link verification, copy-quality scan, and desktop/mobile browser verification passed before batch completion commit.
+
 ## Counts
 
 - Total rendered cards audited: 210
-- PASS: 195
-- REWRITE: 7
-- RESEARCH: 8
-- REBUILD: 7
+- PASS: 205
+- REWRITE: 2
+- RESEARCH: 3
+- REBUILD: 2
 - MERGE: 0
 - REMOVE: 0
 - BLOCKED: 0
@@ -310,7 +322,7 @@ Owner review gate: cleared. Continue future batches using Batch 1 as the locked 
 
 ## Continuation Checkpoint
 
-Next unfinished work: continue Batch 23 from row 195, `The Rosewood Massacre`.
+Next unfinished work: continue Batch 24 from row 205, `Vivien Thomas`.
 
 Continue in batches of no more than 10, starting with that row, unless editorial priority changes. For every future PASS, require rich source content, research ledger record, Claudette visual structure, internal links, external links, and depth/similarity validation.
 
@@ -512,16 +524,16 @@ Continue in batches of no more than 10, starting with that row, unless editorial
 | 192 | The Little Rock Nine | generated/pages/little-rock-nine.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, student names/federalization/Eckford/Minnijean Brown/Lost Year claim review, corrected stale NPS person source, depth/similarity validation, desktop/mobile browser check. |
 | 193 | The McDonogh Three | generated/pages/mcdonogh-three.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, names/date/McDonogh 19/Ruby Bridges same-day/building afterlife claim review, corrected stale 64 Parishes/NPS/HNOC URLs, depth/similarity validation, desktop/mobile browser check. |
 | 194 | The Mis-Education of the Negro | encyclopedia/mis-education.html | PASS | Batch 22 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, Woodson/book/ASALH/curriculum/economics/Black History Month claim review, corrected HBCU path, depth/similarity validation, desktop/mobile browser check. |
-| 195 | The Rosewood Massacre | encyclopedia/rosewood-massacre.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 196 | The Scottsboro Boys | generated/pages/scottsboro-boys.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 197 | The Tuskegee Airmen | encyclopedia/tuskegee-airmen.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 198 | The Underground Railroad | generated/pages/underground-railroad.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 199 | Thurgood Marshall | encyclopedia/thurgood-marshall.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 200 | Toni Morrison | encyclopedia/toni-morrison.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 201 | Tulsa Race Massacre | encyclopedia/tulsa-massacre.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
-| 202 | Tupac Shakur | generated/pages/tupac-shakur.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 203 | University of Alabama Integration | generated/pages/university-of-alabama-integration.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
-| 204 | Valerie Thomas | generated/pages/valerie-thomas.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
+| 195 | The Rosewood Massacre | encyclopedia/rosewood-massacre.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, false-accusation/property-loss/compensation/death-count claim review, corrected dead Florida Memory URL, depth/similarity validation, desktop/mobile browser check. |
+| 196 | The Scottsboro Boys | generated/pages/scottsboro-boys.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, arrests/all-white juries/Powell/Norris/legal-defense/pardon claim review, depth/similarity validation, desktop/mobile browser check. |
+| 197 | The Tuskegee Airmen | encyclopedia/tuskegee-airmen.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, training/combat/maintenance/escort-record/recognition claim review, corrected stale Air Force URLs, depth/similarity validation, desktop/mobile browser check. |
+| 198 | The Underground Railroad | generated/pages/underground-railroad.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, network/myth/Fugitive Slave Act/Tubman/free-Black-community claim review, corrected stale source URLs, depth/similarity validation, desktop/mobile browser check. |
+| 199 | Thurgood Marshall | encyclopedia/thurgood-marshall.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, NAACP litigation/Brown/Solicitor General/Supreme Court/legacy claim review, depth/similarity validation, desktop/mobile browser check. |
+| 200 | Toni Morrison | encyclopedia/toni-morrison.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified Nobel lecture quotation, editor/novelist/Nobel/archive/memory claim review, corrected moved NEH and publisher sources, depth/similarity validation, desktop/mobile browser check. |
+| 201 | Tulsa Race Massacre | encyclopedia/tulsa-massacre.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, Greenwood/mob-violence/property-loss/mass-grave/commission claim review, corrected state archive source, depth/similarity validation, desktop/mobile browser check. |
+| 202 | Tupac Shakur | generated/pages/tupac-shakur.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, art/legal-controversy/commercial-pressure/death/posthumous-memory claim review, corrected source mix, depth/similarity validation, desktop/mobile browser check. |
+| 203 | University of Alabama Integration | generated/pages/university-of-alabama-integration.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, court-order/Wallace/Kennedy/Malone/Hood/Vivian Malone Jones claim review, corrected JFK and university sources, depth/similarity validation, desktop/mobile browser check. |
+| 204 | Valerie Thomas | generated/pages/valerie-thomas.html | PASS | Batch 23 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, Landsat/image-processing/illusion-transmitter/patent/NASA-career claim review, corrected NASA and Landsat source URLs, depth/similarity validation, desktop/mobile browser check. |
 | 205 | Vivien Thomas | generated/pages/vivien-thomas.html | REWRITE, REBUILD | Scheduled daily fallback page is generated from lede/context/turning/why fields and is not yet encyclopedia-level; needs full research rewrite and rich template rendering. |
 | 206 | Voting Rights & Suppression | encyclopedia/voting-rights.html | RESEARCH | Legacy page may be visually closer to the March identity but needs independent factual/source audit, external-link verification, and duplication/depth review before PASS. |
 | 207 | Voting Rights Act of 1965 | generated/pages/voting-rights-act.html | PASS | First rebuild batch complete: rich source, Claudette-style generated page, ledger record, internal links, external links, depth and similarity validation. |

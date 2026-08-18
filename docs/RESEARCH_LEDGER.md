@@ -56,11 +56,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-05-08 - The Scottsboro Boys
 
+- Entry title: The Scottsboro Boys
 - Slug: `scottsboro-boys`
-- Core claims: Nine Black teenagers got on a train in 1931. By the end of the ride, Alabama was trying to send them to the electric chair. The boys were falsely accused of raping two white women after a fight on a freight train. All-white juries, rushed trials, and open racial terror turned the case into an international symbol of Jim Crow injustice. The U.S. Supreme Court intervened twice, ruling that the defendants had been denied adequate counsel and that Black people had been excluded from juries. Those rulings changed criminal procedure far beyond Alabama.
-- Sources:
-  - https://www.archives.gov/research/african-americans/individuals/scottsboro-boys
-  - https://www.encyclopediaofalabama.org/article/scottsboro-boys/
+- Daily date: 2026-05-08
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: The Scottsboro Boys were nine Black teenagers pulled into the machinery of Jim Crow justice after a fight on a freight train in Alabama in 1931. They were accused of raping two white women, rushed through trials, convicted by all-white juries, and threatened with death. Their case became international because it exposed how quickly Southern courts could turn accusation into sentence when the defendants were Black, young, poor, and unpopular. It also forced the U.S. Supreme Court to confront two basic questions: whether defendants facing death had the right to meaningful counsel, and whether Black people could be excluded from juries. This page matters because due process is not abstract. For these teenagers, procedure was the line between life and execution.
+- Primary or authoritative sources:
+  - https://docsteach.org/document/haywood-patterson-of-the-scottsboro-boys/
+  - https://www.oyez.org/cases/1900-1940/287us45
+  - https://www.oyez.org/cases/1900-1940/294us587
+- Supporting secondary sources:
+  - https://encyclopediaofalabama.org/article/scottsboro-boys/
+  - https://scottsboroboysmuseum.org/history/
+- Verified quotation source: No quotation included. Defendant names, case sequence, and rulings documented through National Archives and Oyez.
+- Sensitive or disputed claims reviewed: Rape accusation, Ruby Bates recantation, death sentences, all-white juries, defendant ages, and pardon history reviewed.
+- Material corrections made: Expanded scheduled fallback into full due-process, jury, movement, and defendant-life context.
+- External links included on the page:
+  - National Archives DocsTeach: Haywood Patterson of the Scottsboro Boys on trial (https://docsteach.org/document/haywood-patterson-of-the-scottsboro-boys/)
+  - Oyez: Powell v. Alabama (https://www.oyez.org/cases/1900-1940/287us45)
+  - Oyez: Norris v. Alabama (https://www.oyez.org/cases/1900-1940/294us587)
+  - Encyclopedia of Alabama: Scottsboro Boys (https://encyclopediaofalabama.org/article/scottsboro-boys/)
+  - Scottsboro Boys Museum and Cultural Center: History (https://scottsboroboysmuseum.org/history/)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, legal/sensitive claim review.
 
 ### 2026-05-09 - Langston Hughes
 
@@ -791,11 +809,31 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-08 - The Underground Railroad
 
+- Entry title: The Underground Railroad
 - Slug: `underground-railroad`
-- Core claims: The Underground Railroad had no tracks, no timetable, and no central office. That was the point. It was a loose network of enslaved people, free Black communities, Indigenous allies, white abolitionists, safe houses, routes, signals, and local knowledge used to help people escape slavery. The people escaping were not passengers in someone else's rescue story. They were the main strategists, making dangerous decisions with incomplete information and everything at stake.
-- Sources:
+- Daily date: 2026-06-08
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: The Underground Railroad was not underground and not a railroad. It was a changing network of people, routes, homes, churches, waterways, wagons, free Black communities, Native allies, abolitionists, maritime workers, and local knowledge used by enslaved people seeking freedom. The popular version often turns escape into a rescue story led by benevolent outsiders. The deeper history starts with self-emancipating people themselves. They planned, listened, hid, walked, negotiated, trusted, doubted, and kept moving with slave catchers, federal law, hunger, weather, and betrayal around them. This page matters because freedom work is infrastructure. It can look like a door opened at night, a warning passed quietly, a river crossed, a name changed, or a community risking everything so someone else can live unowned.
+- Primary or authoritative sources:
   - https://www.nps.gov/subjects/undergroundrailroad/index.htm
-  - https://www.loc.gov/classroom-materials/immigration/african/the-underground-railroad/
+  - https://www.nps.gov/orgs/1205/
+  - https://www.nps.gov/liho/learn/historyculture/underground-railroad.htm
+- Supporting secondary sources:
+  - https://www.archives.gov/milestone-documents/compromise-of-1850
+  - https://constitutioncenter.org/the-constitution/historic-document-library/detail/the-fugitive-slave-act-1850
+  - https://harriettubmanbyway.org/
+- Verified quotation source: No quotation included. Network terminology and Fugitive Slave Act claims verified through NPS, LOC, and National Archives.
+- Sensitive or disputed claims reviewed: Self-emancipation framing, free Black community role, white abolitionist role, routes beyond the North, Fugitive Slave Acts, and Tubman context reviewed.
+- Material corrections made: Expanded scheduled fallback beyond metaphor into agency, infrastructure, law, Black community networks, and Civil War transition.
+- External links included on the page:
+  - National Park Service: Underground Railroad (https://www.nps.gov/subjects/undergroundrailroad/index.htm)
+  - National Park Service: National Underground Railroad Network to Freedom (https://www.nps.gov/orgs/1205/)
+  - National Park Service: The Underground Railroad (https://www.nps.gov/liho/learn/historyculture/underground-railroad.htm)
+  - National Archives: Compromise of 1850 (https://www.archives.gov/milestone-documents/compromise-of-1850)
+  - National Constitution Center: The Fugitive Slave Act of 1850 (https://constitutioncenter.org/the-constitution/historic-document-library/detail/the-fugitive-slave-act-1850)
+  - Harriet Tubman Underground Railroad Byway: Harriet Tubman Underground Railroad Byway (https://harriettubmanbyway.org/)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, self-emancipation/network claim review.
 
 ### 2026-06-09 - Solomon Northup
 
@@ -849,11 +887,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-11 - University of Alabama Integration
 
+- Entry title: University of Alabama Integration
 - Slug: `university-of-alabama-integration`
-- Core claims: On June 11, 1963, two Black students tried to register for class while a governor stood in a doorway pretending history could be blocked by posture. Vivian Malone and James Hood sought to integrate the University of Alabama. Governor George Wallace staged a public stand against federal desegregation orders. Federal officials intervened, Wallace stepped aside, and Malone and Hood registered. That same day, President Kennedy addressed civil rights as a moral issue on national television.
-- Sources:
+- Daily date: 2026-06-11
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: The integration of the University of Alabama is often remembered as Governor George Wallace standing in a doorway. That image matters, but it can shrink the story around the person performing resistance instead of the students forcing change. Vivian Malone and James Hood were the ones trying to register. Their presence made the confrontation necessary. On June 11, 1963, Wallace staged defiance of federal desegregation orders, federal officials intervened, and the students entered. That same day, President John F. Kennedy addressed civil rights as a moral issue on national television. This page matters because segregation was not only custom. It was defended by elected officials, state power, spectacle, and delay. It took student courage and federal enforcement to move the doorway.
+- Primary or authoritative sources:
   - https://www.archives.gov/exhibits/eyewitness/html.php?section=18
-  - https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/civil-rights-movement
+  - https://www.jfklibrary.org/learn/about-jfk/historic-speeches/televised-address-to-the-nation-on-civil-rights
+  - https://www.ua.edu/about/history/desegregation/
+- Supporting secondary sources:
+  - https://www.naacpldf.org/press/fifty-years-ago-the-stand-in-the-schoolhouse-door/
+  - https://www.nps.gov/articles/series.htm?id=87B58CEC-FF43-3552-3B1856829F90C5C8
+- Verified quotation source: No quotation included. Wallace and Kennedy events summarized from archival and institutional sources.
+- Sensitive or disputed claims reviewed: Autherine Lucy precedent, Wallace staging, federalized National Guard sequence, Vivian Malone graduation, James Hood participation, and Kennedy speech timing reviewed.
+- Material corrections made: Expanded scheduled fallback by centering Vivian Malone and James Hood rather than Wallace as protagonist.
+- External links included on the page:
+  - National Archives: The Stand in the Schoolhouse Door (https://www.archives.gov/exhibits/eyewitness/html.php?section=18)
+  - John F. Kennedy Presidential Library: Televised Address to the Nation on Civil Rights (https://www.jfklibrary.org/learn/about-jfk/historic-speeches/televised-address-to-the-nation-on-civil-rights)
+  - University of Alabama: Desegregation (https://www.ua.edu/about/history/desegregation/)
+  - NAACP Legal Defense Fund: Fifty Years Ago: The Stand in the Schoolhouse Door (https://www.naacpldf.org/press/fifty-years-ago-the-stand-in-the-schoolhouse-door/)
+  - National Park Service: Civil Rights and Public Education (https://www.nps.gov/articles/series.htm?id=87B58CEC-FF43-3552-3B1856829F90C5C8)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, education/federal-power claim review.
 
 ### 2026-06-12 - Medgar Evers
 
@@ -961,11 +1017,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-06-16 - Tupac Shakur
 
+- Entry title: Tupac Shakur
 - Slug: `tupac-shakur`
-- Core claims: Tupac Shakur wrote like someone carrying a whole neighborhood in his chest. Born to a family shaped by Black Panther activism, Tupac became one of hip-hop's most influential voices. His songs moved between tenderness, rage, survival, contradiction, and social critique. He became a global star before his death at twenty-five, leaving behind music that continues to shape conversations about poverty, policing, masculinity, grief, and performance.
-- Sources:
-  - https://www.rockhall.com/inductees/tupac-shakur
+- Daily date: 2026-06-16
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: Tupac Shakur was a rapper, actor, poet, and cultural figure whose work carried tenderness, rage, bravado, grief, political memory, and contradiction at once. He was born into a family shaped by Black Panther activism and raised in the afterlife of the movements the government had tried to crush. His music spoke to poverty, policing, misogyny, masculinity, motherhood, survival, and performance, sometimes with startling clarity and sometimes with unresolved conflict. This page matters because Tupac is too often flattened into either martyr or menace. The fuller history asks what he heard, what he inherited, what he sold, what he challenged, and what pressures shaped a young artist who became global before he had time to become old.
+- Primary or authoritative sources:
+  - https://rockhall.com/inductees/tupac-shakur/
+  - https://www.loc.gov/item/prn-10-116/
+  - https://blackpast.org/african-american-history/shakur-tupac-1971-1996/
+- Supporting secondary sources:
+  - https://www.poetryfoundation.org/poets/tupac-shakur
   - https://www.britannica.com/biography/Tupac-Shakur
+- Verified quotation source: No quotation or lyrics included. Song titles only, with no lyric reproduction.
+- Sensitive or disputed claims reviewed: Family Black Panther connection, incarceration, legal-conviction framing, death circumstances, misogyny/contradiction analysis, and National Recording Registry claim reviewed.
+- Material corrections made: Expanded scheduled fallback into fuller movement-inheritance, performance, contradiction, industry, and youth-culture context.
+- External links included on the page:
+  - Rock & Roll Hall of Fame: Tupac Shakur (https://rockhall.com/inductees/tupac-shakur/)
+  - Library of Congress: National Recording Registry Adds Dear Mama (https://www.loc.gov/item/prn-10-116/)
+  - BlackPast: Tupac Shakur (https://blackpast.org/african-american-history/shakur-tupac-1971-1996/)
+  - Poetry Foundation: Tupac Shakur (https://www.poetryfoundation.org/poets/tupac-shakur)
+  - Britannica: Tupac Shakur (https://www.britannica.com/biography/Tupac-Shakur)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, sensitive modern-cultural claim review.
 
 ### 2026-06-17 - Charleston Church Shooting
 
@@ -2820,11 +2894,29 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 
 ### 2026-08-30 - Valerie Thomas
 
+- Entry title: Valerie Thomas
 - Slug: `valerie-thomas`
-- Core claims: Valerie Thomas helped turn satellite data into images people could use, then patented a device that played with how images appear in space. Thomas worked at NASA on image processing systems connected to Landsat, helping scientists interpret data from Earth-observing satellites. In 1980, she received a patent for an illusion transmitter, a technology that used concave mirrors to create the appearance of a three-dimensional image.
-- Sources:
-  - https://www.nasa.gov/people/valerie-thomas/
+- Daily date: 2026-08-30
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: Valerie Thomas helped people see the Earth differently. At NASA, she worked on image processing and data systems connected to Landsat, the satellite program that transformed how scientists, governments, and communities study the planet. She is also known for her 1980 patent for an illusion transmitter, a device that used concave mirrors to create the appearance of three-dimensional images. The easy version turns that patent into a trivia answer. The deeper story is about a Black woman scientist working inside federal technology systems where images, data, and interpretation mattered. This page matters because innovation is not always a single dazzling object. Sometimes it is the patient work that makes information visible, usable, and trustworthy.
+- Primary or authoritative sources:
+  - https://mynasadata.larc.nasa.gov/stem-career-connections/meet-dr-valerie-l-thomas-landsat-image-processing-specialist
   - https://patents.google.com/patent/US4229761A/en
+  - https://science.nasa.gov/mission/landsat-1/
+- Supporting secondary sources:
+  - https://lemelson.mit.edu/resources/valerie-thomas
+  - https://www.usgs.gov/landsat-missions/landsat-1
+- Verified quotation source: No quotation included. Patent and NASA career facts verified through NASA and patent records.
+- Sensitive or disputed claims reviewed: Living-status wording, illusion transmitter scope, Landsat image-processing role, patent number/date, and invention-overstatement risk reviewed.
+- Material corrections made: Expanded scheduled fallback and avoided overstating Thomas as inventor of all 3D imaging or holography.
+- External links included on the page:
+  - NASA My NASA Data: Meet Dr. Valerie L. Thomas (https://mynasadata.larc.nasa.gov/stem-career-connections/meet-dr-valerie-l-thomas-landsat-image-processing-specialist)
+  - Google Patents: US4229761A Illusion Transmitter (https://patents.google.com/patent/US4229761A/en)
+  - Lemelson-MIT: Valerie Thomas (https://lemelson.mit.edu/resources/valerie-thomas)
+  - NASA Science: Landsat 1 (https://science.nasa.gov/mission/landsat-1/)
+  - U.S. Geological Survey: Landsat 1 (https://www.usgs.gov/landsat-missions/landsat-1)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, science/patent claim review.
 
 ### 2026-08-31 - Dr. Patricia Bath
 
@@ -5002,3 +5094,133 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Library of Congress: Carter G. Woodson Papers (https://www.loc.gov/collections/carter-godwin-woodson-papers/about-this-collection/)
   - National Museum of African American History and Culture: Carter G. Woodson (https://nmaahc.si.edu/explore/stories/carter-g-woodson)
 - Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, education claim review.
+
+### 2026-02-09 - The Rosewood Massacre
+
+- Entry title: The Rosewood Massacre
+- Slug: `rosewood-massacre`
+- Daily date: 2026-02-09
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: Rosewood was not an empty place waiting to become a tragedy. It was a Black community in Levy County, Florida, with families, land, work, churches, a school, and people who expected to keep living there. In January 1923, a white woman's accusation set off days of racial violence. White mobs killed Black residents, drove families into hiding, burned homes and community buildings, and made return nearly impossible. For decades, survivors kept the story quiet because the danger did not end when the fires stopped. This page matters because Rosewood shows how white violence attacked Black life, property, memory, and legal accountability at once. It also shows what repair can look like when survivors force a state to admit what it helped ignore.
+- Primary or authoritative sources:
+  - https://dos.fl.gov/library-archives/research/explore-our-resources/florida-history-culture-and-heritage/rosewood/
+  - https://www.floridamemory.com/items/show/350825
+  - https://stars.library.ucf.edu/cgi/viewcontent.cgi?article=4173&context=fhq
+- Supporting secondary sources:
+  - https://www.history.com/this-day-in-history/january-1/rosewood-massacre-florida-1923
+  - https://www.zinnedproject.org/news/tdih/rosewood-massacre/
+- Verified quotation source: No quotation included. Survivor and accusation details handled without invented dialogue.
+- Sensitive or disputed claims reviewed: False-accusation framing, number of deaths, compensation legislation, state report, survivor silence, property loss, and official failure reviewed.
+- Material corrections made: Replaced legacy disaster summary with fuller community, displacement, compensation, and memory analysis; avoided unsupported precise death count and clarified accusation as contested racial trigger.
+- External links included on the page:
+  - State Library and Archives of Florida: Rosewood (https://dos.fl.gov/library-archives/research/explore-our-resources/florida-history-culture-and-heritage/rosewood/)
+  - Florida Memory: An act relating to Rosewood, Florida, 1994 (https://www.floridamemory.com/items/show/350825)
+  - Florida Historical Quarterly: The Rosewood Massacre and the Women Who Survived It (https://stars.library.ucf.edu/cgi/viewcontent.cgi?article=4173&context=fhq)
+  - HISTORY: Rosewood Massacre decimates Black Florida community (https://www.history.com/this-day-in-history/january-1/rosewood-massacre-florida-1923)
+  - Zinn Education Project: Rosewood Massacre (https://www.zinnedproject.org/news/tdih/rosewood-massacre/)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, racial-terror/property-memory claim review.
+
+### 2026-02-10 - The Tuskegee Airmen
+
+- Entry title: The Tuskegee Airmen
+- Slug: `tuskegee-airmen`
+- Daily date: 2026-02-10
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: The Tuskegee Airmen were not a single squadron and not a simple proof-of-excellence story. They were pilots, mechanics, nurses, armorers, radio operators, instructors, clerks, weather officers, and support personnel trained inside a segregated military that had long claimed Black people were unfit for advanced aviation. Their success in World War II mattered, but so did the conditions they had to fight before ever reaching combat: racist policy, skeptical commanders, segregated facilities, and a country willing to use Black service while denying Black equality. This page matters because the Tuskegee Airmen changed military possibility while exposing the cost of having to prove humanity through performance. Their story deserves pride, and it also deserves precision.
+- Primary or authoritative sources:
+  - https://www.nps.gov/tuai/index.htm
+  - https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196131/tuskegee-airmen/
+  - https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196348/tuskegee-airmen-congressional-gold-medal/
+- Supporting secondary sources:
+  - https://airandspace.si.edu/explore/stories/tuskegee-airmen
+  - https://nmaahc.si.edu/explore/stories/tuskegee-airmen
+- Verified quotation source: No quotation included. Bomber-loss claim deliberately qualified because official historical review complicates the popular absolute version.
+- Sensitive or disputed claims reviewed: Pilot counts, combat claims, bomber escort myth, Freeman Field protest, EO 9981 connection, and Congressional Gold Medal reviewed.
+- Material corrections made: Corrected the old absolute "never lost a bomber" framing into a more careful account of an excellent escort record and contested memory.
+- External links included on the page:
+  - National Park Service: Tuskegee Airmen National Historic Site (https://www.nps.gov/tuai/index.htm)
+  - National Museum of the U.S. Air Force: Tuskegee Airmen (https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196131/tuskegee-airmen/)
+  - Smithsonian National Air and Space Museum: Tuskegee Airmen (https://airandspace.si.edu/explore/stories/tuskegee-airmen)
+  - National Museum of African American History and Culture: Tuskegee Airmen (https://nmaahc.si.edu/explore/stories/tuskegee-airmen)
+  - National Museum of the U.S. Air Force: Tuskegee Airmen Congressional Gold Medal (https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196348/tuskegee-airmen-congressional-gold-medal/)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, military first/performance claim review.
+
+### 2026-04-14 - Thurgood Marshall
+
+- Entry title: Thurgood Marshall
+- Slug: `thurgood-marshall`
+- Daily date: 2026-04-14
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: Thurgood Marshall is often introduced as the first Black Supreme Court justice, but that milestone came after decades of dangerous, disciplined legal work. Before he joined the Court, Marshall was the NAACP lawyer who helped turn segregated schools, exclusionary universities, unfair trials, and racial barriers into constitutional test cases. He argued Brown v. Board of Education, led the NAACP Legal Defense Fund, and understood that court victories required clients, local communities, records, strategy, and courage. His story matters because he did not simply enter one of the nation's most powerful institutions. He helped change what Black people could demand from the Constitution before he ever wore the robe.
+- Primary or authoritative sources:
+  - https://www.supremecourt.gov/about/biographies.aspx
+  - https://www.naacpldf.org/about-us/history/thurgood-marshall/
+  - https://www.loc.gov/collections/thurgood-marshall-papers/about-this-collection/
+- Supporting secondary sources:
+  - https://www.oyez.org/justices/thurgood_marshall
+  - https://www.archives.gov/milestone-documents/brown-v-board-of-education
+- Verified quotation source: No quotation included. Legal career and appointments verified through Court, LDF, LOC, Oyez, and National Archives.
+- Sensitive or disputed claims reviewed: First-justice claim, Brown strategy, Houston influence, Chambers v. Florida, Solicitor General role, and death-penalty jurisprudence reviewed.
+- Material corrections made: Rebuilt shallow legacy page into fuller legal-career account beyond first-Black-justice framing.
+- External links included on the page:
+  - Supreme Court of the United States: Biographies of the Justices (https://www.supremecourt.gov/about/biographies.aspx)
+  - NAACP Legal Defense Fund: Thurgood Marshall (https://www.naacpldf.org/about-us/history/thurgood-marshall/)
+  - Oyez: Thurgood Marshall (https://www.oyez.org/justices/thurgood_marshall)
+  - Library of Congress: Thurgood Marshall Papers (https://www.loc.gov/collections/thurgood-marshall-papers/about-this-collection/)
+  - National Archives: Brown v. Board of Education (https://www.archives.gov/milestone-documents/brown-v-board-of-education)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, legal first/career claim review.
+
+### 2026-03-29 - Toni Morrison
+
+- Entry title: Toni Morrison
+- Slug: `toni-morrison`
+- Daily date: 2026-03-29
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: Toni Morrison changed American literature by refusing to treat Black life as a side subject or an explanation for someone else's gaze. She was a novelist, editor, professor, essayist, mother, and cultural worker who understood that language carries power. Her books entered memory, haunting, girlhood, slavery, beauty, migration, friendship, and community without asking permission to center Black interior life. Before the Nobel Prize, she was also an editor who helped bring Black writers and thinkers into print at one of the country's major publishing houses. This page matters because Morrison's achievement was not only that she wrote masterpieces. She changed who American literature could imagine as its center, its audience, and its measure of truth.
+- Primary or authoritative sources:
+  - https://www.nobelprize.org/prizes/literature/1993/morrison/biographical/
+  - https://findingaids.princeton.edu/catalog/C1491
+  - https://www.neh.gov/news/remembering-toni-morrison
+- Supporting secondary sources:
+  - https://sites.prh.com/toni-morrison
+  - https://www.loc.gov/item/n79061170/toni-morrison/
+- Verified quotation source: No quotation included in page body. Legacy quote from daily copy omitted because page did not need it and exact context was not required.
+- Sensitive or disputed claims reviewed: Nobel first claim, Pulitzer date, editor role, Margaret Garner relationship to Beloved, publication timeline, and censorship framing reviewed.
+- Material corrections made: Corrected daily-style implication that Beloved won both Pulitzer and Nobel by clarifying Beloved won the Pulitzer and Morrison later won the Nobel for her body of work.
+- External links included on the page:
+  - Nobel Prize: Toni Morrison Biographical (https://www.nobelprize.org/prizes/literature/1993/morrison/biographical/)
+  - National Endowment for the Humanities: Remembering Toni Morrison (https://www.neh.gov/news/remembering-toni-morrison)
+  - Princeton University Library: Toni Morrison Papers (https://findingaids.princeton.edu/catalog/C1491)
+  - Penguin Random House: Toni Morrison Author Website (https://sites.prh.com/toni-morrison)
+  - Library of Congress: Toni Morrison (https://www.loc.gov/item/n79061170/toni-morrison/)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, literary/publishing claim review.
+
+### 2026-02-07 - Tulsa Race Massacre
+
+- Entry title: Tulsa Race Massacre
+- Slug: `tulsa-massacre`
+- Daily date: 2026-02-07
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: The Tulsa Race Massacre was an attack on people, property, and memory. On May 31 and June 1, 1921, white mobs destroyed much of Tulsa's Greenwood District, a Black community known for businesses, churches, newspapers, homes, hotels, doctors, lawyers, theaters, and civic life. The violence began after a young Black man, Dick Rowland, was accused following an encounter with a white elevator operator, Sarah Page. It spread into one of the most devastating episodes of racial terror in U.S. history. This page matters because Greenwood was not important only because it burned. It was important because Black people built it. The massacre, cover-up, and ongoing search for graves all reveal how violence can be followed by official forgetting.
+- Primary or authoritative sources:
+  - https://www.tulsahistory.org/exhibit/1921-tulsa-race-massacre/
+  - https://www.okhistory.org/learn/tulsaracemassacre
+  - https://www.cityoftulsa.org/1921graves
+- Supporting secondary sources:
+  - https://visit.archives.gov/whats-on/explore-exhibits/black-wall-street-100-years-tulsa-race-massacre
+  - https://digitalprairie.ok.gov/digital/collection/race-riot
+- Verified quotation source: No quotation included. Death-toll language carefully qualified because exact count remains uncertain.
+- Sensitive or disputed claims reviewed: Dick Rowland/Sarah Page encounter, death toll, airplane reports, mass graves, insurance denial, detentions, and terminology of massacre versus riot reviewed.
+- Material corrections made: Rebuilt legacy page to avoid overconfident death count and last-survivor status; centered Greenwood before destruction and post-massacre suppression.
+- External links included on the page:
+  - Tulsa Historical Society and Museum: 1921 Tulsa Race Massacre (https://www.tulsahistory.org/exhibit/1921-tulsa-race-massacre/)
+  - Oklahoma Historical Society: Tulsa Race Massacre (https://www.okhistory.org/learn/tulsaracemassacre)
+  - National Archives: Black Wall Street: 100 Years Since the Tulsa Race Massacre (https://visit.archives.gov/whats-on/explore-exhibits/black-wall-street-100-years-tulsa-race-massacre)
+  - City of Tulsa: 1921 Graves Investigation (https://www.cityoftulsa.org/1921graves)
+  - Oklahoma Digital Prairie: Tulsa Race Massacre Collection (https://digitalprairie.ok.gov/digital/collection/race-riot)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, racial-terror/property/memory claim review.

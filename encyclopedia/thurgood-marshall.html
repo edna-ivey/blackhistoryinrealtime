@@ -4,35 +4,221 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Thurgood Marshall - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="First on the Court">
+<meta name="description" content="Thurgood Marshall is often introduced as the first Black Supreme Court justice, but that milestone came after decades of dangerous, disciplined legal work. Before he joined the Court, Marshall was the NAACP lawyer who helped turn segregated schools, exclusionary universities, unfair trials, and racial barriers into constitutional test cases. He argued Brown v. Board of Education, led the NAACP Legal Defense Fund, and understood that court victories required clients, local communities, records, strategy, and courage. His story matters because he did not simply enter one of the nation&#039;s most powerful institutions. He helped change what Black people could demand from the Constitution before he ever wore the robe.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,.2)}
-  *{box-sizing:border-box;margin:0;padding:0} body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;line-height:1.75;min-height:100vh}
-  .pan-stripe{display:flex;height:6px}.pan-stripe div{flex:1}.s1{background:var(--red)}.s2{background:#111}.s3{background:var(--green)}
-  header{position:sticky;top:0;background:rgba(10,10,10,.97);border-bottom:1px solid var(--border);z-index:5}.header-inner{max-width:1100px;margin:auto;padding:14px 32px}
-  .logo{display:flex;align-items:center;gap:14px;color:var(--white);text-decoration:none}.logo img{width:52px;height:52px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}.logo h1{font-family:'Bebas Neue';font-size:1.6rem;letter-spacing:2px}.logo span{color:var(--gold)}
-  nav{border-top:1px solid rgba(212,160,23,.1);display:flex;justify-content:center;overflow-x:auto;padding:0 24px}nav a{color:rgba(245,237,216,.55);text-decoration:none;text-transform:uppercase;letter-spacing:2.5px;font-size:.78rem;padding:12px 18px;white-space:nowrap}
-  main{width:min(900px,calc(100% - 40px));margin:auto;padding:52px 0 90px}.label{color:var(--gold);text-transform:uppercase;letter-spacing:5px;font-size:.7rem;margin-bottom:14px}
-  h2{font-family:'Playfair Display',serif;color:var(--white);font-size:clamp(2.3rem,7vw,4.7rem);line-height:1.05;margin-bottom:16px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}.badge{border:1px solid rgba(212,160,23,.3);border-radius:999px;padding:5px 12px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:.68rem}
-  article{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px}article p{margin-bottom:16px;color:rgba(245,237,216,.82)}h3{font-family:'Bebas Neue';color:var(--gold);letter-spacing:3px;margin:28px 0 8px;font-size:1rem}.why{margin-top:24px;padding:18px 20px;border:1px solid rgba(196,30,58,.25);background:rgba(196,30,58,.08);border-radius:12px}blockquote{border-left:4px solid var(--gold);padding:12px 18px;margin:20px 0;color:var(--gold);background:rgba(212,160,23,.06)}cite{display:block;color:rgba(212,160,23,.65);font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;margin-top:8px}
-  a{color:var(--gold)}@media(max-width:620px){.header-inner{padding:12px 16px}nav{justify-content:flex-start;padding:0 12px}nav a{font-size:.7rem;padding:10px 12px}main{width:calc(100% - 28px);padding-top:34px}article{padding:22px 18px}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="thurgood-marshall">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-<header><div class="header-inner"><a class="logo" href="../index.html"><img src="../logo.png" alt="Black History in Real Time"><h1>Black<span>History</span></h1></a></div><nav><a href="../index.html">Today</a><a href="../index.html#calendar">Calendar</a><a href="../index.html#archive">Archive</a><a href="../encyclopedia.html">Encyclopedia</a></nav></header>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Thurgood Marshall</h2>
-  <div class="meta"><span class="badge">1908 — 1993</span><span class="badge">Law</span><span class="badge">2026-04-14</span></div>
-  <article>
-    <p>Before Thurgood Marshall became the first Black Supreme Court Justice, he built one of the most consequential legal careers in American history. As an NAACP lawyer, he argued major civil rights cases that dismantled segregation and reshaped constitutional law.</p><p>His legal work was not academic distance from injustice. It was confrontation with it. He challenged a legal system that had long been used to enforce racial hierarchy.</p><p>When he joined the Supreme Court, his presence represented more than a personal milestone. It marked a breach in one of the nation's most exclusive institutions.</p>
-    
-    <h3>Cost / Impact</h3><p>Marshall spent years facing hostility from judges, officials, and systems deeply invested in segregation and racial exclusion.</p>
-    <div class="why"><h3>Why It Matters</h3><p>Representation at the highest level of law matters, but Marshall&#039;s legacy is larger than a first. He changed what the Constitution could be made to protect.</p></div>
-  </article>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>April 14 &middot; Law</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">April 14 &middot; Law</div>
+    <h1>Thurgood Marshall</h1>
+    <p class="entry-tagline">Thurgood Marshall is often introduced as the first Black Supreme Court justice, but that milestone came after decades of dangerous, disciplined legal work. Before he joined the Court, Marshall was the NAACP lawyer who helped turn segregated schools, exclusionary universities, unfair trials, and racial barriers into constitutional test cases. He argued Brown v. Board of Education, led the NAACP Legal Defense Fund, and understood that court victories required clients, local communities, records, strategy, and courage. His story matters because he did not simply enter one of the nation&#039;s most powerful institutions. He helped change what Black people could demand from the Constitution before he ever wore the robe.</p>
+    <div class="entry-badges">
+      <span class="badge">Person</span>
+      <span class="badge">1908 - 1993</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Jul 2, 1908</div><div class="tl-event">Thurgood Marshall is born in Baltimore, Maryland.</div></div>
+<div class="tl-item"><div class="tl-date">1930</div><div class="tl-event">Graduates from Lincoln University.</div></div>
+<div class="tl-item"><div class="tl-date">1933</div><div class="tl-event">Graduates first in his class from Howard University School of Law.</div></div>
+<div class="tl-item"><div class="tl-date">1935</div><div class="tl-event">Wins Murray v. Pearson, challenging exclusion at the University of Maryland Law School.</div></div>
+<div class="tl-item"><div class="tl-date">1940</div><div class="tl-event">Wins Chambers v. Florida before the U.S. Supreme Court.</div></div>
+<div class="tl-item"><div class="tl-date">1940</div><div class="tl-event">Becomes director-counsel of the NAACP Legal Defense and Educational Fund.</div></div>
+<div class="tl-item"><div class="tl-date">1954</div><div class="tl-event">Argues and wins Brown v. Board of Education.</div></div>
+<div class="tl-item"><div class="tl-date">1961</div><div class="tl-event">President Kennedy appoints Marshall to the U.S. Court of Appeals for the Second Circuit.</div></div>
+<div class="tl-item"><div class="tl-date">1965</div><div class="tl-event">Becomes U.S. Solicitor General.</div></div>
+<div class="tl-item"><div class="tl-date">1967</div><div class="tl-event">Confirmed as the first Black justice of the U.S. Supreme Court.</div></div>
+<div class="tl-item"><div class="tl-date">Jan 24, 1993</div><div class="tl-event">Dies in Bethesda, Maryland.</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Thurgood Marshall grew up in Baltimore, a city shaped by segregation and Black institution-building. He attended Lincoln University and then Howard University School of Law, where Charles Hamilton Houston transformed legal education into a civil-rights training ground. Houston taught students to see law not as neutral language on paper, but as a battlefield where racial caste could be documented and attacked.</p>
+<p>Marshall absorbed that lesson and carried it into practice. After Maryland denied him admission to its segregated law school, he studied at Howard and later challenged similar exclusion in Murray v. Pearson. The case forced the University of Maryland Law School to admit Donald Gaines Murray. It was an early example of the strategy that would expose the impossibility of separate equality.</p>
+<p>As an NAACP lawyer, Marshall traveled through the South under conditions that were personally dangerous. Civil-rights litigation required more than appellate argument. Lawyers had to find clients, build records, face hostile judges, protect witnesses, and return to communities where white retaliation was real. Marshall became famous in court, but the work depended on networks of local people who risked much more than reputation.</p>
+<p>Marshall&#039;s criminal justice work was also central. In Chambers v. Florida, he challenged coerced confessions extracted from Black defendants. The Supreme Court reversed the convictions. Cases like Chambers show that Marshall&#039;s legal imagination was not limited to school desegregation. He understood that police, prosecutors, courts, juries, and schools all helped enforce racial hierarchy.</p>
+<p>He also worked in a tradition of Black lawyers who treated the courtroom as one part of a larger public campaign. A brief had to speak to judges, but it also had to rest on community evidence and movement pressure. Marshall&#039;s skill was not only brilliance at the lectern. It was knowing how to make a constitutional argument carry the weight of lived facts.</p>
+<p>The campaign that led to Brown v. Board of Education took years. Marshall, Houston, Constance Baker Motley, Robert Carter, Spottswood Robinson, Oliver Hill, Louis Redding, Jack Greenberg, James Nabrit, and many others built a strategy through graduate and professional school cases. They showed that states could not maintain equal facilities, then pressed the deeper argument that forced segregation itself violated equal protection.</p>
+<p>Brown&#039;s public memory often turns one case into one victory. Marshall&#039;s work shows the longer scaffolding: law school admissions, teacher salaries, graduate programs, social science evidence, local plaintiffs, and the willingness of Black families to put their children and jobs at risk. The Supreme Court heard a legal argument because communities had already made a record the country could no longer ignore.</p>
+<p>Brown was unanimous, but implementation was not. White officials resisted, delayed, closed schools, threatened families, and searched for ways around the ruling. Marshall knew that a Supreme Court victory could announce a principle without making daily life safe. The law had to be enforced, and enforcement depended on politics, federal power, local courage, and continued litigation.</p>
+<p>Marshall later became a federal appeals judge and then Solicitor General of the United States. As Solicitor General, he argued for the federal government before the Supreme Court. In 1967, President Lyndon Johnson nominated him to the Court. His confirmation made history, but it also brought a civil-rights lawyer&#039;s experience into constitutional interpretation at the highest level.</p>
+<p>On the Court, Marshall often wrote from the perspective of people most likely to be harmed by state power. He defended strong equal protection, criminal procedure rights, voting rights, school desegregation, reproductive liberty, and opposition to the death penalty. As the Court grew more conservative, his dissents became warnings about what legal formalism can hide.</p>
+<p>Marshall&#039;s legacy is sometimes flattened into the word first. First matters. But his larger importance is that he spent decades forcing the Constitution to answer people it had been used to exclude. He did not believe courts alone could save democracy. He did believe law could be made to confront its own promises.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost of Marshall&#039;s work included physical danger, exhaustion, public hostility, and the burden of carrying cases where clients&#039; lives, schools, homes, and safety were at stake. He traveled into communities where civil-rights lawyers could be threatened or killed. His clients often paid even higher costs through retaliation, job loss, harassment, and violence.</p>
+<p>The impact was constitutional and institutional. Marshall helped reshape education law, criminal procedure, jury and confession protections, and the meaning of equal protection. His career also built the NAACP Legal Defense Fund into one of the country&#039;s most consequential legal institutions.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Thurgood Marshall matters today because rights do not enforce themselves. His career shows how doctrine is built: case by case, record by record, plaintiff by plaintiff, with lawyers and communities working together. Brown did not appear because the Court suddenly became enlightened. It arrived because people forced evidence and argument into the center of constitutional law.</p>
+<p>His life also challenges narrow ideas of representation. Marshall&#039;s presence on the Supreme Court mattered, but his power came from more than being in the room. He brought knowledge of segregated schools, coerced confessions, hostile courthouses, and Black community strategy into places that preferred abstraction.</p>
+<p>The fuller story asks readers to see law as a tool, not a guarantee. Marshall used it brilliantly, and he also knew how often the country resisted the rights it had already recognized.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../index.html?day=2026-04-14" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; April 14</div>
+        <div class="quiz-card-title">Open the daily challenge for Thurgood Marshall</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/brown-v-board.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Brown v. Board of Education</div>
+        <div class="connected-desc">The landmark school desegregation case Marshall argued before the Supreme Court.</div>
+      </a>
+<a href="../generated/pages/charles-hamilton-houston.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Charles Hamilton Houston</div>
+        <div class="connected-desc">Marshall&#039;s teacher and the strategist who helped build the legal road to Brown.</div>
+      </a>
+<a href="../generated/pages/constance-baker-motley.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Constance Baker Motley</div>
+        <div class="connected-desc">A colleague in civil-rights litigation who carried the strategy into many courtrooms.</div>
+      </a>
+<a href="../generated/pages/scottsboro-boys.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Scottsboro Boys</div>
+        <div class="connected-desc">Shows the criminal-procedure world Marshall and other civil-rights lawyers confronted.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.supremecourt.gov/about/biographies.aspx" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Supreme Court of the United States</div>
+          <div class="ext-title">Biographies of the Justices</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.naacpldf.org/about-us/history/thurgood-marshall/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">NAACP Legal Defense Fund</div>
+          <div class="ext-title">Thurgood Marshall</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.oyez.org/justices/thurgood_marshall" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Oyez</div>
+          <div class="ext-title">Thurgood Marshall</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/collections/thurgood-marshall-papers/about-this-collection/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Thurgood Marshall Papers</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.archives.gov/milestone-documents/brown-v-board-of-education" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">Brown v. Board of Education</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

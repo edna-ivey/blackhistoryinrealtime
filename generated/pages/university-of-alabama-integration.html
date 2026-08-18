@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>University of Alabama Integration - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="On June 11, 1963, two Black students tried to register for class while a governor stood in a doorway pretending history could be blocked by posture.">
+<meta name="description" content="The integration of the University of Alabama is often remembered as Governor George Wallace standing in a doorway. That image matters, but it can shrink the story around the person performing resistance instead of the students forcing change. Vivian Malone and James Hood were the ones trying to register. Their presence made the confrontation necessary. On June 11, 1963, Wallace staged defiance of federal desegregation orders, federal officials intervened, and the students entered. That same day, President John F. Kennedy addressed civil rights as a moral issue on national television. This page matters because segregation was not only custom. It was defended by elected officials, state power, spectacle, and delay. It took student courage and federal enforcement to move the doorway.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="university-of-alabama-integration">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,152 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>University of Alabama Integration</h2>
-  <div class="meta">
-    <span class="badge">June 11, 1963</span>
-    <span class="badge">Education</span>
-    <span class="badge">2026-06-11</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>June 11 &middot; Education</span>
   </div>
-  <article>
-    <p>On June 11, 1963, two Black students tried to register for class while a governor stood in a doorway pretending history could be blocked by posture.</p><p>Vivian Malone and James Hood sought to integrate the University of Alabama. Governor George Wallace staged a public stand against federal desegregation orders.</p><p>Federal officials intervened, Wallace stepped aside, and Malone and Hood registered. That same day, President Kennedy addressed civil rights as a moral issue on national television.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>This day matters because resistance to integration was not only local anger. It was performed by elected officials, and it took federal power to move the doorway.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">June 11 &middot; Education</div>
+    <h1>University of Alabama Integration</h1>
+    <p class="entry-tagline">The integration of the University of Alabama is often remembered as Governor George Wallace standing in a doorway. That image matters, but it can shrink the story around the person performing resistance instead of the students forcing change. Vivian Malone and James Hood were the ones trying to register. Their presence made the confrontation necessary. On June 11, 1963, Wallace staged defiance of federal desegregation orders, federal officials intervened, and the students entered. That same day, President John F. Kennedy addressed civil rights as a moral issue on national television. This page matters because segregation was not only custom. It was defended by elected officials, state power, spectacle, and delay. It took student courage and federal enforcement to move the doorway.</p>
+    <div class="entry-badges">
+      <span class="badge">Event</span>
+      <span class="badge">June 11, 1963</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.archives.gov/exhibits/eyewitness/html.php?section=18" target="_blank" rel="noopener noreferrer">https://www.archives.gov/exhibits/eyewitness/html.php?section=18</a></li>
-<li><a href="https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/civil-rights-movement" target="_blank" rel="noopener noreferrer">https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/civil-rights-movement</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1954</div><div class="tl-event">Brown v. Board of Education rejects school segregation as unconstitutional.</div></div>
+<div class="tl-item"><div class="tl-date">1956</div><div class="tl-event">Autherine Lucy enrolls at the University of Alabama but is suspended amid white mob violence.</div></div>
+<div class="tl-item"><div class="tl-date">1962</div><div class="tl-event">James Meredith integrates the University of Mississippi under federal protection.</div></div>
+<div class="tl-item"><div class="tl-date">Jun 11, 1963</div><div class="tl-event">Vivian Malone and James Hood arrive to register at the University of Alabama.</div></div>
+<div class="tl-item"><div class="tl-date">Jun 11, 1963</div><div class="tl-event">Governor George Wallace stages the Stand in the Schoolhouse Door.</div></div>
+<div class="tl-item"><div class="tl-date">Jun 11, 1963</div><div class="tl-event">Federalized National Guard authority helps clear the way for Malone and Hood to register.</div></div>
+<div class="tl-item"><div class="tl-date">Jun 11, 1963</div><div class="tl-event">President Kennedy gives a televised civil rights address.</div></div>
+<div class="tl-item"><div class="tl-date">1965</div><div class="tl-event">Vivian Malone becomes the university&#039;s first Black graduate.</div></div>
+<div class="tl-item"><div class="tl-date">1996</div><div class="tl-event">The university names the Malone-Hood Plaza and Autherine Lucy Hall is later recognized in campus memory.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-06-11">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>The University of Alabama did not become a civil-rights battleground in one day. Brown had been decided in 1954, but white resistance across the South slowed, blocked, and punished desegregation. In Alabama, Autherine Lucy enrolled in 1956 and faced mob violence so severe that the university suspended her. Her experience showed future students what admission could cost.</p>
+<p>Vivian Malone and James Hood entered that history knowingly. They were not props in a confrontation between Wallace and Washington. They were students demanding access to a public university funded by a state that had excluded Black residents from equal opportunity. Their decision required preparation, legal support, family courage, and the willingness to walk into a national spectacle built to intimidate them.</p>
+<p>George Wallace had promised segregation forever in his inaugural address. At the university, he staged what became known as the Stand in the Schoolhouse Door. The performance was designed for cameras as much as for law. Wallace wanted to appear as the defender of state sovereignty against federal power, but the substance of the performance was the defense of racial exclusion.</p>
+<p>Deputy Attorney General Nicholas Katzenbach confronted Wallace and read a presidential proclamation. Wallace spoke, resisted symbolically, and eventually stepped aside after the Alabama National Guard was federalized. The choreography mattered because it showed the federal government asserting authority over a state official who was using public power to maintain segregation.</p>
+<p>Malone and Hood registered that day. The quiet fact of registration can seem small beside the famous photograph, but it was the point. The doorway mattered only because two Black students intended to pass through it. Their enrollment made the spectacle fail. Wallace could posture, but he could not keep them out forever.</p>
+<p>That evening, President Kennedy addressed the nation and framed civil rights as a moral issue. The speech did not solve civil rights violence, and Kennedy&#039;s record had been cautious before movement pressure forced greater action. Still, June 11 became a turning point in the federal language of civil rights, helped by the visible clash in Alabama and the broader movement&#039;s demands.</p>
+<p>The costs for the students continued after the cameras left. Integration did not mean welcome. Black students faced isolation, surveillance, resentment, and the pressure of representing more than themselves. Vivian Malone persisted and graduated in 1965, becoming the university&#039;s first Black graduate. James Hood later returned and earned a doctorate. Their lives should not be reduced to a doorway.</p>
+<p>Autherine Lucy&#039;s earlier experience remained in the background as warning and precedent. Her suspension in 1956 showed how easily an institution could turn mob violence into a reason to remove the Black student rather than confront the mob. Malone and Hood entered after that lesson had already been written on the campus.</p>
+<p>The Stand in the Schoolhouse Door is useful history only if the camera turns around. The story is not Wallace&#039;s courage, because he was defending exclusion. The story is the courage of students, lawyers, families, and federal officials who pushed public education closer to its legal obligations. It also reminds readers that institutions often celebrate integration decades after making students pay for it in real time.</p>
+<p>The same day also reminds readers that national civil-rights policy often followed movement confrontation. Kennedy&#039;s televised address did not come from nowhere. Birmingham, student activism, legal pressure, Black voter demands, and public images of Southern resistance made delay harder to defend. Alabama&#039;s doorway became one visible point in a much larger pressure system.</p>
+<p>University integration matters because access to education is never only about a seat in a classroom. It is about public money, citizenship, professional futures, dignity, and who a state imagines its institutions are for. Malone and Hood forced Alabama to answer that question in public.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost fell most heavily on Black students and their families. Autherine Lucy faced mob violence years earlier. Vivian Malone and James Hood entered under national scrutiny and into an institution where many people did not want them. Their academic lives were tied to legal strategy, federal enforcement, and public hostility in ways white students did not have to carry.</p>
+<p>The impact was symbolic and practical. The confrontation helped push federal civil-rights language forward, opened the university to Black students, and showed that state officials could be made to yield when federal power and student courage met organized legal pressure.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>This history matters today because school access fights rarely appear first as direct admissions bans anymore, but institutions still argue over who belongs, who is supported, whose history is taught, and whose presence is treated as political. The University of Alabama integration story shows that inclusion without welcome can still require courage from the excluded.</p>
+<p>It also warns against centering the obstructionist. Wallace&#039;s pose became iconic, but Malone and Hood changed the institution. Remembering the doorway without centering the students repeats the spectacle&#039;s own logic.</p>
+<p>The fuller lesson is that public institutions do not become just because time passes. They change when people force law, policy, and memory to confront exclusion directly.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-06-11" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; June 11</div>
+        <div class="quiz-card-title">Open the daily challenge for University of Alabama Integration</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/brown-v-board.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Brown v. Board of Education</div>
+        <div class="connected-desc">The Supreme Court decision that made school segregation legally indefensible.</div>
+      </a>
+<a href="../../generated/pages/james-meredith.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">James Meredith</div>
+        <div class="connected-desc">Places Alabama beside another university integration fight requiring federal intervention.</div>
+      </a>
+<a href="../../generated/pages/charles-hamilton-houston.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Charles Hamilton Houston</div>
+        <div class="connected-desc">Connects university integration to the legal strategy against segregated education.</div>
+      </a>
+<a href="../../encyclopedia/dorothy-height.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Dorothy Height</div>
+        <div class="connected-desc">Shows civil-rights leadership and institution-building beyond the most photographed moments.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.archives.gov/exhibits/eyewitness/html.php?section=18" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">The Stand in the Schoolhouse Door</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.jfklibrary.org/learn/about-jfk/historic-speeches/televised-address-to-the-nation-on-civil-rights" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">John F. Kennedy Presidential Library</div>
+          <div class="ext-title">Televised Address to the Nation on Civil Rights</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.ua.edu/about/history/desegregation/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">University of Alabama</div>
+          <div class="ext-title">Desegregation</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.naacpldf.org/press/fifty-years-ago-the-stand-in-the-schoolhouse-door/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">NAACP Legal Defense Fund</div>
+          <div class="ext-title">Fifty Years Ago: The Stand in the Schoolhouse Door</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/articles/series.htm?id=87B58CEC-FF43-3552-3B1856829F90C5C8" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Civil Rights and Public Education</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>
