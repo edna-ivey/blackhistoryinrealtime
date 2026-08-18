@@ -318,14 +318,14 @@ const ENTRIES = [
     externalLinks: [
       { source: 'International Tennis Hall of Fame', title: 'Althea Gibson biography', url: 'https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson' },
       { source: 'National Women\'s History Museum', title: 'Althea Gibson biography', url: 'https://www.womenshistory.org/education-resources/biographies/althea-gibson' },
-      { source: 'Smithsonian American Women\'s History Museum', title: 'Althea Gibson', url: 'https://womenshistory.si.edu/herstory/althea-gibson' },
-      { source: 'USGA', title: 'Althea Gibson and golf history', url: 'https://www.usga.org/content/usga/home-page/articles/2020/02/althea-gibson-broke-barriers-in-golf-too.html' }
+      { source: 'International Tennis Hall of Fame', title: 'Althea Gibson Statue at the US Open', url: 'https://www.tennisfame.com/blog/2019/08/althea-gibson-statue-at-us-open/' },
+      { source: 'USGA', title: 'Golf: Althea Gibson\'s Second Act', url: 'https://www.usga.org/articles/2016/02/golf--althea-gibson-s-second-act.html' }
     ],
     research: {
       status: 'batch-2-reviewed',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson', 'https://womenshistory.si.edu/herstory/althea-gibson'],
-      supportingSources: ['https://www.womenshistory.org/education-resources/biographies/althea-gibson', 'https://www.usga.org/content/usga/home-page/articles/2020/02/althea-gibson-broke-barriers-in-golf-too.html'],
+      primarySources: ['https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson', 'https://www.womenshistory.org/education-resources/biographies/althea-gibson'],
+      supportingSources: ['https://www.womenshistory.org/education-resources/biographies/althea-gibson', 'https://www.usga.org/articles/2016/02/golf--althea-gibson-s-second-act.html'],
       verifiedQuoteSource: 'Title and autobiographical statement from Gibson\'s memoir, I Always Wanted to Be Somebody, corroborated by institutional biographies.',
       sensitiveClaimsReviewed: 'First Black player claims, major-title chronology, financial difficulty, LPGA integration, and later-life hardship reviewed against tennis, women\'s history, Smithsonian, and LPGA sources.',
       materialCorrections: 'Preserved strong legacy content while deepening the economic analysis and community support context.',
@@ -514,14 +514,14 @@ const ENTRIES = [
     externalLinks: [
       { source: 'National Museum of African American History and Culture', title: 'Ann Lowe: American couturier', url: 'https://nmaahc.si.edu/explore/stories/ann-lowe' },
       { source: 'Metropolitan Museum of Art', title: 'Ann Lowe and American couture', url: 'https://www.metmuseum.org/perspectives/ann-lowe' },
-      { source: 'Smithsonian American Women\'s History Museum', title: 'Ann Lowe', url: 'https://womenshistory.si.edu/herstory/ann-lowe' },
+      { source: 'Winterthur Museum, Garden & Library', title: 'Ann Lowe: American Couturier', url: 'https://www.winterthur.org/calendar/ann-lowe-american-couturier/' },
       { source: 'National Museum of American History', title: 'Sewing for joy: Ann Lowe', url: 'https://americanhistory.si.edu/explore/stories/sewing-joy-ann-lowe' }
     ],
     research: {
       status: 'batch-2-reviewed',
       dateResearched: RESEARCH_DATE,
       primarySources: ['https://nmaahc.si.edu/explore/stories/ann-lowe', 'https://www.metmuseum.org/perspectives/ann-lowe'],
-      supportingSources: ['https://womenshistory.si.edu/herstory/ann-lowe', 'https://americanhistory.si.edu/explore/stories/sewing-joy-ann-lowe'],
+      supportingSources: ['https://www.winterthur.org/calendar/ann-lowe-american-couturier/', 'https://americanhistory.si.edu/explore/stories/sewing-joy-ann-lowe'],
       verifiedQuoteSource: 'Smithsonian National Museum of African American History and Culture Ann Lowe profile.',
       sensitiveClaimsReviewed: 'Kennedy wedding dress credit, flood damage, segregated training, elite clientele, and financial consequences reviewed against museum sources.',
       materialCorrections: 'Expanded the daily entry from wedding-dress recognition to a broader account of Black craft labor, authorship, and fashion economics.',

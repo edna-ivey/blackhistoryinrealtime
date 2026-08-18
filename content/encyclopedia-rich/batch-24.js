@@ -53,13 +53,13 @@ const ENTRIES = [
       { source: 'Johns Hopkins Medicine', title: 'Cardiac Surgery Research Laboratory History', url: 'https://www.hopkinsmedicine.org/heart-vascular-institute/cardiovascular-research/by-laboratory/cardiac-surgery-research-lab/history' },
       { source: 'National Library of Medicine', title: 'African American Surgeons: Pioneers', url: 'https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html' },
       { source: 'PBS American Experience', title: 'Partners of the Heart', url: 'https://www.pbs.org/wgbh/americanexperience/films/partners/' },
-      { source: 'Britannica', title: 'Vivien Thomas', url: 'https://www.britannica.com/biography/Vivien-Thomas' }
+      { source: 'Johns Hopkins Medicine', title: 'Vivien Thomas', url: 'https://www.hopkinsmedicine.org/about/history/history-highlights/vivien-thomas' }
     ],
     research: {
       status: 'batch-24-complete',
       dateResearched: RESEARCH_DATE,
       primarySources: ['https://www.hopkinsmedicine.org/about/history/history-of-medicine/vivien-thomas', 'https://www.hopkinsmedicine.org/heart-vascular-institute/cardiovascular-research/by-laboratory/cardiac-surgery-research-lab/history', 'https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html'],
-      supportingSources: ['https://www.pbs.org/wgbh/americanexperience/films/partners/', 'https://www.britannica.com/biography/Vivien-Thomas'],
+      supportingSources: ['https://www.pbs.org/wgbh/americanexperience/films/partners/', 'https://www.hopkinsmedicine.org/about/history/history-highlights/vivien-thomas'],
       verifiedQuoteSource: 'No quotation included. Hospital, surgery, title, and recognition claims verified through Johns Hopkins and National Library of Medicine materials.',
       sensitiveClaimsReviewed: 'Medical-credit claims, Blalock-Taussig naming, Eileen Saxon operation date, lack of medical degree, pay/status disparity, honorary doctorate, and institutional segregation reviewed.',
       materialCorrections: 'Expanded scheduled fallback into full medical-labor history and avoided implying Thomas alone invented the procedure outside the Blalock-Taussig-Thomas collaboration.',
@@ -257,13 +257,13 @@ const ENTRIES = [
       { source: 'National Women\'s History Museum', title: 'Wilma Rudolph', url: 'https://www.womenshistory.org/education-resources/biographies/wilma-rudolph' },
       { source: 'USA Track & Field', title: 'Wilma Rudolph', url: 'https://usatf.org/athlete-bios/wilma-rudolph' },
       { source: 'Tennessee State University', title: 'Tigerbelles', url: 'https://www.tnstate.edu/library/digital/tigerbelles.aspx' },
-      { source: 'Smithsonian National Museum of American History', title: 'Wilma Rudolph Olympic Collection', url: 'https://americanhistory.si.edu/collections/search/object/nmah_1366535' }
+      { source: 'Encyclopaedia Britannica', title: 'Wilma Rudolph', url: 'https://www.britannica.com/biography/Wilma-Rudolph' }
     ],
     research: {
       status: 'batch-24-complete',
       dateResearched: RESEARCH_DATE,
       primarySources: ['https://olympics.com/en/athletes/wilma-rudolph', 'https://usatf.org/athlete-bios/wilma-rudolph', 'https://www.tnstate.edu/library/digital/tigerbelles.aspx'],
-      supportingSources: ['https://www.womenshistory.org/education-resources/biographies/wilma-rudolph', 'https://americanhistory.si.edu/collections/search/object/nmah_1366535'],
+      supportingSources: ['https://www.womenshistory.org/education-resources/biographies/wilma-rudolph', 'https://www.britannica.com/biography/Wilma-Rudolph'],
       verifiedQuoteSource: 'No quotation included. Common inspirational Rudolph quotations were omitted because a direct primary source was not used for this page.',
       sensitiveClaimsReviewed: 'Polio and childhood illness, age at 1956 Olympics, 1960 medal events, Tigerbelles training, integrated Clarksville celebration, retirement timing, and death from cancer reviewed.',
       materialCorrections: 'Expanded legacy page beyond miracle framing, avoided using disability as simple inspiration, and tied Rudolph to family care, HBCU coaching, segregation, and Black women athletes\' public burden.',

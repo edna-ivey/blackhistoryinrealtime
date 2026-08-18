@@ -119,13 +119,13 @@ const ENTRIES = [
       { source: 'Encyclopedia Virginia', title: 'Nat Turner\'s Revolt (1831)', url: 'https://encyclopediavirginia.org/entries/turners-revolt-nat-1831/' },
       { source: 'National Park Service', title: 'Slave Insurrections', url: 'https://www.nps.gov/jeff/learn/historyculture/slave-insurrections.htm' },
       { source: 'Encyclopedia Virginia', title: 'The Confessions of Nat Turner', url: 'https://encyclopediavirginia.org/entries/confessions-of-nat-turner-the-1831/' },
-      { source: 'Virginia Museum of History & Culture', title: 'Nat Turner\'s Rebellion', url: 'https://virginiahistory.org/learn/nat-turners-rebellion' },
+      { source: 'Library of Virginia', title: 'Nat Turner (1800-1831)', url: 'https://www.lva.virginia.gov/collections/educator-resources/online-classroom/stc/people/nat-turner-%281800-1831%29' },
       { source: 'PBS American Experience', title: 'Nat Turner', url: 'https://www.pbs.org/wgbh/aia/part3/3p1518.html' }
     ],
     research: {
       status: 'batch-18-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://encyclopediavirginia.org/entries/turners-revolt-nat-1831/', 'https://encyclopediavirginia.org/entries/confessions-of-nat-turner-the-1831/', 'https://virginiahistory.org/learn/nat-turners-rebellion'],
+      primarySources: ['https://encyclopediavirginia.org/entries/turners-revolt-nat-1831/', 'https://encyclopediavirginia.org/entries/confessions-of-nat-turner-the-1831/', 'https://www.lva.virginia.gov/collections/educator-resources/online-classroom/stc/people/nat-turner-%281800-1831%29'],
       supportingSources: ['https://www.nps.gov/jeff/learn/historyculture/slave-insurrections.htm', 'https://www.pbs.org/wgbh/aia/part3/3p1518.html'],
       verifiedQuoteSource: 'No quotation included. The Confessions is treated as a mediated legal text rather than a clean quotation source.',
       sensitiveClaimsReviewed: 'Deaths during revolt, white retaliation, trial/execution chronology, religious visions, mediated confession text, and moral framing of violence reviewed.',
@@ -392,7 +392,7 @@ const ENTRIES = [
     ],
     externalLinks: [
       { source: 'National Inventors Hall of Fame', title: 'Norbert Rillieux', url: 'https://www.invent.org/inductees/norbert-rillieux' },
-      { source: 'American Chemical Society', title: 'Norbert Rillieux and the Multiple Effect Evaporator', url: 'https://www.acs.org/education/whatischemistry/landmarks/rillieux.html' },
+      { source: 'American Chemical Society', title: 'Norbert Rillieux and the Multiple Effect Evaporator', url: 'https://www.acs.org/education/whatischemistry/landmarks/norbertrillieux.html' },
       { source: 'Smithsonian Lemelson Center', title: 'Norbert Rillieux', url: 'https://invention.si.edu/norbert-rillieux' },
       { source: 'Encyclopaedia Britannica', title: 'Norbert Rillieux', url: 'https://www.britannica.com/biography/Norbert-Rillieux' },
       { source: 'BlackPast', title: 'Norbert Rillieux', url: 'https://www.blackpast.org/african-american-history/rillieux-norbert-1806-1894/' }
@@ -400,7 +400,7 @@ const ENTRIES = [
     research: {
       status: 'batch-18-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://www.invent.org/inductees/norbert-rillieux', 'https://www.acs.org/education/whatischemistry/landmarks/rillieux.html', 'https://invention.si.edu/norbert-rillieux'],
+      primarySources: ['https://www.invent.org/inductees/norbert-rillieux', 'https://www.acs.org/education/whatischemistry/landmarks/norbertrillieux.html', 'https://invention.si.edu/norbert-rillieux'],
       supportingSources: ['https://www.britannica.com/biography/Norbert-Rillieux', 'https://www.blackpast.org/african-american-history/rillieux-norbert-1806-1894/'],
       verifiedQuoteSource: 'No quotation included. Technical and biographical claims were supported through invention and chemistry-history sources rather than a pull quote.',
       sensitiveClaimsReviewed: 'Invented versus improved wording, patent dates, free person of color status, relationship to slavery and sugar labor, France education, and chemical-engineering significance reviewed.',
@@ -464,14 +464,14 @@ const ENTRIES = [
     externalLinks: [
       { source: 'Poetry Foundation', title: 'Ntozake Shange', url: 'https://www.poetryfoundation.org/poets/ntozake-shange' },
       { source: 'Barnard College', title: 'Remembering Ntozake Shange', url: 'https://barnard.edu/magazine/winter-new/somebody-anybody-sing-black-girls-song-remembering-ntozake-shange-70' },
-      { source: 'Barnard Center for Research on Women', title: 'Calling for Colored Girls', url: 'https://bcrw.barnard.edu/fcg40-calling-for-colored-girls/' },
+      { source: 'Barnard Archives and Special Collections', title: 'Ntozake Shange Papers', url: 'https://collections.barnard.edu/public/repositories/2/resources/377' },
       { source: 'The New York Times', title: 'Ntozake Shange, Who Gave Words to Colored Girls, Is Dead at 70', url: 'https://www.nytimes.com/2018/10/27/obituaries/ntozake-shange-dead.html' },
       { source: 'Encyclopaedia Britannica', title: 'Ntozake Shange', url: 'https://www.britannica.com/biography/Ntozake-Shange' }
     ],
     research: {
       status: 'batch-18-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://www.poetryfoundation.org/poets/ntozake-shange', 'https://barnard.edu/magazine/winter-new/somebody-anybody-sing-black-girls-song-remembering-ntozake-shange-70', 'https://bcrw.barnard.edu/fcg40-calling-for-colored-girls/'],
+      primarySources: ['https://www.poetryfoundation.org/poets/ntozake-shange', 'https://barnard.edu/magazine/winter-new/somebody-anybody-sing-black-girls-song-remembering-ntozake-shange-70', 'https://collections.barnard.edu/public/repositories/2/resources/377'],
       supportingSources: ['https://www.nytimes.com/2018/10/27/obituaries/ntozake-shange-dead.html', 'https://www.britannica.com/biography/Ntozake-Shange'],
       verifiedQuoteSource: 'Short quotation traced to Sassafrass, Cypress & Indigo and cross-checked against Shange bibliographic sources.',
       sensitiveClaimsReviewed: 'Name meaning, depression/personal crisis, sexual violence themes, Broadway chronology, genre term choreopoem, and criticism of the work reviewed.',
@@ -535,14 +535,14 @@ const ENTRIES = [
       { source: 'National Archives', title: 'Paul Robeson and the Cold War', url: 'https://www.archives.gov/research/african-americans/individuals/paul-robeson' },
       { source: 'NMAAHC', title: 'Paul Robeson', url: 'https://nmaahc.si.edu/paul-robeson' },
       { source: 'Paul Robeson Cultural Center, Rutgers University', title: 'Paul Robeson Biography', url: 'https://prcc.rutgers.edu/about-prcc/biography' },
-      { source: 'FBI Records: The Vault', title: 'Paul Robeson', url: 'https://vault.fbi.gov/Paul%20Robeson' },
+      { source: 'FBI Records: The Vault', title: 'Paul Robeson, Sr.', url: 'https://vault.fbi.gov/Paul%20Robeson%2C%20Sr.' },
       { source: 'Library of Congress', title: 'Paul Robeson Concert Program', url: 'https://www.loc.gov/item/ihas.200197456/' }
     ],
     research: {
       status: 'batch-18-complete',
       dateResearched: RESEARCH_DATE,
       primarySources: ['https://www.archives.gov/research/african-americans/individuals/paul-robeson', 'https://nmaahc.si.edu/paul-robeson', 'https://prcc.rutgers.edu/about-prcc/biography'],
-      supportingSources: ['https://vault.fbi.gov/Paul%20Robeson', 'https://www.loc.gov/item/ihas.200197456/'],
+      supportingSources: ['https://vault.fbi.gov/Paul%20Robeson%2C%20Sr.', 'https://www.loc.gov/item/ihas.200197456/'],
       verifiedQuoteSource: 'Short artist-duty quotation traced to Robeson\'s 1937 statement as reproduced in institutional Robeson materials.',
       sensitiveClaimsReviewed: 'Passport revocation, Cold War repression, Soviet Union controversy, blacklisting, law-office discrimination, and internationalism reviewed.',
       materialCorrections: 'Expanded scheduled fallback beyond passport revocation into art, labor, anti-colonial politics, state repression, and political complexity.',

@@ -451,7 +451,8 @@ const ENTRIES = [
     whyItMattersToday: [
       `Bethune matters today because schools are often described as places of individual opportunity while the systems around them remain unequal. She understood education as community infrastructure. A school could feed students, train workers, cultivate leaders, and make political claims.`,
       `Her career also helps readers think about inside-outside strategy. Bethune worked with presidents while leading Black women who knew the government could not be trusted to act without pressure. That tension remains familiar in modern advocacy.`,
-      `The fuller story is not simply that she started with almost nothing. It is that she turned almost nothing into institutions that could outlive her. That is a different kind of power than inspiration. It is construction.`
+      `The fuller story is not simply that she started with almost nothing. It is that she turned almost nothing into institutions that could outlive her. That is a different kind of power than inspiration. It is construction.`,
+      `Bethune also complicates how we judge political access. Being near power did not mean being absorbed by it. She used proximity to move resources, jobs, and attention toward Black communities while still depending on Black women's organizations to keep the pressure real.`
     ],
     connected: [
       { href: '@root/encyclopedia/hbcus.html', title: 'HBCUs', description: 'Places Bethune-Cookman inside the broader history of Black higher education.' },

@@ -469,15 +469,15 @@ const ENTRIES = [
     externalLinks: [
       { source: 'Chicago Public Library', title: 'Mayor Harold Washington Biography', url: 'https://www.chipublib.org/mayor-harold-washington-biography/' },
       { source: 'Chicago History Museum', title: 'Harold Washington and the 1983 Chicago Mayoral Election', url: 'https://www.chicagohistory.org/exhibition/harold-washington-1983-chicago-mayoral-election/' },
-      { source: 'Encyclopedia of Chicago', title: 'Council Wars', url: 'https://www.encyclopedia.chicagohistory.org/pages/342.html' },
-      { source: 'Encyclopedia of Chicago', title: 'Year Page: 1983', url: 'https://www.encyclopedia.chicagohistory.org/pages/500009.html' },
+      { source: 'Chicago Public Library', title: 'Harold Washington in His Own Words', url: 'https://www.chipublib.org/blogs/post/harold-washington-in-his-own-words/' },
+      { source: 'Illinois Digital Heritage Hub', title: 'Harold Washington Sources', url: 'https://omeka-s.library.illinois.edu/s/idhh/page/chicago-mayor-washington-sources' },
       { source: 'Chicago Public Library', title: 'Harold Washington Archives and Collections', url: 'https://www.chipublib.org/fa-harold-washington-archives-and-collections-mayoral-records-public-safetyregulatory-sub-cabinet-records/' }
     ],
     research: {
       status: 'batch-12-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://www.chipublib.org/mayor-harold-washington-biography/', 'https://www.chicagohistory.org/exhibition/harold-washington-1983-chicago-mayoral-election/', 'https://www.encyclopedia.chicagohistory.org/pages/342.html'],
-      supportingSources: ['https://www.encyclopedia.chicagohistory.org/pages/500009.html', 'https://www.chipublib.org/fa-harold-washington-archives-and-collections-mayoral-records-public-safetyregulatory-sub-cabinet-records/'],
+      primarySources: ['https://www.chipublib.org/mayor-harold-washington-biography/', 'https://www.chicagohistory.org/exhibition/harold-washington-1983-chicago-mayoral-election/', 'https://www.chipublib.org/blogs/post/harold-washington-in-his-own-words/'],
+      supportingSources: ['https://omeka-s.library.illinois.edu/s/idhh/page/chicago-mayor-washington-sources', 'https://www.chipublib.org/fa-harold-washington-archives-and-collections-mayoral-records-public-safetyregulatory-sub-cabinet-records/'],
       verifiedQuoteSource: 'No quotation included. Campaign slogan discussed as historical context but not styled as Washington quotation.',
       sensitiveClaimsReviewed: 'First Black mayor claim, election dates, Epton slogan interpretation, Vrdolyak 29 racial composition, Council Wars end, reform accomplishments, reelection, and death in office reviewed.',
       materialCorrections: 'Expanded scheduled fallback into full coalition, machine-politics, Council Wars, and governance account.',
@@ -598,7 +598,8 @@ const ENTRIES = [
     whyItMattersToday: [
       `Tubman matters today because she is often admired in ways that make her less human. The real Tubman was more instructive than the myth: disabled, tactical, spiritually grounded, politically alert, and willing to do slow work.`,
       `Her story also teaches that liberation depends on networks. Safe houses, boat pilots, informants, family members, soldiers, nurses, abolitionists, and freedom seekers all mattered. Tubman was extraordinary, but she was not alone.`,
-      `Remembering her accurately protects the power of the story. She did not need exaggeration. The documented record is already astonishing.`
+      `Remembering her accurately protects the power of the story. She did not need exaggeration. The documented record is already astonishing.`,
+      `Accuracy also honors the people around her. Family members, local guides, Black boatmen, Union soldiers, abolitionists, and freedom seekers helped make the work possible. Naming Tubman's strategy clearly lets readers see both her singular courage and the collective infrastructure freedom required.`
     ],
     connected: [
       { href: '@root/generated/pages/harriet-jacobs.html', title: 'Harriet Jacobs', description: 'Connects Tubman to another Black woman who used strategy and secrecy to escape slavery.' },

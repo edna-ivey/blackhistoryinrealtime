@@ -39,7 +39,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Primary or authoritative sources:
   - https://encyclopediavirginia.org/entries/turners-revolt-nat-1831/
   - https://encyclopediavirginia.org/entries/confessions-of-nat-turner-the-1831/
-  - https://virginiahistory.org/learn/nat-turners-rebellion
+  - https://www.lva.virginia.gov/collections/educator-resources/online-classroom/stc/people/nat-turner-%281800-1831%29
 - Supporting secondary sources:
   - https://www.nps.gov/jeff/learn/historyculture/slave-insurrections.htm
   - https://www.pbs.org/wgbh/aia/part3/3p1518.html
@@ -50,7 +50,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Encyclopedia Virginia: Nat Turner's Revolt (1831) (https://encyclopediavirginia.org/entries/turners-revolt-nat-1831/)
   - National Park Service: Slave Insurrections (https://www.nps.gov/jeff/learn/historyculture/slave-insurrections.htm)
   - Encyclopedia Virginia: The Confessions of Nat Turner (https://encyclopediavirginia.org/entries/confessions-of-nat-turner-the-1831/)
-  - Virginia Museum of History & Culture: Nat Turner's Rebellion (https://virginiahistory.org/learn/nat-turners-rebellion)
+  - Library of Virginia: Nat Turner (1800-1831) (https://www.lva.virginia.gov/collections/educator-resources/online-classroom/stc/people/nat-turner-%281800-1831%29)
   - PBS American Experience: Nat Turner (https://www.pbs.org/wgbh/aia/part3/3p1518.html)
 - Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, revolt/retaliation claim review, depth/similarity validation, desktop/mobile browser check.
 
@@ -169,7 +169,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - https://nmaahc.si.edu/paul-robeson
   - https://prcc.rutgers.edu/about-prcc/biography
 - Supporting secondary sources:
-  - https://vault.fbi.gov/Paul%20Robeson
+  - https://vault.fbi.gov/Paul%20Robeson%2C%20Sr.
   - https://www.loc.gov/item/ihas.200197456/
 - Verified quotation source: Short artist-duty quotation traced to Robeson's 1937 statement as reproduced in institutional Robeson materials.
 - Sensitive or disputed claims reviewed: Passport revocation, Cold War repression, Soviet Union controversy, blacklisting, law-office discrimination, and internationalism reviewed.
@@ -178,7 +178,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Archives: Paul Robeson and the Cold War (https://www.archives.gov/research/african-americans/individuals/paul-robeson)
   - NMAAHC: Paul Robeson (https://nmaahc.si.edu/paul-robeson)
   - Paul Robeson Cultural Center, Rutgers University: Paul Robeson Biography (https://prcc.rutgers.edu/about-prcc/biography)
-  - FBI Records: The Vault: Paul Robeson (https://vault.fbi.gov/Paul%20Robeson)
+  - FBI Records: The Vault: Paul Robeson, Sr. (https://vault.fbi.gov/Paul%20Robeson%2C%20Sr.)
   - Library of Congress: Paul Robeson Concert Program (https://www.loc.gov/item/ihas.200197456/)
 - Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, Cold War and surveillance claim review, depth/similarity validation, desktop/mobile browser check.
 
@@ -554,7 +554,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Primary or authoritative sources:
   - https://www.archives.gov/research/african-americans/migrations/great-migration
   - https://nmaahc.si.edu/explore/stories/great-migration
-  - https://www.inmotionaame.org/migrations/topic.cfm?migration=8&topic=1
+  - https://www.loc.gov/classroom-materials/great-migration/
 - Supporting secondary sources:
   - https://www.phillipscollection.org/collection/migration-series
   - https://www.blackpast.org/african-american-history/great-migration-1915-1960/
@@ -564,7 +564,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - External links included on the page:
   - National Archives: The Great Migration (https://www.archives.gov/research/african-americans/migrations/great-migration)
   - National Museum of African American History and Culture: The Great Migration (https://nmaahc.si.edu/explore/stories/great-migration)
-  - In Motion: The African-American Migration Experience: The Great Migration (https://www.inmotionaame.org/migrations/topic.cfm?migration=8&topic=1)
+  - Library of Congress: The Great Migration (https://www.loc.gov/classroom-materials/great-migration/)
   - The Phillips Collection: Jacob Lawrence: The Migration Series (https://www.phillipscollection.org/collection/migration-series)
   - BlackPast: The Great Migration (https://www.blackpast.org/african-american-history/great-migration-1915-1960/)
 - Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, migration claim review.
@@ -891,7 +891,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - https://nmaahc.si.edu/explore/stories/ann-lowe
   - https://www.metmuseum.org/perspectives/ann-lowe
 - Supporting secondary sources:
-  - https://womenshistory.si.edu/herstory/ann-lowe
+  - https://www.winterthur.org/calendar/ann-lowe-american-couturier/
   - https://americanhistory.si.edu/explore/stories/sewing-joy-ann-lowe
 - Verified quotation source: Smithsonian National Museum of African American History and Culture Ann Lowe profile.
 - Sensitive or disputed claims reviewed: Kennedy wedding dress credit, flood damage, segregated training, elite clientele, and financial consequences reviewed against museum sources.
@@ -899,7 +899,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - External links included on the page:
   - National Museum of African American History and Culture: Ann Lowe: American couturier (https://nmaahc.si.edu/explore/stories/ann-lowe)
   - Metropolitan Museum of Art: Ann Lowe and American couture (https://www.metmuseum.org/perspectives/ann-lowe)
-  - Smithsonian American Women's History Museum: Ann Lowe (https://womenshistory.si.edu/herstory/ann-lowe)
+  - Winterthur Museum, Garden & Library: Ann Lowe: American Couturier (https://www.winterthur.org/calendar/ann-lowe-american-couturier/)
   - National Museum of American History: Sewing for joy: Ann Lowe (https://americanhistory.si.edu/explore/stories/sewing-joy-ann-lowe)
 - Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
 
@@ -966,7 +966,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Primary or authoritative sources:
   - https://www.archives.gov/research/african-americans/black-power
   - https://www.archives.gov/research/african-americans/black-power/black-panthers
-  - https://vault.fbi.gov/Black%20Panther%20Party
+  - https://www.loc.gov/collections/black-panther-party-newspaper/about-this-collection/
 - Supporting secondary sources:
   - https://nmaahc.si.edu/explore/collection/search?edan_q=Black%20Panther%20Party
   - https://guides.lib.berkeley.edu/blackpantherparty
@@ -976,7 +976,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - External links included on the page:
   - National Archives: Black Power (https://www.archives.gov/research/african-americans/black-power)
   - National Archives: Black Panthers (https://www.archives.gov/research/african-americans/black-power/black-panthers)
-  - FBI Records: The Vault: Black Panther Party (https://vault.fbi.gov/Black%20Panther%20Party)
+  - Library of Congress: Black Panther Party Newspaper Collection (https://www.loc.gov/collections/black-panther-party-newspaper/about-this-collection/)
   - National Museum of African American History and Culture: Black Panther Party Materials (https://nmaahc.si.edu/explore/collection/search?edan_q=Black%20Panther%20Party)
   - UC Berkeley Library: Black Panther Party Research Guide (https://guides.lib.berkeley.edu/blackpantherparty)
 - Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, Panther history claim review.
@@ -1147,7 +1147,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - https://www.archives.gov/research/african-americans/individuals/fred-hampton
   - https://www.archives.gov/research/african-americans/black-power/black-panthers
 - Supporting secondary sources:
-  - https://www.encyclopedia.chicagohistory.org/pages/142.html
+  - https://digitalchicagohistory.org/exhibits/show/fred-hampton-50th/the-illinois-black-panther-par
   - https://www.chicagohistory.org/fredhampton50/
   - https://www.wttw.com/chicago-stories/young-lords-of-lincoln-park/the-first-rainbow-coalition
 - Verified quotation source: No quotation included. A widely circulated Hampton quote was omitted because a primary transcript or archival audio source was not verified during this batch.
@@ -1156,7 +1156,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - External links included on the page:
   - National Archives: Fred Hampton (https://www.archives.gov/research/african-americans/individuals/fred-hampton)
   - National Archives: The Black Panther Party (https://www.archives.gov/research/african-americans/black-power/black-panthers)
-  - Encyclopedia of Chicago: Black Panther Party (https://www.encyclopedia.chicagohistory.org/pages/142.html)
+  - Digital Chicago History: The Illinois Black Panther Party (https://digitalchicagohistory.org/exhibits/show/fred-hampton-50th/the-illinois-black-panther-par)
   - Chicago History Museum: The Assassination of Fred Hampton (https://www.chicagohistory.org/fredhampton50/)
   - WTTW Chicago: The First Rainbow Coalition (https://www.wttw.com/chicago-stories/young-lords-of-lincoln-park/the-first-rainbow-coalition)
 - Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, sensitive state-violence claim review, depth/similarity validation, desktop/mobile browser check.
@@ -1710,7 +1710,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html
 - Supporting secondary sources:
   - https://www.pbs.org/wgbh/americanexperience/films/partners/
-  - https://www.britannica.com/biography/Vivien-Thomas
+  - https://www.hopkinsmedicine.org/about/history/history-highlights/vivien-thomas
 - Verified quotation source: No quotation included. Hospital, surgery, title, and recognition claims verified through Johns Hopkins and National Library of Medicine materials.
 - Sensitive or disputed claims reviewed: Medical-credit claims, Blalock-Taussig naming, Eileen Saxon operation date, lack of medical degree, pay/status disparity, honorary doctorate, and institutional segregation reviewed.
 - Material corrections made: Expanded scheduled fallback into full medical-labor history and avoided implying Thomas alone invented the procedure outside the Blalock-Taussig-Thomas collaboration.
@@ -1719,7 +1719,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - Johns Hopkins Medicine: Cardiac Surgery Research Laboratory History (https://www.hopkinsmedicine.org/heart-vascular-institute/cardiovascular-research/by-laboratory/cardiac-surgery-research-lab/history)
   - National Library of Medicine: African American Surgeons: Pioneers (https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html)
   - PBS American Experience: Partners of the Heart (https://www.pbs.org/wgbh/americanexperience/films/partners/)
-  - Britannica: Vivien Thomas (https://www.britannica.com/biography/Vivien-Thomas)
+  - Johns Hopkins Medicine: Vivien Thomas (https://www.hopkinsmedicine.org/about/history/history-highlights/vivien-thomas)
 - Final review status: Batch 24 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, medical-credit claim review.
 
 ### 2026-07-13 - Rebecca Lee Crumpler
@@ -1810,7 +1810,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Material factual claims: Norbert Rillieux did not simply make sugar cheaper. He helped transform chemical engineering while working inside a world structured by slavery, race, and industry. Born free in New Orleans to a wealthy white father and a free woman of color, Rillieux was educated in France and developed a multiple-effect evaporator that made sugar refining more efficient, safer, and less fuel-intensive. The invention mattered technically, but the setting matters morally. Sugar wealth was tied to brutal plantation labor. Rillieux's brilliance improved an industry built on exploitation, and his own professional life was constrained by racial law. His page matters because invention history is rarely clean. It lives inside markets, labor, danger, patents, and power.
 - Primary or authoritative sources:
   - https://www.invent.org/inductees/norbert-rillieux
-  - https://www.acs.org/education/whatischemistry/landmarks/rillieux.html
+  - https://www.acs.org/education/whatischemistry/landmarks/norbertrillieux.html
   - https://invention.si.edu/norbert-rillieux
 - Supporting secondary sources:
   - https://www.britannica.com/biography/Norbert-Rillieux
@@ -1820,7 +1820,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Material corrections made: Expanded scheduled fallback beyond a simple invention note into process engineering, worker safety, sugar labor, racial constraints, and recognition.
 - External links included on the page:
   - National Inventors Hall of Fame: Norbert Rillieux (https://www.invent.org/inductees/norbert-rillieux)
-  - American Chemical Society: Norbert Rillieux and the Multiple Effect Evaporator (https://www.acs.org/education/whatischemistry/landmarks/rillieux.html)
+  - American Chemical Society: Norbert Rillieux and the Multiple Effect Evaporator (https://www.acs.org/education/whatischemistry/landmarks/norbertrillieux.html)
   - Smithsonian Lemelson Center: Norbert Rillieux (https://invention.si.edu/norbert-rillieux)
   - Encyclopaedia Britannica: Norbert Rillieux (https://www.britannica.com/biography/Norbert-Rillieux)
   - BlackPast: Norbert Rillieux (https://www.blackpast.org/african-american-history/rillieux-norbert-1806-1894/)
@@ -2083,7 +2083,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Writer/research status: batch-6-complete
 - Material factual claims: Doug Williams became the first Black quarterback to start and win a Super Bowl, then became its Most Valuable Player. That sentence is true, but the pressure inside it was enormous. Williams came from Grambling State, played for Eddie Robinson, became a first-round NFL draft pick, carried a Tampa Bay franchise that paid and treated him unequally, left for the USFL, returned as a backup in Washington, and then turned Super Bowl XXII into one of the most explosive quarters in football history. His story matters because quarterback has never been just a position. In America, it has been a test of who is allowed to be seen as intelligent, calm, commanding, and trusted with control.
 - Primary or authoritative sources:
-  - https://www.cfbhall.com/inductees/doug-williams-2001/
+  - https://footballfoundation.org/hof_search.aspx?hof=2007
   - https://www.nfl.com/news/doug-williams-super-bowl-heroics-paved-a-path-for-black-qbs-0ap3000000786835
 - Supporting secondary sources:
   - https://www.buccaneers.com/team/ring-of-honor/doug-williams
@@ -2092,7 +2092,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Sensitive or disputed claims reviewed: First Black quarterback to start/win Super Bowl, first-round draft claim, Super Bowl statistics, Tampa contract/valuation context, and HBCU pipeline framing reviewed.
 - Material corrections made: Expanded scheduled fallback into a fuller account of Grambling, quarterback racial bias, Tampa Bay years, Super Bowl pressure, and post-playing leadership.
 - External links included on the page:
-  - College Football Hall of Fame: Doug Williams (https://www.cfbhall.com/inductees/doug-williams-2001/)
+  - National Football Foundation: College Football Hall of Fame: Doug Williams (https://footballfoundation.org/hof_search.aspx?hof=2007)
   - NFL: Doug Williams Super Bowl heroics paved a path for Black QBs (https://www.nfl.com/news/doug-williams-super-bowl-heroics-paved-a-path-for-black-qbs-0ap3000000786835)
   - Tampa Bay Buccaneers: Doug Williams Ring of Honor (https://www.buccaneers.com/team/ring-of-honor/doug-williams)
   - Washington Commanders: Doug Williams (https://www.commanders.com/team/front-office-roster/doug-williams)
@@ -2163,7 +2163,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - https://rediscovering-black-history.blogs.archives.gov/2024/12/04/the-6888th-central-postal-directory-battalion-and-the-womens-army-corps-wacs-in-world-war-ii/
   - https://armyhistory.org/6888th-central-postal-directory-battalion/
 - Supporting secondary sources:
-  - https://postalmuseum.si.edu/the-6888th-central-postal-directory-battalion
+  - https://www.army.mil/article/257612/6888th_central_postal_directory_battalion_to_receive_congressional_gold_medal
   - https://www.congress.gov/bill/117th-congress/senate-bill/321
 - Verified quotation source: Unit motto verified through U.S. Army, National Archives, and Postal Museum materials.
 - Sensitive or disputed claims reviewed: Only all-Black WAC unit overseas, mail volume framing, timeline, Charity Adams rank/role, Congressional Gold Medal, and segregation conditions reviewed.
@@ -2172,7 +2172,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - U.S. Army: The Six Triple Eight (https://www.army.mil/article/255368/six_triple_eight)
   - National Archives: The 6888th Central Postal Directory Battalion and the Women's Army Corps (https://rediscovering-black-history.blogs.archives.gov/2024/12/04/the-6888th-central-postal-directory-battalion-and-the-womens-army-corps-wacs-in-world-war-ii/)
   - Army Historical Foundation: 6888th Central Postal Directory Battalion (https://armyhistory.org/6888th-central-postal-directory-battalion/)
-  - Smithsonian National Postal Museum: The 6888th Central Postal Directory Battalion (https://postalmuseum.si.edu/the-6888th-central-postal-directory-battalion)
+  - U.S. Army: 6888th Central Postal Directory Battalion to Receive Congressional Gold Medal (https://www.army.mil/article/257612/6888th_central_postal_directory_battalion_to_receive_congressional_gold_medal)
   - Congress.gov: Six Triple Eight Congressional Gold Medal Act (https://www.congress.gov/bill/117th-congress/senate-bill/321)
 - Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified motto.
 
@@ -2185,7 +2185,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Writer/research status: batch-22-complete
 - Material factual claims: The Harlem Hellfighters fought for democracy in Europe while Jim Crow followed them from home. Officially the 369th Infantry Regiment, the unit served under French command during World War I because many white American commanders resisted sending Black troops into combat alongside white U.S. units. They spent extraordinary time near the front, earned French honors, suffered casualties, and returned to parades in New York while racism remained firmly in place. Their regimental band, led by James Reese Europe, helped carry jazz and Black military music across the Atlantic. This page matters because the Hellfighters expose a familiar contradiction: Black soldiers were asked to represent American freedom abroad while being denied the full protection of that freedom at home.
 - Primary or authoritative sources:
-  - https://www.nationalguard.mil/Resources/Image-Gallery/Historical-Paintings/Heritage-Series/Harlem-Hellfighters/
+  - https://www.archives.gov/education/lessons/369th-infantry
   - https://www.army.mil/article/255716/harlem_hellfighters
   - https://nmaahc.si.edu/explore/stories/harlem-hellfighters
 - Supporting secondary sources:
@@ -2195,7 +2195,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Sensitive or disputed claims reviewed: French command, combat duration, Henry Johnson recognition, Red Summer context, and jazz spread claims reviewed.
 - Material corrections made: Expanded scheduled fallback into Jim Crow military structure, combat, music, delayed recognition, and return-home contradiction.
 - External links included on the page:
-  - National Guard: Harlem Hellfighters (https://www.nationalguard.mil/Resources/Image-Gallery/Historical-Paintings/Heritage-Series/Harlem-Hellfighters/)
+  - National Archives: 369th Infantry and African Americans during World War I (https://www.archives.gov/education/lessons/369th-infantry)
   - U.S. Army: Harlem Hellfighters (https://www.army.mil/article/255716/harlem_hellfighters)
   - National Museum of African American History and Culture: Harlem Hellfighters (https://nmaahc.si.edu/explore/stories/harlem-hellfighters)
   - Smithsonian Magazine: The Harlem Hellfighters (https://www.smithsonianmag.com/history/remembering-harlem-hellfighters-180967355/)
@@ -2489,7 +2489,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - https://www.womenshistory.org/education-resources/biographies/ruby-bridges
   - https://www.rubybridges.com/
 - Supporting secondary sources:
-  - https://www.nrm.org/thinglink/text/Problem_live_with.html
+  - https://www.whitehousehistory.org/photos/fotoware?id=EE6E91C2F9DD4734%20BB89C5682E9B951C
   - https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html
 - Verified quotation source: Short quotation traced to Ruby Bridges public materials and cross-checked against institutional sources.
 - Sensitive or disputed claims reviewed: Age, federal marshals, family retaliation, other New Orleans children, classroom isolation, and present-day school inequality framing reviewed.
@@ -2498,7 +2498,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Park Service: Ruby Bridges (https://www.nps.gov/people/rubybridges.htm)
   - National Women's History Museum: Ruby Bridges (https://www.womenshistory.org/education-resources/biographies/ruby-bridges)
   - Official Ruby Bridges Website: Ruby Bridges (https://www.rubybridges.com/)
-  - Norman Rockwell Museum: The Problem We All Live With (https://www.nrm.org/thinglink/text/Problem_live_with.html)
+  - White House Historical Association: The Problem We All Live With at the White House (https://www.whitehousehistory.org/photos/fotoware?id=EE6E91C2F9DD4734%20BB89C5682E9B951C)
   - National Museum of American History: Ruby Bridges and School Desegregation (https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html)
 - Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, child-centered integration claim review.
 
@@ -2587,9 +2587,9 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Primary or authoritative sources:
   - https://www.chipublib.org/mayor-harold-washington-biography/
   - https://www.chicagohistory.org/exhibition/harold-washington-1983-chicago-mayoral-election/
-  - https://www.encyclopedia.chicagohistory.org/pages/342.html
+  - https://www.chipublib.org/blogs/post/harold-washington-in-his-own-words/
 - Supporting secondary sources:
-  - https://www.encyclopedia.chicagohistory.org/pages/500009.html
+  - https://omeka-s.library.illinois.edu/s/idhh/page/chicago-mayor-washington-sources
   - https://www.chipublib.org/fa-harold-washington-archives-and-collections-mayoral-records-public-safetyregulatory-sub-cabinet-records/
 - Verified quotation source: No quotation included. Campaign slogan discussed as historical context but not styled as Washington quotation.
 - Sensitive or disputed claims reviewed: First Black mayor claim, election dates, Epton slogan interpretation, Vrdolyak 29 racial composition, Council Wars end, reform accomplishments, reelection, and death in office reviewed.
@@ -2597,8 +2597,8 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - External links included on the page:
   - Chicago Public Library: Mayor Harold Washington Biography (https://www.chipublib.org/mayor-harold-washington-biography/)
   - Chicago History Museum: Harold Washington and the 1983 Chicago Mayoral Election (https://www.chicagohistory.org/exhibition/harold-washington-1983-chicago-mayoral-election/)
-  - Encyclopedia of Chicago: Council Wars (https://www.encyclopedia.chicagohistory.org/pages/342.html)
-  - Encyclopedia of Chicago: Year Page: 1983 (https://www.encyclopedia.chicagohistory.org/pages/500009.html)
+  - Chicago Public Library: Harold Washington in His Own Words (https://www.chipublib.org/blogs/post/harold-washington-in-his-own-words/)
+  - Illinois Digital Heritage Hub: Harold Washington Sources (https://omeka-s.library.illinois.edu/s/idhh/page/chicago-mayor-washington-sources)
   - Chicago Public Library: Harold Washington Archives and Collections (https://www.chipublib.org/fa-harold-washington-archives-and-collections-mayoral-records-public-safetyregulatory-sub-cabinet-records/)
 - Final review status: Batch 12 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, no unsupported quote, political-conflict claim review, depth/similarity validation, desktop/mobile browser check.
 
@@ -2614,7 +2614,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - https://www.archives.nyc/dinkins-gallery
   - https://www.nyc.gov/html/unccp/scp/html/about/bio_dinkins.shtml
 - Supporting secondary sources:
-  - https://www.sipa.columbia.edu/news/remembering-professor-david-dinkins
+  - https://www.columbia.edu/content/david-dinkins-1927-2020
   - https://www.britannica.com/biography/David-Dinkins
 - Verified quotation source: NYC Department of Records summary of Dinkins's mayoral language.
 - Sensitive or disputed claims reviewed: Crown Heights framing, crime-rate and deficit claims, first Black mayor claim, Safe Streets/Safe City, and anti-apartheid legislation reviewed.
@@ -2622,7 +2622,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - External links included on the page:
   - NYC Department of Records: David N. Dinkins, 106th Mayor of the City of New York (https://www.archives.nyc/dinkins-gallery)
   - NYC Global Partners: Professor David Dinkins biography (https://www.nyc.gov/html/unccp/scp/html/about/bio_dinkins.shtml)
-  - Columbia SIPA: Remembering Professor David Dinkins (https://www.sipa.columbia.edu/news/remembering-professor-david-dinkins)
+  - Columbia University: David Dinkins, 1927-2020 (https://www.columbia.edu/content/david-dinkins-1927-2020)
   - Britannica: David Dinkins (https://www.britannica.com/biography/David-Dinkins)
 - Final review status: Batch 6 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
 
@@ -2813,7 +2813,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Primary or authoritative sources:
   - https://www.poetryfoundation.org/poets/ntozake-shange
   - https://barnard.edu/magazine/winter-new/somebody-anybody-sing-black-girls-song-remembering-ntozake-shange-70
-  - https://bcrw.barnard.edu/fcg40-calling-for-colored-girls/
+  - https://collections.barnard.edu/public/repositories/2/resources/377
 - Supporting secondary sources:
   - https://www.nytimes.com/2018/10/27/obituaries/ntozake-shange-dead.html
   - https://www.britannica.com/biography/Ntozake-Shange
@@ -2823,7 +2823,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - External links included on the page:
   - Poetry Foundation: Ntozake Shange (https://www.poetryfoundation.org/poets/ntozake-shange)
   - Barnard College: Remembering Ntozake Shange (https://barnard.edu/magazine/winter-new/somebody-anybody-sing-black-girls-song-remembering-ntozake-shange-70)
-  - Barnard Center for Research on Women: Calling for Colored Girls (https://bcrw.barnard.edu/fcg40-calling-for-colored-girls/)
+  - Barnard Archives and Special Collections: Ntozake Shange Papers (https://collections.barnard.edu/public/repositories/2/resources/377)
   - The New York Times: Ntozake Shange, Who Gave Words to Colored Girls, Is Dead at 70 (https://www.nytimes.com/2018/10/27/obituaries/ntozake-shange-dead.html)
   - Encyclopaedia Britannica: Ntozake Shange (https://www.britannica.com/biography/Ntozake-Shange)
 - Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, form and sensitive-theme claim review, depth/similarity validation, desktop/mobile browser check.
@@ -3060,18 +3060,18 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Material factual claims: Althea Gibson was not simply the first Black player allowed into elite tennis. She became the best player in the world, then discovered that victory did not guarantee security. Gibson won the French Championships, Wimbledon, and the U.S. Nationals at a time when tennis was still shaped by amateur rules, country-club exclusion, and racial gatekeeping. She later integrated the LPGA as well. Her story is thrilling, but it is not a clean triumph story. It asks why a Black woman could win the sport's highest honors and still struggle to make a living from what she had done.
 - Primary or authoritative sources:
   - https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson
-  - https://womenshistory.si.edu/herstory/althea-gibson
+  - https://www.womenshistory.org/education-resources/biographies/althea-gibson
 - Supporting secondary sources:
   - https://www.womenshistory.org/education-resources/biographies/althea-gibson
-  - https://www.usga.org/content/usga/home-page/articles/2020/02/althea-gibson-broke-barriers-in-golf-too.html
+  - https://www.usga.org/articles/2016/02/golf--althea-gibson-s-second-act.html
 - Verified quotation source: Title and autobiographical statement from Gibson's memoir, I Always Wanted to Be Somebody, corroborated by institutional biographies.
 - Sensitive or disputed claims reviewed: First Black player claims, major-title chronology, financial difficulty, LPGA integration, and later-life hardship reviewed against tennis, women's history, Smithsonian, and LPGA sources.
 - Material corrections made: Preserved strong legacy content while deepening the economic analysis and community support context.
 - External links included on the page:
   - International Tennis Hall of Fame: Althea Gibson biography (https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson)
   - National Women's History Museum: Althea Gibson biography (https://www.womenshistory.org/education-resources/biographies/althea-gibson)
-  - Smithsonian American Women's History Museum: Althea Gibson (https://womenshistory.si.edu/herstory/althea-gibson)
-  - USGA: Althea Gibson and golf history (https://www.usga.org/content/usga/home-page/articles/2020/02/althea-gibson-broke-barriers-in-golf-too.html)
+  - International Tennis Hall of Fame: Althea Gibson Statue at the US Open (https://www.tennisfame.com/blog/2019/08/althea-gibson-statue-at-us-open/)
+  - USGA: Golf: Althea Gibson's Second Act (https://www.usga.org/articles/2016/02/golf--althea-gibson-s-second-act.html)
 - Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
 
 ### 2026-04-04 - Assassination of Martin Luther King Jr.
@@ -4910,7 +4910,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - https://www.womenshistory.org/education-resources/biographies/ruby-bridges
   - https://www.rubybridges.com/
 - Supporting secondary sources:
-  - https://www.nrm.org/thinglink/text/Problem_live_with.html
+  - https://www.whitehousehistory.org/photos/fotoware?id=EE6E91C2F9DD4734%20BB89C5682E9B951C
   - https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html
 - Verified quotation source: Short quotation traced to Ruby Bridges' official website and cross-checked against institutional biographies.
 - Sensitive or disputed claims reviewed: Age, date of integration, marshals, family retaliation, classroom isolation, Barbara Henry role, other New Orleans children, living status, and Rockwell painting reviewed.
@@ -4919,7 +4919,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Park Service: Ruby Bridges (https://www.nps.gov/people/rubybridges.htm)
   - National Women's History Museum: Ruby Bridges (https://www.womenshistory.org/education-resources/biographies/ruby-bridges)
   - Official Ruby Bridges Website: Ruby Bridges (https://www.rubybridges.com/)
-  - Norman Rockwell Museum: The Problem We All Live With (https://www.nrm.org/thinglink/text/Problem_live_with.html)
+  - White House Historical Association: The Problem We All Live With at the White House (https://www.whitehousehistory.org/photos/fotoware?id=EE6E91C2F9DD4734%20BB89C5682E9B951C)
   - National Museum of American History: Ruby Bridges and School Desegregation (https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html)
 - Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, child-centered and living-person claim review.
 
@@ -5301,7 +5301,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - https://www.tnstate.edu/library/digital/tigerbelles.aspx
 - Supporting secondary sources:
   - https://www.womenshistory.org/education-resources/biographies/wilma-rudolph
-  - https://americanhistory.si.edu/collections/search/object/nmah_1366535
+  - https://www.britannica.com/biography/Wilma-Rudolph
 - Verified quotation source: No quotation included. Common inspirational Rudolph quotations were omitted because a direct primary source was not used for this page.
 - Sensitive or disputed claims reviewed: Polio and childhood illness, age at 1956 Olympics, 1960 medal events, Tigerbelles training, integrated Clarksville celebration, retirement timing, and death from cancer reviewed.
 - Material corrections made: Expanded legacy page beyond miracle framing, avoided using disability as simple inspiration, and tied Rudolph to family care, HBCU coaching, segregation, and Black women athletes' public burden.
@@ -5310,7 +5310,7 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - National Women's History Museum: Wilma Rudolph (https://www.womenshistory.org/education-resources/biographies/wilma-rudolph)
   - USA Track & Field: Wilma Rudolph (https://usatf.org/athlete-bios/wilma-rudolph)
   - Tennessee State University: Tigerbelles (https://www.tnstate.edu/library/digital/tigerbelles.aspx)
-  - Smithsonian National Museum of American History: Wilma Rudolph Olympic Collection (https://americanhistory.si.edu/collections/search/object/nmah_1366535)
+  - Encyclopaedia Britannica: Wilma Rudolph (https://www.britannica.com/biography/Wilma-Rudolph)
 - Final review status: Batch 24 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, sports/disability/segregation claim review.
 
 ### 2026-03-14 - Zora Neale Hurston

@@ -257,14 +257,14 @@ const ENTRIES = [
     externalLinks: [
       { source: 'National Archives', title: 'The Great Migration', url: 'https://www.archives.gov/research/african-americans/migrations/great-migration' },
       { source: 'National Museum of African American History and Culture', title: 'The Great Migration', url: 'https://nmaahc.si.edu/explore/stories/great-migration' },
-      { source: 'In Motion: The African-American Migration Experience', title: 'The Great Migration', url: 'https://www.inmotionaame.org/migrations/topic.cfm?migration=8&topic=1' },
+      { source: 'Library of Congress', title: 'The Great Migration', url: 'https://www.loc.gov/classroom-materials/great-migration/' },
       { source: 'The Phillips Collection', title: 'Jacob Lawrence: The Migration Series', url: 'https://www.phillipscollection.org/collection/migration-series' },
       { source: 'BlackPast', title: 'The Great Migration', url: 'https://www.blackpast.org/african-american-history/great-migration-1915-1960/' }
     ],
     research: {
       status: 'batch-22-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://www.archives.gov/research/african-americans/migrations/great-migration', 'https://nmaahc.si.edu/explore/stories/great-migration', 'https://www.inmotionaame.org/migrations/topic.cfm?migration=8&topic=1'],
+      primarySources: ['https://www.archives.gov/research/african-americans/migrations/great-migration', 'https://nmaahc.si.edu/explore/stories/great-migration', 'https://www.loc.gov/classroom-materials/great-migration/'],
       supportingSources: ['https://www.phillipscollection.org/collection/migration-series', 'https://www.blackpast.org/african-american-history/great-migration-1915-1960/'],
       verifiedQuoteSource: 'No quotation included. Six-million framing and periodization cross-checked against institutional sources.',
       sensitiveClaimsReviewed: 'Migration counts, push-pull causes, housing discrimination, political effects, cultural effects, and reverse migration framing reviewed.',
@@ -390,7 +390,7 @@ const ENTRIES = [
       { href: '@root/encyclopedia/great-migration.html', title: 'The Great Migration', description: 'Connects Harlem, Black urban life, labor, and wartime movement.' }
     ],
     externalLinks: [
-      { source: 'National Guard', title: 'Harlem Hellfighters', url: 'https://www.nationalguard.mil/Resources/Image-Gallery/Historical-Paintings/Heritage-Series/Harlem-Hellfighters/' },
+      { source: 'National Archives', title: '369th Infantry and African Americans during World War I', url: 'https://www.archives.gov/education/lessons/369th-infantry' },
       { source: 'U.S. Army', title: 'Harlem Hellfighters', url: 'https://www.army.mil/article/255716/harlem_hellfighters' },
       { source: 'National Museum of African American History and Culture', title: 'Harlem Hellfighters', url: 'https://nmaahc.si.edu/explore/stories/harlem-hellfighters' },
       { source: 'Smithsonian Magazine', title: 'The Harlem Hellfighters', url: 'https://www.smithsonianmag.com/history/remembering-harlem-hellfighters-180967355/' },
@@ -399,7 +399,7 @@ const ENTRIES = [
     research: {
       status: 'batch-22-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://www.nationalguard.mil/Resources/Image-Gallery/Historical-Paintings/Heritage-Series/Harlem-Hellfighters/', 'https://www.army.mil/article/255716/harlem_hellfighters', 'https://nmaahc.si.edu/explore/stories/harlem-hellfighters'],
+      primarySources: ['https://www.archives.gov/education/lessons/369th-infantry', 'https://www.army.mil/article/255716/harlem_hellfighters', 'https://nmaahc.si.edu/explore/stories/harlem-hellfighters'],
       supportingSources: ['https://www.smithsonianmag.com/history/remembering-harlem-hellfighters-180967355/', 'https://www.thenmusa.org/biographies/harlem-hellfighters/'],
       verifiedQuoteSource: 'No quotation included. Honors, dates, and James Reese Europe claims cross-checked against military and museum sources.',
       sensitiveClaimsReviewed: 'French command, combat duration, Henry Johnson recognition, Red Summer context, and jazz spread claims reviewed.',

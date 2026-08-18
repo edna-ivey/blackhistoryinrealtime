@@ -188,7 +188,8 @@ const ENTRIES = [
     whyItMattersToday: [
       `Woodson matters today because erasure still changes what people think is possible. When Black history is reduced to a few heroes, a few tragedies, or a February routine, students miss the institutions, debates, regions, labor, culture, and ordinary lives that make history usable.`,
       `His work also challenges schools and media to move beyond representation toward interpretation. Adding Black names to a timeline is not enough if the structure of the story stays the same. Woodson wanted Black people placed inside history as makers, thinkers, workers, critics, and witnesses.`,
-      `A reader should leave Woodson asking whether Black history is being treated as decoration or as evidence. That question is still the heart of this project.`
+      `A reader should leave Woodson asking whether Black history is being treated as decoration or as evidence. That question is still the heart of this project.`,
+      `His work also matters wherever public officials argue over what history students are allowed to learn. Woodson reminds us that curriculum is never neutral. It can train people to accept hierarchy, or it can give them evidence for seeing how power was built and how it can be challenged.`
     ],
     connected: [
       { href: '@root/encyclopedia/mis-education.html', title: 'The Mis-Education of the Negro', description: `Woodson's sharp critique of schooling and imitation.` },

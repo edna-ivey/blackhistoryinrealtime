@@ -58,14 +58,14 @@ const ENTRIES = [
       { source: 'National Park Service', title: 'Ruby Bridges', url: 'https://www.nps.gov/people/rubybridges.htm' },
       { source: 'National Women\'s History Museum', title: 'Ruby Bridges', url: 'https://www.womenshistory.org/education-resources/biographies/ruby-bridges' },
       { source: 'Official Ruby Bridges Website', title: 'Ruby Bridges', url: 'https://www.rubybridges.com/' },
-      { source: 'Norman Rockwell Museum', title: 'The Problem We All Live With', url: 'https://www.nrm.org/thinglink/text/Problem_live_with.html' },
+      { source: 'White House Historical Association', title: 'The Problem We All Live With at the White House', url: 'https://www.whitehousehistory.org/photos/fotoware?id=EE6E91C2F9DD4734%20BB89C5682E9B951C' },
       { source: 'National Museum of American History', title: 'Ruby Bridges and School Desegregation', url: 'https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html' }
     ],
     research: {
       status: 'batch-20-complete',
       dateResearched: RESEARCH_DATE,
       primarySources: ['https://www.nps.gov/people/rubybridges.htm', 'https://www.womenshistory.org/education-resources/biographies/ruby-bridges', 'https://www.rubybridges.com/'],
-      supportingSources: ['https://www.nrm.org/thinglink/text/Problem_live_with.html', 'https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html'],
+      supportingSources: ['https://www.whitehousehistory.org/photos/fotoware?id=EE6E91C2F9DD4734%20BB89C5682E9B951C', 'https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html'],
       verifiedQuoteSource: 'Short quotation traced to Ruby Bridges public materials and cross-checked against institutional sources.',
       sensitiveClaimsReviewed: 'Age, federal marshals, family retaliation, other New Orleans children, classroom isolation, and present-day school inequality framing reviewed.',
       materialCorrections: 'Expanded scheduled fallback into a distinct systems-and-cost page that does not duplicate the Ruby Bridges biography.',

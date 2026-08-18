@@ -202,7 +202,7 @@ const ENTRIES = [
     externalLinks: [
       { source: 'National Archives', title: 'Fred Hampton', url: 'https://www.archives.gov/research/african-americans/individuals/fred-hampton' },
       { source: 'National Archives', title: 'The Black Panther Party', url: 'https://www.archives.gov/research/african-americans/black-power/black-panthers' },
-      { source: 'Encyclopedia of Chicago', title: 'Black Panther Party', url: 'https://www.encyclopedia.chicagohistory.org/pages/142.html' },
+      { source: 'Digital Chicago History', title: 'The Illinois Black Panther Party', url: 'https://digitalchicagohistory.org/exhibits/show/fred-hampton-50th/the-illinois-black-panther-par' },
       { source: 'Chicago History Museum', title: 'The Assassination of Fred Hampton', url: 'https://www.chicagohistory.org/fredhampton50/' },
       { source: 'WTTW Chicago', title: 'The First Rainbow Coalition', url: 'https://www.wttw.com/chicago-stories/young-lords-of-lincoln-park/the-first-rainbow-coalition' }
     ],
@@ -210,7 +210,7 @@ const ENTRIES = [
       status: 'batch-11-complete',
       dateResearched: RESEARCH_DATE,
       primarySources: ['https://www.archives.gov/research/african-americans/individuals/fred-hampton', 'https://www.archives.gov/research/african-americans/black-power/black-panthers'],
-      supportingSources: ['https://www.encyclopedia.chicagohistory.org/pages/142.html', 'https://www.chicagohistory.org/fredhampton50/', 'https://www.wttw.com/chicago-stories/young-lords-of-lincoln-park/the-first-rainbow-coalition'],
+      supportingSources: ['https://digitalchicagohistory.org/exhibits/show/fred-hampton-50th/the-illinois-black-panther-par', 'https://www.chicagohistory.org/fredhampton50/', 'https://www.wttw.com/chicago-stories/young-lords-of-lincoln-park/the-first-rainbow-coalition'],
       verifiedQuoteSource: 'No quotation included. A widely circulated Hampton quote was omitted because a primary transcript or archival audio source was not verified during this batch.',
       sensitiveClaimsReviewed: 'Police raid, FBI informant role, drugging claim, shot-count claim, Mark Clark killing, Deborah Johnson/Akua Njeri pregnancy, dropped charges, civil settlement, and Rainbow Coalition scope reviewed.',
       materialCorrections: 'Expanded scheduled fallback into a careful account of Hampton\'s organizing, state repression, COINTELPRO context, coalition work, and the disputed official narrative after the raid.',

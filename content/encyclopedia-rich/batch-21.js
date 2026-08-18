@@ -334,14 +334,14 @@ const ENTRIES = [
       { source: 'U.S. Army', title: 'The Six Triple Eight', url: 'https://www.army.mil/article/255368/six_triple_eight' },
       { source: 'National Archives', title: 'The 6888th Central Postal Directory Battalion and the Women\'s Army Corps', url: 'https://rediscovering-black-history.blogs.archives.gov/2024/12/04/the-6888th-central-postal-directory-battalion-and-the-womens-army-corps-wacs-in-world-war-ii/' },
       { source: 'Army Historical Foundation', title: '6888th Central Postal Directory Battalion', url: 'https://armyhistory.org/6888th-central-postal-directory-battalion/' },
-      { source: 'Smithsonian National Postal Museum', title: 'The 6888th Central Postal Directory Battalion', url: 'https://postalmuseum.si.edu/the-6888th-central-postal-directory-battalion' },
+      { source: 'U.S. Army', title: '6888th Central Postal Directory Battalion to Receive Congressional Gold Medal', url: 'https://www.army.mil/article/257612/6888th_central_postal_directory_battalion_to_receive_congressional_gold_medal' },
       { source: 'Congress.gov', title: 'Six Triple Eight Congressional Gold Medal Act', url: 'https://www.congress.gov/bill/117th-congress/senate-bill/321' }
     ],
     research: {
       status: 'batch-21-complete',
       dateResearched: RESEARCH_DATE,
       primarySources: ['https://www.army.mil/article/255368/six_triple_eight', 'https://rediscovering-black-history.blogs.archives.gov/2024/12/04/the-6888th-central-postal-directory-battalion-and-the-womens-army-corps-wacs-in-world-war-ii/', 'https://armyhistory.org/6888th-central-postal-directory-battalion/'],
-      supportingSources: ['https://postalmuseum.si.edu/the-6888th-central-postal-directory-battalion', 'https://www.congress.gov/bill/117th-congress/senate-bill/321'],
+      supportingSources: ['https://www.army.mil/article/257612/6888th_central_postal_directory_battalion_to_receive_congressional_gold_medal', 'https://www.congress.gov/bill/117th-congress/senate-bill/321'],
       verifiedQuoteSource: 'Unit motto verified through U.S. Army, National Archives, and Postal Museum materials.',
       sensitiveClaimsReviewed: 'Only all-Black WAC unit overseas, mail volume framing, timeline, Charity Adams rank/role, Congressional Gold Medal, and segregation conditions reviewed.',
       materialCorrections: 'Expanded scheduled fallback beyond mail backlog into logistics, morale, Black women\'s leadership, discrimination, and delayed recognition.',
@@ -536,14 +536,14 @@ const ENTRIES = [
     externalLinks: [
       { source: 'National Archives', title: 'Black Power', url: 'https://www.archives.gov/research/african-americans/black-power' },
       { source: 'National Archives', title: 'Black Panthers', url: 'https://www.archives.gov/research/african-americans/black-power/black-panthers' },
-      { source: 'FBI Records: The Vault', title: 'Black Panther Party', url: 'https://vault.fbi.gov/Black%20Panther%20Party' },
+      { source: 'Library of Congress', title: 'Black Panther Party Newspaper Collection', url: 'https://www.loc.gov/collections/black-panther-party-newspaper/about-this-collection/' },
       { source: 'National Museum of African American History and Culture', title: 'Black Panther Party Materials', url: 'https://nmaahc.si.edu/explore/collection/search?edan_q=Black%20Panther%20Party' },
       { source: 'UC Berkeley Library', title: 'Black Panther Party Research Guide', url: 'https://guides.lib.berkeley.edu/blackpantherparty' }
     ],
     research: {
       status: 'batch-21-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://www.archives.gov/research/african-americans/black-power', 'https://www.archives.gov/research/african-americans/black-power/black-panthers', 'https://vault.fbi.gov/Black%20Panther%20Party'],
+      primarySources: ['https://www.archives.gov/research/african-americans/black-power', 'https://www.archives.gov/research/african-americans/black-power/black-panthers', 'https://www.loc.gov/collections/black-panther-party-newspaper/about-this-collection/'],
       supportingSources: ['https://nmaahc.si.edu/explore/collection/search?edan_q=Black%20Panther%20Party', 'https://guides.lib.berkeley.edu/blackpantherparty'],
       verifiedQuoteSource: 'No quotation included. Ten-Point Program and survival-program claims summarized from institutional and archival sources.',
       sensitiveClaimsReviewed: 'Armed patrols, women\'s roles, sexism, COINTELPRO, Fred Hampton raid, survival programs, internal conflict, and dissolution framing reviewed.',
@@ -665,7 +665,8 @@ const ENTRIES = [
     whyItMattersToday: [
       `The blues matters today because cultural influence is often discussed without economics. It is easy to say every genre owes something to the blues. It is harder to ask who owned the catalogs, who controlled the labels, who got inducted, who died poor, and who became a genius by borrowing.`,
       `It also matters because the blues refuses the idea that Black expression is only trauma. Blues songs can be funny, dirty, sly, tender, furious, sacred-adjacent, and danceable. They show people making art from trouble without being reducible to trouble.`,
-      `The fuller lesson is that American music has a Black grammar. Hearing that clearly does not take music away from anyone. It gives the music back its memory.`
+      `The fuller lesson is that American music has a Black grammar. Hearing that clearly does not take music away from anyone. It gives the music back its memory.`,
+      `That memory changes listening. It asks who shaped the sound before it crossed into profitable markets, who was treated as folk material instead of as an author, and how Black communities kept creating pleasure and style under pressure. The blues is history you can hear.`
     ],
     connected: [
       { href: '@root/generated/pages/sam-cooke.html', title: 'Sam Cooke', description: 'Connects blues and gospel feeling to soul, pop, ownership, and civil rights sound.' },

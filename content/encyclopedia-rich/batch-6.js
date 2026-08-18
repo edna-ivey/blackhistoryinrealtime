@@ -46,7 +46,8 @@ const ENTRIES = [
     whyItMattersToday: [
       `Coretta Scott King matters today because public memory can domesticate movements. A holiday can become a soft ritual unless someone keeps pointing back to the demands behind it: labor rights, anti-poverty work, peace, voting, education, dignity, and democratic power.`,
       `Her life also challenges the way women are placed beside male leaders. She was a partner, strategist, performer, institution-builder, mother, widow, and international advocate. None of those roles cancels the others. The fuller story asks readers to see leadership that does not always look like a single speech from a single podium.`,
-      `A reader should leave King understanding that preserving history is itself a political act. What gets remembered shapes what people believe they can still demand.`
+      `A reader should leave King understanding that preserving history is itself a political act. What gets remembered shapes what people believe they can still demand.`,
+      `Her legacy also asks what happens after a movement loses a public leader. Institutions, archives, training centers, holidays, and classrooms can either soften the demand or keep it organized. King spent decades fighting for the second path.`
     ],
     connected: [
       { href: '@root/encyclopedia/mlk-assassination.html', title: 'Assassination of Martin Luther King Jr.', description: `Explains the violent rupture King had to turn into continued public work.` },
@@ -192,14 +193,14 @@ const ENTRIES = [
     externalLinks: [
       { source: 'NYC Department of Records', title: 'David N. Dinkins, 106th Mayor of the City of New York', url: 'https://www.archives.nyc/dinkins-gallery' },
       { source: 'NYC Global Partners', title: 'Professor David Dinkins biography', url: 'https://www.nyc.gov/html/unccp/scp/html/about/bio_dinkins.shtml' },
-      { source: 'Columbia SIPA', title: 'Remembering Professor David Dinkins', url: 'https://www.sipa.columbia.edu/news/remembering-professor-david-dinkins' },
+      { source: 'Columbia University', title: 'David Dinkins, 1927-2020', url: 'https://www.columbia.edu/content/david-dinkins-1927-2020' },
       { source: 'Britannica', title: 'David Dinkins', url: 'https://www.britannica.com/biography/David-Dinkins' }
     ],
     research: {
       status: 'batch-6-complete',
       dateResearched: RESEARCH_DATE,
       primarySources: ['https://www.archives.nyc/dinkins-gallery', 'https://www.nyc.gov/html/unccp/scp/html/about/bio_dinkins.shtml'],
-      supportingSources: ['https://www.sipa.columbia.edu/news/remembering-professor-david-dinkins', 'https://www.britannica.com/biography/David-Dinkins'],
+      supportingSources: ['https://www.columbia.edu/content/david-dinkins-1927-2020', 'https://www.britannica.com/biography/David-Dinkins'],
       verifiedQuoteSource: `NYC Department of Records summary of Dinkins's mayoral language.`,
       sensitiveClaimsReviewed: 'Crown Heights framing, crime-rate and deficit claims, first Black mayor claim, Safe Streets/Safe City, and anti-apartheid legislation reviewed.',
       materialCorrections: 'Expanded scheduled fallback into a fuller account of fiscal crisis, public safety, racial coalition, schools, housing, and contested public memory.',
@@ -600,7 +601,7 @@ const ENTRIES = [
       { href: '@root/generated/pages/carl-stokes.html', title: 'Carl Stokes', description: `Another first whose public performance was treated as proof for a whole community.` }
     ],
     externalLinks: [
-      { source: 'College Football Hall of Fame', title: 'Doug Williams', url: 'https://www.cfbhall.com/inductees/doug-williams-2001/' },
+      { source: 'National Football Foundation', title: 'College Football Hall of Fame: Doug Williams', url: 'https://footballfoundation.org/hof_search.aspx?hof=2007' },
       { source: 'NFL', title: 'Doug Williams Super Bowl heroics paved a path for Black QBs', url: 'https://www.nfl.com/news/doug-williams-super-bowl-heroics-paved-a-path-for-black-qbs-0ap3000000786835' },
       { source: 'Tampa Bay Buccaneers', title: 'Doug Williams Ring of Honor', url: 'https://www.buccaneers.com/team/ring-of-honor/doug-williams' },
       { source: 'Washington Commanders', title: 'Doug Williams', url: 'https://www.commanders.com/team/front-office-roster/doug-williams' }
@@ -608,7 +609,7 @@ const ENTRIES = [
     research: {
       status: 'batch-6-complete',
       dateResearched: RESEARCH_DATE,
-      primarySources: ['https://www.cfbhall.com/inductees/doug-williams-2001/', 'https://www.nfl.com/news/doug-williams-super-bowl-heroics-paved-a-path-for-black-qbs-0ap3000000786835'],
+      primarySources: ['https://footballfoundation.org/hof_search.aspx?hof=2007', 'https://www.nfl.com/news/doug-williams-super-bowl-heroics-paved-a-path-for-black-qbs-0ap3000000786835'],
       supportingSources: ['https://www.buccaneers.com/team/ring-of-honor/doug-williams', 'https://www.commanders.com/team/front-office-roster/doug-williams'],
       verifiedQuoteSource: 'No quotation included.',
       sensitiveClaimsReviewed: 'First Black quarterback to start/win Super Bowl, first-round draft claim, Super Bowl statistics, Tampa contract/valuation context, and HBCU pipeline framing reviewed.',

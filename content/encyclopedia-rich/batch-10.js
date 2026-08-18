@@ -265,7 +265,8 @@ const ENTRIES = [
     whyItMattersToday: [
       `Hamer matters today because voting rights are still often discussed as procedure, while she understood them as life. Registration rules, district maps, intimidation, poverty, healthcare, and food access all shape whether democracy is real.`,
       `Her story also challenges respectability politics. Hamer did not need elite credentials to diagnose American hypocrisy. Her authority came from lived experience, moral clarity, organizing skill, faith, humor, and the courage to speak in rooms designed to dismiss her.`,
-      `A reader should leave Hamer knowing more than a slogan. She was not only sick and tired. She was strategic, funny, musical, wounded, impatient, generous, and determined to build a freedom that could feed people.`
+      `A reader should leave Hamer knowing more than a slogan. She was not only sick and tired. She was strategic, funny, musical, wounded, impatient, generous, and determined to build a freedom that could feed people.`,
+      `Her page also warns against separating civil rights from economic rights. A ballot mattered because sheriffs, hospitals, schools, farm policy, welfare offices, and party conventions made decisions about Black life. Hamer saw those systems together, which is why her organizing still feels so current.`
     ],
     connected: [
       { href: '@root/generated/pages/fannie-lou-hamer-testimony.html', title: "Fannie Lou Hamer's Testimony", description: 'Focuses on the 1964 Credentials Committee speech that carried her story to national television.' },
