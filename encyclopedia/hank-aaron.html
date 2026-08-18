@@ -4,35 +4,214 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hank Aaron - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Breaking Records Under Threat">
+<meta name="description" content="Hank Aaron&#039;s 715th home run is one of the clearest scenes in American sports: a Black man rounding the bases in Atlanta after passing Babe Ruth. But the single swing can hide the full career. Aaron was not only a record breaker. He was one of baseball&#039;s most consistent hitters, a Negro League alumnus, a Milwaukee and Atlanta Braves star, a World Series champion, a front-office executive, and a public figure who endured racist hate while doing his job with almost unbearable steadiness. Aaron matters because excellence did not protect him from racism. It exposed racism more clearly. His home-run chase showed what happens when a Black athlete threatens a white national myth by being better than the myth can tolerate.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,.2)}
-  *{box-sizing:border-box;margin:0;padding:0} body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;line-height:1.75;min-height:100vh}
-  .pan-stripe{display:flex;height:6px}.pan-stripe div{flex:1}.s1{background:var(--red)}.s2{background:#111}.s3{background:var(--green)}
-  header{position:sticky;top:0;background:rgba(10,10,10,.97);border-bottom:1px solid var(--border);z-index:5}.header-inner{max-width:1100px;margin:auto;padding:14px 32px}
-  .logo{display:flex;align-items:center;gap:14px;color:var(--white);text-decoration:none}.logo img{width:52px;height:52px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}.logo h1{font-family:'Bebas Neue';font-size:1.6rem;letter-spacing:2px}.logo span{color:var(--gold)}
-  nav{border-top:1px solid rgba(212,160,23,.1);display:flex;justify-content:center;overflow-x:auto;padding:0 24px}nav a{color:rgba(245,237,216,.55);text-decoration:none;text-transform:uppercase;letter-spacing:2.5px;font-size:.78rem;padding:12px 18px;white-space:nowrap}
-  main{width:min(900px,calc(100% - 40px));margin:auto;padding:52px 0 90px}.label{color:var(--gold);text-transform:uppercase;letter-spacing:5px;font-size:.7rem;margin-bottom:14px}
-  h2{font-family:'Playfair Display',serif;color:var(--white);font-size:clamp(2.3rem,7vw,4.7rem);line-height:1.05;margin-bottom:16px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}.badge{border:1px solid rgba(212,160,23,.3);border-radius:999px;padding:5px 12px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:.68rem}
-  article{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px}article p{margin-bottom:16px;color:rgba(245,237,216,.82)}h3{font-family:'Bebas Neue';color:var(--gold);letter-spacing:3px;margin:28px 0 8px;font-size:1rem}.why{margin-top:24px;padding:18px 20px;border:1px solid rgba(196,30,58,.25);background:rgba(196,30,58,.08);border-radius:12px}blockquote{border-left:4px solid var(--gold);padding:12px 18px;margin:20px 0;color:var(--gold);background:rgba(212,160,23,.06)}cite{display:block;color:rgba(212,160,23,.65);font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;margin-top:8px}
-  a{color:var(--gold)}@media(max-width:620px){.header-inner{padding:12px 16px}nav{justify-content:flex-start;padding:0 12px}nav a{font-size:.7rem;padding:10px 12px}main{width:calc(100% - 28px);padding-top:34px}article{padding:22px 18px}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="hank-aaron">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-<header><div class="header-inner"><a class="logo" href="../index.html"><img src="../logo.png" alt="Black History in Real Time"><h1>Black<span>History</span></h1></a></div><nav><a href="../index.html">Today</a><a href="../index.html#calendar">Calendar</a><a href="../index.html#archive">Archive</a><a href="../encyclopedia.html">Encyclopedia</a></nav></header>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Hank Aaron</h2>
-  <div class="meta"><span class="badge">1934 — 2021</span><span class="badge">Sports</span><span class="badge">2026-04-08</span></div>
-  <article>
-    <p>As Hank Aaron approached Babe Ruth's home run record, the attention he received was not only admiration. It was hostility. Letters arrived filled with threats and racist abuse, a reminder that Black excellence in America is often treated as provocation.</p><p>When Aaron hit home run number 715 in 1974, he did more than break a baseball record. He broke one of the most protected myths in American sports culture.</p><p>He did it with consistency, discipline, and composure under extraordinary pressure. The record mattered. But so did the climate in which he was forced to chase it.</p>
-    
-    <h3>Cost / Impact</h3><p>Aaron endured threats to his life, hate mail, and the burden of public racism while trying to do his job at the highest possible level.</p>
-    <div class="why"><h3>Why It Matters</h3><p>Achievement does not cancel racism. Sometimes it reveals it more clearly. Aaron&#039;s story is about excellence under assault.</p></div>
-  </article>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span> &middot; Sports</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label"> &middot; Sports</div>
+    <h1>Hank Aaron</h1>
+    <p class="entry-tagline">Hank Aaron&#039;s 715th home run is one of the clearest scenes in American sports: a Black man rounding the bases in Atlanta after passing Babe Ruth. But the single swing can hide the full career. Aaron was not only a record breaker. He was one of baseball&#039;s most consistent hitters, a Negro League alumnus, a Milwaukee and Atlanta Braves star, a World Series champion, a front-office executive, and a public figure who endured racist hate while doing his job with almost unbearable steadiness. Aaron matters because excellence did not protect him from racism. It exposed racism more clearly. His home-run chase showed what happens when a Black athlete threatens a white national myth by being better than the myth can tolerate.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1934 - 2021</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Feb 5, 1934</div><div class="tl-event">Born Henry Louis Aaron in Mobile, Alabama.</div></div>
+<div class="tl-item"><div class="tl-date">1952</div><div class="tl-event">Plays briefly for the Indianapolis Clowns of the Negro American League.</div></div>
+<div class="tl-item"><div class="tl-date">1954</div><div class="tl-event">Makes his major league debut with the Milwaukee Braves.</div></div>
+<div class="tl-item"><div class="tl-date">1957</div><div class="tl-event">Wins the National League MVP Award and helps Milwaukee win the World Series.</div></div>
+<div class="tl-item"><div class="tl-date">1966</div><div class="tl-event">Moves with the Braves franchise to Atlanta.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 27, 1971</div><div class="tl-event">Hits his 600th career home run.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 4, 1974</div><div class="tl-event">Hits career home run No. 714, tying Babe Ruth.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 8, 1974</div><div class="tl-event">Hits home run No. 715 off Al Downing at Atlanta-Fulton County Stadium.</div></div>
+<div class="tl-item"><div class="tl-date">Jul 20, 1976</div><div class="tl-event">Hits his 755th and final major league home run.</div></div>
+<div class="tl-item"><div class="tl-date">1982</div><div class="tl-event">Inducted into the National Baseball Hall of Fame.</div></div>
+<div class="tl-item"><div class="tl-date">1994</div><div class="tl-event">Establishes the Chasing the Dream Foundation.</div></div>
+<div class="tl-item"><div class="tl-date">Jan 22, 2021</div><div class="tl-event">Dies in Atlanta, Georgia.</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Hank Aaron&#039;s greatness was never just one swing. He was born in Mobile, Alabama, in 1934, in a segregated city where opportunity and humiliation lived side by side. He grew up loving baseball, hit with a cross-handed grip as a boy, and made his way from sandlots to the Negro American League&#039;s Indianapolis Clowns. That brief Negro League stop matters because Aaron&#039;s career sits near the transition between segregated Black baseball and an integrated major league system that still carried racism in its hotels, stands, clubhouses, and front offices.</p>
+<p>Aaron reached the Milwaukee Braves in 1954. He was not theatrical in the way some stars are remembered. He was relentless. The Baseball Hall of Fame record is almost absurd in its steadiness: 25 All-Star selections, a .305 career average, 3,771 hits, 755 home runs, 2,297 RBI, and 6,856 total bases. Even if every home run disappeared from his record, he would still have more than 3,000 hits. That is not a fluke. It is discipline repeated for more than two decades.</p>
+<p>In 1957, Aaron won the National League MVP Award and helped Milwaukee win the World Series. When the Braves moved to Atlanta in 1966, Aaron became a Black superstar in the Deep South at a time when civil rights law had changed faster than white attitudes. He kept producing. He hit line drives, home runs, doubles, and records with a swing that looked calm until the ball was gone.</p>
+<p>The chase of Babe Ruth&#039;s record changed the atmosphere around him. Ruth was more than a baseball player in white American memory. He was mythology: power, appetite, nostalgia, whiteness, and old baseball glory. As Aaron closed in, some people celebrated him. Others treated the record as if it belonged racially to them. Aaron received racist hate mail and death threats. The Hall of Fame and MLB accounts describe security concerns, police protection, and the emotional toll on Aaron and his family.</p>
+<p>On April 8, 1974, Aaron hit No. 715 off Los Angeles Dodgers pitcher Al Downing. Vin Scully&#039;s broadcast named the racial meaning directly: a Black man receiving a standing ovation in the Deep South for breaking the record of a white baseball idol. The moment was beautiful, but it did not erase what came before it. Aaron rounded the bases carrying joy, danger, exhaustion, and history at once.</p>
+<p>The record chase can make Aaron seem like an unwilling symbol, and in some ways he was. He wanted to play baseball. But he also understood what the hate revealed. In later interviews, he spoke honestly about racism in the sport and the country. He did not allow the public to turn his dignity into silence.</p>
+<p>Aaron finished with 755 home runs, a record that stood until Barry Bonds passed it in 2007. But his RBI and total-base records still help show why reducing him to home runs is too small. He was one of the most complete offensive players in baseball history. He was also one of the early Black figures to move into upper-level baseball management after retiring, working with the Braves in player development and executive roles.</p>
+<p>His Chasing the Dream Foundation, founded in the 1990s, connected his career to scholarships and youth opportunity. That part of the story matters because Aaron did not treat his success as isolated from the children watching from places like Mobile. He knew what it meant to dream from a segregated childhood and to need someone to take that dream seriously.</p>
+<p>Hank Aaron&#039;s page belongs in Black history because sports are never only games. Stadiums are public theaters where a nation rehearses its values. Aaron&#039;s record chase revealed both the beauty of collective applause and the ugliness of racist entitlement. He met both with a swing that did not flinch.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Aaron paid with privacy, safety, and peace. The hate mail and threats around the home-run chase forced security measures and placed his family under fear. The emotional cost did not end when the ball cleared the fence. Racism carved itself into what should have been a purely joyful professional achievement.</p>
+<p>His impact stretched beyond baseball statistics. He changed the record book, challenged racial mythology, became a model for consistency under pressure, and used later influence for youth scholarships and baseball leadership. His career made it harder to separate athletic greatness from the social conditions in which greatness is received.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Aaron matters today because Black excellence is still often asked to be grateful, quiet, and nonthreatening. His pursuit of Ruth showed that even excellence performed with restraint can provoke rage when it changes who owns a symbol.</p>
+<p>His career also complicates how sports remember racism. The standing ovation is part of the story. So are the letters, threats, police protection, and family fear. Telling only the triumphant version lets the country congratulate itself too easily.</p>
+<p>Aaron&#039;s lesson is not simply perseverance. It is evidence: achievement can reveal the system around it. The swing mattered because the backlash told the truth.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/frank-robinson.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Frank Robinson</div>
+        <div class="connected-desc">Places Aaron beside another baseball great who forced MLB to confront leadership barriers.</div>
+      </a>
+<a href="../encyclopedia/jackie-robinson.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Jackie Robinson</div>
+        <div class="connected-desc">Connects Aaron&#039;s career to the integration of modern Major League Baseball.</div>
+      </a>
+<a href="../encyclopedia/althea-gibson.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Althea Gibson</div>
+        <div class="connected-desc">Shows another Black athlete whose excellence met segregated sports institutions.</div>
+      </a>
+<a href="../generated/pages/joe-louis.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Joe Louis</div>
+        <div class="connected-desc">Links Aaron to Black athletes asked to carry national symbolism under racial pressure.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://baseballhall.org/hall-of-famers/aaron-hank" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Baseball Hall of Fame</div>
+          <div class="ext-title">Hank Aaron</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://baseballhall.org/discover-more/stories/inside-pitch/henry-aaron-hits-home-run-number-715" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Baseball Hall of Fame</div>
+          <div class="ext-title">Henry Aaron Hits Home Run No. 715</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://baseballhall.org/discover/fifty-years-ago-hank-aaron-became-king" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Baseball Hall of Fame</div>
+          <div class="ext-title">Fifty Years Ago, Hank Aaron Became King</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.mlb.com/news/hank-aaron-overcame-racism-hate-throughout-life" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">MLB</div>
+          <div class="ext-title">Hank Aaron Overcame Racism, Hate Throughout Life</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://encyclopediaofalabama.org/article/henry-hank-aaron/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Encyclopedia of Alabama</div>
+          <div class="ext-title">Henry &quot;Hank&quot; Aaron</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

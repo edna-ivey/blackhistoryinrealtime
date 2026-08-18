@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elizabeth Keckley - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Elizabeth Keckley bought her freedom with her needle, then sewed her way into the rooms where national power lived.">
+<meta name="description" content="Elizabeth Keckley bought freedom with skilled labor, then used that labor to enter rooms where national power was being dressed, mourned, and remembered. Born enslaved in Virginia, she became a celebrated dressmaker, purchased freedom for herself and her son, built a Washington business serving elite women, became Mary Todd Lincoln&#039;s modiste and confidante, organized relief for formerly enslaved people, and published Behind the Scenes in 1868. The easy version calls her Mrs. Lincoln&#039;s dressmaker. The fuller story is sharper: Keckley turned sewing into money, testimony, philanthropy, and authorship, then paid heavily when white society decided that a Black woman&#039;s memory of the White House was too intimate for print.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="elizabeth-keckley">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,151 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Elizabeth Keckley</h2>
-  <div class="meta">
-    <span class="badge">1818 - 1907</span>
-    <span class="badge">Fashion</span>
-    <span class="badge">2026-08-03</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>August 3 &middot; Fashion</span>
   </div>
-  <article>
-    <p>Elizabeth Keckley bought her freedom with her needle, then sewed her way into the rooms where national power lived.</p><p>Keckley was enslaved, became a skilled dressmaker, purchased freedom for herself and her son, and built a successful business in Washington, D.C.</p><p>She became dressmaker and confidante to Mary Todd Lincoln and later published Behind the Scenes, a memoir that offered rare testimony from inside slavery and the White House.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Keckley matters because labor can become testimony. Her stitches, business, and book all preserved a view history rarely allowed Black women to record.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">August 3 &middot; Fashion</div>
+    <h1>Elizabeth Keckley</h1>
+    <p class="entry-tagline">Elizabeth Keckley bought freedom with skilled labor, then used that labor to enter rooms where national power was being dressed, mourned, and remembered. Born enslaved in Virginia, she became a celebrated dressmaker, purchased freedom for herself and her son, built a Washington business serving elite women, became Mary Todd Lincoln&#039;s modiste and confidante, organized relief for formerly enslaved people, and published Behind the Scenes in 1868. The easy version calls her Mrs. Lincoln&#039;s dressmaker. The fuller story is sharper: Keckley turned sewing into money, testimony, philanthropy, and authorship, then paid heavily when white society decided that a Black woman&#039;s memory of the White House was too intimate for print.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1818 - 1907</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.nps.gov/people/elizabeth-keckley.htm" target="_blank" rel="noopener noreferrer">https://www.nps.gov/people/elizabeth-keckley.htm</a></li>
-<li><a href="https://docsouth.unc.edu/neh/keckley/keckley.html" target="_blank" rel="noopener noreferrer">https://docsouth.unc.edu/neh/keckley/keckley.html</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Feb 1818</div><div class="tl-event">Born enslaved in Dinwiddie County, Virginia.</div></div>
+<div class="tl-item"><div class="tl-date">1840s</div><div class="tl-event">Is taken to St. Louis, where her sewing labor supports the household that enslaves her.</div></div>
+<div class="tl-item"><div class="tl-date">1850</div><div class="tl-event">Marries James Keckley, a marriage she later describes as burdensome.</div></div>
+<div class="tl-item"><div class="tl-date">1855</div><div class="tl-event">Purchases freedom for herself and her son after raising $1,200, which she insists on repaying as a loan.</div></div>
+<div class="tl-item"><div class="tl-date">1860</div><div class="tl-event">Moves to Washington, D.C., and builds an elite dressmaking clientele.</div></div>
+<div class="tl-item"><div class="tl-date">1861</div><div class="tl-event">Becomes Mary Todd Lincoln&#039;s personal dressmaker and close companion.</div></div>
+<div class="tl-item"><div class="tl-date">1862</div><div class="tl-event">Helps organize relief work for formerly enslaved people arriving in Washington.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 1865</div><div class="tl-event">Supports Mary Lincoln after Abraham Lincoln&#039;s assassination.</div></div>
+<div class="tl-item"><div class="tl-date">1868</div><div class="tl-event">Publishes Behind the Scenes, or, Thirty Years a Slave, and Four Years in the White House.</div></div>
+<div class="tl-item"><div class="tl-date">1892</div><div class="tl-event">Accepts a teaching role at Wilberforce University.</div></div>
+<div class="tl-item"><div class="tl-date">May 1907</div><div class="tl-event">Dies in Washington, D.C., after living in the National Home for Destitute Colored Women and Children.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-08-03">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Elizabeth Keckley understood clothing as more than fabric. In the world she inhabited, a gown could signal class, taste, mourning, ambition, politics, and access. For a Black woman born enslaved in Virginia in 1818, mastering that language became a route to survival and power. Her needle did not free her by itself. Her skill, networks, persistence, patrons, and refusal to accept dependency all mattered.</p>
+<p>Keckley learned to sew from her mother while enslaved. Her labor was valuable long before it was free. When the family that enslaved her moved to St. Louis, Keckley was hired out as a seamstress. Smithsonian accounts describe how her wages helped sustain the household that claimed ownership over her. That fact should stop the reader. The same skill that would later make her respected first enriched people who denied her freedom.</p>
+<p>Keckley negotiated to purchase freedom for herself and her son George. The price was $1,200, a staggering sum. Patrons helped raise it, but Keckley later insisted on treating the money as a loan and repaying it. That insistence was not merely pride. It was a claim to moral and economic independence in a world that had treated her labor as property. In 1855 she became free.</p>
+<p>She moved to Washington, D.C., in 1860. The capital was tense, elite, segregated, and full of women whose public lives depended on clothes. Keckley built a business among socially prominent clients, including Varina Davis before Davis became first lady of the Confederacy. That detail captures the strange geography of her work. Her skill moved through households divided by the coming war, but she was not politically blank. She understood slavery from inside it.</p>
+<p>In 1861 Mary Todd Lincoln hired Keckley as her personal dressmaker. Keckley became modiste, dresser, companion, and confidante. Smithsonian curators note that surviving garments can be difficult to attribute because nineteenth-century clothing often lacked labels and was altered over time, but several objects are linked to Keckley or her shop. The point is not only whether every gown can be proven stitch by stitch. It is that Keckley&#039;s business occupied a rare position: a Black woman entrepreneur shaping the public image of the first lady during the Civil War.</p>
+<p>Keckley also organized relief for formerly enslaved people arriving in Washington. The Civil War turned the capital into a place of refuge and crisis. People fleeing slavery needed food, clothing, shelter, medical care, and work. Keckley helped found what became the Contraband Relief Association, later known as the Ladies&#039; Freedmen and Soldier&#039;s Relief Association. She used elite networks and Black community networks to gather support. Her memoir records donations from Black communities in the North, evidence that freedom work was carried by ordinary people as well as famous reformers.</p>
+<p>The relationship with Mary Lincoln was close and unequal. Keckley was present during grief after Willie Lincoln&#039;s death and after Abraham Lincoln&#039;s assassination. She saw the private cost of public life. But closeness across race and class did not mean equality. Mary Lincoln could rely on Keckley emotionally and still inhabit a society that punished Keckley for speaking.</p>
+<p>In 1868 Keckley published Behind the Scenes, or, Thirty Years a Slave, and Four Years in the White House. The book defended Mary Lincoln against public ridicule over her finances and conduct, but it also revealed letters and intimate details. Many white readers treated the publication as a betrayal. Mary Lincoln broke with Keckley. Washington elites pulled away. Her business suffered. The reaction tells us what Keckley had violated: not simply privacy, but the expectation that a Black woman could serve history without authoring it.</p>
+<p>The memoir remains invaluable. It documents enslavement, sexual violence, motherhood, labor, self-purchase, elite Washington, wartime relief work, and the emotional world around the Lincoln White House. It also requires careful reading. Keckley wrote for a public, with purposes and pressures. Like all memoirists, she shaped memory. That does not weaken the source. It makes it human.</p>
+<p>Keckley later taught sewing and domestic science at Wilberforce University. In her final years she lived in the National Home for Destitute Colored Women and Children, an institution connected to the relief world she had once helped build. That ending is painful. A woman who had clothed power, supported refugees, and preserved history died with limited resources. Her page matters because it shows how Black women&#039;s labor can be central to a nation and still be treated as disposable once it stops serving someone else&#039;s story.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>With my needle I kept bread in the mouths of seventeen persons</blockquote>
+    <cite>Elizabeth Keckley, Behind the Scenes</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Keckley paid twice for the same gift. Under slavery, her sewing enriched others. After freedom, her memoir cost her clients, reputation, and Mary Lincoln&#039;s friendship. The public wanted her skill, discretion, and emotional labor, but resisted her right to interpret what she had seen.</p>
+<p>Her impact is larger than fashion. She left one of the most important Black women&#039;s memoirs of the Civil War era, built a business that employed other women, aided formerly enslaved refugees, and forced historians to look at the White House from the position of a woman who had been enslaved and was not content to remain invisible.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Keckley matters today because labor history, fashion history, political history, and literary history meet in her life. She reminds readers that clothing is not superficial when it determines who is seen as respectable, powerful, mournful, or fit for public life.</p>
+<p>Her story also asks who is allowed to write from proximity to power. White society treated her memoir as a violation because it exposed that a Black woman had been watching, understanding, and remembering. That anxiety still matters whenever workers, assistants, caregivers, stylists, domestic workers, or staff tell the truth about institutions that prefer them silent.</p>
+<p>A reader should leave Keckley understanding that the needle was not small. In her hands it became income, access, relief work, art, and evidence.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-08-03" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; August 3</div>
+        <div class="quiz-card-title">Open the daily challenge for Elizabeth Keckley</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../generated/pages/ann-lowe.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Ann Lowe</div>
+        <div class="connected-desc">Another Black designer whose elite clients benefited from under-credited labor.</div>
+      </a>
+<a href="../../encyclopedia/black-fashion.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Fashion &amp; Cultural Appropriation</div>
+        <div class="connected-desc">Places Keckley&#039;s dressmaking inside a longer history of Black style, labor, and credit.</div>
+      </a>
+<a href="../../generated/pages/edmonia-lewis.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Edmonia Lewis</div>
+        <div class="connected-desc">Connects Civil War era Black women artists navigating white patronage and public reputation.</div>
+      </a>
+<a href="../../encyclopedia/harriet-tubman.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Harriet Tubman</div>
+        <div class="connected-desc">Links Keckley&#039;s life to Black women&#039;s freedom work during and after slavery.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://home.nps.gov/foth/learn/historyculture/elizabeth-keckly.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Elizabeth Keckly</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://docsouth.unc.edu/neh/keckley/keckley.html" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Documenting the American South</div>
+          <div class="ext-title">Behind the Scenes by Elizabeth Keckley</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://americanhistory.si.edu/explore/stories/elizabeth-keckly-businesswoman-and-philanthropist" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of American History</div>
+          <div class="ext-title">Elizabeth Keckly: Businesswoman and Philanthropist</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.si.edu/object/mary-lincolns-dress%3Anmah_515922" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian Institution</div>
+          <div class="ext-title">Mary Lincoln&#039;s Dress</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

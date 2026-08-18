@@ -3,79 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HBCUs — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="HBCUs represent about 3% of colleges and universities in the United States. They produce roughly 22% of Black college graduates and 27% of Black gradu">
+<title>Historically Black Colleges and Universities - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Historically Black Colleges and Universities were not created because Black students wanted separation. They were created because white institutions, state governments, and private power denied Black people access to higher education, then underfunded the institutions Black communities built anyway. HBCUs trained teachers, ministers, doctors, lawyers, scientists, artists, organizers, and public servants when education itself was a freedom claim. They were classrooms, churches, laboratories, marching grounds, debate halls, choirs, newspapers, and homecomings. HBCUs matter because they show Black institution-building under exclusion and the continuing fight over public investment. They are not relics of segregation. They are living institutions shaped by history, pride, research, debt, underfunding, and possibility.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,#333,var(--orange));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;transition:all 0.2s;}
-.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
-.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
-.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
-.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
-.external-section{}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="hbcus">
@@ -100,99 +79,151 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="breadcrumb">
     <a href="../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>February 26 · Education</span>
+    <span>May 30 &middot; Education</span>
   </div>
   <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
   <div class="entry-hero">
-    <div class="entry-vol-label">February 26 · Education</div>
-    <h1>HBCUs</h1>
-    <p class="entry-tagline">HBCUs represent about 3% of colleges and universities in the United States. They produce roughly 22% of Black college graduates and 27% of Black graduates in STEM fields. Thurgood Marshall, Martin Luther King Jr., Kamala Harris, Oprah Winfrey, Spike Lee, Chadwick Boseman, and the vast majority of the Black professional class in America were educated at institutions that existed specifically because every other institution refused them.</p>
+    <div class="entry-vol-label">May 30 &middot; Education</div>
+    <h1>Historically Black Colleges and Universities</h1>
+    <p class="entry-tagline">Historically Black Colleges and Universities were not created because Black students wanted separation. They were created because white institutions, state governments, and private power denied Black people access to higher education, then underfunded the institutions Black communities built anyway. HBCUs trained teachers, ministers, doctors, lawyers, scientists, artists, organizers, and public servants when education itself was a freedom claim. They were classrooms, churches, laboratories, marching grounds, debate halls, choirs, newspapers, and homecomings. HBCUs matter because they show Black institution-building under exclusion and the continuing fight over public investment. They are not relics of segregation. They are living institutions shaped by history, pride, research, debt, underfunding, and possibility.</p>
     <div class="entry-badges">
       <span class="badge">Systems</span>
-      <span class="badge">1837 — Present</span>
+      <span class="badge">1837 - Present</span>
     </div>
     <div class="hero-bar"></div>
   </div>
+
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
-    <div class="timeline-items"><div class="tl-item"><div class="tl-date">1837</div><div class="tl-event">Institute for Colored Youth founded in Pennsylvania — now Cheyney University, the oldest HBCU</div></div>
-<div class="tl-item"><div class="tl-date">1854</div><div class="tl-event">Ashmun Institute founded — becomes Lincoln University, the first degree-granting HBCU</div></div>
-<div class="tl-item"><div class="tl-date">1865–1900</div><div class="tl-event">More than 90 HBCUs established after the Civil War, many in church basements and private homes</div></div>
-<div class="tl-item"><div class="tl-date">1890</div><div class="tl-event">Second Morrill Act extends land-grant funding to Black colleges — foundation of many public HBCUs</div></div>
-<div class="tl-item"><div class="tl-date">1960s</div><div class="tl-event">HBCU students and alumni lead the sit-in movement, Freedom Rides, and voter registration drives</div></div>
-<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">100+ HBCUs active; produce disproportionately high share of Black professionals; face persistent funding gaps</div></div>
-</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1837</div><div class="tl-event">Institute for Colored Youth is founded in Pennsylvania, later becoming Cheyney University.</div></div>
+<div class="tl-item"><div class="tl-date">1854</div><div class="tl-event">Ashmun Institute is chartered, later becoming Lincoln University, the first degree-granting HBCU.</div></div>
+<div class="tl-item"><div class="tl-date">1862</div><div class="tl-event">First Morrill Act creates land-grant college system while many Black students remain excluded.</div></div>
+<div class="tl-item"><div class="tl-date">1865</div><div class="tl-event">Shaw University is founded in Raleigh after the Civil War.</div></div>
+<div class="tl-item"><div class="tl-date">1867</div><div class="tl-event">Howard University is founded in Washington, D.C.; Augusta Institute, later Morehouse College, is founded in Georgia.</div></div>
+<div class="tl-item"><div class="tl-date">1890</div><div class="tl-event">Second Morrill Act requires separate land-grant institutions for Black students or nondiscriminatory admission.</div></div>
+<div class="tl-item"><div class="tl-date">1965</div><div class="tl-event">Higher Education Act defines HBCUs for federal policy purposes.</div></div>
+<div class="tl-item"><div class="tl-date">1960s</div><div class="tl-event">HBCU students and alumni help power sit-ins, Freedom Rides, voting-rights campaigns, and civil-rights organizing.</div></div>
+<div class="tl-item"><div class="tl-date">2021-2022</div><div class="tl-event">NCES reports HBCUs confer 48,800 degrees in the academic year.</div></div>
+<div class="tl-item"><div class="tl-date">2025</div><div class="tl-event">Carnegie research classifications identify Howard as R1 and multiple HBCUs as R2 or research colleges.</div></div>
+    </div>
   </div>
+
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>Historically Black Colleges and Universities — HBCUs — were founded because Black Americans were not allowed into most other institutions of higher education. The first, the Institute for Colored Youth (now Cheyney University), was established in Pennsylvania in 1837. Lincoln University, chartered in 1854 as Ashmun Institute, became the first institution to grant college degrees to Black students. These schools were founded before the Civil War, which means they were founded while slavery was still legal — built for the small population of free Black people in the North who could not access the educational institutions their tax dollars helped fund. After emancipation in 1865, more than 90 HBCUs were established within 35 years, many of them in church basements and private homes, built by Black ministers, white Northern missionaries, and the Freedmen's Bureau with minimal resources and enormous community investment.</p>
-<p>The legal context that produced HBCUs is essential to understanding what they represent. Plessy v. Ferguson (1896) established the 'separate but equal' doctrine that governed American education until Brown v. Board of Education (1954). In practice, separate was never equal — HBCU funding was consistently a fraction of what historically white institutions received, facilities were inferior, and Black faculty were paid less. And yet within these constraints, HBCUs produced the Black professional class that American society could not have generated any other way. Thurgood Marshall, who argued Brown v. Board of Education before the Supreme Court and later became the first Black Supreme Court justice, graduated from Lincoln University and Howard University Law School. Martin Luther King Jr. graduated from Morehouse College. These are not coincidences. They are the documented output of institutions that invested in Black students at a time when investing in Black students was a radical act.</p>
-<p>The Second Morrill Act of 1890 extended the land-grant model — federal funding for agricultural and mechanical education — to Black colleges, creating the foundation for many public HBCUs in the South. This was significant but also revealing: the land-grant funding came with the requirement that states provide educational opportunities for Black students, but it did not require equal funding. Southern states used the land-grant designation to create or expand public HBCUs while keeping them systematically underfunded relative to white institutions. The pattern persists: a 2021 study found that 16 Southern and border states had underfunded their public HBCUs by a combined $12.8 billion over the preceding three decades, in violation of the legal framework established by the Morrill Act.</p>
-<p>HBCUs were not passive institutions during the civil rights movement — they were its infrastructure. The sit-in movement that began at the Woolworth's lunch counter in Greensboro, North Carolina on February 1, 1960 was organized by students from North Carolina A&T State University, an HBCU. Freedom Riders trained at Nashville's HBCU campuses. Voter registration drives were organized from Howard, Spelman, Morehouse, and dozens of other Black colleges. HBCU students faced expulsion, arrest, and violence for their activism. Their campuses provided the organizing space, the intellectual community, and the sense of shared identity that made sustained collective action possible.</p>
-<p>The case for HBCUs in 2024 does not rest on history alone. HBCU graduates outperform the national average for Black college graduates on multiple measures: graduation rates, rates of graduate school enrollment, career outcomes, and civic engagement. Research consistently shows that Black students at HBCUs report higher senses of belonging, more engagement with faculty, and more confidence in their professional identities than Black students at predominantly white institutions. This is measurable. The persistent underfunding of HBCUs — relative to their peer institutions and relative to their documented outcomes — is one of the clearest examples of how structural inequity operates through formally neutral processes. HBCUs receive less in endowments, less in federal research funding, and less in state funding than predominantly white institutions with comparable or worse outcomes. That gap is a policy choice, not a natural condition.</p>
-
+<p>HBCUs begin with denial and imagination. For much of U.S. history, Black people were excluded from formal education by law, custom, violence, and funding choices. Under slavery, literacy itself could be treated as a threat. After emancipation, education became one of the clearest demands of freedom. Black communities wanted schools not as charity, but as infrastructure for citizenship, work, leadership, and self-definition.</p>
+<p>The earliest HBCU roots predate the Civil War. The Institute for Colored Youth was founded in Pennsylvania in 1837 and later became Cheyney University. Ashmun Institute, later Lincoln University, was chartered in 1854 and identifies itself as the nation&#039;s first degree-granting HBCU. These institutions emerged from Black aspiration and allies, including religious and philanthropic networks, in a country still committed to slavery or racial exclusion.</p>
+<p>After the Civil War, the need became urgent. Freed people sought education for children and adults. Black churches, the Freedmen&#039;s Bureau, missionary organizations, benevolent societies, and Black leaders helped create schools across the South. NMAAHC notes that more than 90 institutions of higher learning were established between 1861 and 1900. Many began with fragile resources: church basements, borrowed buildings, small staffs, and students whose families were building lives after enslavement.</p>
+<p>The land-grant story reveals both opportunity and inequality. The 1862 Morrill Act helped states create public colleges, but Black students were often excluded. The 1890 Morrill Act required states, especially former Confederate states, to either admit Black students without racial restriction or establish separate land-grant institutions for them. That helped create and support public Black colleges, but it also embedded separate and unequal funding patterns into higher education. The National Archives notes that the second act sought to address discrimination, but the later federal code explicitly recognizes discriminatory allocation of land and financial resources against Black institutions.</p>
+<p>HBCUs trained teachers because Black children needed schools. They trained ministers because churches were central institutions. They trained doctors and nurses because segregated health care endangered Black patients. They trained lawyers because civil rights battles needed legal minds. They trained artists because Black culture needed stages, studios, presses, and audiences. Their mission was never narrow.</p>
+<p>They were also movement spaces. Students from HBCUs helped lead sit-ins, Freedom Rides, voter registration drives, legal campaigns, and local organizing. Fisk, Howard, North Carolina A&amp;T, Tougaloo, Florida A&amp;M, Alabama State, and many others were not just campuses near the movement. They were part of the movement&#039;s human infrastructure. The classroom and the street were connected.</p>
+<p>HBCUs have also been sites of class tension, gender politics, respectability pressure, protest, joy, and experimentation. Homecoming is not just a party. It is a ritual of return to institutions built against exclusion. Marching bands, fraternities and sororities, debate teams, laboratories, campus newspapers, and alumni networks all carry culture as well as credentials.</p>
+<p>The present-day numbers matter, but they need careful use. HBCUs are a small share of U.S. higher education, yet NCES data show they continue to confer tens of thousands of degrees, with particular significance for Black graduates. In 2025, federal HBCU materials also noted research classifications that recognized Howard University as R1 and multiple HBCUs as R2 or research colleges. That challenges the idea that HBCUs only preserve the past. Many are research institutions, health institutions, public-policy centers, and engines of social mobility.</p>
+<p>The central tension remains funding. HBCUs are celebrated during campaign seasons, homecomings, and Black History Month, but many still fight for equitable public investment, facilities, endowments, research dollars, and debt relief. The praise can be loud while the checks are late. Understanding HBCUs means holding the beauty and the bill together.</p>
+<p>HBCUs matter because they are evidence that exclusion did not stop Black education. It forced Black people to build institutions that changed the country. The question now is not whether they still matter. The question is whether the nation will finally fund them as if it believes its own praise.</p>
   </div>
-  <div class="pull-quote">
-<div class="pq-bar"></div>
-<blockquote>There's nothing quite like being on a campus where people share a common desire to strive, excel and achieve — versus being surrounded by people who don't believe you can reach your potential. It's almost like a magic.</blockquote>
-<cite>Kinshasha Holman Conwill, Smithsonian National Museum of African American History and Culture, on the HBCU experience</cite>
-</div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost of HBCUs was borne by Black communities, students, churches, faculty, and families who built institutions under hostile conditions and chronic underfunding. Separate education often meant inadequate facilities, unequal state support, limited research funding, and the burden of doing more with less while proving excellence to institutions that had excluded them.</p>
+<p>Their impact is enormous: educators, physicians, scientists, judges, artists, civil-rights organizers, elected officials, entrepreneurs, and cultural leaders moved through HBCUs. They created professional pathways and community networks while preserving spaces where Black students could learn without being treated as exceptions to someone else&#039;s norm.</p>
+  </div>
+
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>HBCUs matter as the most durable institutional evidence that Black Americans have consistently built what they were denied. When the country's educational institutions refused Black students, Black Americans built their own — with church basements, personal donations, and collective will. The institutions they built produced the doctors, lawyers, engineers, educators, and leaders who have shaped every part of American life. The ongoing underfunding of HBCUs is not a relic of history. It is an active, documented, ongoing policy failure that represents a measurable gap between what these institutions produce and what they receive. Understanding HBCUs means understanding both what was built despite everything and what has never been equally resourced.</p>
+<p>HBCUs matter today because access is not the same as belonging, and admission is not the same as investment. Predominantly white institutions may now admit Black students, but HBCUs still offer histories, networks, and missions built around Black educational possibility rather than Black tolerance.</p>
+<p>They also matter because public funding choices reveal values. When states and federal systems celebrate HBCUs while leaving facilities, endowments, and research capacity underfunded, they repeat an old pattern in modern language.</p>
+<p>A serious understanding of HBCUs should include joy and critique: homecoming and debt, marching bands and laboratories, legacy and innovation, pride and policy. The story is not nostalgia. It is unfinished infrastructure.</p>
   </div>
+
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../index.html?day=2026-05-30" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz &middot; Day 26</div>
-        <div class="quiz-link-title">Test your knowledge on HBCUs</div>
+    <a href="../index.html?day=2026-05-30" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; May 30</div>
+        <div class="quiz-card-title">Open the daily challenge for Historically Black Colleges and Universities</div>
       </div>
-      <span class="quiz-link-arrow">&#x270A;&#x1F3FE;</span>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"></div>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/education-inequality.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Education Inequality by Design</div>
+        <div class="connected-desc">Connects HBCUs to the policy choices that shaped unequal schools and funding.</div>
+      </a>
+<a href="../generated/pages/booker-t-washington.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Booker T. Washington</div>
+        <div class="connected-desc">Places Tuskegee and industrial education debates inside HBCU history.</div>
+      </a>
+<a href="../generated/pages/ed-temple.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Ed Temple</div>
+        <div class="connected-desc">Shows HBCU athletics, coaching, and Black women&#039;s excellence at Tennessee State.</div>
+      </a>
+<a href="../generated/pages/dorothy-vaughan.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Dorothy Vaughan</div>
+        <div class="connected-desc">Connects Black education pathways to science, mathematics, and federal technical work.</div>
+      </a>
+    </div>
   </div>
+
   <div class="section-divider"><span>Learn More</span></div>
   <div class="external-section">
     <div class="section-title">External Links</div>
-    <div class="external-links"><a href="https://www.smithsonianmag.com/smithsonian-institution/how-americas-hbcus-produced-generations-black-women-leaders-180976885/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">How America's HBCUs Produced Generations of Black Women Leaders</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.nps.gov/subjects/nationalregister/hbcu-grant-recipients-in-the-national-register-of-historic-places.htm" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">National Park Service</div><div class="ext-title">HBCU Grant Recipients in the National Register of Historic Places — Preserving Black Educational History</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.history.com/this-day-in-history/april-29/lincoln-university-first-hbcu-chartered" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">First HBCU — Lincoln University Chartered, April 29, 1854</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-</div>
+    <div class="external-links">
+<a href="https://sites.ed.gov/whhbcu/one-hundred-and-five-historically-black-colleges-and-universities/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">U.S. Department of Education</div>
+          <div class="ext-title">What Is an HBCU?</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/explore/moments/homecoming-celebration-hbcus-and-their-legacies" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Homecoming: A Celebration of HBCUs and Their Legacies</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/explore/stories/consecrated-ground-churches-and-founding-americas-historically-black-colleges-and" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Consecrated Ground: Churches and the Founding of America&#039;s HBCUs</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.archives.gov/milestone-documents/morrill-act" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">Morrill Act (1862)</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nces.ed.gov/fastfacts/display.asp?id=667" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">NCES</div>
+          <div class="ext-title">Fast Facts: Historically Black Colleges and Universities</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://uscode.house.gov/view.xhtml?edition=prelim&amp;path=%2Fprelim%40title20%2Fchapter28%2Fsubchapter3%2FpartB" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">U.S. Code</div>
+          <div class="ext-title">Strengthening Historically Black Colleges and Universities</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
   </div>
 </main>
 <footer>
-  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

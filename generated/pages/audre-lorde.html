@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Audre Lorde - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Audre Lorde treated difference not as a problem to hide, but as knowledge to use.">
+<meta name="description" content="Audre Lorde did not ask readers to choose between poetry and politics, or between being Black, lesbian, mother, teacher, cancer survivor, and thinker. She wrote from the pressure of holding all of those truths at once. Her work matters because it refused the bargain offered by many movements: hide the inconvenient parts of yourself now, and maybe liberation will include you later. Lorde&#039;s essays and poems insisted that difference was not a distraction from justice. It was part of the evidence. She helped give language to Black feminism, queer survival, illness, anger, care, and coalition without pretending any of it was easy.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="audre-lorde">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,149 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Audre Lorde</h2>
-  <div class="meta">
-    <span class="badge">1934 - 1992</span>
-    <span class="badge">Culture</span>
-    <span class="badge">2026-08-24</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>August 24 &middot; Culture</span>
   </div>
-  <article>
-    <p>Audre Lorde treated difference not as a problem to hide, but as knowledge to use.</p><p>Lorde was a poet, essayist, librarian, feminist, and activist whose work explored race, gender, sexuality, illness, motherhood, anger, and survival.</p><p>Her essays challenged movements that asked people to split themselves into convenient pieces before entering the room.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Lorde matters because liberation cannot be built by erasing parts of the people seeking it. Her words still teach movements how to be more honest.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">August 24 &middot; Culture</div>
+    <h1>Audre Lorde</h1>
+    <p class="entry-tagline">Audre Lorde did not ask readers to choose between poetry and politics, or between being Black, lesbian, mother, teacher, cancer survivor, and thinker. She wrote from the pressure of holding all of those truths at once. Her work matters because it refused the bargain offered by many movements: hide the inconvenient parts of yourself now, and maybe liberation will include you later. Lorde&#039;s essays and poems insisted that difference was not a distraction from justice. It was part of the evidence. She helped give language to Black feminism, queer survival, illness, anger, care, and coalition without pretending any of it was easy.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1934 - 1992</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.poetryfoundation.org/poets/audre-lorde" target="_blank" rel="noopener noreferrer">https://www.poetryfoundation.org/poets/audre-lorde</a></li>
-<li><a href="https://www.womenshistory.org/education-resources/biographies/audre-lorde" target="_blank" rel="noopener noreferrer">https://www.womenshistory.org/education-resources/biographies/audre-lorde</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Feb 18, 1934</div><div class="tl-event">Born Audrey Geraldine Lorde in New York City to Caribbean immigrant parents.</div></div>
+<div class="tl-item"><div class="tl-date">1959</div><div class="tl-event">Graduates from Hunter College.</div></div>
+<div class="tl-item"><div class="tl-date">1961</div><div class="tl-event">Earns a master&#039;s degree in library science from Columbia University.</div></div>
+<div class="tl-item"><div class="tl-date">1968</div><div class="tl-event">Publishes her first poetry collection, The First Cities.</div></div>
+<div class="tl-item"><div class="tl-date">1972</div><div class="tl-event">Serves as poet-in-residence at Tougaloo College, a formative period in her writing and teaching.</div></div>
+<div class="tl-item"><div class="tl-date">1980</div><div class="tl-event">Publishes The Cancer Journals.</div></div>
+<div class="tl-item"><div class="tl-date">1981</div><div class="tl-event">Helps found Kitchen Table: Women of Color Press with Barbara Smith and Cherrie Moraga.</div></div>
+<div class="tl-item"><div class="tl-date">1984</div><div class="tl-event">Publishes Sister Outsider: Essays and Speeches.</div></div>
+<div class="tl-item"><div class="tl-date">1991-1992</div><div class="tl-event">Serves as New York State Poet Laureate.</div></div>
+<div class="tl-item"><div class="tl-date">Nov 17, 1992</div><div class="tl-event">Dies in St. Croix.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-08-24">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Audre Lorde&#039;s work begins with language, but not language as decoration. For Lorde, words were survival tools. She was born in Harlem to parents from Grenada, grew up in New York City, and began writing poetry while still young. The Poetry Foundation notes that she described communicating through poems before she could always explain herself directly. That detail matters because Lorde&#039;s later public voice did not appear from nowhere. It grew from a girl using language to locate herself.</p>
+<p>Lorde trained as a librarian and worked in New York public schools during the 1960s. She also moved through spaces where Blackness, queerness, gender, and class were often policed separately. She married Edwin Rollins, had two children, divorced in 1970, and later built life and partnership with Frances Clayton. Reducing her to any single identity misses the point. Lorde kept writing from the intersections that institutions wanted to sort into separate boxes.</p>
+<p>Her early poetry collections placed desire, motherhood, anger, Blackness, mythology, and memory into a public literary space that did not always know what to do with her. At Tougaloo College in Mississippi, she taught in a historically Black institution and found a community that deepened her political and artistic direction. Her work was shaped by the civil-rights movement, Black Arts, feminism, lesbian communities, and international struggles, but she did not simply echo movement slogans. She pressed movements to be more honest.</p>
+<p>That honesty made her central to Black feminist thought. In essays such as &quot;The Transformation of Silence into Language and Action,&quot; &quot;The Master&#039;s Tools Will Never Dismantle the Master&#039;s House,&quot; and &quot;Uses of the Erotic,&quot; Lorde argued that silence, token inclusion, and fear of difference helped systems of power survive. She challenged white feminists who treated race as secondary. She challenged Black spaces that treated lesbian identity as a liability. She challenged anyone who used unity as a reason to avoid hard truth.</p>
+<p>Lorde&#039;s cancer writing added another layer. The Cancer Journals did not turn illness into an inspirational lesson. It questioned medical expectations, silence around mastectomy, the pressure to hide bodily change, and the politics of care. Lorde connected personal survival to public language without pretending pain automatically makes people noble. She made room for fear, rage, exhaustion, and choice.</p>
+<p>In 1981 Lorde joined Barbara Smith and Cherrie Moraga in founding Kitchen Table: Women of Color Press. The press mattered because publishing is a gatekeeping system. Writers of color, especially women and queer writers, were often told their work was too narrow, too angry, too political, or not marketable. Kitchen Table answered by building an institution rather than waiting for permission.</p>
+<p>Lorde also worked internationally, including advocacy connected to Black women in South Africa under apartheid and time spent in Berlin where her presence influenced Afro-German organizing. Her work traveled because it did not flatten difference into a slogan. She argued that coalition requires truth, not sameness. That remains one of the hardest lessons in her writing.</p>
+<p>Her influence also came from the way she made interior life politically legible. Lorde wrote about erotic knowledge, motherhood, friendship, fear, and anger without treating them as soft subjects outside the real movement. She understood that power enters private life: whose pain is believed, whose body is hidden, whose desire is named dangerous, whose care work is expected and unpaid. That is why her essays still move between the personal and the structural without apologizing for either.</p>
+<p>The popular version of Lorde often circulates through a few famous quotes. The deeper story is not a quote machine. It is a writer building language for people asked to disappear parts of themselves. Lorde taught that anger can carry information, that care can be political, and that liberation built on erasure is not liberation.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>Your silence will not protect you.</blockquote>
+    <cite>Audre Lorde, Sister Outsider</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Lorde paid for her clarity by refusing easy belonging. She wrote as a Black lesbian feminist in spaces that often accepted only fragments of that identity. Her work met resistance from institutions that preferred polite diversity, from feminist circles that minimized race, and from Black political spaces that could be hostile to queer life. Illness brought another cost: public truth about cancer and mastectomy at a time when women were often pressured to hide bodily change.</p>
+<p>The impact was enormous. Lorde gave later writers, organizers, teachers, and healers a vocabulary for intersectional life before the term became common. Her work helped shape Black feminism, queer theory, disability and illness writing, and movement conversations about difference.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Lorde matters today because many institutions still invite people into public life only if they make themselves smaller. Her work rejects that bargain. It asks what movements lose when they treat race, gender, sexuality, class, illness, and motherhood as side issues instead of lived conditions that shape how power works.</p>
+<p>Her writing also corrects the way anger is often dismissed. Lorde did not celebrate rage for its own sake. She treated anger as information about injury, boundaries, and truth. That distinction is useful now, when calls for civility often arrive before any serious attention to harm.</p>
+<p>A reader should leave Lorde understanding that difference is not a problem to solve after liberation. It is one of the places liberation has to begin.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-08-24" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; August 24</div>
+        <div class="quiz-card-title">Open the daily challenge for Audre Lorde</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/james-baldwin.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">James Baldwin</div>
+        <div class="connected-desc">Another Black queer writer who made moral language confront public power.</div>
+      </a>
+<a href="../../encyclopedia/pauli-murray.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Pauli Murray</div>
+        <div class="connected-desc">Connects law, gender, sexuality, faith, and Black feminist thought.</div>
+      </a>
+<a href="../../generated/pages/black-arts-movement.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Arts Movement</div>
+        <div class="connected-desc">Places Lorde near wider debates over Black art and liberation.</div>
+      </a>
+<a href="../../generated/pages/alice-walker.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Alice Walker</div>
+        <div class="connected-desc">Another writer whose work widened Black women&#039;s literary and political language.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.poetryfoundation.org/poets/audre-lorde" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Poetry Foundation</div>
+          <div class="ext-title">Audre Lorde biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/audre-lorde" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Audre Lorde</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.womenshistory.org/education-resources/biographies/audre-lorde" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Women&#039;s History Museum</div>
+          <div class="ext-title">Audre Lorde biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.poetryfoundation.org/articles/146096/audre-lorde-selections" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Poetry Foundation</div>
+          <div class="ext-title">Audre Lorde: Selections</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Greensboro Four - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Four college students sat down at a lunch counter and made sitting still feel like motion.">
+<meta name="description" content="The Greensboro Four made sitting still into a public confrontation. On February 1, 1960, Ezell Blair Jr. (later Jibreel Khazan), David Richmond, Franklin McCain, and Joseph McNeil, students at North Carolina A&amp;T, sat at a segregated Woolworth&#039;s lunch counter and asked to be served. They were refused. They stayed. Then they came back, and more students came with them. This page matters because the sit-in was not spontaneous magic. It grew from student courage, local organizing, careful discipline, Black college life, and a long frustration with everyday segregation. The four seats in Greensboro helped energize a student-led phase of the civil rights movement because they turned ordinary consumption into a test of dignity, law, and power.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="greensboro-four">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,153 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>The Greensboro Four</h2>
-  <div class="meta">
-    <span class="badge">1960</span>
-    <span class="badge">Youth</span>
-    <span class="badge">2026-08-08</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>August 8 &middot; Youth</span>
   </div>
-  <article>
-    <p>Four college students sat down at a lunch counter and made sitting still feel like motion.</p><p>On February 1, 1960, Ezell Blair Jr., David Richmond, Franklin McCain, and Joseph McNeil sat at a segregated Woolworth&#039;s counter in Greensboro, North Carolina.</p><p>They were refused service, but they returned. The sit-in spread to other cities and helped energize a student-led phase of the civil rights movement.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>The Greensboro Four matter because protest does not always begin with a march. Sometimes it begins with young people refusing to leave a chair.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">August 8 &middot; Youth</div>
+    <h1>The Greensboro Four</h1>
+    <p class="entry-tagline">The Greensboro Four made sitting still into a public confrontation. On February 1, 1960, Ezell Blair Jr. (later Jibreel Khazan), David Richmond, Franklin McCain, and Joseph McNeil, students at North Carolina A&amp;T, sat at a segregated Woolworth&#039;s lunch counter and asked to be served. They were refused. They stayed. Then they came back, and more students came with them. This page matters because the sit-in was not spontaneous magic. It grew from student courage, local organizing, careful discipline, Black college life, and a long frustration with everyday segregation. The four seats in Greensboro helped energize a student-led phase of the civil rights movement because they turned ordinary consumption into a test of dignity, law, and power.</p>
+    <div class="entry-badges">
+      <span class="badge">Event</span>
+      <span class="badge">1960</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.nps.gov/people/the-greensboro-four.htm" target="_blank" rel="noopener noreferrer">https://www.nps.gov/people/the-greensboro-four.htm</a></li>
-<li><a href="https://nmaahc.si.edu/explore/stories/greensboro-lunch-counter" target="_blank" rel="noopener noreferrer">https://nmaahc.si.edu/explore/stories/greensboro-lunch-counter</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1954</div><div class="tl-event">Brown v. Board intensifies challenges to segregation, though public accommodations remain segregated in many places.</div></div>
+<div class="tl-item"><div class="tl-date">1959</div><div class="tl-event">The four students discuss nonviolent protest and civil rights action at North Carolina A&amp;T.</div></div>
+<div class="tl-item"><div class="tl-date">Feb 1, 1960</div><div class="tl-event">The Greensboro Four sit at the Woolworth&#039;s lunch counter and are refused service.</div></div>
+<div class="tl-item"><div class="tl-date">Feb 2, 1960</div><div class="tl-event">More students join the sit-in.</div></div>
+<div class="tl-item"><div class="tl-date">Feb 5, 1960</div><div class="tl-event">Hundreds of students are involved, and the protest gains national attention.</div></div>
+<div class="tl-item"><div class="tl-date">Spring 1960</div><div class="tl-event">Sit-ins spread to dozens of Southern cities.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 1960</div><div class="tl-event">Student activists gather at Shaw University, helping create SNCC.</div></div>
+<div class="tl-item"><div class="tl-date">July 25, 1960</div><div class="tl-event">The Greensboro Woolworth&#039;s lunch counter begins serving Black customers.</div></div>
+<div class="tl-item"><div class="tl-date">1993</div><div class="tl-event">A section of the Woolworth&#039;s lunch counter enters the Smithsonian collection.</div></div>
+<div class="tl-item"><div class="tl-date">2010</div><div class="tl-event">The International Civil Rights Center &amp; Museum opens in the former Woolworth&#039;s building.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-08-08">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>The Greensboro sit-in happened at a lunch counter, but it was about more than lunch. Segregated public accommodations told Black people where they could sit, eat, spend money, use restrooms, and exist without humiliation. A store could take Black customers&#039; money at one counter and deny them a sandwich at another. That contradiction was the point the students forced into public view.</p>
+<p>The four students were freshmen at North Carolina A&amp;T State University, a historically Black college that gave them a community of ideas, debate, and expectation. They were not celebrities. They were young men talking late into the night about what they could do. Their youth matters, but youth did not mean carelessness. They studied the risk and chose a form of protest that demanded discipline.</p>
+<p>On February 1, 1960, they entered the downtown Greensboro Woolworth&#039;s, bought items in the store, then sat at the whites-only lunch counter. When staff refused service, the students remained until closing. They did not win service that day. They won visibility. The next day, more students came. Soon the protest grew larger than four people.</p>
+<p>The tactic worked because it exposed the absurdity and cruelty of segregation in a setting everyone understood. Lunch counters were ordinary. That ordinariness made the denial harder to defend. The students were neatly dressed, calm, and prepared for abuse. Their discipline made white hostility visible as hostility, not order.</p>
+<p>Women students, local organizers, ministers, teachers, and community members helped sustain the movement that followed. Public memory often centers the four names, but the sit-ins spread because networks formed around them. Students monitored behavior, contacted press, raised money, and planned next steps. Protest became infrastructure.</p>
+<p>The discipline mattered because segregationists tried to provoke scenes that could be blamed on the students. Sit-in participants practiced how to respond to insults, food thrown on them, and physical intimidation. Nonviolence was not passivity. It was a tactic that required control under pressure and exposed who was defending order and who was defending humiliation.</p>
+<p>The sit-in movement spread quickly across the South. Students in Nashville, Durham, Raleigh, Atlanta, and many other cities adapted the tactic. Some were trained in nonviolence. Some were arrested. Some were beaten. The movement helped create the Student Nonviolent Coordinating Committee, which would become one of the most important organizations in the Black freedom struggle.</p>
+<p>The sit-ins also created economic pressure. Stores that depended on Black shoppers had to face boycotts, pickets, and national embarrassment. Segregation was not only a social custom. It was a business model that accepted Black money while denying Black dignity. The students made that contradiction expensive.</p>
+<p>The Greensboro Woolworth&#039;s desegregated its lunch counter in July 1960, months after the first sit-in. That victory mattered, but the broader effect mattered more. The sit-ins showed that young people could force national attention without waiting for established leaders to approve every step. They also showed that direct action could turn local custom into public crisis.</p>
+<p>The preserved lunch counter now sits in museum memory, but it should not become a harmless artifact. Its power comes from what it witnessed: a group of students refusing to let an ordinary piece of furniture enforce racial hierarchy. The counter was not neutral. It was a line. The students crossed it by sitting down.</p>
+<p>The Greensboro Four matter because they changed the movement&#039;s tempo. They did not invent sit-ins, and they were not alone. But their action caught fire at a moment when students were ready to move. Four seats became a national question: how long should Black people keep paying for citizenship with patience?</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost included threat, arrest risk, public abuse, academic pressure, and the possibility of violence. Students who joined sit-ins faced food thrown at them, insults, beatings, jail, and retaliation. Families worried. Colleges could face political pressure.</p>
+<p>The impact was movement-wide. The Greensboro action helped spread sit-ins, pushed public accommodations desegregation, strengthened student leadership, and contributed to the creation of SNCC. It proved that disciplined local action could move faster than cautious institutions.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>The Greensboro Four matter today because protest is often judged by whether it is convenient. Sit-ins were designed to interrupt business as usual because business as usual was the problem. The students understood that politeness without pressure could leave segregation untouched.</p>
+<p>The story also reminds readers that young people are not the future only. They are actors in the present. College students brought strategy, risk, and moral clarity to a movement that needed all three.</p>
+<p>The fuller lesson is that ordinary spaces carry political meaning. A lunch counter, bus seat, classroom, voting office, or street corner can become a place where a system is forced to reveal itself.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-08-08" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; August 8</div>
+        <div class="quiz-card-title">Open the daily challenge for The Greensboro Four</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/diane-nash.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Diane Nash</div>
+        <div class="connected-desc">Connects sit-in discipline to student leadership in Nashville.</div>
+      </a>
+<a href="../../generated/pages/freedom-riders.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Freedom Riders</div>
+        <div class="connected-desc">Shows student direct action moving from lunch counters to interstate travel.</div>
+      </a>
+<a href="../../encyclopedia/modern-civil-rights.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Modern Civil Rights Leaders</div>
+        <div class="connected-desc">Links student-led direct action to later organizing traditions.</div>
+      </a>
+<a href="../../generated/pages/little-rock-nine.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Little Rock Nine</div>
+        <div class="connected-desc">Another youth-centered confrontation with segregation and state power.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.sitinmovement.org/history/greensboro-chronology.asp" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">International Civil Rights Center &amp; Museum</div>
+          <div class="ext-title">Greensboro Sit-In History</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://americanhistory.si.edu/collections/object-groups/greensboro-lunch-counter" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of American History</div>
+          <div class="ext-title">Greensboro Lunch Counter</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.blackpast.org/african-american-history/greensboro-sit-ins-1960/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">BlackPast</div>
+          <div class="ext-title">Greensboro Sit-Ins</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://snccdigital.org/events/greensboro-sit-ins/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">SNCC Digital Gateway</div>
+          <div class="ext-title">Greensboro Sit-Ins</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.ncpedia.org/greensboro-sit-ins" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">NCpedia</div>
+          <div class="ext-title">Greensboro Sit-Ins</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

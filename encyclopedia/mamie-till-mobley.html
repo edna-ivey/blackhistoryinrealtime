@@ -3,83 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mamie Till-Mobley &mdash; Black History in Real Time Encyclopedia</title>
-<meta name="description" content="In August 1955, Mamie Till-Mobley's fourteen-year-old son Emmett was kidnapped, tortured, and thrown into the Tallahatchie River with a 75-pound cotton gin fan ">
+<title>Mamie Till-Mobley - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Mamie Till-Mobley made one of the most consequential decisions in American memory, but she was more than the mother of a murdered child. Born in Mississippi and raised near Chicago, she was a strong student, a federal worker, a single mother, a teacher, and later a public witness whose grief became evidence. After Emmett Till was kidnapped and lynched in Mississippi in 1955, she insisted his body be returned to Chicago, chose an open-casket funeral, and allowed photographs to be published. The daily story often stops there. The encyclopedia has to hold more: the mother before the tragedy, the danger of public witness, the trial, the long teaching life afterward, and the burden of protecting a child&#039;s humanity from being turned into symbol alone.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg, #444, var(--red));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}
-.why-section p:last-child{margin-bottom:0;}
-.cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}
-.cost-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
-.cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-.quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all 0.2s;margin-bottom:12px;}
-.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
-.quiz-card-left{flex:1;}
-.quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}
-.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}
-.quiz-card-icon{font-size:1.8rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="mamie-till-mobley">
@@ -111,11 +86,10 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="entry-hero">
     <div class="entry-vol-label">March 13 &middot; Civil Rights Catalyst</div>
     <h1>Mamie Till-Mobley</h1>
-    <p class="entry-tagline">In August 1955, Mamie Till-Mobley's fourteen-year-old son Emmett was kidnapped, tortured, and thrown into the Tallahatchie River with a 75-pound cotton gin fan wired to his neck. When his body came home to Chicago, she made a decision that changed history. She opened the casket. She let the photographers in. She told the world: look at what they did to my son. Jet magazine published the photographs. Up to 100,000 people came to view his body. Rosa Parks said she thought of Emmett Till when she refused to give up her seat.</p>
+    <p class="entry-tagline">Mamie Till-Mobley made one of the most consequential decisions in American memory, but she was more than the mother of a murdered child. Born in Mississippi and raised near Chicago, she was a strong student, a federal worker, a single mother, a teacher, and later a public witness whose grief became evidence. After Emmett Till was kidnapped and lynched in Mississippi in 1955, she insisted his body be returned to Chicago, chose an open-casket funeral, and allowed photographs to be published. The daily story often stops there. The encyclopedia has to hold more: the mother before the tragedy, the danger of public witness, the trial, the long teaching life afterward, and the burden of protecting a child&#039;s humanity from being turned into symbol alone.</p>
     <div class="entry-badges">
       <span class="badge">People</span>
-      <span class="badge">1921 &mdash; 2003</span>
-      <span class="badge">Civil Rights Catalyst</span>
+      <span class="badge">1921 - 2003</span>
     </div>
     <div class="hero-bar"></div>
   </div>
@@ -123,46 +97,52 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
     <div class="timeline-items">
-      <div class="tl-item"><div class="tl-date">Nov 23, 1921</div><div class="tl-event">Born Mamie Elizabeth Carthan in Webb, Mississippi</div></div>
-      <div class="tl-item"><div class="tl-date">1941</div><div class="tl-event">Gives birth to Emmett Louis Till</div></div>
-      <div class="tl-item"><div class="tl-date">Aug 28, 1955</div><div class="tl-event">Emmett Till, 14, is abducted from his great-uncle's home in Money, Mississippi</div></div>
-      <div class="tl-item"><div class="tl-date">Aug 31, 1955</div><div class="tl-event">Emmett's body recovered from the Tallahatchie River</div></div>
-      <div class="tl-item"><div class="tl-date">Sep 3, 1955</div><div class="tl-event">Mamie insists on open casket; Jet magazine publishes photographs</div></div>
-      <div class="tl-item"><div class="tl-date">Sep 1955</div><div class="tl-event">Estimated 50,000–100,000 people view Emmett's body at Roberts Temple Church of God</div></div>
-      <div class="tl-item"><div class="tl-date">Sep 23, 1955</div><div class="tl-event">All-white jury acquits Roy Bryant and J.W. Milam in 67 minutes</div></div>
-      <div class="tl-item"><div class="tl-date">Jan 1956</div><div class="tl-event">Bryant and Milam confess to murder in Look magazine; protected by double jeopardy</div></div>
-      <div class="tl-item"><div class="tl-date">1973–2003</div><div class="tl-event">Mamie becomes an educator; uses Emmett's story to teach about racial violence</div></div>
-      <div class="tl-item"><div class="tl-date">Jan 6, 2003</div><div class="tl-event">Mamie Till-Mobley dies at 81, having spent 48 years as an activist and educator</div></div>
+<div class="tl-item"><div class="tl-date">Nov 23, 1921</div><div class="tl-event">Born Mamie Elizabeth Carthan in Webb, Mississippi.</div></div>
+<div class="tl-item"><div class="tl-date">1920s</div><div class="tl-event">Moves with her family to Argo, Illinois, during the Great Migration.</div></div>
+<div class="tl-item"><div class="tl-date">1940</div><div class="tl-event">Marries Louis Till.</div></div>
+<div class="tl-item"><div class="tl-date">July 25, 1941</div><div class="tl-event">Gives birth to Emmett Louis Till.</div></div>
+<div class="tl-item"><div class="tl-date">Aug 20, 1955</div><div class="tl-event">Emmett leaves Chicago for Mississippi to visit relatives.</div></div>
+<div class="tl-item"><div class="tl-date">Aug 28, 1955</div><div class="tl-event">Emmett Till is kidnapped and murdered in Mississippi.</div></div>
+<div class="tl-item"><div class="tl-date">Sept 1955</div><div class="tl-event">Mamie Till-Mobley holds an open-casket funeral in Chicago and permits photographs.</div></div>
+<div class="tl-item"><div class="tl-date">Sept 1955</div><div class="tl-event">Travels to Mississippi and testifies at the murder trial.</div></div>
+<div class="tl-item"><div class="tl-date">1957</div><div class="tl-event">Marries Gene Mobley and later becomes widely known as Mamie Till-Mobley.</div></div>
+<div class="tl-item"><div class="tl-date">1970s</div><div class="tl-event">Completes advanced education and continues teaching and speaking.</div></div>
+<div class="tl-item"><div class="tl-date">Jan 6, 2003</div><div class="tl-event">Dies in Chicago.</div></div>
+<div class="tl-item"><div class="tl-date">July 25, 2023</div><div class="tl-event">The Emmett Till and Mamie Till-Mobley National Monument is established.</div></div>
     </div>
   </div>
 
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>Mamie Till-Mobley was twenty-one years old when she gave birth to Emmett Louis Till in Chicago in 1941. She raised him alone, mostly, after separating from his father. He was exuberant, funny, and had a stutter from a childhood bout with polio. That summer in 1955, she sent him down to Mississippi to visit his great-uncle Moses Wright in Money. She coached him before he left: Mississippi is different. Be respectful. Say "yes sir" and "no sir." Don't look white people in the eye. He was fourteen years old and had spent his whole life in Chicago.</p>
-<p>On August 28, 1955, three days after he allegedly whistled at or touched the hand of a white woman named Carolyn Bryant at a country store, Roy Bryant and his half-brother J.W. Milam came to Moses Wright's home at 2:30 in the morning. They took Emmett. They beat him until his face was unrecognizable. They shot him in the head. They tied a 75-pound cotton gin fan to his neck with barbed wire and threw him in the Tallahatchie River.</p>
-<p>His body was recovered three days later. Mississippi officials wanted to bury him immediately, locally. Mamie insisted on having the body returned to Chicago. When the casket arrived, she asked to see her son. Undertakers tried to discourage her. She insisted. She looked at what they had done.</p>
-<p>She then made the decision that changed the course of the civil rights movement.</p>
-<p>She ordered an open casket. She allowed photographers into the funeral parlor. She told the Chicago Defender and Jet magazine they could publish what they saw. "I wanted the world to see what they did to my baby," she said.</p>
-<p>Jet magazine published the photographs. They were the most disturbing images many Americans had ever seen in print. An estimated fifty thousand to one hundred thousand people came to Roberts Temple Church of God in Chicago to view his body over four days. The photographs circulated across the country and internationally.</p>
-<p>In September 1955, an all-white jury in Sumner, Mississippi acquitted Roy Bryant and J.W. Milam of murder after sixty-seven minutes of deliberation — including a lunch break. The following January, protected by double jeopardy, they confessed to the murder in Look magazine for a reported $4,000 fee.</p>
-<p>Mamie Till-Mobley lived for forty-eight more years. She never stopped speaking. She became an educator, a speaker, and an activist who used Emmett's story as a teaching instrument. Rosa Parks said she thought of Emmett Till when she refused to give up her seat that December in Montgomery. John Lewis said the photographs radicalized his generation. Mamie lived long enough to see Carolyn Bryant's accusation questioned and re-examined in the decades after.</p>
-<p>She died on January 6, 2003, at eighty-one years old, still speaking his name.</p>
+<p>Mamie Elizabeth Carthan was born in Webb, Mississippi, in 1921. When she was very young, her family joined the Great Migration and moved to Argo, Illinois. That move changed the possibilities around her but did not erase the South from her life. Like many Black families who migrated, the Carthans carried memories, relatives, and warnings across the map. Mamie knew that Mississippi and Illinois operated by different racial rules, even though racism lived in both places.</p>
+<p>She was an excellent student, graduating with distinction from Argo Community High School. She married Louis Till in 1940, and their son Emmett was born in 1941. The marriage was troubled and ended in separation. Mamie raised Emmett largely as a single mother while working government jobs and building a life in the Chicago area. Emmett, known as Bobo, was lively, funny, and loved by his family. Polio had left him with a stutter, and his mother taught him strategies for speaking through it.</p>
+<p>In August 1955, Emmett wanted to visit relatives in Mississippi. Mamie hesitated because she understood what a Chicago child might not understand about the Mississippi Delta. Before he left, she warned him carefully about how to behave around white people in the South. That warning should not be read as acceptance. It was a survival lesson forced on Black parents by a violent racial order.</p>
+<p>Emmett arrived in Mississippi and stayed with relatives near Money. After an encounter at Bryant&#039;s Grocery and Meat Market, Carolyn Bryant accused him of improper behavior. The details of that encounter have been contested and reexamined for decades. What is clear is that Roy Bryant and J.W. Milam kidnapped Emmett from his great-uncle Mose Wright&#039;s home, tortured and killed him, and dumped his body in the Tallahatchie River.</p>
+<p>When Mamie learned her son was dead, officials in Mississippi wanted a quick burial there. She refused. She demanded that Emmett be returned to Chicago. Then she made the decision that became history: the casket would be open. She wanted the world to see what had been done. This was not spectacle. It was evidence against a system that depended on hiding racial terror behind local control, quick burials, intimidated witnesses, and white denial.</p>
+<p>Thousands came to Roberts Temple Church of God in Christ in Chicago. Jet magazine and other Black press outlets published photographs. The images traveled nationally and internationally. For many people, especially young Black readers and future activists, the photographs made the violence of Jim Crow impossible to treat as rumor. But those images came at a terrible cost to a mother. Mamie Till-Mobley had to keep looking at what others could barely stand to see once.</p>
+<p>She traveled to Mississippi for the trial despite danger. Mose Wright&#039;s testimony identifying the kidnappers was extraordinary in the context of Mississippi racial terror. Still, an all-white jury acquitted Bryant and Milam. They later admitted to the killing in a paid magazine interview, protected by double jeopardy. The legal system had performed its loyalty to whiteness in public.</p>
+<p>Mamie Till-Mobley did not disappear after the funeral. She became an activist, speaker, and teacher. She toured with the NAACP, spoke about racial violence, and later worked for years in education. She insisted that Emmett be remembered as a child, not only as a body or a symbol. That distinction matters. Racial terror tries to steal personhood, and public memory can accidentally repeat the theft if it remembers only the violence.</p>
+<p>Her later life included continued demands for accountability. The Till case was reopened and revisited across decades, with federal investigations and public debate about Carolyn Bryant Donham&#039;s role and statements. Full legal accountability did not arrive in Mamie&#039;s lifetime. She died in 2003, the same year as another mother of movement memory, Coretta Scott King&#039;s husband having long since been memorialized differently. Mamie&#039;s memorial work had been built from a more intimate wound.</p>
+<p>The Emmett Till and Mamie Till-Mobley National Monument, established in 2023, recognizes both mother and son. That pairing is important. Emmett&#039;s murder became a catalyst because Mamie Till-Mobley forced evidence into public view, then spent her life teaching people what that evidence meant. Her courage was not a single decision. It was the long refusal to let America bury the truth.</p>
   </div>
 
   <div class="pull-quote">
     <div class="pq-bar"></div>
-    <blockquote>I wanted the world to see what they did to my baby.</blockquote>
-    <cite>Mamie Till-Mobley, on her decision to hold an open casket funeral</cite>
+    <blockquote>What happens to any of us, anywhere in the world, had better be the business of us all.</blockquote>
+    <cite>Mamie Till-Mobley, NAACP rally in Cleveland, September 18, 1955</cite>
   </div>
 
   <div class="cost-section">
     <div class="cost-label">Cost / Impact</div>
-    <p>She lived for forty-eight years with the knowledge of what was done to her child and the image of what she had seen in that casket. She never remarried. She spent decades using her grief as a teaching tool, traveling and speaking about her son at events and in schools. She carried that weight until the day she died — and she chose to carry it publicly, because silence would have let them bury the truth with Emmett.</p>
+<p>The cost begins with Emmett Till&#039;s stolen life and Mamie Till-Mobley&#039;s grief, but it does not end there. She endured the public exposure of her child&#039;s mutilated body, death threats, a hostile Mississippi courtroom, an acquittal, and decades of retelling the worst thing that had happened to her family. Public witness required her to turn private pain into a lesson she had to keep carrying.</p>
+<p>Her impact changed civil rights memory. The photographs helped galvanize activists, strengthened the role of the Black press, and made racial terror visible to people who had ignored or minimized it. Her teaching life also shaped how later generations understood Emmett as a child and Mamie as an agent of history, not only a grieving mother.</p>
   </div>
 
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>Mamie Till-Mobley made a choice most parents would be physically unable to make. She understood that private grief would change nothing. Public witness might change everything. She converted her worst moment into the most powerful civil rights image of the 20th century.</p><p>Her decision to open that casket is directly connected to the Montgomery Bus Boycott, to the Civil Rights Act of 1964, to everything that followed. The movement needed people to feel — not just know — the cost of racial terror. She made them feel it.</p><p>She also demonstrated that truth is its own form of resistance. The murderers confessed. The system let them walk. She made sure the world saw anyway.</p>
+<p>Mamie Till-Mobley matters today because public evidence still matters, and because evidence still asks something of the people who release it. Images of anti-Black violence can mobilize, traumatize, inform, and be exploited. Her decision helps readers think carefully about witness, consent, dignity, and purpose.</p>
+<p>Her story also corrects the idea that the modern civil rights movement began because one photograph shocked a passive nation awake. Black people had been organizing for generations. What Mamie did was force a wider public to confront what Black communities already knew and had long resisted.</p>
+<p>The fuller story asks readers to remember Emmett&#039;s life, Mamie&#039;s life, and the system that tried to deny both. The point is not to look forever at harm. The point is to understand what truth-telling can cost and why some people decide the cost must still be paid.</p>
   </div>
 
   <div class="section-divider"><span>Explore More</span></div>
@@ -170,36 +150,31 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
     <div class="section-title">Connected To</div>
     <a href="../index.html?day=2026-03-13" class="quiz-card">
       <div class="quiz-card-left">
-        <div class="quiz-card-label">Take the Quiz &middot; March 13 &middot; Civil Rights Catalyst</div>
-        <div class="quiz-card-title">Test your knowledge on Mamie Till-Mobley</div>
+        <div class="quiz-card-label">Take the Quiz &middot; March 13</div>
+        <div class="quiz-card-title">Open the daily challenge for Mamie Till-Mobley</div>
       </div>
-      <div class="quiz-card-icon">&#x270A;&#x1F3FE;</div>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:0;">
-      <a href="../encyclopedia/ida-b-wells.html" class="connected-card">
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/emmett-till.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Emmett Till</div>
+        <div class="connected-desc">Centers the child whose life and murder Mamie Till-Mobley refused to let the country hide.</div>
+      </a>
+<a href="../encyclopedia/ida-b-wells.html" class="connected-card">
         <div class="connected-type">Related Entry</div>
         <div class="connected-name">Ida B. Wells</div>
-        <div class="connected-desc">1862 &mdash; 1931 &middot; People</div>
+        <div class="connected-desc">Connects public evidence against lynching across generations.</div>
       </a>
-      <a href="../encyclopedia/fannie-lou-hamer.html" class="connected-card">
+<a href="../encyclopedia/black-press.html" class="connected-card">
         <div class="connected-type">Related Entry</div>
-        <div class="connected-name">Fannie Lou Hamer</div>
-        <div class="connected-desc">1917 &mdash; 1977 &middot; People</div>
+        <div class="connected-name">The Black Press</div>
+        <div class="connected-desc">Shows why Jet and Black-owned media were essential to the story&#039;s reach.</div>
       </a>
-      <a href="../encyclopedia/beulah-mae-donald.html" class="connected-card">
+<a href="../encyclopedia/beulah-mae-donald.html" class="connected-card">
         <div class="connected-type">Related Entry</div>
         <div class="connected-name">Beulah Mae Donald</div>
-        <div class="connected-desc">1920 &mdash; 1988 &middot; People</div>
-      </a>
-      <a href="../encyclopedia/myrlie-evers-williams.html" class="connected-card">
-        <div class="connected-type">Related Entry</div>
-        <div class="connected-name">Myrlie Evers-Williams</div>
-        <div class="connected-desc">1933 &mdash; Present &middot; People</div>
-      </a>
-      <a href="../encyclopedia/claudette-colvin.html" class="connected-card">
-        <div class="connected-type">Related Entry</div>
-        <div class="connected-name">Claudette Colvin</div>
-        <div class="connected-desc">1939 &mdash; Present &middot; People</div>
+        <div class="connected-desc">Links mothers who turned grief into public accountability after racist violence.</div>
       </a>
     </div>
   </div>
@@ -208,34 +183,47 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="external-section">
     <div class="section-title">External Links</div>
     <div class="external-links">
-      <a href="https://www.history.com/news/emmett-till-legacy-civil-rights-movement" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">How Emmett Till's Murder and Open Casket Funeral Mobilized the Civil Rights Movement</div></div><span class="ext-arrow">&#x2197;</span></a>
-      <a href="https://www.smithsonianmag.com/history/emmett-tills-mother-made-his-lynching-impossible-to-forget-180980506/" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">Emmett Till's Mother Made His Lynching Impossible to Forget</div></div><span class="ext-arrow">&#x2197;</span></a>
-      <a href="https://www.npr.org/2004/01/09/1592238/mamie-till-mobley-civil-rights-icon" target="_blank" rel="noopener" class="ext-link"><div class="ext-left"><div class="ext-source">NPR</div><div class="ext-title">Mamie Till-Mobley: Civil Rights Icon</div></div><span class="ext-arrow">&#x2197;</span></a>
+<a href="https://www.nps.gov/people/mamie-till-mobley.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Mamie Till-Mobley</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/articles/000/a-tale-of-two-mamies.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">A Tale of Two Mamies</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/till/learn/historyculture/index.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Emmett Till and Mamie Till-Mobley National Monument</div>
+          <div class="ext-title">History &amp; Culture</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.pbs.org/wgbh/americanexperience/features/emmett-biography-mamie-till-mobley/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">PBS American Experience</div>
+          <div class="ext-title">Mamie Till-Mobley Biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/item/2023620884/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Emmett Till and Mamie Till-Mobley Photograph</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
     </div>
   </div>
 </main>
 <footer>
-  <p>&copy; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

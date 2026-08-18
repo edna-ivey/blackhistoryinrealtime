@@ -3,36 +3,209 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>1968 Olympic Protest - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="A Raised Fist on the World Stage">
+<title>1968 Olympic Black Power Salute - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="The 1968 Olympic podium protest is often remembered as a single frozen image: Tommie Smith and John Carlos, heads bowed, black-gloved fists raised. The photograph matters, but it can make the action look spontaneous or only symbolic. It was connected to months of organizing by the Olympic Project for Human Rights, to debates among Black athletes about boycotting the Games, and to a wider challenge against racism in sports and American public life. Smith and Carlos did not simply interrupt a medal ceremony. They used the most visible athletic stage in the world to insist that winning a medal did not cancel the conditions Black people faced at home.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,.2)}
-  *{box-sizing:border-box;margin:0;padding:0} body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;line-height:1.75;min-height:100vh}
-  .pan-stripe{display:flex;height:6px}.pan-stripe div{flex:1}.s1{background:var(--red)}.s2{background:#111}.s3{background:var(--green)}
-  header{position:sticky;top:0;background:rgba(10,10,10,.97);border-bottom:1px solid var(--border);z-index:5}.header-inner{max-width:1100px;margin:auto;padding:14px 32px}
-  .logo{display:flex;align-items:center;gap:14px;color:var(--white);text-decoration:none}.logo img{width:52px;height:52px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}.logo h1{font-family:'Bebas Neue';font-size:1.6rem;letter-spacing:2px}.logo span{color:var(--gold)}
-  nav{border-top:1px solid rgba(212,160,23,.1);display:flex;justify-content:center;overflow-x:auto;padding:0 24px}nav a{color:rgba(245,237,216,.55);text-decoration:none;text-transform:uppercase;letter-spacing:2.5px;font-size:.78rem;padding:12px 18px;white-space:nowrap}
-  main{width:min(900px,calc(100% - 40px));margin:auto;padding:52px 0 90px}.label{color:var(--gold);text-transform:uppercase;letter-spacing:5px;font-size:.7rem;margin-bottom:14px}
-  h2{font-family:'Playfair Display',serif;color:var(--white);font-size:clamp(2.3rem,7vw,4.7rem);line-height:1.05;margin-bottom:16px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}.badge{border:1px solid rgba(212,160,23,.3);border-radius:999px;padding:5px 12px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:.68rem}
-  article{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px}article p{margin-bottom:16px;color:rgba(245,237,216,.82)}h3{font-family:'Bebas Neue';color:var(--gold);letter-spacing:3px;margin:28px 0 8px;font-size:1rem}.why{margin-top:24px;padding:18px 20px;border:1px solid rgba(196,30,58,.25);background:rgba(196,30,58,.08);border-radius:12px}blockquote{border-left:4px solid var(--gold);padding:12px 18px;margin:20px 0;color:var(--gold);background:rgba(212,160,23,.06)}cite{display:block;color:rgba(212,160,23,.65);font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;margin-top:8px}
-  a{color:var(--gold)}@media(max-width:620px){.header-inner{padding:12px 16px}nav{justify-content:flex-start;padding:0 12px}nav a{font-size:.7rem;padding:10px 12px}main{width:calc(100% - 28px);padding-top:34px}article{padding:22px 18px}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="black-power-salute">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-<header><div class="header-inner"><a class="logo" href="../index.html"><img src="../logo.png" alt="Black History in Real Time"><h1>Black<span>History</span></h1></a></div><nav><a href="../index.html">Today</a><a href="../index.html#calendar">Calendar</a><a href="../index.html#archive">Archive</a><a href="../encyclopedia.html">Encyclopedia</a></nav></header>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>1968 Olympic Protest</h2>
-  <div class="meta"><span class="badge">1968</span><span class="badge">Sports &amp; Protest</span><span class="badge">2026-04-19</span></div>
-  <article>
-    <p>When Tommie Smith and John Carlos raised gloved fists on the Olympic podium in 1968, they transformed a medal ceremony into a global act of protest. The image traveled around the world almost instantly.</p><p>The gesture was tied to broader struggles over race, dignity, and state violence. It interrupted the fantasy that sports could remain separate from politics.</p><p>The protest became iconic because it was visually simple and morally unmistakable. It made the Olympic stage answer to history.</p>
-    
-    <h3>Cost / Impact</h3><p>Both men paid heavily through backlash, isolation, and professional consequences after the protest.</p>
-    <div class="why"><h3>Why It Matters</h3><p>Sports are never just sports when the world around them is unequal. The salute remains one of the clearest examples of protest forcing itself into public memory.</p></div>
-  </article>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>April 19 &middot; Sports</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">April 19 &middot; Sports</div>
+    <h1>1968 Olympic Black Power Salute</h1>
+    <p class="entry-tagline">The 1968 Olympic podium protest is often remembered as a single frozen image: Tommie Smith and John Carlos, heads bowed, black-gloved fists raised. The photograph matters, but it can make the action look spontaneous or only symbolic. It was connected to months of organizing by the Olympic Project for Human Rights, to debates among Black athletes about boycotting the Games, and to a wider challenge against racism in sports and American public life. Smith and Carlos did not simply interrupt a medal ceremony. They used the most visible athletic stage in the world to insist that winning a medal did not cancel the conditions Black people faced at home.</p>
+    <div class="entry-badges">
+      <span class="badge">Events</span>
+      <span class="badge">1968</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Jun 1967</div><div class="tl-event">The Olympic Project for Human Rights begins organizing Black athletes around racism in sports and society.</div></div>
+<div class="tl-item"><div class="tl-date">1968</div><div class="tl-event">Athletes debate whether to boycott the Mexico City Olympics or protest from inside the Games.</div></div>
+<div class="tl-item"><div class="tl-date">Oct 16, 1968</div><div class="tl-event">Tommie Smith wins gold and John Carlos wins bronze in the 200 meters.</div></div>
+<div class="tl-item"><div class="tl-date">Oct 16, 1968</div><div class="tl-event">Smith and Carlos raise gloved fists during the U.S. national anthem on the medal podium.</div></div>
+<div class="tl-item"><div class="tl-date">Oct 1968</div><div class="tl-event">The International Olympic Committee pushes for their removal from the Olympic Village.</div></div>
+<div class="tl-item"><div class="tl-date">1968-1970s</div><div class="tl-event">Both athletes face backlash, threats, and career consequences after returning home.</div></div>
+<div class="tl-item"><div class="tl-date">2005</div><div class="tl-event">San Jose State University unveils a statue honoring Smith and Carlos.</div></div>
+<div class="tl-item"><div class="tl-date">2019</div><div class="tl-event">The U.S. Olympic and Paralympic Committee inducts Smith and Carlos into its Hall of Fame.</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>The medal stand in Mexico City did not become political in 1968. It already was. The Olympics claimed to rise above politics while taking place in a world shaped by colonial independence movements, the Vietnam War, apartheid, police violence, and struggles over citizenship. Black athletes knew the contradiction well. They were praised as representatives of the United States when they won, then returned to a country where housing, jobs, schools, policing, and everyday dignity were still governed by racism.</p>
+<p>The protest grew out of the Olympic Project for Human Rights, associated most closely with sociologist Harry Edwards and a network of Black athletes and allies. Their demands included restoring Muhammad Ali&#039;s heavyweight title, removing Avery Brundage as president of the International Olympic Committee, barring apartheid South Africa and Rhodesia from the Games, and confronting racial discrimination in sports and society. Some athletes considered a boycott. Others worried that staying home would erase years of training without forcing change. The final choice was not unanimous, which is important. Movements are often remembered as cleaner than they were.</p>
+<p>Tommie Smith and John Carlos arrived in Mexico City as elite sprinters, not as props in someone else&#039;s protest. On October 16, Smith won the 200 meters in world-record time. Carlos won bronze. Australian runner Peter Norman won silver. Before the medal ceremony, Smith and Carlos made choices about what the world would see: black socks without shoes to represent Black poverty, beads for those who had been lynched or killed, and gloves for Black unity and strength. Norman wore an Olympic Project for Human Rights badge in solidarity.</p>
+<p>During the anthem, Smith and Carlos bowed their heads and raised their fists. The gesture lasted only a short time, but the reaction was immediate. Many reporters and officials described the act as disrespectful, militant, or improper. The International Olympic Committee, led by Brundage, pressured the U.S. Olympic Committee to punish them. Smith and Carlos were ordered to leave the Olympic Village. The same Games that could tolerate national flags and anthems treated a protest against racism as a violation of neutrality.</p>
+<p>The backlash followed them home. They received threats. Their athletic careers suffered. Their families absorbed the pressure. They were celebrated by some Black communities and condemned by many institutions that preferred Black athletic achievement without Black political speech. Norman also paid a price in Australia, where his public support for Smith and Carlos complicated his own career and legacy.</p>
+<p>The protest also exposed a double standard inside Olympic politics. Brundage had defended the idea that the Games should remain free of political demonstrations, but critics pointed to the Olympics&#039; long comfort with national display, imperial symbolism, and selective enforcement. The issue was not whether politics entered the stadium. Politics had always been there. Smith and Carlos made the politics Black, visible, and impossible to manage politely.</p>
+<p>There was also a third man on that podium whose role helps clarify the protest. Peter Norman did not raise a fist, but he wore the Olympic Project for Human Rights badge. That choice mattered because it showed solidarity did not require pretending the risks were equal. Smith and Carlos carried the central punishment, but Norman chose not to hide from the meaning of the moment.</p>
+<p>The popular image sometimes hides the planning, risk, and disagreement behind the action. It was not only a fist in the air. It was a debate over boycott versus participation, a critique of Olympic leadership, a demand for dignity, and a challenge to the idea that Black athletes owed silent gratitude to a country that still denied Black people full safety and opportunity. The protest did not end racism in sports, but it changed the visual language of athletic dissent. Every later debate about kneeling, raised fists, warm-up shirts, armbands, and athlete speech lives in its shadow.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Smith and Carlos paid in public reputation, safety, and work. They were expelled from the Olympic Village and returned to threats, hostility, and fewer opportunities. Their families carried that backlash too. The cost was not only the loss of endorsements or races. It was the pressure of becoming a symbol before the country was ready to hear what the symbol meant.</p>
+<p>The impact outlived the punishment. The salute made sports media confront the fiction that athletic spaces are separate from politics. It gave later athletes a visual vocabulary for protest and forced Olympic institutions to reveal which kinds of politics they considered acceptable.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>The Black Power Salute matters because it shows that protest is often condemned before it is commemorated. Today the image appears on posters, murals, documentaries, and museum walls. In 1968, the men in the image were punished. That gap between immediate backlash and later celebration is one of the most important lessons of the page.</p>
+<p>The story also sharpens how we talk about athletes and obligation. Black athletes are often asked to represent a nation, team, school, or brand while keeping quiet about the conditions that shape their own lives. Smith and Carlos refused that split. They showed that excellence does not require silence.</p>
+<p>A reader should leave understanding that the raised fists were not a vague gesture of anger. They were tied to demands, organizing, international politics, and a long argument over whether public stages belong only to institutions or also to the people those institutions exploit.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../index.html?day=2026-04-19" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; April 19</div>
+        <div class="quiz-card-title">Open the daily challenge for 1968 Olympic Black Power Salute</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/black-arts-movement.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Arts Movement</div>
+        <div class="connected-desc">Shows how Black Power politics shaped cultural expression beyond athletics.</div>
+      </a>
+<a href="../generated/pages/john-lewis.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">John Lewis</div>
+        <div class="connected-desc">Connects public protest, bodily risk, and national memory.</div>
+      </a>
+<a href="../encyclopedia/jackie-robinson.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Jackie Robinson</div>
+        <div class="connected-desc">Another athlete whose public role was never only about sports.</div>
+      </a>
+<a href="../generated/pages/jesse-owens.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Jesse Owens</div>
+        <div class="connected-desc">Olympic victory under global racial politics, three decades earlier.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://nmaahc.si.edu/explore/stories/1968-black-power-salute" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">The 1968 Black Power Salute</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.si.edu/stories/olympic-history" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian Institution</div>
+          <div class="ext-title">Olympic history: Tommie Smith and John Carlos</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.smithsonianmag.com/smithsonian-institution/what-you-dont-know-about-olympian-tommie-smiths-silent-gesture-180960056/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian Magazine</div>
+          <div class="ext-title">What you do not know about Tommie Smith&#039;s silent gesture</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://usopm.org/hall-of-fame/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">U.S. Olympic and Paralympic Museum</div>
+          <div class="ext-title">Tommie Smith and John Carlos Hall of Fame recognition</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

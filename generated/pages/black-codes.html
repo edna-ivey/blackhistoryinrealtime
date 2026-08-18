@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Black Codes - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Slavery ended, and Southern lawmakers immediately began writing rules to trap Black freedom in a smaller cage.">
+<meta name="description" content="The Black Codes were not confusion after slavery. They were strategy. In 1865 and 1866, Southern lawmakers tried to define freedom so narrowly that Black people could be free in name while trapped by labor contracts, vagrancy laws, apprenticeship rules, movement restrictions, and court systems that denied equal rights. The laws showed how quickly slavery&#039;s defenders adapted to emancipation. They also provoked a federal response that helped produce the Civil Rights Act of 1866, the Reconstruction Acts, and the Fourteenth Amendment. The Black Codes matter because they reveal a pattern that returns across U.S. history: when Black freedom expands, law can be used either to protect it or to cage it again.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="black-codes">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,149 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Black Codes</h2>
-  <div class="meta">
-    <span class="badge">1865 - 1866</span>
-    <span class="badge">Justice</span>
-    <span class="badge">2026-07-08</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>July 8 &middot; Justice</span>
   </div>
-  <article>
-    <p>Slavery ended, and Southern lawmakers immediately began writing rules to trap Black freedom in a smaller cage.</p><p>Black Codes restricted movement, labor, voting, testimony, apprenticeship, and other parts of life for formerly enslaved people.</p><p>The codes helped provoke federal Reconstruction measures, including civil rights legislation and constitutional amendments, but their spirit lived on in later Jim Crow laws.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Black Codes matter because systems can change names without changing goals. Freedom needed law strong enough to answer law used against it.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">July 8 &middot; Justice</div>
+    <h1>Black Codes</h1>
+    <p class="entry-tagline">The Black Codes were not confusion after slavery. They were strategy. In 1865 and 1866, Southern lawmakers tried to define freedom so narrowly that Black people could be free in name while trapped by labor contracts, vagrancy laws, apprenticeship rules, movement restrictions, and court systems that denied equal rights. The laws showed how quickly slavery&#039;s defenders adapted to emancipation. They also provoked a federal response that helped produce the Civil Rights Act of 1866, the Reconstruction Acts, and the Fourteenth Amendment. The Black Codes matter because they reveal a pattern that returns across U.S. history: when Black freedom expands, law can be used either to protect it or to cage it again.</p>
+    <div class="entry-badges">
+      <span class="badge">Systems</span>
+      <span class="badge">1865 - 1866</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.archives.gov/research/african-americans/black-codes" target="_blank" rel="noopener noreferrer">https://www.archives.gov/research/african-americans/black-codes</a></li>
-<li><a href="https://www.britannica.com/event/black-code" target="_blank" rel="noopener noreferrer">https://www.britannica.com/event/black-code</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Jan 1, 1863</div><div class="tl-event">The Emancipation Proclamation declares freedom for enslaved people in rebelling areas.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 1865</div><div class="tl-event">The Civil War ends, leaving more than four million newly freed people to claim freedom in hostile states.</div></div>
+<div class="tl-item"><div class="tl-date">Dec 6, 1865</div><div class="tl-event">The Thirteenth Amendment is ratified, abolishing slavery except as punishment for crime.</div></div>
+<div class="tl-item"><div class="tl-date">1865</div><div class="tl-event">Mississippi and South Carolina pass some of the earliest and most notorious Black Codes.</div></div>
+<div class="tl-item"><div class="tl-date">1865-1866</div><div class="tl-event">Other former Confederate states pass laws restricting Black labor, mobility, testimony, property, and family authority.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 9, 1866</div><div class="tl-event">Congress overrides Andrew Johnson&#039;s veto of the Civil Rights Act of 1866.</div></div>
+<div class="tl-item"><div class="tl-date">1867</div><div class="tl-event">Reconstruction Acts place former Confederate states under military districts with conditions for readmission.</div></div>
+<div class="tl-item"><div class="tl-date">Jul 9, 1868</div><div class="tl-event">The Fourteenth Amendment is ratified, establishing birthright citizenship and equal protection.</div></div>
+<div class="tl-item"><div class="tl-date">Late 1800s</div><div class="tl-event">Jim Crow laws and convict leasing extend many Black Code goals under new legal forms.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-07-08">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>The Black Codes came after emancipation, but they carried slavery&#039;s logic forward. Former Confederates understood that the Thirteenth Amendment had ended legal ownership of human beings. They also understood that controlling Black labor, movement, family life, and legal standing could preserve much of the old order without using the old word.</p>
+<p>The immediate context was Reconstruction&#039;s opening uncertainty. Black people searched for family members, legalized marriages, built schools and churches, negotiated wages, moved to test freedom, and demanded the right to testify, own property, and protect their children. Former enslavers saw that mobility as disorder. Their answer was law. Black Codes tried to force freedpeople into annual labor contracts, punish unemployment as vagrancy, limit movement, restrict occupations, and bind Black children through apprenticeship laws that could return them to white control.</p>
+<p>Mississippi&#039;s 1865 laws became especially infamous. They required Black workers to show written evidence of employment, punished those who left contracts, and allowed children to be apprenticed in ways that resembled coercive labor. South Carolina&#039;s code restricted occupations and imposed special rules on Black workers. The details varied by state, but the purpose was recognizable: make freedom dependent, supervised, and cheap.</p>
+<p>These laws also attacked legal personhood. In some states Black people could not testify equally against white people, serve on juries, or move through public life with the same rights as citizens. That mattered because rights without enforcement are fragile. If a person cannot testify, cannot leave an abusive labor arrangement, cannot claim wages, and cannot protect family members from coercive apprenticeship, freedom becomes a word without shelter.</p>
+<p>Black people resisted. They held conventions, petitioned, left plantations, negotiated contracts, created mutual aid, and used the Freedmen&#039;s Bureau where they could. The Bureau was imperfect and often underpowered, but its records show freedpeople insisting that marriage, wages, children, education, and bodily safety were not favors. They were claims of freedom.</p>
+<p>The codes also exposed the danger in President Andrew Johnson&#039;s version of Reconstruction. Johnson quickly restored political authority to many former Confederates and expected Southern states to manage the transition themselves. Former Confederates used that opening to send old elites back into power and write freedom into a corner. Black testimony from the period, congressional investigations, and Freedmen&#039;s Bureau records made clear that local law could not be trusted to protect people local power wanted to control.</p>
+<p>The Black Codes also changed national politics. Many Northerners who had hoped for quick reconciliation saw that Presidential Reconstruction under Andrew Johnson was allowing former Confederates to rebuild racial control. Congress responded with the Civil Rights Act of 1866, which declared people born in the United States citizens and promised equal benefit of the law. When Johnson vetoed it, Congress overrode him. That conflict helped push the country toward the Fourteenth Amendment and Congressional Reconstruction.</p>
+<p>That federal turn did not come from benevolence alone. It came because Black freedom made claims the old order could not absorb, and because Southern repression made the contradiction visible. The codes forced the nation to answer whether emancipation meant citizenship or merely the absence of an auction block.</p>
+<p>The codes did not survive unchanged, but their goals did. Vagrancy laws, convict leasing, sharecropping contracts, debt peonage, Jim Crow segregation, and discriminatory policing all drew from the same impulse: convert Black freedom into controlled labor and second-class citizenship. The line from Black Codes to Jim Crow is not perfectly straight, but it is historically real.</p>
+<p>The Black Codes teach that emancipation was not a single legal event. It was a struggle over the meaning of freedom. The end of slavery opened a door. Southern lawmakers immediately tried to narrow the doorway until Black people could pass through only on terms set by those who had enslaved them.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>some other name</blockquote>
+    <cite>Frederick Douglass, describing laws that tried to replace slavery after emancipation</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost of the Black Codes fell on newly freed people trying to build lives after slavery. Families faced apprenticeship laws that threatened children. Workers faced coerced contracts and criminal punishment for leaving exploitative labor. Communities faced courts that could deny equal testimony and protection.</p>
+<p>The impact was national. The codes helped convince Congress that freedom needed federal citizenship and enforcement. They shaped the path toward the Civil Rights Act of 1866, the Reconstruction Acts, and the Fourteenth Amendment. They also left a template for later systems that used criminal law and labor control to restrict Black life.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>The Black Codes matter today because they show that backlash can be written in legal language. A law can sound administrative while reorganizing power. That is why the details matter: contracts, fines, movement, testimony, apprenticeship, and policing were all tools for deciding what freedom would actually mean.</p>
+<p>They also sharpen how we read Reconstruction. The era was not a failed gift handed down from Washington. It was a struggle in which Black people claimed citizenship and former Confederates tried to rebuild domination. Federal action came partly because Black resistance and Southern repression made the stakes visible.</p>
+<p>A reader should leave understanding that freedom requires more than the end of one institution. It requires legal power strong enough to stop that institution from returning under another name.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-07-08" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; July 8</div>
+        <div class="quiz-card-title">Open the daily challenge for Black Codes</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/13th-amendment.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The 13th Amendment</div>
+        <div class="connected-desc">The constitutional end of slavery, with an exception that mattered deeply.</div>
+      </a>
+<a href="../../generated/pages/14th-amendment.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The 14th Amendment</div>
+        <div class="connected-desc">A federal answer to Black Codes and citizenship denial.</div>
+      </a>
+<a href="../../generated/pages/reconstruction.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Reconstruction</div>
+        <div class="connected-desc">The larger fight over freedom after the Civil War.</div>
+      </a>
+<a href="../../generated/pages/convict-leasing.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Convict Leasing System</div>
+        <div class="connected-desc">A later labor-control system rooted in criminalization.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://constitutioncenter.org/education/videos/14th-amendment-discussion-starter-the-black-codes" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Constitution Center</div>
+          <div class="ext-title">The Black Codes and the Fourteenth Amendment</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Reconstruction and Rights</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.archives.gov/exhibits/civil-war/preview/endings-and-beginnings/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">Endings and Beginnings: Black Codes</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian Institution</div>
+          <div class="ext-title">Make Good the Promises: Reconstruction and Its Legacies</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

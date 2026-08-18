@@ -3,79 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Harlem Renaissance — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Between roughly 1920 and 1935, Harlem became the capital of Black America — a neighborhood in upper Manhattan where the Great Migration, the New Negro">
+<title>The Harlem Renaissance - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="The Harlem Renaissance was not a sudden flowering from nowhere. It grew from migration, Black newspapers, publishing networks, cabarets, churches, salons, colleges, political debate, and a neighborhood where Black artists found one another at scale. Harlem became a symbol, but the movement reached beyond Harlem into Washington, Chicago, Philadelphia, Paris, and the rural South that many artists carried in memory. This page matters because the Renaissance was both breakthrough and constraint. Black artists gained visibility, but white patrons, publishers, club owners, and critics still shaped access. The deeper story is not simply genius finally noticed. It is Black artists arguing over audience, folk culture, respectability, modernism, money, sexuality, and the right to make art from the fullness of Black life.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--purple),var(--red));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;transition:all 0.2s;}
-.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
-.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
-.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
-.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
-.external-section{}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="harlem-renaissance">
@@ -100,92 +79,138 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="breadcrumb">
     <a href="../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>February 24 · Arts & Identity</span>
+    <span> &middot; Culture</span>
   </div>
   <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
   <div class="entry-hero">
-    <div class="entry-vol-label">February 24 · Arts & Identity</div>
+    <div class="entry-vol-label"> &middot; Culture</div>
     <h1>The Harlem Renaissance</h1>
-    <p class="entry-tagline">Between roughly 1920 and 1935, Harlem became the capital of Black America — a neighborhood in upper Manhattan where the Great Migration, the New Negro Movement, and the concentrated energy of Black artists, musicians, writers, and thinkers produced one of the most influential cultural explosions in American history.</p>
+    <p class="entry-tagline">The Harlem Renaissance was not a sudden flowering from nowhere. It grew from migration, Black newspapers, publishing networks, cabarets, churches, salons, colleges, political debate, and a neighborhood where Black artists found one another at scale. Harlem became a symbol, but the movement reached beyond Harlem into Washington, Chicago, Philadelphia, Paris, and the rural South that many artists carried in memory. This page matters because the Renaissance was both breakthrough and constraint. Black artists gained visibility, but white patrons, publishers, club owners, and critics still shaped access. The deeper story is not simply genius finally noticed. It is Black artists arguing over audience, folk culture, respectability, modernism, money, sexuality, and the right to make art from the fullness of Black life.</p>
     <div class="entry-badges">
-      <span class="badge">Events</span>
-      <span class="badge">Circa 1920 — 1935</span>
+      <span class="badge">Movement</span>
+      <span class="badge">1918 - mid-1930s</span>
     </div>
     <div class="hero-bar"></div>
   </div>
+
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
-    <div class="timeline-items"><div class="tl-item"><div class="tl-date">1910–1920</div><div class="tl-event">Great Migration brings hundreds of thousands of Black Americans to Northern cities, transforming Harlem's demographics</div></div>
-<div class="tl-item"><div class="tl-date">1919</div><div class="tl-event">Claude McKay publishes 'If We Must Die' — a defiant response to the Red Summer violence</div></div>
-<div class="tl-item"><div class="tl-date">1923</div><div class="tl-event">Marcus Garvey's UNIA reaches peak membership; 'Opportunity' magazine launched by National Urban League</div></div>
-<div class="tl-item"><div class="tl-date">1925</div><div class="tl-event">Alain Locke edits 'The New Negro' anthology — the defining text of the movement</div></div>
-<div class="tl-item"><div class="tl-date">1926</div><div class="tl-event">Langston Hughes publishes 'The Weary Blues'; FIRE!! literary magazine launched</div></div>
-<div class="tl-item"><div class="tl-date">Mid-1930s</div><div class="tl-event">Great Depression ends the Renaissance's peak years; many artists disperse but the influence spreads globally</div></div>
-</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1910s</div><div class="tl-event">The Great Migration helps transform Harlem into a major Black urban center.</div></div>
+<div class="tl-item"><div class="tl-date">1919</div><div class="tl-event">Claude McKay writes If We Must Die during Red Summer.</div></div>
+<div class="tl-item"><div class="tl-date">1921</div><div class="tl-event">Shuffle Along opens on Broadway and helps energize Black musical theater.</div></div>
+<div class="tl-item"><div class="tl-date">1925</div><div class="tl-event">The New Negro anthology, edited by Alain Locke, gives the movement a defining text.</div></div>
+<div class="tl-item"><div class="tl-date">1926</div><div class="tl-event">Langston Hughes publishes The Negro Artist and the Racial Mountain.</div></div>
+<div class="tl-item"><div class="tl-date">1920s</div><div class="tl-event">Artists including Aaron Douglas, Augusta Savage, Zora Neale Hurston, Duke Ellington, and Bessie Smith shape the movement.</div></div>
+<div class="tl-item"><div class="tl-date">1929</div><div class="tl-event">The stock market crash begins the Great Depression, weakening patronage and publishing opportunities.</div></div>
+<div class="tl-item"><div class="tl-date">1935</div><div class="tl-event">The Harlem riot signals deep economic strain in the neighborhood.</div></div>
+<div class="tl-item"><div class="tl-date">1937</div><div class="tl-event">Zora Neale Hurston publishes Their Eyes Were Watching God.</div></div>
+<div class="tl-item"><div class="tl-date">1970s-present</div><div class="tl-event">Renewed scholarship restores many Harlem Renaissance figures, especially Black women, to wider attention.</div></div>
+    </div>
   </div>
+
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>The Harlem Renaissance was not an accident. It was the result of the Great Migration depositing hundreds of thousands of Black Americans — many of them educated, ambitious, and deeply tired of the South's racial terrorism — into a neighborhood in upper Manhattan that had, through a quirk of overbuilt real estate speculation, become available to Black buyers and renters in the 1910s. By 1930, Harlem was approximately 70 percent Black, up from about 10 percent in 1910. What happened there was what always happens when concentrated, talented people find each other: they made things. What was different about Harlem in the 1920s was the scale, the quality, the self-consciousness, and the global reach of what they made.</p>
-<p>The Harlem Renaissance produced an extraordinary cohort of Black writers whose work redefined what American literature could do and say. Langston Hughes used jazz rhythms and vernacular speech to write poems about Black working-class life that the literary establishment had never seen. Zora Neale Hurston combined anthropological fieldwork with literary genius to document Black folk culture of the South in novels like Their Eyes Were Watching God (1937), which was so honest about Black women's inner lives and desire for self-determination that it made the male-dominated Harlem literary scene uncomfortable. Claude McKay wrote poems of fierce defiance — 'If We Must Die' was written in response to the Red Summer of 1919, when anti-Black riots killed hundreds of people across the country. Countee Cullen wrote formal, classically structured poems that engaged race with the same tools European poetry had used for centuries. These writers were not doing the same thing. They were doing different things with the same urgency.</p>
-<p>The Harlem Renaissance was also a music revolution. Jazz had come north with the migration, and in Harlem's clubs and ballrooms — the Cotton Club, the Savoy, Small's Paradise — musicians including Duke Ellington, Louis Armstrong, Cab Calloway, Fats Waller, and Bessie Smith performed for audiences that included both Black Harlemites and white New Yorkers who came uptown in what journalists called 'slumming.' The racial dynamics of this were complicated: the Cotton Club, which featured the greatest Black musicians in America, did not admit Black patrons. The Savoy was integrated. Jazz was traveling — to white ballrooms, to Europe, to radio — and carrying something with it that was unmistakably Black, even when the credit for it was redirected.</p>
-<p>The visual arts of the Harlem Renaissance were equally significant. Aaron Douglas developed a distinctive visual style that combined West African design traditions with modernist aesthetics to create images of Black history, migration, and aspiration that became iconic. Augusta Savage was a sculptor whose work depicted Black figures with a dignity and complexity that mainstream American art had almost never attempted. James Van Der Zee became the definitive photographer of Harlem, documenting the community's social life, its fashions, its funerals, its families — creating a visual archive of Black urban life in the 1920s and 1930s that has no equivalent. These artists were producing work that argued, through its very existence, that Black life was worth depicting seriously.</p>
-<p>The Renaissance ended — or rather transformed — when the Great Depression hit. Harlem was hit hard by job losses, and many artists left, moved on, or turned to other work. But the movement's influence did not end. Langston Hughes continued writing for decades. Zora Neale Hurston's work was rediscovered in the 1970s, when Alice Walker found her unmarked grave and wrote about it, sparking a reconsideration of a writer who had been largely forgotten. The intellectual framework of the Harlem Renaissance — the insistence that Black artists should depict Black life honestly, on their own terms, without performing respectability for white audiences — runs directly through the Black Arts Movement of the 1960s, through hip-hop, through contemporary Black literature and film. The question Langston Hughes asked in 1926 in his essay 'The Negro Artist and the Racial Mountain' — whether a Black artist should try to be 'white' in their work, or create from the fullness of their own experience — has never stopped being asked.</p>
-
+<p>The Harlem Renaissance grew from movement. Black Southerners came north carrying skills, stories, church traditions, blues feeling, political anger, and ambitions that Jim Crow had tried to contain. Harlem&#039;s housing market, shaped by speculation and racial transition, became one place where Black New Yorkers built density. Density mattered. Artists, editors, musicians, teachers, and organizers could find each other.</p>
+<p>The movement was literary, musical, visual, theatrical, political, and social. Writers such as Langston Hughes, Zora Neale Hurston, Claude McKay, Countee Cullen, Jessie Fauset, Nella Larsen, and Jean Toomer did not write the same way. Some used vernacular speech and blues rhythm. Some used formal poetry. Some explored passing, sexuality, migration, colorism, class, and the interior lives of Black women. The variety is the point.</p>
+<p>Alain Locke&#039;s The New Negro helped frame the movement as a new stage in Black self-representation. But the phrase New Negro did not belong to one editor alone. It named a wider demand that Black people be seen as modern, self-aware, politically assertive, and artistically serious. That demand was shaped by veterans, migrants, students, workers, clubgoers, and readers as much as by elite intellectuals.</p>
+<p>Music made Harlem famous to many outsiders. Duke Ellington, Fletcher Henderson, Bessie Smith, Ethel Waters, Fats Waller, and many others shaped the sound of the era. The Cotton Club showcased extraordinary Black performers while often excluding Black patrons. The Savoy Ballroom was more open and became a legendary dance space. Harlem nightlife created opportunity and exploitation at the same time.</p>
+<p>Visual artists built a modern Black image world. Aaron Douglas used silhouette, African diasporic design, and modernist composition to depict migration, labor, and history. Augusta Savage fought racism and sexism in sculpture and arts education. James Van Der Zee photographed Harlem&#039;s families, clubs, funerals, weddings, and public life, leaving a visual archive of Black urban aspiration and style.</p>
+<p>The Renaissance also depended on editors and organizers who made other people&#039;s work possible. Jessie Fauset at The Crisis and Charles S. Johnson at Opportunity published, encouraged, and connected writers. Literary prizes, dinners, magazines, and salons helped create a scene. Movements need stages, but they also need people arranging the chairs, printing the programs, and persuading readers to pay attention.</p>
+<p>Patronage shaped the movement. White publishers, philanthropists, collectors, club owners, and critics could open doors, but they also imposed expectations. Some wanted exoticized primitivism. Some wanted respectable uplift. Black artists argued with those demands and with each other. The question was not only whether Black art would be seen, but what kind of Black life would be allowed to count as art.</p>
+<p>Women were central and often undervalued. Jessie Fauset edited, mentored, and published major writers. Zora Neale Hurston documented folklore and wrote fiction that later generations recognized as foundational. Nella Larsen explored passing, desire, and social constraint. Augusta Savage trained artists while fighting institutional exclusion. Their work makes the Renaissance less male, less tidy, and more interesting.</p>
+<p>The Great Depression weakened the movement&#039;s institutions, but it did not erase its influence. Some artists left Harlem. Some changed forms. Some fell out of print. Later Black feminist scholarship, museum work, and community memory restored figures who had been neglected. The Renaissance continues through Black Studies, the Black Arts Movement, jazz history, literature, visual art, and debates over audience and authenticity.</p>
+<p>The Harlem Renaissance matters because it gave Black modernity a public stage, then revealed the cost of that stage. Artists built beauty inside constraint. They made work that refused both racist caricature and narrow uplift. Their arguments about who Black art is for have never really ended.</p>
   </div>
-  <div class="pull-quote">
-<div class="pq-bar"></div>
-<blockquote>We younger Negro artists who create now intend to express our individual dark-skinned selves without fear or shame. If white people are pleased we are glad. If they are not, it doesn't matter. We know we are beautiful.</blockquote>
-<cite>Langston Hughes, 'The Negro Artist and the Racial Mountain,' 1926</cite>
-</div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost included poverty, patron control, racist publishing markets, segregated performance venues, gender exclusion, and the pressure to represent a whole race. Many artists who shaped the movement struggled financially or were forgotten for decades.</p>
+<p>The impact was a transformed Black cultural canon. The Renaissance changed American literature, music, visual art, theater, criticism, and the idea that Black artists could speak from Black life without apology. Its influence runs through later movements, including Black Arts, Black feminism, jazz studies, and contemporary literature.</p>
+  </div>
+
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>The Harlem Renaissance matters because it was the first time in American history that Black creative work achieved broad mainstream recognition and influence — and because understanding how that happened reveals both the possibilities of concentrated Black talent and the limits imposed on it. The Cotton Club featured the greatest musicians in America and did not let Black people through the door as customers. White publishers and patrons had enormous power over which Black voices were amplified. The genius was real and the constraints were real simultaneously. The movement's legacy — the argument that Black artists should create from authentic Black experience rather than performing for white approval — is as alive as it has ever been. Every debate about Black representation in film, literature, and music engages, whether consciously or not, with the questions the Harlem Renaissance raised.</p>
+<p>The Harlem Renaissance matters today because every debate about Black representation still touches its central question: should Black artists create for white approval, racial uplift, market demand, community truth, or artistic freedom? The answer has never been singular.</p>
+<p>It also matters because visibility is not the same as control. Harlem artists became visible, but publishers, patrons, club owners, and critics still shaped the terms. That tension remains in modern culture industries.</p>
+<p>The fuller story makes the Renaissance richer than a list of famous names. It was a network, a marketplace, a neighborhood, an argument, and a rehearsal for later Black cultural power.</p>
   </div>
+
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;"></div>
+
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/langston-hughes.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Langston Hughes</div>
+        <div class="connected-desc">Shows the Renaissance through poetry, vernacular, jazz, and audience debate.</div>
+      </a>
+<a href="../encyclopedia/zora-neale-hurston.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Zora Neale Hurston</div>
+        <div class="connected-desc">Connects folklore, fiction, Black women&#039;s interior life, and later recovery.</div>
+      </a>
+<a href="../generated/pages/augusta-savage.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Augusta Savage</div>
+        <div class="connected-desc">Places visual art, teaching, and gender barriers inside the movement.</div>
+      </a>
+<a href="../generated/pages/black-arts-movement.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Black Arts Movement</div>
+        <div class="connected-desc">Shows a later movement that inherited and challenged Harlem Renaissance questions.</div>
+      </a>
+    </div>
   </div>
+
   <div class="section-divider"><span>Learn More</span></div>
   <div class="external-section">
     <div class="section-title">External Links</div>
-    <div class="external-links"><a href="https://www.history.com/articles/harlem-renaissance" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">Harlem Renaissance — Definition, Artists, and How It Started</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.history.com/articles/harlem-renaissance-writers" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">7 Writers of the Harlem Renaissance — Hughes, Hurston, McKay, and More</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.smithsonianmag.com/arts-culture/zora-neale-hurston-out-of-obscurity-71489250/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">Zora Neale Hurston — Out of Obscurity, Back to Recognition</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-</div>
+    <div class="external-links">
+<a href="https://www.loc.gov/classroom-materials/harlem-renaissance/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Harlem Renaissance</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nga.gov/learn/teachers/lessons-activities/african-american-art/harlem-renaissance.html" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Gallery of Art</div>
+          <div class="ext-title">Harlem Renaissance</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.poetryfoundation.org/collections/145704/an-introduction-to-the-harlem-renaissance" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Poetry Foundation</div>
+          <div class="ext-title">An Introduction to the Harlem Renaissance</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/explore/stories/harlem-renaissance" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Harlem Renaissance</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.metmuseum.org/exhibitions/the-harlem-renaissance-and-transatlantic-modernism" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">The Metropolitan Museum of Art</div>
+          <div class="ext-title">The Harlem Renaissance and Transatlantic Modernism</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
   </div>
 </main>
 <footer>
-  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

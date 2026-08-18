@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Black Church - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="For many Black communities, the church was not only where people prayed. It was where they planned.">
+<meta name="description" content="The Black church has never been only Sunday morning. Across generations, Black congregations have held worship, education, burial societies, political meetings, music, mutual aid, childcare, fundraising, debate, grief, and strategy. That does not mean every Black person is Christian or every Black church has been liberating in the same way. The institution is powerful because it is human: full of faith, hierarchy, care, conflict, gendered labor, prophetic courage, respectability politics, and community survival. This page matters because Black freedom work needed places where people could gather without asking white institutions for permission. The Black church often became that room, not perfect, but strong enough to hold a people under pressure.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="black-church">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,153 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>The Black Church</h2>
-  <div class="meta">
-    <span class="badge">18th century - Present</span>
-    <span class="badge">Faith</span>
-    <span class="badge">2026-05-24</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>May 24 &middot; Faith</span>
   </div>
-  <article>
-    <p>For many Black communities, the church was not only where people prayed. It was where they planned.</p><p>Black churches became spaces for worship, education, mutual aid, music, political organizing, and protection. During slavery and after emancipation, independent Black congregations helped build community power.</p><p>Civil rights meetings, voter registration drives, mass gatherings, and local organizing often moved through church networks. The building was sacred, but it was also strategic.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>The Black church matters because freedom work needs institutions that can hold grief, joy, money, childcare, strategy, and song in the same room.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 24 &middot; Faith</div>
+    <h1>The Black Church</h1>
+    <p class="entry-tagline">The Black church has never been only Sunday morning. Across generations, Black congregations have held worship, education, burial societies, political meetings, music, mutual aid, childcare, fundraising, debate, grief, and strategy. That does not mean every Black person is Christian or every Black church has been liberating in the same way. The institution is powerful because it is human: full of faith, hierarchy, care, conflict, gendered labor, prophetic courage, respectability politics, and community survival. This page matters because Black freedom work needed places where people could gather without asking white institutions for permission. The Black church often became that room, not perfect, but strong enough to hold a people under pressure.</p>
+    <div class="entry-badges">
+      <span class="badge">Institution</span>
+      <span class="badge">18th century - present</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://nmaahc.si.edu/explore/initiatives/black-church" target="_blank" rel="noopener noreferrer">https://nmaahc.si.edu/explore/initiatives/black-church</a></li>
-<li><a href="https://www.pbs.org/black-church/" target="_blank" rel="noopener noreferrer">https://www.pbs.org/black-church/</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1770s-1780s</div><div class="tl-event">Free and enslaved Black Christians organize independent religious communities in the Revolutionary era.</div></div>
+<div class="tl-item"><div class="tl-date">1787</div><div class="tl-event">Richard Allen and others leave St. George&#039;s Methodist Episcopal Church after racial discrimination in Philadelphia.</div></div>
+<div class="tl-item"><div class="tl-date">1794</div><div class="tl-event">Bethel African Methodist Episcopal Church is dedicated in Philadelphia.</div></div>
+<div class="tl-item"><div class="tl-date">1816</div><div class="tl-event">The African Methodist Episcopal Church is formally organized.</div></div>
+<div class="tl-item"><div class="tl-date">1865 onward</div><div class="tl-event">After emancipation, Black churches expand as centers of worship, education, politics, and mutual aid.</div></div>
+<div class="tl-item"><div class="tl-date">Late 1800s</div><div class="tl-event">Black Baptist, AME, AME Zion, and other denominations grow nationally.</div></div>
+<div class="tl-item"><div class="tl-date">1950s-1960s</div><div class="tl-event">Church networks support mass meetings, boycotts, voter registration, and civil rights organizing.</div></div>
+<div class="tl-item"><div class="tl-date">1963</div><div class="tl-event">The 16th Street Baptist Church bombing shows both the church&#039;s centrality and the danger it faced.</div></div>
+<div class="tl-item"><div class="tl-date">2015</div><div class="tl-event">A white supremacist murders nine worshipers at Mother Emanuel AME Church in Charleston.</div></div>
+<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Black churches continue as varied institutions of worship, politics, culture, service, and debate.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-05-24">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>The Black church began under conditions where Black worship was often monitored because enslavers feared what faith could do. Christianity was used to justify slavery, but Black people also used biblical stories of Exodus, suffering, justice, and deliverance to imagine freedom. In hush harbors, prayer meetings, and independent congregations, religion became more than doctrine. It became language for survival and resistance.</p>
+<p>Independent Black churches grew because white churches often practiced segregation inside worship. Richard Allen, Absalom Jones, and other Black worshipers in Philadelphia experienced racial discrimination at St. George&#039;s Methodist Episcopal Church. Their break helped lead to independent Black religious institutions, including Bethel AME and eventually the African Methodist Episcopal Church. The issue was not only seating. It was authority: who could preach, govern, collect money, educate children, and define dignity.</p>
+<p>After emancipation, Black churches expanded rapidly. They were among the first institutions freed people built and controlled. Churches hosted schools, aid societies, political meetings, burial networks, and community celebrations. Ministers could become political leaders because they had literacy, public speaking skills, institutional trust, and regular access to congregations.</p>
+<p>The Black church was never one thing. Baptist, Methodist, Pentecostal, Holiness, Catholic, and other traditions created different practices and politics. Rural and urban churches functioned differently. Some congregations supported radical protest. Others leaned toward respectability or caution. Some churches gave women enormous labor responsibilities while denying them formal authority. Some embraced queer members quietly while condemning queer life publicly. The institution&#039;s power includes its contradictions.</p>
+<p>Music is one of the church&#039;s great historical forces. Spirituals, gospel, call-and-response, lining out hymns, choirs, preaching cadence, handclaps, and organ lines shaped Black sound far beyond church walls. Blues, soul, R&amp;B, and civil rights music all carried church influence, sometimes lovingly and sometimes through tension. The church taught many artists how to move a room.</p>
+<p>During the modern civil rights movement, Black churches often provided infrastructure. The Montgomery Bus Boycott relied on church meetings, ministers, carpools, offerings, and local networks. Southern Christian Leadership Conference organizing moved through church relationships. Mass meetings turned fear into collective discipline. Songs turned strategy into courage people could carry home.</p>
+<p>That centrality also made churches targets. Bombings, arson, surveillance, and intimidation attacked Black churches because white supremacists understood their organizing power. The 1963 bombing of 16th Street Baptist Church in Birmingham killed four girls and exposed the deadly cost of Black institutional life under segregation. The 2015 massacre at Mother Emanuel in Charleston showed that sacred space could still be targeted by racial terror.</p>
+<p>The church also shaped education and public leadership. Sunday schools, colleges, missionary societies, women&#039;s auxiliaries, and youth programs trained generations in reading, fundraising, public speech, administration, and care work. Much of that labor was done by women whose names did not always appear at the pulpit.</p>
+<p>The church&#039;s political role has never meant that Black politics belonged only to ministers. Lay leaders, choir directors, ushers, deaconesses, Sunday school teachers, youth workers, cooks, drivers, and treasurers often made the institution run. During campaigns, those roles could become movement labor: feeding people after mass meetings, hiding organizers, raising bail money, or making sure elders had rides to registration offices.</p>
+<p>The institution also changed with migration. As Black Southerners moved north and west, churches helped newcomers find housing, work, social life, and familiar worship styles in unfamiliar cities. Storefront churches, large Baptist congregations, Holiness and Pentecostal communities, and denominational networks all helped migrants turn new neighborhoods into places of belonging.</p>
+<p>To tell the Black church honestly is to avoid both nostalgia and dismissal. It has been a refuge and a battlefield, a site of liberation and control, a home for prophetic politics and conservative respectability. Its history matters because it shows how a community builds institutions strong enough to hold sorrow, joy, money, music, argument, and movement strategy under one roof.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost has included surveillance, bombing, arson, political backlash, and the exhaustion of expecting one institution to meet every community need. Black women especially carried unpaid or underpaid labor through choirs, kitchens, auxiliaries, teaching, fundraising, and care work while often being denied equal authority.</p>
+<p>The impact is vast: schools, colleges, civil rights campaigns, gospel music, mutual aid, burial societies, political leadership, and community identity all moved through Black church life. The church helped make freedom work durable because it met regularly, knew its people, and could turn belief into organized action.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>The Black church matters today because institutions still matter. Movements need more than viral moments. They need rooms, money, food, transportation, elders, youth, music, discipline, disagreement, and care. Black churches have often provided that infrastructure.</p>
+<p>It also matters because the institution&#039;s contradictions are part of the lesson. Liberation work can live beside hierarchy. Care can live beside exclusion. A serious history does not make the church perfect or irrelevant. It asks what communities build when other institutions fail them, and what those community institutions must still repair.</p>
+<p>The fuller story helps readers understand why attacks on Black churches have always been attacks on more than worship. They are attacks on memory, organizing, leadership, and the right to gather safely.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-05-24" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; May 24</div>
+        <div class="quiz-card-title">Open the daily challenge for The Black Church</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../generated/pages/sam-cooke.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Sam Cooke</div>
+        <div class="connected-desc">Shows how Black church sound moved into soul, pop, and civil rights music.</div>
+      </a>
+<a href="../../encyclopedia/mlk-final-days.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">King&#039;s Final Days</div>
+        <div class="connected-desc">Connects church leadership to labor, poverty, and civil rights organizing.</div>
+      </a>
+<a href="../../encyclopedia/black-press.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">The Black Press</div>
+        <div class="connected-desc">Another institution that helped Black communities communicate and organize.</div>
+      </a>
+<a href="../../encyclopedia/fannie-lou-hamer.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Fannie Lou Hamer</div>
+        <div class="connected-desc">Shows faith, song, and political courage in voting-rights work.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.pbs.org/weta/black-church/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">PBS</div>
+          <div class="ext-title">The Black Church</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/explore/stories/black-church" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">The Black Church</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://guides.loc.gov/religion-collections-libraries-archives/dc-smithsonian-national-museum-african-american-hist-culture" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">African American Religion Collections</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.nps.gov/articles/000/inde-preamble-and-articles-of-association-for-the-free-african-society.htm" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Park Service</div>
+          <div class="ext-title">Free African Society Articles of Association</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.pewresearch.org/religion/2021/02/16/faith-among-black-americans/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Pew Research Center</div>
+          <div class="ext-title">Faith Among Black Americans</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

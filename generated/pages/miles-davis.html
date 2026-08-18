@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Miles Davis - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Miles Davis did not protect one sound. He kept walking away from success to find the next one.">
+<meta name="description" content="Miles Davis kept changing the room and then leaving before everyone else got comfortable. He was a trumpeter, bandleader, composer, arranger of space, and one of the most influential musicians of the twentieth century. Bebop, cool jazz, hard bop, modal jazz, orchestral collaborations, electric fusion, funk, and studio experimentation all pass through his career. But Davis was not only a sequence of innovations. He was a demanding collaborator whose bands became schools for other giants, a Black celebrity navigating racism and policing, a musician whose beauty could sit beside cruelty, and a public figure whose life included addiction, violence, illness, and reinvention. His page matters because genius here is not a clean statue. It is sound, discipline, risk, harm, style, and the courage to make the next note unfamiliar.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="miles-davis">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,150 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Miles Davis</h2>
-  <div class="meta">
-    <span class="badge">1926 - 1991</span>
-    <span class="badge">Music</span>
-    <span class="badge">2026-05-26</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>May 26 &middot; Music</span>
   </div>
-  <article>
-    <p>Miles Davis did not protect one sound. He kept walking away from success to find the next one.</p><p>Born May 26, 1926, Davis became one of the most influential musicians in jazz history. His work shaped cool jazz, hard bop, modal jazz, and jazz fusion.</p><p>Kind of Blue became a landmark recording, but Davis refused to stay there. His career is a map of invention, risk, collaboration, and restlessness.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Davis matters because innovation is not always a single breakthrough. Sometimes it is the courage to leave behind the thing everyone already loves.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 26 &middot; Music</div>
+    <h1>Miles Davis</h1>
+    <p class="entry-tagline">Miles Davis kept changing the room and then leaving before everyone else got comfortable. He was a trumpeter, bandleader, composer, arranger of space, and one of the most influential musicians of the twentieth century. Bebop, cool jazz, hard bop, modal jazz, orchestral collaborations, electric fusion, funk, and studio experimentation all pass through his career. But Davis was not only a sequence of innovations. He was a demanding collaborator whose bands became schools for other giants, a Black celebrity navigating racism and policing, a musician whose beauty could sit beside cruelty, and a public figure whose life included addiction, violence, illness, and reinvention. His page matters because genius here is not a clean statue. It is sound, discipline, risk, harm, style, and the courage to make the next note unfamiliar.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1926 - 1991</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.loc.gov/item/ihas.200152693/" target="_blank" rel="noopener noreferrer">https://www.loc.gov/item/ihas.200152693/</a></li>
-<li><a href="https://www.arts.gov/honors/jazz/miles-davis" target="_blank" rel="noopener noreferrer">https://www.arts.gov/honors/jazz/miles-davis</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">May 26, 1926</div><div class="tl-event">Born Miles Dewey Davis III in Alton, Illinois, and raised in East St. Louis.</div></div>
+<div class="tl-item"><div class="tl-date">1944</div><div class="tl-event">Moves to New York and studies briefly at Juilliard while entering the bebop world around Charlie Parker and Dizzy Gillespie.</div></div>
+<div class="tl-item"><div class="tl-date">1949-1950</div><div class="tl-event">Records sessions later collected as Birth of the Cool.</div></div>
+<div class="tl-item"><div class="tl-date">1955</div><div class="tl-event">Newport Jazz Festival performance helps relaunch his career after heroin addiction.</div></div>
+<div class="tl-item"><div class="tl-date">1957</div><div class="tl-event">Records the score for Louis Malle&#039;s Elevator to the Gallows in Paris.</div></div>
+<div class="tl-item"><div class="tl-date">1959</div><div class="tl-event">Records Kind of Blue with a landmark sextet.</div></div>
+<div class="tl-item"><div class="tl-date">1964-1968</div><div class="tl-event">Leads the second great quintet with Wayne Shorter, Herbie Hancock, Ron Carter, and Tony Williams.</div></div>
+<div class="tl-item"><div class="tl-date">1969</div><div class="tl-event">Records In a Silent Way and Bitches Brew, central albums in electric jazz fusion.</div></div>
+<div class="tl-item"><div class="tl-date">1975-1980</div><div class="tl-event">Withdraws from public performance during a period of illness and addiction.</div></div>
+<div class="tl-item"><div class="tl-date">Sept 28, 1991</div><div class="tl-event">Dies in Santa Monica, California.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-05-26">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Miles Davis was born in 1926 in Alton, Illinois, and raised in East St. Louis in a family with more resources than many Black families of the era. His father was a dentist, his mother was a musician, and Davis had access to lessons and instruments. That background did not shield him from racism, but it did give him room to begin early and seriously. He received a trumpet as a teenager and learned a sound that would later be recognized not by how high he could play, but by how much he could say with restraint.</p>
+<p>In 1944, Davis moved to New York, officially to study at Juilliard. The more important classroom was 52nd Street, where bebop was being made in real time by musicians such as Charlie Parker and Dizzy Gillespie. Davis was not Parker&#039;s technical equal, and he knew it. Instead of trying to win by speed, he developed another vocabulary: space, tone, timing, silence, and melodic pressure. He learned that a note could command attention by refusing to crowd the room.</p>
+<p>The sessions later gathered as Birth of the Cool showed one early direction. Arranged with Gil Evans and others, the music used unusual instrumentation and a lighter ensemble sound. It did not erase bebop. It answered it differently. In the 1950s, Davis moved through hard bop, blues feeling, and small-group formats while also struggling with heroin addiction. His 1955 Newport Jazz Festival performance helped restore his standing, and his first great quintet with John Coltrane became one of jazz&#039;s central working bands.</p>
+<p>Kind of Blue, recorded in 1959, is often called the best-selling jazz album of all time, but numbers alone do not explain its hold. The album used modal frameworks that gave musicians room to explore melody and mood without racing through dense chord changes. Davis, Coltrane, Cannonball Adderley, Bill Evans, Wynton Kelly, Paul Chambers, and Jimmy Cobb made music that feels both relaxed and exact. It became an entry point for countless listeners, but it was not an endpoint for Davis.</p>
+<p>He kept moving. With Gil Evans, he made orchestral projects such as Miles Ahead, Porgy and Bess, and Sketches of Spain. In the 1960s, his second great quintet with Wayne Shorter, Herbie Hancock, Ron Carter, and Tony Williams stretched rhythm, form, and improvisation until the music sounded like it was thinking ahead of itself. Davis did not merely hire great musicians. He created conditions where they had to become more daring.</p>
+<p>Then he moved again, into electric instruments, rock volume, studio editing, funk rhythm, and long-form texture. In a Silent Way and Bitches Brew frustrated purists and drew new listeners. Some critics heard betrayal. Davis heard possibility. He was listening to Jimi Hendrix, Sly Stone, James Brown, Indian music, studio technology, and the changing sound of Black youth culture. He refused to let jazz become a museum before his eyes.</p>
+<p>Davis&#039;s life also requires directness about harm. He experienced racist policing, including being beaten by a New York police officer outside Birdland in 1959. He also harmed women in his life, including documented domestic violence. Addiction, illness, and rage shaped parts of his story. A serious account cannot protect his genius by hiding the people hurt around it.</p>
+<p>When Davis returned in the 1980s after years away from the stage, some music was uneven and some was commercially strategic. Still, his influence remained massive. Musicians who passed through his bands changed jazz, funk, rock, and popular music. His sound became a way of thinking: edit the obvious, leave space, choose collaborators who scare you, and change before the world turns your last breakthrough into a cage.</p>
+  </div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Davis&#039;s innovation cost him stability, health, and sometimes audience approval. Each turn risked losing people who wanted the last version of Miles forever. His collaborators also paid a cost, working inside bands where intensity could become pressure and where Davis&#039;s leadership could be brilliant and harsh.</p>
+<p>The impact is difficult to overstate. Davis did not simply make important albums. He organized scenes. His bands launched and sharpened musicians who reshaped modern music. The harm in his private life must remain visible beside the art, because influence does not cancel accountability.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Miles Davis matters today because innovation is often misunderstood as novelty. Davis changed because he was listening: to younger musicians, technology, street style, Black popular music, global sound, and his own boredom. He teaches that tradition survives when artists argue with it honestly.</p>
+<p>His story also helps readers resist clean genius myths. The same person can make beauty and cause pain. Learning that fully does not diminish the music. It makes the listening more adult. It asks what we owe to truth when the art is magnificent and the life is complicated.</p>
+<p>The popular version says Miles changed jazz. The fuller version says he changed how musicians think about space, leadership, risk, collaboration, and the refusal to let any institution, including jazz, decide when Black creativity should stop evolving.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-05-26" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; May 26</div>
+        <div class="quiz-card-title">Open the daily challenge for Miles Davis</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/duke-ellington.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Duke Ellington</div>
+        <div class="connected-desc">Connects jazz innovation to bandleading, composition, and long-term Black musical authorship.</div>
+      </a>
+<a href="../../encyclopedia/ella-fitzgerald.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Ella Fitzgerald</div>
+        <div class="connected-desc">Shows another path through virtuosity, improvisation, and public Black musical excellence.</div>
+      </a>
+<a href="../../generated/pages/james-brown.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">James Brown</div>
+        <div class="connected-desc">Links Davis&#039;s electric turn to funk, rhythm, and Black popular music power.</div>
+      </a>
+<a href="../../generated/pages/langston-hughes.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Langston Hughes</div>
+        <div class="connected-desc">Connects jazz as music to jazz as literary form and Black modern expression.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.loc.gov/item/ihas.200152693/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Miles Davis</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.arts.gov/honors/jazz/miles-davis" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Endowment for the Arts</div>
+          <div class="ext-title">Miles Davis, NEA Jazz Master</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.grammy.com/artists/miles-davis/11305/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">GRAMMY Museum</div>
+          <div class="ext-title">Miles Davis</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.kennedy-center.org/artists/d/do-dz/miles-davis/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Kennedy Center</div>
+          <div class="ext-title">Miles Davis</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.milesdavis.com/timeline/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Miles Davis Estate</div>
+          <div class="ext-title">Timeline</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

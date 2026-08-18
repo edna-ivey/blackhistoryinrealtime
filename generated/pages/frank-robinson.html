@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frank Robinson - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Frank Robinson had already proved he could lead with a bat. Baseball took longer to admit he could lead from the dugout.">
+<meta name="description" content="Frank Robinson had already built a Hall of Fame playing career before Major League Baseball allowed him to manage. That delay is the story. He was Rookie of the Year, a 14-time All-Star, a Triple Crown winner, a World Series MVP, and the only player to win Most Valuable Player awards in both leagues. Yet the sport that celebrated his competitive fire took far longer to admit that Black baseball intelligence belonged in the dugout with authority. In 1975, Cleveland named Robinson player-manager, making him the first Black manager in Major League history. Robinson matters because integration on the field was not the end of baseball&#039;s color line. Decision-making power, hiring power, front-office power, and the right to be judged as a strategist were separate fights.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="frank-robinson">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,160 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Frank Robinson</h2>
-  <div class="meta">
-    <span class="badge">1935 - 2019</span>
-    <span class="badge">Sports</span>
-    <span class="badge">2026-07-28</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>July 28 &middot; Sports</span>
   </div>
-  <article>
-    <p>Frank Robinson had already proved he could lead with a bat. Baseball took longer to admit he could lead from the dugout.</p><p>Robinson was a Hall of Fame player and the only player to win MVP awards in both the National and American Leagues.</p><p>In 1975, Cleveland named him player-manager, making him the first Black manager in Major League Baseball.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Robinson matters because integration does not end when players step on the field. Real inclusion reaches decision-making power.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">July 28 &middot; Sports</div>
+    <h1>Frank Robinson</h1>
+    <p class="entry-tagline">Frank Robinson had already built a Hall of Fame playing career before Major League Baseball allowed him to manage. That delay is the story. He was Rookie of the Year, a 14-time All-Star, a Triple Crown winner, a World Series MVP, and the only player to win Most Valuable Player awards in both leagues. Yet the sport that celebrated his competitive fire took far longer to admit that Black baseball intelligence belonged in the dugout with authority. In 1975, Cleveland named Robinson player-manager, making him the first Black manager in Major League history. Robinson matters because integration on the field was not the end of baseball&#039;s color line. Decision-making power, hiring power, front-office power, and the right to be judged as a strategist were separate fights.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1935 - 2019</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://baseballhall.org/hall-of-famers/robinson-frank" target="_blank" rel="noopener noreferrer">https://baseballhall.org/hall-of-famers/robinson-frank</a></li>
-<li><a href="https://www.mlb.com/news/frank-robinson-first-black-manager-in-mlb" target="_blank" rel="noopener noreferrer">https://www.mlb.com/news/frank-robinson-first-black-manager-in-mlb</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Aug 31, 1935</div><div class="tl-event">Born in Beaumont, Texas.</div></div>
+<div class="tl-item"><div class="tl-date">1939</div><div class="tl-event">Moves with his mother and siblings to California, eventually growing up in West Oakland.</div></div>
+<div class="tl-item"><div class="tl-date">1953</div><div class="tl-event">Graduates from McClymonds High School and signs with the Cincinnati Reds organization.</div></div>
+<div class="tl-item"><div class="tl-date">1956</div><div class="tl-event">Wins National League Rookie of the Year with Cincinnati.</div></div>
+<div class="tl-item"><div class="tl-date">1961</div><div class="tl-event">Wins the National League Most Valuable Player Award.</div></div>
+<div class="tl-item"><div class="tl-date">Dec 1965</div><div class="tl-event">Traded by Cincinnati to Baltimore, a move that reshapes both Robinson&#039;s career and Orioles history.</div></div>
+<div class="tl-item"><div class="tl-date">1966</div><div class="tl-event">Wins the American League Triple Crown, AL MVP, and World Series MVP as Baltimore wins the championship.</div></div>
+<div class="tl-item"><div class="tl-date">1970</div><div class="tl-event">Helps Baltimore win another World Series.</div></div>
+<div class="tl-item"><div class="tl-date">Apr 8, 1975</div><div class="tl-event">Debuts as Cleveland player-manager, becoming MLB&#039;s first Black manager and homering in his first at-bat that day.</div></div>
+<div class="tl-item"><div class="tl-date">1982</div><div class="tl-event">Elected to the National Baseball Hall of Fame in his first year of eligibility.</div></div>
+<div class="tl-item"><div class="tl-date">1989</div><div class="tl-event">Wins American League Manager of the Year with the Baltimore Orioles.</div></div>
+<div class="tl-item"><div class="tl-date">2005</div><div class="tl-event">Receives the Presidential Medal of Freedom.</div></div>
+<div class="tl-item"><div class="tl-date">Feb 7, 2019</div><div class="tl-event">Dies in Los Angeles, California.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-07-28">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Frank Robinson&#039;s baseball life can be told through numbers, and the numbers are thunderous. But the numbers alone do not explain why his place in history matters. Robinson was not merely great enough to manage. He was so obviously great that baseball&#039;s delay in giving him a dugout showed the shape of the barrier.</p>
+<p>Robinson was born in Beaumont, Texas, in 1935 and moved with his family to California as a child. In West Oakland, he came up in a remarkable athletic environment. McClymonds High School produced Robinson, basketball legend Bill Russell, baseball star Vada Pinson, and Curt Flood, whose legal challenge later helped reshape baseball labor. Robinson signed with Cincinnati in 1953 and entered professional baseball as a Black teenager still moving through segregated minor league towns and racist assumptions about who belonged where.</p>
+<p>He reached the majors in 1956 and immediately made the league adjust to him. Robinson won National League Rookie of the Year, then became the kind of hitter pitchers could not relax around. He hit with power, reached base, ran hard, played with an edge, and expected winning to be treated as a serious obligation. In 1961, he won the National League MVP Award with Cincinnati.</p>
+<p>Cincinnati traded him to Baltimore after the 1965 season in a deal that became infamous because Reds owner Bill DeWitt described Robinson as an old 30. Robinson was 30 years old and not finished. In 1966, his first season with the Orioles, he won the American League Triple Crown by leading the league in batting average, home runs, and runs batted in. He won the AL MVP and World Series MVP as Baltimore swept the Dodgers. The trade that doubted him became one of the great mistakes in baseball history.</p>
+<p>In Baltimore, Robinson&#039;s leadership mattered as much as his bat. The Orioles reached the World Series in 1966, 1969, 1970, and 1971, winning titles in 1966 and 1970. Teammates remembered his intensity, preparation, and demand that the game be played correctly. He was not universally gentle, and that was part of the point. Baseball had long celebrated hard-nosed white leaders. Robinson made it harder to pretend that Black leadership had to be softened to be acceptable.</p>
+<p>The managerial barrier remained. Jackie Robinson had integrated modern Major League Baseball in 1947, Larry Doby had integrated the American League the same year, and by the 1970s Black and Latino players were central to the sport&#039;s talent. But managerial and executive roles lagged behind. Teams used vague language about experience, temperament, communication, and fit. Those words often hid the assumption that Black men could perform but not direct.</p>
+<p>Cleveland changed the official record in 1975 by naming Robinson player-manager. Opening Day made the symbolism impossible to miss. Rachel Robinson, Jackie Robinson&#039;s widow, threw out the first pitch. Robinson, serving as designated hitter, homered in his first at-bat as manager. The moment was almost too perfect, but the job was not symbolic to him. He wanted to manage, make lineups, handle pitchers, evaluate players, and win.</p>
+<p>He managed Cleveland, San Francisco, Baltimore, Montreal, and Washington across 16 seasons. He did not become a sainted pioneer with an easy path. He was fired, rehired, criticized, and measured in wins and losses, as managers are. In 1989 he won American League Manager of the Year after leading a dramatic Orioles turnaround. The fact that he had to be first did not excuse him from the ordinary harshness of professional sports. It added another layer to it.</p>
+<p>Robinson later worked in Major League Baseball&#039;s offices, including roles connected to discipline, on-field operations, and player development. That part of his career matters because institutional authority in sports is broader than the manager&#039;s chair. Decisions about hiring, punishment, scouting, development, and representation all shape who gets power in the game.</p>
+<p>Frank Robinson&#039;s page should not reduce him to barrier breaker or box score. He was both a fierce player and an institutional milestone. His life shows that integration has stages: the right to play, the right to star, the right to lead, and the right to shape the system after leaving the field. Baseball celebrated his home runs. The harder lesson is that it should not have taken 28 years after Jackie Robinson for a Black man to manage a major league club.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>Baseball is a beautiful game when it&#039;s played right.</blockquote>
+    <cite>Frank Robinson, quoted by MLB</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Robinson paid the cost of being judged through racial history even when he wanted to be judged by performance. As a minor leaguer and young major leaguer, he moved through segregated conditions and racist abuse. As a manager, he inherited not only a roster, but the pressure of proving that a Black manager could lead in a sport that had delayed the opportunity for decades.</p>
+<p>His impact reached from the batter&#039;s box to the dugout. He made the Hall of Fame as a player, then forced the sport to expand its imagination of leadership. Every Black manager after him worked in a landscape Robinson had made more possible, even though the pace of managerial and executive inclusion remained uneven.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Robinson matters today because representation without authority is incomplete. A sport can celebrate Black athletes and still keep decision-making power mostly elsewhere. His managerial milestone asks where power sits after applause fades.</p>
+<p>His story also helps readers understand that leadership style is judged through race. Intensity, command, anger, and high standards have not always been interpreted the same way across racial lines. Robinson demanded to be read as a baseball mind, not as a racial exception.</p>
+<p>A reader should leave seeing him as more than the first Black manager. He was one of baseball&#039;s greatest players, a demanding leader, and a reminder that breaking a barrier is not the same as removing the habits that built it.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-07-28" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; July 28</div>
+        <div class="quiz-card-title">Open the daily challenge for Frank Robinson</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/jackie-robinson.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Jackie Robinson</div>
+        <div class="connected-desc">Connects Frank Robinson&#039;s managerial breakthrough to the earlier integration of modern MLB.</div>
+      </a>
+<a href="../../generated/pages/larry-doby.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Larry Doby</div>
+        <div class="connected-desc">Links the American League color line to later leadership barriers in the sport.</div>
+      </a>
+<a href="../../encyclopedia/hank-aaron.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Hank Aaron</div>
+        <div class="connected-desc">Places Robinson among Black baseball greats whose excellence met racist resistance.</div>
+      </a>
+<a href="../../generated/pages/doug-williams.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Doug Williams</div>
+        <div class="connected-desc">Shows another sports leadership stereotype broken under national pressure.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://baseballhall.org/hall-of-famers/robinson-frank" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Baseball Hall of Fame</div>
+          <div class="ext-title">Frank Robinson</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://baseballhall.org/discover/frank-robinson-made-history-as-manager" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Baseball Hall of Fame</div>
+          <div class="ext-title">Frank Robinson Made History as Manager</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://baseballhall.org/discover/robinson-left-mark-on-and-off-the-field" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Baseball Hall of Fame</div>
+          <div class="ext-title">Robinson Left Mark On and Off the Field</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.mlb.com/news/frank-robinson-homered-in-first-game-as-manager" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">MLB</div>
+          <div class="ext-title">Frank Robinson Homered in First Game as Manager</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://sabr.org/bioproj/person/Frank-Robinson/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Society for American Baseball Research</div>
+          <div class="ext-title">Frank Robinson</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

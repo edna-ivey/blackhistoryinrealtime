@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Plessy v. Ferguson - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="The phrase sounded balanced: separate but equal. In practice, it gave Jim Crow a constitutional costume.">
+<meta name="description" content="Plessy v. Ferguson did not invent segregation, but it gave segregation a constitutional shield. The case began with a planned challenge to Louisiana&#039;s Separate Car Act and ended with the Supreme Court saying racial separation did not violate the Fourteenth Amendment as long as the facilities were supposedly equal. That word, equal, did enormous damage. It let states call exclusion fairness, let white officials decide what equality meant, and helped Jim Crow spread through schools, trains, parks, hospitals, voting, housing, and daily public life. This page matters because Plessy shows how a legal sentence can turn a racial order into public policy. It also shows that dissent existed inside the decision from the start.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="plessy-v-ferguson">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,157 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Plessy v. Ferguson</h2>
-  <div class="meta">
-    <span class="badge">May 18, 1896</span>
-    <span class="badge">Law</span>
-    <span class="badge">2026-05-18</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>May 18 &middot; Law</span>
   </div>
-  <article>
-    <p>The phrase sounded balanced: separate but equal. In practice, it gave Jim Crow a constitutional costume.</p><p>Homer Plessy, a mixed-race Black man in Louisiana, challenged a state law requiring segregated railroad cars. On May 18, 1896, the Supreme Court ruled against him.</p><p>The decision allowed segregation to spread across public life for more than half a century. Justice John Marshall Harlan dissented, warning that the Constitution should be color-blind.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Plessy matters because language can hide injustice. &quot;Equal&quot; meant nothing when the law protected separation and power decided what each side received.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">May 18 &middot; Law</div>
+    <h1>Plessy v. Ferguson</h1>
+    <p class="entry-tagline">Plessy v. Ferguson did not invent segregation, but it gave segregation a constitutional shield. The case began with a planned challenge to Louisiana&#039;s Separate Car Act and ended with the Supreme Court saying racial separation did not violate the Fourteenth Amendment as long as the facilities were supposedly equal. That word, equal, did enormous damage. It let states call exclusion fairness, let white officials decide what equality meant, and helped Jim Crow spread through schools, trains, parks, hospitals, voting, housing, and daily public life. This page matters because Plessy shows how a legal sentence can turn a racial order into public policy. It also shows that dissent existed inside the decision from the start.</p>
+    <div class="entry-badges">
+      <span class="badge">Case</span>
+      <span class="badge">1896</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.archives.gov/milestone-documents/plessy-v-ferguson" target="_blank" rel="noopener noreferrer">https://www.archives.gov/milestone-documents/plessy-v-ferguson</a></li>
-<li><a href="https://www.oyez.org/cases/1850-1900/163us537" target="_blank" rel="noopener noreferrer">https://www.oyez.org/cases/1850-1900/163us537</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1868</div><div class="tl-event">The Fourteenth Amendment is ratified, promising equal protection of the laws.</div></div>
+<div class="tl-item"><div class="tl-date">1890</div><div class="tl-event">Louisiana passes the Separate Car Act requiring separate railway cars for Black and white passengers.</div></div>
+<div class="tl-item"><div class="tl-date">June 7, 1892</div><div class="tl-event">Homer Plessy boards a white-only railroad car in New Orleans as part of a planned legal challenge.</div></div>
+<div class="tl-item"><div class="tl-date">1892</div><div class="tl-event">Judge John Howard Ferguson rules against Plessy in state court.</div></div>
+<div class="tl-item"><div class="tl-date">May 18, 1896</div><div class="tl-event">The U.S. Supreme Court upholds segregation in Plessy v. Ferguson.</div></div>
+<div class="tl-item"><div class="tl-date">1896</div><div class="tl-event">Justice John Marshall Harlan files the lone dissent.</div></div>
+<div class="tl-item"><div class="tl-date">1896-1954</div><div class="tl-event">The decision helps states defend Jim Crow segregation for more than half a century.</div></div>
+<div class="tl-item"><div class="tl-date">1954</div><div class="tl-event">Brown v. Board of Education rejects separate public schools as inherently unequal.</div></div>
+<div class="tl-item"><div class="tl-date">2009</div><div class="tl-event">Descendants of Homer Plessy and Judge Ferguson create a foundation for historical education.</div></div>
+<div class="tl-item"><div class="tl-date">2022</div><div class="tl-event">Louisiana posthumously pardons Homer Plessy.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-05-18">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Plessy v. Ferguson began in New Orleans, a city where race, law, ancestry, class, and public space had long collided. After Reconstruction, Louisiana and other Southern states moved to reassert white control through law. The Separate Car Act of 1890 required railroads to provide separate passenger cars for white and Black riders. It was part of a larger counterrevolution against Black citizenship, not an isolated transportation rule.</p>
+<p>The challenge was organized. A group of Black and Creole activists in New Orleans, often known as the Citizens&#039; Committee, chose Homer Plessy to test the law. Plessy was a shoemaker and a man of mixed ancestry who was legally classified as Black under Louisiana law. On June 7, 1892, he bought a first-class ticket, sat in a white-only car, identified himself as Black, and was arrested. The arrest was not a surprise. It was the point.</p>
+<p>The case asked whether Louisiana could force racial separation on a common carrier without violating the Thirteenth and Fourteenth Amendments. Plessy&#039;s lawyers argued that the law marked Black people with a badge of inferiority and denied equal citizenship. Louisiana argued that separation was a reasonable exercise of state police power and that the law treated both races equally because each was assigned a separate space.</p>
+<p>The Supreme Court accepted Louisiana&#039;s logic. Justice Henry Billings Brown wrote for the majority that enforced separation did not necessarily stamp Black people as inferior. If Black people felt inferior because of segregation, the Court suggested, that was their interpretation rather than the law&#039;s meaning. That move was brutal because it made racism look like a feeling instead of a structure. The state could command separation, but Black people were blamed for noticing what separation meant.</p>
+<p>The phrase &quot;separate but equal&quot; became the shorthand, though equality was never the lived reality. Black facilities were routinely underfunded, inferior, inconvenient, or missing altogether. More than that, equality could not survive a law whose purpose was to protect white space from Black presence. Separation was not neutral organization. It was racial hierarchy with a legal vocabulary.</p>
+<p>Justice John Marshall Harlan dissented. Harlan had his own racial assumptions, and his dissent should not be romanticized as modern antiracism. Still, he saw clearly that the ruling would become infamous and that the Constitution should not tolerate caste. His dissent gave later civil rights lawyers language to use against the majority, but it did not protect Black travelers, students, patients, voters, workers, or families in the decades that followed.</p>
+<p>Plessy helped authorize a world of daily humiliations. Segregated railroad cars were one scene. The same logic supported segregated schools, parks, waiting rooms, water fountains, theaters, hospitals, cemeteries, and courtrooms. The decision also encouraged officials to pretend that equal treatment existed on paper while inequality was arranged through budgets, policing, intimidation, and custom.</p>
+<p>The case also matters because it exposes the limits of courts when the justices are willing to defer to racial power. The Fourteenth Amendment had been written after slavery to protect citizenship and equal protection. By 1896, the Court narrowed that promise until states could build a caste system under it. Black communities did not misunderstand the decision. They lived its consequences.</p>
+<p>Civil rights lawyers spent decades attacking the structure Plessy protected. Charles Hamilton Houston, Thurgood Marshall, the NAACP Legal Defense Fund, local plaintiffs, teachers, parents, students, and communities built the record that led to Brown v. Board of Education in 1954. Brown did not erase Plessy from daily life overnight, but it rejected the central lie that state-enforced separation could be equal.</p>
+<p>Plessy is not only a bad court case in a textbook. It is a warning about legal language. A society can place injustice behind calm words and ask everyone to call it order. The case teaches readers to ask who defines equality, who benefits from separation, and what happens when courts treat racial domination as reasonable administration.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>Our Constitution is color-blind.</blockquote>
+    <cite>Justice John Marshall Harlan, dissenting in Plessy v. Ferguson</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost of Plessy was measured in generations of public humiliation, underfunded services, restricted movement, legal exclusion, and state-backed violence. Black people did not simply sit in different spaces. They were told by law that their presence could contaminate white public life. That message shaped schooling, travel, medical care, voting, and work.</p>
+<p>The impact was national even when Jim Crow looked regional. Plessy gave segregationists constitutional language. It also forced civil rights lawyers and communities to spend decades proving what Black people already knew: separation was designed to produce inequality.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Plessy matters today because inequality is still often defended through neutral-sounding language. Choice, tradition, local control, safety, efficiency, and order can all hide who is being excluded and who is being protected. The lesson is not that every separate thing is automatically Plessy. The lesson is to inspect the power underneath the arrangement.</p>
+<p>The case also teaches that a constitutional promise can be weakened by interpretation. The Fourteenth Amendment did not disappear in 1896. The Court read it narrowly enough to let Jim Crow breathe. Rights on paper need institutions willing to enforce them, and communities willing to insist that the words mean something in real life.</p>
+<p>Learning Plessy well changes the famous phrase. &quot;Separate but equal&quot; was not a compromise that failed. It was a lie that worked exactly as designed.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-05-18" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; May 18</div>
+        <div class="quiz-card-title">Open the daily challenge for Plessy v. Ferguson</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../generated/pages/dred-scott.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Dred Scott v. Sandford</div>
+        <div class="connected-desc">Shows an earlier Supreme Court decision that narrowed Black rights through constitutional interpretation.</div>
+      </a>
+<a href="../../encyclopedia/brown-v-board.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Brown v. Board of Education</div>
+        <div class="connected-desc">Connects the legal campaign that finally rejected separate schools as inherently unequal.</div>
+      </a>
+<a href="../../generated/pages/charles-hamilton-houston.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Charles Hamilton Houston</div>
+        <div class="connected-desc">Traces the strategy that trained lawyers to dismantle Jim Crow in court.</div>
+      </a>
+<a href="../../encyclopedia/redlining.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Redlining</div>
+        <div class="connected-desc">Shows how racial separation later moved through maps, mortgages, and wealth.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.archives.gov/milestone-documents/plessy-v-ferguson" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Archives</div>
+          <div class="ext-title">Plessy v. Ferguson</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.oyez.org/cases/1850-1900/163us537" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Oyez</div>
+          <div class="ext-title">Plessy v. Ferguson</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://supreme.justia.com/cases/federal/us/163/537/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Justia U.S. Supreme Court</div>
+          <div class="ext-title">Plessy v. Ferguson, 163 U.S. 537</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.fjc.gov/history/cases/famous-federal-trials/plessy-v-ferguson" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Federal Judicial Center</div>
+          <div class="ext-title">Plessy v. Ferguson</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.pbs.org/wnet/supremecourt/antebellum/landmark_plessy.html" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">PBS</div>
+          <div class="ext-title">Landmark Cases: Plessy v. Ferguson</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

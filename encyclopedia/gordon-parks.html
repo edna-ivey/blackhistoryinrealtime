@@ -4,35 +4,219 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gordon Parks - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="He Made America Look at Itself">
+<meta name="description" content="Gordon Parks made the camera do more than record. He made it argue. Born in segregated Fort Scott, Kansas, Parks became a photographer, writer, composer, and filmmaker whose work moved through federal documentary projects, fashion magazines, Life magazine, novels, Hollywood, and music. He photographed poverty, segregation, civil rights leaders, Harlem families, fashion models, gang leaders, celebrities, and children with the same insistence: people deserved complexity. Parks matters because he widened who could make images and who could be seen inside them. He was not simply the first Black staff photographer at Life or the first Black director of a major Hollywood studio feature. He was a maker who used beauty without letting beauty become an escape from injustice.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,.2)}
-  *{box-sizing:border-box;margin:0;padding:0} body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;line-height:1.75;min-height:100vh}
-  .pan-stripe{display:flex;height:6px}.pan-stripe div{flex:1}.s1{background:var(--red)}.s2{background:#111}.s3{background:var(--green)}
-  header{position:sticky;top:0;background:rgba(10,10,10,.97);border-bottom:1px solid var(--border);z-index:5}.header-inner{max-width:1100px;margin:auto;padding:14px 32px}
-  .logo{display:flex;align-items:center;gap:14px;color:var(--white);text-decoration:none}.logo img{width:52px;height:52px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}.logo h1{font-family:'Bebas Neue';font-size:1.6rem;letter-spacing:2px}.logo span{color:var(--gold)}
-  nav{border-top:1px solid rgba(212,160,23,.1);display:flex;justify-content:center;overflow-x:auto;padding:0 24px}nav a{color:rgba(245,237,216,.55);text-decoration:none;text-transform:uppercase;letter-spacing:2.5px;font-size:.78rem;padding:12px 18px;white-space:nowrap}
-  main{width:min(900px,calc(100% - 40px));margin:auto;padding:52px 0 90px}.label{color:var(--gold);text-transform:uppercase;letter-spacing:5px;font-size:.7rem;margin-bottom:14px}
-  h2{font-family:'Playfair Display',serif;color:var(--white);font-size:clamp(2.3rem,7vw,4.7rem);line-height:1.05;margin-bottom:16px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}.badge{border:1px solid rgba(212,160,23,.3);border-radius:999px;padding:5px 12px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:.68rem}
-  article{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px}article p{margin-bottom:16px;color:rgba(245,237,216,.82)}h3{font-family:'Bebas Neue';color:var(--gold);letter-spacing:3px;margin:28px 0 8px;font-size:1rem}.why{margin-top:24px;padding:18px 20px;border:1px solid rgba(196,30,58,.25);background:rgba(196,30,58,.08);border-radius:12px}blockquote{border-left:4px solid var(--gold);padding:12px 18px;margin:20px 0;color:var(--gold);background:rgba(212,160,23,.06)}cite{display:block;color:rgba(212,160,23,.65);font-size:.75rem;letter-spacing:1.5px;text-transform:uppercase;margin-top:8px}
-  a{color:var(--gold)}@media(max-width:620px){.header-inner{padding:12px 16px}nav{justify-content:flex-start;padding:0 12px}nav a{font-size:.7rem;padding:10px 12px}main{width:calc(100% - 28px);padding-top:34px}article{padding:22px 18px}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="gordon-parks">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
-<header><div class="header-inner"><a class="logo" href="../index.html"><img src="../logo.png" alt="Black History in Real Time"><h1>Black<span>History</span></h1></a></div><nav><a href="../index.html">Today</a><a href="../index.html#calendar">Calendar</a><a href="../index.html#archive">Archive</a><a href="../encyclopedia.html">Encyclopedia</a></nav></header>
+<header>
+  <div class="header-inner">
+    <a class="logo-area" href="../index.html">
+      <img src="../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
+    </a>
+  </div>
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../index.html#now">Making History Now</a>
+    <a href="../index.html#calendar">Calendar</a>
+    <a href="../index.html#archive">Archive</a>
+    <a href="../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../index.html#about">About</a>
+  </nav>
+</header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Gordon Parks</h2>
-  <div class="meta"><span class="badge">1912 — 2006</span><span class="badge">Photography</span><span class="badge">2026-04-24</span></div>
-  <article>
-    <p>Gordon Parks used a camera as both witness and weapon. Through photography, film, and writing, he documented inequality in a country skilled at disguising it.</p><p>His images of Black life, poverty, resilience, and everyday dignity helped force broader audiences to confront realities they might otherwise avoid. He brought visual precision to social truth.</p><p>Parks did not merely capture moments. He framed injustice in ways that demanded attention.</p>
-    
-    <h3>Cost / Impact</h3><p>Working across institutions that were overwhelmingly white, Parks had to insist on the legitimacy of the stories he told and the perspectives he brought.</p>
-    <div class="why"><h3>Why It Matters</h3><p>Who gets to document a nation shapes how that nation understands itself. Gordon Parks helped widen the American lens.</p></div>
-  </article>
+  <div class="breadcrumb">
+    <a href="../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span> &middot; Arts</span>
+  </div>
+  <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label"> &middot; Arts</div>
+    <h1>Gordon Parks</h1>
+    <p class="entry-tagline">Gordon Parks made the camera do more than record. He made it argue. Born in segregated Fort Scott, Kansas, Parks became a photographer, writer, composer, and filmmaker whose work moved through federal documentary projects, fashion magazines, Life magazine, novels, Hollywood, and music. He photographed poverty, segregation, civil rights leaders, Harlem families, fashion models, gang leaders, celebrities, and children with the same insistence: people deserved complexity. Parks matters because he widened who could make images and who could be seen inside them. He was not simply the first Black staff photographer at Life or the first Black director of a major Hollywood studio feature. He was a maker who used beauty without letting beauty become an escape from injustice.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1912 - 2006</span>
+    </div>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Nov 30, 1912</div><div class="tl-event">Born in Fort Scott, Kansas.</div></div>
+<div class="tl-item"><div class="tl-date">1937</div><div class="tl-event">Buys his first camera after seeing documentary photographs of migrant workers.</div></div>
+<div class="tl-item"><div class="tl-date">1941</div><div class="tl-event">Receives a Julius Rosenwald Fellowship.</div></div>
+<div class="tl-item"><div class="tl-date">1942</div><div class="tl-event">Works with the Farm Security Administration in Washington, D.C., producing images including American Gothic.</div></div>
+<div class="tl-item"><div class="tl-date">1944</div><div class="tl-event">Photographs for Standard Oil&#039;s documentary project.</div></div>
+<div class="tl-item"><div class="tl-date">1948</div><div class="tl-event">Becomes the first Black staff photographer at Life magazine.</div></div>
+<div class="tl-item"><div class="tl-date">1963</div><div class="tl-event">Publishes The Learning Tree, a semiautobiographical novel.</div></div>
+<div class="tl-item"><div class="tl-date">1969</div><div class="tl-event">Writes and directs the film adaptation of The Learning Tree for Warner Bros.</div></div>
+<div class="tl-item"><div class="tl-date">1971</div><div class="tl-event">Directs Shaft, a commercially successful film that reshapes Black action cinema.</div></div>
+<div class="tl-item"><div class="tl-date">1988</div><div class="tl-event">Receives the National Medal of Arts.</div></div>
+<div class="tl-item"><div class="tl-date">1995</div><div class="tl-event">Donates major archives to the Library of Congress.</div></div>
+<div class="tl-item"><div class="tl-date">Mar 7, 2006</div><div class="tl-event">Dies in New York City.</div></div>
+    </div>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Gordon Parks entered American visual culture from the edge of what that culture wanted to see. He was born in Fort Scott, Kansas, in 1912, the youngest of 15 children, and grew up under segregation and poverty. After his mother&#039;s death, he left home as a teenager and worked a string of jobs: busboy, porter, waiter, piano player, and railroad worker. The instability did not disappear from his art. It gave him an eye for people living inside pressure.</p>
+<p>Parks later said that seeing photographs of migrant workers pushed him toward photography. He bought a camera from a pawnshop and taught himself. That detail is often repeated because it is dramatic, but its meaning is deeper than self-taught genius. Parks learned by looking, by studying magazines, by persuading people to sit for him, and by building a portfolio in a world that did not expect a Black man to become a national image-maker.</p>
+<p>The Julius Rosenwald Fellowship brought him to Washington, D.C., in 1942 to work with the Farm Security Administration. There he met institutional documentary photography and its limits. One of his most famous photographs, American Gothic, Washington, D.C., shows government worker Ella Watson standing with a broom and mop in front of an American flag. The image is not subtle, and that is why it works. Parks used the national symbol to expose the labor and exclusion beneath it.</p>
+<p>He moved through federal and corporate documentary work, then into fashion and magazine photography. In 1948, his photo essay on Harlem gang leader Red Jackson helped him become the first Black staff photographer at Life. That position mattered. Life helped teach mid-century Americans what the world looked like. Parks entered that machinery and brought with him subjects mainstream magazines often flattened: Black neighborhoods, poverty, segregation, artists, athletes, civil rights leaders, and ordinary people fighting for dignity.</p>
+<p>Parks&#039;s best work refuses one-note pity. He photographed poverty without reducing people to poverty. He photographed fashion without surrendering to surface. He photographed Malcolm X, Muhammad Ali, Stokely Carmichael, Ingrid Bergman, and families whose names were not famous. The throughline was attention. He understood that a camera could expose injustice, but also that a photograph could steal if the photographer treated people as objects. His strongest images keep the person present.</p>
+<p>Writing became another form of image-making. Parks published memoir, fiction, poetry, and essays. The Learning Tree, his semiautobiographical novel, returned to Kansas and the violence, tenderness, and coming-of-age complications of Black life there. In 1969, he wrote and directed the film adaptation for Warner Bros., becoming the first African American to write and direct a major Hollywood studio feature. Two years later, Shaft made him part of a different conversation about Black cinema, commercial power, masculinity, music, and urban style.</p>
+<p>Parks should not be boxed into respectability or rebellion. He worked inside major institutions, but he did not simply serve them. He used Life, Hollywood, publishing, and museums to make Black life visible on a scale those institutions could not easily ignore. He also made choices shaped by the market. Shaft&#039;s success sits alongside debates about blaxploitation, audience hunger, stereotype, and Black creative control. Parks&#039;s career is useful because it contains those tensions rather than hiding them.</p>
+<p>In 1995, Parks donated a major archive to the Library of Congress. The gesture mattered because archives decide what later generations can study. His photographs, writings, scripts, music, and papers show a maker refusing to choose one medium or one audience. He kept reaching for forms that could carry what he had seen.</p>
+<p>Gordon Parks called the camera a weapon against poverty, racism, and social wrongs. The word weapon can sound harsh until you remember what he faced. He did not mean a weapon for harm. He meant a tool sharp enough to cut through denial. His art insists that seeing is never neutral. Someone chooses the frame. Parks changed who held it.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>I saw that the camera could be a weapon against poverty, against racism, against all sorts of social wrongs.</blockquote>
+    <cite>Gordon Parks, quoted by the Gordon Parks Foundation</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Parks paid the cost of being a Black professional inside overwhelmingly white media institutions. He had to persuade editors, audiences, and funders that his eye was authoritative while covering subjects distorted by racism. He also carried the ethical cost of photographing suffering: how to reveal injustice without turning people into exhibits.</p>
+<p>His impact changed photography, journalism, and film. Parks opened doors for Black photographers and directors, but more than that, he changed the record. His archive gives future readers and viewers evidence of Black life, American poverty, style, rebellion, grace, and contradiction from inside the twentieth century.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Parks matters today because images still shape policy, memory, empathy, and fear. The question is not only what an image shows. It is who made it, who controls it, and what the viewer is asked to do after seeing it.</p>
+<p>His career also helps explain why representation behind the camera matters. A Black photographer at Life did not guarantee justice, but it changed the angle of national storytelling. Parks brought lived knowledge into rooms where Black people were often topics, not authors.</p>
+<p>He leaves readers with a standard: beauty should not soften truth into decoration. In Parks&#039;s hands, beauty could make truth harder to dismiss.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/james-baldwin.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">James Baldwin</div>
+        <div class="connected-desc">Connects Parks to mid-century Black artists who used form, witness, and critique together.</div>
+      </a>
+<a href="../encyclopedia/aave.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">AAVE and Linguistic Culture</div>
+        <div class="connected-desc">Links visual authorship to the broader question of who gets to define Black expression.</div>
+      </a>
+<a href="../encyclopedia/black-fashion.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Fashion and Cultural Appropriation</div>
+        <div class="connected-desc">Extends Parks&#039;s fashion and style work into questions of image, ownership, and culture.</div>
+      </a>
+<a href="../generated/pages/alma-thomas.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Alma Thomas</div>
+        <div class="connected-desc">Places Parks beside another artist who expanded what American art could look like.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.gordonparksfoundation.org/gordon-parks/biography" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Gordon Parks Foundation</div>
+          <div class="ext-title">Biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://findingaids.loc.gov/repositories/19/resources/2525" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Gordon Parks Papers</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/loc/lcib/9516/parks.html" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Renaissance Man: Gordon Parks Donates His Archives</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://guides.loc.gov/african-american-artists/photography" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Photography: African American Artists Collection Connections</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.gordonparkscenter.org/gordon-parks" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Gordon Parks Museum</div>
+          <div class="ext-title">Gordon Parks Biography and Timeline</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

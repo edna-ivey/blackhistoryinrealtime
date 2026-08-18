@@ -4,48 +4,66 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alice Walker - Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Alice Walker did not only write new stories. She went looking for the writers history had buried.">
+<meta name="description" content="Alice Walker is usually introduced through The Color Purple, and that book belongs at the center of her story. But Walker&#039;s larger work is about recovery: recovering Black women&#039;s interior lives, recovering a language for womanist thought, and recovering writers whose work had been pushed out of view. She helped return Zora Neale Hurston to public attention while building her own body of fiction, essays, poetry, and activism. Her page should not reduce her to a prize list. It should ask what it means to write when the people you need as ancestors have been buried by the archive.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { min-height:100vh; background:var(--black); color:var(--cream); font-family:'DM Sans', sans-serif; line-height:1.75; }
-  body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); }
-  .pan-stripe { display:flex; height:6px; width:100%; }
-  .pan-stripe div { flex:1; } .s1{background:var(--red)} .s2{background:#111} .s3{background:var(--green)}
-  header { position:sticky; top:0; z-index:5; background:rgba(10,10,10,0.97); border-bottom:1px solid var(--border); }
-  .header-inner { max-width:1100px; margin:0 auto; padding:14px 32px; display:flex; align-items:center; gap:14px; }
-  .logo { display:flex; align-items:center; gap:14px; color:var(--white); text-decoration:none; }
-  .logo img { width:52px; height:52px; border-radius:50%; object-fit:cover; box-shadow:0 0 0 2px var(--gold); }
-  .logo h1 { font-family:'Bebas Neue', sans-serif; letter-spacing:2px; font-size:1.6rem; line-height:1; }
-  .logo span { color:var(--gold); }
-  nav { border-top:1px solid rgba(212,160,23,0.1); display:flex; justify-content:center; gap:0; padding:0 24px; overflow-x:auto; }
-  nav a { color:rgba(245,237,216,0.55); text-decoration:none; text-transform:uppercase; letter-spacing:2.5px; font-size:.78rem; padding:12px 18px; border-bottom:3px solid transparent; white-space:nowrap; }
-  nav a:hover { color:var(--gold); }
-  main { width:min(900px, calc(100% - 40px)); margin:0 auto; padding:52px 0 90px; position:relative; z-index:1; }
-  .label { color:var(--gold); text-transform:uppercase; letter-spacing:5px; font-size:.7rem; margin-bottom:14px; }
-  h2 { font-family:'Playfair Display', serif; color:var(--white); font-size:clamp(2.3rem, 7vw, 4.7rem); line-height:1.05; margin-bottom:16px; }
-  .meta { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:34px; }
-  .badge { border:1px solid rgba(212,160,23,.3); border-radius:999px; padding:5px 12px; color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.68rem; }
-  article { background:var(--card-bg); border:1px solid var(--border); border-radius:16px; padding:28px; }
-  article p { margin-bottom:16px; color:rgba(245,237,216,.82); }
-  h3 { font-family:'Bebas Neue', sans-serif; color:var(--gold); letter-spacing:3px; margin:28px 0 8px; font-size:1rem; }
-  .why { margin-top:24px; padding:18px 20px; border:1px solid rgba(196,30,58,.25); background:rgba(196,30,58,.08); border-radius:12px; }
-  .sources { margin-top:24px; font-size:.82rem; color:rgba(245,237,216,.6); overflow-wrap:anywhere; }
-  .sources ul { padding-left:18px; }
-  .challenge-link { display:inline-flex; margin-top:24px; border:1px solid rgba(212,160,23,.35); border-radius:999px; padding:9px 16px; text-transform:uppercase; letter-spacing:2px; font-size:.72rem; color:var(--gold); text-decoration:none; }
-  .challenge-link:hover { background:rgba(212,160,23,.08); }
-  a { color:var(--gold); }
-  @media (max-width:620px) { .header-inner{padding:12px 16px} nav{justify-content:flex-start;padding:0 12px} nav a{font-size:.7rem;padding:10px 12px} main{width:calc(100% - 28px);padding-top:34px} article{padding:22px 18px} }
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
-<body>
+<body data-entry-id="alice-walker">
 <div class="pan-stripe"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 <header>
   <div class="header-inner">
-    <a class="logo" href="../../index.html">
-      <img src="../../logo.png" alt="Black History in Real Time">
-      <h1>Black<span>History</span></h1>
+    <a class="logo-area" href="../../index.html">
+      <img src="../../logo.png" alt="Black History in Real Time" class="logo-img">
+      <div class="logo-text"><h1>Black<span>History</span></h1><p>In Real Time</p></div>
     </a>
   </div>
   <nav>
@@ -53,33 +71,147 @@
     <a href="../../index.html#now">Making History Now</a>
     <a href="../../index.html#calendar">Calendar</a>
     <a href="../../index.html#archive">Archive</a>
-    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <a href="../../encyclopedia.html" class="active">Encyclopedia</a>
+    <a href="../../index.html#about">About</a>
   </nav>
 </header>
 <main>
-  <div class="label">Black History in Real Time</div>
-  <h2>Alice Walker</h2>
-  <div class="meta">
-    <span class="badge">1944 - Present</span>
-    <span class="badge">Literature</span>
-    <span class="badge">2026-06-25</span>
+  <div class="breadcrumb">
+    <a href="../../encyclopedia.html">Encyclopedia</a>
+    <span>&#x203A;</span>
+    <span>June 25 &middot; Literature</span>
   </div>
-  <article>
-    <p>Alice Walker did not only write new stories. She went looking for the writers history had buried.</p><p>Walker won the Pulitzer Prize for The Color Purple and coined the term womanist. Her fiction and essays explored Black women&#039;s interior lives, pain, survival, love, and creativity.</p><p>She also helped bring renewed attention to Zora Neale Hurston, including locating and marking Hurston&#039;s grave. Recovery became part of her literary work.</p>
-    <div class="why">
-      <h3>Why It Matters</h3>
-      <p>Walker matters because literature is also preservation. She wrote her own archive and helped rescue another writer from neglect.</p>
+  <a href="../../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
+  <div class="entry-hero">
+    <div class="entry-vol-label">June 25 &middot; Literature</div>
+    <h1>Alice Walker</h1>
+    <p class="entry-tagline">Alice Walker is usually introduced through The Color Purple, and that book belongs at the center of her story. But Walker&#039;s larger work is about recovery: recovering Black women&#039;s interior lives, recovering a language for womanist thought, and recovering writers whose work had been pushed out of view. She helped return Zora Neale Hurston to public attention while building her own body of fiction, essays, poetry, and activism. Her page should not reduce her to a prize list. It should ask what it means to write when the people you need as ancestors have been buried by the archive.</p>
+    <div class="entry-badges">
+      <span class="badge">People</span>
+      <span class="badge">1944 - present</span>
     </div>
-    <div class="sources">
-      <h3>Research Ledger</h3>
-      <ul>
-<li><a href="https://www.poetryfoundation.org/poets/alice-walker" target="_blank" rel="noopener noreferrer">https://www.poetryfoundation.org/poets/alice-walker</a></li>
-<li><a href="https://www.womenshistory.org/education-resources/biographies/alice-walker" target="_blank" rel="noopener noreferrer">https://www.womenshistory.org/education-resources/biographies/alice-walker</a></li>
-      </ul>
+    <div class="hero-bar"></div>
+  </div>
+
+  <div class="timeline-strip">
+    <div class="timeline-label">Key Dates</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">Feb 9, 1944</div><div class="tl-event">Born in Eatonton, Georgia.</div></div>
+<div class="tl-item"><div class="tl-date">1961</div><div class="tl-event">Enrolls at Spelman College before later transferring to Sarah Lawrence College.</div></div>
+<div class="tl-item"><div class="tl-date">1965</div><div class="tl-event">Graduates from Sarah Lawrence and becomes active in civil-rights and voting-rights work.</div></div>
+<div class="tl-item"><div class="tl-date">1970</div><div class="tl-event">Publishes The Third Life of Grange Copeland.</div></div>
+<div class="tl-item"><div class="tl-date">1973</div><div class="tl-event">Publishes In Love and Trouble and searches for Zora Neale Hurston&#039;s grave.</div></div>
+<div class="tl-item"><div class="tl-date">1982</div><div class="tl-event">Publishes The Color Purple.</div></div>
+<div class="tl-item"><div class="tl-date">1983</div><div class="tl-event">Wins the Pulitzer Prize for Fiction and the National Book Award.</div></div>
+<div class="tl-item"><div class="tl-date">1983</div><div class="tl-event">Publishes In Search of Our Mothers&#039; Gardens, developing womanist thought.</div></div>
     </div>
-    <a class="challenge-link" href="../../index.html?day=2026-06-25">Open The Challenge</a>
-  </article>
+  </div>
+
+  <div class="bio-section">
+    <div class="section-title">Full Story</div>
+<p>Alice Walker grew up in Eatonton, Georgia, the youngest child in a sharecropping family. The South she entered was segregated, rural, intimate, and violent in both visible and quieter ways. A childhood injury left her blind in one eye, and that experience shaped how she thought about beauty, isolation, observation, and the inward lives people hide from the world.</p>
+<p>Walker attended Spelman College and then Sarah Lawrence College. She came of age in the civil-rights era and worked in the South on voting rights and community organizing. That political context matters because her writing was never detached from public life. Her fiction often studies what public systems do to private feeling: poverty inside families, racism inside desire, sexism inside religious and domestic spaces, and survival inside the body.</p>
+<p>Her early novels and stories made Black women central in ways American literature had often refused. Walker wrote about women who were poor, rural, queer, wounded, funny, spiritual, angry, and creative. She did not make them symbols of respectability. She let them be complicated. That was part of the force of The Color Purple, published in 1982. The novel uses letters, voice, intimacy, and directness to follow Celie through abuse, separation, love, self-recognition, and community. Its success brought Walker the Pulitzer Prize for Fiction and the National Book Award.</p>
+<p>The book also brought argument. Some readers and critics objected to its depictions of Black men, sexuality, violence, and religion. Others defended the novel as a necessary telling of Black women&#039;s experiences that had too often been silenced in the name of racial unity. The controversy is part of the history. Walker&#039;s work asks whether a community can face harm inside itself without handing racist systems a weapon. That question does not have an easy answer, which is why the work still matters.</p>
+<p>Walker also changed literary memory through recovery work. In the 1970s, she helped bring renewed attention to Zora Neale Hurston, whose books had fallen out of print and whose grave was unmarked. Walker traveled to Florida, found the cemetery where Hurston was buried, and helped mark the grave. Her essay on Hurston did not simply praise a predecessor. It argued that Black women writers need ancestors, and that the archive itself had been shaped by neglect.</p>
+<p>That recovery work changed how later readers met Hurston, but it also revealed Walker&#039;s own method. She looked for what official institutions had not protected. She treated gardens, quilts, letters, graves, stories, mothers, and foremothers as evidence. The archive, in Walker&#039;s hands, was not only a university box or a library catalog. It was also a set of living relationships between women whose creativity survived under conditions that rarely called it art.</p>
+<p>That method also shaped how she read ordinary Black women&#039;s labor. Walker saw art in gardens, domestic work, storytelling, and survival practices that had not been welcomed into museums or syllabi. Her writing asks readers to notice how much creativity was spent simply keeping families alive and how often that creativity was dismissed because it did not arrive with institutional permission.</p>
+<p>The word &quot;womanist,&quot; which Walker developed in In Search of Our Mothers&#039; Gardens, gave readers a language rooted in Black women&#039;s experience, creativity, and community. It was not a neat replacement for feminism. It was a challenge to feminist movements that had ignored race and to Black political movements that had minimized gender and sexuality.</p>
+<p>Walker&#039;s later public life has included activism, essays, spiritual searching, and controversy. A full page should not pretend every position she has taken is universally accepted. It should say that her central contribution remains major: she expanded the room available to Black women&#039;s voices and insisted that recovery itself is a literary act.</p>
+  </div>
+
+  <div class="pull-quote">
+    <div class="pq-bar"></div>
+    <blockquote>Womanist is to feminist as purple is to lavender.</blockquote>
+    <cite>Alice Walker, In Search of Our Mothers&#039; Gardens</cite>
+  </div>
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>Walker&#039;s work carried personal and public cost. Writing honestly about abuse, sexuality, color, religion, and Black family life brought criticism from people who feared such stories would be used against Black communities. Her recovery of Hurston also required confronting how literary institutions had neglected Black women while still claiming authority over the canon.</p>
+<p>The impact is wide. Walker helped return Hurston to classrooms, libraries, and public memory. The Color Purple became a major novel, film, musical, and cultural reference point. Womanist thought gave scholars, artists, and ordinary readers a vocabulary for Black women&#039;s lives that did not ask them to choose between race, gender, spirit, and community.</p>
+  </div>
+
+  <div class="why-section">
+    <div class="why-label">Why It Matters Today</div>
+<p>Walker matters today because archives still shape who gets to be considered important. When a writer disappears from print, when a grave goes unmarked, when a life is treated as marginal, later readers inherit a distorted map. Walker did not only write her own books. She changed the map.</p>
+<p>Her work also helps readers think about truth-telling inside community. The pressure to protect a group from racist judgment can make certain stories feel dangerous to tell. Walker&#039;s fiction argues that silence has a cost too. Black women&#039;s pain, desire, imagination, and pleasure cannot be postponed until the world becomes fair enough to hear them.</p>
+<p>The page should leave readers understanding that literature is not only decoration. It is memory work, argument, inheritance, and sometimes repair.</p>
+  </div>
+
+  <div class="section-divider"><span>Explore More</span></div>
+  <div class="connected-section">
+    <div class="section-title">Connected To</div>
+    <a href="../../index.html?day=2026-06-25" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; June 25</div>
+        <div class="quiz-card-title">Open the daily challenge for Alice Walker</div>
+      </div>
+      <div class="quiz-card-icon">&#x2192;</div>
+    </a>
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../../encyclopedia/zora-neale-hurston.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Zora Neale Hurston</div>
+        <div class="connected-desc">The writer Walker helped return to public attention.</div>
+      </a>
+<a href="../../encyclopedia/toni-morrison.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Toni Morrison</div>
+        <div class="connected-desc">Another novelist who transformed the center of American literature.</div>
+      </a>
+<a href="../../encyclopedia/gwendolyn-brooks.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Gwendolyn Brooks</div>
+        <div class="connected-desc">Black women&#039;s literary authority across poetry, neighborhood, and public life.</div>
+      </a>
+<a href="../../generated/pages/black-arts-movement.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Arts Movement</div>
+        <div class="connected-desc">The broader fight over Black audiences, publishing, and self-definition.</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-divider"><span>Learn More</span></div>
+  <div class="external-section">
+    <div class="section-title">External Links</div>
+    <div class="external-links">
+<a href="https://www.poetryfoundation.org/poets/alice-walker" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Poetry Foundation</div>
+          <div class="ext-title">Alice Walker biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.georgiaencyclopedia.org/articles/arts-culture/alice-walker-b-1944/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">New Georgia Encyclopedia</div>
+          <div class="ext-title">Alice Walker biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/alice-walker" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Alice Walker biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.loc.gov/item/94838388/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Library of Congress</div>
+          <div class="ext-title">Alice Walker reads from her work</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
+  </div>
 </main>
-<footer><div class="pan-stripe" style="height:3px"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div></footer>
+<footer>
+  <p>&copy; 2026 <a href="../../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
+  <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
+</footer>
 </body>
 </html>

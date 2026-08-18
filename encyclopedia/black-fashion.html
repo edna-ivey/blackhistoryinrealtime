@@ -3,79 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Black Fashion & Cultural Appropriation — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Cornrows were mocked and banned on Black children in schools. Gold teeth were used in mug shots to signal criminality. Baggy jeans meant prison. Durag">
+<title>Black Fashion and Cultural Appropriation - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Black fashion is not only what people wear. It is a record of labor, survival, refusal, beauty, business, and being seen. Headwraps, Sunday best, zoot suits, denim, sneakers, streetwear, braids, church hats, hoop earrings, couture, and hip-hop style all carry histories of identity and power. The appropriation conversation can get flattened into &quot;who is allowed to wear what.&quot; The deeper question is sharper: why are Black people punished for styles that become profitable, fashionable, or respectable when removed from Black bodies? This page follows Black style as artistry and archive, from dressmakers and designers to everyday communities whose looks changed the world.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--purple),var(--red));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;transition:all 0.2s;}
-.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
-.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
-.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
-.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
-.external-section{}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="black-fashion">
@@ -100,101 +79,137 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="breadcrumb">
     <a href="../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>February 16 · Culture & Commerce</span>
+    <span>February 16 &middot; Culture</span>
   </div>
   <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
   <div class="entry-hero">
-    <div class="entry-vol-label">February 16 · Culture & Commerce</div>
-    <h1>Black Fashion & Cultural Appropriation</h1>
-    <p class="entry-tagline">Cornrows were mocked and banned on Black children in schools. Gold teeth were used in mug shots to signal criminality. Baggy jeans meant prison. Durags were dress-code violations. Then the fashion industry discovered all of it and called it a trend — without naming who created it.</p>
+    <div class="entry-vol-label">February 16 &middot; Culture</div>
+    <h1>Black Fashion and Cultural Appropriation</h1>
+    <p class="entry-tagline">Black fashion is not only what people wear. It is a record of labor, survival, refusal, beauty, business, and being seen. Headwraps, Sunday best, zoot suits, denim, sneakers, streetwear, braids, church hats, hoop earrings, couture, and hip-hop style all carry histories of identity and power. The appropriation conversation can get flattened into &quot;who is allowed to wear what.&quot; The deeper question is sharper: why are Black people punished for styles that become profitable, fashionable, or respectable when removed from Black bodies? This page follows Black style as artistry and archive, from dressmakers and designers to everyday communities whose looks changed the world.</p>
     <div class="entry-badges">
       <span class="badge">Culture</span>
-      <span class="badge">Ongoing</span>
+      <span class="badge">1800s - present</span>
     </div>
     <div class="hero-bar"></div>
   </div>
+
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
-    <div class="timeline-items"><div class="tl-item"><div class="tl-date">Pre-1800s</div><div class="tl-event">African braiding traditions including cornrows arrive in the Americas with enslaved people</div></div>
-<div class="tl-item"><div class="tl-date">1960s–70s</div><div class="tl-event">Afros, dashikis, and natural hair assert Black identity during civil rights and Black Power movements</div></div>
-<div class="tl-item"><div class="tl-date">1980s–90s</div><div class="tl-event">Hip-hop fashion: baggy clothes, gold jewelry, durags, timberlands — simultaneously celebrated in music, criminalized in policy</div></div>
-<div class="tl-item"><div class="tl-date">2000s</div><div class="tl-event">High fashion adopts cornrows, box braids, oversized silhouettes — crediting 'streetwear' not Black communities</div></div>
-<div class="tl-item"><div class="tl-date">2019</div><div class="tl-event">CROWN Act introduced to ban discrimination based on natural hair in schools and workplaces</div></div>
-<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Black aesthetics drive global fashion; Black designers remain systematically underfunded</div></div>
-</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1800s</div><div class="tl-event">Black dressmakers, laundresses, seamstresses, and tailors build skill under slavery and after emancipation.</div></div>
+<div class="tl-item"><div class="tl-date">1868</div><div class="tl-event">Elizabeth Keckley publishes Behind the Scenes, documenting her life and work as a dressmaker and public figure.</div></div>
+<div class="tl-item"><div class="tl-date">1930s-1940s</div><div class="tl-event">The zoot suit emerges from Black and Latino working-class style and becomes a flashpoint during wartime.</div></div>
+<div class="tl-item"><div class="tl-date">1950s-1960s</div><div class="tl-event">Ann Lowe and other Black designers create high fashion while facing industry erasure.</div></div>
+<div class="tl-item"><div class="tl-date">1958</div><div class="tl-event">Ebony Fashion Fair begins bringing high fashion to Black audiences and fundraising for Black communities.</div></div>
+<div class="tl-item"><div class="tl-date">1966</div><div class="tl-event">Lois K. Alexander-Lane establishes the Harlem Institute of Fashion.</div></div>
+<div class="tl-item"><div class="tl-date">1979</div><div class="tl-event">Alexander-Lane founds the Black Fashion Museum in Harlem.</div></div>
+<div class="tl-item"><div class="tl-date">1980s-1990s</div><div class="tl-event">Designers and streetwear innovators such as Patrick Kelly, Willi Smith, Dapper Dan, Cross Colours, and others reshape fashion.</div></div>
+<div class="tl-item"><div class="tl-date">2007</div><div class="tl-event">The Black Fashion Museum collection is donated to NMAAHC.</div></div>
+<div class="tl-item"><div class="tl-date">2016-2017</div><div class="tl-event">The Museum at FIT presents Black Fashion Designers, highlighting more than 60 designers.</div></div>
+    </div>
   </div>
+
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>The history of Black fashion in America is inseparable from the history of Black identity, resistance, and survival. Enslaved people maintained African aesthetic traditions — braiding patterns, the use of fabric and color with cultural meaning, head wraps — under conditions that often prohibited them. After emancipation, clothing became one of the first accessible avenues of self-expression and status, and Black Americans developed distinctive styles that were simultaneously expressions of dignity and responses to a world that kept trying to strip it away. The Harlem Renaissance of the 1920s produced one of the first fully documented moments of Black fashion as conscious cultural statement: the zoot suit, the drape, the deliberate opulence of men who were supposed to be invisible.</p>
-<p>Cornrows are probably the single most documented example of how Black hairstyles move through American culture. The braiding technique originated in Africa, traveled to the Americas with enslaved people, and has been documented in Black American communities continuously since. For most of American history, cornrows were associated exclusively with Black people and were subject to negative social treatment: professional dress codes that prohibited them, school rules that required Black children to straighten or cover their hair, and a persistent cultural message that the natural texture and styling of Black hair was unprofessional. When Bo Derek wore cornrows in the 1979 film '10,' mainstream American media called it an exotic new trend. The pattern has repeated with braids, locs, box braids, Bantu knots, and the Afro: scorned on Black people, celebrated when adopted by white celebrities or luxury fashion brands.</p>
-<p>The criminalization of Black fashion is a parallel and equally documented history. During the War on Drugs in the 1980s and 1990s, specific clothing items associated with Black and Latino youth — baggy jeans, hoodies, certain sneaker brands, durags — were incorporated into criminal profiling logic in ways that were explicit in some jurisdictions and implicit in others. School dress codes banned clothing that was associated with gang activity, which in practice meant clothing associated with Black and Latino youth culture. Meanwhile, the same styles were appearing in music videos, on runways, and in advertising targeted at white suburban youth, where they were understood as cool rather than criminal. Trayvon Martin was wearing a hoodie when he was killed in 2012. The image of the hoodie became a civil rights symbol not because hoodies are inherently political, but because the gap between how they read on a Black teenager and a white one was so stark.</p>
-<p>The CROWN Act — Creating a Respectful and Open World for Natural Hair — was introduced in the U.S. Senate in 2019 to prohibit discrimination based on hair texture and protective hairstyles. It addresses an ongoing and documented problem: Black employees losing jobs or being denied employment because of natural hair, locs, braids, or afros; Black children being suspended or sent home from school for wearing their hair in culturally traditional styles. As of 2024, roughly 24 states have passed some version of the CROWN Act. It has not passed at the federal level. The need for a law prohibiting discrimination against natural Black hair in 2024 is itself a data point.</p>
-<p>In fashion as in music, the economic dimension matters. Black designers — Virgil Abloh, Patrick Kelly, Ann Lowe, Willi Smith, Romeo Hunte, Kerby Jean-Raymond — have consistently created work that influenced industry trends while being systematically denied the financing, retail access, and media coverage available to white designers working in similar aesthetics. Ann Lowe designed Jacqueline Kennedy's wedding dress in 1953 and was not credited in most press coverage. Virgil Abloh became the first Black American artistic director of Louis Vuitton Men's in 2018, 163 years after the brand's founding, and died in 2021. The system that extracts Black aesthetic innovation while limiting Black economic participation in the industries that benefit from it is not a flaw. For much of fashion history, it has been the operating model.</p>
-
+<p>Black fashion history begins with constraint and invention. Under slavery, clothing could mark status, labor, surveillance, and control. After emancipation, dress became one way to claim dignity in public space. Sunday best, uniforms, work clothes, school clothes, lodge regalia, and church hats all carried messages about respectability, aspiration, community, and self-possession.</p>
+<p>Black skill in clothing work was often hidden inside someone else&#039;s status. Elizabeth Keckley, who purchased freedom for herself and her son, became a noted Washington dressmaker and worked for Mary Todd Lincoln. Ann Lowe designed gowns for elite clients, including Jacqueline Bouvier Kennedy&#039;s wedding party, while her name was often omitted from public credit. Their stories show that Black fashion history includes technical mastery and business intelligence, not only style inspiration.</p>
+<p>Fashion has also been a language of refusal. The zoot suit grew from Black and Latino working-class style and jazz culture. Its excess fabric and dramatic shape challenged wartime austerity, racial containment, and the demand that marginalized young people remain invisible. Smithsonian writing notes that the suit&#039;s political meaning came partly from claiming space. Clothing could become a public argument without a speech.</p>
+<p>In the 20th century, Black designers and entrepreneurs built institutions to preserve what the mainstream industry ignored. Lois K. Alexander-Lane founded the Harlem Institute of Fashion and later the Black Fashion Museum. NMAAHC now holds that collection, which includes garments, accessories, costumes, and textiles created or worn by Black designers, makers, entertainers, and everyday people. The collection itself is an answer to erasure: if the industry will not remember, communities must archive themselves.</p>
+<p>The Museum at FIT&#039;s Black Fashion Designers exhibition made another correction. It rejected the idea that there is one &quot;Black style.&quot; Designers of African descent have worked in couture, sportswear, streetwear, millinery, tailoring, avant-garde design, African diasporic reference, accessible clothing, and luxury fashion. The point is not sameness. The point is that Black designers have shaped fashion while being treated as exceptions or trend sources rather than central makers.</p>
+<p>Everyday style matters as much as famous names. A pressed suit for church, a school outfit chosen with care, a fresh haircut before a photograph, or a hat worn to a funeral can carry the same historical force as a runway garment. Under segregation, looking sharp could be protection and declaration at once. During the Black freedom struggle, denim, natural hair, African textiles, dark suits, choir robes, and uniforms all communicated different politics of dignity, militancy, faith, and group discipline.</p>
+<p>Appropriation enters when style travels through unequal power. Cornrows, durags, hoop earrings, long nails, sneakers, grills, oversized silhouettes, and streetwear aesthetics have been called unprofessional, threatening, or low-class on Black people, then praised as edgy or chic elsewhere. Hair has been especially policed. Schools and workplaces have punished Black natural hair and protective styles while fashion magazines and runways borrow the look for novelty.</p>
+<p>Fashion images also decide who gets imagined as modern. Magazines, department stores, costume collections, and museum archives have long shaped public taste. When Black designers and wearers are absent from those records, the absence can make later generations think innovation began only when white institutions noticed it.</p>
+<p>The line between exchange and exploitation is not always simple. Black fashion itself is global, improvisational, and constantly borrowing. But power decides who gets punished, paid, copied, and named. When Black communities create style under pressure and companies profit without credit or opportunity, the issue is not inspiration. It is extraction.</p>
+<p>Black fashion history is therefore not a list of trends. It is a history of making the body speak in a country that has tried to regulate Black visibility. Style can protect, provoke, seduce, mourn, celebrate, sell, and remember. It can also be taken. The work is to see the maker, not only the look.</p>
   </div>
-  <div class="pull-quote">
-<div class="pq-bar"></div>
-<blockquote>Our ancestors braided maps into their hair to navigate to freedom. Black hair has always been political. It has always been resistance. It has always been ours.</blockquote>
-<cite>Natural hair activist, on the history of protective hairstyles</cite>
-</div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost of Black fashion has included erased authorship, workplace and school discipline, undercapitalized businesses, racialized beauty standards, and the theft of street and community style by larger industries. Black designers have had to fight for credit while Black consumers and workers often pay social penalties for the same looks fashion later sells.</p>
+<p>The impact is global. Black style has shaped American elegance, streetwear, luxury fashion, music visuals, beauty industries, sportswear, hair culture, and digital aesthetics. It has also produced archives and institutions, from Ebony Fashion Fair to the Black Fashion Museum collection, that preserve what the market often forgets.</p>
+  </div>
+
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>Black fashion history matters because it shows how aesthetic culture is both extracted and policed simultaneously — the same style that gets a Black teenager profiled gets a white fashion brand a feature in Vogue. Understanding this pattern doesn't require any single villain. It requires understanding that cultural power flows from communities to industries, and that the communities who originate the culture rarely see proportional economic or reputational return. The CROWN Act fight illustrates where this lands in 2024: we are still passing laws to tell employers that Black people's natural hair is not a reason to fire them. That is how recent this history is, and how present.</p>
+<p>Black fashion matters today because style is still a battleground over who gets to be seen. Dress codes, hair policies, luxury branding, influencer culture, and runway references all carry older questions about Black respectability, creativity, and ownership.</p>
+<p>The appropriation debate matters most when it follows power rather than scolding individuals. Who created the style? Who was punished for it? Who profits? Who is called original? Who gets hired? Those questions move the conversation from taste to history.</p>
+<p>A reader should leave understanding Black fashion as design, archive, business, and public language. It is not a costume closet for the culture. It is a record of people making beauty under watch.</p>
   </div>
+
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../index.html?day=2026-02-16" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz &middot; Day 16</div>
-        <div class="quiz-link-title">Test your knowledge on Black Fashion & Cultural Appropriation</div>
+    <a href="../index.html?day=2026-02-16" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; February 16</div>
+        <div class="quiz-card-title">Open the daily challenge for Black Fashion and Cultural Appropriation</div>
       </div>
-      <span class="quiz-link-arrow">&#x270A;&#x1F3FE;</span>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;">
-      <!-- connections auto-generated by encyclopedia-data.js -->
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../generated/pages/ann-lowe.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Ann Lowe</div>
+        <div class="connected-desc">A Black couturier whose work shows the cost of erased authorship.</div>
+      </a>
+<a href="../generated/pages/elizabeth-keckley.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Elizabeth Keckley</div>
+        <div class="connected-desc">Connects fashion labor, freedom, and public reputation in the Civil War era.</div>
+      </a>
+<a href="../encyclopedia/aave.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">AAVE and Linguistic Culture</div>
+        <div class="connected-desc">Another Black cultural form borrowed while its originators are judged.</div>
+      </a>
+<a href="../encyclopedia/black-dance.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Black Dance Culture</div>
+        <div class="connected-desc">Movement and dress often travel together through Black popular culture.</div>
+      </a>
     </div>
   </div>
+
   <div class="section-divider"><span>Learn More</span></div>
   <div class="external-section">
     <div class="section-title">External Links</div>
-    <div class="external-links"><a href="https://www.history.com/articles/black-hairstyles-visual-history-in-photos" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">A Visual History of Iconic Black Hairstyles — Cornrows, Afros, Dreadlocks and Cultural Appropriation</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.history.com/articles/black-dandy-fashion-met-gala-theme" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">For the Black Dandy, Fine Clothes Asserted Dignity — Black Fashion as Cultural Resistance</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.smithsonianmag.com/blogs/smithsonian-center-folklife-cultural-heritage/2022/12/15/black-hair-identity/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">Why Black Hairstyles Represent a Crowning Achievement — The CROWN Act and Natural Hair Identity</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-</div>
+    <div class="external-links">
+<a href="https://nmaahc.si.edu/explore/collection/black-fashion-museum" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">The Black Fashion Museum at NMAAHC</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nmaahc.si.edu/explore/exhibitions/cultural-expressions" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Museum of African American History and Culture</div>
+          <div class="ext-title">Cultural Expressions</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://exhibitions.fitnyc.edu/exhibitions-timeline/black-fashion-designers/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">The Museum at FIT</div>
+          <div class="ext-title">Black Fashion Designers exhibition</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.smithsonianmag.com/arts-culture/brief-history-zoot-suit-180958507/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">Smithsonian Magazine</div>
+          <div class="ext-title">A Brief History of the Zoot Suit</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
   </div>
 </main>
 <footer>
-  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

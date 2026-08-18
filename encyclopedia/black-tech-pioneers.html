@@ -3,79 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Black Tech Pioneers — Black History in Real Time Encyclopedia</title>
-<meta name="description" content="Katherine Johnson's calculations sent humans to the moon. Mark Dean co-invented the IBM PC and held three of its nine original patents. Clarence Ellis">
+<title>Black Tech Pioneers - Black History in Real Time Encyclopedia</title>
+<meta name="description" content="Black technology history is often told as a list of hidden names. That recovery matters, but it is only the first step. Black engineers, mathematicians, programmers, and inventors helped build the systems that made modern computing, aerospace, personal computers, groupware, and digital infrastructure possible. Katherine Johnson calculated trajectories. Clarence &quot;Skip&quot; Ellis became the first African American to earn a PhD in computer science. Mark Dean helped shape the IBM PC and high-speed computing. Their stories also reveal the gatekeeping around who was imagined as technical. The work was never only genius. It was access, mentorship, patents, labs, credit, and the right to ask questions in rooms that were not built for them.">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-:root{--red:#C41E3A;--black:#0A0A0A;--green:#1A5C38;--gold:#D4A017;--orange:#E8621A;--cream:#F5EDD8;--white:#FAFAFA;--card-bg:#161616;--border:rgba(212,160,23,0.2);--purple:#6B2D8B;}
-*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
-body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
-.pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
-header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
-.header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
-.logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
-.logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);animation:glow 3s ease-in-out infinite;flex-shrink:0;}
-@keyframes glow{0%,100%{box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(212,160,23,0.3);}50%{box-shadow:0 0 0 2px var(--gold),0 0 32px rgba(212,160,23,0.6);}}
-.logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
-.logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
-nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;}nav::-webkit-scrollbar{display:none;}
-nav a{background:none;border:none;border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;cursor:pointer;transition:all 0.2s;white-space:nowrap;text-decoration:none;display:inline-block;}
-nav a:hover{color:var(--cream);}nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
-main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
-.breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
-.back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all 0.2s;}
-.back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
-.entry-hero{margin-bottom:48px;animation:fadeUp 0.5s ease both;}
-.entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-.entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
-.entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
-.entry-badges{display:flex;gap:10px;flex-wrap:wrap;}
-.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
-.hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--orange),var(--gold));}
-.timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp 0.5s ease 0.1s both;}
-.timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
-.timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
-.tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}
-.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
-.bio-section{animation:fadeUp 0.5s ease 0.15s both;}
-.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
-.bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
-.pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
-.pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
-.pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}
-.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
-.why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:48px 0;}
-.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-.why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);}
-.section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}
-.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}
-.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
-.connected-section{animation:fadeUp 0.5s ease 0.2s both;}
-.connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
-.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all 0.2s;position:relative;}
-.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}
-.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
-.connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}
-.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}
-.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
-.quiz-link-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.06);border:1px solid rgba(196,30,58,0.2);border-radius:14px;padding:20px 24px;text-decoration:none;transition:all 0.2s;}
-.quiz-link-card:hover{border-color:var(--red);transform:translateY(-2px);}
-.quiz-link-label{font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:rgba(196,30,58,0.7);margin-bottom:4px;}
-.quiz-link-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);}
-.quiz-link-arrow{color:var(--red);font-size:1.4rem;flex-shrink:0;}
-.external-section{}
-.external-links{display:flex;flex-direction:column;gap:10px;}
-.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all 0.2s;}
-.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
-.ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
-.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}
-.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
-footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;}
-footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}footer a{color:var(--gold);text-decoration:none;}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
-@media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
+  :root { --red:#C41E3A; --black:#0A0A0A; --green:#1A5C38; --gold:#D4A017; --orange:#E8621A; --cream:#F5EDD8; --white:#FAFAFA; --card-bg:#161616; --border:rgba(212,160,23,0.2); --purple:#6B2D8B; }
+  *{margin:0;padding:0;box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--black);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+  .pan-stripe{display:flex;height:6px;width:100%;}.pan-stripe .s1{background:var(--red);flex:1;}.pan-stripe .s2{background:#111;flex:1;}.pan-stripe .s3{background:var(--green);flex:1;}
+  header{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+  .header-inner{max-width:1100px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .logo-area{display:flex;align-items:center;gap:14px;text-decoration:none;}
+  .logo-img{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--gold),0 0 20px rgba(212,160,23,0.3);flex-shrink:0;}
+  .logo-text h1{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;color:var(--white);line-height:1;}.logo-text h1 span{color:var(--gold);}
+  .logo-text p{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-top:1px;}
+  nav{border-top:1px solid rgba(212,160,23,0.1);display:flex;justify-content:center;gap:0;padding:0 32px;overflow-x:auto;scrollbar-width:none;} nav::-webkit-scrollbar{display:none;}
+  nav a{border-bottom:3px solid transparent;color:rgba(245,237,216,0.45);font-size:0.78rem;letter-spacing:2.5px;text-transform:uppercase;padding:12px 18px;white-space:nowrap;text-decoration:none;display:inline-block;transition:all .2s;}
+  nav a:hover{color:var(--cream);} nav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+  main{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:48px 32px 100px;}
+  .breadcrumb{font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(245,237,216,0.35);margin-bottom:32px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .breadcrumb a{color:var(--gold);text-decoration:none;}.breadcrumb a:hover{text-decoration:underline;}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,0.06);border:1px solid var(--border);border-radius:100px;padding:8px 18px;color:var(--gold);font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;text-decoration:none;margin-bottom:40px;transition:all .2s;}
+  .back-btn:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5);}
+  .entry-hero{margin-bottom:48px;animation:fadeUp .5s ease both;}
+  .entry-vol-label{font-size:0.68rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
+  .entry-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.4rem,6vw,4rem);font-weight:900;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .entry-tagline{font-size:1.05rem;line-height:1.75;color:rgba(245,237,216,0.65);margin-bottom:24px;}
+  .entry-badges{display:flex;gap:10px;flex-wrap:wrap;}.badge{background:rgba(212,160,23,0.08);border:1px solid rgba(212,160,23,0.2);border-radius:100px;padding:5px 14px;font-size:0.68rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.7);}
+  .hero-bar{height:4px;width:100%;margin-top:32px;border-radius:2px;background:linear-gradient(90deg,var(--red),var(--gold));}
+  .timeline-strip{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:28px 28px 20px;margin-bottom:48px;animation:fadeUp .5s ease .1s both;}
+  .timeline-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .timeline-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;}
+  .tl-date{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:2px;color:var(--gold);line-height:1;margin-bottom:4px;}.tl-event{font-size:0.78rem;line-height:1.5;color:rgba(245,237,216,0.6);}
+  .bio-section{animation:fadeUp .5s ease .15s both;}.section-title{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:5px;color:var(--white);margin-bottom:20px;}
+  .bio-section p{font-size:0.98rem;line-height:1.85;color:rgba(245,237,216,0.78);margin-bottom:20px;}
+  .pull-quote{background:var(--card-bg);border:1px solid var(--border);border-left:none;border-radius:0 16px 16px 0;padding:28px 28px 28px 32px;margin:36px 0;position:relative;}
+  .pq-bar{position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--red),var(--gold));border-radius:2px 0 0 2px;}
+  .pull-quote blockquote{font-family:'Playfair Display',serif;font-size:1.1rem;font-style:italic;line-height:1.7;color:var(--cream);margin-bottom:12px;}.pull-quote cite{font-size:0.72rem;letter-spacing:2px;text-transform:uppercase;color:rgba(212,160,23,0.6);}
+  .why-section{background:rgba(196,30,58,0.05);border:1px solid rgba(196,30,58,0.15);border-radius:16px;padding:32px;margin:40px 0;}.why-label{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+  .why-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.why-section p:last-child{margin-bottom:0;}
+  .cost-section{background:rgba(180,90,0,0.06);border:1px solid rgba(180,90,0,0.2);border-radius:16px;padding:32px;margin:24px 0;}.cost-label{font-size:0.65rem;text-transform:uppercase;color:#b45a00;margin-bottom:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:3px;}
+  .cost-section p{font-size:0.95rem;line-height:1.8;color:rgba(245,237,216,0.72);margin-bottom:14px;}.cost-section p:last-child{margin-bottom:0;}
+  .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0 32px;}.section-divider span{font-size:0.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(212,160,23,0.4);white-space:nowrap;}.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,160,23,0.2),transparent);}
+  .connected-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}.connected-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px;text-decoration:none;display:block;transition:all .2s;position:relative;}.connected-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:12px 12px 0 0;}.connected-card:hover{border-color:rgba(212,160,23,0.5);transform:translateY(-2px);}
+  .connected-type{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:rgba(212,160,23,0.5);margin-bottom:6px;}.connected-name{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:700;color:var(--white);line-height:1.3;margin-bottom:6px;}.connected-desc{font-size:0.78rem;line-height:1.55;color:rgba(245,237,216,0.5);}
+  .quiz-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:rgba(196,30,58,0.12);border:1px solid rgba(196,30,58,0.3);border-radius:12px;padding:20px 22px;text-decoration:none;transition:all .2s;margin-bottom:12px;}.quiz-card:hover{background:rgba(196,30,58,0.2);border-color:rgba(196,30,58,0.6);transform:translateY(-2px);}
+  .quiz-card-label{font-size:0.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px;}.quiz-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);line-height:1.3;}.quiz-card-icon{font-size:1.6rem;flex-shrink:0;color:var(--gold);}
+  .external-links{display:flex;flex-direction:column;gap:10px;}.ext-link{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:18px 22px;text-decoration:none;transition:all .2s;}.ext-link:hover{border-color:rgba(212,160,23,0.5);transform:translateX(4px);}
+  .ext-source{font-size:0.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}.ext-title{font-size:0.88rem;color:var(--cream);line-height:1.4;}.ext-arrow{color:var(--gold);font-size:1.1rem;flex-shrink:0;}
+  footer{position:relative;z-index:1;border-top:1px solid rgba(212,160,23,0.15);padding:28px 32px;text-align:center;} footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;} footer a{color:var(--gold);text-decoration:none;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+  @media(max-width:620px){.header-inner{padding:12px 16px;}nav{padding:0 16px;justify-content:flex-start;}nav a{padding:10px 12px;font-size:0.72rem;}main{padding:32px 16px 80px;}.timeline-items{grid-template-columns:1fr 1fr;}.connected-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body data-entry-id="black-tech-pioneers">
@@ -100,101 +79,137 @@ footer p{font-size:0.72rem;color:rgba(245,237,216,0.28);letter-spacing:2px;}foot
   <div class="breadcrumb">
     <a href="../encyclopedia.html">Encyclopedia</a>
     <span>&#x203A;</span>
-    <span>February 20 · Technology & Innovation</span>
+    <span>February 20 &middot; Science</span>
   </div>
   <a href="../encyclopedia.html" class="back-btn">&#x2190; Back to Encyclopedia</a>
+
   <div class="entry-hero">
-    <div class="entry-vol-label">February 20 · Technology & Innovation</div>
+    <div class="entry-vol-label">February 20 &middot; Science</div>
     <h1>Black Tech Pioneers</h1>
-    <p class="entry-tagline">Katherine Johnson's calculations sent humans to the moon. Mark Dean co-invented the IBM PC and held three of its nine original patents. Clarence Ellis was the first Black American to earn a PhD in computer science and co-invented groupware — the technology that became Google Docs. You probably know one of these names. You should know all of them.</p>
+    <p class="entry-tagline">Black technology history is often told as a list of hidden names. That recovery matters, but it is only the first step. Black engineers, mathematicians, programmers, and inventors helped build the systems that made modern computing, aerospace, personal computers, groupware, and digital infrastructure possible. Katherine Johnson calculated trajectories. Clarence &quot;Skip&quot; Ellis became the first African American to earn a PhD in computer science. Mark Dean helped shape the IBM PC and high-speed computing. Their stories also reveal the gatekeeping around who was imagined as technical. The work was never only genius. It was access, mentorship, patents, labs, credit, and the right to ask questions in rooms that were not built for them.</p>
     <div class="entry-badges">
-      <span class="badge">People</span>
-      <span class="badge">1940s — Present</span>
+      <span class="badge">Collective</span>
+      <span class="badge">1950s - present</span>
     </div>
     <div class="hero-bar"></div>
   </div>
+
   <div class="timeline-strip">
     <div class="timeline-label">Key Dates</div>
-    <div class="timeline-items"><div class="tl-item"><div class="tl-date">1943</div><div class="tl-event">Black women hired as human computers at NACA — Dorothy Vaughan, Katherine Johnson, Mary Jackson, Christine Darden</div></div>
-<div class="tl-item"><div class="tl-date">1961</div><div class="tl-event">Katherine Johnson calculates Alan Shepard's Freedom 7 trajectory — first American in space</div></div>
-<div class="tl-item"><div class="tl-date">1969</div><div class="tl-event">Clarence Ellis becomes first Black American to earn a PhD in computer science (University of Illinois)</div></div>
-<div class="tl-item"><div class="tl-date">1980</div><div class="tl-event">Mark Dean co-develops the IBM PC; holds 3 of its 9 original patents</div></div>
-<div class="tl-item"><div class="tl-date">1999</div><div class="tl-event">Mark Dean leads team developing the first gigahertz microprocessor</div></div>
-<div class="tl-item"><div class="tl-date">Present</div><div class="tl-event">Black Americans represent 4.3% of engineering undergraduates despite being 13% of the U.S. population</div></div>
-</div>
+    <div class="timeline-items">
+<div class="tl-item"><div class="tl-date">1953</div><div class="tl-event">Katherine Johnson begins work at NACA Langley in the segregated West Area Computing section.</div></div>
+<div class="tl-item"><div class="tl-date">1960</div><div class="tl-event">Johnson coauthors a NASA technical report on orbital flight calculations.</div></div>
+<div class="tl-item"><div class="tl-date">1962</div><div class="tl-event">John Glenn asks Johnson to verify electronic computer calculations for Friendship 7.</div></div>
+<div class="tl-item"><div class="tl-date">1969</div><div class="tl-event">Clarence Ellis earns a PhD in computer science from the University of Illinois.</div></div>
+<div class="tl-item"><div class="tl-date">1975</div><div class="tl-event">National Society of Black Engineers is founded to support Black engineering students and professionals.</div></div>
+<div class="tl-item"><div class="tl-date">1979</div><div class="tl-event">Mark Dean joins IBM after graduating from the University of Tennessee.</div></div>
+<div class="tl-item"><div class="tl-date">1981</div><div class="tl-event">IBM introduces the 5150 PC; Dean holds three of the original PC patents.</div></div>
+<div class="tl-item"><div class="tl-date">1995</div><div class="tl-event">Dean becomes the first Black American IBM Fellow.</div></div>
+<div class="tl-item"><div class="tl-date">1997</div><div class="tl-event">Ellis becomes the first African American elected a Fellow of the Association for Computing Machinery.</div></div>
+<div class="tl-item"><div class="tl-date">2015</div><div class="tl-event">Johnson receives the Presidential Medal of Freedom.</div></div>
+    </div>
   </div>
+
   <div class="bio-section">
     <div class="section-title">Full Story</div>
-    <p>Katherine Johnson's story is the most famous of the group, largely because of Margot Lee Shetterly's 2016 book and the film Hidden Figures. But even Johnson's story was obscure for decades, because the work of the Black women mathematicians at NACA and NASA was deliberately kept invisible. When Johnson began working at Langley Research Center in 1953, the facility was racially segregated: she spent her first two weeks in the all-Black West Area Computing section, a pool of Black women mathematicians hired to perform calculations by hand for engineers who were often, as Shetterly notes, not as strong in mathematics as the women doing their calculations. Johnson was eventually moved into specific project work, where her contributions became foundational to the early space program.</p>
-<p>In 1961, Katherine Johnson calculated the flight trajectory for Alan Shepard's Freedom 7 mission — the first American in space. The following year, she performed the calculations for John Glenn's Friendship 7 orbital mission. Glenn, despite having access to the IBM electronic computers that NASA was beginning to use, reportedly refused to fly until 'the girl' — Johnson — had personally verified the computer's numbers. The machines were prone to errors. Glenn trusted Johnson. The mission was successful. When President Obama awarded Johnson the Presidential Medal of Freedom in 2015, she was 97 years old. NASA named a computational research facility after her in 2017. She died in 2020 at 101. Dorothy Vaughan and Mary Jackson have since had NASA's Washington headquarters renamed in their honor.</p>
-<p>Clarence Ellis is less well known, which is a significant omission. In 1969, he became the first Black American to earn a PhD in computer science, at the University of Illinois. He went on to work at Xerox PARC — the legendary Silicon Valley research lab where the computer mouse, the graphical user interface, laser printing, and Ethernet were developed — and co-invented OfficeTalk, the first operational groupware system: software that allows multiple people to work on the same document simultaneously from different locations. This is the technology that became Google Docs, Microsoft SharePoint, and virtually every collaborative software tool in use today. Clarence Ellis is not a household name in tech. He spent his career at a facility that produced some of the most influential inventions in computing history, and his contribution was foundational.</p>
-<p>Mark Dean entered IBM as a chief engineer in the early 1980s as part of the 12-person team that developed the first IBM PC. He holds three of the nine original patents on that machine — including the patent for the bus architecture that allows peripherals (keyboards, monitors, printers) to connect to a computer. He later led the team that developed the first gigahertz microprocessor in 1999, a chip that could perform a billion calculations per second. His work is embedded in virtually every personal computer and device that followed the IBM PC. He has also been an outspoken advocate for diversity in STEM, and has noted the irony of being one of the most patent-holding engineers in computer history while Black engineers remain significantly underrepresented in the field.</p>
-<p>The structural barriers that these individuals navigated are documented and ongoing. Katherine Johnson worked in a segregated facility, used separate bathrooms, and was initially assigned to a pool rather than to individual project work. Clarence Ellis attended graduate school in an era when Black academics were rarely advised toward computer science. Mark Dean has described experiences of being underestimated throughout his career. Today, according to the National Science Foundation, Black people account for 4.3 percent of U.S. engineering undergraduates and 7.45 percent of those employed in science and engineering — despite being 13 percent of the general population. Venture capital funding for Black founders is documented at less than 2 percent of total VC investment. The pipeline argument — that there are not enough qualified Black candidates — does not survive contact with the history of who built the field and who was systematically discouraged from entering it.</p>
-
+<p>Black tech history is not a contradiction. Black people were present in technical work long before the industry learned how to market diversity. The problem is that computing history often highlights machines, companies, and founders while treating the people who made calculations, standards, components, and systems as supporting cast. For Black pioneers, erasure could be doubled by race, gender, and job title.</p>
+<p>That work required entering fields that often treated Black intelligence as an exception. Students needed math teachers, scholarships, lab access, mentors, and hiring doors that were not evenly available. Black engineers and programmers frequently had to prove competence twice: once through the work itself and again against institutional doubt. Their achievements therefore belong not only to individual brilliance, but to families, Black schools, professional societies, and civil-rights pressure that pushed technical workplaces open.</p>
+<p>Katherine Johnson&#039;s work at NACA and NASA shows how computing once meant a person. She entered Langley in 1953, when Black women mathematicians worked in segregated conditions. Johnson asked questions, attended briefings, coauthored technical reports, calculated trajectories, and verified numbers for John Glenn&#039;s orbital flight. Her story is not simply that she was brilliant. It is that an institution depended on her precision while maintaining systems that had restricted Black women&#039;s opportunity.</p>
+<p>Clarence &quot;Skip&quot; Ellis shows another path through computing. MIT&#039;s Black history archive identifies Ellis as the first African American to earn a PhD in computer science, in 1969, and the first African American elected a Fellow of the Association for Computing Machinery. His research included operating systems, parallelism, groupware, and collaboration technology. Those fields shaped how people and machines work together, which means his influence reaches into the everyday logic of networked work.</p>
+<p>Mark Dean&#039;s work at IBM helps correct another blind spot. The personal computer is often remembered through company brands and consumer nostalgia. IBM&#039;s own history records that Dean joined the company in 1979, worked on the IBM PC, held three of the original PC patents, helped develop the ISA bus, and later contributed to a one-gigahertz processor. He became the first Black American IBM Fellow in 1995. Those are not symbolic achievements. They are infrastructure.</p>
+<p>These stories also show that technology is collective. Johnson worked within teams of mathematicians and engineers. Ellis moved through universities, labs, and companies. Dean&#039;s patents and leadership mattered inside large research ecosystems. The myth of the lone tech genius often hides the collaborative nature of technical work and makes it easier to erase people who do not match the expected image of the inventor.</p>
+<p>The archive is widening, but unevenly. NASA biographies, IBM institutional histories, university archives, oral histories, and professional organizations preserve different pieces of the record. Reading across them helps prevent one famous film, one patent list, or one corporate tribute from standing in for the whole field.</p>
+<p>Access was a recurring barrier. Segregated schools, discriminatory hiring, lack of mentors, and the cost of advanced education shaped who could enter technical fields. Organizations such as the National Society of Black Engineers emerged because talent was not enough if students were isolated, underfunded, or pushed out. Pipeline language can sound mechanical, but for Black technologists it often means community, scholarship, peer support, and survival.</p>
+<p>Black tech pioneers also challenge what counts as innovation. A trajectory calculation, a bus architecture, a collaboration system, a patent, a research report, a standard, or a mentorship network can all shape the future. Some achievements become products. Others become conditions that make products possible. The archive needs both.</p>
+<p>The point of this page is not to pretend the tech industry has overcome exclusion. It has not. Black workers remain underrepresented in many technical roles, and algorithmic systems can reproduce racial harm. The better lesson is that Black people helped build modern technology even when modern technology did not build fair pathways for them.</p>
   </div>
-  <div class="pull-quote">
-<div class="pq-bar"></div>
-<blockquote>We are living in a present that they willed into existence with their pencils, their slide rules, their mechanical calculating machines — and, of course, their brilliant minds.</blockquote>
-<cite>Margot Lee Shetterly, on Katherine Johnson and the NASA human computers</cite>
-</div>
+
+
+  <div class="cost-section">
+    <div class="cost-label">Cost / Impact</div>
+<p>The cost included segregated workplaces, isolation in advanced programs, stolen or delayed credit, and the pressure to prove competence in environments where mistakes by Black professionals were rarely treated as ordinary. Black technologists often had to build networks of support while doing the work itself.</p>
+<p>The impact is built into modern life. Spaceflight calculations, personal computing architecture, collaboration systems, engineering societies, patents, research reports, and technical mentorship all carry Black contributions. These pioneers changed not only what machines could do, but who could imagine themselves as builders.</p>
+  </div>
+
   <div class="why-section">
     <div class="why-label">Why It Matters Today</div>
-    <p>Black tech pioneers matter because they dismantle the foundational myth used to explain Black underrepresentation in STEM: that it is a matter of aptitude or interest rather than structural exclusion. Katherine Johnson was calculating orbital mechanics by hand at a time when the field was still developing the machines to do it. Clarence Ellis invented collaborative computing technology. Mark Dean helped design the personal computer. These are not people who were adjacent to tech history. They are people who were tech history, working in conditions of documented discrimination, producing contributions that are embedded in the technology you used today. The gap between their contributions and their recognition — and the ongoing underrepresentation in the field — is not explained by capability. It is explained by what the field has historically valued, funded, and credited.</p>
+<p>Black tech pioneers matter today because representation in technology is not only about who gets hired now. It is about correcting the origin story. If people are taught that computing was built only by white men in garages or corporate labs, they inherit a false map of innovation.</p>
+<p>Their history also asks harder questions about current systems. Who gets access to advanced math? Who is mentored? Who receives patent credit? Who is promoted from technical work into technical leadership? Who is harmed by the technologies being built?</p>
+<p>A reader should leave understanding that Black technologists were not visitors to the future. They were already helping design it.</p>
   </div>
+
   <div class="section-divider"><span>Explore More</span></div>
   <div class="connected-section">
     <div class="section-title">Connected To</div>
-    <a href="../index.html?day=2026-02-20" class="quiz-link-card">
-      <div class="quiz-link-left">
-        <div class="quiz-link-label">Take the Quiz &middot; Day 20</div>
-        <div class="quiz-link-title">Test your knowledge on Black Tech Pioneers</div>
+    <a href="../index.html?day=2026-02-20" class="quiz-card">
+      <div class="quiz-card-left">
+        <div class="quiz-card-label">Take the Quiz &middot; February 20</div>
+        <div class="quiz-card-title">Open the daily challenge for Black Tech Pioneers</div>
       </div>
-      <span class="quiz-link-arrow">&#x270A;&#x1F3FE;</span>
+      <div class="quiz-card-icon">&#x2192;</div>
     </a>
-    <div class="connected-grid" id="connectedGrid" style="margin-top:16px;">
-      <!-- connections auto-generated by encyclopedia-data.js -->
+    <div class="connected-grid" style="margin-top:0;">
+<a href="../encyclopedia/katherine-johnson.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Katherine Johnson</div>
+        <div class="connected-desc">A central figure in NASA mathematics and human spaceflight.</div>
+      </a>
+<a href="../generated/pages/annie-easley.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Annie Easley</div>
+        <div class="connected-desc">A NASA computer scientist and programmer whose work bridges energy and aerospace.</div>
+      </a>
+<a href="../generated/pages/benjamin-banneker.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Benjamin Banneker</div>
+        <div class="connected-desc">Connects early Black mathematics and astronomy to later technical history.</div>
+      </a>
+<a href="../encyclopedia/shirley-ann-jackson.html" class="connected-card">
+        <div class="connected-type">Related Entry</div>
+        <div class="connected-name">Shirley Ann Jackson</div>
+        <div class="connected-desc">Another Black scientist whose career reshaped advanced research and institutions.</div>
+      </a>
     </div>
   </div>
+
   <div class="section-divider"><span>Learn More</span></div>
   <div class="external-section">
     <div class="section-title">External Links</div>
-    <div class="external-links"><a href="https://www.nps.gov/articles/000/places-of-hidden-figures.htm" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">National Park Service</div><div class="ext-title">Places of Hidden Figures — Katherine Johnson and the Black Women Mathematicians of NASA</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.smithsonianmag.com/history/forgotten-black-women-mathematicians-who-helped-win-wars-and-send-astronauts-space-180960393/" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">Smithsonian Magazine</div><div class="ext-title">The Forgotten Black Women Who Helped Win Wars and Send Astronauts to Space</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-<a href="https://www.history.com/articles/8-black-inventors-african-american" target="_blank" rel="noopener" class="ext-link">
-  <div class="ext-left"><div class="ext-source">HISTORY.com</div><div class="ext-title">8 Black Inventors Who Changed Daily Life — Including Mark Dean and the IBM PC</div></div>
-  <span class="ext-arrow">&#x2197;</span>
-</a>
-</div>
+    <div class="external-links">
+<a href="https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">NASA</div>
+          <div class="ext-title">Katherine Johnson biography</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://www.ibm.com/history/mark-dean" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">IBM</div>
+          <div class="ext-title">Mark Dean</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://blackhistory.mit.edu/archive/clarence-ellis-1975" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">MIT Black History</div>
+          <div class="ext-title">Clarence Ellis, 1975</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+<a href="https://nsbe.org/about/" target="_blank" rel="noopener noreferrer" class="ext-link">
+        <div class="ext-left">
+          <div class="ext-source">National Society of Black Engineers</div>
+          <div class="ext-title">NSBE mission and history</div>
+        </div>
+        <span class="ext-arrow">&#x2197;</span>
+      </a>
+    </div>
   </div>
 </main>
 <footer>
-  <p>&#x00A9; 2026 <a href="/">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank">@blackhistoryinrealtime</a> &middot; History happens every day &#x1F4DA;&#x270A;&#x1F3FE;</p>
+  <p>&copy; 2026 <a href="../index.html">Black History in Real Time</a> &middot; <a href="https://instagram.com/blackhistoryinrealtime" target="_blank" rel="noopener noreferrer">@blackhistoryinrealtime</a> &middot; History happens every day</p>
   <div class="pan-stripe" style="margin-top:20px;height:3px;"><div class="s1"></div><div class="s2"></div><div class="s3"></div></div>
 </footer>
-<script src="../encyclopedia-data.js"></script>
-<script>
-(function(){
-  var pageId = document.body.dataset.entryId;
-  if(!pageId) return;
-  var connections = getConnections(pageId, 5);
-  var grid = document.getElementById('connectedGrid');
-  if(!grid || !connections.length) return;
-  var html = '';
-  connections.forEach(function(e){
-    html += '<a href="../encyclopedia/'+e.url+'" class="connected-card">'
-          + '<div class="connected-type">Related Entry</div>'
-          + '<div class="connected-name">'+e.name+'</div>'
-          + '<div class="connected-desc">'+e.dates+' &middot; '+e.category+'</div>'
-          + '</a>';
-  });
-  grid.innerHTML = html;
-})();
-</script>
 </body>
 </html>

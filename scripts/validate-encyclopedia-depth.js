@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { DAILY_COVERAGE } = require('../content/daily/2026-coverage');
-const { ENTRIES: RICH_ENTRIES } = require('../content/encyclopedia-rich/batch-1');
+const { ENTRIES: RICH_ENTRIES } = require('../content/encyclopedia-rich');
 
 const ROOT = path.join(__dirname, '..');
 const LEDGER_PATH = path.join(ROOT, 'docs/RESEARCH_LEDGER.md');
@@ -66,7 +66,7 @@ function run() {
 
   RICH_ENTRIES.forEach(entry => {
     const label = `${entry.encyclopediaSlug} (${entry.subject})`;
-    const pagePath = path.join(ROOT, 'generated/pages', `${entry.encyclopediaSlug}.html`);
+    const pagePath = path.join(ROOT, entry.outputPath || `generated/pages/${entry.encyclopediaSlug}.html`);
     if (!fs.existsSync(pagePath)) {
       errors.push(`${label}: generated page missing`);
       return;
@@ -112,6 +112,7 @@ function run() {
       ['lede', 'context', 'turning', 'whyItMatters', 'answerText'].forEach(field => {
         const dailyField = normalize(daily[field] || '');
         if (field === 'answerText' && dailyField.split(/\s+/).filter(Boolean).length < 6) return;
+        if (field === 'answerText' && dailyField === normalize(entry.subject || '')) return;
         if (dailyField && normalize(html).includes(dailyField)) {
           errors.push(`${label}: reuses daily ${field} verbatim`);
         }
