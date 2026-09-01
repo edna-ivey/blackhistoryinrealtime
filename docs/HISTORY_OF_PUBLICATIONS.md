@@ -6,15 +6,15 @@
 
 ---
 
-## Current Publication Coverage — August 5, 2026
+## Current Publication Coverage — August 31, 2026
 
-BHIRT now has uninterrupted validated daily coverage from `2026-02-01` through `2026-08-31`.
+BHIRT now has uninterrupted validated daily coverage from `2026-02-01` through `2026-09-07`.
 
 | Range | Source | Public output |
 |---|---|---|
 | 2026-02-01 through 2026-04-30 | Legacy `DATA` array in `index.html` | Today page plus legacy/generated encyclopedia HTML |
 | 2026-05-01 through 2026-05-05 | Markdown entries in `content/encyclopedia/` | `generated/pages/` and merged daily data |
-| 2026-05-06 through 2026-08-31, except 2026-06-06 | `content/daily/2026-coverage.js` | `generated/daily-data.js`, `generated/pages/`, and research ledger |
+| 2026-05-06 through 2026-09-07, except 2026-06-06 | `content/daily/2026-coverage.js` | `generated/daily-data.js`, `generated/pages/`, and research ledger |
 | 2026-06-06 | Markdown James Meredith entry | `generated/pages/james-meredith.html` and merged daily data |
 
 The generated research ledger for newly scheduled or materially revised daily entries is `docs/RESEARCH_LEDGER.md`.

@@ -8,7 +8,7 @@ const ALLOWED_TAGS = require('../content/config/tags.json');
 
 const ROOT = path.join(__dirname, '..');
 const COVERAGE_START = process.env.COVERAGE_START || '2026-02-01';
-const COVERAGE_END = process.env.COVERAGE_END || '2026-08-31';
+const COVERAGE_END = process.env.COVERAGE_END || '2026-09-07';
 const SOURCE_ONLY = process.argv.includes('--source-only');
 const APPROVED_REPEATED_SLUGS = new Set([
   'redlining',
@@ -16,6 +16,13 @@ const APPROVED_REPEATED_SLUGS = new Set([
   'dorothy-height',
   'althea-gibson',
   'barbara-jordan',
+  'sports-integration',
+  'little-rock-nine',
+  'frederick-douglass',
+  'paul-robeson',
+  'muhammad-ali',
+  'emmett-till',
+  'jacob-lawrence',
 ]);
 
 function extractArraySource(source, marker) {
@@ -130,6 +137,14 @@ function validateEntry(entry, errors) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(entry.fullDate || '')) errors.push(`${label}: invalid fullDate`);
   if (!Array.isArray(entry.options) || entry.options.length !== 4) errors.push(`${label}: must have exactly 4 options`);
   if (!Number.isInteger(entry.answer) || entry.answer < 0 || entry.answer > 3) errors.push(`${label}: answer must be integer 0-3`);
+  if (entry.fullDate >= '2026-09-01') {
+    if (!entry.answerExplanation || String(entry.answerExplanation).trim().split(/\s+/).length < 12) {
+      errors.push(`${label}: September entries require a substantive answerExplanation`);
+    }
+    if (!entry.igCaption || !String(entry.igCaption).trim()) {
+      errors.push(`${label}: September entries require igCaption`);
+    }
+  }
   if (Array.isArray(entry.options) && Number.isInteger(entry.answer) && entry.options[entry.answer] && !entry.answerText.toLowerCase().includes(entry.options[entry.answer].split(' ')[0].toLowerCase())) {
     // Advisory only: answer explanations may contain expanded labels.
   }

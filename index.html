@@ -82,6 +82,7 @@
   .story-block { padding: 0 32px 28px; }
   .answer-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(26,92,56,0.3); border: 1px solid rgba(76,175,80,0.4); border-radius: 8px; padding: 7px 14px; font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; color: #a8e6a8; margin-bottom: 18px; }
   .answer-badge.wrong-answer { background: rgba(196,30,58,0.25); border-color: rgba(196,30,58,0.45); color: #ffcccc; }
+  .answer-explanation { margin: -6px 0 20px; color: rgba(245,237,216,0.76); font-size: 0.9rem; line-height: 1.65; }
   .story-name { font-family: 'Playfair Display', serif; font-size: clamp(1.3rem, 3.5vw, 1.9rem); font-weight: 900; color: var(--white); line-height: 1.2; margin-bottom: 4px; }
   .story-dates { font-size: 0.72rem; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 18px; }
   .story-body { font-size: 0.97rem; line-height: 1.85; color: rgba(245,237,216,0.82); }
@@ -210,6 +211,7 @@
         <div class="divider"><span>The Story</span></div>
         <div class="story-block">
           <div class="answer-badge">✅ <span id="answerText">Answer</span></div>
+          <p class="answer-explanation" id="answerExplanation" hidden></p>
           <div class="story-name" id="storyName"></div>
           <div class="story-dates" id="storyDates"></div>
           <div class="story-body" id="storyBody"></div>
@@ -1580,6 +1582,7 @@ function loadDay(idx) {
   revealButton.disabled = true;
   revealButton.textContent = 'Choose an Answer';
   document.getElementById('answerText').parentElement.classList.remove('wrong-answer');
+  document.getElementById('answerExplanation').hidden = true;
   const saved = localStorage.getItem(storageKey(idx));
   if (saved !== null) { answered = true; selectedOpt = parseInt(saved); applyAnswerState(idx, selectedOpt); revealContent(); }
 }
@@ -1615,6 +1618,9 @@ function revealContent() {
   const answerBadge = document.getElementById('answerText').parentElement;
   answerBadge.classList.toggle('wrong-answer', !wasCorrect);
   document.getElementById('answerText').textContent = (wasCorrect ? 'Correct' : 'Not quite') + ' · Answer: ' + d.answerText;
+  const answerExplanation = document.getElementById('answerExplanation');
+  answerExplanation.textContent = d.answerExplanation || '';
+  answerExplanation.hidden = !d.answerExplanation;
   document.getElementById('storyName').textContent = d.subject;
   document.getElementById('storyDates').textContent = d.dates;
   let html = d.story;

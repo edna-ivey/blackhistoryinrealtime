@@ -2,13 +2,18 @@
 
 Generated from `content/daily/2026-coverage.js`.
 
-Coverage file contains source URLs used to verify newly scheduled daily entries through August 31, 2026.
+Coverage file contains source URLs used to verify newly scheduled daily entries through 2026-09-07.
 
 ### 2026-05-06 - Denmark Vesey
 
 - Entry title: Denmark Vesey
 - Slug: `denmark-vesey`
 - Daily date: 2026-05-06
+- Daily story researched: Not recorded
+- Daily story claims: Charleston authorities were so frightened by Denmark Vesey that they did more than execute him. They tried to erase the possibility that thousands of enslaved people had imagined freedom together. Vesey had purchased his own freedom after winning a lottery, but his wife and children remained enslaved. That contradiction shaped the world he lived in: one man could be legally free while the people he loved were still treated as property. In 1822, officials accused Vesey and others of organizing a large uprising. The trials were secretive, the evidence was contested, and the punishment was swift. Vesey and more than thirty others were hanged.
+- Daily story sources:
+  - https://www.nps.gov/people/denmark-vesey.htm
+  - https://www.scencyclopedia.org/sce/entries/vesey-denmark/
 - Date researched: 2026-08-14
 - Writer/research status: batch-6-complete
 - Material factual claims: Denmark Vesey's story sits at the line between documented conspiracy, white fear, and Black revolutionary imagination. Vesey was enslaved, purchased his freedom after winning a lottery, became a Charleston carpenter, worshiped in the African Church connected to what later became Mother Emanuel, and was accused of organizing a massive 1822 uprising. Authorities arrested 131 Black men, convicted 67, and hanged 35, including Vesey. Historians still debate parts of the record because the trials were secret and produced by the slaveholding state. The page matters because Vesey shows how deeply enslavers feared Black organization, faith, literacy, Haiti, and the idea that free Black people might fight for those still enslaved.
@@ -33,6 +38,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Nat Turner
 - Slug: `nat-turner`
 - Daily date: 2026-05-07
+- Daily story researched: Not recorded
+- Daily story claims: Nat Turner forced Virginia to confront a truth enslavers worked hard to deny: enslaved people were not passive, and the system they built was always afraid of the people trapped inside it. Turner was an enslaved preacher in Southampton County, Virginia. In August 1831, he and a small group began an uprising that killed dozens of white people before local militias and vigilantes crushed it. The retaliation was enormous. Turner was captured, tried, and hanged. Many Black people who had no connection to the revolt were killed, and Southern lawmakers passed even harsher restrictions on enslaved and free Black communities.
+- Daily story sources:
+  - https://encyclopediavirginia.org/entries/turner-nat-1800-1831/
+  - https://www.loc.gov/item/02002919/
 - Date researched: 2026-08-17
 - Writer/research status: batch-18-complete
 - Material factual claims: Nat Turner is one of the most difficult figures in American history to teach honestly. In August 1831, he led an armed uprising in Southampton County, Virginia, that killed dozens of white people, including children, and led to massive white retaliation against Black people, many of whom had no connection to the revolt. Turner was an enslaved preacher who interpreted visions as divine instruction and lived inside a system that was already violent every day. His page matters because it refuses the easy versions. The revolt was terrifying. So was slavery. The question is not how to make Turner simple. The question is how to understand resistance, religion, terror, retaliation, and historical memory without pretending slavery was peaceful until the enslaved fought back.
@@ -59,6 +69,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Scottsboro Boys
 - Slug: `scottsboro-boys`
 - Daily date: 2026-05-08
+- Daily story researched: Not recorded
+- Daily story claims: Nine Black teenagers got on a train in 1931. By the end of the ride, Alabama was trying to send them to the electric chair. The boys were falsely accused of raping two white women after a fight on a freight train. All-white juries, rushed trials, and open racial terror turned the case into an international symbol of Jim Crow injustice. The U.S. Supreme Court intervened twice, ruling that the defendants had been denied adequate counsel and that Black people had been excluded from juries. Those rulings changed criminal procedure far beyond Alabama.
+- Daily story sources:
+  - https://www.archives.gov/research/african-americans/individuals/scottsboro-boys
+  - https://www.encyclopediaofalabama.org/article/scottsboro-boys/
 - Date researched: 2026-08-17
 - Writer/research status: batch-23-complete
 - Material factual claims: The Scottsboro Boys were nine Black teenagers pulled into the machinery of Jim Crow justice after a fight on a freight train in Alabama in 1931. They were accused of raping two white women, rushed through trials, convicted by all-white juries, and threatened with death. Their case became international because it exposed how quickly Southern courts could turn accusation into sentence when the defendants were Black, young, poor, and unpopular. It also forced the U.S. Supreme Court to confront two basic questions: whether defendants facing death had the right to meaningful counsel, and whether Black people could be excluded from juries. This page matters because due process is not abstract. For these teenagers, procedure was the line between life and execution.
@@ -85,6 +100,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Langston Hughes
 - Slug: `langston-hughes`
 - Daily date: 2026-05-09
+- Daily story researched: Not recorded
+- Daily story claims: Langston Hughes made poetry sound like a front porch, a jazz club, a train station, and a protest all at once. He became one of the central writers of the Harlem Renaissance by writing plainly and beautifully about Black everyday life. He used blues and jazz rhythms not as decoration, but as structure. His poems and essays insisted that Black life did not need to be translated into someone else's language to be art. He wrote for people who recognized the sounds, jokes, pressures, and dreams inside the lines.
+- Daily story sources:
+  - https://www.poetryfoundation.org/poets/langston-hughes
+  - https://www.loc.gov/item/n79021164/langston-hughes-1902-1967/
 - Date researched: 2026-08-14
 - Writer/research status: batch-14-complete
 - Material factual claims: Langston Hughes made Black everyday life sound like literature without asking it to dress up first. He wrote poems, plays, essays, columns, stories, memoirs, and children's books, and he helped define the Harlem Renaissance while refusing to treat Black folk culture as something embarrassing or minor. Hughes listened to blues, jazz, jokes, church, labor, trains, rent parties, and street speech, then built a body of work that carried laughter and grief in the same hand. He matters because he rejected the pressure to write only for white approval or elite respectability. His page is not only about one famous poem. It is about a writer protecting the fullness of Black life on the page.
@@ -111,6 +131,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: W.E.B. Du Bois
 - Slug: `web-du-bois`
 - Daily date: 2026-05-10
+- Daily story researched: Not recorded
+- Daily story claims: W.E.B. Du Bois studied America so closely that he gave people a language for the split Black Americans were forced to carry inside themselves. Du Bois became the first Black person to earn a PhD from Harvard and helped found the NAACP. His book The Souls of Black Folk introduced the idea of double consciousness to describe living as both Black and American in a country that treated those identities as a conflict. He challenged Booker T. Washington's accommodationist politics, edited The Crisis, and spent decades connecting Black freedom in the United States to struggles across the African diaspora.
+- Daily story sources:
+  - https://www.loc.gov/exhibits/naacp/prelude.html
+  - https://www.britannica.com/biography/W-E-B-Du-Bois
 - Date researched: 2026-08-18
 - Writer/research status: batch-24-complete
 - Material factual claims: W.E.B. Du Bois was not only a brilliant scholar who coined a phrase people still quote. He was an institution builder, sociologist, editor, historian, novelist, organizer, Pan-Africanist, and public fighter whose long life kept changing shape. He studied Black life with data before American sociology knew how much it needed him. He helped found the NAACP, edited The Crisis, challenged Booker T. Washington, wrote The Souls of Black Folk and Black Reconstruction, and connected Black freedom in the United States to anti-colonial struggles around the world. His page matters because Du Bois refused to treat Black people as a social problem. He treated racism, capitalism, empire, and democracy as the problem, and he spent nearly a century making the country answer for that difference.
@@ -137,6 +162,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Booker T. Washington
 - Slug: `booker-t-washington`
 - Daily date: 2026-05-11
+- Daily story researched: Not recorded
+- Daily story claims: Booker T. Washington built a school from almost nothing and became powerful enough that presidents listened to him - and controversial enough that other Black leaders challenged him openly. Born enslaved, Washington became the founding principal of Tuskegee Institute in Alabama. He promoted industrial education, economic self-help, and institution building at a time when Black rights were under violent attack. His 1895 Atlanta speech urged compromise with segregation in exchange for economic opportunity. Some saw strategy. Others, including W.E.B. Du Bois, saw surrender. The debate shaped Black politics for generations.
+- Daily story sources:
+  - https://www.nps.gov/people/booker-t-washington.htm
+  - https://www.tuskegee.edu/discover-tu/tu-presidents/booker-t-washington
 - Date researched: 2026-08-14
 - Writer/research status: batch-4-complete
 - Material factual claims: Booker T. Washington built power through a difficult bargain. Born enslaved in Virginia, he became the founding principal of Tuskegee Institute and one of the most influential Black leaders in the United States. He raised money, built buildings, trained students, advised presidents, and argued for industrial education and economic self-help. He also urged public compromise with segregation in ways that drew sharp criticism from W.E.B. Du Bois, Ida B. Wells, and others. Washington's story is not simple hero or sellout. It is a study in institution-building under white supremacy, the costs of accommodation, and the question Black leaders have faced again and again: what can be built when open demands may bring violent backlash?
@@ -161,6 +191,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Paul Robeson
 - Slug: `paul-robeson`
 - Daily date: 2026-05-12
+- Daily story researched: Not recorded
+- Daily story claims: Paul Robeson had one of the most powerful voices in the world. The United States government tried to make sure fewer people could hear it. Robeson was a brilliant student, star athlete, actor, singer, and activist. He spoke against racism, colonialism, and fascism, and he supported labor movements and anti-imperial struggles around the world. During the Cold War, the government revoked his passport and damaged his career because of his politics. Concert halls closed their doors, but Robeson kept insisting that art and freedom belonged together.
+- Daily story sources:
+  - https://nmaahc.si.edu/paul-robeson
+  - https://www.archives.gov/publications/prologue/2018/spring/paul-robeson
 - Date researched: 2026-08-17
 - Writer/research status: batch-18-complete
 - Material factual claims: Paul Robeson had a voice that could fill a hall and a politics that made governments nervous. He was a scholar, Rutgers athlete, lawyer, actor, concert singer, linguist, labor ally, anti-colonial advocate, and civil rights figure whose career was damaged by Cold War repression. The United States revoked his passport, concert halls closed to him, and his income collapsed because he refused to separate art from freedom struggles around the world. His page matters because Robeson shows what can happen when a Black artist becomes too international, too pro-labor, too anti-racist, and too unwilling to perform gratitude for a country that denies full citizenship.
@@ -187,6 +222,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: MOVE Bombing
 - Slug: `move-bombing`
 - Daily date: 2026-05-13
+- Daily story researched: Not recorded
+- Daily story claims: On May 13, 1985, a city government used explosives against its own residents and then let a Black neighborhood burn. Philadelphia police were trying to evict members of MOVE, a Black liberation and back-to-nature organization. After a long confrontation, police dropped a bomb on the group's rowhouse from a helicopter. The fire killed eleven people, including five children, and destroyed more than sixty homes. The disaster became one of the clearest examples of state violence against a Black community in modern U.S. history.
+- Daily story sources:
+  - https://philadelphiaencyclopedia.org/essays/move/
+  - https://www.pbs.org/independentlens/documentaries/let-the-fire-burn/
 - Date researched: 2026-08-17
 - Writer/research status: batch-17-complete
 - Material factual claims: On May 13, 1985, Philadelphia police dropped explosives on a rowhouse at 6221 Osage Avenue after a long confrontation with MOVE, a Black liberation and back-to-nature organization that city officials had treated as a public-order problem for years. The fire that followed killed eleven people, including five children, and destroyed more than sixty homes. The story is sometimes told as an extreme police mistake. That is too easy. The bombing was the result of official decisions: surveillance, escalation, military-style tactics, an explosive device, a command choice to let the fire burn, and years of conflict between MOVE, neighbors, police, and city government. Its page matters because it shows what happens when a city treats a Black neighborhood as expendable in the name of control.
@@ -213,6 +253,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Freedom Riders Attacked in Anniston
 - Slug: `freedom-riders-anniston`
 - Daily date: 2026-05-14
+- Daily story researched: Not recorded
+- Daily story claims: The photograph is almost impossible to forget: a bus on the side of the road, smoke pouring out, riders escaping into a mob. On May 14, 1961, Freedom Riders reached Anniston, Alabama. A white mob attacked the bus, slashed its tires, followed it out of town, and firebombed it when it stopped. The riders survived, but the image traveled around the world. It exposed the violence behind segregated transportation and increased pressure on the federal government to enforce the law.
+- Daily story sources:
+  - https://www.nps.gov/frri/index.htm
+  - https://www.archives.gov/research/african-americans/vote/freedom-rides
 - Date researched: 2026-08-15
 - Writer/research status: batch-11-complete
 - Material factual claims: The burning bus outside Anniston, Alabama, is one of the most recognizable images of the Freedom Rides, but the image can hide the sequence. There were two buses. The first, a Greyhound bus, was attacked at the Anniston station, chased out of town, disabled by slashed tires, and firebombed on the highway. The second, a Trailways bus, was boarded in Anniston by attackers who beat riders and forced segregated seating before more violence in Birmingham. The Anniston attacks mattered because they turned ignored law into public crisis. The Riders survived, the photographs traveled, and the federal government could no longer pretend that Boynton v. Virginia was enforcing itself. This page matters because the story is not only flames. It is planning, complicity, survival, and evidence.
@@ -240,6 +285,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Emmett Till
 - Slug: `emmett-till`
 - Daily date: 2026-05-15
+- Daily story researched: Not recorded
+- Daily story claims: Mamie Till-Mobley made a decision no mother should ever have to make: she let the world see what racism had done to her child. Emmett Till was fourteen when he traveled from Chicago to Mississippi in 1955. After a white woman accused him of improper behavior, two white men kidnapped, tortured, and killed him. His mother insisted on an open casket and allowed photographs to be published. The images shocked the nation and helped move many young people toward civil rights activism.
+- Daily story sources:
+  - https://www.nps.gov/people/emmett-till.htm
+  - https://nmaahc.si.edu/explore/stories/emmett-till
 - Date researched: 2026-08-14
 - Writer/research status: batch-9-complete
 - Material factual claims: Emmett Till was fourteen years old when white men kidnapped and murdered him in Mississippi in 1955. His mother, Mamie Till-Mobley, then made a decision that changed public memory: she insisted on a funeral in Chicago with an open casket and allowed photographs of her son to be published. The daily challenge tells that basic fact. The encyclopedia has to hold more: a child from Chicago entering the racial rules of the Mississippi Delta, a mother refusing secrecy, an all-white jury's acquittal, a paid confession after the trial, and decades of unfinished accountability. This page matters because Emmett Till should not be remembered only as an image of death. He was a boy with a family, and his mother's witness forced a nation to see what it preferred to deny.
@@ -266,6 +316,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Phillis Wheatley
 - Slug: `phillis-wheatley`
 - Daily date: 2026-05-16
+- Daily story researched: Not recorded
+- Daily story claims: Before Phillis Wheatley could publish her poems, powerful men demanded proof that a young enslaved Black woman had actually written them. Wheatley was kidnapped from West Africa as a child and enslaved in Boston. She learned English, Latin, and classical literature, then wrote poetry that circulated across the Atlantic world. In 1773, her book Poems on Various Subjects, Religious and Moral was published in London. A panel of Boston men had examined her first, as if her brilliance needed a certificate.
+- Daily story sources:
+  - https://www.poetryfoundation.org/poets/phillis-wheatley
+  - https://www.loc.gov/item/2002552146/
 - Date researched: 2026-08-17
 - Writer/research status: batch-18-complete
 - Material factual claims: Phillis Wheatley published a book before the United States existed, and powerful men still demanded proof that she had written it. Kidnapped from West Africa as a child, enslaved in Boston, educated in the Wheatley household, and published in London in 1773, she became the first Black woman in America to publish a book of poetry. That achievement is astonishing, but the deeper story is not only triumph. Wheatley wrote inside enslavement, patronage, Christian and classical learning, Revolutionary politics, and a white reading public that treated Black intelligence as something to be examined. Her page matters because her poetry exposed the lie of Black inferiority while showing how expensive recognition could be when freedom itself was still denied.
@@ -292,6 +347,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Brown v. Board - The Plaintiffs
 - Slug: `brown-v-board-plaintiffs`
 - Daily date: 2026-05-17
+- Daily story researched: Not recorded
+- Daily story claims: Brown v. Board sounds like one child and one school. The real case was bigger: families across several states putting their names, safety, and children into history. The Supreme Court decision combined cases from Kansas, South Carolina, Virginia, Delaware, and Washington, D.C. Parents challenged segregated schools with help from NAACP lawyers. Linda Brown became the most remembered name, but she stood alongside many children and families who risked retaliation so the country could no longer pretend segregated schools were equal.
+- Daily story sources:
+  - https://www.archives.gov/milestone-documents/brown-v-board-of-education
+  - https://www.nps.gov/brvb/index.htm
 - Date researched: 2026-08-13
 - Writer/research status: first-batch-reviewed
 - Material factual claims: Brown v. Board is often told through one name, one girl, and one school. Linda Brown's story matters, but the case was never only hers. The Supreme Court decision joined lawsuits from Kansas, South Carolina, Virginia, Delaware, and Washington, D.C. Behind those cases were children, parents, local NAACP branches, teachers, ministers, lawyers, and whole communities who knew retaliation was likely. The plaintiffs made segregation personal and legal at the same time. Their names remind us that constitutional change is not produced only by famous lawyers or judges. It is built by people willing to attach their lives to a public record.
@@ -316,6 +376,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Plessy v. Ferguson
 - Slug: `plessy-v-ferguson`
 - Daily date: 2026-05-18
+- Daily story researched: Not recorded
+- Daily story claims: The phrase sounded balanced: separate but equal. In practice, it gave Jim Crow a constitutional costume. Homer Plessy, a mixed-race Black man in Louisiana, challenged a state law requiring segregated railroad cars. On May 18, 1896, the Supreme Court ruled against him. The decision allowed segregation to spread across public life for more than half a century. Justice John Marshall Harlan dissented, warning that the Constitution should be color-blind.
+- Daily story sources:
+  - https://www.archives.gov/milestone-documents/plessy-v-ferguson
+  - https://www.oyez.org/cases/1850-1900/163us537
 - Date researched: 2026-08-17
 - Writer/research status: batch-19-complete
 - Material factual claims: Plessy v. Ferguson did not invent segregation, but it gave segregation a constitutional shield. The case began with a planned challenge to Louisiana's Separate Car Act and ended with the Supreme Court saying racial separation did not violate the Fourteenth Amendment as long as the facilities were supposedly equal. That word, equal, did enormous damage. It let states call exclusion fairness, let white officials decide what equality meant, and helped Jim Crow spread through schools, trains, parks, hospitals, voting, housing, and daily public life. This page matters because Plessy shows how a legal sentence can turn a racial order into public policy. It also shows that dissent existed inside the decision from the start.
@@ -342,6 +407,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Malcolm X
 - Slug: `malcolm-x`
 - Daily date: 2026-05-19
+- Daily story researched: Not recorded
+- Daily story claims: Malcolm X changed so much in one lifetime that any simple version of him leaves out the most important part: he kept growing. Born Malcolm Little, he survived family trauma, prison, conversion, public leadership in the Nation of Islam, and a break that sent him toward a broader global view of Black freedom. After his pilgrimage to Mecca, Malcolm spoke differently about race, human rights, and international solidarity. He was assassinated in 1965 at age thirty-nine.
+- Daily story sources:
+  - https://www.archives.gov/research/african-americans/individuals/malcolm-x
+  - https://nmaahc.si.edu/explore/stories/malcolm-x
 - Date researched: 2026-08-14
 - Writer/research status: batch-15-complete
 - Material factual claims: Malcolm X is often reduced to a contrast: the angry one beside Martin Luther King Jr., the militant opposite of nonviolence, the man attached to one famous phrase. That version is too small. Malcolm Little became Detroit Red, then Malcolm X, then El-Hajj Malik El-Shabazz across a life shaped by racist violence, family rupture, prison study, religious discipline, Nation of Islam leadership, public debate, international travel, and political transformation. He gave Black people language for self-respect in a country that demanded gratitude for partial rights. He also changed, sometimes sharply, and the changes matter. Malcolm's story is not about fixed certainty. It is about study, discipline, rupture, and the courage to revise a worldview in public.
@@ -368,6 +438,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Lorraine Hansberry
 - Slug: `lorraine-hansberry`
 - Daily date: 2026-05-20
+- Daily story researched: Not recorded
+- Daily story claims: Lorraine Hansberry put a Black family's living room on Broadway and made American theater admit that the room mattered. A Raisin in the Sun opened in 1959, drawn partly from Hansberry's own family experience fighting housing segregation in Chicago. It showed dreams, money, pride, gender, and race inside one apartment. Hansberry became the first Black woman playwright produced on Broadway. She also pushed civil rights leaders and politicians to move faster and think more boldly.
+- Daily story sources:
+  - https://www.nps.gov/people/lorraine-hansberry.htm
+  - https://www.britannica.com/biography/Lorraine-Hansberry
 - Date researched: 2026-08-14
 - Writer/research status: batch-15-complete
 - Material factual claims: Lorraine Hansberry did not simply put a Black family on Broadway. She made American theater sit inside a Black family's argument about money, gender, housing, pride, exhaustion, love, and deferred dreams. A Raisin in the Sun made her the first Black woman with a play produced on Broadway, but the play did not come from nowhere. Hansberry grew up in Chicago in a family that fought restrictive covenants, wrote for Paul Robeson's Freedom, studied anti-colonial politics, pushed civil rights leaders, and wrote about race, class, sexuality, feminism, and art before much of the public knew how to hold all those commitments together. Her life was short. Her range was not. She matters because she refused to make Black life small enough for white comfort or simple enough for easy praise.
@@ -394,6 +469,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Marcus Garvey
 - Slug: `marcus-garvey`
 - Daily date: 2026-05-21
+- Daily story researched: Not recorded
+- Daily story claims: Marcus Garvey told Black people scattered by slavery and empire to imagine themselves as a global nation. Through the Universal Negro Improvement Association, Garvey built one of the largest Black mass movements of the twentieth century. His message emphasized pride, economic independence, and connection to Africa. His Black Star Line became a symbol of possibility and controversy. Garvey was later convicted of mail fraud, deported, and debated by other Black leaders, but his influence endured.
+- Daily story sources:
+  - https://www.loc.gov/exhibits/naacp/world-war-i-and-postwar-society.html
+  - https://www.britannica.com/biography/Marcus-Garvey
 - Date researched: 2026-08-16
 - Writer/research status: batch-16-complete
 - Material factual claims: Marcus Garvey built a movement so large that governments, rivals, newspapers, churches, and working people all had to answer it. He did not simply tell Black people to be proud. He organized pride into uniforms, parades, newspapers, businesses, conventions, ships, and a global language of nationhood. The Universal Negro Improvement Association gave Black people across the Americas, the Caribbean, Africa, and Europe a way to imagine themselves as one people in a world built by empire. Garvey's record also requires honesty. His Black Star Line became a symbol and a scandal, his mail-fraud conviction remains debated, his separatist politics drew fierce criticism, and his 1922 meeting with Ku Klux Klan leaders exposed the danger of strategy detached from solidarity. His page matters because the question he forced has not disappeared: what does self-determination require when the nation around you refuses equal belonging?
@@ -420,6 +500,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Buffalo Soldiers
 - Slug: `buffalo-soldiers`
 - Daily date: 2026-05-22
+- Daily story researched: Not recorded
+- Daily story claims: The Buffalo Soldiers wore the uniform of a country that still denied them full citizenship. After the Civil War, Congress created Black cavalry and infantry regiments. These soldiers served across the western frontier, built roads, guarded mail routes, and fought in U.S. military campaigns. Their story carries pride and contradiction. They served with discipline and distinction, but their service also took place inside U.S. expansion that harmed Native nations.
+- Daily story sources:
+  - https://www.nps.gov/subjects/buffalosoldiers/index.htm
+  - https://www.archives.gov/research/african-americans/military/buffalo-soldiers
 - Date researched: 2026-08-17
 - Writer/research status: batch-22-complete
 - Material factual claims: The Buffalo Soldiers wore the uniform of a country that still argued over whether Black citizenship was real. Formed after the Civil War, Black cavalry and infantry regiments served in the West, guarded mail routes, built roads, protected national parks, fought in U.S. wars, and lived under discrimination inside the Army and outside it. Their history carries pride and contradiction at the same time. Military service gave some Black men wages, status, travel, and a claim on citizenship. It also placed them inside U.S. expansion that harmed Native nations. This page matters because Black military history deserves honesty. The Buffalo Soldiers were disciplined soldiers and full human beings, not symbols that can be used to avoid the harder story of empire, race, labor, and belonging.
@@ -446,6 +531,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Benjamin Banneker
 - Slug: `benjamin-banneker`
 - Daily date: 2026-05-23
+- Daily story researched: Not recorded
+- Daily story claims: Benjamin Banneker studied the sky with such precision that his almanacs carried his name far beyond the farm where he lived. Banneker was a free Black mathematician, astronomer, writer, and surveyor in Maryland. He helped with the survey of the new federal capital and published almanacs that included astronomical calculations. He also wrote to Thomas Jefferson, challenging Jefferson's racist ideas about Black intellect. He sent his almanac as evidence that the lie could not survive the math.
+- Daily story sources:
+  - https://www.loc.gov/item/2005694593/
+  - https://www.nps.gov/people/benjamin-banneker.htm
 - Date researched: 2026-08-14
 - Writer/research status: batch-3-drafted
 - Material factual claims: Benjamin Banneker is often remembered as a self-taught Black astronomer who helped survey Washington, D.C. and challenged Thomas Jefferson. Both claims matter, but the fuller story is more precise and more interesting. Banneker was a free Black farmer, mathematician, almanac maker, and public intellectual in an early United States built around slavery. His calculations gave him authority in a world that claimed Black people lacked reason. His letter to Jefferson did not beg for recognition. It used astronomy, print, faith, and the language of the Revolution to expose the contradiction between liberty and human bondage.
@@ -470,6 +560,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Black Church
 - Slug: `black-church`
 - Daily date: 2026-05-24
+- Daily story researched: Not recorded
+- Daily story claims: For many Black communities, the church was not only where people prayed. It was where they planned. Black churches became spaces for worship, education, mutual aid, music, political organizing, and protection. During slavery and after emancipation, independent Black congregations helped build community power. Civil rights meetings, voter registration drives, mass gatherings, and local organizing often moved through church networks. The building was sacred, but it was also strategic.
+- Daily story sources:
+  - https://nmaahc.si.edu/explore/initiatives/black-church
+  - https://www.pbs.org/black-church/
 - Date researched: 2026-08-17
 - Writer/research status: batch-21-complete
 - Material factual claims: The Black church has never been only Sunday morning. Across generations, Black congregations have held worship, education, burial societies, political meetings, music, mutual aid, childcare, fundraising, debate, grief, and strategy. That does not mean every Black person is Christian or every Black church has been liberating in the same way. The institution is powerful because it is human: full of faith, hierarchy, care, conflict, gendered labor, prophetic courage, respectability politics, and community survival. This page matters because Black freedom work needed places where people could gather without asking white institutions for permission. The Black church often became that room, not perfect, but strong enough to hold a people under pressure.
@@ -496,6 +591,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: George Floyd
 - Slug: `george-floyd`
 - Daily date: 2026-05-25
+- Daily story researched: Not recorded
+- Daily story claims: George Floyd was not a symbol when he woke up that morning. He was a person, and the world watched him beg for breath. On May 25, 2020, Minneapolis police officer Derek Chauvin pressed his knee onto Floyd's neck during an arrest. Video of the killing spread rapidly. The protests that followed became global. Millions marched against police violence and racial injustice, and Chauvin was later convicted of murder.
+- Daily story sources:
+  - https://www.justice.gov/opa/pr/justice-department-announces-federal-civil-rights-charges-against-former-minneapolis
+  - https://www.britannica.com/biography/George-Floyd
 - Date researched: 2026-08-15
 - Writer/research status: batch-12-complete
 - Material factual claims: George Floyd was a man before he became a global symbol: a father, son, brother, friend, athlete, worker, and Houston native whose life included faith, music, struggle, movement, and family. On May 25, 2020, Minneapolis police officer Derek Chauvin murdered him during an arrest outside Cup Foods while other officers failed to stop the force or provide the aid Floyd needed. The video forced millions of people to witness what Black communities had been naming for generations: police violence is not only an individual act, but a system of power, training, silence, and accountability. Floyd matters because the world saw him denied breath, and the aftermath made institutions answer questions they had spent years avoiding.
@@ -522,6 +622,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Miles Davis
 - Slug: `miles-davis`
 - Daily date: 2026-05-26
+- Daily story researched: Not recorded
+- Daily story claims: Miles Davis did not protect one sound. He kept walking away from success to find the next one. Born May 26, 1926, Davis became one of the most influential musicians in jazz history. His work shaped cool jazz, hard bop, modal jazz, and jazz fusion. Kind of Blue became a landmark recording, but Davis refused to stay there. His career is a map of invention, risk, collaboration, and restlessness.
+- Daily story sources:
+  - https://www.loc.gov/item/ihas.200152693/
+  - https://www.arts.gov/honors/jazz/miles-davis
 - Date researched: 2026-08-17
 - Writer/research status: batch-17-complete
 - Material factual claims: Miles Davis kept changing the room and then leaving before everyone else got comfortable. He was a trumpeter, bandleader, composer, arranger of space, and one of the most influential musicians of the twentieth century. Bebop, cool jazz, hard bop, modal jazz, orchestral collaborations, electric fusion, funk, and studio experimentation all pass through his career. But Davis was not only a sequence of innovations. He was a demanding collaborator whose bands became schools for other giants, a Black celebrity navigating racism and policing, a musician whose beauty could sit beside cruelty, and a public figure whose life included addiction, violence, illness, and reinvention. His page matters because genius here is not a clean statue. It is sound, discipline, risk, harm, style, and the courage to make the next note unfamiliar.
@@ -548,6 +653,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Great Migration
 - Slug: `great-migration`
 - Daily date: 2026-05-27
+- Daily story researched: Not recorded
+- Daily story claims: The Great Migration was not one event. It was millions of private decisions that changed the map of America. Between about 1910 and 1970, roughly six million Black Southerners moved to cities in the North, Midwest, and West. They were fleeing Jim Crow violence and looking for work, schools, safety, and room to breathe. The movement reshaped Chicago, Detroit, New York, Los Angeles, Philadelphia, and dozens of other cities. It changed music, politics, labor, housing, and family life.
+- Daily story sources:
+  - https://www.archives.gov/research/african-americans/migrations/great-migration
+  - https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/great-migration/
 - Date researched: 2026-08-17
 - Writer/research status: batch-22-complete
 - Material factual claims: The Great Migration was six million decisions, and each decision had a reason. Black Southerners left because Jim Crow was violent, wages were low, schools were underfunded, voting was blocked, and white power tried to make the future small. They moved toward Chicago, Detroit, New York, Philadelphia, Los Angeles, Oakland, Cleveland, and dozens of other places where jobs, relatives, newspapers, rail lines, and rumor pointed toward possibility. The move did not end racism. It changed its geography. This page matters because the Great Migration remade American cities, music, labor, housing, politics, family life, and Black imagination. It was not escape from history. It was one of the ways Black people made history move.
@@ -574,6 +684,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Sam Cooke
 - Slug: `sam-cooke`
 - Daily date: 2026-05-28
+- Daily story researched: Not recorded
+- Daily story claims: Sam Cooke could make a song feel smooth enough for radio and deep enough for a movement. Cooke moved from gospel fame with the Soul Stirrers into pop stardom, helping define soul music. He also built business power by controlling parts of his publishing and label work. After encounters with racism and inspired by civil rights struggles, he wrote "A Change Is Gonna Come." Released after his death, the song became one of the era's most enduring anthems.
+- Daily story sources:
+  - https://www.loc.gov/static/programs/national-recording-preservation-board/documents/AChangeIsGonnaCome.pdf
+  - https://www.rockhall.com/inductees/sam-cooke
 - Date researched: 2026-08-17
 - Writer/research status: batch-20-complete
 - Material factual claims: Sam Cooke made smoothness sound like power. He came out of gospel music with the Soul Stirrers, crossed into pop stardom, helped define soul, built business control through publishing and label work, and wrote "A Change Is Gonna Come," one of the great civil rights songs of the twentieth century. The song is often treated as prophecy, but Cooke's life was also about labor: who owns the song, who reaches the audience, who controls the voice, and what it costs a Black artist to move from sacred music into the pop marketplace. His page matters because Cooke was not only a beautiful singer. He was an architect of Black musical modernity.
@@ -600,6 +715,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Reconstruction
 - Slug: `reconstruction`
 - Daily date: 2026-05-29
+- Daily story researched: Not recorded
+- Daily story claims: Reconstruction was the moment the United States came closest to rebuilding democracy after slavery - and then chose not to protect it long enough. After the Civil War, formerly enslaved people pursued land, schools, family reunification, voting rights, and political office. Black legislators helped write new state constitutions and build public education systems. White supremacist violence and political compromise undermined those gains. Federal troops withdrew from the South in 1877, leaving Black communities exposed to Jim Crow's rise.
+- Daily story sources:
+  - https://www.archives.gov/research/african-americans/reconstruction
+  - https://www.nps.gov/reer/index.htm
 - Date researched: 2026-08-17
 - Writer/research status: batch-19-complete
 - Material factual claims: Reconstruction was the country's best chance to build democracy after slavery, and one of its clearest examples of political abandonment. Between 1865 and 1877, formerly enslaved people reunited families, built schools, negotiated labor, voted, held office, bought land when they could, founded churches, demanded protection, and helped rewrite state constitutions. White supremacists answered with terror, and federal commitment weakened. This page matters because Reconstruction was not a failure of Black citizenship. It was a struggle over whether the United States would defend Black freedom after emancipation. The answer changed the next century of American life.
@@ -626,6 +746,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Historically Black Colleges and Universities
 - Slug: `hbcus`
 - Daily date: 2026-05-30
+- Daily story researched: Not recorded
+- Daily story claims: When many white colleges shut their doors to Black students, Black communities built their own doors. Historically Black Colleges and Universities were founded to educate Black students when segregation and discrimination blocked access elsewhere. They trained teachers, ministers, scientists, artists, lawyers, and leaders. HBCUs became more than campuses. They became engines of community, professional networks, research, activism, and cultural pride.
+- Daily story sources:
+  - https://sites.ed.gov/whhbcu/one-hundred-and-five-historically-black-colleges-and-universities/
+  - https://nmaahc.si.edu/explore/stories/historically-black-colleges-and-universities
 - Date researched: 2026-08-15
 - Writer/research status: batch-12-complete
 - Material factual claims: Historically Black Colleges and Universities were not created because Black students wanted separation. They were created because white institutions, state governments, and private power denied Black people access to higher education, then underfunded the institutions Black communities built anyway. HBCUs trained teachers, ministers, doctors, lawyers, scientists, artists, organizers, and public servants when education itself was a freedom claim. They were classrooms, churches, laboratories, marching grounds, debate halls, choirs, newspapers, and homecomings. HBCUs matter because they show Black institution-building under exclusion and the continuing fight over public investment. They are not relics of segregation. They are living institutions shaped by history, pride, research, debt, underfunding, and possibility.
@@ -654,6 +779,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Greenwood / Black Wall Street
 - Slug: `black-wall-street`
 - Daily date: 2026-05-31
+- Daily story researched: Not recorded
+- Daily story claims: Before Greenwood became a story of destruction, it was a story of building. Greenwood was a thriving Black district in Tulsa with businesses, homes, churches, newspapers, doctors, lawyers, theaters, and hotels. People called it Black Wall Street because Black wealth circulated there. The 1921 Tulsa Race Massacre destroyed much of Greenwood, but the prosperity that came before matters too. The target was not emptiness. It was success.
+- Daily story sources:
+  - https://www.tulsahistory.org/exhibit/1921-tulsa-race-massacre/
+  - https://nmaahc.si.edu/explore/stories/tulsa-race-massacre
 - Date researched: 2026-08-14
 - Writer/research status: batch-4-complete
 - Material factual claims: Greenwood was not important only because white mobs destroyed it. It was important because Black people built it. By 1921, Tulsa's Greenwood District held homes, churches, doctors, lawyers, hotels, theaters, restaurants, newspapers, and more than one hundred Black-owned businesses. Segregation forced Black dollars inward, but residents turned constraint into institution-building. The Tulsa Race Massacre was an attack on people and on a visible claim to Black prosperity. Remembering Greenwood only through flames lets the attackers control the story. The deeper history begins before May 31, 1921, follows the destruction honestly, and then follows the rebuilding that officials tried to obstruct.
@@ -678,6 +808,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Sojourner Truth
 - Slug: `sojourner-truth`
 - Daily date: 2026-06-01
+- Daily story researched: Not recorded
+- Daily story claims: She was born Isabella Baumfree. She walked away from slavery, went to court for her son, and later chose a name that sounded like a mission. Sojourner Truth escaped slavery in New York in 1826. When her young son was illegally sold south, she fought in court and won his return, an extraordinary victory for a Black woman at that time. She became a traveling preacher, abolitionist, and women's rights speaker. Her voice carried the authority of someone who had survived the system she was condemning.
+- Daily story sources:
+  - https://www.nps.gov/people/sojourner-truth.htm
+  - https://www.womenshistory.org/education-resources/biographies/sojourner-truth
 - Date researched: 2026-08-17
 - Writer/research status: batch-20-complete
 - Material factual claims: Sojourner Truth was born Isabella Baumfree in slavery in New York, walked away from bondage, fought in court for the return of her son, renamed herself for a religious mission, and became one of the most powerful abolitionist and women's rights speakers of the nineteenth century. She is often reduced to a single speech, usually in a version she almost certainly did not deliver in that wording. The real Truth is more interesting: Dutch-speaking in childhood, deeply religious, legally strategic, physically imposing, funny, sharp, and politically mobile. Her page matters because she shows freedom as motion: walking away, speaking publicly, suing successfully, selling her own narrative, and refusing the small place the country assigned to Black women.
@@ -704,6 +839,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Matthew Henson
 - Slug: `matthew-henson`
 - Daily date: 2026-06-02
+- Daily story researched: Not recorded
+- Daily story claims: Matthew Henson knew the ice, the language, the dogs, and the route. For decades, history still treated him like a footnote. Henson joined Robert Peary's Arctic expeditions and became essential to their travel. He learned from Inuit communities, mastered sledging, and was part of the 1909 expedition that claimed to reach the North Pole. Peary received fame quickly. Henson waited decades for broader recognition, even though his skill helped make the expedition possible.
+- Daily story sources:
+  - https://www.nationalgeographic.com/history/article/matthew-henson
+  - https://www.britannica.com/biography/Matthew-Alexander-Henson
 - Date researched: 2026-08-16
 - Writer/research status: batch-16-complete
 - Material factual claims: Matthew Henson's Arctic story is usually told as delayed credit, and that is true, but not enough. Henson was not merely Robert Peary's assistant. He was a skilled navigator, sled driver, craftsman, hunter, translator, and field expert whose relationships with Inughuit communities helped make Arctic travel possible. The 1909 expedition that claimed to reach the North Pole remains historically debated, but Henson's expertise is not. He spent decades in the Arctic, learned languages and survival practices, built sledges, handled dogs, and moved across ice in conditions that punished arrogance. White explorers received medals and institutional recognition first. Henson returned to limited work and late honors. His page matters because exploration history often hides the people who knew how to survive the journey.
@@ -730,6 +870,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Charles Richard Drew
 - Slug: `charles-richard-drew`
 - Daily date: 2026-06-03
+- Daily story researched: Not recorded
+- Daily story claims: Charles Drew helped medicine learn how to store blood at scale, then watched racism try to separate even blood by race. Drew's research on blood plasma and storage helped make modern blood banking possible. During World War II, he directed major blood collection work that saved lives. The American Red Cross initially segregated blood by race, a policy Drew criticized because it had no scientific basis. His expertise saved lives; racism still tried to overrule science.
+- Daily story sources:
+  - https://www.nlm.nih.gov/exhibition/aframsurgeons/pioneers.html
+  - https://profiles.nlm.nih.gov/spotlight/bg
 - Date researched: 2026-08-13
 - Writer/research status: first-batch-reviewed
 - Material factual claims: Charles Richard Drew helped make modern blood banking possible, but the simplified version often turns him into a single invention story. His work was really about systems: how to collect blood, separate plasma, preserve it, transport it, and train medical teams to use it at scale. During World War II, that knowledge saved lives. At the same time, the American Red Cross adopted policies that separated blood donations by race, even though Drew and other scientists rejected the idea that blood had racial meaning. His life also carries a stubborn myth about his death, a myth that grew from real medical racism but is not supported by the evidence.
@@ -754,6 +899,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Angela Davis
 - Slug: `angela-davis`
 - Daily date: 2026-06-04
+- Daily story researched: Not recorded
+- Daily story claims: Angela Davis became a symbol not because she disappeared into fear, but because she made the whole world watch her trial. Davis was a scholar, organizer, and critic of racism, prisons, and capitalism. In 1970, she was charged in connection with a courthouse attack and placed on the FBI's Ten Most Wanted list. A global movement demanded her freedom. In 1972, she was acquitted of all charges and continued writing, teaching, and organizing against prisons and state violence.
+- Daily story sources:
+  - https://archives.fbi.gov/archives/news/stories/2010/october/davis_101310
+  - https://www.britannica.com/biography/Angela-Davis
 - Date researched: 2026-08-14
 - Writer/research status: batch-2-reviewed
 - Material factual claims: Angela Davis became world-famous because the state tried to make her disappear into a criminal case. But her story did not begin with the FBI's Ten Most Wanted list, and it did not end with acquittal. Davis is a scholar, organizer, communist, feminist, and prison abolitionist whose life connects universities, surveillance, Black liberation politics, political imprisonment, and the modern critique of the prison-industrial complex. The famous trial matters because it showed how ideas, associations, and race could be turned into public fear. The longer story matters because Davis kept thinking and organizing after the spectacle moved on.
@@ -778,6 +928,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Rosa Parks
 - Slug: `rosa-parks`
 - Daily date: 2026-06-05
+- Daily story researched: Not recorded
+- Daily story claims: Rosa Parks was not simply tired from work. She was trained, prepared, and clear about what she was refusing. Parks had been active in the NAACP and had attended organizer training at Highlander Folk School. On December 1, 1955, she refused to give up her bus seat in Montgomery, Alabama. Her arrest helped launch the Montgomery Bus Boycott, a mass campaign that lasted more than a year and ended with a Supreme Court ruling against bus segregation.
+- Daily story sources:
+  - https://www.nps.gov/people/rosa-parks.htm
+  - https://www.loc.gov/collections/rosa-parks-papers/about-this-collection/
 - Date researched: 2026-08-17
 - Writer/research status: batch-19-complete
 - Material factual claims: Rosa Parks was not a tired seamstress who accidentally started a movement. She was a trained organizer, NAACP secretary, investigator of racial violence, Highlander Folk School participant, and a woman who made a deliberate choice on a Montgomery bus on December 1, 1955. The tired myth is comforting because it makes movements look spontaneous and harmless. The real Parks is more powerful. She knew the law, knew the danger, and knew that Black Montgomery had networks ready to act. Her page matters because it restores strategy to a story too often reduced to politeness and fatigue.
@@ -804,6 +959,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Prince
 - Slug: `prince`
 - Daily date: 2026-06-07
+- Daily story researched: Not recorded
+- Daily story claims: Prince could play almost anything, but one of his biggest battles was over a question behind the music: who owns the work? Born June 7, 1958, Prince became one of the most inventive artists in popular music. He blended funk, rock, R&B, pop, and gospel into a sound that resisted categories. During a contract fight with Warner Bros., he changed his name to a symbol and wrote "slave" on his face to protest lack of control over his masters and artistic output.
+- Daily story sources:
+  - https://www.rockhall.com/inductees/prince
+  - https://www.britannica.com/biography/Prince-singer-and-songwriter
 - Date researched: 2026-08-17
 - Writer/research status: batch-19-complete
 - Material factual claims: Prince Rogers Nelson was not only a dazzling performer in purple light. He was a songwriter, producer, arranger, multi-instrumentalist, bandleader, studio obsessive, business strategist, and public critic of music-industry control. The famous story says he changed his name to a symbol and wrote "slave" on his face. That is true, but it is only the doorway. Prince was arguing that art is labor and that ownership decides who profits from genius. His page matters because Black musical brilliance has often been celebrated while contracts, masters, publishing, and corporate power stayed hidden in the shadows. Prince dragged those shadows onto the stage.
@@ -830,6 +990,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Underground Railroad
 - Slug: `underground-railroad`
 - Daily date: 2026-06-08
+- Daily story researched: Not recorded
+- Daily story claims: The Underground Railroad had no tracks, no timetable, and no central office. That was the point. It was a loose network of enslaved people, free Black communities, Indigenous allies, white abolitionists, safe houses, routes, signals, and local knowledge used to help people escape slavery. The people escaping were not passengers in someone else's rescue story. They were the main strategists, making dangerous decisions with incomplete information and everything at stake.
+- Daily story sources:
+  - https://www.nps.gov/subjects/undergroundrailroad/index.htm
+  - https://www.loc.gov/classroom-materials/immigration/african/the-underground-railroad/
 - Date researched: 2026-08-17
 - Writer/research status: batch-23-complete
 - Material factual claims: The Underground Railroad was not underground and not a railroad. It was a changing network of people, routes, homes, churches, waterways, wagons, free Black communities, Native allies, abolitionists, maritime workers, and local knowledge used by enslaved people seeking freedom. The popular version often turns escape into a rescue story led by benevolent outsiders. The deeper history starts with self-emancipating people themselves. They planned, listened, hid, walked, negotiated, trusted, doubted, and kept moving with slave catchers, federal law, hunger, weather, and betrayal around them. This page matters because freedom work is infrastructure. It can look like a door opened at night, a warning passed quietly, a river crossed, a name changed, or a community risking everything so someone else can live unowned.
@@ -858,6 +1023,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Solomon Northup
 - Slug: `solomon-northup`
 - Daily date: 2026-06-09
+- Daily story researched: Not recorded
+- Daily story claims: Solomon Northup was free in New York. Then he was kidnapped, drugged, chained, and sold as if his freedom had never existed. Northup spent twelve years enslaved in Louisiana before allies helped prove his identity and secure his release. He published Twelve Years a Slave in 1853. His narrative documented kidnapping, forced labor, family separation, and the legal vulnerability of free Black people in a country where slavery shaped every border.
+- Daily story sources:
+  - https://www.nps.gov/people/solomon-northup.htm
+  - https://docsouth.unc.edu/fpn/northup/northup.html
 - Date researched: 2026-08-17
 - Writer/research status: batch-20-complete
 - Material factual claims: Solomon Northup was born free in New York, kidnapped in Washington, D.C., sold into slavery in Louisiana, and held for twelve years before allies helped prove his identity and secure his release. His memoir, Twelve Years a Slave, did more than tell a personal story. It exposed how slavery threatened free Black life across state lines, how law could fail when documents were stripped away, and how testimony became political evidence. His page matters because Northup's freedom was not stolen by accident alone. It was stolen by a system where Black personhood could be doubted, traded, renamed, and forced to prove itself.
@@ -884,6 +1054,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Ann Lowe
 - Slug: `ann-lowe`
 - Daily date: 2026-06-10
+- Daily story researched: Not recorded
+- Daily story claims: Ann Lowe designed gowns for some of America's wealthiest families, then watched society remember the brides and forget the Black woman who made them shine. Lowe was a master designer whose clients included elite families. She created Jacqueline Bouvier's wedding dress for her marriage to John F. Kennedy. A flood damaged the dresses days before the wedding, and Lowe's team remade them at enormous personal cost. For years, her role was barely credited publicly.
+- Daily story sources:
+  - https://nmaahc.si.edu/explore/stories/ann-lowe
+  - https://www.metmuseum.org/art/collection/search/157825
 - Date researched: 2026-08-14
 - Writer/research status: batch-2-reviewed
 - Material factual claims: Ann Lowe designed for American high society while that same society often refused to say her name. Her gowns moved through debutante balls, weddings, and elite family rituals, including Jacqueline Bouvier's wedding to John F. Kennedy. The popular version usually stops there, at the famous dress. The deeper story is about Black craft labor, inherited skill, business risk, racial etiquette, and the way glamour can hide the hands that made it possible. Lowe was not a lucky seamstress near powerful people. She was a designer with a precise eye, a demanding standard, and a career built inside rooms that expected her brilliance but not her credit.
@@ -908,6 +1083,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: University of Alabama Integration
 - Slug: `university-of-alabama-integration`
 - Daily date: 2026-06-11
+- Daily story researched: Not recorded
+- Daily story claims: On June 11, 1963, two Black students tried to register for class while a governor stood in a doorway pretending history could be blocked by posture. Vivian Malone and James Hood sought to integrate the University of Alabama. Governor George Wallace staged a public stand against federal desegregation orders. Federal officials intervened, Wallace stepped aside, and Malone and Hood registered. That same day, President Kennedy addressed civil rights as a moral issue on national television.
+- Daily story sources:
+  - https://www.archives.gov/exhibits/eyewitness/html.php?section=18
+  - https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/civil-rights-movement
 - Date researched: 2026-08-17
 - Writer/research status: batch-23-complete
 - Material factual claims: The integration of the University of Alabama is often remembered as Governor George Wallace standing in a doorway. That image matters, but it can shrink the story around the person performing resistance instead of the students forcing change. Vivian Malone and James Hood were the ones trying to register. Their presence made the confrontation necessary. On June 11, 1963, Wallace staged defiance of federal desegregation orders, federal officials intervened, and the students entered. That same day, President John F. Kennedy addressed civil rights as a moral issue on national television. This page matters because segregation was not only custom. It was defended by elected officials, state power, spectacle, and delay. It took student courage and federal enforcement to move the doorway.
@@ -934,6 +1114,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Medgar Evers
 - Slug: `medgar-evers`
 - Daily date: 2026-06-12
+- Daily story researched: Not recorded
+- Daily story claims: Medgar Evers spent his life organizing in Mississippi, then was killed in his own driveway while his family was inside. As NAACP field secretary, Evers investigated violence, organized boycotts, supported desegregation efforts, and pushed voter registration in one of the most dangerous states for civil rights work. He was assassinated on June 12, 1963. His killer was not convicted until 1994, after decades of delayed justice.
+- Daily story sources:
+  - https://www.nps.gov/people/medgar-evers.htm
+  - https://www.archives.gov/research/african-americans/individuals/medgar-evers
 - Date researched: 2026-08-17
 - Writer/research status: batch-17-complete
 - Material factual claims: Medgar Evers is often remembered at the moment of his murder, lying in his driveway in Jackson, Mississippi, while his family was inside the house. That ending is devastating, but it is not the whole life. Evers was a World War II veteran, college student, insurance worker, husband, father, and the NAACP's first field secretary in Mississippi. His work was local, relentless, and dangerous: voter registration, school desegregation, boycotts, investigations of racial violence, and support for people whose names did not make national news. He was not waiting for the movement to arrive in Mississippi. He was building it under threat every day. His story matters because civil rights depended on organizers who knew the risks and stayed anyway.
@@ -960,6 +1145,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Black Panther Party
 - Slug: `black-panther-party`
 - Daily date: 2026-06-13
+- Daily story researched: Not recorded
+- Daily story claims: The Black Panther Party was famous for images of guns. The part many people skip is the breakfast. Founded in Oakland in 1966, the Panthers organized against police brutality and built community survival programs including free breakfasts, health clinics, liberation schools, and sickle cell testing. Federal agencies targeted the Party through COINTELPRO, while local chapters kept feeding children and organizing services the state had failed to provide.
+- Daily story sources:
+  - https://nmaahc.si.edu/explore/stories/black-panther-party
+  - https://www.archives.gov/research/african-americans/black-power/black-panthers
 - Date researched: 2026-08-17
 - Writer/research status: batch-21-complete
 - Material factual claims: The Black Panther Party is often remembered through the image of armed Black men in leather jackets. That image was real, but it is not enough. The Panthers built patrols against police brutality, political education classes, newspapers, free breakfast programs, health clinics, sickle cell testing, liberation schools, and coalitions with other oppressed communities. They also faced internal conflict, sexism, state repression, criminal charges, informants, and deadly police violence. This page matters because the Panthers understood power as both defense and care. A rifle could symbolize refusal, but breakfast before school, a clinic visit, or a newspaper in a neighbor's hand could also expose the state's failures.
@@ -986,6 +1176,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Lewis Howard Latimer
 - Slug: `lewis-howard-latimer`
 - Daily date: 2026-06-14
+- Daily story researched: Not recorded
+- Daily story claims: Lewis Latimer did not invent the light bulb, but he helped make electric light practical enough to spread. Latimer was born to parents who had escaped slavery. He became a draftsman, patent expert, and inventor, working on telephone and electric lighting technologies. His improvements to carbon filament manufacturing helped bulbs last longer and cost less. He later worked with Thomas Edison's legal team and wrote a technical book on electric lighting.
+- Daily story sources:
+  - https://invention.si.edu/innovative-lives-lewis-latimer-1848-1928
+  - https://www.nps.gov/people/lewis-howard-latimer.htm
 - Date researched: 2026-08-14
 - Writer/research status: batch-15-complete
 - Material factual claims: Lewis Howard Latimer did not invent the light bulb, and saying that he did misses the more interesting truth. Latimer was the son of parents who escaped slavery, a Union Navy veteran, a self-taught draftsman, a patent expert, an inventor, and one of the few Black technical professionals inside the electrical revolution. He drafted patent drawings for Alexander Graham Bell's telephone application, improved carbon filament manufacturing for electric lamps, worked with companies competing in the early lighting industry, and later joined Thomas Edison's legal department as an expert witness and draftsman. Latimer matters because modern technology is usually remembered through famous names, but it is built through drawings, procedures, patents, experiments, litigation, and skilled people whose labor makes an idea usable.
@@ -1012,6 +1207,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Dred Scott
 - Slug: `dred-scott`
 - Daily date: 2026-06-15
+- Daily story researched: Not recorded
+- Daily story claims: The Supreme Court did not just rule against Dred Scott. It tried to write Black people out of citizenship itself. Scott sued for freedom after living with his enslaver in free territory. In 1857, the Court ruled that Black people, enslaved or free, could not be citizens with standing to sue in federal court. Chief Justice Roger Taney's opinion helped push the country closer to Civil War. The Fourteenth Amendment later rejected the decision's citizenship logic.
+- Daily story sources:
+  - https://www.archives.gov/milestone-documents/dred-scott-v-sandford
+  - https://www.oyez.org/cases/1850-1900/60us393
 - Date researched: 2026-08-14
 - Writer/research status: batch-7-complete
 - Material factual claims: Dred Scott v. Sandford is remembered as a Supreme Court decision, but it began as a family's freedom suit. Dred Scott, Harriet Robinson Scott, and their daughters had lived in places where slavery was prohibited, then sued in Missouri courts for freedom. By 1857, the case had become a national weapon. Chief Justice Roger Taney's opinion said Black people could not be U.S. citizens and that Congress lacked power to ban slavery in federal territories. The decision did not settle the slavery conflict. It exposed how far the Court would go to protect slaveholding power, and it helped push the country closer to Civil War.
@@ -1038,6 +1238,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Tupac Shakur
 - Slug: `tupac-shakur`
 - Daily date: 2026-06-16
+- Daily story researched: Not recorded
+- Daily story claims: Tupac Shakur wrote like someone carrying a whole neighborhood in his chest. Born to a family shaped by Black Panther activism, Tupac became one of hip-hop's most influential voices. His songs moved between tenderness, rage, survival, contradiction, and social critique. He became a global star before his death at twenty-five, leaving behind music that continues to shape conversations about poverty, policing, masculinity, grief, and performance.
+- Daily story sources:
+  - https://www.rockhall.com/inductees/tupac-shakur
+  - https://www.britannica.com/biography/Tupac-Shakur
 - Date researched: 2026-08-17
 - Writer/research status: batch-23-complete
 - Material factual claims: Tupac Shakur was a rapper, actor, poet, and cultural figure whose work carried tenderness, rage, bravado, grief, political memory, and contradiction at once. He was born into a family shaped by Black Panther activism and raised in the afterlife of the movements the government had tried to crush. His music spoke to poverty, policing, misogyny, masculinity, motherhood, survival, and performance, sometimes with startling clarity and sometimes with unresolved conflict. This page matters because Tupac is too often flattened into either martyr or menace. The fuller history asks what he heard, what he inherited, what he sold, what he challenged, and what pressures shaped a young artist who became global before he had time to become old.
@@ -1064,6 +1269,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Charleston Church Shooting
 - Slug: `charleston-church-shooting`
 - Daily date: 2026-06-17
+- Daily story researched: Not recorded
+- Daily story claims: Nine people welcomed a stranger into Bible study. He sat with them, then killed them because they were Black. On June 17, 2015, a white supremacist murdered nine worshippers at Mother Emanuel AME Church in Charleston, South Carolina, one of the oldest Black churches in the South. The attack renewed public attention to white supremacist violence and helped accelerate the removal of Confederate symbols from some public spaces.
+- Daily story sources:
+  - https://www.justice.gov/opa/pr/dylann-roof-sentenced-death-federal-hate-crimes-and-firearms-charges-emanuel-ame-church
+  - https://www.nps.gov/places/mother-emanuel-ame-church.htm
 - Date researched: 2026-08-14
 - Writer/research status: batch-5-complete
 - Material factual claims: The Charleston church shooting was not only a mass murder inside a Bible study. It was an attack on a congregation with roots in Black independence, AME organizing, Denmark Vesey's world, Reconstruction memory, and modern civil-rights life. On June 17, 2015, a white supremacist entered Emanuel AME Church in Charleston, South Carolina, sat with worshipers, and killed nine Black people. The public story quickly moved toward forgiveness, flags, and national grief. Those things matter, but they can also soften what happened. This was racial terror in a sacred space, aimed at Black community life. A serious page has to name the victims, the church's history, the ideology, and the choices institutions made before and after the attack.
@@ -1088,6 +1298,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: John Lewis
 - Slug: `john-lewis`
 - Daily date: 2026-06-18
+- Daily story researched: Not recorded
+- Daily story claims: John Lewis was still a young man when state troopers cracked his skull for marching for the vote. Lewis helped lead the Student Nonviolent Coordinating Committee, joined the Freedom Rides, spoke at the March on Washington, and marched in Selma. On Bloody Sunday in 1965, he was beaten on the Edmund Pettus Bridge. He later served in Congress for more than thirty years and kept urging people toward "good trouble."
+- Daily story sources:
+  - https://www.congress.gov/member/john-lewis/L000287
+  - https://www.nps.gov/people/john-lewis.htm
 - Date researched: 2026-08-14
 - Writer/research status: batch-14-complete
 - Material factual claims: John Lewis is often remembered through one phrase, "good trouble," but the phrase came from a life of organized risk. Lewis was a sharecropper's son from Alabama, a Nashville sit-in organizer, a Freedom Rider, the young chair of SNCC, a speaker at the March on Washington, and one of the marchers beaten on the Edmund Pettus Bridge in Selma. Later, as a member of Congress, he carried movement memory into legislative life. His story matters because courage was not a personality trait. It was training, discipline, community, faith, and repeated choice. Lewis did not become a symbol by avoiding conflict. He became a symbol because he kept walking into it.
@@ -1114,6 +1329,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Juneteenth
 - Slug: `juneteenth`
 - Daily date: 2026-06-19
+- Daily story researched: Not recorded
+- Daily story claims: Freedom had been declared on paper. In Texas, many enslaved people did not hear it from federal troops until June 19, 1865. Union General Gordon Granger arrived in Galveston and announced General Order No. 3, declaring that enslaved people in Texas were free. Juneteenth celebrations grew from that announcement into a tradition of memory, food, music, family, and freedom. It became a federal holiday in 2021.
+- Daily story sources:
+  - https://www.archives.gov/news/topics/juneteenth
+  - https://nmaahc.si.edu/explore/stories/historical-legacy-juneteenth
 - Date researched: 2026-08-14
 - Writer/research status: batch-14-complete
 - Material factual claims: Juneteenth marks a delay that should make readers uncomfortable. The Emancipation Proclamation took effect on January 1, 1863, but enslaved people in Texas were not told by federal troops that slavery had ended there until June 19, 1865, when Union General Gordon Granger issued General Order No. 3 in Galveston. The day became a Black freedom celebration rooted in Texas and carried across the country through family, church, food, music, migration, organizing, and memory. Juneteenth matters because it refuses the easy version of emancipation. Freedom did not arrive everywhere at once. It had to be announced, enforced, claimed, celebrated, and defended.
@@ -1140,6 +1360,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Fred Hampton
 - Slug: `fred-hampton`
 - Daily date: 2026-06-20
+- Daily story researched: Not recorded
+- Daily story claims: Fred Hampton was twenty-one years old and already building coalitions that scared powerful people. As chairman of the Illinois Black Panther Party, Hampton organized free breakfast programs, political education, and the Rainbow Coalition linking Black, Latino, and poor white organizers. On December 4, 1969, Chicago police raided his apartment with FBI involvement. Hampton and Mark Clark were killed. Later evidence revealed deep government surveillance and misconduct.
+- Daily story sources:
+  - https://www.archives.gov/research/african-americans/black-power/fred-hampton
+  - https://www.britannica.com/biography/Fred-Hampton
 - Date researched: 2026-08-15
 - Writer/research status: batch-11-complete
 - Material factual claims: Fred Hampton was 21 when Chicago police killed him during a predawn raid planned with FBI involvement. That sentence is true, but it can trap him at the moment of death. Hampton was also a gifted organizer from Maywood, Illinois, a former NAACP youth leader, deputy chairman of the Illinois Black Panther Party, builder of free breakfast and health programs, and a coalition-maker who connected Black, Puerto Rican, and poor white organizers in Chicago. The state feared him not only because he was angry, but because he was effective. Hampton matters because his story is not just about repression. It is about what power recognizes as dangerous: disciplined organizing, political education, community programs, and alliances across lines that segregation and poverty were supposed to keep apart.
@@ -1166,6 +1391,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Mississippi Freedom Summer
 - Slug: `mississippi-freedom-summer`
 - Daily date: 2026-06-21
+- Daily story researched: Not recorded
+- Daily story claims: In 1964, volunteers went to Mississippi knowing democracy there was being guarded by violence. Freedom Summer brought civil rights workers to support Black voter registration, create Freedom Schools, and challenge Mississippi's all-white political structure. James Chaney, Andrew Goodman, and Michael Schwerner disappeared on June 21 and were later found murdered. Their deaths exposed the terror surrounding voting rights work.
+- Daily story sources:
+  - https://www.crmvet.org/tim/timhis64.htm
+  - https://www.archives.gov/research/african-americans/vote/freedom-summer
 - Date researched: 2026-08-17
 - Writer/research status: batch-17-complete
 - Material factual claims: Freedom Summer was not a field trip for idealistic students. It was a high-risk campaign built by local Black Mississippians and movement organizers who knew that voting rights in the state were guarded by terror. In 1964, the Council of Federated Organizations, with SNCC at its center, brought hundreds of mostly young volunteers to Mississippi to support voter registration, Freedom Schools, community centers, and the Mississippi Freedom Democratic Party. The murders of James Chaney, Andrew Goodman, and Michael Schwerner exposed the danger, but the campaign was larger than those three names. Its page matters because democracy here was not a slogan. It was a door knock, a classroom, a jail cell, a funeral, a testimony, and a challenge to a national party that preferred order over justice.
@@ -1192,6 +1422,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Joe Louis
 - Slug: `joe-louis`
 - Daily date: 2026-06-22
+- Daily story researched: Not recorded
+- Daily story claims: When Joe Louis walked into the ring against Max Schmeling in 1938, the fight carried more than two boxers. Schmeling, a German fighter, had beaten Louis in 1936. By the rematch, Nazi Germany was rising, and many Americans treated the bout as a symbolic contest between democracy and fascism. Louis knocked Schmeling out in the first round. Black America celebrated a victory by a man still forced to live under Jim Crow at home.
+- Daily story sources:
+  - https://www.britannica.com/biography/Joe-Louis
+  - https://www.loc.gov/item/ihas.200197457/
 - Date researched: 2026-08-14
 - Writer/research status: batch-14-complete
 - Material factual claims: Joe Louis became heavyweight champion in 1937, but the ring was never just a ring. Born in Alabama and raised in Detroit, Louis rose through boxing during Jim Crow, when Black fighters were still judged against Jack Johnson's ghost and white America's fears. His 1938 rematch with German boxer Max Schmeling became a global symbol before World War II, but Louis was also a man under pressure from promoters, tax authorities, the military, sportswriters, and a public that wanted him powerful and carefully controlled. He matters because he carried Black pride and American symbolism at the same time, while the country that cheered him still denied Black people full citizenship.
@@ -1218,6 +1453,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Black Arts Movement
 - Slug: `black-arts-movement`
 - Daily date: 2026-06-23
+- Daily story researched: Not recorded
+- Daily story claims: The Black Arts Movement treated poems, plays, murals, and music as tools a community could use. Emerging after the assassination of Malcolm X, the movement connected cultural production to Black Power, community institutions, publishing, theater, and self-definition. Writers and artists built presses, theaters, workshops, and journals that centered Black audiences rather than seeking approval from white institutions.
+- Daily story sources:
+  - https://www.poetryfoundation.org/collections/148936/an-introduction-to-the-black-arts-movement
+  - https://www.britannica.com/event/Black-Arts-movement
 - Date researched: 2026-08-17
 - Writer/research status: batch-21-complete
 - Material factual claims: The Black Arts Movement treated culture as a place where power could be built. Poems, plays, murals, presses, journals, music, and theaters were not side projects to politics. They were tools for making Black audiences, Black language, Black anger, Black beauty, and Black imagination central. The movement emerged after the assassination of Malcolm X and grew alongside Black Power, but it was never one single organization or one single style. It included brilliance, institution-building, gender conflict, nationalism, experimentation, and argument. This page matters because art does not only decorate a movement. It teaches people what they can name, what they can refuse, and what futures they can rehearse before institutions are ready to permit them.
@@ -1244,6 +1484,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Freedmen's Bureau
 - Slug: `freedmens-bureau`
 - Daily date: 2026-06-24
+- Daily story researched: Not recorded
+- Daily story claims: After slavery, four million people needed land, schools, wages, records, safety, and family reunions. The Freedmen's Bureau was asked to help with almost all of it. Created in 1865, the Bureau assisted formerly enslaved people and white refugees. It helped establish schools, negotiate labor contracts, provide food and medical aid, and record marriages and family searches. The Bureau was underfunded, attacked by white Southerners, and shut down too soon. Still, its records became one of the richest archives of Black Reconstruction life.
+- Daily story sources:
+  - https://www.archives.gov/research/african-americans/freedmens-bureau
+  - https://www.nps.gov/articles/000/the-freedmen-s-bureau.htm
 - Date researched: 2026-08-17
 - Writer/research status: batch-22-complete
 - Material factual claims: The Freedmen's Bureau was asked to help build freedom in the ruins of slavery and war. Its formal name was the Bureau of Refugees, Freedmen, and Abandoned Lands, and its job was almost impossibly broad: food, schools, labor contracts, medical aid, legal complaints, marriages, family searches, and abandoned land. It served formerly enslaved people and white refugees, but its deepest historical importance is the record it left of Black Reconstruction life. The Bureau was underfunded, attacked by white Southerners, and shut down before freedom had the protection it needed. This page matters because emancipation was not a door people simply walked through. Freedom needed offices, teachers, records, wages, land, courts, and power, and the Bureau showed both how necessary and how fragile that infrastructure was.
@@ -1269,6 +1514,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Alice Walker
 - Slug: `alice-walker`
 - Daily date: 2026-06-25
+- Daily story researched: Not recorded
+- Daily story claims: Alice Walker did not only write new stories. She went looking for the writers history had buried. Walker won the Pulitzer Prize for The Color Purple and coined the term womanist. Her fiction and essays explored Black women's interior lives, pain, survival, love, and creativity. She also helped bring renewed attention to Zora Neale Hurston, including locating and marking Hurston's grave. Recovery became part of her literary work.
+- Daily story sources:
+  - https://www.poetryfoundation.org/poets/alice-walker
+  - https://www.womenshistory.org/education-resources/biographies/alice-walker
 - Date researched: 2026-08-14
 - Writer/research status: batch-2-reviewed
 - Material factual claims: Alice Walker is usually introduced through The Color Purple, and that book belongs at the center of her story. But Walker's larger work is about recovery: recovering Black women's interior lives, recovering a language for womanist thought, and recovering writers whose work had been pushed out of view. She helped return Zora Neale Hurston to public attention while building her own body of fiction, essays, poetry, and activism. Her page should not reduce her to a prize list. It should ask what it means to write when the people you need as ancestors have been buried by the archive.
@@ -1293,6 +1543,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The 54th Massachusetts Infantry
 - Slug: `54th-massachusetts-infantry`
 - Daily date: 2026-06-26
+- Daily story researched: Not recorded
+- Daily story claims: The 54th Massachusetts Infantry fought for a country that had not yet fully decided Black men were citizens. Formed in 1863, the 54th was one of the first official Black regiments in the Union Army. Its soldiers faced unequal pay, racism, and the danger of enslavement or execution if captured. Their assault on Fort Wagner in South Carolina cost many lives but changed Northern perceptions of Black military service and helped encourage further Black enlistment.
+- Daily story sources:
+  - https://www.nps.gov/boaf/learn/historyculture/54th-massachusetts-regiment.htm
+  - https://www.archives.gov/education/lessons/blacks-civil-war
 - Date researched: 2026-08-17
 - Writer/research status: batch-21-complete
 - Material factual claims: The 54th Massachusetts Infantry fought in a war that had not yet fully admitted what its service meant. Black men were asked to risk death for a Union that still paid them less, questioned their courage, and could not guarantee protection if Confederate forces captured them. The regiment became famous for its assault on Fort Wagner, but its story is bigger than a single charge. It is about recruitment, citizenship, unequal pay, family sacrifice, abolitionist politics, Black discipline under racist scrutiny, and the argument that military service made against white supremacy. This page matters because the 54th did not prove Black humanity. Black humanity was never in question. It exposed a country that needed Black soldiers while still resisting Black equality.
@@ -1319,6 +1574,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Harriet Jacobs
 - Slug: `harriet-jacobs`
 - Daily date: 2026-06-27
+- Daily story researched: Not recorded
+- Daily story claims: Harriet Jacobs hid in a tiny crawlspace for nearly seven years, close enough to hear her children but not free enough to hold them. Jacobs escaped sexual harassment and slavery in North Carolina by hiding in her grandmother's attic before eventually reaching the North. Under the name Linda Brent, she published Incidents in the Life of a Slave Girl, one of the most important narratives by an enslaved Black woman.
+- Daily story sources:
+  - https://docsouth.unc.edu/fpn/jacobs/jacobs.html
+  - https://www.nps.gov/people/harriet-jacobs.htm
 - Date researched: 2026-08-15
 - Writer/research status: batch-12-complete
 - Material factual claims: Harriet Jacobs wrote what slavery tried hardest to silence: the interior life of an enslaved Black woman confronting sexual coercion, motherhood under property law, and the impossible choices forced by bondage. Born in Edenton, North Carolina, Jacobs escaped her enslaver's control by hiding for nearly seven years in a cramped attic space in her grandmother's house, close enough to hear her children but unable to live with them openly. In 1861, using the name Linda Brent, she published Incidents in the Life of a Slave Girl. The book mattered because it spoke directly to Northern women and refused to let antislavery politics avoid sexual violence. Jacobs was not asking readers for pity. She was giving testimony.
@@ -1345,6 +1605,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Stonewall Riots
 - Slug: `stonewall-riots`
 - Daily date: 2026-06-28
+- Daily story researched: Not recorded
+- Daily story claims: Stonewall was not the first LGBTQ+ resistance, but on June 28, 1969, the fight spilled into the street and stayed there. Police raided the Stonewall Inn in Greenwich Village, a gathering place for LGBTQ+ people, including Black and brown queer and trans people who faced heavy policing. People resisted the raid, and nights of protest followed. The uprising helped energize a new phase of LGBTQ+ organizing and Pride marches.
+- Daily story sources:
+  - https://www.nps.gov/places/stonewall.htm
+  - https://www.loc.gov/item/today-in-history/june-28/
 - Date researched: 2026-08-17
 - Writer/research status: batch-21-complete
 - Material factual claims: Stonewall was not the first time LGBTQ+ people resisted police, and it was not a neat origin story with one hero throwing one object. It was a series of confrontations that began after a police raid at the Stonewall Inn in Greenwich Village and grew because queer and trans people were tired of being treated as disposable. Black and brown patrons, street youth, drag performers, lesbians, gay men, trans people, and gender-nonconforming people all lived under heavy policing. Stonewall matters because it turned routine humiliation into public refusal. The deeper story is not that liberation began in one bar. It is that a community pushed to the edge made the edge visible, then built organizations, marches, newspapers, and arguments that changed public life.
@@ -1371,6 +1636,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Stokely Carmichael / Kwame Ture
 - Slug: `stokely-carmichael`
 - Daily date: 2026-06-29
+- Daily story researched: Not recorded
+- Daily story claims: When Stokely Carmichael said "Black Power," the phrase sounded like a door opening and an alarm bell ringing at the same time. Carmichael organized with SNCC, worked in Mississippi and Alabama, and helped build the Lowndes County Freedom Organization. In 1966, during the March Against Fear, he popularized "Black Power." He later moved toward Pan-African politics, changed his name to Kwame Ture, and lived in Guinea, linking Black freedom in America to liberation struggles abroad.
+- Daily story sources:
+  - https://www.crmvet.org/vet/carmicha.htm
+  - https://www.britannica.com/biography/Stokely-Carmichael
 - Date researched: 2026-08-17
 - Writer/research status: batch-20-complete
 - Material factual claims: Stokely Carmichael, later Kwame Ture, did not simply shout "Black Power" and walk away from the civil rights movement. He was a disciplined SNCC organizer shaped by jail, Mississippi, Lowndes County, the March Against Fear, antiwar politics, Pan-Africanism, and frustration with liberal promises that left Black communities exposed. The phrase "Black Power" made him famous and feared, but his life before and after the slogan is the real education. His page matters because movements change when conditions change. Carmichael's shift from integrationist student activism to Black self-determination and global Pan-African politics shows a generation arguing over what freedom required after courage alone had proved insufficient.
@@ -1397,6 +1667,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Black Lives Matter
 - Slug: `black-lives-matter`
 - Daily date: 2026-06-30
+- Daily story researched: Not recorded
+- Daily story claims: Before it was painted on streets and chanted around the world, Black Lives Matter was a sentence written in grief. Alicia Garza, Patrisse Cullors, and Opal Tometi helped create Black Lives Matter in 2013 after George Zimmerman was acquitted in the killing of Trayvon Martin. The phrase became a network, a movement, and a global language for protest against anti-Black violence, especially after the killings of Michael Brown, Breonna Taylor, George Floyd, and many others.
+- Daily story sources:
+  - https://blacklivesmatter.com/herstory/
+  - https://nmaahc.si.edu/explore/stories/black-lives-matter
 - Date researched: 2026-08-14
 - Writer/research status: batch-4-complete
 - Material factual claims: Black Lives Matter began as language written through grief, then became a network, a protest framework, and a global phrase for refusing anti-Black death as normal. Alicia Garza, Patrisse Cullors, and Opal Tometi helped shape it after George Zimmerman was acquitted in the killing of Trayvon Martin in 2013. But the movement cannot be understood only as a hashtag. It drew from older Black freedom struggles while using digital tools, decentralized organizing, queer Black feminist leadership, street protest, mutual aid, and cultural pressure in new ways. Its history includes power, disagreement, backlash, and transformation. The sentence matters because it names what institutions have repeatedly denied.
@@ -1421,6 +1696,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Robert Smalls
 - Slug: `robert-smalls`
 - Daily date: 2026-07-01
+- Daily story researched: Not recorded
+- Daily story claims: Before sunrise, Robert Smalls put on a Confederate captain's hat, guided a ship past armed checkpoints, and carried his family toward freedom. Smalls was enslaved in Charleston and forced to work aboard the Confederate transport Planter. In 1862, he and other enslaved crew members seized the ship while white officers were away. He delivered the Planter to Union forces, won freedom for the people aboard, later served as a pilot, and became a South Carolina congressman during Reconstruction.
+- Daily story sources:
+  - https://www.nps.gov/people/robert-smalls.htm
+  - https://history.house.gov/People/Listing/S/SMALLS,-Robert-(S000502)/
 - Date researched: 2026-08-17
 - Writer/research status: batch-19-complete
 - Material factual claims: Robert Smalls did something almost cinematic before sunrise on May 13, 1862: he guided the Confederate transport Planter out of Charleston harbor, passed armed checkpoints, picked up family members and other enslaved people, and delivered the ship to Union forces. But the ship escape is only the first act. Smalls became a Union pilot, a political leader, a South Carolina legislator, and a member of Congress during Reconstruction. His page matters because he turned knowledge extracted by slavery into freedom, then turned freedom into lawmaking. He was not only a daring escape story. He was a builder of Black citizenship under fire.
@@ -1447,6 +1727,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The 14th Amendment
 - Slug: `14th-amendment`
 - Daily date: 2026-07-02
+- Daily story researched: Not recorded
+- Daily story claims: After Dred Scott tried to deny Black citizenship, the 14th Amendment wrote citizenship into the Constitution. Ratified in 1868, the amendment established birthright citizenship, due process, and equal protection. It was a direct Reconstruction answer to slavery and the Supreme Court's Dred Scott decision. Its promises became central to civil rights lawsuits, school desegregation, voting rights, marriage equality, and debates over who counts as fully protected by law.
+- Daily story sources:
+  - https://www.archives.gov/milestone-documents/14th-amendment
+  - https://constitutioncenter.org/the-constitution/amendments/amendment-xiv
 - Date researched: 2026-08-17
 - Writer/research status: batch-21-complete
 - Material factual claims: The 14th Amendment is where the Constitution tried to answer the lie at the center of Dred Scott: that Black people could be permanently outside American citizenship. Ratified after the Civil War, it wrote birthright citizenship, due process, and equal protection into constitutional law. But the amendment was not magic. It was written in a country still fighting over emancipation, enforced unevenly, narrowed by courts, and later revived by movements that used its words against segregation, exclusion, and state violence. This page matters because the 14th Amendment is not only a legal phrase people quote during court fights. It is a Reconstruction promise, born from Black freedom struggle and still contested wherever citizenship and equality are treated as conditional.
@@ -1473,6 +1758,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The 15th Amendment
 - Slug: `15th-amendment`
 - Daily date: 2026-07-03
+- Daily story researched: Not recorded
+- Daily story claims: The 15th Amendment promised that race could not be used to deny the vote. Then opponents spent nearly a century inventing workarounds. Ratified in 1870, the amendment protected Black men's voting rights after the Civil War. It did not include women, and it did not enforce itself. Poll taxes, literacy tests, grandfather clauses, violence, and fraud gutted the promise until later movements forced new protections.
+- Daily story sources:
+  - https://www.archives.gov/milestone-documents/15th-amendment
+  - https://constitutioncenter.org/the-constitution/amendments/amendment-xv
 - Date researched: 2026-08-17
 - Writer/research status: batch-21-complete
 - Material factual claims: The 15th Amendment promised that race, color, or previous enslavement could not be used to deny the vote. That promise changed American democracy, but it arrived with a wound: it protected Black men's voting rights while women, including Black women who had fought for abolition, were left outside the amendment's direct protection. It also did not enforce itself. Black men voted, held office, built schools, wrote laws, and reshaped Reconstruction governments. Then white supremacists used terror, fraud, poll taxes, literacy tests, grandfather clauses, and court decisions to drain the amendment of power. This page matters because voting rights history is not a straight line from amendment to access. It is a long fight over whether a right on paper can survive organized resistance.
@@ -1499,6 +1789,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Frederick Douglass and the Fourth of July Speech
 - Slug: `douglass-fourth-of-july`
 - Daily date: 2026-07-04
+- Daily story researched: Not recorded
+- Daily story claims: Frederick Douglass stood before an audience celebrating freedom and asked what that celebration meant to people still enslaved. On July 5, 1852, Douglass delivered one of the most powerful speeches in American history, condemning the hypocrisy of Independence Day in a slaveholding republic. He did not reject freedom as an ideal. He exposed the gap between the nation's words and its actions, using the holiday itself as evidence.
+- Daily story sources:
+  - https://www.nps.gov/articles/000/-what-to-the-slave-is-the-fourth-of-july.htm
+  - https://www.loc.gov/item/today-in-history/july-05/
 - Date researched: 2026-08-15
 - Writer/research status: batch-11-complete
 - Material factual claims: Frederick Douglass did not give his most famous Independence Day speech on July 4. He spoke on July 5, 1852, in Rochester, New York, to an antislavery audience gathered by the Rochester Ladies' Anti-Slavery Sewing Society. That detail matters. Douglass was not rejecting the idea of liberty. He was forcing listeners to ask why a slaveholding nation celebrated freedom while millions were enslaved and while the Fugitive Slave Act made capture a national duty. The daily challenge names the speech. The encyclopedia page has to explain the setting, the audience, the strategy, the risk, and the reason the speech still cuts. Douglass made patriotism answer to evidence. He did not let national ritual become a hiding place.
@@ -1525,6 +1820,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: David Walker
 - Slug: `david-walker`
 - Daily date: 2026-07-05
+- Daily story researched: Not recorded
+- Daily story claims: David Walker wrote a pamphlet so direct that Southern states tried to stop it from reaching Black readers. Walker was a free Black abolitionist in Boston. His 1829 Appeal condemned slavery, racism, colonization, and Christian hypocrisy with fierce urgency. Copies were smuggled into the South, alarming enslavers who understood that words could travel where organizers could not.
+- Daily story sources:
+  - https://docsouth.unc.edu/nc/walker/walker.html
+  - https://www.britannica.com/biography/David-Walker
 - Date researched: 2026-08-14
 - Writer/research status: batch-6-complete
 - Material factual claims: David Walker's Appeal was printed in 1829, but it sounds like someone refusing to whisper in a burning room. Walker was born free in North Carolina to a free mother and enslaved father, moved to Boston, joined Black organizing networks, sold used clothing, worked with Freedom's Journal, and wrote one of the boldest antislavery pamphlets in the United States. Southern authorities feared it because it named slavery as sin, theft, hypocrisy, and violence, and because copies reached Black readers through sailors, clothing networks, and oral reading. Walker matters because he refused the polite timetable of white reform. He wrote as if Black freedom was urgent because it was.
@@ -1549,6 +1849,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Frances E.W. Harper
 - Slug: `frances-harper`
 - Daily date: 2026-07-06
+- Daily story researched: Not recorded
+- Daily story claims: Frances Harper used poems, novels, speeches, and organizing to insist that freedom had to include Black women. Harper was a lecturer, abolitionist, suffragist, and writer. She traveled widely speaking against slavery and later for temperance, education, and women's rights. Her novel Iola Leroy explored slavery, Reconstruction, race, gender, and public responsibility, placing Black women's choices at the center.
+- Daily story sources:
+  - https://www.poetryfoundation.org/poets/frances-ellen-watkins-harper
+  - https://www.womenshistory.org/education-resources/biographies/frances-ellen-watkins-harper
 - Date researched: 2026-08-15
 - Writer/research status: batch-11-complete
 - Material factual claims: Frances Ellen Watkins Harper was a poet, novelist, lecturer, journalist, abolitionist, suffragist, temperance organizer, and Black women's club leader. The daily challenge names Iola Leroy, but Harper's life was bigger than a title on a syllabus. Born free in Baltimore, orphaned young, and educated in a Black school run by her uncle, she became one of the nineteenth century's most widely heard Black women public speakers. She wrote poems against slavery, traveled the antislavery lecture circuit, challenged white suffragists to face racism, and helped build institutions for Black women after the Civil War. Harper matters because she refused to choose one freedom struggle at a time. She understood that race, gender, family, labor, education, and citizenship were braided together long before later generations had neat language for it.
@@ -1575,6 +1880,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Charles Hamilton Houston
 - Slug: `charles-hamilton-houston`
 - Daily date: 2026-07-07
+- Daily story researched: Not recorded
+- Daily story claims: Before Brown v. Board reached the Supreme Court, Charles Hamilton Houston was building the legal road that made it possible. Houston served as dean of Howard Law School and special counsel for the NAACP. He trained a generation of civil rights lawyers, including Thurgood Marshall. His strategy attacked segregated education by exposing the lie of separate but equal, case by case, record by record.
+- Daily story sources:
+  - https://nmaahc.si.edu/explore/stories/charles-hamilton-houston
+  - https://www.britannica.com/biography/Charles-Hamilton-Houston
 - Date researched: 2026-08-14
 - Writer/research status: batch-5-complete
 - Material factual claims: Charles Hamilton Houston is often called the architect of the legal strategy that led to Brown v. Board of Education. That title is useful, but it can make his work sound cleaner than it was. Houston built lawyers, institutions, records, and arguments in a country where law had spent generations defending racial caste. He served in a segregated Army, transformed Howard University School of Law, trained Thurgood Marshall and others, and used graduate-school cases to expose the lie of "separate but equal." He died in 1950, before Brown was decided. His story matters because he shows that landmark victories usually rest on people who prepared the ground and did not live to stand in the spotlight.
@@ -1599,6 +1909,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Black Codes
 - Slug: `black-codes`
 - Daily date: 2026-07-08
+- Daily story researched: Not recorded
+- Daily story claims: Slavery ended, and Southern lawmakers immediately began writing rules to trap Black freedom in a smaller cage. Black Codes restricted movement, labor, voting, testimony, apprenticeship, and other parts of life for formerly enslaved people. The codes helped provoke federal Reconstruction measures, including civil rights legislation and constitutional amendments, but their spirit lived on in later Jim Crow laws.
+- Daily story sources:
+  - https://www.archives.gov/research/african-americans/black-codes
+  - https://www.britannica.com/event/black-code
 - Date researched: 2026-08-14
 - Writer/research status: batch-4-complete
 - Material factual claims: The Black Codes were not confusion after slavery. They were strategy. In 1865 and 1866, Southern lawmakers tried to define freedom so narrowly that Black people could be free in name while trapped by labor contracts, vagrancy laws, apprenticeship rules, movement restrictions, and court systems that denied equal rights. The laws showed how quickly slavery's defenders adapted to emancipation. They also provoked a federal response that helped produce the Civil Rights Act of 1866, the Reconstruction Acts, and the Fourteenth Amendment. The Black Codes matter because they reveal a pattern that returns across U.S. history: when Black freedom expands, law can be used either to protect it or to cage it again.
@@ -1623,6 +1938,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Convict Leasing System
 - Slug: `convict-leasing`
 - Daily date: 2026-07-09
+- Daily story researched: Not recorded
+- Daily story claims: After emancipation, some states found a way to sell Black labor again through prisons. Convict leasing allowed governments to lease incarcerated people to private employers. Black people were arrested under discriminatory laws and forced into mines, farms, railroads, and factories. The system generated money for states and companies while exposing prisoners to brutal conditions and high death rates.
+- Daily story sources:
+  - https://www.archives.gov/research/african-americans/convict-leasing
+  - https://www.pbs.org/tpt/slavery-by-another-name/themes/convict-leasing/
 - Date researched: 2026-08-17
 - Writer/research status: batch-22-complete
 - Material factual claims: Convict leasing was one of the ways slavery survived emancipation in practice. After the Civil War, Southern states criminalized ordinary Black life, arrested Black people under discriminatory laws, and leased imprisoned people to mines, farms, railroads, brick yards, and factories. States earned money. Companies got workers they could abuse, replace, and work to death. The system was not identical to slavery, but it used the 13th Amendment's punishment exception and white-controlled courts to turn Black freedom into forced labor again. This page matters because the end of slavery did not end the fight over Black labor. Convict leasing shows how law, profit, racism, and punishment can combine to make exploitation look legal.
@@ -1649,6 +1969,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Jesse Owens
 - Slug: `jesse-owens`
 - Daily date: 2026-07-10
+- Daily story researched: Not recorded
+- Daily story claims: Jesse Owens ran in Nazi Germany and shattered the myth of Aryan supremacy in front of the world. At the 1936 Berlin Olympics, Owens won gold in the 100 meters, 200 meters, long jump, and 4x100 relay. He returned to the United States famous, but still faced segregation and unequal treatment at home.
+- Daily story sources:
+  - https://www.olympics.com/en/athletes/jesse-owens
+  - https://www.britannica.com/biography/Jesse-Owens
 - Date researched: 2026-08-14
 - Writer/research status: batch-14-complete
 - Material factual claims: Jesse Owens did not simply embarrass Hitler. That familiar sentence is too small for what happened. Owens was the son of Alabama sharecroppers, a Great Migration child in Cleveland, a record-breaking Ohio State athlete who still faced segregation, and the winner of four gold medals at the 1936 Berlin Olympics. His victories exposed Nazi racial mythology on a world stage, but they also exposed the lie of American equality. He returned home famous and still Black in Jim Crow America. Owens matters because triumph did not protect him from racism, and symbolism did not pay the bills. His story asks what a nation does with a Black athlete after using his body to prove its ideals.
@@ -1675,6 +2000,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Granville T. Woods
 - Slug: `granville-woods`
 - Daily date: 2026-07-11
+- Daily story researched: Not recorded
+- Daily story claims: Granville Woods built inventions for a world racing forward on rails and electricity. Woods held dozens of patents, many connected to railway communication, electrical systems, and safety. His work helped trains communicate while moving. He fought expensive patent battles and built a career in a field where Black inventors were often denied investment, credit, and protection.
+- Daily story sources:
+  - https://www.nps.gov/people/granville-t-woods.htm
+  - https://www.invent.org/inductees/granville-t-woods
 - Date researched: 2026-08-15
 - Writer/research status: batch-12-complete
 - Material factual claims: Granville T. Woods was called the "Black Edison," but that nickname can hide more than it reveals. Woods was not valuable because he resembled Thomas Edison. He was valuable because he saw the dangerous new world of railroads and electricity from inside labor, then invented communication systems to make it safer. Born in Columbus, Ohio, with limited formal schooling, Woods worked as a machinist, railroad worker, engineer, and inventor. His railway telegraph and induction-telegraph work helped trains communicate while moving, a serious safety problem in an expanding rail economy. Woods matters because invention did not end when he received a patent. He had to defend priority, raise money, build companies, and survive legal fights in a field where race shaped who was believed.
@@ -1701,6 +2031,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Vivien Thomas
 - Slug: `vivien-thomas`
 - Daily date: 2026-07-12
+- Daily story researched: Not recorded
+- Daily story claims: Vivien Thomas trained surgeons with hands the hospital would not fully honor. Thomas was a laboratory assistant and surgical technician whose skill was central to developing a heart surgery for "blue baby" syndrome at Johns Hopkins. He trained many surgeons and contributed to lifesaving techniques while being paid and titled far below his expertise for years.
+- Daily story sources:
+  - https://www.hopkinsmedicine.org/about/history/history-of-medicine/vivien-thomas
+  - https://www.britannica.com/biography/Vivien-Thomas
 - Date researched: 2026-08-18
 - Writer/research status: batch-24-complete
 - Material factual claims: Vivien Thomas did not have the title the hospital world respected most. He did not have a medical degree. For years, he was paid like a janitor while doing work that shaped modern heart surgery. At Vanderbilt and then Johns Hopkins, Thomas became the laboratory technician and surgical teacher whose hands helped make the Blalock-Taussig shunt possible, a procedure that saved children with cyanotic heart disease. The simplified version calls him hidden genius. The deeper story is sharper: Thomas worked inside a medical system that needed his skill, copied his technique, trusted his judgment, and still refused to name him properly for decades. His page matters because medical history is full of people whose labor made breakthroughs possible while institutions arranged the credit around rank, race, and credentials.
@@ -1727,6 +2062,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Rebecca Lee Crumpler
 - Slug: `rebecca-lee-crumpler`
 - Daily date: 2026-07-13
+- Daily story researched: Not recorded
+- Daily story claims: Rebecca Lee Crumpler entered medicine when the profession barely admitted women and almost never admitted Black women. In 1864, she earned a medical degree from New England Female Medical College, becoming the first Black woman physician in the United States. After the Civil War, she worked with formerly enslaved people in Richmond, Virginia, and later wrote a medical book focused on women and children.
+- Daily story sources:
+  - https://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_73.html
+  - https://www.womenshistory.org/education-resources/biographies/rebecca-lee-crumpler
 - Date researched: 2026-08-17
 - Writer/research status: batch-19-complete
 - Material factual claims: Rebecca Lee Crumpler became the first Black woman in the United States known to earn a medical degree, but the achievement matters for more than a first. She entered medicine when white male institutions barely admitted women, Black people were excluded from most formal training, and the Civil War had torn open questions of health, freedom, and citizenship. After graduating in 1864, she treated formerly enslaved people in Richmond and later wrote a medical book for women and children. Her page matters because medical history is not only discoveries and famous hospitals. It is access: who gets trained, who gets believed, who receives care, and who writes knowledge down for families shut out of formal systems.
@@ -1753,6 +2093,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Mary Eliza Mahoney
 - Slug: `mary-eliza-mahoney`
 - Daily date: 2026-07-14
+- Daily story researched: Not recorded
+- Daily story claims: Mary Eliza Mahoney entered nursing when Black women were expected to care for people but not be recognized as professionals. In 1879, Mahoney completed rigorous nurse training in Massachusetts and became the first professionally trained Black nurse in the United States. She spent her career raising standards, advocating for Black nurses, and later supporting women's suffrage.
+- Daily story sources:
+  - https://www.womenshistory.org/education-resources/biographies/mary-mahoney
+  - https://www.nursingworld.org/ana/about-ana/history/hall-of-fame/1996-1998-inductees/
 - Date researched: 2026-08-16
 - Writer/research status: batch-16-complete
 - Material factual claims: Mary Eliza Mahoney entered nursing when Black women were expected to provide care but rarely allowed to hold professional authority. She worked for years at the New England Hospital for Women and Children before being admitted to its nurse training program. In 1879, after a demanding course that most students did not complete, she became the first professionally trained Black nurse in the United States. Her career was quiet by design: private-duty nursing, professional discipline, patient trust, and organization-building. But quiet is not small. Mahoney helped force nursing to confront the difference between using Black women's labor and recognizing Black women as trained professionals. She later helped build the National Association of Colored Graduate Nurses and supported women's suffrage. Her story teaches that care work has always been political when respect, credentials, race, and gender decide who is trusted to heal.
@@ -1779,6 +2124,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Jan Matzeliger
 - Slug: `jan-matzeliger`
 - Daily date: 2026-07-15
+- Daily story researched: Not recorded
+- Daily story claims: Jan Matzeliger watched skilled workers shape shoes by hand and imagined a machine that could do the hardest step faster. Born in Suriname, Matzeliger moved to the United States and worked in Lynn, Massachusetts, a center of shoe production. His lasting machine automated the process of attaching the upper part of a shoe to the sole. The invention transformed shoe manufacturing and lowered costs, but Matzeliger died young and did not receive wealth equal to his impact.
+- Daily story sources:
+  - https://www.invent.org/inductees/jan-e-matzeliger
+  - https://www.britannica.com/biography/Jan-Ernst-Matzeliger
 - Date researched: 2026-08-15
 - Writer/research status: batch-13-complete
 - Material factual claims: Jan Matzeliger changed what ordinary people could afford to put on their feet. Born in Suriname to a Dutch father and a Surinamese mother who had been enslaved, he moved through machine shops, merchant ships, Philadelphia, and Lynn, Massachusetts, before inventing a shoe-lasting machine patented in 1883. Lasting was the hard step that shaped and attached the upper of a shoe to the sole. Skilled workers could do it by hand, but slowly. Matzeliger's machine mechanized the process and helped make mass-produced shoes cheaper and more available. His life also shows the familiar pattern: the invention transformed an industry, while the inventor died young, underpaid by the full value of what he made possible.
@@ -1805,6 +2155,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Norbert Rillieux
 - Slug: `norbert-rillieux`
 - Daily date: 2026-07-16
+- Daily story researched: Not recorded
+- Daily story claims: Norbert Rillieux made sugar refining more efficient and less dangerous, changing an industry built on brutal labor. Rillieux, a free man of color from New Orleans, developed a multiple-effect evaporator that improved how sugar was processed. His invention reduced fuel use and worker danger while producing better sugar. It became one of the major chemical engineering advances of the nineteenth century.
+- Daily story sources:
+  - https://www.invent.org/inductees/norbert-rillieux
+  - https://www.britannica.com/biography/Norbert-Rillieux
 - Date researched: 2026-08-17
 - Writer/research status: batch-18-complete
 - Material factual claims: Norbert Rillieux did not simply make sugar cheaper. He helped transform chemical engineering while working inside a world structured by slavery, race, and industry. Born free in New Orleans to a wealthy white father and a free woman of color, Rillieux was educated in France and developed a multiple-effect evaporator that made sugar refining more efficient, safer, and less fuel-intensive. The invention mattered technically, but the setting matters morally. Sugar wealth was tied to brutal plantation labor. Rillieux's brilliance improved an industry built on exploitation, and his own professional life was constrained by racial law. His page matters because invention history is rarely clean. It lives inside markets, labor, danger, patents, and power.
@@ -1831,6 +2186,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Meta Warrick Fuller
 - Slug: `meta-warrick-fuller`
 - Daily date: 2026-07-17
+- Daily story researched: Not recorded
+- Daily story claims: Meta Warrick Fuller shaped sculpture into memory, mourning, pride, and awakening. Fuller studied art in Philadelphia and Paris and became known for sculptures that explored Black identity, history, and spiritual force. Her 1921 sculpture Ethiopia Awakening became a powerful image of African diasporic pride during the New Negro era.
+- Daily story sources:
+  - https://americanart.si.edu/artist/meta-vaux-warrick-fuller-1696
+  - https://nmaahc.si.edu/explore/stories/meta-warrick-fuller
 - Date researched: 2026-08-17
 - Writer/research status: batch-17-complete
 - Material factual claims: Meta Warrick Fuller gave Black history form before many institutions wanted to display it. Born in Philadelphia, trained in art schools, and shaped by study in Paris, she became a sculptor whose work moved through horror, symbolism, mourning, spirituality, and racial memory. Her Ethiopia Awakening has often been read as a visual signal of Black cultural rebirth, but Fuller should not be reduced to one sculpture. She made art through gender barriers, racist art-world limits, domestic responsibilities, fire, grief, and decades when museums did not know what to do with a Black woman sculptor making ambitious historical work. Her page matters because she shows that Black visual modernism was not waiting for permission. It was already carving the future out of clay, plaster, and memory.
@@ -1857,6 +2217,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Augusta Savage
 - Slug: `augusta-savage`
 - Daily date: 2026-07-18
+- Daily story researched: Not recorded
+- Daily story claims: Augusta Savage was not only a sculptor. She was a door other artists walked through. Savage became a major Harlem Renaissance artist and teacher. She founded spaces where Black artists could train when mainstream institutions shut them out. Her work The Harp was created for the 1939 New York World's Fair, but it was destroyed afterward because she could not afford to cast it in permanent material.
+- Daily story sources:
+  - https://americanart.si.edu/artist/augusta-savage-4269
+  - https://www.womenshistory.org/education-resources/biographies/augusta-savage
 - Date researched: 2026-08-14
 - Writer/research status: batch-3-drafted
 - Material factual claims: Augusta Savage's monuments were not only the sculptures she made. They were the artists she taught, the studios she opened, the institutions she fought to build, and the evidence she left of what racism and poverty can do to art itself. Savage became one of the central sculptors and teachers of the Harlem Renaissance, but many of her works were made in plaster because bronze was too expensive. Some were destroyed because no one paid to preserve them. Her story is about talent, yes, but also about material support. What survives in a museum is never only about beauty. It is also about who gets storage, casting, money, and care.
@@ -1881,6 +2246,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Edmonia Lewis
 - Slug: `edmonia-lewis`
 - Daily date: 2026-07-19
+- Daily story researched: Not recorded
+- Daily story claims: Edmonia Lewis crossed oceans to build an art career the United States made nearly impossible. Lewis, of Black and Native American heritage, became a sculptor in the nineteenth century and established herself in Rome, where she worked in marble. Her sculptures, including Forever Free, explored emancipation, identity, faith, and classical form from a perspective rarely welcomed in elite art circles.
+- Daily story sources:
+  - https://americanart.si.edu/artist/edmonia-lewis-2914
+  - https://www.womenshistory.org/education-resources/biographies/edmonia-lewis
 - Date researched: 2026-08-14
 - Writer/research status: batch-7-complete
 - Material factual claims: Edmonia Lewis made marble speak from a life the art world tried to make improbable. She was a sculptor of Black and Native ancestry who studied at Oberlin, survived a racially charged accusation and attack, trained in Boston, then moved to Rome and built an international career. Her work took up emancipation, Indigenous life, religious themes, grief, captivity, and freedom inside the language of neoclassical sculpture. Lewis matters because she was not simply a "first." She was an artist negotiating how much of herself to reveal, how much the market would tolerate, and how to carve dignity into stone when critics kept trying to frame her as novelty.
@@ -1905,6 +2275,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Jacob Lawrence
 - Slug: `jacob-lawrence`
 - Daily date: 2026-07-20
+- Daily story researched: Not recorded
+- Daily story claims: Jacob Lawrence painted history in panels that moved like a train leaving the South. The Migration Series tells the story of Black Americans leaving the South for northern cities. Lawrence used bold color, compressed forms, and clear captions to make mass movement visible. He was still in his early twenties when the series brought national attention. The work treated Black history as modern, epic, and necessary.
+- Daily story sources:
+  - https://www.moma.org/interactives/exhibitions/2015/onewayticket/
+  - https://americanart.si.edu/artist/jacob-lawrence-2828
 - Date researched: 2026-08-15
 - Writer/research status: batch-13-complete
 - Material factual claims: Jacob Lawrence painted history as movement: crowded train stations, angled bodies, working hands, storefront churches, courtrooms, floodwaters, and families carrying more than luggage. He was only 23 when he completed The Migration Series, 60 small panels that made the Great Migration visible as a national story and a modern art landmark. Lawrence did not paint Black history as illustration after the fact. He researched it, sequenced it, captioned it, and made color carry memory. His work matters because it rejects the idea that serious history belongs only in books or monuments. Lawrence taught migration, labor, violence, hope, and community through panels that move like testimony, music, and a train schedule at once.
@@ -1931,6 +2306,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Faith Ringgold
 - Slug: `faith-ringgold`
 - Daily date: 2026-07-21
+- Daily story researched: Not recorded
+- Daily story claims: Faith Ringgold stitched stories into cloth and made the quilt speak like a book, a painting, and a family memory at once. Ringgold was an artist, author, teacher, and activist. Her story quilts blended image and text to explore race, gender, childhood, imagination, and freedom. Tar Beach became both a celebrated artwork and a children's book, inviting young readers to imagine flight over a city that tried to limit them.
+- Daily story sources:
+  - https://www.guggenheim.org/artwork/artist/faith-ringgold
+  - https://www.britannica.com/biography/Faith-Ringgold
 - Date researched: 2026-08-14
 - Writer/research status: batch-10-complete
 - Material factual claims: Faith Ringgold made art that refused to stay in one category. She painted, protested, performed, wrote children's books, taught, made soft sculpture, and turned quilts into narrative machines that could carry memory, politics, fantasy, and family voice. The daily challenge remembers Tar Beach, but the encyclopedia story has to go wider: Harlem childhood, asthma and homebound creativity, City College restrictions, political painting in the 1960s, museum protests, Black feminist organizing, collaboration with her mother, and story quilts that made text and fabric speak together. Ringgold matters because she did not ask whether a quilt could be serious art, whether children could handle big ideas, or whether Black women belonged in museums. She built the answer in color, cloth, and words.
@@ -1957,6 +2337,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Alma Thomas
 - Slug: `alma-thomas`
 - Daily date: 2026-07-22
+- Daily story researched: Not recorded
+- Daily story claims: Alma Thomas spent decades teaching children, then filled canvases with color that refused to be quiet. Thomas was the first graduate of Howard University's art department and taught in D.C. public schools for many years before gaining major recognition as an abstract painter. Her work entered major museums and the White House collection, showing that late recognition could still change the record.
+- Daily story sources:
+  - https://americanart.si.edu/artist/alma-thomas-4778
+  - https://nmwa.org/art/artists/alma-woodsey-thomas/
 - Date researched: 2026-08-13
 - Writer/research status: first-batch-reviewed
 - Material factual claims: Alma Thomas became nationally known as an abstract painter after a long career teaching art in Washington, D.C. That timing matters. She did not fit the usual art-world story about young genius discovered early. She spent decades teaching children, studying color, supporting Black art institutions, and watching the natural world from her own home. After retirement, she developed bright, mosaic-like paintings that refused to make Black art answer only to pain or protest. Her work insists that beauty, experimentation, age, discipline, and joy are also serious subjects.
@@ -1981,6 +2366,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Alvin Ailey
 - Slug: `alvin-ailey`
 - Daily date: 2026-07-23
+- Daily story researched: Not recorded
+- Daily story claims: Alvin Ailey put Black memory, church, blues, and modern dance onto stages around the world. Ailey founded Alvin Ailey American Dance Theater in 1958. His work Revelations drew from Black spirituals, gospel, and Southern memory. The company became one of the most important dance institutions in the world, carrying Black cultural experience as universal art.
+- Daily story sources:
+  - https://www.alvinailey.org/alvin-ailey-american-dance-theater/alvin-ailey
+  - https://www.kennedy-center.org/artists/a/aa-an/alvin-ailey/
 - Date researched: 2026-08-14
 - Writer/research status: batch-2-reviewed
 - Material factual claims: Alvin Ailey made modern dance carry Black memory without asking permission from ballet, Broadway, or white critics. His company, founded in 1958, became one of the most important dance institutions in the world. His masterpiece Revelations drew from spirituals, gospel, blues, church, grief, and Southern memory, but it did not freeze Black culture in the past. It moved. Ailey's story is about choreography, yes, but also about institution-building, touring, repertory, mentorship, and the idea that Black experience could stand on a world stage as universal without being diluted.
@@ -2005,6 +2395,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Arthur Mitchell
 - Slug: `arthur-mitchell`
 - Daily date: 2026-07-24
+- Daily story researched: Not recorded
+- Daily story claims: Arthur Mitchell had danced at the highest level of ballet. Then he built a school and company so Harlem children could see ballet as theirs too. Mitchell was a principal dancer with New York City Ballet and one of the first Black dancers to reach that level in a major ballet company. After King's assassination, he co-founded Dance Theatre of Harlem, combining classical discipline with a direct challenge to ballet's racial exclusions.
+- Daily story sources:
+  - https://www.dancetheatreofharlem.org/arthur-mitchell/
+  - https://www.britannica.com/biography/Arthur-Mitchell
 - Date researched: 2026-08-14
 - Writer/research status: batch-2-reviewed
 - Material factual claims: Arthur Mitchell broke into classical ballet and then refused to let his success remain a lonely exception. As a dancer with New York City Ballet, he became one of the first Black artists to hold principal status in a major ballet company. After Martin Luther King Jr. was assassinated, Mitchell returned to Harlem and helped build Dance Theatre of Harlem. That choice matters. He did not simply ask ballet to become more inclusive. He created a school and company that treated Harlem children as rightful heirs to classical discipline, beauty, and possibility.
@@ -2029,6 +2424,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Muhammad Ali
 - Slug: `muhammad-ali`
 - Daily date: 2026-07-25
+- Daily story researched: Not recorded
+- Daily story claims: Muhammad Ali did not only fight opponents. He fought over his name, his faith, his politics, and his right to say no. Ali won Olympic gold and became heavyweight champion as Cassius Clay, then joined the Nation of Islam and took the name Muhammad Ali. He refused induction into the U.S. military during the Vietnam War, was stripped of his title, and later won his case at the Supreme Court.
+- Daily story sources:
+  - https://www.oyez.org/cases/1970/783
+  - https://www.britannica.com/biography/Muhammad-Ali-boxer
 - Date researched: 2026-08-17
 - Writer/research status: batch-17-complete
 - Material factual claims: Muhammad Ali was not simply a champion who talked beautifully. He remade what a Black athlete could say in public and what the public could demand in return. Born Cassius Clay in Louisville, he won Olympic gold, became heavyweight champion, joined the Nation of Islam, changed his name, refused military induction during the Vietnam War, lost his boxing license and title, won at the Supreme Court, returned to the ring, and became a global figure of sport, faith, conscience, style, and contradiction. Ali could be funny, generous, cruel, brilliant, strategic, and wrong. His page matters because greatness here is not only speed and footwork. It is the price of self-definition when a country wants your body, your labor, your silence, and your old name.
@@ -2055,6 +2455,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Ed Temple
 - Slug: `ed-temple`
 - Daily date: 2026-07-26
+- Daily story researched: Not recorded
+- Daily story claims: Ed Temple built a track powerhouse at Tennessee State with athletes the wider sports world too often underestimated. Temple coached the Tigerbelles, a women's track team that produced dozens of Olympians and medalists, including Wilma Rudolph and Wyomia Tyus. His athletes competed through segregation, limited resources, and gender discrimination, yet became some of the fastest women in the world.
+- Daily story sources:
+  - https://www.tshf.net/halloffame/temple-ed/
+  - https://www.teamusa.com/news/2016/september/23/legendary-olympic-track-coach-ed-temple-dies
 - Date researched: 2026-08-14
 - Writer/research status: batch-7-complete
 - Material factual claims: Ed Temple coached speed, but his real work was institution-building. At Tennessee State University, he turned the Tigerbelles into one of the great women's track programs in the world. His athletes included Wilma Rudolph, Wyomia Tyus, Barbara Jones, Chandra Cheeseborough, and dozens of Olympians who ran through segregation, limited resources, sexism, and Cold War pressure. Temple's story matters because the finish line was only the visible part. Behind every medal was recruiting, discipline, travel, academics, protection, and a Black college program proving that Black women's excellence did not need permission from better-funded institutions.
@@ -2079,6 +2484,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Doug Williams
 - Slug: `doug-williams`
 - Daily date: 2026-07-27
+- Daily story researched: Not recorded
+- Daily story claims: Doug Williams stepped into the Super Bowl carrying a position people had spent decades wrongly claiming Black athletes could not play. Black quarterbacks faced racist doubts about intelligence and leadership for generations. Williams led Washington in Super Bowl XXII against Denver. He threw four touchdown passes in one quarter and became the first Black quarterback to win Super Bowl MVP.
+- Daily story sources:
+  - https://www.profootballhof.com/news/2018/01/news-super-bowl-xxii-doug-williams-shines/
+  - https://www.britannica.com/biography/Doug-Williams
 - Date researched: 2026-08-14
 - Writer/research status: batch-6-complete
 - Material factual claims: Doug Williams became the first Black quarterback to start and win a Super Bowl, then became its Most Valuable Player. That sentence is true, but the pressure inside it was enormous. Williams came from Grambling State, played for Eddie Robinson, became a first-round NFL draft pick, carried a Tampa Bay franchise that paid and treated him unequally, left for the USFL, returned as a backup in Washington, and then turned Super Bowl XXII into one of the most explosive quarters in football history. His story matters because quarterback has never been just a position. In America, it has been a test of who is allowed to be seen as intelligent, calm, commanding, and trusted with control.
@@ -2103,6 +2513,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Frank Robinson
 - Slug: `frank-robinson`
 - Daily date: 2026-07-28
+- Daily story researched: Not recorded
+- Daily story claims: Frank Robinson had already proved he could lead with a bat. Baseball took longer to admit he could lead from the dugout. Robinson was a Hall of Fame player and the only player to win MVP awards in both the National and American Leagues. In 1975, Cleveland named him player-manager, making him the first Black manager in Major League Baseball.
+- Daily story sources:
+  - https://baseballhall.org/hall-of-famers/robinson-frank
+  - https://www.mlb.com/news/frank-robinson-first-black-manager-in-mlb
 - Date researched: 2026-08-15
 - Writer/research status: batch-11-complete
 - Material factual claims: Frank Robinson had already built a Hall of Fame playing career before Major League Baseball allowed him to manage. That delay is the story. He was Rookie of the Year, a 14-time All-Star, a Triple Crown winner, a World Series MVP, and the only player to win Most Valuable Player awards in both leagues. Yet the sport that celebrated his competitive fire took far longer to admit that Black baseball intelligence belonged in the dugout with authority. In 1975, Cleveland named Robinson player-manager, making him the first Black manager in Major League history. Robinson matters because integration on the field was not the end of baseball's color line. Decision-making power, hiring power, front-office power, and the right to be judged as a strategist were separate fights.
@@ -2129,6 +2544,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Larry Doby
 - Slug: `larry-doby`
 - Daily date: 2026-07-29
+- Daily story researched: Not recorded
+- Daily story claims: Jackie Robinson is the name most people know. Larry Doby integrated the American League just weeks later and faced many of the same storms. Doby joined Cleveland in July 1947, becoming the first Black player in the American League. He moved from the Negro Leagues into a hostile major league environment. He became a star, helped Cleveland win the 1948 World Series, and later became one of MLB's first Black managers.
+- Daily story sources:
+  - https://baseballhall.org/hall-of-famers/doby-larry
+  - https://sabr.org/bioproj/person/larry-doby/
 - Date researched: 2026-08-14
 - Writer/research status: batch-15-complete
 - Material factual claims: Larry Doby is too often introduced as "the second." That wording is technically close and historically unfair. In July 1947, only weeks after Jackie Robinson entered the National League, Doby joined Cleveland and became the first Black player in the American League. He did it without Robinson's long public runway, without the same national preparation, and without a gentle clubhouse waiting for him. Doby had already starred for the Newark Eagles, served in the Navy, and helped win a Negro Leagues championship. In Cleveland he learned a new position, took the insults, became a seven-time All-Star, homered in the 1948 World Series, and later broke ground as a major league manager. His page matters because integration was not one doorway. It was many doors, each with its own cost.
@@ -2155,6 +2575,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The 6888th Central Postal Directory Battalion
 - Slug: `6888th-battalion`
 - Daily date: 2026-07-30
+- Daily story researched: Not recorded
+- Daily story claims: Mountains of undelivered mail were hurting morale during World War II. The 6888th took the job and moved faster than expected. The 6888th Central Postal Directory Battalion was the only all-Black women's Army Corps unit deployed overseas during the war. Working in difficult conditions in Europe, they sorted millions of pieces of mail under the motto "No mail, low morale."
+- Daily story sources:
+  - https://www.army.mil/article/256480/six_triple_eight_awarded_congressional_gold_medal
+  - https://www.nationalww2museum.org/war/articles/sixtripleeight-6888th-battalion
 - Date researched: 2026-08-17
 - Writer/research status: batch-21-complete
 - Material factual claims: The 6888th Central Postal Directory Battalion did work that sounds ordinary until you understand what mail meant in wartime. Millions of letters and packages were stalled in Europe, cutting soldiers off from families and families off from proof that loved ones were alive. The 6888th, an all-Black Women's Army Corps unit, was sent overseas to clear the backlog under cold, dark, segregated, and often disrespectful conditions. Their motto was "No mail, low morale." This page matters because military history is not only combat. It is logistics, care, memory, morale, and Black women doing essential work while fighting the racism and sexism of the institution they served.
@@ -2181,6 +2606,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Harlem Hellfighters
 - Slug: `harlem-hellfighters`
 - Daily date: 2026-07-31
+- Daily story researched: Not recorded
+- Daily story claims: The Harlem Hellfighters fought longer in front-line combat than many American units and came home to a country still shaped by Jim Crow. The 369th Infantry Regiment served with French forces during World War I because many white American commanders resisted placing Black troops in combat roles. They earned major honors in France, and their regimental band helped bring jazz to European audiences.
+- Daily story sources:
+  - https://www.archives.gov/publications/prologue/2014/spring/hellfighters
+  - https://www.nationalww2museum.org/war/articles/harlem-hellfighters
 - Date researched: 2026-08-17
 - Writer/research status: batch-22-complete
 - Material factual claims: The Harlem Hellfighters fought for democracy in Europe while Jim Crow followed them from home. Officially the 369th Infantry Regiment, the unit served under French command during World War I because many white American commanders resisted sending Black troops into combat alongside white U.S. units. They spent extraordinary time near the front, earned French honors, suffered casualties, and returned to parades in New York while racism remained firmly in place. Their regimental band, led by James Reese Europe, helped carry jazz and Black military music across the Atlantic. This page matters because the Hellfighters expose a familiar contradiction: Black soldiers were asked to represent American freedom abroad while being denied the full protection of that freedom at home.
@@ -2207,6 +2637,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Maggie Lena Walker
 - Slug: `maggie-lena-walker`
 - Daily date: 2026-08-01
+- Daily story researched: Not recorded
+- Daily story claims: Maggie Lena Walker understood that a community needed more than inspiration. It needed institutions that could hold money, jobs, and power. Born in Richmond after the Civil War, Walker rose through the Independent Order of St. Luke, a Black mutual aid organization. In 1903, she founded St. Luke Penny Savings Bank, becoming the first Black woman to charter and lead a bank in the United States.
+- Daily story sources:
+  - https://www.nps.gov/mawa/index.htm
+  - https://www.womenshistory.org/education-resources/biographies/maggie-lena-walker
 - Date researched: 2026-08-14
 - Writer/research status: batch-15-complete
 - Material factual claims: Maggie Lena Walker built financial power from the ground up in Richmond, Virginia. Born just after the Civil War, raised by a mother who took in laundry, Walker became a teacher, organizer, newspaper publisher, fraternal leader, banker, suffragist, and one of the most important Black businesswomen in American history. In 1903, she opened St. Luke Penny Savings Bank and became the first Black woman in the United States to charter and lead a bank. That fact is impressive. The deeper story is why the bank mattered. Walker understood that Black communities needed institutions that could collect pennies, make loans, publish news, train young people, employ women, and keep money circulating where white banks and businesses often refused respect.
@@ -2233,6 +2668,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Annie Malone
 - Slug: `annie-malone`
 - Daily date: 2026-08-02
+- Daily story researched: Not recorded
+- Daily story claims: Annie Malone built a beauty empire that trained thousands of Black women before history decided to make her name smaller than her impact. Malone developed hair-care products, founded Poro College in St. Louis, and created business opportunities for Black women in sales, beauty work, and entrepreneurship. Her company became a major employer and training network. Madam C.J. Walker once worked as a Poro sales agent before building her own brand.
+- Daily story sources:
+  - https://www.nps.gov/people/annie-malone.htm
+  - https://www.womenshistory.org/education-resources/biographies/annie-turnbo-malone
 - Date researched: 2026-08-14
 - Writer/research status: batch-2-reviewed
 - Material factual claims: Annie Malone built one of the most important Black beauty businesses in the United States before history made her name too small. Poro was not just a product line. It was a training system, a sales network, an employer, a school, a social space, and a path into entrepreneurship for thousands of Black women. Malone's story also corrects a common shortcut: Madam C.J. Walker was not the beginning of Black hair-care enterprise. Walker once sold Poro products before building her own company. The deeper history is not a rivalry story. It is about Black women turning beauty work into economic infrastructure.
@@ -2257,6 +2697,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Elizabeth Keckley
 - Slug: `elizabeth-keckley`
 - Daily date: 2026-08-03
+- Daily story researched: Not recorded
+- Daily story claims: Elizabeth Keckley bought her freedom with her needle, then sewed her way into the rooms where national power lived. Keckley was enslaved, became a skilled dressmaker, purchased freedom for herself and her son, and built a successful business in Washington, D.C. She became dressmaker and confidante to Mary Todd Lincoln and later published Behind the Scenes, a memoir that offered rare testimony from inside slavery and the White House.
+- Daily story sources:
+  - https://www.nps.gov/people/elizabeth-keckley.htm
+  - https://docsouth.unc.edu/neh/keckley/keckley.html
 - Date researched: 2026-08-14
 - Writer/research status: batch-8-complete
 - Material factual claims: Elizabeth Keckley bought freedom with skilled labor, then used that labor to enter rooms where national power was being dressed, mourned, and remembered. Born enslaved in Virginia, she became a celebrated dressmaker, purchased freedom for herself and her son, built a Washington business serving elite women, became Mary Todd Lincoln's modiste and confidante, organized relief for formerly enslaved people, and published Behind the Scenes in 1868. The easy version calls her Mrs. Lincoln's dressmaker. The fuller story is sharper: Keckley turned sewing into money, testimony, philanthropy, and authorship, then paid heavily when white society decided that a Black woman's memory of the White House was too intimate for print.
@@ -2281,6 +2726,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Carl Stokes
 - Slug: `carl-stokes`
 - Daily date: 2026-08-04
+- Daily story researched: Not recorded
+- Daily story claims: Carl Stokes won power in a city where race, housing, policing, and poverty were already shaping the future of American politics. In 1967, Stokes was elected mayor of Cleveland, becoming the first Black mayor of a major U.S. city. His administration faced enormous pressures, including urban unrest, white backlash, environmental issues, and national scrutiny.
+- Daily story sources:
+  - https://case.edu/ech/articles/s/stokes-carl-b
+  - https://www.britannica.com/biography/Carl-Stokes
 - Date researched: 2026-08-14
 - Writer/research status: batch-5-complete
 - Material factual claims: Carl Stokes became mayor of Cleveland in 1967, making him the first Black elected mayor of a major U.S. city. That fact is true, but too small. Stokes came out of public housing, war service, law school, state politics, and a city strained by segregation, police violence, industrial change, and white political fear. His election was a breakthrough, but it was not a magic door. He had to govern a city where Black voters expected overdue change, white voters watched him suspiciously, business leaders measured him against their own interests, and national media treated his mayoralty as a referendum on Black political power. His story is about winning office, then discovering how much power still sat outside City Hall.
@@ -2305,6 +2755,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Voting Rights Act of 1965
 - Slug: `voting-rights-act`
 - Daily date: 2026-08-05
+- Daily story researched: Not recorded
+- Daily story claims: The Voting Rights Act was signed with presidential pens, but it was written in marches, jail cells, courthouse lines, and blood on an Alabama bridge. For decades, Black voters faced literacy tests, poll taxes, intimidation, violence, and officials who changed the rules whenever Black citizens got close to the ballot. The Selma campaign made that denial impossible to ignore. After Bloody Sunday and the march to Montgomery, Congress passed the Voting Rights Act, giving the federal government stronger power to block discriminatory voting practices.
+- Daily story sources:
+  - https://www.archives.gov/milestone-documents/voting-rights-act
+  - https://www.nps.gov/articles/voting-rights-act.htm
 - Date researched: 2026-08-13
 - Writer/research status: first-batch-reviewed
 - Material factual claims: The Voting Rights Act was not a gift from Washington. It was the result of years of organizing by Black citizens who were beaten, fired, threatened, jailed, and sometimes killed for trying to vote. The law signed on August 6, 1965 gave the federal government new power to stop discriminatory voting rules, especially in places where local officials had used literacy tests, registration tricks, and violence to keep Black citizens away from the ballot. The famous signing photo matters, but it can make the story look too neat. The Act came from a long fight over who counts as a citizen, and its later weakening shows that rights on paper still need people watching the machinery.
@@ -2329,6 +2784,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Fannie Lou Hamer and the MFDP
 - Slug: `fannie-lou-hamer-mfdp`
 - Daily date: 2026-08-06
+- Daily story researched: Not recorded
+- Daily story claims: Fannie Lou Hamer did not ask the Democratic Party for kindness. She asked whether America was telling the truth about democracy. After being beaten and jailed for voting rights work, Hamer helped found the Mississippi Freedom Democratic Party to challenge the all-white Mississippi delegation. Her televised testimony in 1964 described state violence and voter suppression so plainly that President Johnson tried to interrupt it with a press conference.
+- Daily story sources:
+  - https://www.nps.gov/people/fannie-lou-hamer.htm
+  - https://www.crmvet.org/vet/hamer.htm
 - Date researched: 2026-08-14
 - Writer/research status: batch-10-complete
 - Material factual claims: The Mississippi Freedom Democratic Party was not a symbolic protest club. It was a direct challenge to a political system that claimed to represent Mississippi while excluding Black Mississippians from meaningful participation. In 1964, local people, SNCC organizers, COFO workers, sharecroppers, ministers, teachers, students, and domestic workers built a parallel party and took it to the Democratic National Convention in Atlantic City. Fannie Lou Hamer's testimony became the unforgettable public moment, but the MFDP was bigger than one speech. It was precinct meetings, signatures, freedom ballots, legal briefs, strategy fights, and a moral question placed in front of national power: can a party call itself democratic while seating a delegation chosen through racial exclusion?
@@ -2355,6 +2815,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Ella Baker
 - Slug: `ella-baker`
 - Daily date: 2026-08-07
+- Daily story researched: Not recorded
+- Daily story claims: Ella Baker did not want movements built around one famous leader. She trusted ordinary people to lead themselves. Baker worked with the NAACP, SCLC, and the young activists who formed SNCC. She emphasized grassroots organizing, local leadership, and patient relationship building. Her influence shaped the student sit-in movement and helped young organizers develop their own independent voice.
+- Daily story sources:
+  - https://www.nps.gov/people/ella-baker.htm
+  - https://ellabakercenter.org/who-was-ella-baker/
 - Date researched: 2026-08-14
 - Writer/research status: batch-8-complete
 - Material factual claims: Ella Baker did not build movements around applause. She built them around people learning to trust their own power. Born in Norfolk and raised in North Carolina, Baker worked through cooperatives, journalism, the NAACP, SCLC, and SNCC, leaving a deep imprint on the Black freedom struggle without chasing the spotlight. The famous line, strong people don't need strong leaders, is not a slogan for leaderlessness. It is a theory of democracy: ordinary people should not have to wait for a charismatic figure to act. Baker matters because she helps readers see organizing as craft, patience, listening, argument, travel, minutes, meetings, and the slow transfer of confidence from famous names to local people.
@@ -2379,6 +2844,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Greensboro Four
 - Slug: `greensboro-four`
 - Daily date: 2026-08-08
+- Daily story researched: Not recorded
+- Daily story claims: Four college students sat down at a lunch counter and made sitting still feel like motion. On February 1, 1960, Ezell Blair Jr., David Richmond, Franklin McCain, and Joseph McNeil sat at a segregated Woolworth's counter in Greensboro, North Carolina. They were refused service, but they returned. The sit-in spread to other cities and helped energize a student-led phase of the civil rights movement.
+- Daily story sources:
+  - https://www.nps.gov/people/the-greensboro-four.htm
+  - https://nmaahc.si.edu/explore/stories/greensboro-lunch-counter
 - Date researched: 2026-08-17
 - Writer/research status: batch-22-complete
 - Material factual claims: The Greensboro Four made sitting still into a public confrontation. On February 1, 1960, Ezell Blair Jr. (later Jibreel Khazan), David Richmond, Franklin McCain, and Joseph McNeil, students at North Carolina A&T, sat at a segregated Woolworth's lunch counter and asked to be served. They were refused. They stayed. Then they came back, and more students came with them. This page matters because the sit-in was not spontaneous magic. It grew from student courage, local organizing, careful discipline, Black college life, and a long frustration with everyday segregation. The four seats in Greensboro helped energize a student-led phase of the civil rights movement because they turned ordinary consumption into a test of dignity, law, and power.
@@ -2405,6 +2875,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Birmingham Children's Crusade
 - Slug: `birmingham-childrens-crusade`
 - Daily date: 2026-08-09
+- Daily story researched: Not recorded
+- Daily story claims: In Birmingham, children walked out of classrooms and into police dogs, fire hoses, and jail cells. The 1963 Birmingham campaign used student demonstrators to challenge segregation when many adults risked losing jobs if they marched. Images of children attacked by police shocked viewers and increased pressure for federal civil rights legislation.
+- Daily story sources:
+  - https://kinginstitute.stanford.edu/birmingham-campaign
+  - https://www.nps.gov/articles/000/birmingham-campaign.htm
 - Date researched: 2026-08-13
 - Writer/research status: first-batch-reviewed
 - Material factual claims: The Birmingham Children's Crusade is often remembered through shocking photographs of fire hoses and police dogs. Those images matter, but they are not the whole story. The campaign grew from months of local organizing against one of the most aggressively segregated cities in the country. Young people joined because adult workers faced firings and retaliation, and because students were not just future citizens. They were already living under segregation. The strategy was controversial, including inside the movement. It exposed how far Birmingham officials would go to protect white supremacy, and it helped push federal civil-rights action by making the cost of delay visible.
@@ -2429,6 +2904,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Little Rock Nine
 - Slug: `little-rock-nine`
 - Daily date: 2026-08-10
+- Daily story researched: Not recorded
+- Daily story claims: Nine teenagers tried to go to school, and the president sent federal troops because a state refused to protect them. In 1957, the Little Rock Nine integrated Central High School in Arkansas after Governor Orval Faubus used the National Guard to block them. President Eisenhower federalized the Guard and sent troops from the 101st Airborne to escort the students.
+- Daily story sources:
+  - https://www.nps.gov/chsc/index.htm
+  - https://www.archives.gov/education/lessons/little-rock
 - Date researched: 2026-08-17
 - Writer/research status: batch-22-complete
 - Material factual claims: The Little Rock Nine were teenagers, not symbols made of stone. In 1957, Melba Pattillo, Minnijean Brown, Elizabeth Eckford, Ernest Green, Thelma Mothershed, Gloria Ray, Terrence Roberts, Jefferson Thomas, and Carlotta Walls tried to attend Central High School in Little Rock, Arkansas. Governor Orval Faubus used the National Guard to block them. White mobs threatened them. President Dwight Eisenhower eventually sent federal troops to escort them. This page matters because Brown v. Board did not integrate schools by itself. Children had to walk through crowds, soldiers, insults, and daily harassment to make a Supreme Court ruling visible. The story is about courage, but it is also about adult failure, federal enforcement, and the long cost of doing what the law already promised.
@@ -2455,6 +2935,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The McDonogh Three
 - Slug: `mcdonogh-three`
 - Daily date: 2026-08-11
+- Daily story researched: Not recorded
+- Daily story claims: Ruby Bridges was not the only first grader in New Orleans carrying history on small shoulders. On November 14, 1960, Leona Tate, Tessie Prevost, and Gail Etienne integrated McDonogh 19 Elementary School while Ruby Bridges integrated William Frantz. The girls entered under federal protection and spent the day in a school emptied by white families who refused integration.
+- Daily story sources:
+  - https://www.nps.gov/articles/new-orleans-school-desegregation.htm
+  - https://www.leonatatefoundation.org/mcdonogh-three
 - Date researched: 2026-08-17
 - Writer/research status: batch-22-complete
 - Material factual claims: The McDonogh Three remind us what famous history can leave out. On November 14, 1960, Leona Tate, Tessie Prevost, and Gail Etienne entered McDonogh 19 Elementary School in New Orleans under federal protection, while Ruby Bridges integrated William Frantz Elementary the same morning. The girls were first graders. White families emptied the school. Federal marshals guarded the door. For too long, public memory narrowed New Orleans school integration to one child in one building. Ruby Bridges deserves remembrance, and so do the girls who walked into McDonogh 19 together. This page matters because integration was a group burden carried by children, parents, teachers, lawyers, and communities, and the archive should not make some children easier to see than others.
@@ -2481,6 +2966,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Ruby Bridges and the Cost of School Integration
 - Slug: `ruby-bridges-integration`
 - Daily date: 2026-08-12
+- Daily story researched: Not recorded
+- Daily story claims: Ruby Bridges was six, not nine, when she entered William Frantz Elementary. The number matters because the child was even younger than memory sometimes allows. In 1960, Bridges became the first Black child to integrate the school in New Orleans, escorted by federal marshals through hostile crowds. She spent months in a classroom alone because white parents pulled their children out rather than allow integration.
+- Daily story sources:
+  - https://www.nps.gov/people/ruby-bridges.htm
+  - https://www.womenshistory.org/education-resources/biographies/ruby-bridges
 - Date researched: 2026-08-17
 - Writer/research status: batch-20-complete
 - Material factual claims: Ruby Bridges is often remembered through a single image: a small Black girl escorted by federal marshals into a New Orleans school. That image is true, but it can make the adult decisions around her disappear. School integration was not simply a child being brave. It was federal courts confronting local resistance, Black parents taking enormous risks, white parents pulling children out, teachers refusing to teach, neighbors punishing a family, and a six-year-old spending much of first grade alone. This page focuses on the cost of integration because the policy story is incomplete without the people asked to carry it. Brown v. Board changed constitutional law. Ruby Bridges showed what enforcement demanded from a child.
@@ -2507,6 +2997,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Fannie Lou Hamer's Testimony
 - Slug: `fannie-lou-hamer-testimony`
 - Daily date: 2026-08-13
+- Daily story researched: Not recorded
+- Daily story claims: Fannie Lou Hamer spoke like someone who had paid for every sentence with her body. Hamer was fired, threatened, jailed, and beaten for trying to register Black voters in Mississippi. At the 1964 Democratic National Convention, her testimony made voter suppression impossible to describe as a local misunderstanding.
+- Daily story sources:
+  - https://www.crmvet.org/docs/6408_mfdp_hamer_testimony.pdf
+  - https://www.nps.gov/people/fannie-lou-hamer.htm
 - Date researched: 2026-08-13
 - Writer/research status: first-batch-reviewed
 - Material factual claims: Fannie Lou Hamer's 1964 testimony before the Democratic National Convention credentials committee was not a polished speech from someone invited into power. It was evidence. She described being fired for trying to register to vote, threatened by white officials, jailed, and beaten so badly that the injuries lasted the rest of her life. President Lyndon Johnson tried to pull television attention away from her by calling a press conference, but networks replayed her testimony anyway. Hamer forced the country to hear what Mississippi's political system cost Black citizens. Her question, "Is this America?" still lands because it was not rhetorical. It was a charge.
@@ -2531,6 +3026,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Edward Brooke
 - Slug: `edward-brooke`
 - Daily date: 2026-08-14
+- Daily story researched: Not recorded
+- Daily story claims: Edward Brooke won a Senate seat from Massachusetts less than two years after the Voting Rights Act became law. In 1966, Brooke became the first Black U.S. senator elected by popular vote and the first Black senator since Reconstruction. He worked on fair housing, consumer protection, and ethics, navigating national politics as a Black Republican during the civil rights era.
+- Daily story sources:
+  - https://history.house.gov/People/Listing/B/BROOKE,-Edward-William-(B000871)/
+  - https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Brooke.htm
 - Date researched: 2026-08-14
 - Writer/research status: batch-8-complete
 - Material factual claims: Edward Brooke's story complicates the neat party maps people use to explain Black politics. In 1966, Massachusetts elected him to the United States Senate, making him the first Black senator chosen by popular vote and the first Black senator since Reconstruction. He was a Republican, a World War II veteran, a former Massachusetts attorney general, and the only Black senator serving during some of the civil rights era's hardest national arguments. Brooke mattered because he entered a chamber built for white power and used a moderate, often bipartisan style to press for fair housing, ethics, consumer protection, transit, and voting rights. His career shows both the reach and the limits of being a historic first inside an institution that changes slowly.
@@ -2555,6 +3055,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Maynard Jackson
 - Slug: `maynard-jackson`
 - Daily date: 2026-08-15
+- Daily story researched: Not recorded
+- Daily story claims: Maynard Jackson understood that political power had to reach contracts, airports, hiring, and who got to build the city. Elected in 1973, Jackson became Atlanta's first Black mayor. He expanded minority business participation and shaped the city's growth. His leadership during airport expansion connected civil rights to economic access, insisting that public projects should not leave Black businesses outside.
+- Daily story sources:
+  - https://www.georgiaencyclopedia.org/articles/government-politics/maynard-jackson-1938-2003/
+  - https://www.atlantaga.gov/government/mayor-s-office/maynard-jackson
 - Date researched: 2026-08-17
 - Writer/research status: batch-17-complete
 - Material factual claims: Maynard Jackson did not treat representation as a portrait on the wall. In 1973, he was elected Atlanta's first Black mayor and one of the first Black mayors of a major Southern city. That victory mattered, but the larger story is what he did with power once he had it. Jackson insisted that the city's airport expansion, public contracts, and municipal decisions had to open doors for Black-owned and minority-owned businesses that had long been locked out. He was brilliant, forceful, sometimes combative, and willing to make Atlanta's business establishment uncomfortable. His page matters because it asks a harder question than who gets elected: what changes when a Black leader uses the budget, the bond market, the airport, and the procurement process as civil rights tools?
@@ -2581,6 +3086,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Harold Washington
 - Slug: `harold-washington`
 - Daily date: 2026-08-16
+- Daily story researched: Not recorded
+- Daily story claims: Harold Washington's election turned Chicago City Hall into a battleground over who the city belonged to. In 1983, Washington became Chicago's first Black mayor, building a multiracial coalition against an entrenched political machine. His administration faced fierce opposition from many city council members, but it opened space for neighborhood voices and reform politics.
+- Daily story sources:
+  - https://www.chipublib.org/harold-washington-biography/
+  - https://www.britannica.com/biography/Harold-Washington
 - Date researched: 2026-08-15
 - Writer/research status: batch-12-complete
 - Material factual claims: Harold Washington's election as Chicago's first Black mayor in 1983 was not a feel-good milestone. It was a confrontation with a political machine that had long treated Black voters as useful but not central. Washington built a multiracial coalition of Black communities, Latinos, reform-minded white voters, labor, and neighborhood activists. Then he entered City Hall and met the Council Wars, a governing blockade led by white aldermen determined to limit his power. Washington matters because winning office did not end the fight. His mayoralty shows how democracy can be both expanded and sabotaged, and how old power can defend itself through rules, committees, maps, and budgets as much as through speeches.
@@ -2607,6 +3117,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: David Dinkins
 - Slug: `david-dinkins`
 - Daily date: 2026-08-17
+- Daily story researched: Not recorded
+- Daily story claims: David Dinkins called New York a gorgeous mosaic, a phrase that sounded gentle but carried a hard governing challenge. Dinkins became New York City's first Black mayor in 1990 after years in public service. He led during a period of fiscal pressure, racial tension, crime concerns, and fierce public debate over the city's future.
+- Daily story sources:
+  - https://www.nyc.gov/site/records/about/david-dinkins.page
+  - https://www.britannica.com/biography/David-Dinkins
 - Date researched: 2026-08-14
 - Writer/research status: batch-6-complete
 - Material factual claims: David Dinkins became New York City's first Black mayor in 1990 and described the city as a "gorgeous mosaic." The phrase was generous, but his mayoralty was not soft. He governed during fiscal crisis, high homicide rates, AIDS grief, homelessness, racial tension, and media hostility. He expanded school construction, created Beacon Schools, negotiated the U.S. Open's long-term stay in Queens, signed strong anti-apartheid legislation, and tried to hold together a city that often judged him more harshly than his predecessors. His page matters because it shows the weight placed on firsts when they inherit problems they did not create.
@@ -2631,6 +3146,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Constance Baker Motley
 - Slug: `constance-baker-motley`
 - Daily date: 2026-08-18
+- Daily story researched: Not recorded
+- Daily story claims: Constance Baker Motley walked into courtrooms across the South with legal arguments strong enough to move locked doors. As an NAACP Legal Defense Fund lawyer, Motley worked on school desegregation cases and represented civil rights activists, including James Meredith. In 1966, she became the first Black woman appointed as a federal judge.
+- Daily story sources:
+  - https://www.uscourts.gov/news/2021/02/04/constance-baker-motley-judiciarys-unsung-rights-hero
+  - https://www.womenshistory.org/education-resources/biographies/constance-baker-motley
 - Date researched: 2026-08-14
 - Writer/research status: batch-5-complete
 - Material factual claims: Constance Baker Motley argued civil-rights cases, wrote legal briefs, represented students and protesters, entered politics, and became the first Black woman appointed to the federal judiciary. Yet she is still too often treated as a supporting character in other people's stories. Motley helped write the first Brown v. Board complaint, represented James Meredith, defended Freedom Riders and sit-in activists, and won case after case against segregation. Her career shows what legal courage looks like when it is not theatrical: preparation, stamina, precision, and the willingness to walk into hostile courts with Black clients whose futures depended on the record she built.
@@ -2655,6 +3175,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Jane Bolin
 - Slug: `jane-bolin`
 - Daily date: 2026-08-19
+- Daily story researched: Not recorded
+- Daily story claims: Jane Bolin made history on the bench, then spent decades making the courtroom matter for children and families. In 1939, Bolin became the first Black woman judge in the United States when she was appointed to New York City's Domestic Relations Court. She challenged segregated assignments for probation officers and worked to ensure child welfare services treated families more fairly.
+- Daily story sources:
+  - https://www.womenshistory.org/education-resources/biographies/jane-bolin
+  - https://history.nycourts.gov/figure/jane-bolin/
 - Date researched: 2026-08-15
 - Writer/research status: batch-13-complete
 - Material factual claims: Jane Bolin's firsts are striking: first Black woman to graduate from Yale Law School, first Black woman assistant corporation counsel in New York City, and first Black woman judge in the United States. But firsts are only the doorway. Bolin served for 40 years in New York's Domestic Relations Court, later Family Court, where she worked on policies affecting children, probation, race, placement, and family life. Her work happened in rooms where headlines rarely stayed: custody disputes, neglected children, unequal services, and court systems that could reproduce racial harm quietly. Bolin matters because she made legal history not only by taking the bench, but by using it to challenge discrimination in the machinery of care.
@@ -2681,6 +3206,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Charlotte E. Ray
 - Slug: `charlotte-ray`
 - Daily date: 2026-08-20
+- Daily story researched: Not recorded
+- Daily story claims: Charlotte Ray entered law when both race and gender were treated as reasons to keep the door closed. Ray graduated from Howard University School of Law in 1872 and became the first Black woman lawyer in the United States. She opened a law practice, but discrimination made it nearly impossible to sustain. She later worked as a teacher and activist.
+- Daily story sources:
+  - https://www.womenshistory.org/education-resources/biographies/charlotte-e-ray
+  - https://www.americanbar.org/groups/diversity/women/publications/perspectives/2019/january/charlotte-e-ray/
 - Date researched: 2026-08-14
 - Writer/research status: batch-5-complete
 - Material factual claims: Charlotte E. Ray is frequently named as the first Black woman lawyer in the United States. That first matters, but the deeper story is about how narrow the doorway was. Ray graduated from Howard University's law program in 1872, was admitted to the District of Columbia bar, and opened a law practice at a time when racism and sexism worked together to make clients, courts, and professional networks difficult to reach. Her career in law appears to have been brief, not because the achievement was small, but because the barriers were so large. Ray's page matters because it asks what a "first" costs when the institution is not ready to let the first person fully work.
@@ -2705,6 +3235,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Mary Ann Shadd Cary
 - Slug: `mary-ann-shadd-cary`
 - Daily date: 2026-08-21
+- Daily story researched: Not recorded
+- Daily story claims: Mary Ann Shadd Cary used a newspaper to speak across borders when Black freedom itself was crossing borders. Born free in Delaware, Shadd Cary moved to Canada after the Fugitive Slave Act of 1850 and published The Provincial Freeman. She advocated emigration, education, self-reliance, abolition, and women's rights, later becoming one of the first Black women lawyers in the United States.
+- Daily story sources:
+  - https://www.womenshistory.org/education-resources/biographies/mary-ann-shadd-cary
+  - https://www.thecanadianencyclopedia.ca/en/article/mary-ann-shadd
 - Date researched: 2026-08-16
 - Writer/research status: batch-16-complete
 - Material factual claims: Mary Ann Shadd Cary used print like a bridge and a weapon. Born free in Delaware, she came from a family that helped freedom seekers before the Fugitive Slave Act made that work even more dangerous. She moved to Canada West, taught in Black refugee communities, and edited the Provincial Freeman, making her the first Black woman newspaper publisher in North America. She argued for emigration, education, self-reliance, abolition, women's rights, and Black political agency, often in a voice that could irritate allies as much as opponents. Later she recruited Black soldiers for the Union, studied law at Howard, and pushed suffrage. Her page matters because she shows Black journalism as more than reporting. It was infrastructure for debate, migration, survival, and freedom across borders.
@@ -2731,6 +3266,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: The Black Press
 - Slug: `black-press`
 - Daily date: 2026-08-22
+- Daily story researched: Not recorded
+- Daily story claims: The Black press reported weddings and funerals, lynchings and lawsuits, victories and warnings - the news a community needed to survive. Beginning with Freedom's Journal in 1827, Black newspapers created space for Black voices, political debate, organizing, culture, and protection. Papers like the Chicago Defender helped fuel the Great Migration by publishing stories and opportunities beyond the South.
+- Daily story sources:
+  - https://www.pbs.org/blackpress/
+  - https://www.loc.gov/collections/chronicling-america/articles-and-essays/history-of-american-newspapers/
 - Date researched: 2026-08-17
 - Writer/research status: batch-21-complete
 - Material factual claims: The Black press began from a simple refusal: Black people would not let others tell the whole story for them. Beginning with Freedom's Journal in 1827, Black newspapers reported weddings, deaths, church news, lynchings, lawsuits, elections, migration routes, jobs, beauty culture, war service, school fights, and the arguments a community needed to have with itself. They corrected white newspapers that ignored Black life or distorted it. They also built businesses, audiences, political campaigns, and networks across distance. This page matters because journalism is not only information. For Black communities, the press has often been protection, memory, warning system, organizing tool, and proof that a people could speak in public under their own names.
@@ -2757,6 +3297,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Nikki Giovanni
 - Slug: `nikki-giovanni`
 - Daily date: 2026-08-23
+- Daily story researched: Not recorded
+- Daily story claims: Nikki Giovanni wrote poems that could sound like a rally, a joke, a dare, and a family conversation. Giovanni emerged during the Black Arts Movement and became known for poetry that celebrated Black pride, love, memory, politics, and everyday life. Her work reached classrooms, stages, recordings, and television, helping make poetry feel immediate and alive to broad audiences.
+- Daily story sources:
+  - https://www.poetryfoundation.org/poets/nikki-giovanni
+  - https://www.britannica.com/biography/Nikki-Giovanni
 - Date researched: 2026-08-17
 - Writer/research status: batch-18-complete
 - Material factual claims: Nikki Giovanni made poetry sound like somebody talking to you across a kitchen table, then made that kitchen table big enough for Black pride, grief, jokes, mothers, food, space travel, political anger, and love. She emerged during the Black Arts Movement with poems that were sharp, public, and unapologetically Black, but she was never only a movement slogan. Giovanni wrote for children, recorded albums, taught generations of students, argued in public, mourned, laughed, and kept revising what freedom could sound like. Her page matters because she helped move poetry out of the glass case. She made it intimate, performative, popular, and intellectually alive without asking permission from institutions that had not built rooms for her voice.
@@ -2783,6 +3328,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Audre Lorde
 - Slug: `audre-lorde`
 - Daily date: 2026-08-24
+- Daily story researched: Not recorded
+- Daily story claims: Audre Lorde treated difference not as a problem to hide, but as knowledge to use. Lorde was a poet, essayist, librarian, feminist, and activist whose work explored race, gender, sexuality, illness, motherhood, anger, and survival. Her essays challenged movements that asked people to split themselves into convenient pieces before entering the room.
+- Daily story sources:
+  - https://www.poetryfoundation.org/poets/audre-lorde
+  - https://www.womenshistory.org/education-resources/biographies/audre-lorde
 - Date researched: 2026-08-14
 - Writer/research status: batch-3-drafted
 - Material factual claims: Audre Lorde did not ask readers to choose between poetry and politics, or between being Black, lesbian, mother, teacher, cancer survivor, and thinker. She wrote from the pressure of holding all of those truths at once. Her work matters because it refused the bargain offered by many movements: hide the inconvenient parts of yourself now, and maybe liberation will include you later. Lorde's essays and poems insisted that difference was not a distraction from justice. It was part of the evidence. She helped give language to Black feminism, queer survival, illness, anger, care, and coalition without pretending any of it was easy.
@@ -2807,6 +3357,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Ntozake Shange
 - Slug: `ntozake-shange`
 - Daily date: 2026-08-25
+- Daily story researched: Not recorded
+- Daily story claims: Ntozake Shange made poetry move across the stage with dance, music, pain, and survival in the same breath. Her 1976 choreopoem for colored girls... brought Black women's voices, bodies, friendship, trauma, and joy into a theatrical form she shaped herself. The work moved to Broadway and became a landmark, refusing to make Black women's interior lives secondary.
+- Daily story sources:
+  - https://www.poetryfoundation.org/poets/ntozake-shange
+  - https://www.britannica.com/biography/Ntozake-Shange
 - Date researched: 2026-08-17
 - Writer/research status: batch-18-complete
 - Material factual claims: Ntozake Shange changed the stage by refusing to choose between poem, dance, music, pain, friendship, and Black women's survival. Her 1976 work for colored girls who have considered suicide / when the rainbow is enuf became a landmark, but the title alone cannot carry the whole history. Shange built a form she called a choreopoem because the old categories were not enough. She wrote about love, violation, language, migration, food, color, and the body with a syntax that did not ask standard English to approve it. Her page matters because innovation sometimes begins when a writer admits that the inherited form cannot hold the truth she needs to tell.
@@ -2833,6 +3388,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Christine Darden
 - Slug: `christine-darden`
 - Daily date: 2026-08-26
+- Daily story researched: Not recorded
+- Daily story claims: Christine Darden asked why women with math degrees were being kept from engineering work. Then she became the engineer. Darden worked at NASA Langley, moving from computer work into aerospace engineering. She became an expert in sonic boom research and supersonic flight. Her career later received wider attention through the expanded Hidden Figures story, alongside other Black women mathematicians and engineers.
+- Daily story sources:
+  - https://www.nasa.gov/people/christine-darden/
+  - https://www.womenshistory.org/education-resources/biographies/christine-darden
 - Date researched: 2026-08-14
 - Writer/research status: batch-5-complete
 - Material factual claims: Christine Darden's NASA story begins where many simplified science stories end: with brilliance finally recognized. But the deeper history is about what she had to push through before recognition arrived. Darden came to NASA's Langley Research Center in 1967 as a data analyst, one of the women doing technical work in a segregated and gendered institution. She wanted engineering assignments, asked for them directly, and became an aerospace engineer known for sonic boom research. Her career connects mathematics, persistence, management, and institutional change. She matters because she helps readers see that scientific achievement is not only discovery. It is also access to the room where questions get chosen.
@@ -2857,6 +3417,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Mary Jackson
 - Slug: `mary-jackson`
 - Daily date: 2026-08-27
+- Daily story researched: Not recorded
+- Daily story claims: Mary Jackson had to petition for permission to take classes in a segregated school system just to advance in the job she was already doing. Jackson worked at NASA's predecessor, NACA, as a mathematician and later became an engineer after completing required coursework. She became NASA's first Black female engineer and later worked to help women and minorities advance in technical careers.
+- Daily story sources:
+  - https://www.nasa.gov/people/mary-w-jackson-biography/
+  - https://www.nasa.gov/history/mary-w-jackson-biography/
 - Date researched: 2026-08-16
 - Writer/research status: batch-16-complete
 - Material factual claims: Mary Jackson became NASA's first Black female engineer, but the first is only the doorway. The deeper story is a woman from Hampton, Virginia, who moved through teaching, clerical work, segregated computing, wind-tunnel research, graduate-level coursework, technical authorship, and finally equal-opportunity leadership. To become an engineer, she had to get permission to attend classes held at a segregated white school. After two decades of technical work, she accepted a demotion so she could help other women and people of color move through NASA's barriers. Jackson's page matters because it refuses the idea that progress is complete when one person breaks through. She understood the barrier well enough to turn around and work on the doorframe.
@@ -2883,6 +3448,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Dorothy Vaughan
 - Slug: `dorothy-vaughan`
 - Daily date: 2026-08-28
+- Daily story researched: Not recorded
+- Daily story claims: Dorothy Vaughan saw the computer age coming and made sure her team would not be left behind. Vaughan worked at NACA/NASA and became the first Black supervisor at what is now NASA Langley, leading West Area Computing. When electronic computers arrived, she learned FORTRAN and helped other women prepare for the new technical demands.
+- Daily story sources:
+  - https://www.nasa.gov/people/dorothy-vaughan-biography/
+  - https://www.nasa.gov/history/dorothy-vaughan-biography/
 - Date researched: 2026-08-14
 - Writer/research status: batch-6-complete
 - Material factual claims: Dorothy Vaughan led before institutions were ready to call Black women leaders. Hired by NACA during World War II, she worked in the segregated West Area Computing unit at Langley, became its head in 1949, and later taught herself and others FORTRAN as electronic computing changed the work. NASA remembers her as its first Black manager. The deeper story is about supervisory labor, advocacy, race, gender, technology, and the transition from human computation to programming. Vaughan matters because she did not only calculate. She watched where the future was going and made sure other women could move with it.
@@ -2909,6 +3479,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Annie Easley
 - Slug: `annie-easley`
 - Daily date: 2026-08-29
+- Daily story researched: Not recorded
+- Daily story claims: Annie Easley began as a human computer and kept learning until the machines changed around her. Easley worked at NASA Lewis Research Center, contributing to computer code and energy technologies, including work connected to the Centaur upper-stage rocket. She built a decades-long career while navigating discrimination and changing technology.
+- Daily story sources:
+  - https://www.nasa.gov/people/annie-easley-biography/
+  - https://www.nasa.gov/image-article/annie-easley-computer-scientist/
 - Date researched: 2026-08-13
 - Writer/research status: first-batch-reviewed
 - Material factual claims: Annie Easley's career at NASA shows how technical history often hides the people who made systems work. She began as a human computer at the National Advisory Committee for Aeronautics, then taught herself and adapted as electronic computers changed the job around her. Easley wrote and tested code connected to the Centaur upper-stage rocket and later worked on energy technologies. Her story is not a fairy tale about loving math in a welcoming workplace. She faced discrimination, isolation, and shifting educational barriers, yet she kept learning. That persistence helped place her inside some of the most important aerospace and energy work of her era.
@@ -2933,6 +3508,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Valerie Thomas
 - Slug: `valerie-thomas`
 - Daily date: 2026-08-30
+- Daily story researched: Not recorded
+- Daily story claims: Valerie Thomas helped turn satellite data into images people could use, then patented a device that played with how images appear in space. Thomas worked at NASA on image processing systems connected to Landsat, helping scientists interpret data from Earth-observing satellites. In 1980, she received a patent for an illusion transmitter, a technology that used concave mirrors to create the appearance of a three-dimensional image.
+- Daily story sources:
+  - https://www.nasa.gov/people/valerie-thomas/
+  - https://patents.google.com/patent/US4229761A/en
 - Date researched: 2026-08-17
 - Writer/research status: batch-23-complete
 - Material factual claims: Valerie Thomas helped people see the Earth differently. At NASA, she worked on image processing and data systems connected to Landsat, the satellite program that transformed how scientists, governments, and communities study the planet. She is also known for her 1980 patent for an illusion transmitter, a device that used concave mirrors to create the appearance of three-dimensional images. The easy version turns that patent into a trivia answer. The deeper story is about a Black woman scientist working inside federal technology systems where images, data, and interpretation mattered. This page matters because innovation is not always a single dazzling object. Sometimes it is the patient work that makes information visible, usable, and trustworthy.
@@ -2959,6 +3539,11 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
 - Entry title: Dr. Patricia Bath
 - Slug: `patricia-bath`
 - Daily date: 2026-08-31
+- Daily story researched: Not recorded
+- Daily story claims: Patricia Bath looked at blindness not only as a medical problem, but as an inequality problem. Bath was an ophthalmologist, researcher, and advocate for community eye care. She studied preventable blindness and pushed medicine to serve people who were often left out. She invented the Laserphaco Probe, a device for cataract surgery, and became the first Black woman physician to receive a medical patent.
+- Daily story sources:
+  - https://www.nlm.nih.gov/changingthefaceofmedicine/physicians/biography_26.html
+  - https://www.womenshistory.org/education-resources/biographies/patricia-bath
 - Date researched: 2026-08-13
 - Writer/research status: first-batch-reviewed
 - Material factual claims: Patricia Bath understood blindness as both a medical problem and an access problem. She became an ophthalmologist, researcher, inventor, and public-health advocate whose work connected surgery to community care. Bath helped develop community ophthalmology, studied preventable blindness among underserved patients, and invented the Laserphaco Probe for cataract treatment. She is widely recognized as the first Black woman physician to receive a U.S. medical patent. The deeper story is not only the patent. It is the way she kept asking who gets sight-saving care, who is left waiting, and why technology matters less if it never reaches the people who need it.
@@ -2977,6 +3562,223 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - USPTO: Sights on the prize: Patricia Bath inventor profile (https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/sights-prize)
   - National Inventors Hall of Fame: Patricia Bath and the Laserphaco Probe (https://www.invent.org/inductees/patricia-bath)
 - Final review status: Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.
+
+### 2026-09-01 - The 1971 Pittsburgh Pirates Lineup
+
+- Entry title: Sports Integration Beyond Jackie Robinson
+- Slug: `sports-integration`
+- Daily date: 2026-09-01
+- Daily story researched: 2026-08-31
+- Daily story claims: The lineup card did not announce a protest. It simply listed the nine Pittsburgh Pirates who would start against Philadelphia: Rennie Stennett, Gene Clines, Roberto Clemente, Willie Stargell, Manny Sanguillen, Dave Cash, Al Oliver, Jackie Hernandez, and Dock Ellis. Every player in that starting nine was Black or Latino. Twenty-four years after Jackie Robinson crossed Major League Baseball's color line, the Pirates had built a roster where players of color were not one carefully managed exception. They filled every position on the field. The milestone received little attention that night, in part because Pittsburgh's newspapers were on strike. The Pirates won 10-7 and later won the World Series. What looked ordinary on the lineup card revealed how much baseball had changed, and how quietly history can arrive when a team finally treats talent as normal.
+- Daily story sources:
+  - https://www.mlb.com/pirates/history/all-minority-lineup
+  - https://baseballhall.org/discover/baseball-history/clementes-teamwork-helped-make-historic-pirates-1971-lineup-a-reality
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Jackie Robinson's 1947 debut with the Brooklyn Dodgers matters, but sports integration was never one door opening once. The NFL had Black players early, then shut them out for years before Kenny Washington and Woody Strode returned in 1946. The NBA integrated in 1950 through Chuck Cooper, Nat Clifton, and Earl Lloyd. Althea Gibson broke tennis barriers. Charlie Sifford forced golf to confront its Caucasians-only clause. Each sport had its own gatekeepers, timelines, costs, and myths. This page matters because the simplified Jackie-only story can make integration look cleaner than it was. The fuller history is sport by sport, contract by contract, trip by trip, and insult by insult.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/explore/exhibitions/sports
+  - https://www.nfl.com/news/kenny-washington-belongs-in-the-hall-of-fame-0ap2000000341520
+  - https://www.nba.com/news/history-nba-legend-earl-lloyd
+- Supporting secondary sources:
+  - https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/
+  - https://www.pgatour.com/player/02091/charles-sifford
+- Verified quotation source: No quotation included. First-claim and integration chronology are summarized from institutional sports-history sources.
+- Sensitive or disputed claims reviewed: NFL informal exclusion, three NBA firsts, Gibson admission, O'Ree debut, PGA Caucasians-only clause, and leadership-versus-player-access distinction reviewed.
+- Material corrections made: Rebuilt legacy page beyond Jackie-only contrast into sport-specific timelines, legal/economic pressure, athlete costs, and unfinished leadership access.
+- External links included on the page:
+  - National Museum of African American History and Culture: Sports: Leveling the Playing Field (https://nmaahc.si.edu/explore/exhibitions/sports)
+  - NFL: Kenny Washington Belongs in the Hall of Fame (https://www.nfl.com/news/kenny-washington-belongs-in-the-hall-of-fame-0ap2000000341520)
+  - NBA History: NBA Pioneers (https://www.nba.com/news/history-nba-legend-earl-lloyd)
+  - International Tennis Hall of Fame: Althea Gibson (https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/)
+  - PGA Tour: Charles Sifford Player Profile (https://www.pgatour.com/player/02091/charles-sifford)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, sports-integration first-claim review.
+
+### 2026-09-02 - The Little Rock Nine
+
+- Entry title: The Little Rock Nine
+- Slug: `little-rock-nine`
+- Daily date: 2026-09-02
+- Daily story researched: 2026-08-31
+- Daily story claims: Nine Black teenagers had been selected to integrate Little Rock Central High School under a federal court order. On September 2, 1957, Arkansas Governor Orval Faubus answered that order by putting armed National Guard troops in their path. Faubus said the soldiers were there to prevent violence. In practice, the Guard protected segregation by blocking the students from the public school they had a legal right to attend. Two days later, the troops turned the students away as a white mob gathered outside. The crisis forced a confrontation over who controlled constitutional rights. After weeks of obstruction and mob violence, President Dwight Eisenhower federalized the Arkansas National Guard and sent the 101st Airborne Division to Little Rock. On September 25, the nine students entered Central High under federal protection.
+- Daily story sources:
+  - https://home.nps.gov/articles/000/the-1957-crisis-at-central-high.htm
+  - https://www.nps.gov/teachers/classrooms/upload/All-the-World-is-Watching-Us-lesson-plan-2024-2.pdf
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Little Rock Nine were teenagers, not symbols made of stone. In 1957, Melba Pattillo, Minnijean Brown, Elizabeth Eckford, Ernest Green, Thelma Mothershed, Gloria Ray, Terrence Roberts, Jefferson Thomas, and Carlotta Walls tried to attend Central High School in Little Rock, Arkansas. Governor Orval Faubus used the National Guard to block them. White mobs threatened them. President Dwight Eisenhower eventually sent federal troops to escort them. This page matters because Brown v. Board did not integrate schools by itself. Children had to walk through crowds, soldiers, insults, and daily harassment to make a Supreme Court ruling visible. The story is about courage, but it is also about adult failure, federal enforcement, and the long cost of doing what the law already promised.
+- Primary or authoritative sources:
+  - https://www.nps.gov/chsc/index.htm
+  - https://www.loc.gov/exhibits/brown/brown-aftermath.html
+  - https://www.eisenhowerlibrary.gov/research/online-documents/civil-rights-little-rock-school-integration-crisis
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/little-rock-nine
+  - https://www.archives.gov/education/lessons/brown-v-board
+- Verified quotation source: No quotation included. Names, dates, troop deployment, graduation, and Lost Year claims cross-checked against NPS and Eisenhower Library sources.
+- Sensitive or disputed claims reviewed: Student names, Elizabeth Eckford isolation, Minnijean Brown expulsion, federalization, Lost Year, and child-harm framing reviewed.
+- Material corrections made: Expanded scheduled fallback into a full account of state resistance, federal enforcement, daily harassment, and post-crisis cost.
+- External links included on the page:
+  - National Park Service: Little Rock Central High School National Historic Site (https://www.nps.gov/chsc/index.htm)
+  - Library of Congress: Brown v. Board Aftermath: Little Rock (https://www.loc.gov/exhibits/brown/brown-aftermath.html)
+  - Eisenhower Presidential Library: Little Rock Crisis (https://www.eisenhowerlibrary.gov/research/online-documents/civil-rights-little-rock-school-integration-crisis)
+  - National Museum of African American History and Culture: Little Rock Nine (https://nmaahc.si.edu/explore/stories/little-rock-nine)
+  - National Archives: Documents Related to Brown v. Board and Little Rock (https://www.archives.gov/education/lessons/brown-v-board)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, school-integration claim review.
+
+### 2026-09-03 - Frederick Douglass
+
+- Entry title: Frederick Douglass
+- Slug: `frederick-douglass`
+- Daily date: 2026-09-03
+- Daily story researched: 2026-08-31
+- Daily story claims: On September 3, 1838, Frederick Bailey boarded a train in Baltimore dressed as a sailor. He carried borrowed protection papers that described a free Black seaman. If anyone examined them too closely, his journey could end in capture and punishment. The escape was not his work alone. Anna Murray, a free Black woman he had met in Baltimore, helped pay for the ticket and prepared the sailor's clothing he used as a disguise. Douglass traveled through Delaware and Philadelphia to New York, completing the dangerous trip in less than twenty-four hours. Murray joined him in New York, and they married on September 15. Douglass later became an abolitionist, writer, newspaper editor, and one of the nineteenth century's most influential public speakers. For years he protected details of the escape because explaining the route could endanger people still seeking freedom.
+- Daily story sources:
+  - https://www.loc.gov/item/today-in-history/september-03/
+  - https://www.nps.gov/frdo/learn/historyculture/frederickdouglass.htm
+- Date researched: 2026-08-15
+- Writer/research status: batch-11-complete
+- Material factual claims: Frederick Douglass was born enslaved as Frederick Augustus Washington Bailey and became one of the nineteenth century's most important writers, speakers, editors, and political thinkers. The familiar version says he learned to read, escaped slavery, and became an abolitionist. The fuller story is harder and more useful: literacy taught him the logic of power, escape required help from Anna Murray, public speech put him at risk of recapture, and his politics kept changing as he argued with abolitionists, presidents, suffragists, soldiers, and the country itself. Douglass matters because he did not only tell America that slavery was evil. He forced the nation to measure democracy by Black freedom, and he kept expanding that demand after emancipation into citizenship, voting rights, women's rights, labor, and international dignity.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/frederick-douglass.htm
+  - https://www.loc.gov/collections/frederick-douglass-papers/about-this-collection/
+  - https://www.loc.gov/collections/frederick-douglass-papers/articles-and-essays/frederick-douglass-timeline/
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/frederick-douglass
+  - https://home.nps.gov/articles/frederick-douglass-and-civil-war.htm
+- Verified quotation source: Frederick Douglass 1857 West India Emancipation speech, commonly cited in NPS/LOC educational material.
+- Sensitive or disputed claims reviewed: Birthdate approximation, literacy account, Anna Murray's role, Covey fight, escape route, manumission purchase, Garrison split, Black soldier recruitment, Haiti appointment, and second-marriage controversy reviewed.
+- Material corrections made: Moved stronger markdown page into rich renderer, removed Wikipedia/Britannica dependence, added fuller context on Anna Murray, political development, Reconstruction, and federal service.
+- External links included on the page:
+  - National Park Service: Frederick Douglass (https://www.nps.gov/people/frederick-douglass.htm)
+  - Library of Congress: Frederick Douglass Papers (https://www.loc.gov/collections/frederick-douglass-papers/about-this-collection/)
+  - Library of Congress: Frederick Douglass Timeline (https://www.loc.gov/collections/frederick-douglass-papers/articles-and-essays/frederick-douglass-timeline/)
+  - National Museum of African American History and Culture: Frederick Douglass (https://nmaahc.si.edu/explore/stories/frederick-douglass)
+  - National Park Service: Frederick Douglass and the Civil War (https://home.nps.gov/articles/frederick-douglass-and-civil-war.htm)
+- Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, sensitive biographical claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-04 - Paul Robeson and the Peekskill Riots
+
+- Entry title: Paul Robeson
+- Slug: `paul-robeson`
+- Daily date: 2026-09-04
+- Daily story researched: 2026-08-31
+- Daily story claims: A mob had already stopped Paul Robeson from singing near Peekskill, New York, on August 27, 1949. Robeson promised to return. On September 4, he stood before a multiracial audience of more than 20,000 people and performed anyway. Robeson was an internationally known singer, actor, athlete, and civil rights advocate. His left-wing politics and criticism of racism made him a target during the early Cold War. Union members and World War II veterans formed a protective ring around the second concert so the music could continue. The concert ended peacefully, but the protection did not extend to the roads home. Attackers ambushed cars and buses, throwing stones and smashing windows as police stood by. The Peekskill violence joined racism, antisemitism, anti-union hostility, and anticommunism in a warning about how quickly political fear can be turned against speech and assembly.
+- Daily story sources:
+  - https://www.loc.gov/item/today-in-history/september-04/
+  - https://www.loc.gov/item/2015669138/
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Paul Robeson had a voice that could fill a hall and a politics that made governments nervous. He was a scholar, Rutgers athlete, lawyer, actor, concert singer, linguist, labor ally, anti-colonial advocate, and civil rights figure whose career was damaged by Cold War repression. The United States revoked his passport, concert halls closed to him, and his income collapsed because he refused to separate art from freedom struggles around the world. His page matters because Robeson shows what can happen when a Black artist becomes too international, too pro-labor, too anti-racist, and too unwilling to perform gratitude for a country that denies full citizenship.
+- Primary or authoritative sources:
+  - https://www.archives.gov/research/african-americans/individuals/paul-robeson
+  - https://nmaahc.si.edu/paul-robeson
+  - https://prcc.rutgers.edu/about-prcc/biography
+- Supporting secondary sources:
+  - https://vault.fbi.gov/Paul%20Robeson%2C%20Sr.
+  - https://www.loc.gov/item/ihas.200197456/
+- Verified quotation source: Short artist-duty quotation traced to Robeson's 1937 statement as reproduced in institutional Robeson materials.
+- Sensitive or disputed claims reviewed: Passport revocation, Cold War repression, Soviet Union controversy, blacklisting, law-office discrimination, and internationalism reviewed.
+- Material corrections made: Expanded scheduled fallback beyond passport revocation into art, labor, anti-colonial politics, state repression, and political complexity.
+- External links included on the page:
+  - National Archives: Paul Robeson and the Cold War (https://www.archives.gov/research/african-americans/individuals/paul-robeson)
+  - NMAAHC: Paul Robeson (https://nmaahc.si.edu/paul-robeson)
+  - Paul Robeson Cultural Center, Rutgers University: Paul Robeson Biography (https://prcc.rutgers.edu/about-prcc/biography)
+  - FBI Records: The Vault: Paul Robeson, Sr. (https://vault.fbi.gov/Paul%20Robeson%2C%20Sr.)
+  - Library of Congress: Paul Robeson Concert Program (https://www.loc.gov/item/ihas.200197456/)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, Cold War and surveillance claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-05 - Muhammad Ali
+
+- Entry title: Muhammad Ali
+- Slug: `muhammad-ali`
+- Daily date: 2026-09-05
+- Daily story researched: 2026-08-31
+- Daily story claims: On September 5, 1960, an 18-year-old boxer from Louisville named Cassius Marcellus Clay Jr. stepped into an Olympic ring in Rome. He defeated Zbigniew Pietrzykowski of Poland and left with the light-heavyweight gold medal. Clay had started boxing at twelve and reached the Olympics with speed, confidence, and a style that did not look like anyone else's. The medal made him internationally visible, but it did not shield him from segregation when he returned to the United States. He turned professional, won the heavyweight championship, joined the Nation of Islam, and took the name Muhammad Ali. Later, he refused induction into the U.S. Army during the Vietnam War, losing years of his boxing career while his conviction was appealed. The Supreme Court unanimously reversed that conviction in 1971.
+- Daily story sources:
+  - https://alicenter.org/boxing-timeline/
+  - https://apnews.com/article/f7c6e6dec36a3ad1b653889ebd1d324b
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Muhammad Ali was not simply a champion who talked beautifully. He remade what a Black athlete could say in public and what the public could demand in return. Born Cassius Clay in Louisville, he won Olympic gold, became heavyweight champion, joined the Nation of Islam, changed his name, refused military induction during the Vietnam War, lost his boxing license and title, won at the Supreme Court, returned to the ring, and became a global figure of sport, faith, conscience, style, and contradiction. Ali could be funny, generous, cruel, brilliant, strategic, and wrong. His page matters because greatness here is not only speed and footwork. It is the price of self-definition when a country wants your body, your labor, your silence, and your old name.
+- Primary or authoritative sources:
+  - https://alicenter.org/meet-ali/
+  - https://www.oyez.org/cases/1970/783
+  - https://www.fjc.gov/history/cases/famous-federal-trials/us-v-cassius-clay-muhammad-alis-fight-against-vietnam-draft
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/float-butterfly
+  - https://www.britannica.com/biography/Muhammad-Ali-boxer
+- Verified quotation source: Short anti-war quotation is widely reported from Ali's 1966 draft-era statements and cross-checked against institutional Ali materials; kept under excerpt limits.
+- Sensitive or disputed claims reviewed: Name change, Nation of Islam membership, Malcolm X break, conscientious-objector case, title stripping, Supreme Court reversal, Frazier insults, Parkinson's disease, and athlete-activism framing reviewed.
+- Material corrections made: Expanded scheduled fallback beyond name-change shorthand into faith, draft resistance, legal consequences, boxing return, contradictions, and later public memory.
+- External links included on the page:
+  - Muhammad Ali Center: Meet Muhammad Ali (https://alicenter.org/meet-ali/)
+  - Oyez: Clay v. United States (https://www.oyez.org/cases/1970/783)
+  - Federal Judicial Center: U.S. v. Cassius Clay: Muhammad Ali's Fight Against the Vietnam Draft (https://www.fjc.gov/history/cases/famous-federal-trials/us-v-cassius-clay-muhammad-alis-fight-against-vietnam-draft)
+  - NMAAHC: Float Like a Butterfly (https://nmaahc.si.edu/explore/stories/float-butterfly)
+  - Encyclopaedia Britannica: Muhammad Ali (https://www.britannica.com/biography/Muhammad-Ali-boxer)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, religion/war/sports harm claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-06 - Emmett Till and Mamie Till-Mobley
+
+- Entry title: Emmett Till
+- Slug: `emmett-till`
+- Daily date: 2026-09-06
+- Daily story researched: 2026-08-31
+- Daily story claims: On September 6, 1955, Emmett Till was buried in Chicago. For three days before the burial, thousands of mourners had passed through Roberts Temple Church of God in Christ because his mother, Mamie Till-Mobley, refused to let racist violence be hidden. Emmett was fourteen when white men kidnapped and lynched him while he was visiting relatives in Mississippi. State officials tried to arrange a quick burial there. Mamie demanded that her son be returned home, then chose a public, open-casket viewing. She also allowed photographs to be published. Her decision moved private grief into public witness. The church overflowed, crowds filled the surrounding streets, and images of Emmett reached Black readers across the country. The men charged with his murder were acquitted by an all-white jury, but the story could not be forced back into silence.
+- Daily story sources:
+  - https://www.nps.gov/till/learn/management/presidential-proclamation.htm
+  - https://womenshistory.si.edu/blog/excluded-national-leadership-black-women-were-backbone-civil-rights-movement
+- Date researched: 2026-08-14
+- Writer/research status: batch-9-complete
+- Material factual claims: Emmett Till was fourteen years old when white men kidnapped and murdered him in Mississippi in 1955. His mother, Mamie Till-Mobley, then made a decision that changed public memory: she insisted on a funeral in Chicago with an open casket and allowed photographs of her son to be published. The daily challenge tells that basic fact. The encyclopedia has to hold more: a child from Chicago entering the racial rules of the Mississippi Delta, a mother refusing secrecy, an all-white jury's acquittal, a paid confession after the trial, and decades of unfinished accountability. This page matters because Emmett Till should not be remembered only as an image of death. He was a boy with a family, and his mother's witness forced a nation to see what it preferred to deny.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/emmett-till.htm
+  - https://www.nps.gov/till/index.htm
+  - https://www.justice.gov/crt/case-document/emmett-till-notice-close-file-0
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/emmett-tills-death-inspired-movement
+  - https://americanhistory.si.edu/explore/exhibitions/reckoning-with-remembrance/online
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Child murder, Bryant Grocery encounter, open-casket publication, all-white jury, Look magazine confession, later recantation reporting, DOJ reopening and 2021 closure, and monument creation reviewed.
+- Material corrections made: Expanded the scheduled fallback into a carefully sourced account that treats disputed recantation claims through the Justice Department record rather than presenting them as settled fact.
+- External links included on the page:
+  - National Park Service: Emmett Till (https://www.nps.gov/people/emmett-till.htm)
+  - National Park Service: Emmett Till and Mamie Till-Mobley National Monument (https://www.nps.gov/till/index.htm)
+  - National Museum of African American History and Culture: Emmett Till's Death Inspired a Movement (https://nmaahc.si.edu/explore/stories/emmett-tills-death-inspired-movement)
+  - Smithsonian National Museum of American History: Reckoning with Remembrance: History, Injustice, and the Murder of Emmett Till (https://americanhistory.si.edu/explore/exhibitions/reckoning-with-remembrance/online)
+  - U.S. Department of Justice: Notice to Close File: Emmett Till (https://www.justice.gov/crt/case-document/emmett-till-notice-close-file-0)
+- Final review status: Batch 9 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, sensitive/disputed claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-07 - Jacob Lawrence
+
+- Entry title: Jacob Lawrence
+- Slug: `jacob-lawrence`
+- Daily date: 2026-09-07
+- Daily story researched: 2026-08-31
+- Daily story claims: Jacob Lawrence was born in Atlantic City on September 7, 1917, to parents whose family story was part of the Great Migration. He would grow into an artist who made Black history move across the wall one scene at a time. Raised partly in Harlem, Lawrence learned through community art workshops and spent hours researching Black history in libraries. He painted series about Toussaint Louverture, Harriet Tubman, and Frederick Douglass before turning to the movement of Black families out of the South. At twenty-three, Lawrence completed The Migration Series: 60 same-sized panels painted in sequence, with short captions carrying the story forward. He showed crowded stations, labor recruiters, segregated trains, northern housing, racial violence, and families making difficult choices. The work became an American epic without centering a single hero.
+- Daily story sources:
+  - https://americanart.si.edu/artist/jacob-lawrence-2828
+  - https://lawrencemigration.phillipscollection.org/artist/chronology
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: Jacob Lawrence painted history as movement: crowded train stations, angled bodies, working hands, storefront churches, courtrooms, floodwaters, and families carrying more than luggage. He was only 23 when he completed The Migration Series, 60 small panels that made the Great Migration visible as a national story and a modern art landmark. Lawrence did not paint Black history as illustration after the fact. He researched it, sequenced it, captioned it, and made color carry memory. His work matters because it rejects the idea that serious history belongs only in books or monuments. Lawrence taught migration, labor, violence, hope, and community through panels that move like testimony, music, and a train schedule at once.
+- Primary or authoritative sources:
+  - https://americanart.si.edu/artist/jacob-lawrence-2828
+  - https://www.moma.org/collection/artists/3418
+  - https://www.moma.org/interactives/exhibitions/2015/onewayticket/static/jacob-lawrence/1/
+- Supporting secondary sources:
+  - https://www.moma.org/calendar/exhibitions/444
+  - https://americanart.si.edu/education/oh-freedom/jacob-lawrence-john-brown
+- Verified quotation source: MoMA artist page quotes Lawrence on Black history as American heritage and experience.
+- Sensitive or disputed claims reviewed: Birth date, first major gallery/acquisition framing, Migration Series panel count and split, never-visited-South context, Harlem mentors, and Great Migration claims reviewed.
+- Material corrections made: Expanded scheduled fallback into full art-historical and migration-history account with direct museum sources.
+- External links included on the page:
+  - Smithsonian American Art Museum: Jacob Lawrence (https://americanart.si.edu/artist/jacob-lawrence-2828)
+  - MoMA: Jacob Lawrence (https://www.moma.org/collection/artists/3418)
+  - MoMA: Jacob Lawrence: The Migration Series (https://www.moma.org/calendar/exhibitions/444)
+  - MoMA: One-Way Ticket: Jacob Lawrence's Migration Series (https://www.moma.org/interactives/exhibitions/2015/onewayticket/static/jacob-lawrence/1/)
+  - Smithsonian American Art Museum: Oh Freedom! Jacob Lawrence (https://americanart.si.edu/education/oh-freedom/jacob-lawrence-john-brown)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, art-history first-claim review, depth/similarity validation, desktop/mobile browser check.
 
 ### 2026-04-19 - 1968 Olympic Black Power Salute
 

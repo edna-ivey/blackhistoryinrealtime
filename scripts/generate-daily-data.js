@@ -127,21 +127,24 @@ function toPublicEntry(entry) {
     options: entry.options,
     answer: entry.answer,
     answerText: entry.answerText,
+    answerExplanation: entry.answerExplanation,
     subject: entry.subject,
     dates: entry.dates,
     encyclopediaSlug: entry.encyclopediaSlug,
     encyclopediaPath: pagePath,
     story: renderParagraphs(entry),
     whyItMatters: entry.whyItMatters,
+    igCaption: entry.igCaption,
     tags: entry.tags,
   };
 }
 
 function writeLedger(entries) {
-  const dailySlugs = new Set(entries.map(entry => entry.encyclopediaSlug));
+  const dailyProfileKeys = new Set(entries.map(entry => `${entry.encyclopediaSlug}:${entry.fullDate}`));
   const rows = entries.map(entry => {
     const richEntry = richBySlug.get(entry.encyclopediaSlug);
     if (richEntry) {
+      const dailySourceRows = (entry.sources || []).map(url => `  - ${url}`).join('\n');
       const sourceRows = (richEntry.externalLinks || [])
         .map(link => `  - ${link.source}: ${link.title} (${link.url})`)
         .join('\n');
@@ -156,6 +159,10 @@ function writeLedger(entries) {
 - Entry title: ${richEntry.subject}
 - Slug: \`${entry.encyclopediaSlug}\`
 - Daily date: ${entry.fullDate}
+- Daily story researched: ${entry.researchDate || 'Not recorded'}
+- Daily story claims: ${entry.lede} ${entry.context} ${entry.turning}
+- Daily story sources:
+${dailySourceRows}
 - Date researched: ${richEntry.research.dateResearched || '2026-08-13'}
 - Writer/research status: ${richEntry.research.status}
 - Material factual claims: ${richEntry.summary}
@@ -181,7 +188,10 @@ ${sourceRows}`;
   });
 
   RICH_ENTRIES
-    .filter(entry => !dailySlugs.has(entry.encyclopediaSlug))
+    .filter(entry => {
+      const dateLabel = entry.fullDate || entry.dailyDateLabel || 'Encyclopedia';
+      return !dailyProfileKeys.has(`${entry.encyclopediaSlug}:${dateLabel}`);
+    })
     .forEach(richEntry => {
       const sourceRows = (richEntry.externalLinks || [])
         .map(link => `  - ${link.source}: ${link.title} (${link.url})`)
@@ -215,11 +225,12 @@ ${sourceRows}
 
   const rowContent = rows.join('\n\n');
 
+  const coverageEnd = entries.map(entry => entry.fullDate).sort().at(-1);
   const content = `# Black History in Real Time - Research Ledger
 
 Generated from \`content/daily/2026-coverage.js\`.
 
-Coverage file contains source URLs used to verify newly scheduled daily entries through August 31, 2026.
+Coverage file contains source URLs used to verify newly scheduled daily entries through ${coverageEnd}.
 
 ${rowContent}
 `;

@@ -4,11 +4,11 @@ Black History in Real Time is a static daily-history site published from this re
 
 ## Current Coverage
 
-Daily coverage is valid from `2026-02-01` through `2026-08-31`.
+Daily coverage is valid from `2026-02-01` through `2026-09-07`.
 
 - February through April 2026 live in the legacy `DATA` array in `index.html`.
 - May 1-5 and June 6 2026 are markdown-driven encyclopedia entries in `content/encyclopedia/`.
-- May 6 through August 31 2026 live in `content/daily/2026-coverage.js` and are generated into `generated/daily-data.js`.
+- May 6 through September 7 2026 live in `content/daily/2026-coverage.js` and are generated into `generated/daily-data.js`.
 - Generated encyclopedia pages for scheduled daily entries live under `generated/pages/`.
 - Newly added or materially updated daily content is audited in `docs/RESEARCH_LEDGER.md`.
 

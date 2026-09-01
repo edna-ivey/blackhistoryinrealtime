@@ -3034,5 +3034,200 @@ const FUTURE_DAILY = [
       "invention",
       "women"
     ]
+  },
+  {
+    "fullDate": "2026-09-01",
+    "category": "Sports & Integration",
+    "title": "Nine Players Changed the Lineup",
+    "question": "Which Major League Baseball team fielded a starting lineup made entirely of Black and Latino players on September 1, 1971?",
+    "options": [
+      "Pittsburgh Pirates",
+      "Los Angeles Dodgers",
+      "San Francisco Giants",
+      "Chicago Cubs"
+    ],
+    "answer": 0,
+    "answerText": "Pittsburgh Pirates",
+    "answerExplanation": "The Pittsburgh Pirates started nine Black and Latino players against the Philadelphia Phillies. Major League Baseball and the Baseball Hall of Fame recognize it as the first all-minority starting lineup in modern AL/NL history.",
+    "subject": "The 1971 Pittsburgh Pirates Lineup",
+    "dates": "September 1, 1971",
+    "encyclopediaSlug": "sports-integration",
+    "encyclopediaPath": "encyclopedia/sports-integration.html",
+    "story": "<p>The lineup card did not announce a protest. It simply listed the nine Pittsburgh Pirates who would start against Philadelphia: Rennie Stennett, Gene Clines, Roberto Clemente, Willie Stargell, Manny Sanguillen, Dave Cash, Al Oliver, Jackie Hernandez, and Dock Ellis.</p><p>Every player in that starting nine was Black or Latino. Twenty-four years after Jackie Robinson crossed Major League Baseball&#039;s color line, the Pirates had built a roster where players of color were not one carefully managed exception. They filled every position on the field.</p><p>The milestone received little attention that night, in part because Pittsburgh&#039;s newspapers were on strike. The Pirates won 10-7 and later won the World Series. What looked ordinary on the lineup card revealed how much baseball had changed, and how quietly history can arrive when a team finally treats talent as normal.</p>",
+    "whyItMatters": "This lineup matters because integration is more than admitting one person. It means building enough opportunity that Black and Latino players can become the team rather than the exception. The Pirates reached that point without staging the moment, which made the moment no less historic.",
+    "igCaption": "September 1, 1971: the Pittsburgh Pirates started nine Black and Latino players. Every position. One lineup. A baseball first that almost passed without notice.\n\n#BlackHistoryInRealTime #PittsburghPirates #BaseballHistory #RobertoClemente",
+    "tags": [
+      "sports",
+      "segregation",
+      "civil-rights",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-09-02",
+    "category": "Education & Resistance",
+    "title": "The Governor Put Soldiers at the Schoolhouse",
+    "question": "Which Arkansas governor ordered the National Guard to block the Little Rock Nine from Central High School in 1957?",
+    "options": [
+      "Orval Faubus",
+      "Sid McMath",
+      "Winthrop Rockefeller",
+      "Dale Bumpers"
+    ],
+    "answer": 0,
+    "answerText": "Orval Faubus",
+    "answerExplanation": "Governor Orval Faubus announced on September 2, 1957, that he would use the Arkansas National Guard to prevent the nine students from entering Central High, claiming the troops were needed to prevent violence.",
+    "subject": "The Little Rock Nine",
+    "dates": "September 1957",
+    "encyclopediaSlug": "little-rock-nine",
+    "encyclopediaPath": "generated/pages/little-rock-nine.html",
+    "story": "<p>Nine Black teenagers had been selected to integrate Little Rock Central High School under a federal court order. On September 2, 1957, Arkansas Governor Orval Faubus answered that order by putting armed National Guard troops in their path.</p><p>Faubus said the soldiers were there to prevent violence. In practice, the Guard protected segregation by blocking the students from the public school they had a legal right to attend. Two days later, the troops turned the students away as a white mob gathered outside.</p><p>The crisis forced a confrontation over who controlled constitutional rights. After weeks of obstruction and mob violence, President Dwight Eisenhower federalized the Arkansas National Guard and sent the 101st Airborne Division to Little Rock. On September 25, the nine students entered Central High under federal protection.</p>",
+    "whyItMatters": "Little Rock matters because a court decision did not enforce itself. Teenagers had to carry the promise of Brown v. Board through soldiers, mobs, cameras, and hostile classrooms. The crisis made clear that public officials could use the language of order to defend an unjust system.",
+    "igCaption": "September 2, 1957: Arkansas Governor Orval Faubus ordered the National Guard to block nine Black students from Central High. A court had recognized their rights. The state still tried to close the door.\n\n#BlackHistoryInRealTime #LittleRockNine #CivilRightsHistory",
+    "tags": [
+      "education",
+      "youth",
+      "segregation",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-09-03",
+    "category": "Freedom & Self-Determination",
+    "title": "Twenty-Four Hours Toward Freedom",
+    "question": "Who helped Frederick Douglass finance and prepare for his escape from slavery in 1838?",
+    "options": [
+      "Anna Murray",
+      "Harriet Tubman",
+      "Sojourner Truth",
+      "William Lloyd Garrison"
+    ],
+    "answer": 0,
+    "answerText": "Anna Murray",
+    "answerExplanation": "Anna Murray, a free Black woman in Baltimore, helped buy Douglass's train ticket and supported his plan. They reunited in New York and married less than two weeks after his escape.",
+    "subject": "Frederick Douglass",
+    "dates": "1818 - 1895",
+    "encyclopediaSlug": "frederick-douglass",
+    "encyclopediaPath": "generated/pages/frederick-douglass.html",
+    "story": "<p>On September 3, 1838, Frederick Bailey boarded a train in Baltimore dressed as a sailor. He carried borrowed protection papers that described a free Black seaman. If anyone examined them too closely, his journey could end in capture and punishment.</p><p>The escape was not his work alone. Anna Murray, a free Black woman he had met in Baltimore, helped pay for the ticket and prepared the sailor&#039;s clothing he used as a disguise. Douglass traveled through Delaware and Philadelphia to New York, completing the dangerous trip in less than twenty-four hours.</p><p>Murray joined him in New York, and they married on September 15. Douglass later became an abolitionist, writer, newspaper editor, and one of the nineteenth century&#039;s most influential public speakers. For years he protected details of the escape because explaining the route could endanger people still seeking freedom.</p>",
+    "whyItMatters": "Douglass's escape matters as an act of self-emancipation, but Anna Murray belongs inside the story. Freedom required courage, planning, money, disguise, trust, and a network. Restoring Murray's role replaces the myth of a solitary hero with the history of two people taking an enormous risk together.",
+    "igCaption": "September 3, 1838: Frederick Douglass escaped slavery by train, dressed as a sailor and carrying borrowed papers. Anna Murray helped finance and prepare the journey. Freedom was planned together.\n\n#BlackHistoryInRealTime #FrederickDouglass #AnnaMurrayDouglass #SelfEmancipation",
+    "tags": [
+      "self-determination",
+      "enslavement",
+      "abolition",
+      "family"
+    ]
+  },
+  {
+    "fullDate": "2026-09-04",
+    "category": "Music & Civil Liberties",
+    "title": "Paul Robeson Returned to Sing",
+    "question": "What happened after Paul Robeson performed at the rescheduled Peekskill concert on September 4, 1949?",
+    "options": [
+      "Mobs attacked concertgoers and their vehicles",
+      "The concert was broadcast nationally",
+      "Congress honored the performers",
+      "The audience marched to New York City"
+    ],
+    "answer": 0,
+    "answerText": "Mobs attacked concertgoers and their vehicles",
+    "answerExplanation": "The concert itself remained peaceful behind a protective ring of union members and veterans. On the roads leaving the site, attackers hurled rocks, shattered windows, and overturned vehicles while police failed to protect the audience.",
+    "subject": "Paul Robeson and the Peekskill Riots",
+    "dates": "September 4, 1949",
+    "encyclopediaSlug": "paul-robeson",
+    "encyclopediaPath": "generated/pages/paul-robeson.html",
+    "story": "<p>A mob had already stopped Paul Robeson from singing near Peekskill, New York, on August 27, 1949. Robeson promised to return. On September 4, he stood before a multiracial audience of more than 20,000 people and performed anyway.</p><p>Robeson was an internationally known singer, actor, athlete, and civil rights advocate. His left-wing politics and criticism of racism made him a target during the early Cold War. Union members and World War II veterans formed a protective ring around the second concert so the music could continue.</p><p>The concert ended peacefully, but the protection did not extend to the roads home. Attackers ambushed cars and buses, throwing stones and smashing windows as police stood by. The Peekskill violence joined racism, antisemitism, anti-union hostility, and anticommunism in a warning about how quickly political fear can be turned against speech and assembly.</p>",
+    "whyItMatters": "Peekskill matters because free speech is tested when the speaker is unpopular and the audience is vulnerable. Robeson's decision to return was not only personal courage. Thousands of people built the physical solidarity that allowed him to sing, then paid a real price when public authorities failed to protect them.",
+    "igCaption": "September 4, 1949: Paul Robeson returned to Peekskill after a mob stopped his first concert. He sang. Union members protected the stage. Then attackers ambushed the audience on the roads home.\n\n#BlackHistoryInRealTime #PaulRobeson #CivilLiberties #LaborHistory",
+    "tags": [
+      "music",
+      "civil-rights",
+      "protest",
+      "labor"
+    ]
+  },
+  {
+    "fullDate": "2026-09-05",
+    "category": "Sports & Conviction",
+    "title": "Before the World Knew Muhammad Ali",
+    "question": "In which boxing division did 18-year-old Cassius Clay win Olympic gold in 1960?",
+    "options": [
+      "Light heavyweight",
+      "Heavyweight",
+      "Middleweight",
+      "Welterweight"
+    ],
+    "answer": 0,
+    "answerText": "Light heavyweight",
+    "answerExplanation": "Cassius Clay, who later became Muhammad Ali, defeated Poland's Zbigniew Pietrzykowski in the light-heavyweight final in Rome on September 5, 1960.",
+    "subject": "Muhammad Ali",
+    "dates": "1942 - 2016",
+    "encyclopediaSlug": "muhammad-ali",
+    "encyclopediaPath": "generated/pages/muhammad-ali.html",
+    "story": "<p>On September 5, 1960, an 18-year-old boxer from Louisville named Cassius Marcellus Clay Jr. stepped into an Olympic ring in Rome. He defeated Zbigniew Pietrzykowski of Poland and left with the light-heavyweight gold medal.</p><p>Clay had started boxing at twelve and reached the Olympics with speed, confidence, and a style that did not look like anyone else&#039;s. The medal made him internationally visible, but it did not shield him from segregation when he returned to the United States.</p><p>He turned professional, won the heavyweight championship, joined the Nation of Islam, and took the name Muhammad Ali. Later, he refused induction into the U.S. Army during the Vietnam War, losing years of his boxing career while his conviction was appealed. The Supreme Court unanimously reversed that conviction in 1971.</p>",
+    "whyItMatters": "The Rome medal matters because it was the beginning, not the full explanation, of Ali's public life. Athletic greatness gave him a platform. His faith, political choices, humor, generosity, contradictions, and willingness to accept consequences made him a figure far larger than boxing.",
+    "igCaption": "September 5, 1960: 18-year-old Cassius Clay won Olympic gold in Rome. The world would come to know him as Muhammad Ali, but the speed, confidence, and refusal to be contained were already there.\n\n#BlackHistoryInRealTime #MuhammadAli #OlympicHistory #BoxingHistory",
+    "tags": [
+      "sports",
+      "civil-rights",
+      "religion",
+      "self-determination"
+    ]
+  },
+  {
+    "fullDate": "2026-09-06",
+    "category": "Memory & Justice",
+    "title": "A Funeral the Nation Could Not Ignore",
+    "question": "What did Mamie Till-Mobley insist on after her son Emmett Till's body was returned to Chicago?",
+    "options": [
+      "A public open-casket viewing",
+      "An immediate private burial",
+      "A closed military funeral",
+      "A funeral outside the United States"
+    ],
+    "answer": 0,
+    "answerText": "A public open-casket viewing",
+    "answerExplanation": "Mamie Till-Mobley insisted that people see the racist violence inflicted on her 14-year-old son. The public viewing continued for days, and Emmett was buried on September 6, 1955.",
+    "subject": "Emmett Till and Mamie Till-Mobley",
+    "dates": "September 1955",
+    "encyclopediaSlug": "emmett-till",
+    "encyclopediaPath": "generated/pages/emmett-till.html",
+    "story": "<p>On September 6, 1955, Emmett Till was buried in Chicago. For three days before the burial, thousands of mourners had passed through Roberts Temple Church of God in Christ because his mother, Mamie Till-Mobley, refused to let racist violence be hidden.</p><p>Emmett was fourteen when white men kidnapped and lynched him while he was visiting relatives in Mississippi. State officials tried to arrange a quick burial there. Mamie demanded that her son be returned home, then chose a public, open-casket viewing. She also allowed photographs to be published.</p><p>Her decision moved private grief into public witness. The church overflowed, crowds filled the surrounding streets, and images of Emmett reached Black readers across the country. The men charged with his murder were acquitted by an all-white jury, but the story could not be forced back into silence.</p>",
+    "whyItMatters": "September 6 matters because burial did not end the public reckoning Mamie began. She made the nation look at what white supremacy had done to her child, then became an educator and activist. Remembering her choice means recognizing both its political power and the terrible personal cost behind it.",
+    "igCaption": "September 6, 1955: Emmett Till was buried after days of public viewing in Chicago. Mamie Till-Mobley made the nation confront what racist violence had done to her son. Her grief became witness.\n\n#BlackHistoryInRealTime #EmmettTill #MamieTillMobley #CivilRightsHistory",
+    "tags": [
+      "civil-rights",
+      "family",
+      "youth",
+      "resistance"
+    ]
+  },
+  {
+    "fullDate": "2026-09-07",
+    "category": "Art & Historical Memory",
+    "title": "History Painted in Motion",
+    "question": "Which artist told the story of the Great Migration through a sequence of 60 paintings?",
+    "options": [
+      "Jacob Lawrence",
+      "Romare Bearden",
+      "Aaron Douglas",
+      "Charles Alston"
+    ],
+    "answer": 0,
+    "answerText": "Jacob Lawrence",
+    "answerExplanation": "Jacob Lawrence, born September 7, 1917, researched and painted The Migration Series as 60 connected panels, pairing each image with a caption to tell a collective history.",
+    "subject": "Jacob Lawrence",
+    "dates": "1917 - 2000",
+    "encyclopediaSlug": "jacob-lawrence",
+    "encyclopediaPath": "generated/pages/jacob-lawrence.html",
+    "story": "<p>Jacob Lawrence was born in Atlantic City on September 7, 1917, to parents whose family story was part of the Great Migration. He would grow into an artist who made Black history move across the wall one scene at a time.</p><p>Raised partly in Harlem, Lawrence learned through community art workshops and spent hours researching Black history in libraries. He painted series about Toussaint Louverture, Harriet Tubman, and Frederick Douglass before turning to the movement of Black families out of the South.</p><p>At twenty-three, Lawrence completed The Migration Series: 60 same-sized panels painted in sequence, with short captions carrying the story forward. He showed crowded stations, labor recruiters, segregated trains, northern housing, racial violence, and families making difficult choices. The work became an American epic without centering a single hero.</p>",
+    "whyItMatters": "Lawrence matters because he treated research, design, and storytelling as one practice. The Migration Series teaches that history is both collective and personal. It also shows families building new lives without pretending the North was free of racism, exploitation, or danger.",
+    "igCaption": "September 7, 1917: Jacob Lawrence was born. At 23, he painted 60 connected panels to tell the story of the Great Migration. History moved through color, repetition, departure, and arrival.\n\n#BlackHistoryInRealTime #JacobLawrence #GreatMigration #BlackArt",
+    "tags": [
+      "art",
+      "great-migration",
+      "community"
+    ]
   }
 ];
