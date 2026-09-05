@@ -8,7 +8,7 @@ const ALLOWED_TAGS = require('../content/config/tags.json');
 
 const ROOT = path.join(__dirname, '..');
 const COVERAGE_START = process.env.COVERAGE_START || '2026-02-01';
-const COVERAGE_END = process.env.COVERAGE_END || '2026-09-07';
+const COVERAGE_END = process.env.COVERAGE_END || '2026-10-31';
 const SOURCE_ONLY = process.argv.includes('--source-only');
 const APPROVED_REPEATED_SLUGS = new Set([
   'redlining',
@@ -206,17 +206,28 @@ function run() {
     if (!byDate.has(date)) errors.push(`Missing required daily entry: ${date}`);
   });
 
-  const slugDates = new Map();
+  const slugEntries = new Map();
   combined.forEach(entry => {
     const slug = entry.encyclopediaSlug || entry.encyclopediaPath;
     if (!slug) return;
-    if (!slugDates.has(slug)) slugDates.set(slug, []);
-    slugDates.get(slug).push(entry.fullDate);
+    if (!slugEntries.has(slug)) slugEntries.set(slug, []);
+    slugEntries.get(slug).push(entry);
   });
-  slugDates.forEach((dates, slug) => {
-    if (dates.length > 1 && !APPROVED_REPEATED_SLUGS.has(slug)) {
-      errors.push(`${slug}: referenced by multiple dates (${dates.join(', ')})`);
+  slugEntries.forEach((entries, slug) => {
+    const repeatedEntriesAreIntentional = entries.slice(1).every(entry => entry.allowSharedEncyclopedia);
+    if (entries.length > 1 && !APPROVED_REPEATED_SLUGS.has(slug) && !repeatedEntriesAreIntentional) {
+      errors.push(`${slug}: referenced by multiple dates (${entries.map(entry => entry.fullDate).join(', ')})`);
     }
+  });
+
+  const questionDates = new Map();
+  combined.forEach(entry => {
+    const question = String(entry.question || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    if (!questionDates.has(question)) questionDates.set(question, []);
+    questionDates.get(question).push(entry.fullDate);
+  });
+  questionDates.forEach((dates, question) => {
+    if (question && dates.length > 1) errors.push(`Duplicate quiz question (${dates.join(', ')}): ${question}`);
   });
 
   console.log('Daily coverage validation');

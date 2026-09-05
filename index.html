@@ -1587,6 +1587,17 @@ function loadDay(idx) {
   if (saved !== null) { answered = true; selectedOpt = parseInt(saved); applyAnswerState(idx, selectedOpt); revealContent(); }
 }
 
+function navigateToDay(idx) {
+  const entry = DATA[idx];
+  if (!entry) return;
+  const url = new URL(window.location.href);
+  url.searchParams.set('day', entry.fullDate);
+  url.hash = '';
+  window.history.pushState({ day: entry.fullDate }, '', url);
+  loadDay(idx);
+  showView('today');
+}
+
 function selectOpt(i) {
   if (answered) return;
   selectedOpt = i;
@@ -1746,7 +1757,7 @@ function buildCalendar() {
     const div = document.createElement('div');
     div.className = cls;
     div.innerHTML = '<span class="dn">'+day+'</span>'+(hasContent ? '<span class="dc">'+shortCat+'</span>' : '');
-    if (hasContent) { div.onclick = () => { loadDay(dataIdx); showView('today'); }; }
+    if (hasContent) { div.onclick = () => navigateToDay(dataIdx); }
     grid.appendChild(div);
   }
 }
@@ -1774,7 +1785,7 @@ function buildArchive() {
       const card = document.createElement('div');
       card.className = 'arc-card';
       card.innerHTML = '<div class="arc-info"><div class="arc-date">'+formatFullDate(dateObj)+' · '+d.category+'</div><div class="arc-title">'+d.title+'</div><div class="arc-cat">'+d.subject+'</div></div><div class="arc-arrow">→</div>';
-      card.onclick = () => { loadDay(idx); showView('today'); };
+      card.onclick = () => navigateToDay(idx);
       list.appendChild(card);
     });
   });
@@ -1802,6 +1813,17 @@ window.onload = () => {
     showView(hashView, hashBtn);
   }
 };
+
+window.addEventListener('popstate', () => {
+  const dayParam = new URLSearchParams(window.location.search).get('day');
+  const targetIdx = resolveDayParam(dayParam);
+  if (targetIdx !== -1) {
+    loadDay(targetIdx);
+    showView('today');
+  } else if (dayParam !== null) {
+    showNoContent(dayParam);
+  }
+});
 </script>
 </body>
 </html>

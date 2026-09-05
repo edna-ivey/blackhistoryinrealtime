@@ -2,6 +2,8 @@
 // or markdown encyclopedia entries. Stories are rendered into generated/daily-data.js
 // and generated/pages/*.html by scripts/generate-daily-data.js.
 
+const { FALL_2026_COVERAGE } = require('./2026-fall');
+
 const SOURCE_NOTE = 'Research ledger source URL for factual verification.';
 
 function entry(data) {
@@ -2503,7 +2505,8 @@ const DAILY_COVERAGE = [
       'https://americanart.si.edu/artist/jacob-lawrence-2828',
       'https://lawrencemigration.phillipscollection.org/artist/chronology'
     ]
-  })
+  }),
+  ...FALL_2026_COVERAGE
 ];
 
 module.exports = {

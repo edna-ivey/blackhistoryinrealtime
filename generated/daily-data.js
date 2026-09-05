@@ -3229,5 +3229,1508 @@ const FUTURE_DAILY = [
       "great-migration",
       "community"
     ]
+  },
+  {
+    "fullDate": "2026-09-08",
+    "category": "Education & Courage",
+    "title": "Six Years Old at the Schoolhouse Door",
+    "question": "Which child, born September 8, 1954, integrated William Frantz Elementary School in New Orleans?",
+    "options": [
+      "Ruby Bridges",
+      "Claudette Colvin",
+      "Daisy Bates",
+      "Linda Brown"
+    ],
+    "answer": 0,
+    "answerText": "Ruby Bridges",
+    "answerExplanation": "Ruby Bridges was six when federal marshals escorted her into William Frantz Elementary in 1960. White parents withdrew children, and she spent much of first grade as her teacher's only student.",
+    "subject": "Ruby Bridges",
+    "dates": "Born September 8, 1954",
+    "encyclopediaSlug": "ruby-bridges",
+    "encyclopediaPath": "encyclopedia/ruby-bridges.html",
+    "story": "<p>Ruby Bridges was born on September 8, 1954, the same year the Supreme Court rejected legally segregated public schools. Six years later, she became the child expected to make that ruling real in one New Orleans school.</p><p>Federal marshals escorted Bridges past hostile crowds into William Frantz Elementary. Most white families pulled their children out. Barbara Henry, a teacher from Boston, taught Ruby alone while federal protection followed her family beyond the classroom.</p><p>The familiar photograph shows a composed little girl between adults. It cannot show the jobs her parents risked, the threats around their home, or what it meant for a first grader to carry a constitutional promise that a city resisted.</p>",
+    "whyItMatters": "Ruby Bridges makes school integration concrete. Brown v. Board changed the law, but children and families absorbed the danger of enforcement. Her birthday is a chance to remember the full person behind an image of courage.",
+    "igCaption": "September 8, 1954: Ruby Bridges was born. Six years later, she walked through a crowd that wanted a public school to remain white. She was a child, not a symbol without fear or family.\n\n#BlackHistoryInRealTime #RubyBridges #SchoolIntegration",
+    "tags": [
+      "education",
+      "youth",
+      "segregation",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-09-09",
+    "category": "Resistance & Freedom",
+    "title": "The Rebellion Beside the Stono River",
+    "question": "What 1739 uprising began near South Carolina's Stono River on September 9?",
+    "options": [
+      "The Stono Rebellion",
+      "The German Coast Uprising",
+      "Nat Turner's Rebellion",
+      "The New York Revolt"
+    ],
+    "answer": 0,
+    "answerText": "The Stono Rebellion",
+    "answerExplanation": "The Stono Rebellion began when a group of enslaved people seized weapons and moved south toward Spanish Florida, where freedom had been offered to fugitives from British colonies.",
+    "subject": "The Stono Rebellion",
+    "dates": "September 9, 1739",
+    "encyclopediaSlug": "enslaved-labor",
+    "encyclopediaPath": "encyclopedia/enslaved-labor.html",
+    "story": "<p>On September 9, 1739, enslaved people near South Carolina&#039;s Stono River took weapons, raised a banner, and marched south. Their destination mattered: Spanish Florida had offered freedom to people escaping British slavery.</p><p>The rebels killed several white colonists and drew more participants as they moved. Colonial militia caught them before they reached Florida. Many were killed in the fighting or executed afterward, and some were sold away.</p><p>South Carolina answered with the 1740 Negro Act, tightening surveillance and restricting assembly, movement, education, and economic independence. The law exposed what enslavers feared: communication, mobility, and collective plans for freedom.</p>",
+    "whyItMatters": "Stono refuses the fiction that enslaved people accepted captivity. It also shows how resistance and repression shaped each other, with lawmakers turning one uprising into decades of broader control over Black life.",
+    "igCaption": "September 9, 1739: enslaved people near the Stono River began marching toward Spanish Florida and freedom. South Carolina answered their resistance with a wider machinery of control.\n\n#BlackHistoryInRealTime #StonoRebellion #Resistance",
+    "tags": [
+      "resistance",
+      "enslavement",
+      "law"
+    ]
+  },
+  {
+    "fullDate": "2026-09-10",
+    "category": "Reconstruction & Government",
+    "title": "From Slavery to the Speaker's Chair",
+    "question": "Which Reconstruction-era congressman, born September 10, 1847, later served as Mississippi's first Black speaker of the state House?",
+    "options": [
+      "John Roy Lynch",
+      "Hiram Revels",
+      "Robert Smalls",
+      "Blanche K. Bruce"
+    ],
+    "answer": 0,
+    "answerText": "John Roy Lynch",
+    "answerExplanation": "John Roy Lynch rose from enslavement to become speaker of Mississippi's House at 24 and later served three terms in the U.S. House of Representatives.",
+    "subject": "John Roy Lynch",
+    "dates": "September 10, 1847 - November 2, 1939",
+    "encyclopediaSlug": "reconstruction",
+    "encyclopediaPath": "generated/pages/reconstruction.html",
+    "story": "<p>John Roy Lynch was born enslaved in Louisiana on September 10, 1847. Before he turned thirty, he had become a newspaper photographer, a state legislator, speaker of Mississippi&#039;s House, and a member of Congress.</p><p>Reconstruction opened political space that Black voters and organizers moved quickly to use. Lynch defended civil rights and public education while white supremacist violence and election fraud worked to destroy both Black officeholding and multiracial government.</p><p>He lived long enough to see the Reconstruction generation caricatured as incompetent. Lynch answered by writing history, documenting how Black officials governed and how organized violence, not voter failure, dismantled their power.</p>",
+    "whyItMatters": "Lynch changes the usual timeline. Black political leadership did not begin in the twentieth century. It grew immediately after emancipation, and its destruction required deliberate force, law, and historical distortion.",
+    "igCaption": "September 10, 1847: John Roy Lynch was born enslaved. At 24, he became speaker of Mississippi's House. Later, he wrote back against the lie that Reconstruction had failed because Black citizens could not govern.\n\n#BlackHistoryInRealTime #Reconstruction",
+    "tags": [
+      "reconstruction",
+      "politics",
+      "law",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-09-11",
+    "category": "Self-Emancipation",
+    "title": "A Community Refused to Surrender a Neighbor",
+    "question": "What name is given to the 1851 confrontation in Pennsylvania where Black residents resisted the capture of William Parker and other freedom seekers?",
+    "options": [
+      "The Christiana Resistance",
+      "The Boston Vigilance Riot",
+      "The Harpers Ferry Raid",
+      "The Oberlin Rescue"
+    ],
+    "answer": 0,
+    "answerText": "The Christiana Resistance",
+    "answerExplanation": "On September 11, 1851, free Black residents and freedom seekers near Christiana resisted a Maryland enslaver trying to seize people under the Fugitive Slave Act.",
+    "subject": "The Christiana Resistance",
+    "dates": "September 11, 1851",
+    "encyclopediaSlug": "underground-railroad",
+    "encyclopediaPath": "generated/pages/underground-railroad.html",
+    "story": "<p>Before dawn on September 11, 1851, a Maryland enslaver and a federal marshal arrived near Christiana, Pennsylvania, to capture men who had escaped slavery. They met a Black community prepared to warn and defend one another.</p><p>William Parker and his neighbors belonged to an informal protection network. When Edward Gorsuch demanded surrender, residents refused. Fighting followed, Gorsuch was killed, and Parker escaped to Canada through Underground Railroad connections.</p><p>Federal authorities charged dozens with treason, hoping to make resistance to the Fugitive Slave Act an attack on the nation itself. The first defendant was acquitted, and prosecutors abandoned the remaining treason cases.</p>",
+    "whyItMatters": "Christiana shows that the Underground Railroad was not only secret travel. It was organized community defense against federal power being used to return human beings to slavery.",
+    "igCaption": "September 11, 1851: Black residents near Christiana, Pennsylvania, refused to surrender freedom seekers to an enslaver and federal marshal. Community protection became resistance to federal law.\n\n#BlackHistoryInRealTime #UndergroundRailroad",
+    "tags": [
+      "resistance",
+      "enslavement",
+      "law",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-09-12",
+    "category": "Science & Space",
+    "title": "A New View from Endeavour",
+    "question": "Who became the first Black woman to travel in space when Space Shuttle Endeavour launched on September 12, 1992?",
+    "options": [
+      "Mae Jemison",
+      "Stephanie Wilson",
+      "Joan Higginbotham",
+      "Yvonne Cagle"
+    ],
+    "answer": 0,
+    "answerText": "Mae Jemison",
+    "answerExplanation": "Physician and engineer Mae Jemison flew as a mission specialist on STS-47, conducting life-science experiments during an eight-day mission.",
+    "subject": "Dr. Mae Jemison",
+    "dates": "September 12, 1992",
+    "encyclopediaSlug": "mae-jemison",
+    "encyclopediaPath": "encyclopedia/mae-jemison.html",
+    "story": "<p>When Space Shuttle Endeavour lifted off on September 12, 1992, Mae Jemison carried more than experiments into orbit. She became the first Black woman to travel in space, entering a field where imagination had long outrun access.</p><p>Jemison was a physician, engineer, Peace Corps medical officer, and dancer before NASA selected her for astronaut training. On STS-47, she studied motion sickness, bone-cell development, and other life-science questions in microgravity.</p><p>Her flight lasted eight days, but she refused to let the achievement become a story about one exceptional person. After NASA, she built science-education programs and argued that art, social responsibility, and technology belong in the same future.</p>",
+    "whyItMatters": "Jemison matters because representation and preparation are connected. Seeing her in orbit expanded who could imagine spaceflight, while her career showed the years of education and institutional access required to get there.",
+    "igCaption": "September 12, 1992: Mae Jemison launched aboard Endeavour and became the first Black woman in space. She arrived as a physician, engineer, dancer, and scientist who refused to separate imagination from responsibility.\n\n#BlackHistoryInRealTime #MaeJemison",
+    "tags": [
+      "science",
+      "technology",
+      "education",
+      "women"
+    ]
+  },
+  {
+    "fullDate": "2026-09-13",
+    "category": "Ideas & Literature",
+    "title": "The Philosopher of a New Negro",
+    "question": "Which writer and philosopher, born September 13, 1885, edited the influential anthology The New Negro?",
+    "options": [
+      "Alain Locke",
+      "James Weldon Johnson",
+      "W.E.B. Du Bois",
+      "Langston Hughes"
+    ],
+    "answer": 0,
+    "answerText": "Alain Locke",
+    "answerExplanation": "Alain Locke edited The New Negro in 1925, bringing together writers, artists, and scholarship that helped define the Harlem Renaissance.",
+    "subject": "Alain Locke",
+    "dates": "September 13, 1885 - June 9, 1954",
+    "encyclopediaSlug": "harlem-renaissance",
+    "encyclopediaPath": "encyclopedia/harlem-renaissance.html",
+    "story": "<p>Alain Locke was born in Philadelphia on September 13, 1885. He became the first Black Rhodes Scholar, a Howard University philosopher, and an editor who helped Black artists describe a modern identity on their own terms.</p><p>The New Negro gathered fiction, poetry, visual art, music criticism, and social analysis. Locke presented the Harlem Renaissance not as entertainment for white audiences, but as an intellectual and artistic shift shaped by migration and self-definition.</p><p>His role was influential and complicated. Locke promoted younger artists while sometimes favoring polished cultural achievement over more confrontational politics. The movement was never one person&#039;s program, even when his anthology gave it a durable frame.</p>",
+    "whyItMatters": "Locke helps readers see cultural movements as arguments. The Harlem Renaissance debated audience, form, respectability, sexuality, politics, and what freedom in art could mean.",
+    "igCaption": "September 13, 1885: Alain Locke was born. His anthology The New Negro helped frame the Harlem Renaissance as an argument about modern Black life, art, migration, and self-definition.\n\n#BlackHistoryInRealTime #AlainLocke #HarlemRenaissance",
+    "tags": [
+      "literature",
+      "art",
+      "education",
+      "harlem-renaissance"
+    ]
+  },
+  {
+    "fullDate": "2026-09-14",
+    "category": "Law & Civil Rights",
+    "title": "The Lawyer Who Opened Courtroom Doors",
+    "question": "Which civil-rights lawyer and federal judge was born September 14, 1921?",
+    "options": [
+      "Constance Baker Motley",
+      "Jane Bolin",
+      "Charlotte E. Ray",
+      "Pauli Murray"
+    ],
+    "answer": 0,
+    "answerText": "Constance Baker Motley",
+    "answerExplanation": "Constance Baker Motley helped litigate major school-desegregation cases, represented James Meredith, and became the first Black woman appointed to the federal judiciary.",
+    "subject": "Constance Baker Motley",
+    "dates": "September 14, 1921 - September 28, 2005",
+    "encyclopediaSlug": "constance-baker-motley",
+    "encyclopediaPath": "generated/pages/constance-baker-motley.html",
+    "story": "<p>Constance Baker Motley was born on September 14, 1921, to Caribbean immigrant parents in New Haven. Courtrooms built to exclude people like her became the places where she forced American institutions to answer their own laws.</p><p>As an NAACP Legal Defense Fund lawyer, Motley worked on Brown v. Board litigation and represented students seeking entry to segregated universities. She won James Meredith&#039;s case against the University of Mississippi and argued before the Supreme Court.</p><p>Motley later entered New York politics and, in 1966, became the first Black woman to serve as a federal judge. Her career crossed advocacy, legislation, executive government, and the bench without making any of those institutions seem naturally fair.</p>",
+    "whyItMatters": "Motley's record shows that landmark rulings depend on years of local cases, brave plaintiffs, and lawyers who can turn lived injustice into enforceable claims.",
+    "igCaption": "September 14, 1921: Constance Baker Motley was born. She helped dismantle school segregation case by case, represented James Meredith, and opened a federal judgeship no Black woman had held before.\n\n#BlackHistoryInRealTime #ConstanceBakerMotley",
+    "tags": [
+      "law",
+      "civil-rights",
+      "women",
+      "education"
+    ]
+  },
+  {
+    "fullDate": "2026-09-15",
+    "category": "Civil Rights & Memory",
+    "title": "Sunday Morning in Birmingham",
+    "question": "Which Birmingham church was bombed on September 15, 1963, killing four girls?",
+    "options": [
+      "16th Street Baptist Church",
+      "Dexter Avenue Baptist Church",
+      "Bethel Baptist Church",
+      "Brown Chapel AME Church"
+    ],
+    "answer": 0,
+    "answerText": "16th Street Baptist Church",
+    "answerExplanation": "The bombing killed Addie Mae Collins, Denise McNair, Carole Robertson, and Cynthia Wesley. The church had served as a headquarters for Birmingham's civil-rights campaign.",
+    "subject": "The 16th Street Baptist Church Bombing",
+    "dates": "September 15, 1963",
+    "encyclopediaSlug": "birmingham-childrens-crusade",
+    "encyclopediaPath": "generated/pages/birmingham-childrens-crusade.html",
+    "story": "<p>On Sunday morning, September 15, 1963, dynamite exploded beneath 16th Street Baptist Church in Birmingham. Four girls preparing for Youth Day were killed: Addie Mae Collins, Denise McNair, Carole Robertson, and Cynthia Wesley.</p><p>The church was not chosen at random. It had been a meeting place and organizing center during the Birmingham campaign, where children had marched months earlier against segregation. White supremacists targeted both a sacred space and a movement institution.</p><p>Public grief intensified pressure for federal civil-rights legislation, but accountability came slowly. One perpetrator was convicted in 1977; two others were convicted decades later. The delay revealed how institutions could know about racist terror and still postpone justice.</p>",
+    "whyItMatters": "The bombing belongs inside the history of organized resistance and organized backlash. Remembering the girls by name keeps their lives from becoming shorthand for a movement milestone.",
+    "igCaption": "September 15, 1963: a bomb tore through 16th Street Baptist Church and killed Addie Mae Collins, Denise McNair, Carole Robertson, and Cynthia Wesley. Their names matter more than a familiar photograph.\n\n#BlackHistoryInRealTime #Birmingham",
+    "tags": [
+      "civil-rights",
+      "youth",
+      "resistance",
+      "religion"
+    ]
+  },
+  {
+    "fullDate": "2026-09-16",
+    "category": "Music & American Culture",
+    "title": "The Bluesman Who Made Lucille Sing",
+    "question": "Which Mississippi-born guitarist known as the King of the Blues was born September 16, 1925?",
+    "options": [
+      "B.B. King",
+      "Muddy Waters",
+      "Howlin' Wolf",
+      "John Lee Hooker"
+    ],
+    "answer": 0,
+    "answerText": "B.B. King",
+    "answerExplanation": "B.B. King developed a recognizable guitar voice through sustained notes and vibrato. He named his guitars Lucille and carried the blues to audiences around the world.",
+    "subject": "B.B. King",
+    "dates": "September 16, 1925 - May 14, 2015",
+    "encyclopediaSlug": "the-blues",
+    "encyclopediaPath": "encyclopedia/the-blues.html",
+    "story": "<p>Riley B. King was born on a Mississippi cotton plantation on September 16, 1925. As B.B. King, he turned a guitar phrase into a human voice, bending and sustaining notes until one line could carry longing, humor, warning, and release.</p><p>King sang gospel, worked farm labor, and performed on Memphis radio before touring relentlessly. His sound joined Delta traditions, electric amplification, jazz harmony, and a precise vibrato that generations of guitarists studied.</p><p>Commercial categories often kept Black blues musicians outside the pop market they helped create. King crossed some of those boundaries without pretending the blues had become painless. He performed thousands of shows and treated the music as a living practice, not a museum piece.</p>",
+    "whyItMatters": "B.B. King shows how Black musical language travels: copied, renamed, commercialized, and still traceable to artists who made technical choices as deliberate as any composer.",
+    "igCaption": "September 16, 1925: B.B. King was born in Mississippi. His guitar did not simply accompany his voice. Lucille answered it, argued with it, and taught generations how a single note could speak.\n\n#BlackHistoryInRealTime #BBKing #TheBlues",
+    "tags": [
+      "music",
+      "art",
+      "labor",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-09-17",
+    "category": "Slavery & Law",
+    "title": "A Life the Court Tried to Reduce to a Case",
+    "question": "Which man, whose Supreme Court case denied Black citizenship, died on September 17, 1858?",
+    "options": [
+      "Dred Scott",
+      "Anthony Burns",
+      "Shadrach Minkins",
+      "Solomon Northup"
+    ],
+    "answer": 0,
+    "answerText": "Dred Scott",
+    "answerExplanation": "Dred Scott died of tuberculosis little more than a year after gaining freedom. His family had pursued their freedom through Missouri courts for more than a decade.",
+    "subject": "Dred Scott",
+    "dates": "c. 1799 - September 17, 1858",
+    "encyclopediaSlug": "dred-scott",
+    "encyclopediaPath": "generated/pages/dred-scott.html",
+    "story": "<p>Dred Scott died in St. Louis on September 17, 1858, only a short time after he and his family became legally free. The court case carrying his name had already declared that Black people could not be United States citizens.</p><p>Scott and his wife, Harriet, sued because their enslaver had taken them into free territory. Their freedom suits drew on a legal tradition other enslaved Missourians had used successfully. The Supreme Court instead expanded slavery&#039;s protection and denied Black belonging.</p><p>The decision helped deepen the national crisis before the Civil War. It also obscured the family at its center: two parents using law to secure a future for themselves and their daughters, not abstract figures volunteering for a constitutional test.</p>",
+    "whyItMatters": "Remembering Scott's death restores the limits of a legal case name. Courts make doctrine, but people live with its consequences in bodies, households, work, and time they cannot recover.",
+    "igCaption": "September 17, 1858: Dred Scott died, little more than a year after gaining freedom. His case was constitutional history. His struggle was also a family trying to own its own future.\n\n#BlackHistoryInRealTime #DredScott",
+    "tags": [
+      "enslavement",
+      "law",
+      "civil-rights",
+      "family"
+    ]
+  },
+  {
+    "fullDate": "2026-09-18",
+    "category": "Education & Debate",
+    "title": "The Speech That Defined a Strategy",
+    "question": "Who delivered the Atlanta Exposition address on September 18, 1895?",
+    "options": [
+      "Booker T. Washington",
+      "W.E.B. Du Bois",
+      "Ida B. Wells",
+      "Frederick Douglass"
+    ],
+    "answer": 0,
+    "answerText": "Booker T. Washington",
+    "answerExplanation": "Booker T. Washington urged Black economic development and vocational education while accepting segregation in the immediate term, a strategy that brought influence and sharp criticism.",
+    "subject": "Booker T. Washington and the Atlanta Address",
+    "dates": "September 18, 1895",
+    "encyclopediaSlug": "booker-t-washington",
+    "encyclopediaPath": "generated/pages/booker-t-washington.html",
+    "story": "<p>On September 18, 1895, Booker T. Washington spoke before a largely white audience at the Cotton States and International Exposition in Atlanta. His address made him nationally powerful and fixed a debate that followed him for the rest of his life.</p><p>Washington emphasized vocational education, Black business, and economic self-help. He reassured white listeners that immediate social integration was not his demand. Newspapers praised the speech, while critics later called the bargain too costly under expanding Jim Crow.</p><p>The simplified version sets Washington against W.E.B. Du Bois as accommodation versus protest. Washington also built institutions, funded legal challenges privately, and navigated donors who expected restraint. His strategy held real power and real limits.</p>",
+    "whyItMatters": "The Atlanta address asks a durable question: what compromises become necessary under repression, and when does tactical restraint help preserve the system it is meant to outlast?",
+    "igCaption": "September 18, 1895: Booker T. Washington delivered the Atlanta Exposition address. It made him powerful, reassured white audiences, and opened a debate about strategy that cannot be reduced to one slogan.\n\n#BlackHistoryInRealTime #BookerTWashington",
+    "tags": [
+      "education",
+      "politics",
+      "labor",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-09-19",
+    "category": "Reconstruction & Violence",
+    "title": "An Election Meeting Became a Massacre",
+    "question": "In which Georgia town did white attackers assault a Black political gathering on September 19, 1868?",
+    "options": [
+      "Camilla",
+      "Colfax",
+      "Wilmington",
+      "Elaine"
+    ],
+    "answer": 0,
+    "answerText": "Camilla",
+    "answerExplanation": "The Camilla Massacre occurred when white residents and local officials attacked Black freedpeople and Republican organizers gathering for a political rally.",
+    "subject": "The Camilla Massacre",
+    "dates": "September 19, 1868",
+    "encyclopediaSlug": "reconstruction",
+    "encyclopediaPath": "generated/pages/reconstruction.html",
+    "story": "<p>On September 19, 1868, hundreds of Black Georgians walked toward Camilla for a Republican rally. Local white officials ordered them to surrender their weapons, then white attackers opened fire as marchers entered town.</p><p>The gathering was part of Reconstruction politics, when newly enfranchised Black men and white allies organized openly. Participants were chased for miles. Contemporary estimates of the dead vary, but many more were wounded and robbed.</p><p>Federal investigators documented the violence, yet meaningful prosecution did not follow. The attack did political work: it warned Black citizens that voting, marching, and holding office could bring organized terror backed by local authority.</p>",
+    "whyItMatters": "Camilla shows that voter suppression has never been only paperwork. During Reconstruction, violence was used to change turnout, leadership, and who could safely appear in public as a citizen.",
+    "igCaption": "September 19, 1868: Black Georgians marched to Camilla for a political rally. White attackers met them with gunfire and pursuit. Reconstruction democracy was challenged not only in law, but by terror.\n\n#BlackHistoryInRealTime #Reconstruction",
+    "tags": [
+      "reconstruction",
+      "politics",
+      "resistance",
+      "voting-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-09-20",
+    "category": "Organizing & Community",
+    "title": "A National Black Political Conversation Begins",
+    "question": "What gathering opened in Philadelphia on September 20, 1830, to organize against racial violence and exclusion?",
+    "options": [
+      "The first National Negro Convention",
+      "The Niagara Movement",
+      "The Colored Farmers Alliance",
+      "The Freedmen's Bureau convention"
+    ],
+    "answer": 0,
+    "answerText": "The first National Negro Convention",
+    "answerExplanation": "Black delegates met at Philadelphia's Mother Bethel AME Church to discuss education, employment, migration, and collective responses to white violence.",
+    "subject": "The First National Negro Convention",
+    "dates": "September 20-24, 1830",
+    "encyclopediaSlug": "black-church",
+    "encyclopediaPath": "generated/pages/black-church.html",
+    "story": "<p>On September 20, 1830, Black delegates gathered at Mother Bethel AME Church in Philadelphia. They came from communities facing mob violence, voting restrictions, school exclusion, kidnapping, and pressure to leave the country.</p><p>The convention debated education, jobs, mutual aid, abolition, and whether emigration to Canada offered greater safety. Bishop Richard Allen presided. The meeting began a national convention movement decades before emancipation.</p><p>Delegates did not agree on every strategy, and that disagreement was part of the institution they were building. Black political thought developed through resolutions, committees, newspapers, churches, and repeated meetings, not only through famous speeches.</p>",
+    "whyItMatters": "The convention makes national Black organizing visible before the Civil War. It also shows why churches mattered as physical infrastructure where communities could deliberate and plan.",
+    "igCaption": "September 20, 1830: Black delegates opened the first national convention at Mother Bethel AME Church. They debated safety, education, work, migration, and what collective power could look like.\n\n#BlackHistoryInRealTime #ColoredConventions",
+    "tags": [
+      "community",
+      "politics",
+      "religion",
+      "education"
+    ]
+  },
+  {
+    "fullDate": "2026-09-21",
+    "category": "Women & Public Voice",
+    "title": "Maria Stewart Took the Platform",
+    "question": "Which Black abolitionist delivered a pioneering public political lecture in Boston on September 21, 1832?",
+    "options": [
+      "Maria Stewart",
+      "Frances E.W. Harper",
+      "Sojourner Truth",
+      "Sarah Mapps Douglass"
+    ],
+    "answer": 0,
+    "answerText": "Maria Stewart",
+    "answerExplanation": "Maria Stewart spoke publicly about abolition, racism, education, and Black women's rights at a time when women speaking to mixed audiences were widely condemned.",
+    "subject": "Maria Stewart",
+    "dates": "September 21, 1832",
+    "encyclopediaSlug": "black-women-in-politics",
+    "encyclopediaPath": "encyclopedia/black-women-in-politics.html",
+    "story": "<p>On September 21, 1832, Maria Stewart addressed Boston&#039;s New England Anti-Slavery Society. A Black woman speaking publicly about politics to women and men was itself a challenge to the rules of race and gender.</p><p>Stewart argued that slavery, poverty, denied education, and prejudice were connected. She called on Black communities to pursue knowledge and collective advancement while naming white oppression directly. Her essays also appeared in William Lloyd Garrison&#039;s newspaper The Liberator.</p><p>Hostility toward women lecturers helped shorten her public speaking career, but not her life of service. Stewart later taught, worked as a matron at Freedmen&#039;s Hospital, and secured a pension based on her late husband&#039;s War of 1812 service.</p>",
+    "whyItMatters": "Stewart expands the history of American public speech. Black women were developing political analysis and claiming audiences long before the movements that later made such leadership more visible.",
+    "igCaption": "September 21, 1832: Maria Stewart took a Boston platform and spoke about abolition, education, racism, and Black women's rights. The act of addressing a mixed public audience challenged the rules around her.\n\n#BlackHistoryInRealTime #MariaStewart",
+    "tags": [
+      "women",
+      "abolition",
+      "education",
+      "activism"
+    ]
+  },
+  {
+    "fullDate": "2026-09-22",
+    "category": "Emancipation & War",
+    "title": "Freedom Announced, Freedom Contested",
+    "question": "What preliminary order did Abraham Lincoln issue on September 22, 1862?",
+    "options": [
+      "The preliminary Emancipation Proclamation",
+      "The 13th Amendment",
+      "The Civil Rights Act",
+      "The Freedmen's Bureau Act"
+    ],
+    "answer": 0,
+    "answerText": "The preliminary Emancipation Proclamation",
+    "answerExplanation": "Lincoln warned that enslaved people in areas still rebelling on January 1, 1863, would be declared free. The order did not immediately free everyone and depended on Union victory.",
+    "subject": "The Preliminary Emancipation Proclamation",
+    "dates": "September 22, 1862",
+    "encyclopediaSlug": "13th-amendment",
+    "encyclopediaPath": "encyclopedia/13th-amendment.html",
+    "story": "<p>On September 22, 1862, Abraham Lincoln issued the preliminary Emancipation Proclamation. It announced that enslaved people in states still rebelling on January 1 would be declared free, turning emancipation into an explicit Union war aim.</p><p>The order was limited. It did not apply to loyal slave states or areas already under Union control, and freedom on paper moved only as federal power advanced. Enslaved people had already forced the issue by escaping to Union lines, withholding labor, sharing intelligence, and pressing the war toward emancipation.</p><p>The final proclamation also authorized Black military service. Nearly 180,000 Black men served in the Union Army, helping make freedom enforceable while fighting for citizenship the nation had denied them.</p>",
+    "whyItMatters": "Emancipation was neither one man's gift nor one document's instant result. Policy, self-emancipation, military struggle, and constitutional change worked together, unevenly and at enormous cost.",
+    "igCaption": "September 22, 1862: Lincoln issued the preliminary Emancipation Proclamation. Enslaved people had already pushed freedom onto the wartime agenda through escape, labor, intelligence, and pressure.\n\n#BlackHistoryInRealTime #Emancipation",
+    "tags": [
+      "emancipation",
+      "enslavement",
+      "military",
+      "law"
+    ]
+  },
+  {
+    "fullDate": "2026-09-23",
+    "category": "Women & Civil Rights",
+    "title": "A Constitution for Equal Citizenship",
+    "question": "Which educator and clubwoman, born September 23, 1863, helped found the National Association of Colored Women?",
+    "options": [
+      "Mary Church Terrell",
+      "Ida B. Wells",
+      "Mary McLeod Bethune",
+      "Nannie Helen Burroughs"
+    ],
+    "answer": 0,
+    "answerText": "Mary Church Terrell",
+    "answerExplanation": "Mary Church Terrell organized for voting rights, education, and desegregation. She served as the first president of the National Association of Colored Women.",
+    "subject": "Mary Church Terrell",
+    "dates": "September 23, 1863 - July 24, 1954",
+    "encyclopediaSlug": "black-women-in-politics",
+    "encyclopediaPath": "encyclopedia/black-women-in-politics.html",
+    "story": "<p>Mary Church Terrell was born in Memphis on September 23, 1863, during the Civil War. Her parents had been enslaved and became economically successful, giving her educational opportunities she turned toward a long public fight for equal citizenship.</p><p>Terrell taught, wrote, lectured, and helped found the National Association of Colored Women. She challenged lynching, disfranchisement, segregated schools, and the exclusion of Black women from white suffrage organizations.</p><p>In her eighties, she joined protests against segregated restaurants in Washington. The campaign reached the Supreme Court, which upheld Reconstruction-era local laws barring discrimination shortly before her death.</p>",
+    "whyItMatters": "Terrell's life connects nineteenth-century club organizing to twentieth-century direct action. She treated education, voting, safety, and public accommodations as parts of the same claim to citizenship.",
+    "igCaption": "September 23, 1863: Mary Church Terrell was born. From club organizing to restaurant pickets in her eighties, she spent a lifetime insisting that equal citizenship had to exist in daily public life.\n\n#BlackHistoryInRealTime #MaryChurchTerrell",
+    "tags": [
+      "women",
+      "civil-rights",
+      "education",
+      "politics"
+    ]
+  },
+  {
+    "fullDate": "2026-09-24",
+    "category": "History & Institution Building",
+    "title": "A Museum Opens on the National Mall",
+    "question": "Which Smithsonian museum opened to the public on September 24, 2016?",
+    "options": [
+      "National Museum of African American History and Culture",
+      "National Portrait Gallery",
+      "National Museum of African Art",
+      "Anacostia Community Museum"
+    ],
+    "answer": 0,
+    "answerText": "National Museum of African American History and Culture",
+    "answerExplanation": "The museum opened after decades of advocacy and a 2003 act of Congress. Its collections place African American history at the center of the national story.",
+    "subject": "The National Museum of African American History and Culture",
+    "dates": "Opened September 24, 2016",
+    "encyclopediaSlug": "carter-woodson",
+    "encyclopediaPath": "encyclopedia/carter-woodson.html",
+    "story": "<p>On September 24, 2016, the National Museum of African American History and Culture opened on the National Mall. The building was new. The demand for a national institution preserving Black history was more than a century old.</p><p>Black Civil War veterans proposed a memorial after reunion events in 1915. Later advocates pursued legislation for decades. Congress finally established the museum in 2003, and families, churches, collectors, and institutions helped build a collection from material long kept outside national museums.</p><p>The museum&#039;s location makes an argument: slavery, freedom, culture, military service, migration, art, politics, and ordinary Black life are not side exhibits to American history. They are part of its structure.</p>",
+    "whyItMatters": "Museums decide what a nation keeps, displays, and teaches. This opening marked an institutional change while honoring generations who preserved history before the Smithsonian had made room for it.",
+    "igCaption": "September 24, 2016: the National Museum of African American History and Culture opened. The day crowned more than a century of advocacy and countless families who preserved what institutions overlooked.\n\n#BlackHistoryInRealTime #NMAAHC",
+    "tags": [
+      "education",
+      "art",
+      "literature",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-09-25",
+    "category": "Education & Federal Power",
+    "title": "Nine Students Entered Under Guard",
+    "question": "Who protected the Little Rock Nine when they entered Central High School on September 25, 1957?",
+    "options": [
+      "Federal troops from the 101st Airborne Division",
+      "Arkansas state police alone",
+      "Local school guards",
+      "National Guard troops under Governor Faubus"
+    ],
+    "answer": 0,
+    "answerText": "Federal troops from the 101st Airborne Division",
+    "answerExplanation": "President Eisenhower sent the 101st Airborne and federalized the Arkansas National Guard after state officials and mobs obstructed a federal desegregation order.",
+    "subject": "The Little Rock Nine Enter Central High",
+    "dates": "September 25, 1957",
+    "encyclopediaSlug": "little-rock-nine",
+    "encyclopediaPath": "generated/pages/little-rock-nine.html",
+    "story": "<p>On September 25, 1957, nine Black teenagers entered Little Rock Central High School under armed federal protection. The soldiers were there because a governor, a mob, and local resistance had made attending public school dangerous.</p><p>President Dwight Eisenhower federalized the Arkansas National Guard and sent the 101st Airborne Division after weeks of obstruction. The troops could open the doors, but they could not remove the harassment waiting in hallways and classrooms.</p><p>The students endured insults, threats, physical attacks, and isolation. Ernest Green graduated in 1958. Arkansas then closed Little Rock&#039;s public high schools for a year rather than continue integration.</p>",
+    "whyItMatters": "September 25 shows both the reach and limit of federal enforcement. Constitutional rights sometimes required troops, yet daily equality still depended on institutions and adults choosing not to abandon children.",
+    "igCaption": "September 25, 1957: the Little Rock Nine entered Central High under protection of the 101st Airborne. Soldiers opened the doors. The students still had to survive what waited inside.\n\n#BlackHistoryInRealTime #LittleRockNine",
+    "tags": [
+      "education",
+      "civil-rights",
+      "youth",
+      "segregation"
+    ]
+  },
+  {
+    "fullDate": "2026-09-26",
+    "category": "Music & Working-Class Life",
+    "title": "The Empress of the Blues",
+    "question": "Which singer known as the Empress of the Blues died on September 26, 1937?",
+    "options": [
+      "Bessie Smith",
+      "Ma Rainey",
+      "Mamie Smith",
+      "Ethel Waters"
+    ],
+    "answer": 0,
+    "answerText": "Bessie Smith",
+    "answerExplanation": "Bessie Smith became one of the highest-paid Black performers of the 1920s. Her recordings joined technical command with songs about work, desire, betrayal, poverty, and independence.",
+    "subject": "Bessie Smith",
+    "dates": "April 15, 1894 - September 26, 1937",
+    "encyclopediaSlug": "the-blues",
+    "encyclopediaPath": "encyclopedia/the-blues.html",
+    "story": "<p>Bessie Smith died after an automobile crash on September 26, 1937. By then, the woman called the Empress of the Blues had made records that sounded like whole lives: rent trouble, desire, betrayal, travel, work, violence, wit, and refusal.</p><p>Smith learned in Southern tent shows and vaudeville, then recorded for Columbia beginning in 1923. Her powerful phrasing reached Black audiences through race records while touring made her an unusually successful working musician with her own railroad car.</p><p>Her career slowed as the Depression reshaped entertainment and popular taste changed. A later myth claimed a whites-only hospital refused her after the crash; historical evidence shows she was taken directly to a Black hospital, where she died from severe injuries.</p>",
+    "whyItMatters": "Bessie Smith deserves memory without embellishment. Her artistry is strong enough: she made women's experience, humor, sexuality, and survival central to American popular music.",
+    "igCaption": "September 26, 1937: Bessie Smith died after a car crash. The Empress of the Blues left songs spacious enough for pain, appetite, jokes, work, and women speaking in their own voices.\n\n#BlackHistoryInRealTime #BessieSmith #TheBlues",
+    "tags": [
+      "music",
+      "art",
+      "women",
+      "labor"
+    ]
+  },
+  {
+    "fullDate": "2026-09-27",
+    "category": "Reconstruction & Representation",
+    "title": "The First Black Senator Was Born",
+    "question": "Who became the first Black member of the United States Senate?",
+    "options": [
+      "Hiram Revels",
+      "Blanche K. Bruce",
+      "Robert Smalls",
+      "John Roy Lynch"
+    ],
+    "answer": 0,
+    "answerText": "Hiram Revels",
+    "answerExplanation": "Hiram Revels, born September 27, 1827, represented Mississippi in 1870 and 1871, occupying the former Senate seat of Confederate president Jefferson Davis.",
+    "subject": "Hiram Revels",
+    "dates": "September 27, 1827 - January 16, 1901",
+    "encyclopediaSlug": "reconstruction",
+    "encyclopediaPath": "generated/pages/reconstruction.html",
+    "story": "<p>Hiram Revels was born free in North Carolina on September 27, 1827. In 1870, Mississippi sent him to the United States Senate, where he became the first Black person to serve in Congress&#039;s upper chamber.</p><p>Revels had worked as an AME minister, educator, and Union Army chaplain. His arrival prompted arguments over citizenship from senators who had represented a slaveholding nation only years earlier. The Senate ultimately seated him.</p><p>His term lasted about a year. Revels advocated equal schooling and opposed blanket punishment of former Confederates, a position shaped by his emphasis on education and reconciliation. He later led Alcorn University, an institution created for Black students.</p>",
+    "whyItMatters": "Revels' service shows how quickly Black political participation expanded after slavery and how fiercely opponents contested even the legitimacy of Black citizenship.",
+    "igCaption": "September 27, 1827: Hiram Revels was born free in North Carolina. In 1870, Mississippi sent him to the U.S. Senate, into the former seat of Confederate president Jefferson Davis.\n\n#BlackHistoryInRealTime #HiramRevels #Reconstruction",
+    "tags": [
+      "reconstruction",
+      "politics",
+      "education",
+      "religion"
+    ]
+  },
+  {
+    "fullDate": "2026-09-28",
+    "category": "Music & Experiment",
+    "title": "Miles Davis Left the Music Moving",
+    "question": "Which trumpeter behind Kind of Blue and Bitches Brew died on September 28, 1991?",
+    "options": [
+      "Miles Davis",
+      "Dizzy Gillespie",
+      "Clifford Brown",
+      "Lee Morgan"
+    ],
+    "answer": 0,
+    "answerText": "Miles Davis",
+    "answerExplanation": "Miles Davis repeatedly changed musical direction, helping shape cool jazz, modal jazz, hard bop, and electric fusion across five decades.",
+    "subject": "Miles Davis",
+    "dates": "May 26, 1926 - September 28, 1991",
+    "encyclopediaSlug": "duke-ellington",
+    "encyclopediaPath": "encyclopedia/duke-ellington.html",
+    "story": "<p>Miles Davis died on September 28, 1991, after a career built on leaving successful sounds behind. His trumpet could be spare and intimate, then surrounded by amplified instruments, studio editing, and rhythms that unsettled jazz categories.</p><p>Davis learned in East St. Louis, studied briefly at Juilliard, and entered New York&#039;s bebop world. Recordings including Birth of the Cool, Kind of Blue, and Bitches Brew became landmarks, but each represented collaboration with musicians whose contributions mattered to the result.</p><p>His innovations existed beside difficult truths, including addiction, violence toward women, and a public persona shaped by racism in the music business. Serious attention does not require turning either the art or the harm into a footnote.</p>",
+    "whyItMatters": "Davis matters as a bandleader who recognized emerging talent and treated musical form as changeable. His story also asks how listeners hold artistic importance and personal accountability together.",
+    "igCaption": "September 28, 1991: Miles Davis died. He spent five decades changing direction, building bands, and refusing to let one successful version of jazz become a cage. The full legacy includes brilliance and harm.\n\n#BlackHistoryInRealTime #MilesDavis #Jazz",
+    "tags": [
+      "music",
+      "art",
+      "invention",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-09-29",
+    "category": "Migration & Community Power",
+    "title": "Organizing for a New Urban Life",
+    "question": "What organization traces its founding to a committee formed in New York on September 29, 1910?",
+    "options": [
+      "National Urban League",
+      "NAACP",
+      "Brotherhood of Sleeping Car Porters",
+      "Southern Christian Leadership Conference"
+    ],
+    "answer": 0,
+    "answerText": "National Urban League",
+    "answerExplanation": "The Committee on Urban Conditions Among Negroes formed in 1910 and merged with other groups in 1911 to become the National League on Urban Conditions Among Negroes, later the National Urban League.",
+    "subject": "The National Urban League",
+    "dates": "Founded September 29, 1910",
+    "encyclopediaSlug": "great-migration",
+    "encyclopediaPath": "encyclopedia/great-migration.html",
+    "story": "<p>On September 29, 1910, organizers formed the Committee on Urban Conditions Among Negroes in New York. Black migrants were arriving in northern cities where new opportunities came with job discrimination, exploitative housing, and unfamiliar institutions.</p><p>The committee joined with two related groups in 1911, creating the organization later known as the National Urban League. Its interracial leadership researched conditions, helped migrants find work and housing, and pressed employers and public agencies to change.</p><p>That service model could be cautious compared with mass protest, but it built durable local institutions and data about Black urban life. The League later expanded into civil-rights advocacy, workforce programs, and a nationwide affiliate network.</p>",
+    "whyItMatters": "Migration was not simply movement from South to North. Organizations helped families navigate cities while documenting how discrimination followed them into new labor and housing markets.",
+    "igCaption": "September 29, 1910: a New York committee began organizing around the conditions Black migrants met in northern cities. It became part of the National Urban League and a century of urban institution-building.\n\n#BlackHistoryInRealTime #GreatMigration",
+    "tags": [
+      "great-migration",
+      "labor",
+      "community",
+      "housing"
+    ]
+  },
+  {
+    "fullDate": "2026-09-30",
+    "category": "Education & Federal Enforcement",
+    "title": "The Night Ole Miss Exploded",
+    "question": "Whose court-ordered enrollment at the University of Mississippi triggered a deadly riot on September 30, 1962?",
+    "options": [
+      "James Meredith",
+      "Clyde Kennard",
+      "Autherine Lucy",
+      "Hamilton Holmes"
+    ],
+    "answer": 0,
+    "answerText": "James Meredith",
+    "answerExplanation": "James Meredith arrived under federal protection before enrolling on October 1. A white mob attacked marshals and soldiers; two people died and many were injured.",
+    "subject": "James Meredith and the Ole Miss Riot",
+    "dates": "September 30, 1962",
+    "encyclopediaSlug": "james-meredith",
+    "encyclopediaPath": "generated/pages/james-meredith.html",
+    "story": "<p>On the night of September 30, 1962, James Meredith was inside the University of Mississippi while a white mob attacked the federal force protecting his court-ordered enrollment. Bricks, bottles, gunfire, and tear gas turned the campus into a battlefield.</p><p>Mississippi officials had spent months defying federal courts. President John Kennedy federalized the National Guard and sent marshals, then troops. Two people were killed and hundreds were injured before the riot was controlled.</p><p>Meredith registered the next morning and attended class while military protection remained. Calling his enrollment a peaceful milestone misses the state resistance and federal force required for one Black veteran to enter a public university.</p>",
+    "whyItMatters": "Ole Miss shows that access to education was also a contest over whether states could nullify constitutional rights through delay, spectacle, and violence.",
+    "igCaption": "September 30, 1962: a white mob attacked the federal force protecting James Meredith at Ole Miss. He enrolled the next morning. One student's registration exposed a national fight over the rule of law.\n\n#BlackHistoryInRealTime #JamesMeredith",
+    "tags": [
+      "education",
+      "civil-rights",
+      "segregation",
+      "law"
+    ]
+  },
+  {
+    "fullDate": "2026-10-01",
+    "category": "Military & Government",
+    "title": "A Different Chair at the Pentagon",
+    "question": "Who became the first Black chair of the Joint Chiefs of Staff on October 1, 1989?",
+    "options": [
+      "Colin Powell",
+      "Benjamin O. Davis Jr.",
+      "Daniel James Jr.",
+      "Lloyd Austin"
+    ],
+    "answer": 0,
+    "answerText": "Colin Powell",
+    "answerExplanation": "Army General Colin Powell became the nation's highest-ranking military officer and principal military adviser to the president, serving under Presidents George H.W. Bush and Bill Clinton.",
+    "subject": "Colin Powell and the Joint Chiefs",
+    "dates": "October 1, 1989",
+    "encyclopediaSlug": "buffalo-soldiers",
+    "encyclopediaPath": "generated/pages/buffalo-soldiers.html",
+    "story": "<p>On October 1, 1989, Colin Powell became chair of the Joint Chiefs of Staff, the first Black officer to hold the nation&#039;s highest military post. His appointment came within a military that had been formally desegregated only four decades earlier.</p><p>Powell was the son of Jamaican immigrants and entered the Army through ROTC at City College of New York. He served two tours in Vietnam and rose through command and national-security positions before President George H.W. Bush selected him as chair.</p><p>He advised during the invasion of Panama and the Gulf War, then later served as secretary of state. His public legacy also includes his 2003 presentation supporting war in Iraq, claims he later acknowledged were based on deeply flawed intelligence.</p>",
+    "whyItMatters": "Powell's October appointment marked institutional change without erasing debate over how military authority is used. Representation at the top and accountability for consequential decisions belong in the same history.",
+    "igCaption": "October 1, 1989: Colin Powell became the first Black chair of the Joint Chiefs of Staff. His career marked a barrier broken and later raised hard questions about authority, evidence, and war.\n\n#BlackHistoryInRealTime #MilitaryHistory",
+    "tags": [
+      "military",
+      "government",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-10-02",
+    "category": "Law & Representation",
+    "title": "Thurgood Marshall Joins the Court",
+    "question": "Who was sworn in as the first Black Supreme Court justice on October 2, 1967?",
+    "options": [
+      "Thurgood Marshall",
+      "Clarence Thomas",
+      "Constance Baker Motley",
+      "William H. Hastie"
+    ],
+    "answer": 0,
+    "answerText": "Thurgood Marshall",
+    "answerExplanation": "Before joining the Court, Thurgood Marshall led the NAACP Legal Defense Fund and argued Brown v. Board of Education among dozens of Supreme Court cases.",
+    "subject": "Justice Thurgood Marshall",
+    "dates": "Sworn in October 2, 1967",
+    "encyclopediaSlug": "thurgood-marshall",
+    "encyclopediaPath": "encyclopedia/thurgood-marshall.html",
+    "story": "<p>Thurgood Marshall took the judicial oath on October 2, 1967, becoming the first Black justice of the United States Supreme Court. He arrived with more direct experience fighting state-enforced racial inequality than any justice before him.</p><p>As a lawyer, Marshall had traveled through hostile courtrooms, built cases with local plaintiffs, and helped overturn school segregation in Brown v. Board. He later served as a federal appeals judge and solicitor general.</p><p>On the Court, Marshall consistently defended civil rights, criminal due process, reproductive freedom, and limits on the death penalty. As the Court moved in a more conservative direction, he often wrote dissents meant to preserve a constitutional argument for the future.</p>",
+    "whyItMatters": "Marshall's swearing-in changed who interpreted the Constitution from the bench. His career also shows that judicial milestones grow from years of organizing and litigation far beyond Washington.",
+    "igCaption": "October 2, 1967: Thurgood Marshall joined the Supreme Court. He brought the bench a lifetime of representing people whose constitutional rights existed on paper and were denied in practice.\n\n#BlackHistoryInRealTime #ThurgoodMarshall",
+    "tags": [
+      "law",
+      "civil-rights",
+      "government",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-10-03",
+    "category": "Sports & Leadership",
+    "title": "A Managerial Color Line Falls",
+    "question": "Which Hall of Famer was named Major League Baseball's first Black manager on October 3, 1974?",
+    "options": [
+      "Frank Robinson",
+      "Larry Doby",
+      "Hank Aaron",
+      "Willie Mays"
+    ],
+    "answer": 0,
+    "answerText": "Frank Robinson",
+    "answerExplanation": "The Cleveland Indians named Frank Robinson player-manager for the 1975 season. He homered in his first game managing the club.",
+    "subject": "Frank Robinson Becomes a Manager",
+    "dates": "October 3, 1974",
+    "encyclopediaSlug": "frank-robinson",
+    "encyclopediaPath": "generated/pages/frank-robinson.html",
+    "story": "<p>On October 3, 1974, the Cleveland Indians named Frank Robinson player-manager, making him the first Black manager in modern Major League Baseball. Integration had changed the field decades earlier, but authority in the dugout remained overwhelmingly white.</p><p>Robinson had already built a Hall of Fame playing career and was the only player to win Most Valuable Player awards in both leagues. He entered management while still expected to hit, lead, handle the press, and carry the meaning of a racial first.</p><p>In his first game as manager, Robinson placed himself second in the lineup and hit a home run. He later managed four franchises and worked in Major League Baseball&#039;s front office, widening a path that remained narrower than player access.</p>",
+    "whyItMatters": "Sports integration is incomplete when Black talent is welcomed but Black decision-making is not. Robinson's appointment shifted the boundary from participation toward authority.",
+    "igCaption": "October 3, 1974: Cleveland named Frank Robinson baseball's first Black manager. The field had integrated. Leadership had not kept pace. Robinson stepped into both jobs at once.\n\n#BlackHistoryInRealTime #FrankRobinson",
+    "tags": [
+      "sports",
+      "leadership",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-10-04",
+    "category": "Journalism & Reconstruction",
+    "title": "A Black Daily Press in Civil War New Orleans",
+    "question": "Which Black-led newspaper began daily publication in New Orleans on October 4, 1864?",
+    "options": [
+      "The New Orleans Tribune",
+      "Freedom's Journal",
+      "The Chicago Defender",
+      "The North Star"
+    ],
+    "answer": 0,
+    "answerText": "The New Orleans Tribune",
+    "answerExplanation": "The bilingual New Orleans Tribune became the first Black-owned daily newspaper in the United States and argued for equal citizenship during and after the Civil War.",
+    "subject": "The New Orleans Tribune",
+    "dates": "Daily publication began October 4, 1864",
+    "encyclopediaSlug": "black-press",
+    "encyclopediaPath": "encyclopedia/black-press.html",
+    "story": "<p>On October 4, 1864, the New Orleans Tribune moved from three issues a week to daily publication. Its Black editors used French and English to argue that emancipation without equal citizenship would leave freedom unfinished.</p><p>Dr. Louis Charles Roudanez founded the paper in a city with a large community of free people of color and newly emancipated residents. The Tribune demanded voting rights, integrated public schools, fair labor, and equal treatment before the law.</p><p>The paper reported on Reconstruction while helping shape it. Financial pressure and political violence made survival difficult, and publication ended in 1870. Its short life still demonstrated that Black journalism was an instrument of policy, organizing, and public memory.</p>",
+    "whyItMatters": "A free press is not only the right to publish. It requires ownership, distribution, money, and readers. The Tribune built that infrastructure while the meaning of citizenship was still being fought over.",
+    "igCaption": "October 4, 1864: the New Orleans Tribune became a daily newspaper. In French and English, its Black editors demanded voting rights, public education, fair labor, and citizenship with substance.\n\n#BlackHistoryInRealTime #BlackPress",
+    "tags": [
+      "journalism",
+      "reconstruction",
+      "politics",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-10-05",
+    "category": "Women & Government",
+    "title": "A Legislator Who Changed the Room",
+    "question": "Which California congresswoman, born October 5, 1932, became the first Black woman to represent the West Coast in Congress?",
+    "options": [
+      "Yvonne Brathwaite Burke",
+      "Barbara Lee",
+      "Maxine Waters",
+      "Shirley Chisholm"
+    ],
+    "answer": 0,
+    "answerText": "Yvonne Brathwaite Burke",
+    "answerExplanation": "Yvonne Brathwaite Burke served in the California Assembly and U.S. House, where she became the first member of Congress to give birth while in office.",
+    "subject": "Yvonne Brathwaite Burke",
+    "dates": "Born October 5, 1932",
+    "encyclopediaSlug": "black-women-in-politics",
+    "encyclopediaPath": "encyclopedia/black-women-in-politics.html",
+    "story": "<p>Yvonne Brathwaite Burke was born in Los Angeles on October 5, 1932. She entered law and politics when Black women were expected to support campaigns more often than lead them or hold the office themselves.</p><p>Burke served in the California Assembly, chaired the 1972 Democratic National Convention, and won election to Congress that year. She represented Los Angeles communities through debates over transit, employment, child care, and federal spending.</p><p>In 1973, Burke became the first sitting member of Congress to give birth and receive maternity leave. The milestone exposed how public institutions had been designed around officeholders whose caregiving and pregnancies remained out of view.</p>",
+    "whyItMatters": "Burke's career belongs to the history of representation and institutional design. Who holds office changes which experiences government must finally learn to accommodate.",
+    "igCaption": "October 5, 1932: Yvonne Brathwaite Burke was born in Los Angeles. She carried Black women's leadership into California government, Congress, and an institution unprepared to treat motherhood as part of public life.\n\n#BlackHistoryInRealTime",
+    "tags": [
+      "women",
+      "politics",
+      "government",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-10-06",
+    "category": "Voting Rights & Organizing",
+    "title": "Nobody Was Going to Turn Her Around",
+    "question": "Which Mississippi voting-rights organizer was born October 6, 1917?",
+    "options": [
+      "Fannie Lou Hamer",
+      "Ella Baker",
+      "Diane Nash",
+      "Septima Clark"
+    ],
+    "answer": 0,
+    "answerText": "Fannie Lou Hamer",
+    "answerExplanation": "Fannie Lou Hamer organized voter registration, helped found the Mississippi Freedom Democratic Party, and testified nationally about racist violence and political exclusion.",
+    "subject": "Fannie Lou Hamer",
+    "dates": "October 6, 1917 - March 14, 1977",
+    "encyclopediaSlug": "fannie-lou-hamer",
+    "encyclopediaPath": "encyclopedia/fannie-lou-hamer.html",
+    "story": "<p>Fannie Lou Hamer was born in Montgomery County, Mississippi, on October 6, 1917, the youngest child in a sharecropping family. She understood political exclusion through work, debt, hunger, medical abuse, and a courthouse that tried to keep Black citizens away from the ballot.</p><p>After attempting to register in 1962, Hamer lost her plantation job. She became a Student Nonviolent Coordinating Committee organizer, teaching neighbors the registration process and enduring arrest, threats, and a brutal jail beating.</p><p>Hamer helped form the Mississippi Freedom Democratic Party and challenged the state&#039;s all-white delegation at the 1964 Democratic convention. She later built a cooperative farm, treating food and land as civil-rights issues alongside voting.</p>",
+    "whyItMatters": "Hamer's politics linked the ballot to bodily safety and economic independence. Her birthday recalls an organizer who made democracy answer to ordinary rural people.",
+    "igCaption": "October 6, 1917: Fannie Lou Hamer was born. She connected voting to food, land, medical dignity, work, and the right of poor Black Mississippians to speak for themselves.\n\n#BlackHistoryInRealTime #FannieLouHamer",
+    "tags": [
+      "voting-rights",
+      "women",
+      "civil-rights",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-10-07",
+    "category": "Literature & Memory",
+    "title": "The Nobel Committee Called",
+    "question": "Which author became the first Black woman awarded the Nobel Prize in Literature in 1993?",
+    "options": [
+      "Toni Morrison",
+      "Alice Walker",
+      "Maya Angelou",
+      "Gwendolyn Brooks"
+    ],
+    "answer": 0,
+    "answerText": "Toni Morrison",
+    "answerExplanation": "The Nobel announcement came on October 7, 1993. Morrison's novels examined memory, language, love, history, and the interior lives of Black people without translating them for a presumed white center.",
+    "subject": "Toni Morrison Wins the Nobel Prize",
+    "dates": "October 7, 1993",
+    "encyclopediaSlug": "toni-morrison",
+    "encyclopediaPath": "encyclopedia/toni-morrison.html",
+    "story": "<p>On October 7, 1993, Toni Morrison learned she had been awarded the Nobel Prize in Literature. She was the first Black woman to receive it, but the significance was larger than admission to a prestigious list.</p><p>Morrison had worked as an editor, teacher, critic, and novelist. At Random House she helped publish Black writers and histories. In novels including Song of Solomon and Beloved, she made Black interior life the center rather than background or explanation.</p><p>The Nobel committee praised writing with visionary force and poetic import. Morrison used the ceremony to speak about language as a living thing that can carry knowledge or be damaged by domination and careless use.</p>",
+    "whyItMatters": "The award recognized a body of work that changed what American literature could hold. Morrison's deeper achievement was not being first. It was writing books that altered readers' understanding of memory, power, and freedom.",
+    "igCaption": "October 7, 1993: Toni Morrison received the call from Stockholm. The Nobel Prize recognized work that made Black memory, language, desire, and interior life central to American literature.\n\n#BlackHistoryInRealTime #ToniMorrison",
+    "tags": [
+      "literature",
+      "women",
+      "education",
+      "art"
+    ]
+  },
+  {
+    "fullDate": "2026-10-08",
+    "category": "Civil Rights & Coalition Politics",
+    "title": "Organizing Beyond a Single March",
+    "question": "Which civil-rights leader and presidential candidate was born October 8, 1941?",
+    "options": [
+      "Jesse Jackson",
+      "Andrew Young",
+      "John Lewis",
+      "Julian Bond"
+    ],
+    "answer": 0,
+    "answerText": "Jesse Jackson",
+    "answerExplanation": "Jesse Jackson worked with the Southern Christian Leadership Conference, founded Operation PUSH, and sought the Democratic presidential nomination in 1984 and 1988.",
+    "subject": "Jesse Jackson",
+    "dates": "Born October 8, 1941",
+    "encyclopediaSlug": "modern-civil-rights",
+    "encyclopediaPath": "encyclopedia/modern-civil-rights.html",
+    "story": "<p>Jesse Jackson was born in Greenville, South Carolina, on October 8, 1941. His public career moved from lunch-counter activism and the Southern Christian Leadership Conference into economic boycotts, international diplomacy, and presidential campaigns.</p><p>Jackson led Operation Breadbasket in Chicago, pressing corporations to hire Black workers and do business with Black-owned firms. He later founded Operation PUSH and built the Rainbow Coalition around a broad alliance of racial minorities, workers, farmers, peace activists, and other constituencies.</p><p>His 1984 and 1988 campaigns expanded Black participation in presidential politics and influenced the Democratic platform, while controversies and criticism remained part of his record. The campaigns were organizing projects as much as candidate vehicles.</p>",
+    "whyItMatters": "Jackson's career shows civil-rights politics moving into economic leverage, electoral coalitions, and foreign affairs. It also demonstrates how a movement changes when its leaders seek power inside party institutions.",
+    "igCaption": "October 8, 1941: Jesse Jackson was born. His career carried civil-rights organizing into corporate boycotts, international negotiations, and presidential campaigns built around a wider coalition.\n\n#BlackHistoryInRealTime #JesseJackson",
+    "tags": [
+      "civil-rights",
+      "politics",
+      "labor",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-10-09",
+    "category": "Science & Public Knowledge",
+    "title": "The Almanac Maker's Last Day",
+    "question": "Which astronomer, surveyor, and almanac author died on October 9, 1806?",
+    "options": [
+      "Benjamin Banneker",
+      "Norbert Rillieux",
+      "Lewis Latimer",
+      "Thomas Fuller"
+    ],
+    "answer": 0,
+    "answerText": "Benjamin Banneker",
+    "answerExplanation": "Benjamin Banneker calculated astronomical data for almanacs, assisted the survey establishing Washington's boundaries, and challenged Thomas Jefferson on slavery and racial prejudice.",
+    "subject": "Benjamin Banneker",
+    "dates": "November 9, 1731 - October 9, 1806",
+    "encyclopediaSlug": "benjamin-banneker",
+    "encyclopediaPath": "generated/pages/benjamin-banneker.html",
+    "story": "<p>Benjamin Banneker died on October 9, 1806, in the Maryland community where he had spent most of his life. A free Black farmer with limited formal schooling, he became known through astronomy, almanacs, surveying, and a direct challenge to Thomas Jefferson.</p><p>Banneker learned mathematics and used borrowed scientific texts and instruments to calculate eclipses and planetary positions. His published almanacs included practical information and antislavery material, making scientific authority part of a public argument about Black capacity and freedom.</p><p>In 1791, he sent Jefferson an almanac manuscript with a letter pointing to the contradiction between natural rights and slavery. Jefferson replied politely but did not accept Banneker&#039;s challenge to his racial beliefs or his own slaveholding.</p>",
+    "whyItMatters": "Banneker's work was not remarkable because Black intelligence needed proof. It matters because he used knowledge, print, and correspondence to enter debates from which Black people were deliberately excluded.",
+    "igCaption": "October 9, 1806: Benjamin Banneker died in Maryland. His astronomy filled almanacs, his surveying helped mark a capital, and his letter to Jefferson turned scientific authority toward an argument for freedom.\n\n#BlackHistoryInRealTime #BenjaminBanneker",
+    "tags": [
+      "science",
+      "education",
+      "enslavement",
+      "literature"
+    ]
+  },
+  {
+    "fullDate": "2026-10-10",
+    "category": "Music & Composition",
+    "title": "The Space Between Monk's Notes",
+    "question": "Which pianist and composer of Round Midnight was born October 10, 1917?",
+    "options": [
+      "Thelonious Monk",
+      "Bud Powell",
+      "Count Basie",
+      "Art Tatum"
+    ],
+    "answer": 0,
+    "answerText": "Thelonious Monk",
+    "answerExplanation": "Thelonious Monk helped shape bebop with angular melodies, unexpected pauses, dissonant harmony, and compositions that became jazz standards.",
+    "subject": "Thelonious Monk",
+    "dates": "October 10, 1917 - February 17, 1982",
+    "encyclopediaSlug": "duke-ellington",
+    "encyclopediaPath": "encyclopedia/duke-ellington.html",
+    "story": "<p>Thelonious Monk was born in Rocky Mount, North Carolina, on October 10, 1917, and grew up in New York. At the piano, silence could be as deliberate as sound, and a familiar chord could land at an angle no one expected.</p><p>Monk developed his music around Harlem jam sessions at Minton&#039;s Playhouse, where bebop took shape. His compositions were exacting, even when critics heard only eccentricity. Round Midnight, Straight, No Chaser, and Well, You Needn&#039;t became standards.</p><p>A 1951 drug arrest cost Monk his New York cabaret card and limited where he could work for years. Pianist and patron Pannonica de Koenigswarter supported him, while musicians kept learning a body of work the broader public was slow to understand.</p>",
+    "whyItMatters": "Monk teaches listeners not to confuse unfamiliar form with disorder. His music made surprise structural, leaving later artists a vocabulary for rhythm, space, humor, and refusal.",
+    "igCaption": "October 10, 1917: Thelonious Monk was born. At his piano, silence had weight, wrong-sounding notes found their logic, and surprise became part of the composition.\n\n#BlackHistoryInRealTime #TheloniousMonk #Jazz",
+    "tags": [
+      "music",
+      "art",
+      "harlem-renaissance"
+    ]
+  },
+  {
+    "fullDate": "2026-10-11",
+    "category": "Invention & Everyday Safety",
+    "title": "The Elevator Door Closed Itself",
+    "question": "What did Alexander Miles patent on October 11, 1887?",
+    "options": [
+      "An automatic elevator-door mechanism",
+      "A traffic signal",
+      "A railway brake",
+      "A telephone transmitter"
+    ],
+    "answer": 0,
+    "answerText": "An automatic elevator-door mechanism",
+    "answerExplanation": "Alexander Miles improved elevator safety by linking car and shaft doors so they opened and closed automatically instead of relying entirely on an operator.",
+    "subject": "Alexander Miles and Elevator Safety",
+    "dates": "Patent issued October 11, 1887",
+    "encyclopediaSlug": "black-tech-pioneers",
+    "encyclopediaPath": "encyclopedia/black-tech-pioneers.html",
+    "story": "<p>On October 11, 1887, Alexander Miles received a United States patent for an elevator-door mechanism. Elevators already existed. His contribution addressed a dangerous weakness: open shaft doors and the human error involved in closing them by hand.</p><p>Miles designed linked mechanisms that allowed doors to open and close as the car reached or left a floor. The patent did not create the modern elevator by itself, but it documented a practical improvement in a technology reshaping multistory cities.</p><p>Little is firmly documented about parts of Miles&#039;s life, and celebratory summaries sometimes promote him as the sole inventor of automatic doors. The patent record supports the more accurate claim: he patented a specific and influential improvement.</p>",
+    "whyItMatters": "Invention is often cumulative. Miles deserves recognition without a myth that erases prior machinery or later engineering. Precision makes the achievement stronger, not smaller.",
+    "igCaption": "October 11, 1887: Alexander Miles patented an elevator-door mechanism designed to reduce dangerous open shafts. He improved a growing technology, and the patent record lets us name the contribution precisely.\n\n#BlackHistoryInRealTime #BlackInventors",
+    "tags": [
+      "invention",
+      "technology",
+      "labor"
+    ]
+  },
+  {
+    "fullDate": "2026-10-12",
+    "category": "Comedy & Civil Rights",
+    "title": "The Joke Carried an Argument",
+    "question": "Which comedian and civil-rights activist was born October 12, 1932?",
+    "options": [
+      "Dick Gregory",
+      "Redd Foxx",
+      "Richard Pryor",
+      "Godfrey Cambridge"
+    ],
+    "answer": 0,
+    "answerText": "Dick Gregory",
+    "answerExplanation": "Dick Gregory used stand-up comedy to expose segregation and hypocrisy, then joined demonstrations, hunger strikes, campaigns, and antiwar organizing.",
+    "subject": "Dick Gregory",
+    "dates": "October 12, 1932 - August 19, 2017",
+    "encyclopediaSlug": "modern-civil-rights",
+    "encyclopediaPath": "encyclopedia/modern-civil-rights.html",
+    "story": "<p>Dick Gregory was born in St. Louis on October 12, 1932. He entered national comedy by telling white nightclub audiences truths about race that were sharp enough to disturb them and funny enough that they stayed to listen.</p><p>A 1961 engagement at Chicago&#039;s Playboy Club helped make Gregory a star. He refused the usual limits placed on Black entertainers, using first-person satire about segregation, poverty, policing, and liberal hypocrisy.</p><p>Gregory moved increasingly into direct activism, joining civil-rights campaigns, opposing the Vietnam War, running symbolic political campaigns, and undertaking hunger strikes. His later promotion of conspiracy claims and unproven health ideas also requires scrutiny rather than automatic celebration.</p>",
+    "whyItMatters": "Gregory shows comedy functioning as political speech. He also shows why a public figure's courage in one arena does not make every later claim reliable.",
+    "igCaption": "October 12, 1932: Dick Gregory was born. He made comedy carry civil-rights analysis, then moved from nightclub stages into marches, campaigns, and hunger strikes.\n\n#BlackHistoryInRealTime #DickGregory",
+    "tags": [
+      "civil-rights",
+      "art",
+      "protest",
+      "politics"
+    ]
+  },
+  {
+    "fullDate": "2026-10-13",
+    "category": "Law & Political Repression",
+    "title": "The Search Ended in a Manhattan Motel",
+    "question": "Which activist and scholar was arrested by the FBI on October 13, 1970?",
+    "options": [
+      "Angela Davis",
+      "Assata Shakur",
+      "Elaine Brown",
+      "Kathleen Cleaver"
+    ],
+    "answer": 0,
+    "answerText": "Angela Davis",
+    "answerExplanation": "Angela Davis had been placed on the FBI's Ten Most Wanted list after firearms registered in her name were used in a deadly California courthouse escape attempt. A jury acquitted her in 1972.",
+    "subject": "The Arrest and Trial of Angela Davis",
+    "dates": "Arrested October 13, 1970",
+    "encyclopediaSlug": "angela-davis",
+    "encyclopediaPath": "generated/pages/angela-davis.html",
+    "story": "<p>On October 13, 1970, FBI agents arrested Angela Davis at a Manhattan motel after a nationwide search. Her face had circulated on wanted posters, and her case had already become a global argument about radical politics, policing, and guilt by association.</p><p>Guns registered to Davis were used in a Marin County courthouse attack that killed four people. Prosecutors charged her with murder, kidnapping, and conspiracy under California law, arguing that she helped plan the attack. Davis denied involvement.</p><p>Support committees organized internationally while Davis spent more than a year in jail. In June 1972, an all-white jury acquitted her on every count. The verdict did not settle debates over her politics, but it rejected the prosecution&#039;s criminal case.</p>",
+    "whyItMatters": "The arrest shows how a public movement can form before a trial and why political identity cannot substitute for proof. Davis's acquittal belongs to legal history as well as activist memory.",
+    "igCaption": "October 13, 1970: the FBI arrested Angela Davis after a national search. Her politics made the case famous. A jury still had to judge the evidence, and in 1972 it acquitted her on every count.\n\n#BlackHistoryInRealTime #AngelaDavis",
+    "tags": [
+      "law",
+      "activism",
+      "politics",
+      "women"
+    ]
+  },
+  {
+    "fullDate": "2026-10-14",
+    "category": "Civil Rights & Peace",
+    "title": "A Nobel Prize at Thirty-Five",
+    "question": "Who was announced as the Nobel Peace Prize recipient on October 14, 1964?",
+    "options": [
+      "Martin Luther King Jr.",
+      "Ralph Bunche",
+      "Nelson Mandela",
+      "Desmond Tutu"
+    ],
+    "answer": 0,
+    "answerText": "Martin Luther King Jr.",
+    "answerExplanation": "At 35, Martin Luther King Jr. was then the youngest recipient of the Nobel Peace Prize. He accepted it as recognition of a movement rather than a personal victory.",
+    "subject": "Martin Luther King Jr. and the Nobel Peace Prize",
+    "dates": "October 14, 1964",
+    "encyclopediaSlug": "modern-civil-rights",
+    "encyclopediaPath": "encyclopedia/modern-civil-rights.html",
+    "story": "<p>On October 14, 1964, the Nobel Committee announced that Martin Luther King Jr. would receive its Peace Prize. He was thirty-five, and the Civil Rights Act had become law only months earlier.</p><p>The award recognized nonviolent struggle against racial segregation, but King insisted the honor belonged to a movement. Organizers, students, domestic workers, clergy, lawyers, and families had created the campaigns that made his leadership internationally visible.</p><p>King donated the prize money to civil-rights organizations. Over the next three years, he also challenged northern segregation, economic exploitation, and the Vietnam War, positions that cost him public support and complicated the safer image later attached to the Nobel laureate.</p>",
+    "whyItMatters": "The prize captured one moment in an evolving political life. It should direct attention back to collective organizing and forward to the harder positions King took after global recognition arrived.",
+    "igCaption": "October 14, 1964: Martin Luther King Jr. was announced as the Nobel Peace Prize recipient. He called it recognition of a movement and gave the prize money back to movement work.\n\n#BlackHistoryInRealTime #MLK",
+    "tags": [
+      "civil-rights",
+      "leadership",
+      "politics",
+      "protest"
+    ]
+  },
+  {
+    "fullDate": "2026-10-15",
+    "category": "Community Power & Politics",
+    "title": "A New Organization in Oakland",
+    "question": "Which organization did Huey P. Newton and Bobby Seale establish in Oakland in October 1966?",
+    "options": [
+      "Black Panther Party",
+      "Student Nonviolent Coordinating Committee",
+      "Congress of Racial Equality",
+      "Nation of Islam"
+    ],
+    "answer": 0,
+    "answerText": "Black Panther Party",
+    "answerExplanation": "The Black Panther Party for Self-Defense began in Oakland on October 15, 1966, combining armed monitoring of police with a political program and community services.",
+    "subject": "The Founding of the Black Panther Party",
+    "dates": "October 15, 1966",
+    "encyclopediaSlug": "black-panther-party",
+    "encyclopediaPath": "generated/pages/black-panther-party.html",
+    "story": "<p>On October 15, 1966, Huey P. Newton and Bobby Seale organized the Black Panther Party for Self-Defense in Oakland. They began from a local problem: Black residents experienced aggressive policing while legal protection often seemed absent.</p><p>The Panthers studied California gun law, monitored police encounters, and published a Ten-Point Program demanding employment, housing, education, and an end to police brutality. Chapters later ran breakfast programs, health clinics, political education, and other survival programs.</p><p>The organization also carried weapons, used militant rhetoric, and experienced internal conflicts. Police violence, prosecutions, surveillance, and the FBI&#039;s COINTELPRO campaign intensified those pressures and helped fracture the party.</p>",
+    "whyItMatters": "The Panthers cannot be understood through one photograph of leather jackets and guns. Their history joins community services, political study, self-defense, state repression, and unresolved debates about power.",
+    "igCaption": "October 15, 1966: Huey Newton and Bobby Seale organized the Black Panther Party in Oakland. Armed patrols drew attention, but breakfast, health, education, and a ten-point political program were also central.\n\n#BlackHistoryInRealTime #BlackPantherParty",
+    "tags": [
+      "politics",
+      "community",
+      "self-determination",
+      "activism"
+    ]
+  },
+  {
+    "fullDate": "2026-10-16",
+    "category": "Men, Family & Public Assembly",
+    "title": "A Gathering Filled the National Mall",
+    "question": "What mass gathering brought Black men to Washington on October 16, 1995?",
+    "options": [
+      "Million Man March",
+      "March on Washington for Jobs and Freedom",
+      "Poor People's Campaign",
+      "Resurrection City"
+    ],
+    "answer": 0,
+    "answerText": "Million Man March",
+    "answerExplanation": "The Million Man March called Black men to commitments around family, community responsibility, political participation, and reconciliation. Attendance estimates remain disputed.",
+    "subject": "The Million Man March",
+    "dates": "October 16, 1995",
+    "encyclopediaSlug": "modern-civil-rights",
+    "encyclopediaPath": "encyclopedia/modern-civil-rights.html",
+    "story": "<p>On October 16, 1995, a vast crowd of Black men gathered on the National Mall for the Million Man March. The day mixed religious ceremony, political organizing, family commitments, voter registration, and arguments over who the event included or left out.</p><p>Louis Farrakhan of the Nation of Islam called the march, while a wide range of churches and organizations mobilized participants. Speakers emphasized atonement, responsibility, and community repair amid mass incarceration, economic inequality, and public stereotypes about Black men.</p><p>Attendance became a public controversy because official and organizer estimates differed sharply. Black women supported much of the organizing while some criticized male-centered language and the politics of Farrakhan. Those tensions belong inside the history.</p>",
+    "whyItMatters": "The march demonstrates the scale of Black civic mobilization in the 1990s and the complexity of building unity across differences in faith, gender, class, and political strategy.",
+    "igCaption": "October 16, 1995: Black men filled the National Mall for the Million Man March. The gathering joined family, faith, civic responsibility, voter organizing, and real debate over leadership and inclusion.\n\n#BlackHistoryInRealTime #MillionManMarch",
+    "tags": [
+      "community",
+      "politics",
+      "family",
+      "religion"
+    ]
+  },
+  {
+    "fullDate": "2026-10-17",
+    "category": "Poetry & Early America",
+    "title": "A Poet Enslaved on Long Island",
+    "question": "Which early Black poet, born October 17, 1711, published An Evening Thought in 1761?",
+    "options": [
+      "Jupiter Hammon",
+      "Phillis Wheatley",
+      "Olaudah Equiano",
+      "George Moses Horton"
+    ],
+    "answer": 0,
+    "answerText": "Jupiter Hammon",
+    "answerExplanation": "Jupiter Hammon's 1761 broadside is the first known published literary work by an African American in British North America.",
+    "subject": "Jupiter Hammon",
+    "dates": "Born October 17, 1711",
+    "encyclopediaSlug": "phillis-wheatley",
+    "encyclopediaPath": "generated/pages/phillis-wheatley.html",
+    "story": "<p>Jupiter Hammon was born enslaved on Long Island on October 17, 1711. He learned to read and write within the household that claimed his labor, then became the first known African American to publish a literary work in British North America.</p><p>His 1761 broadside, An Evening Thought, joined Christian verse with the fact of Black authorship in a print culture that denied Black intellectual equality. Hammon later wrote poems, prose, and an address directed to Black New Yorkers.</p><p>His 1787 address urged moral discipline and gradual emancipation rather than revolt. Readers debate how to interpret that caution from a man who remained enslaved, wrote within evangelical conventions, and addressed audiences holding unequal power.</p>",
+    "whyItMatters": "Hammon makes early African American literature visible before the nation existed. His work also asks readers to attend to what an enslaved writer could say openly, and what constraint may sound like on the page.",
+    "igCaption": "October 17, 1711: Jupiter Hammon was born enslaved on Long Island. His 1761 broadside became the first known published African American literary work in British North America.\n\n#BlackHistoryInRealTime #JupiterHammon",
+    "tags": [
+      "literature",
+      "enslavement",
+      "religion",
+      "education"
+    ]
+  },
+  {
+    "fullDate": "2026-10-18",
+    "category": "Sports & Protest",
+    "title": "The Athletes Were Sent Home",
+    "question": "What happened to Tommie Smith and John Carlos on October 18, 1968, after their Olympic medal-stand protest?",
+    "options": [
+      "They were suspended and ordered to leave the Olympic Village",
+      "They received a second medal",
+      "They joined the U.S. coaching staff",
+      "They competed in another final"
+    ],
+    "answer": 0,
+    "answerText": "They were suspended and ordered to leave the Olympic Village",
+    "answerExplanation": "Two days after raising gloved fists during the anthem, Smith and Carlos were suspended by the U.S. Olympic Committee under pressure from the International Olympic Committee.",
+    "subject": "The Cost of the 1968 Olympic Salute",
+    "dates": "October 18, 1968",
+    "encyclopediaSlug": "black-power-salute",
+    "encyclopediaPath": "encyclopedia/black-power-salute.html",
+    "story": "<p>On October 18, 1968, Tommie Smith and John Carlos were suspended from the United States Olympic team and ordered out of the Olympic Village. Their offense was a silent gesture on the medal stand two nights earlier.</p><p>Smith and Carlos had raised black-gloved fists during the anthem after winning gold and bronze in the 200 meters. Their clothing and posture referenced Black poverty, lynching, labor, and the Olympic Project for Human Rights.</p><p>The punishment did not end with Mexico City. Both men faced threats, lost opportunities, and years of public hostility. Australian silver medalist Peter Norman, who wore the project&#039;s badge in solidarity, also paid a professional price.</p>",
+    "whyItMatters": "The salute is now reproduced as an admired image, but October 18 restores the consequence. Institutions often celebrate athlete activism only after the protest no longer disrupts them.",
+    "igCaption": "October 18, 1968: Tommie Smith and John Carlos were suspended and sent out of the Olympic Village. The iconic photograph came with threats, lost work, and years of punishment.\n\n#BlackHistoryInRealTime #OlympicProjectForHumanRights",
+    "tags": [
+      "sports",
+      "protest",
+      "civil-rights",
+      "labor"
+    ]
+  },
+  {
+    "fullDate": "2026-10-19",
+    "category": "Government & Public Memory",
+    "title": "The Senate Approved a National Holiday",
+    "question": "What federal holiday bill did the U.S. Senate approve on October 19, 1983?",
+    "options": [
+      "Martin Luther King Jr. Day",
+      "Juneteenth National Independence Day",
+      "Presidents Day",
+      "Emancipation Day"
+    ],
+    "answer": 0,
+    "answerText": "Martin Luther King Jr. Day",
+    "answerExplanation": "The Senate passed legislation establishing a federal holiday honoring Martin Luther King Jr. President Ronald Reagan signed it on November 2, 1983.",
+    "subject": "The Campaign for Martin Luther King Jr. Day",
+    "dates": "Senate passage October 19, 1983",
+    "encyclopediaSlug": "modern-civil-rights",
+    "encyclopediaPath": "encyclopedia/modern-civil-rights.html",
+    "story": "<p>On October 19, 1983, the United States Senate approved a federal holiday honoring Martin Luther King Jr. The vote came fifteen years after his assassination and after a sustained campaign that made remembrance a political demand.</p><p>Representative John Conyers introduced holiday legislation days after King&#039;s death. Coretta Scott King, labor unions, churches, artists, and petition organizers kept the proposal alive through repeated congressional defeats. Stevie Wonder&#039;s Happy Birthday helped carry the campaign into popular culture.</p><p>President Ronald Reagan signed the bill on November 2, and the first federal observance took place in 1986. Several states resisted or attached the holiday to Confederate commemorations before nationwide state recognition was achieved.</p>",
+    "whyItMatters": "Public memory is made through organizing. The holiday was not an automatic tribute from a grateful nation; people built enough pressure to place movement history on the civic calendar.",
+    "igCaption": "October 19, 1983: the Senate approved a federal holiday honoring Martin Luther King Jr. It took fifteen years of legislation, petitions, labor support, music, and organizing to move remembrance into law.\n\n#BlackHistoryInRealTime #MLKDay",
+    "tags": [
+      "government",
+      "civil-rights",
+      "labor",
+      "politics"
+    ]
+  },
+  {
+    "fullDate": "2026-10-20",
+    "category": "Music & Cultural Memory",
+    "title": "The Birth Date Jelly Roll Morton Claimed",
+    "question": "Which New Orleans pianist and composer traditionally gave October 20, 1890, as his birth date?",
+    "options": [
+      "Jelly Roll Morton",
+      "Louis Armstrong",
+      "Sidney Bechet",
+      "King Oliver"
+    ],
+    "answer": 0,
+    "answerText": "Jelly Roll Morton",
+    "answerExplanation": "Jelly Roll Morton claimed October 20, 1890, although records place his birth in a range of years. He was a major early jazz composer, arranger, pianist, and self-promoter.",
+    "subject": "Jelly Roll Morton",
+    "dates": "Birth traditionally dated October 20, 1890",
+    "encyclopediaSlug": "the-blues",
+    "encyclopediaPath": "encyclopedia/the-blues.html",
+    "story": "<p>Jelly Roll Morton said he was born on October 20, 1890, in New Orleans. Surviving records disagree about the year, a reminder that Black lives were often poorly documented and that Morton himself understood biography as part of performance.</p><p>Born Ferdinand Joseph LaMothe, Morton worked in the city&#039;s clubs and traveled widely as a pianist, composer, arranger, and bandleader. His carefully structured recordings showed how collective improvisation and written arrangement could strengthen each other.</p><p>Morton famously claimed to have invented jazz. No single person did. His boast should not erase the network of Black New Orleans musicians who made the music, nor should its exaggeration obscure his real compositional influence.</p>",
+    "whyItMatters": "Morton's contested birth record and oversized claims teach useful historical habits: verify the archive, distinguish invention from contribution, and leave room for a culture created collectively.",
+    "igCaption": "October 20 is the birth date Jelly Roll Morton claimed. The year remains disputed, and so does his boast that he invented jazz. His real work as a composer and arranger needs no one-man origin myth.\n\n#BlackHistoryInRealTime #JellyRollMorton",
+    "tags": [
+      "music",
+      "art",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-10-21",
+    "category": "Music & Innovation",
+    "title": "A Trumpet Aimed at the Future",
+    "question": "Which bebop trumpeter and bandleader was born October 21, 1917?",
+    "options": [
+      "Dizzy Gillespie",
+      "Miles Davis",
+      "Louis Armstrong",
+      "Roy Eldridge"
+    ],
+    "answer": 0,
+    "answerText": "Dizzy Gillespie",
+    "answerExplanation": "Dizzy Gillespie helped develop bebop and became a central figure in Afro-Cuban jazz through collaborations with musicians including Chano Pozo.",
+    "subject": "Dizzy Gillespie",
+    "dates": "October 21, 1917 - January 6, 1993",
+    "encyclopediaSlug": "duke-ellington",
+    "encyclopediaPath": "encyclopedia/duke-ellington.html",
+    "story": "<p>John Birks Gillespie was born in Cheraw, South Carolina, on October 21, 1917. Nicknamed Dizzy, he became a trumpeter whose high-register precision, harmonic imagination, and comic stage presence helped make demanding new music inviting.</p><p>In 1940s jam sessions and bands, Gillespie worked with Charlie Parker, Thelonious Monk, Kenny Clarke, and others developing bebop. The music used fast tempos and complex harmony, shifting jazz away from dance-band expectations toward concentrated listening.</p><p>Gillespie also worked with Cuban percussionist Chano Pozo and arranger Mario Bauza, helping create Afro-Cuban jazz. That history is collaboration across the Black diaspora, not a U.S. musician simply discovering Latin rhythm.</p>",
+    "whyItMatters": "Gillespie shows innovation happening in ensembles and exchange. His career joined technical discipline, mentorship, humor, and international musical relationships.",
+    "igCaption": "October 21, 1917: Dizzy Gillespie was born. His trumpet helped shape bebop, while collaboration with Cuban musicians opened enduring conversations across the Black Atlantic.\n\n#BlackHistoryInRealTime #DizzyGillespie #Jazz",
+    "tags": [
+      "music",
+      "art",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-10-22",
+    "category": "Law & Delayed Justice",
+    "title": "A Pardon Forty-Five Years Later",
+    "question": "Which last surviving Scottsboro defendant was pardoned by Alabama on October 22, 1976?",
+    "options": [
+      "Clarence Norris",
+      "Haywood Patterson",
+      "Olen Montgomery",
+      "Eugene Williams"
+    ],
+    "answer": 0,
+    "answerText": "Clarence Norris",
+    "answerExplanation": "Governor George Wallace pardoned Clarence Norris decades after an all-white jury convicted him in the false rape case that became a symbol of Jim Crow injustice.",
+    "subject": "Clarence Norris and the Scottsboro Pardons",
+    "dates": "October 22, 1976",
+    "encyclopediaSlug": "scottsboro-boys",
+    "encyclopediaPath": "generated/pages/scottsboro-boys.html",
+    "story": "<p>On October 22, 1976, Alabama Governor George Wallace pardoned Clarence Norris, the last surviving defendant from the Scottsboro cases. Forty-five years had passed since nine Black teenagers were pulled from a train and falsely accused of rape.</p><p>Norris had faced repeated trials, death sentences, prison, and parole before leaving Alabama. The prosecutions produced Supreme Court rulings on the right to adequate counsel and the exclusion of Black people from juries, but legal precedent did not return the defendants&#039; lost years.</p><p>The pardon recognized Norris individually without fully clearing every defendant. Alabama issued posthumous pardons to three others in 2013 after sustained historical and legal advocacy.</p>",
+    "whyItMatters": "A pardon can correct a record without repairing a life. The date measures both recognition and delay, asking what justice means when institutions wait until most of the harmed people are gone.",
+    "igCaption": "October 22, 1976: Clarence Norris received a pardon 45 years after the Scottsboro arrests. Legal landmarks came from the cases, but precedent could not return the years taken from nine young men.\n\n#BlackHistoryInRealTime #ScottsboroBoys",
+    "tags": [
+      "law",
+      "jim-crow",
+      "youth",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-10-23",
+    "category": "Human Rights & Internationalism",
+    "title": "An Appeal to the World",
+    "question": "Which organization submitted An Appeal to the World to the United Nations on October 23, 1947?",
+    "options": [
+      "NAACP",
+      "National Urban League",
+      "Congress of Racial Equality",
+      "Southern Christian Leadership Conference"
+    ],
+    "answer": 0,
+    "answerText": "NAACP",
+    "answerExplanation": "The NAACP petition, edited principally by W.E.B. Du Bois, argued that U.S. racial discrimination violated the human rights of Black Americans.",
+    "subject": "An Appeal to the World",
+    "dates": "October 23, 1947",
+    "encyclopediaSlug": "web-du-bois",
+    "encyclopediaPath": "generated/pages/web-du-bois.html",
+    "story": "<p>On October 23, 1947, the NAACP presented An Appeal to the World to the United Nations. The petition placed segregation, racial violence, political exclusion, and economic inequality before an international audience.</p><p>W.E.B. Du Bois led the drafting, with contributions from lawyers and scholars including Rayford Logan and Milton Konvitz. The document used evidence from across the country to argue that treatment of Black Americans was a human-rights issue, not merely a domestic custom.</p><p>The U.S. government resisted international scrutiny while the Cold War made racism a diplomatic liability. The petition did not receive the formal UN action its authors sought, but it helped connect civil rights with later human-rights campaigns.</p>",
+    "whyItMatters": "The appeal widened the frame. Black activists asked the world to judge American democracy by conditions in schools, courtrooms, workplaces, voting booths, and streets.",
+    "igCaption": "October 23, 1947: the NAACP submitted An Appeal to the World to the United Nations. It argued that American racism was not a local inconvenience. It was a human-rights crisis with international meaning.\n\n#BlackHistoryInRealTime #WEB DuBois",
+    "tags": [
+      "civil-rights",
+      "law",
+      "politics",
+      "activism"
+    ]
+  },
+  {
+    "fullDate": "2026-10-24",
+    "category": "Civil Rights & Ordinary Courage",
+    "title": "Rosa Parks Leaves a Larger Record",
+    "question": "Which Montgomery organizer died on October 24, 2005?",
+    "options": [
+      "Rosa Parks",
+      "Jo Ann Robinson",
+      "Claudette Colvin",
+      "Georgia Gilmore"
+    ],
+    "answer": 0,
+    "answerText": "Rosa Parks",
+    "answerExplanation": "Rosa Parks was an experienced NAACP secretary and investigator before her 1955 bus arrest. She later worked for Representative John Conyers and remained active in Detroit.",
+    "subject": "Rosa Parks",
+    "dates": "February 4, 1913 - October 24, 2005",
+    "encyclopediaSlug": "rosa-parks",
+    "encyclopediaPath": "generated/pages/rosa-parks.html",
+    "story": "<p>Rosa Parks died in Detroit on October 24, 2005. The tributes that followed often returned to one bus seat, but her life contained decades of organizing before and after Montgomery.</p><p>Parks served as secretary of the Montgomery NAACP, investigated sexual violence against Black women, attended organizer training at Highlander Folk School, and belonged to a network already challenging bus segregation. Her arrest became a catalyst because that network was ready to act.</p><p>After the boycott, economic retaliation and threats pushed Parks and her family to Detroit. She worked for Congressman John Conyers, supported political prisoners, opposed housing inequality and police abuse, and continued organizing into old age.</p>",
+    "whyItMatters": "The fuller Rosa Parks is more useful than the tired seamstress myth. She shows how disciplined organizers can make one refusal resonate through institutions built over years.",
+    "igCaption": "October 24, 2005: Rosa Parks died in Detroit. Her life was larger than one bus ride: investigation, political education, movement networks, economic retaliation, congressional work, and decades of organizing.\n\n#BlackHistoryInRealTime #RosaParks",
+    "tags": [
+      "civil-rights",
+      "women",
+      "activism",
+      "politics"
+    ]
+  },
+  {
+    "fullDate": "2026-10-25",
+    "category": "Military & Institutional Change",
+    "title": "The Army Appointed Its First Black General",
+    "question": "Who became the first Black general in the United States Army on October 25, 1940?",
+    "options": [
+      "Benjamin O. Davis Sr.",
+      "Benjamin O. Davis Jr.",
+      "Daniel James Jr.",
+      "Charles Young"
+    ],
+    "answer": 0,
+    "answerText": "Benjamin O. Davis Sr.",
+    "answerExplanation": "Benjamin O. Davis Sr. was promoted to brigadier general after more than four decades in a segregated Army, often serving in posts where racial rules constrained his command opportunities.",
+    "subject": "Brigadier General Benjamin O. Davis Sr.",
+    "dates": "Promoted October 25, 1940",
+    "encyclopediaSlug": "buffalo-soldiers",
+    "encyclopediaPath": "generated/pages/buffalo-soldiers.html",
+    "story": "<p>On October 25, 1940, Benjamin O. Davis Sr. became the first Black general in the United States Army. The promotion recognized an officer who had served for more than forty years inside an institution that restricted Black soldiers&#039; assignments and authority.</p><p>Davis entered the Army during the Spanish-American War and served with Black units, including the 9th and 10th Cavalry. Military leaders repeatedly placed him in roles shaped by segregation and fears that Black officers might command white troops.</p><p>As a general, Davis advised on policies affecting Black soldiers during World War II and inspected units across the country and abroad. His appointment did not desegregate the military; President Truman&#039;s executive order came in 1948.</p>",
+    "whyItMatters": "Davis' rank marked progress within a segregated structure. The distinction matters because an individual first can expose an institution's barriers without proving those barriers have disappeared.",
+    "igCaption": "October 25, 1940: Benjamin O. Davis Sr. became the first Black general in the U.S. Army. His promotion was historic, and it occurred inside a military that remained formally segregated.\n\n#BlackHistoryInRealTime #MilitaryHistory",
+    "tags": [
+      "military",
+      "leadership",
+      "segregation",
+      "government"
+    ]
+  },
+  {
+    "fullDate": "2026-10-26",
+    "category": "Music & Sacred Power",
+    "title": "A Voice Built in the Storefront Church",
+    "question": "Which gospel singer known for Move On Up a Little Higher was born October 26, 1911?",
+    "options": [
+      "Mahalia Jackson",
+      "Sister Rosetta Tharpe",
+      "Clara Ward",
+      "Marion Williams"
+    ],
+    "answer": 0,
+    "answerText": "Mahalia Jackson",
+    "answerExplanation": "Mahalia Jackson brought the sound of Black church worship to international audiences while supporting the civil-rights movement and refusing pressure to abandon gospel for secular music.",
+    "subject": "Mahalia Jackson",
+    "dates": "October 26, 1911 - January 27, 1972",
+    "encyclopediaSlug": "black-church",
+    "encyclopediaPath": "generated/pages/black-church.html",
+    "story": "<p>Mahalia Jackson was born in New Orleans on October 26, 1911. Her voice carried the improvisation, rhythmic drive, and spiritual intensity of Black church music into concert halls, records, radio, television, and civil-rights gatherings.</p><p>After moving to Chicago, Jackson sang in storefront churches and worked domestic and service jobs while building a career. Her 1947 recording Move On Up a Little Higher became a major gospel success without requiring her to cross into secular repertoire.</p><p>Jackson used her fame and money to support civil-rights work. At the 1963 March on Washington, she called from behind Martin Luther King Jr. for him to tell the audience about the dream, helping prompt the most remembered section of his speech.</p>",
+    "whyItMatters": "Jackson demonstrates that sacred music was not background to the movement. Black churches supplied sound, money, gathering places, emotional endurance, and artists with their own public authority.",
+    "igCaption": "October 26, 1911: Mahalia Jackson was born. Her gospel voice traveled from storefront churches to global stages and civil-rights gatherings without leaving the spiritual tradition that formed it.\n\n#BlackHistoryInRealTime #MahaliaJackson",
+    "tags": [
+      "music",
+      "religion",
+      "civil-rights",
+      "women"
+    ]
+  },
+  {
+    "fullDate": "2026-10-27",
+    "category": "Theater, Film & Activism",
+    "title": "An Artist Who Refused One Role",
+    "question": "Which actor, writer, and activist was born October 27, 1922?",
+    "options": [
+      "Ruby Dee",
+      "Cicely Tyson",
+      "Juanita Moore",
+      "Diahann Carroll"
+    ],
+    "answer": 0,
+    "answerText": "Ruby Dee",
+    "answerExplanation": "Ruby Dee built a career across stage, film, radio, and television while joining civil-rights campaigns with her husband and creative partner Ossie Davis.",
+    "subject": "Ruby Dee",
+    "dates": "October 27, 1922 - June 11, 2014",
+    "encyclopediaSlug": "black-arts-movement",
+    "encyclopediaPath": "generated/pages/black-arts-movement.html",
+    "story": "<p>Ruby Dee was born in Cleveland on October 27, 1922, and grew up in Harlem. She became an actor whose quiet intensity could anchor a stage or film while refusing the industry&#039;s narrow expectations of Black women.</p><p>Dee performed with the American Negro Theatre and appeared in works including A Raisin in the Sun, The Jackie Robinson Story, and later Do the Right Thing. She also wrote, adapted, and performed work grounded in Black family and political life.</p><p>With Ossie Davis, Dee supported civil-rights organizations, spoke at movement events, opposed war, and maintained relationships across artistic and activist communities. Their public partnership was visible, but her craft and political voice were independently developed.</p>",
+    "whyItMatters": "Dee's career shows art and activism sharing a life without becoming identical. She made roles more human while using public visibility to support collective struggle.",
+    "igCaption": "October 27, 1922: Ruby Dee was born. Her work crossed Harlem theater, Hollywood, television, writing, and movement stages, with craft and political commitment informing each other.\n\n#BlackHistoryInRealTime #RubyDee",
+    "tags": [
+      "art",
+      "women",
+      "civil-rights",
+      "literature"
+    ]
+  },
+  {
+    "fullDate": "2026-10-28",
+    "category": "Sports & Leadership",
+    "title": "A Point Guard Became a Coaching Standard",
+    "question": "Which Hall of Fame player and coach was born October 28, 1937?",
+    "options": [
+      "Lenny Wilkens",
+      "Bill Russell",
+      "K.C. Jones",
+      "Al Attles"
+    ],
+    "answer": 0,
+    "answerText": "Lenny Wilkens",
+    "answerExplanation": "Lenny Wilkens became a nine-time NBA All-Star and later coached more games and wins than anyone in league history at the time of his retirement.",
+    "subject": "Lenny Wilkens",
+    "dates": "Born October 28, 1937",
+    "encyclopediaSlug": "sports-integration",
+    "encyclopediaPath": "encyclopedia/sports-integration.html",
+    "story": "<p>Lenny Wilkens was born in Brooklyn on October 28, 1937. He became an elite NBA point guard, then built an even longer coaching career by reading people and possessions with the same patience.</p><p>Wilkens was a nine-time All-Star and served as a player-coach in Seattle and Portland, a demanding dual role. In 1979, he coached the Seattle SuperSonics to the franchise&#039;s first NBA championship.</p><p>By retirement, Wilkens had coached more NBA games and accumulated more wins than any coach before him. He was inducted into the Basketball Hall of Fame separately as both player and coach, while remaining known for steady leadership rather than theatrical authority.</p>",
+    "whyItMatters": "Wilkens expands sports integration from roster access to long-term decision-making. His career shows Black leadership becoming not an exception for one season, but a standard sustained across decades.",
+    "igCaption": "October 28, 1937: Lenny Wilkens was born in Brooklyn. He became a Hall of Fame point guard, a championship coach, and a model of Black authority sustained across decades in professional basketball.\n\n#BlackHistoryInRealTime #LennyWilkens",
+    "tags": [
+      "sports",
+      "leadership",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-10-29",
+    "category": "Education & Supreme Court",
+    "title": "Desegregation Could No Longer Wait",
+    "question": "What did the Supreme Court order in Alexander v. Holmes County on October 29, 1969?",
+    "options": [
+      "Immediate operation of unitary school systems",
+      "A new round of voluntary integration plans",
+      "An end to federal school oversight",
+      "Separate funding for segregated districts"
+    ],
+    "answer": 0,
+    "answerText": "Immediate operation of unitary school systems",
+    "answerExplanation": "The unanimous Court rejected continued delays under freedom-of-choice plans and ordered Mississippi districts to end dual school systems at once.",
+    "subject": "Alexander v. Holmes County Board of Education",
+    "dates": "October 29, 1969",
+    "encyclopediaSlug": "brown-v-board",
+    "encyclopediaPath": "encyclopedia/brown-v-board.html",
+    "story": "<p>On October 29, 1969, the Supreme Court declared that Mississippi school districts had to end dual systems now. Fifteen years after Brown v. Board, many districts were still using delay and nominal choice to preserve schools divided by race.</p><p>Black families and civil-rights lawyers challenged plans that placed the burden on individual students while leaving segregated structures intact. The federal government briefly sought more time, a position that alarmed advocates who had already waited through years of resistance.</p><p>The unanimous Alexander decision said the standard was no longer moving toward a unitary system. Districts had an immediate duty to operate one. Enforcement remained difficult, and school segregation later persisted through housing, district boundaries, and policy choices beyond explicit racial assignment.</p>",
+    "whyItMatters": "Alexander distinguishes a promise from a remedy. Rights delayed by administrative convenience remain rights denied, especially when institutions control the timetable.",
+    "igCaption": "October 29, 1969: the Supreme Court told Mississippi school districts that desegregation could no longer wait. Fifteen years after Brown, moving slowly was still preserving the old system.\n\n#BlackHistoryInRealTime #SchoolDesegregation",
+    "tags": [
+      "education",
+      "law",
+      "segregation",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-10-30",
+    "category": "Sports & Global Culture",
+    "title": "The Rumble in Kinshasa",
+    "question": "Whom did Muhammad Ali defeat in the Rumble in the Jungle on October 30, 1974?",
+    "options": [
+      "George Foreman",
+      "Joe Frazier",
+      "Ken Norton",
+      "Sonny Liston"
+    ],
+    "answer": 0,
+    "answerText": "George Foreman",
+    "answerExplanation": "Ali used a strategy later called rope-a-dope to absorb and deflect Foreman's punches before knocking out the heavily favored champion in the eighth round.",
+    "subject": "The Rumble in the Jungle",
+    "dates": "October 30, 1974",
+    "encyclopediaSlug": "muhammad-ali",
+    "encyclopediaPath": "generated/pages/muhammad-ali.html",
+    "story": "<p>Before dawn on October 30, 1974, Muhammad Ali entered a boxing ring in Kinshasa, Zaire, against heavyweight champion George Foreman. Many observers expected Foreman&#039;s power to overwhelm the older former champion.</p><p>Ali leaned against the ropes, blocked and absorbed punches, talked to Foreman, and conserved energy in humid conditions. In the eighth round, he knocked Foreman down and reclaimed the heavyweight title stripped from him after he refused military induction.</p><p>The event was also a spectacle financed by dictator Mobutu Sese Seko, who used international sport to promote his regime. The crowd&#039;s embrace of Ali expressed Black diasporic identification, but celebration should not erase the political setting.</p>",
+    "whyItMatters": "The fight joined strategy, comeback, global media, African American identity, and authoritarian image-making. Its complexity is larger than one famous knockout.",
+    "igCaption": "October 30, 1974: Muhammad Ali stopped George Foreman in Kinshasa. The comeback was tactical and global, staged inside a spectacle that also served Mobutu's dictatorship.\n\n#BlackHistoryInRealTime #MuhammadAli",
+    "tags": [
+      "sports",
+      "self-determination",
+      "politics"
+    ]
+  },
+  {
+    "fullDate": "2026-10-31",
+    "category": "Sports & Integration",
+    "title": "The NBA's First Step onto the Court",
+    "question": "Who became the first Black player to appear in an NBA game on October 31, 1950?",
+    "options": [
+      "Earl Lloyd",
+      "Chuck Cooper",
+      "Nat Clifton",
+      "Bill Russell"
+    ],
+    "answer": 0,
+    "answerText": "Earl Lloyd",
+    "answerExplanation": "Earl Lloyd played for the Washington Capitols on October 31, 1950. Chuck Cooper was the first Black player drafted, and Nat Clifton was the first to sign an NBA contract.",
+    "subject": "Earl Lloyd Integrates the NBA",
+    "dates": "October 31, 1950",
+    "encyclopediaSlug": "sports-integration",
+    "encyclopediaPath": "encyclopedia/sports-integration.html",
+    "story": "<p>On October 31, 1950, Earl Lloyd entered a game for the Washington Capitols and became the first Black player to appear in the NBA. The distinction came partly from scheduling: three Black pioneers were entering the league that season through different doors.</p><p>Chuck Cooper was the first Black player drafted. Nat Sweetwater Clifton was the first to sign an NBA contract. Lloyd&#039;s team played first, making him the first to take the court. Treating all three milestones carefully replaces a one-name integration story with a cohort.</p><p>Lloyd faced segregated hotels, restaurants, and hostile crowds while traveling for work. He later won an NBA championship with Syracuse and became a coach and personnel executive.</p>",
+    "whyItMatters": "The NBA's integration was not one clean first. Drafting, signing, playing, staying employed, and gaining authority were separate thresholds, each with people and costs behind it.",
+    "igCaption": "October 31, 1950: Earl Lloyd became the first Black player to appear in an NBA game. Chuck Cooper was first drafted. Nat Clifton was first signed. Integration had several doors and several pioneers.\n\n#BlackHistoryInRealTime #NBAHistory",
+    "tags": [
+      "sports",
+      "civil-rights",
+      "labor",
+      "leadership"
+    ]
   }
 ];

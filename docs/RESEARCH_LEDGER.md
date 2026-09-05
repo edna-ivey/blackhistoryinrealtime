@@ -2,7 +2,7 @@
 
 Generated from `content/daily/2026-coverage.js`.
 
-Coverage file contains source URLs used to verify newly scheduled daily entries through 2026-09-07.
+Coverage file contains source URLs used to verify newly scheduled daily entries through 2026-10-31.
 
 ### 2026-05-06 - Denmark Vesey
 
@@ -3779,6 +3779,1652 @@ Coverage file contains source URLs used to verify newly scheduled daily entries 
   - MoMA: One-Way Ticket: Jacob Lawrence's Migration Series (https://www.moma.org/interactives/exhibitions/2015/onewayticket/static/jacob-lawrence/1/)
   - Smithsonian American Art Museum: Oh Freedom! Jacob Lawrence (https://americanart.si.edu/education/oh-freedom/jacob-lawrence-john-brown)
 - Final review status: Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, art-history first-claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-08 - Ruby Bridges
+
+- Entry title: Ruby Bridges
+- Slug: `ruby-bridges`
+- Daily date: 2026-09-08
+- Daily story researched: 2026-09-05
+- Daily story claims: Ruby Bridges was born on September 8, 1954, the same year the Supreme Court rejected legally segregated public schools. Six years later, she became the child expected to make that ruling real in one New Orleans school. Federal marshals escorted Bridges past hostile crowds into William Frantz Elementary. Most white families pulled their children out. Barbara Henry, a teacher from Boston, taught Ruby alone while federal protection followed her family beyond the classroom. The familiar photograph shows a composed little girl between adults. It cannot show the jobs her parents risked, the threats around their home, or what it meant for a first grader to carry a constitutional promise that a city resisted.
+- Daily story sources:
+  - https://www.nps.gov/people/rubybridges.htm
+  - https://www.womenshistory.org/education-resources/biographies/ruby-bridges
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Ruby Bridges was six years old when federal marshals escorted her into William Frantz Elementary School in New Orleans in 1960. The image is famous because a child looks small against the machinery of adult hatred. But the fuller story includes Black parents making hard decisions, federal courts forcing local compliance, white parents withdrawing children, a teacher who stayed, a family paying economic costs, and a little girl spending much of first grade in a classroom by herself. Her page matters because school integration was not carried by policy alone. It was carried by children and families asked to absorb what adults refused to fix.
+- Primary or authoritative sources:
+  - https://www.nps.gov/people/rubybridges.htm
+  - https://www.womenshistory.org/education-resources/biographies/ruby-bridges
+  - https://www.rubybridges.com/
+- Supporting secondary sources:
+  - https://www.whitehousehistory.org/photos/fotoware?id=EE6E91C2F9DD4734%20BB89C5682E9B951C
+  - https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html
+- Verified quotation source: Short quotation traced to Ruby Bridges' official website and cross-checked against institutional biographies.
+- Sensitive or disputed claims reviewed: Age, date of integration, marshals, family retaliation, classroom isolation, Barbara Henry role, other New Orleans children, living status, and Rockwell painting reviewed.
+- Material corrections made: Rebuilt legacy page with fuller attention to family decision-making, federal enforcement, classroom isolation, other New Orleans children, and adult responsibility.
+- External links included on the page:
+  - National Park Service: Ruby Bridges (https://www.nps.gov/people/rubybridges.htm)
+  - National Women's History Museum: Ruby Bridges (https://www.womenshistory.org/education-resources/biographies/ruby-bridges)
+  - Official Ruby Bridges Website: Ruby Bridges (https://www.rubybridges.com/)
+  - White House Historical Association: The Problem We All Live With at the White House (https://www.whitehousehistory.org/photos/fotoware?id=EE6E91C2F9DD4734%20BB89C5682E9B951C)
+  - National Museum of American History: Ruby Bridges and School Desegregation (https://americanhistory.si.edu/brown/history/5-decision/ruby-bridges.html)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, child-centered and living-person claim review.
+
+### 2026-09-09 - The Stono Rebellion
+
+- Entry title: Enslaved Labor & American Infrastructure
+- Slug: `enslaved-labor`
+- Daily date: 2026-09-09
+- Daily story researched: 2026-09-05
+- Daily story claims: On September 9, 1739, enslaved people near South Carolina's Stono River took weapons, raised a banner, and marched south. Their destination mattered: Spanish Florida had offered freedom to people escaping British slavery. The rebels killed several white colonists and drew more participants as they moved. Colonial militia caught them before they reached Florida. Many were killed in the fighting or executed afterward, and some were sold away. South Carolina answered with the 1740 Negro Act, tightening surveillance and restricting assembly, movement, education, and economic independence. The law exposed what enslavers feared: communication, mobility, and collective plans for freedom.
+- Daily story sources:
+  - https://www.scencyclopedia.org/sce/entries/stono-rebellion/
+  - https://www.britannica.com/event/Stono-rebellion
+- Date researched: 2026-08-14
+- Writer/research status: batch-9-complete
+- Material factual claims: American infrastructure was not built only by presidents, architects, engineers, financiers, and founders. It was built by enslaved people whose names were often recorded as costs, rentals, skills, or property, when they were recorded at all. The White House and U.S. Capitol relied on enslaved labor. Universities, banks, plantations, ports, roads, canals, railroads, insurance companies, and early industries drew wealth from slavery directly or through markets tied to slave-produced commodities. This page matters because public memory often separates architecture from labor and national grandeur from coercion. The deeper story is not that every brick was laid by an enslaved person. It is that the nation's physical, financial, and educational institutions grew inside an economy where Black labor was violently extracted and then made easy to forget.
+- Primary or authoritative sources:
+  - https://www.whitehousehistory.org/questions/did-slaves-build-the-white-house
+  - https://www.archives.gov/press/press-releases/2009/nr09-28-images
+  - https://www.aoc.gov/explore-capitol-campus/blog/philip-reid-and-statue-freedom
+- Supporting secondary sources:
+  - https://www.whitehousehistory.org/building-the-white-house?campaign=420949
+  - https://legacyofslaveryreport.harvard.edu/report/summary-of-the-reports-key-findings
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: White House and Capitol construction labor, Philip Reid and Statue of Freedom account, institution-building claims, university ties to slavery, and distinction between direct labor and slave-derived wealth reviewed.
+- Material corrections made: Replaced broad legacy framing and weak external links with careful distinctions between direct enslaved construction labor, financial entanglement, institutional growth, and archival erasure.
+- External links included on the page:
+  - White House Historical Association: Did Enslaved People Build the White House? (https://www.whitehousehistory.org/questions/did-slaves-build-the-white-house)
+  - White House Historical Association: Building the White House (https://www.whitehousehistory.org/building-the-white-house?campaign=420949)
+  - National Archives: Documenting Slaves Who Built the White House and Capitol (https://www.archives.gov/press/press-releases/2009/nr09-28-images)
+  - Architect of the Capitol: Philip Reid and the Statue of Freedom (https://www.aoc.gov/explore-capitol-campus/blog/philip-reid-and-statue-freedom)
+  - Harvard and the Legacy of Slavery: Summary of the Report's Key Findings (https://legacyofslaveryreport.harvard.edu/report/summary-of-the-reports-key-findings)
+- Final review status: Batch 9 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, sensitive institutional-claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-10 - John Roy Lynch
+
+- Entry title: Reconstruction
+- Slug: `reconstruction`
+- Daily date: 2026-09-10
+- Daily story researched: 2026-09-05
+- Daily story claims: John Roy Lynch was born enslaved in Louisiana on September 10, 1847. Before he turned thirty, he had become a newspaper photographer, a state legislator, speaker of Mississippi's House, and a member of Congress. Reconstruction opened political space that Black voters and organizers moved quickly to use. Lynch defended civil rights and public education while white supremacist violence and election fraud worked to destroy both Black officeholding and multiracial government. He lived long enough to see the Reconstruction generation caricatured as incompetent. Lynch answered by writing history, documenting how Black officials governed and how organized violence, not voter failure, dismantled their power.
+- Daily story sources:
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/
+  - https://www.britannica.com/biography/John-R-Lynch
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Reconstruction was the country's best chance to build democracy after slavery, and one of its clearest examples of political abandonment. Between 1865 and 1877, formerly enslaved people reunited families, built schools, negotiated labor, voted, held office, bought land when they could, founded churches, demanded protection, and helped rewrite state constitutions. White supremacists answered with terror, and federal commitment weakened. This page matters because Reconstruction was not a failure of Black citizenship. It was a struggle over whether the United States would defend Black freedom after emancipation. The answer changed the next century of American life.
+- Primary or authoritative sources:
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/
+  - https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/
+  - https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538
+- Supporting secondary sources:
+  - https://constitutioncenter.org/the-constitution/amendments/amendment-xiii
+  - https://www.facinghistory.org/resource-library/reconstruction-era-fragility-democracy
+- Verified quotation source: Short Du Bois quotation traced to Black Reconstruction in America and used as interpretive framing.
+- Sensitive or disputed claims reviewed: Periodization, federal withdrawal, Black Codes, land redistribution limits, white supremacist violence, Lost Cause memory, and constitutional-amendment chronology reviewed.
+- Material corrections made: Expanded scheduled fallback beyond promise-and-abandonment summary into Black agency, federal policy, land, violence, public education, amendments, and memory politics.
+- External links included on the page:
+  - U.S. House of Representatives: Reconstruction and Black Political Activism (https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/)
+  - Library of Congress: Reconstruction and Rights (https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/)
+  - Smithsonian Institution: Make Good the Promises: Reconstruction and Its Legacies (https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538)
+  - National Constitution Center: Reconstruction Amendments (https://constitutioncenter.org/the-constitution/amendments/amendment-xiii)
+  - Facing History & Ourselves: The Reconstruction Era and the Fragility of Democracy (https://www.facinghistory.org/resource-library/reconstruction-era-fragility-democracy)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, chronology and backlash claim review.
+
+### 2026-09-11 - The Christiana Resistance
+
+- Entry title: The Underground Railroad
+- Slug: `underground-railroad`
+- Daily date: 2026-09-11
+- Daily story researched: 2026-09-05
+- Daily story claims: Before dawn on September 11, 1851, a Maryland enslaver and a federal marshal arrived near Christiana, Pennsylvania, to capture men who had escaped slavery. They met a Black community prepared to warn and defend one another. William Parker and his neighbors belonged to an informal protection network. When Edward Gorsuch demanded surrender, residents refused. Fighting followed, Gorsuch was killed, and Parker escaped to Canada through Underground Railroad connections. Federal authorities charged dozens with treason, hoping to make resistance to the Fugitive Slave Act an attack on the nation itself. The first defendant was acquitted, and prosecutors abandoned the remaining treason cases.
+- Daily story sources:
+  - https://www.nps.gov/subjects/undergroundrailroad/index.htm
+  - https://www.loc.gov/resource/llst.026/?sp=1
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: The Underground Railroad was not underground and not a railroad. It was a changing network of people, routes, homes, churches, waterways, wagons, free Black communities, Native allies, abolitionists, maritime workers, and local knowledge used by enslaved people seeking freedom. The popular version often turns escape into a rescue story led by benevolent outsiders. The deeper history starts with self-emancipating people themselves. They planned, listened, hid, walked, negotiated, trusted, doubted, and kept moving with slave catchers, federal law, hunger, weather, and betrayal around them. This page matters because freedom work is infrastructure. It can look like a door opened at night, a warning passed quietly, a river crossed, a name changed, or a community risking everything so someone else can live unowned.
+- Primary or authoritative sources:
+  - https://www.nps.gov/subjects/undergroundrailroad/index.htm
+  - https://www.nps.gov/orgs/1205/
+  - https://www.nps.gov/liho/learn/historyculture/underground-railroad.htm
+- Supporting secondary sources:
+  - https://www.archives.gov/milestone-documents/compromise-of-1850
+  - https://constitutioncenter.org/the-constitution/historic-document-library/detail/the-fugitive-slave-act-1850
+  - https://harriettubmanbyway.org/
+- Verified quotation source: No quotation included. Network terminology and Fugitive Slave Act claims verified through NPS, LOC, and National Archives.
+- Sensitive or disputed claims reviewed: Self-emancipation framing, free Black community role, white abolitionist role, routes beyond the North, Fugitive Slave Acts, and Tubman context reviewed.
+- Material corrections made: Expanded scheduled fallback beyond metaphor into agency, infrastructure, law, Black community networks, and Civil War transition.
+- External links included on the page:
+  - National Park Service: Underground Railroad (https://www.nps.gov/subjects/undergroundrailroad/index.htm)
+  - National Park Service: National Underground Railroad Network to Freedom (https://www.nps.gov/orgs/1205/)
+  - National Park Service: The Underground Railroad (https://www.nps.gov/liho/learn/historyculture/underground-railroad.htm)
+  - National Archives: Compromise of 1850 (https://www.archives.gov/milestone-documents/compromise-of-1850)
+  - National Constitution Center: The Fugitive Slave Act of 1850 (https://constitutioncenter.org/the-constitution/historic-document-library/detail/the-fugitive-slave-act-1850)
+  - Harriet Tubman Underground Railroad Byway: Harriet Tubman Underground Railroad Byway (https://harriettubmanbyway.org/)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, self-emancipation/network claim review.
+
+### 2026-09-12 - Dr. Mae Jemison
+
+- Entry title: Mae Jemison
+- Slug: `mae-jemison`
+- Daily date: 2026-09-12
+- Daily story researched: 2026-09-05
+- Daily story claims: When Space Shuttle Endeavour lifted off on September 12, 1992, Mae Jemison carried more than experiments into orbit. She became the first Black woman to travel in space, entering a field where imagination had long outrun access. Jemison was a physician, engineer, Peace Corps medical officer, and dancer before NASA selected her for astronaut training. On STS-47, she studied motion sickness, bone-cell development, and other life-science questions in microgravity. Her flight lasted eight days, but she refused to let the achievement become a story about one exceptional person. After NASA, she built science-education programs and argued that art, social responsibility, and technology belong in the same future.
+- Daily story sources:
+  - https://www.nasa.gov/former-astronaut-mae-c-jemison/
+  - https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_mae_jemison.html
+- Date researched: 2026-08-14
+- Writer/research status: batch-15-complete
+- Material factual claims: Mae Jemison is remembered as the first Black woman to travel in space, but the flight was one chapter in a much larger life of science, medicine, engineering, dance, global health, and imagination. Born in Alabama and raised in Chicago, Jemison entered Stanford at 16, earned degrees in chemical engineering and African and Afro-American studies, completed medical school at Cornell, served as a Peace Corps medical officer in Sierra Leone and Liberia, and then joined NASA. On STS-47 in 1992, she worked as a mission specialist aboard Endeavour. Her story matters because she refused the narrow script that told Black girls science belonged somewhere else. She made space exploration look less like escape from Earth and more like responsibility to it.
+- Primary or authoritative sources:
+  - https://www.nasa.gov/former-astronaut-mae-c-jemison/
+  - https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_mae_jemison.html
+  - https://science.nasa.gov/resource/pioneers-and-innovators-women-of-color/
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/mae-jemison
+  - https://www.energy.gov/articles/five-fast-facts-about-astronaut-mae-jemison
+- Verified quotation source: Short classroom quotation traced to National Library of Medicine Changing the Face of Medicine profile.
+- Sensitive or disputed claims reviewed: First Black woman in space, STS-47 experiment claims, Peace Corps role, Stanford/Cornell education, Bessie Coleman tribute, and present-day living status reviewed.
+- Material corrections made: Replaced legacy page with deeper medical, engineering, global health, and science-literacy context and removed stale challenge wording.
+- External links included on the page:
+  - NASA: Former Astronaut Mae C. Jemison (https://www.nasa.gov/former-astronaut-mae-c-jemison/)
+  - National Library of Medicine: Biography: Dr. Mae C. Jemison (https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_mae_jemison.html)
+  - NASA Science: Pioneers and Innovators: Women of Color (https://science.nasa.gov/resource/pioneers-and-innovators-women-of-color/)
+  - National Women's History Museum: Mae Jemison (https://www.womenshistory.org/education-resources/biographies/mae-jemison)
+  - Department of Energy: Five Fast Facts about Astronaut Mae Jemison (https://www.energy.gov/articles/five-fast-facts-about-astronaut-mae-jemison)
+- Final review status: Batch 15 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, science/space first-claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-13 - Alain Locke
+
+- Entry title: The Harlem Renaissance
+- Slug: `harlem-renaissance`
+- Daily date: 2026-09-13
+- Daily story researched: 2026-09-05
+- Daily story claims: Alain Locke was born in Philadelphia on September 13, 1885. He became the first Black Rhodes Scholar, a Howard University philosopher, and an editor who helped Black artists describe a modern identity on their own terms. The New Negro gathered fiction, poetry, visual art, music criticism, and social analysis. Locke presented the Harlem Renaissance not as entertainment for white audiences, but as an intellectual and artistic shift shaped by migration and self-definition. His role was influential and complicated. Locke promoted younger artists while sometimes favoring polished cultural achievement over more confrontational politics. The movement was never one person's program, even when his anthology gave it a durable frame.
+- Daily story sources:
+  - https://nmaahc.si.edu/alain-locke
+  - https://plato.stanford.edu/entries/alain-locke/
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Harlem Renaissance was not a sudden flowering from nowhere. It grew from migration, Black newspapers, publishing networks, cabarets, churches, salons, colleges, political debate, and a neighborhood where Black artists found one another at scale. Harlem became a symbol, but the movement reached beyond Harlem into Washington, Chicago, Philadelphia, Paris, and the rural South that many artists carried in memory. This page matters because the Renaissance was both breakthrough and constraint. Black artists gained visibility, but white patrons, publishers, club owners, and critics still shaped access. The deeper story is not simply genius finally noticed. It is Black artists arguing over audience, folk culture, respectability, modernism, money, sexuality, and the right to make art from the fullness of Black life.
+- Primary or authoritative sources:
+  - https://www.loc.gov/classroom-materials/harlem-renaissance/
+  - https://www.nga.gov/learn/teachers/lessons-activities/african-american-art/harlem-renaissance.html
+  - https://nmaahc.si.edu/explore/stories/harlem-renaissance
+- Supporting secondary sources:
+  - https://www.poetryfoundation.org/collections/145704/an-introduction-to-the-harlem-renaissance
+  - https://www.metmuseum.org/exhibitions/the-harlem-renaissance-and-transatlantic-modernism
+- Verified quotation source: No quotation included. Movement dates, figures, and patronage claims cross-checked against institutional sources.
+- Sensitive or disputed claims reviewed: Movement periodization, Cotton Club segregation, patronage, women's roles, sexuality/class themes, and Depression-era decline reviewed.
+- Material corrections made: Rebuilt legacy page with fuller movement context, institutions, women, patronage, visual art, music, and continuing influence.
+- External links included on the page:
+  - Library of Congress: Harlem Renaissance (https://www.loc.gov/classroom-materials/harlem-renaissance/)
+  - National Gallery of Art: Harlem Renaissance (https://www.nga.gov/learn/teachers/lessons-activities/african-american-art/harlem-renaissance.html)
+  - Poetry Foundation: An Introduction to the Harlem Renaissance (https://www.poetryfoundation.org/collections/145704/an-introduction-to-the-harlem-renaissance)
+  - National Museum of African American History and Culture: Harlem Renaissance (https://nmaahc.si.edu/explore/stories/harlem-renaissance)
+  - The Metropolitan Museum of Art: The Harlem Renaissance and Transatlantic Modernism (https://www.metmuseum.org/exhibitions/the-harlem-renaissance-and-transatlantic-modernism)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, movement claim review.
+
+### 2026-09-14 - Constance Baker Motley
+
+- Entry title: Constance Baker Motley
+- Slug: `constance-baker-motley`
+- Daily date: 2026-09-14
+- Daily story researched: 2026-09-05
+- Daily story claims: Constance Baker Motley was born on September 14, 1921, to Caribbean immigrant parents in New Haven. Courtrooms built to exclude people like her became the places where she forced American institutions to answer their own laws. As an NAACP Legal Defense Fund lawyer, Motley worked on Brown v. Board litigation and represented students seeking entry to segregated universities. She won James Meredith's case against the University of Mississippi and argued before the Supreme Court. Motley later entered New York politics and, in 1966, became the first Black woman to serve as a federal judge. Her career crossed advocacy, legislation, executive government, and the bench without making any of those institutions seem naturally fair.
+- Daily story sources:
+  - https://www.fjc.gov/history/judges/motley-constance-baker
+  - https://www.uscourts.gov/data-news/judiciary-news/2020/02/20/constance-baker-motley-judiciarys-unsung-rights-hero
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Constance Baker Motley argued civil-rights cases, wrote legal briefs, represented students and protesters, entered politics, and became the first Black woman appointed to the federal judiciary. Yet she is still too often treated as a supporting character in other people's stories. Motley helped write the first Brown v. Board complaint, represented James Meredith, defended Freedom Riders and sit-in activists, and won case after case against segregation. Her career shows what legal courage looks like when it is not theatrical: preparation, stamina, precision, and the willingness to walk into hostile courts with Black clients whose futures depended on the record she built.
+- Primary or authoritative sources:
+  - https://www.uscourts.gov/data-news/judiciary-news/2020/02/20/constance-baker-motley-judiciarys-unsung-rights-hero
+  - https://www.fjc.gov/history/judges/Motley-Constance-Baker
+- Supporting secondary sources:
+  - https://blackhistory.news.columbia.edu/people/constance-baker-motley
+  - https://civics.supremecourthistory.org/article/constance-baker-motley/
+- Verified quotation source: U.S. Courts article quoting Motley.
+- Sensitive or disputed claims reviewed: First Black woman federal judge claim, Brown complaint role, James Meredith litigation, electoral offices, and gendered professional barriers reviewed.
+- Material corrections made: Expanded scheduled fallback into a deeper account of litigation craft, movement law, political office, and judicial service.
+- External links included on the page:
+  - U.S. Courts: Constance Baker Motley: Judiciary's Unsung Rights Hero (https://www.uscourts.gov/data-news/judiciary-news/2020/02/20/constance-baker-motley-judiciarys-unsung-rights-hero)
+  - Federal Judicial Center: Motley, Constance Baker (https://www.fjc.gov/history/judges/Motley-Constance-Baker)
+  - Columbia University: Constance Baker Motley (https://blackhistory.news.columbia.edu/people/constance-baker-motley)
+  - Supreme Court Historical Society: Constance Baker Motley (https://civics.supremecourthistory.org/article/constance-baker-motley/)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-15 - The 16th Street Baptist Church Bombing
+
+- Entry title: Birmingham Children's Crusade
+- Slug: `birmingham-childrens-crusade`
+- Daily date: 2026-09-15
+- Daily story researched: 2026-09-05
+- Daily story claims: On Sunday morning, September 15, 1963, dynamite exploded beneath 16th Street Baptist Church in Birmingham. Four girls preparing for Youth Day were killed: Addie Mae Collins, Denise McNair, Carole Robertson, and Cynthia Wesley. The church was not chosen at random. It had been a meeting place and organizing center during the Birmingham campaign, where children had marched months earlier against segregation. White supremacists targeted both a sacred space and a movement institution. Public grief intensified pressure for federal civil-rights legislation, but accountability came slowly. One perpetrator was convicted in 1977; two others were convicted decades later. The delay revealed how institutions could know about racist terror and still postpone justice.
+- Daily story sources:
+  - https://www.nps.gov/articles/16thstreetbaptist.htm
+  - https://www.fbi.gov/history/famous-cases/baptist-street-church-bombing
+- Date researched: 2026-08-13
+- Writer/research status: first-batch-reviewed
+- Material factual claims: The Birmingham Children's Crusade is often remembered through shocking photographs of fire hoses and police dogs. Those images matter, but they are not the whole story. The campaign grew from months of local organizing against one of the most aggressively segregated cities in the country. Young people joined because adult workers faced firings and retaliation, and because students were not just future citizens. They were already living under segregation. The strategy was controversial, including inside the movement. It exposed how far Birmingham officials would go to protect white supremacy, and it helped push federal civil-rights action by making the cost of delay visible.
+- Primary or authoritative sources:
+  - https://www.nps.gov/bicr/learn/proclamation.htm
+- Supporting secondary sources:
+  - https://kinginstitute.stanford.edu/birmingham-campaign
+  - https://www.nps.gov/articles/000/getaway-bicr.htm
+  - https://www.bcri.org/
+- Verified quotation source: King Institute Birmingham Campaign entry quoting King's May 6, 1963 encouragement to parents.
+- Sensitive or disputed claims reviewed: Police dogs, fire hoses, child arrests, internal debate over child participation, and 16th Street Baptist Church bombing reviewed against King Institute and NPS.
+- Material corrections made: Added strategic context and controversy instead of presenting youth protest as a simple inspirational scene.
+- External links included on the page:
+  - King Institute: Birmingham Campaign encyclopedia entry (https://kinginstitute.stanford.edu/birmingham-campaign)
+  - National Park Service: Presidential proclamation for Birmingham Civil Rights National Monument (https://www.nps.gov/bicr/learn/proclamation.htm)
+  - National Park Service: Birmingham Civil Rights National Monument getaway (https://www.nps.gov/articles/000/getaway-bicr.htm)
+  - Birmingham Civil Rights Institute: Birmingham Civil Rights Institute (https://www.bcri.org/)
+- Final review status: Rebuilt rich encyclopedia entry. Requires later whole-encyclopedia final audit.
+
+### 2026-09-16 - B.B. King
+
+- Entry title: The Blues
+- Slug: `the-blues`
+- Daily date: 2026-09-16
+- Daily story researched: 2026-09-05
+- Daily story claims: Riley B. King was born on a Mississippi cotton plantation on September 16, 1925. As B.B. King, he turned a guitar phrase into a human voice, bending and sustaining notes until one line could carry longing, humor, warning, and release. King sang gospel, worked farm labor, and performed on Memphis radio before touring relentlessly. His sound joined Delta traditions, electric amplification, jazz harmony, and a precise vibrato that generations of guitarists studied. Commercial categories often kept Black blues musicians outside the pop market they helped create. King crossed some of those boundaries without pretending the blues had become painless. He performed thousands of shows and treated the music as a living practice, not a museum piece.
+- Daily story sources:
+  - https://www.si.edu/object/bb-kings-guitar-lucille:nmah_606830
+  - https://www.britannica.com/biography/B-B-King
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The blues is not just sad music, and it is not just the raw material other genres borrowed from. It is a Black musical language shaped by work, migration, church, dance, desire, humor, grief, and invention. Emerging from African American life in the South after slavery, blues musicians turned everyday speech, bent notes, repeated lines, guitar figures, piano patterns, and personal testimony into an art form that changed the sound of the world. This page matters because the blues is often honored after being stripped for parts. Rock, jazz, R&B, soul, country, and hip-hop all carry its influence, but the people who built the form were often exploited, underpaid, copied, or remembered only as sources for someone else's greatness.
+- Primary or authoritative sources:
+  - https://music.si.edu/story/blues
+  - https://blogs.loc.gov/folklife/2020/06/black-lives-and-the-blues/
+  - https://nmaahc.si.edu/explore/exhibitions/musical-crossroads
+- Supporting secondary sources:
+  - https://visitmississippi.org/bluestrail/
+  - https://blues.org/blues-hall-of-fame/
+- Verified quotation source: No lyrics quoted. Song title mentioned only as historical recording title.
+- Sensitive or disputed claims reviewed: Origins, Mamie Smith commercial breakthrough, women's centrality, Great Migration/electric blues, genre influence, and exploitation claims reviewed.
+- Material corrections made: Rebuilt legacy page beyond source-of-everything shorthand into a fuller account of form, women performers, migration, ownership, exploitation, and living tradition.
+- External links included on the page:
+  - Smithsonian Music: The Blues (https://music.si.edu/story/blues)
+  - Library of Congress: Blues as Protest (https://blogs.loc.gov/folklife/2020/06/black-lives-and-the-blues/)
+  - National Museum of African American History and Culture: Musical Crossroads (https://nmaahc.si.edu/explore/exhibitions/musical-crossroads)
+  - Mississippi Blues Trail: Mississippi Blues Trail (https://visitmississippi.org/bluestrail/)
+  - The Blues Foundation: Blues Hall of Fame (https://blues.org/blues-hall-of-fame/)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no lyric quotation.
+
+### 2026-09-17 - Dred Scott
+
+- Entry title: Dred Scott
+- Slug: `dred-scott`
+- Daily date: 2026-09-17
+- Daily story researched: 2026-09-05
+- Daily story claims: Dred Scott died in St. Louis on September 17, 1858, only a short time after he and his family became legally free. The court case carrying his name had already declared that Black people could not be United States citizens. Scott and his wife, Harriet, sued because their enslaver had taken them into free territory. Their freedom suits drew on a legal tradition other enslaved Missourians had used successfully. The Supreme Court instead expanded slavery's protection and denied Black belonging. The decision helped deepen the national crisis before the Civil War. It also obscured the family at its center: two parents using law to secure a future for themselves and their daughters, not abstract figures volunteering for a constitutional test.
+- Daily story sources:
+  - https://www.nps.gov/jeff/planyourvisit/dredscott.htm
+  - https://www.archives.gov/milestone-documents/dred-scott-v-sandford
+- Date researched: 2026-08-14
+- Writer/research status: batch-7-complete
+- Material factual claims: Dred Scott v. Sandford is remembered as a Supreme Court decision, but it began as a family's freedom suit. Dred Scott, Harriet Robinson Scott, and their daughters had lived in places where slavery was prohibited, then sued in Missouri courts for freedom. By 1857, the case had become a national weapon. Chief Justice Roger Taney's opinion said Black people could not be U.S. citizens and that Congress lacked power to ban slavery in federal territories. The decision did not settle the slavery conflict. It exposed how far the Court would go to protect slaveholding power, and it helped push the country closer to Civil War.
+- Primary or authoritative sources:
+  - https://www.archives.gov/milestone-documents/dred-scott-v-sandford
+  - https://www.loc.gov/item/usrep060393/
+- Supporting secondary sources:
+  - https://www.archives.gov/kansas-city/highlights/dred-scott
+  - https://www.nps.gov/people/dred-scott.htm
+  - https://www.oyez.org/cases/1850-1900/60us393
+- Verified quotation source: National Archives transcript and Library of Congress United States Reports record of Dred Scott v. Sandford.
+- Sensitive or disputed claims reviewed: Citizenship holding, Harriet Scott role, family freedom, Sandford spelling, Missouri precedent, territorial slavery holding, and amendment reversal reviewed.
+- Material corrections made: Expanded scheduled fallback into a family-centered constitutional history and corrected the date field from decision-only framing to Dred Scott life dates.
+- External links included on the page:
+  - National Archives: Dred Scott v. Sandford (1857) (https://www.archives.gov/milestone-documents/dred-scott-v-sandford)
+  - National Archives: Dred Scott (https://www.archives.gov/kansas-city/highlights/dred-scott)
+  - National Park Service: Dred Scott (https://www.nps.gov/people/dred-scott.htm)
+  - Library of Congress: Dred Scott v. Sandford, 60 U.S. 393 (https://www.loc.gov/item/usrep060393/)
+  - Oyez: Dred Scott v. Sandford (https://www.oyez.org/cases/1850-1900/60us393)
+- Final review status: Batch 7 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 5 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-18 - Booker T. Washington and the Atlanta Address
+
+- Entry title: Booker T. Washington
+- Slug: `booker-t-washington`
+- Daily date: 2026-09-18
+- Daily story researched: 2026-09-05
+- Daily story claims: On September 18, 1895, Booker T. Washington spoke before a largely white audience at the Cotton States and International Exposition in Atlanta. His address made him nationally powerful and fixed a debate that followed him for the rest of his life. Washington emphasized vocational education, Black business, and economic self-help. He reassured white listeners that immediate social integration was not his demand. Newspapers praised the speech, while critics later called the bargain too costly under expanding Jim Crow. The simplified version sets Washington against W.E.B. Du Bois as accommodation versus protest. Washington also built institutions, funded legal challenges privately, and navigated donors who expected restraint. His strategy held real power and real limits.
+- Daily story sources:
+  - https://www.loc.gov/exhibits/african/afam009.html
+  - https://www.tuskegee.edu/legacy/booker-t-washington.html
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Booker T. Washington built power through a difficult bargain. Born enslaved in Virginia, he became the founding principal of Tuskegee Institute and one of the most influential Black leaders in the United States. He raised money, built buildings, trained students, advised presidents, and argued for industrial education and economic self-help. He also urged public compromise with segregation in ways that drew sharp criticism from W.E.B. Du Bois, Ida B. Wells, and others. Washington's story is not simple hero or sellout. It is a study in institution-building under white supremacy, the costs of accommodation, and the question Black leaders have faced again and again: what can be built when open demands may bring violent backlash?
+- Primary or authoritative sources:
+  - https://www.tuskegee.edu/legacy/booker-t-washington.html
+  - https://www.loc.gov/item/mss44669_01
+- Supporting secondary sources:
+  - https://www.tuskegee.edu/explore/History-and-Mission.html
+  - https://www.nps.gov/thri/bookertwashington.htm
+- Verified quotation source: Library of Congress Atlanta Exposition Address manuscript and recording context.
+- Sensitive or disputed claims reviewed: Enslaved birth, Tuskegee founding roles, Atlanta Compromise interpretation, quiet anti-segregation funding, criticism by Du Bois/Wells, and White House dinner backlash reviewed.
+- Material corrections made: Expanded daily debate framing into a full institution-building and accommodation-strategy account.
+- External links included on the page:
+  - Tuskegee University: Booker T. Washington (https://www.tuskegee.edu/legacy/booker-t-washington.html)
+  - Tuskegee University: History and Mission (https://www.tuskegee.edu/explore/History-and-Mission.html)
+  - Library of Congress: Atlanta Exposition Speech manuscript (https://www.loc.gov/item/mss44669_01)
+  - National Park Service: Booker T. Washington and Theodore Roosevelt (https://www.nps.gov/thri/bookertwashington.htm)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-19 - The Camilla Massacre
+
+- Entry title: Reconstruction
+- Slug: `reconstruction`
+- Daily date: 2026-09-19
+- Daily story researched: 2026-09-05
+- Daily story claims: On September 19, 1868, hundreds of Black Georgians walked toward Camilla for a Republican rally. Local white officials ordered them to surrender their weapons, then white attackers opened fire as marchers entered town. The gathering was part of Reconstruction politics, when newly enfranchised Black men and white allies organized openly. Participants were chased for miles. Contemporary estimates of the dead vary, but many more were wounded and robbed. Federal investigators documented the violence, yet meaningful prosecution did not follow. The attack did political work: it warned Black citizens that voting, marching, and holding office could bring organized terror backed by local authority.
+- Daily story sources:
+  - https://www.georgiaencyclopedia.org/articles/history-archaeology/camilla-massacre/
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Reconstruction was the country's best chance to build democracy after slavery, and one of its clearest examples of political abandonment. Between 1865 and 1877, formerly enslaved people reunited families, built schools, negotiated labor, voted, held office, bought land when they could, founded churches, demanded protection, and helped rewrite state constitutions. White supremacists answered with terror, and federal commitment weakened. This page matters because Reconstruction was not a failure of Black citizenship. It was a struggle over whether the United States would defend Black freedom after emancipation. The answer changed the next century of American life.
+- Primary or authoritative sources:
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/
+  - https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/
+  - https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538
+- Supporting secondary sources:
+  - https://constitutioncenter.org/the-constitution/amendments/amendment-xiii
+  - https://www.facinghistory.org/resource-library/reconstruction-era-fragility-democracy
+- Verified quotation source: Short Du Bois quotation traced to Black Reconstruction in America and used as interpretive framing.
+- Sensitive or disputed claims reviewed: Periodization, federal withdrawal, Black Codes, land redistribution limits, white supremacist violence, Lost Cause memory, and constitutional-amendment chronology reviewed.
+- Material corrections made: Expanded scheduled fallback beyond promise-and-abandonment summary into Black agency, federal policy, land, violence, public education, amendments, and memory politics.
+- External links included on the page:
+  - U.S. House of Representatives: Reconstruction and Black Political Activism (https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/)
+  - Library of Congress: Reconstruction and Rights (https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/)
+  - Smithsonian Institution: Make Good the Promises: Reconstruction and Its Legacies (https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538)
+  - National Constitution Center: Reconstruction Amendments (https://constitutioncenter.org/the-constitution/amendments/amendment-xiii)
+  - Facing History & Ourselves: The Reconstruction Era and the Fragility of Democracy (https://www.facinghistory.org/resource-library/reconstruction-era-fragility-democracy)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, chronology and backlash claim review.
+
+### 2026-09-20 - The First National Negro Convention
+
+- Entry title: The Black Church
+- Slug: `black-church`
+- Daily date: 2026-09-20
+- Daily story researched: 2026-09-05
+- Daily story claims: On September 20, 1830, Black delegates gathered at Mother Bethel AME Church in Philadelphia. They came from communities facing mob violence, voting restrictions, school exclusion, kidnapping, and pressure to leave the country. The convention debated education, jobs, mutual aid, abolition, and whether emigration to Canada offered greater safety. Bishop Richard Allen presided. The meeting began a national convention movement decades before emancipation. Delegates did not agree on every strategy, and that disagreement was part of the institution they were building. Black political thought developed through resolutions, committees, newspapers, churches, and repeated meetings, not only through famous speeches.
+- Daily story sources:
+  - https://coloredconventions.org/
+  - https://www.loc.gov/resource/rbaapc.19200/?sp=1
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The Black church has never been only Sunday morning. Across generations, Black congregations have held worship, education, burial societies, political meetings, music, mutual aid, childcare, fundraising, debate, grief, and strategy. That does not mean every Black person is Christian or every Black church has been liberating in the same way. The institution is powerful because it is human: full of faith, hierarchy, care, conflict, gendered labor, prophetic courage, respectability politics, and community survival. This page matters because Black freedom work needed places where people could gather without asking white institutions for permission. The Black church often became that room, not perfect, but strong enough to hold a people under pressure.
+- Primary or authoritative sources:
+  - https://www.pbs.org/weta/black-church/
+  - https://nmaahc.si.edu/explore/stories/black-church
+  - https://guides.loc.gov/religion-collections-libraries-archives/dc-smithsonian-national-museum-african-american-hist-culture
+- Supporting secondary sources:
+  - https://www.nps.gov/articles/000/inde-preamble-and-articles-of-association-for-the-free-african-society.htm
+  - https://www.pewresearch.org/religion/2021/02/16/faith-among-black-americans/
+- Verified quotation source: No quotation included. Institutional claims summarized from PBS, NMAAHC, LOC, NPS, and Pew sources.
+- Sensitive or disputed claims reviewed: Christianity and slavery, denominational variety, women's labor, queer exclusion, civil-rights infrastructure, and church-targeted violence reviewed.
+- Material corrections made: Expanded scheduled fallback beyond organizing shorthand into faith, institution-building, music, contradictions, and community infrastructure.
+- External links included on the page:
+  - PBS: The Black Church (https://www.pbs.org/weta/black-church/)
+  - National Museum of African American History and Culture: The Black Church (https://nmaahc.si.edu/explore/stories/black-church)
+  - Library of Congress: African American Religion Collections (https://guides.loc.gov/religion-collections-libraries-archives/dc-smithsonian-national-museum-african-american-hist-culture)
+  - National Park Service: Free African Society Articles of Association (https://www.nps.gov/articles/000/inde-preamble-and-articles-of-association-for-the-free-african-society.htm)
+  - Pew Research Center: Faith Among Black Americans (https://www.pewresearch.org/religion/2021/02/16/faith-among-black-americans/)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, Black church institution claim review.
+
+### 2026-09-21 - Maria Stewart
+
+- Entry title: Black Women in Politics
+- Slug: `black-women-in-politics`
+- Daily date: 2026-09-21
+- Daily story researched: 2026-09-05
+- Daily story claims: On September 21, 1832, Maria Stewart addressed Boston's New England Anti-Slavery Society. A Black woman speaking publicly about politics to women and men was itself a challenge to the rules of race and gender. Stewart argued that slavery, poverty, denied education, and prejudice were connected. She called on Black communities to pursue knowledge and collective advancement while naming white oppression directly. Her essays also appeared in William Lloyd Garrison's newspaper The Liberator. Hostility toward women lecturers helped shorten her public speaking career, but not her life of service. Stewart later taught, worked as a matron at Freedmen's Hospital, and secured a pension based on her late husband's War of 1812 service.
+- Daily story sources:
+  - https://www.britannica.com/biography/Maria-Stewart
+  - https://www.loc.gov/resource/rbaapc.20100/?sp=1
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Black women built American democracy while being repeatedly told to wait their turn. They organized against slavery, documented lynching, built clubs, marched for suffrage, registered voters under terror, challenged party credentials, ran for office, wrote legislation, and governed communities before institutions fully admitted them. The story is not only a march from exclusion to representation. It is a history of labor that made representation possible. From Frances Ellen Watkins Harper, Mary Church Terrell, Ida B. Wells, and Fannie Lou Hamer to Shirley Chisholm, Barbara Jordan, Carol Moseley Braun, Kamala Harris, and many local leaders, Black women have treated politics as survival work, community work, and power work all at once.
+- Primary or authoritative sources:
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Permanent-Interest/Fight-Doubly-Hard/
+  - https://history.house.gov/historicalhighlight/detail/37113
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer
+  - https://history.house.gov/People/Detail/10918
+- Verified quotation source: U.S. House History historical highlight quoting Shirley Chisholm.
+- Sensitive or disputed claims reviewed: First claims, Nineteenth Amendment limits, voter suppression, Black women congressional history, and Harris vice-presidential firsts reviewed.
+- Material corrections made: Expanded legacy list into a deeper collective political history centered on grassroots work, elected office, and institutional power.
+- External links included on the page:
+  - U.S. House History, Art & Archives: To Fight Doubly Hard (https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Permanent-Interest/Fight-Doubly-Hard/)
+  - U.S. House History, Art & Archives: The First African-American Woman Elected to Congress (https://history.house.gov/historicalhighlight/detail/37113)
+  - National Women's History Museum: Fannie Lou Hamer (https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer)
+  - U.S. House History, Art & Archives: Shirley Chisholm biography (https://history.house.gov/People/Detail/10918)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style encyclopedia-only page, ledger record, internal links, 4 external links, depth validation, desktop/mobile browser check.
+
+### 2026-09-22 - The Preliminary Emancipation Proclamation
+
+- Entry title: Mass Incarceration & the 13th Amendment
+- Slug: `13th-amendment`
+- Daily date: 2026-09-22
+- Daily story researched: 2026-09-05
+- Daily story claims: On September 22, 1862, Abraham Lincoln issued the preliminary Emancipation Proclamation. It announced that enslaved people in states still rebelling on January 1 would be declared free, turning emancipation into an explicit Union war aim. The order was limited. It did not apply to loyal slave states or areas already under Union control, and freedom on paper moved only as federal power advanced. Enslaved people had already forced the issue by escaping to Union lines, withholding labor, sharing intelligence, and pressing the war toward emancipation. The final proclamation also authorized Black military service. Nearly 180,000 Black men served in the Union Army, helping make freedom enforceable while fighting for citizenship the nation had denied them.
+- Daily story sources:
+  - https://www.archives.gov/milestone-documents/emancipation-proclamation
+  - https://www.loc.gov/resource/rbpe.24404500/
+- Date researched: 2026-08-16
+- Writer/research status: batch-16-complete
+- Material factual claims: The 13th Amendment abolished slavery in the United States, but it did not abolish every legal form of forced labor. Its exception clause allows slavery or involuntary servitude as punishment for crime after conviction. That clause did not automatically create modern mass incarceration, but it became one constitutional opening through which states rebuilt racial control after the Civil War. Black Codes, convict leasing, chain gangs, prison labor, felony disenfranchisement, the War on Drugs, mandatory sentencing, and racialized policing belong to different eras, but they are connected by a recurring pattern: criminal law has often been used to decide whose labor, movement, vote, and body the state can control. This page matters because the history is not a slogan. It is a chain of policy choices that must be traced carefully.
+- Primary or authoritative sources:
+  - https://www.archives.gov/milestone-documents/13th-amendment
+  - https://eji.org/news/history-racial-injustice-convict-leasing/
+  - https://www.sentencingproject.org/reports/the-color-of-justice-racial-and-ethnic-disparity-in-state-prisons-the-sentencing-project/
+- Supporting secondary sources:
+  - https://www.pbs.org/tpt/slavery-by-another-name/themes/convict-leasing/
+  - https://www.brennancenter.org/our-work/analysis-opinion/history-mass-incarceration
+- Verified quotation source: Quotation is the National Archives transcript of the 13th Amendment.
+- Sensitive or disputed claims reviewed: Exception-clause language, Black Codes, convict leasing chronology, Nixon/drug-war claims, crack-powder disparity, prison racial-disparity statistics, and continuity-versus-causation framing reviewed.
+- Material corrections made: Replaced legacy page with careful system history, removed unsupported invented quote, and avoided overclaiming the 13th Amendment as the sole cause of mass incarceration.
+- External links included on the page:
+  - National Archives: 13th Amendment to the U.S. Constitution (https://www.archives.gov/milestone-documents/13th-amendment)
+  - Equal Justice Initiative: Convict Leasing (https://eji.org/news/history-racial-injustice-convict-leasing/)
+  - PBS: Convict Leasing (https://www.pbs.org/tpt/slavery-by-another-name/themes/convict-leasing/)
+  - The Sentencing Project: The Color of Justice (https://www.sentencingproject.org/reports/the-color-of-justice-racial-and-ethnic-disparity-in-state-prisons-the-sentencing-project/)
+  - Brennan Center for Justice: A Brief History of Mass Incarceration (https://www.brennancenter.org/our-work/analysis-opinion/history-mass-incarceration)
+- Final review status: Batch 16 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified constitutional quotation, legal/statistical claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-23 - Mary Church Terrell
+
+- Entry title: Black Women in Politics
+- Slug: `black-women-in-politics`
+- Daily date: 2026-09-23
+- Daily story researched: 2026-09-05
+- Daily story claims: Mary Church Terrell was born in Memphis on September 23, 1863, during the Civil War. Her parents had been enslaved and became economically successful, giving her educational opportunities she turned toward a long public fight for equal citizenship. Terrell taught, wrote, lectured, and helped found the National Association of Colored Women. She challenged lynching, disfranchisement, segregated schools, and the exclusion of Black women from white suffrage organizations. In her eighties, she joined protests against segregated restaurants in Washington. The campaign reached the Supreme Court, which upheld Reconstruction-era local laws barring discrimination shortly before her death.
+- Daily story sources:
+  - https://www.nps.gov/people/mary-church-terrell.htm
+  - https://www.loc.gov/collections/mary-church-terrell-papers/about-this-collection/
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Black women built American democracy while being repeatedly told to wait their turn. They organized against slavery, documented lynching, built clubs, marched for suffrage, registered voters under terror, challenged party credentials, ran for office, wrote legislation, and governed communities before institutions fully admitted them. The story is not only a march from exclusion to representation. It is a history of labor that made representation possible. From Frances Ellen Watkins Harper, Mary Church Terrell, Ida B. Wells, and Fannie Lou Hamer to Shirley Chisholm, Barbara Jordan, Carol Moseley Braun, Kamala Harris, and many local leaders, Black women have treated politics as survival work, community work, and power work all at once.
+- Primary or authoritative sources:
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Permanent-Interest/Fight-Doubly-Hard/
+  - https://history.house.gov/historicalhighlight/detail/37113
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer
+  - https://history.house.gov/People/Detail/10918
+- Verified quotation source: U.S. House History historical highlight quoting Shirley Chisholm.
+- Sensitive or disputed claims reviewed: First claims, Nineteenth Amendment limits, voter suppression, Black women congressional history, and Harris vice-presidential firsts reviewed.
+- Material corrections made: Expanded legacy list into a deeper collective political history centered on grassroots work, elected office, and institutional power.
+- External links included on the page:
+  - U.S. House History, Art & Archives: To Fight Doubly Hard (https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Permanent-Interest/Fight-Doubly-Hard/)
+  - U.S. House History, Art & Archives: The First African-American Woman Elected to Congress (https://history.house.gov/historicalhighlight/detail/37113)
+  - National Women's History Museum: Fannie Lou Hamer (https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer)
+  - U.S. House History, Art & Archives: Shirley Chisholm biography (https://history.house.gov/People/Detail/10918)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style encyclopedia-only page, ledger record, internal links, 4 external links, depth validation, desktop/mobile browser check.
+
+### 2026-09-24 - The National Museum of African American History and Culture
+
+- Entry title: Carter G. Woodson
+- Slug: `carter-woodson`
+- Daily date: 2026-09-24
+- Daily story researched: 2026-09-05
+- Daily story claims: On September 24, 2016, the National Museum of African American History and Culture opened on the National Mall. The building was new. The demand for a national institution preserving Black history was more than a century old. Black Civil War veterans proposed a memorial after reunion events in 1915. Later advocates pursued legislation for decades. Congress finally established the museum in 2003, and families, churches, collectors, and institutions helped build a collection from material long kept outside national museums. The museum's location makes an argument: slavery, freedom, culture, military service, migration, art, politics, and ordinary Black life are not side exhibits to American history. They are part of its structure.
+- Daily story sources:
+  - https://nmaahc.si.edu/about/museum-history
+  - https://www.congress.gov/bill/108th-congress/house-bill/3491
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Carter G. Woodson did not create Black History Month because Black history needed a holiday. He created a movement because American education had trained people to treat Black life as either absent or inferior. Woodson was a coal miner, teacher, scholar, editor, publisher, organizer, and institution-builder. He believed history was not decoration. It shaped what a people believed they could demand. Negro History Week, launched in 1926, was one piece of a larger project: archives, journals, textbooks, teachers, local study clubs, and public memory. The simplified version says he is the father of Black History Month. The deeper story says he built an intellectual infrastructure against erasure.
+- Primary or authoritative sources:
+  - https://www.nps.gov/cawo/learn/carter-g-woodson-biography.htm
+  - https://www.nps.gov/neri/learn/historyculture/carter-g-woodson.htm
+- Supporting secondary sources:
+  - https://asalh.org/about-us/about-black-history-month/
+  - https://nmaahc.si.edu/explore/stories/knowing-past-opens-door-future-continuing-importance-black-history-month
+- Verified quotation source: National Park Service New River Gorge page quoting Woodson on the purpose of Negro History Week.
+- Sensitive or disputed claims reviewed: Harvard Ph.D. first/second framing, Negro History Week date rationale, Black History Month continuity, and critique in The Mis-Education of the Negro reviewed.
+- Material corrections made: Deepened duplicate-cleanup-era legacy page into an institutional history of Woodson, ASALH, public history, and anti-erasure work.
+- External links included on the page:
+  - National Park Service: Carter G. Woodson Biography (https://www.nps.gov/cawo/learn/carter-g-woodson-biography.htm)
+  - National Park Service: Carter G. Woodson and Negro History Week (https://www.nps.gov/neri/learn/historyculture/carter-g-woodson.htm)
+  - Association for the Study of African American Life and History: About Black History Month (https://asalh.org/about-us/about-black-history-month/)
+  - National Museum of African American History and Culture: The Continuing Importance of Black History Month (https://nmaahc.si.edu/explore/stories/knowing-past-opens-door-future-continuing-importance-black-history-month)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-25 - The Little Rock Nine Enter Central High
+
+- Entry title: The Little Rock Nine
+- Slug: `little-rock-nine`
+- Daily date: 2026-09-25
+- Daily story researched: 2026-09-05
+- Daily story claims: On September 25, 1957, nine Black teenagers entered Little Rock Central High School under armed federal protection. The soldiers were there because a governor, a mob, and local resistance had made attending public school dangerous. President Dwight Eisenhower federalized the Arkansas National Guard and sent the 101st Airborne Division after weeks of obstruction. The troops could open the doors, but they could not remove the harassment waiting in hallways and classrooms. The students endured insults, threats, physical attacks, and isolation. Ernest Green graduated in 1958. Arkansas then closed Little Rock's public high schools for a year rather than continue integration.
+- Daily story sources:
+  - https://www.nps.gov/chsc/index.htm
+  - https://www.eisenhowerlibrary.gov/research/online-documents/civil-rights-little-rock-school-integration-crisis
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Little Rock Nine were teenagers, not symbols made of stone. In 1957, Melba Pattillo, Minnijean Brown, Elizabeth Eckford, Ernest Green, Thelma Mothershed, Gloria Ray, Terrence Roberts, Jefferson Thomas, and Carlotta Walls tried to attend Central High School in Little Rock, Arkansas. Governor Orval Faubus used the National Guard to block them. White mobs threatened them. President Dwight Eisenhower eventually sent federal troops to escort them. This page matters because Brown v. Board did not integrate schools by itself. Children had to walk through crowds, soldiers, insults, and daily harassment to make a Supreme Court ruling visible. The story is about courage, but it is also about adult failure, federal enforcement, and the long cost of doing what the law already promised.
+- Primary or authoritative sources:
+  - https://www.nps.gov/chsc/index.htm
+  - https://www.loc.gov/exhibits/brown/brown-aftermath.html
+  - https://www.eisenhowerlibrary.gov/research/online-documents/civil-rights-little-rock-school-integration-crisis
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/little-rock-nine
+  - https://www.archives.gov/education/lessons/brown-v-board
+- Verified quotation source: No quotation included. Names, dates, troop deployment, graduation, and Lost Year claims cross-checked against NPS and Eisenhower Library sources.
+- Sensitive or disputed claims reviewed: Student names, Elizabeth Eckford isolation, Minnijean Brown expulsion, federalization, Lost Year, and child-harm framing reviewed.
+- Material corrections made: Expanded scheduled fallback into a full account of state resistance, federal enforcement, daily harassment, and post-crisis cost.
+- External links included on the page:
+  - National Park Service: Little Rock Central High School National Historic Site (https://www.nps.gov/chsc/index.htm)
+  - Library of Congress: Brown v. Board Aftermath: Little Rock (https://www.loc.gov/exhibits/brown/brown-aftermath.html)
+  - Eisenhower Presidential Library: Little Rock Crisis (https://www.eisenhowerlibrary.gov/research/online-documents/civil-rights-little-rock-school-integration-crisis)
+  - National Museum of African American History and Culture: Little Rock Nine (https://nmaahc.si.edu/explore/stories/little-rock-nine)
+  - National Archives: Documents Related to Brown v. Board and Little Rock (https://www.archives.gov/education/lessons/brown-v-board)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, school-integration claim review.
+
+### 2026-09-26 - Bessie Smith
+
+- Entry title: The Blues
+- Slug: `the-blues`
+- Daily date: 2026-09-26
+- Daily story researched: 2026-09-05
+- Daily story claims: Bessie Smith died after an automobile crash on September 26, 1937. By then, the woman called the Empress of the Blues had made records that sounded like whole lives: rent trouble, desire, betrayal, travel, work, violence, wit, and refusal. Smith learned in Southern tent shows and vaudeville, then recorded for Columbia beginning in 1923. Her powerful phrasing reached Black audiences through race records while touring made her an unusually successful working musician with her own railroad car. Her career slowed as the Depression reshaped entertainment and popular taste changed. A later myth claimed a whites-only hospital refused her after the crash; historical evidence shows she was taken directly to a Black hospital, where she died from severe injuries.
+- Daily story sources:
+  - https://nmaahc.si.edu/bessie-smith
+  - https://www.rockhall.com/inductees/bessie-smith
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The blues is not just sad music, and it is not just the raw material other genres borrowed from. It is a Black musical language shaped by work, migration, church, dance, desire, humor, grief, and invention. Emerging from African American life in the South after slavery, blues musicians turned everyday speech, bent notes, repeated lines, guitar figures, piano patterns, and personal testimony into an art form that changed the sound of the world. This page matters because the blues is often honored after being stripped for parts. Rock, jazz, R&B, soul, country, and hip-hop all carry its influence, but the people who built the form were often exploited, underpaid, copied, or remembered only as sources for someone else's greatness.
+- Primary or authoritative sources:
+  - https://music.si.edu/story/blues
+  - https://blogs.loc.gov/folklife/2020/06/black-lives-and-the-blues/
+  - https://nmaahc.si.edu/explore/exhibitions/musical-crossroads
+- Supporting secondary sources:
+  - https://visitmississippi.org/bluestrail/
+  - https://blues.org/blues-hall-of-fame/
+- Verified quotation source: No lyrics quoted. Song title mentioned only as historical recording title.
+- Sensitive or disputed claims reviewed: Origins, Mamie Smith commercial breakthrough, women's centrality, Great Migration/electric blues, genre influence, and exploitation claims reviewed.
+- Material corrections made: Rebuilt legacy page beyond source-of-everything shorthand into a fuller account of form, women performers, migration, ownership, exploitation, and living tradition.
+- External links included on the page:
+  - Smithsonian Music: The Blues (https://music.si.edu/story/blues)
+  - Library of Congress: Blues as Protest (https://blogs.loc.gov/folklife/2020/06/black-lives-and-the-blues/)
+  - National Museum of African American History and Culture: Musical Crossroads (https://nmaahc.si.edu/explore/exhibitions/musical-crossroads)
+  - Mississippi Blues Trail: Mississippi Blues Trail (https://visitmississippi.org/bluestrail/)
+  - The Blues Foundation: Blues Hall of Fame (https://blues.org/blues-hall-of-fame/)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no lyric quotation.
+
+### 2026-09-27 - Hiram Revels
+
+- Entry title: Reconstruction
+- Slug: `reconstruction`
+- Daily date: 2026-09-27
+- Daily story researched: 2026-09-05
+- Daily story claims: Hiram Revels was born free in North Carolina on September 27, 1827. In 1870, Mississippi sent him to the United States Senate, where he became the first Black person to serve in Congress's upper chamber. Revels had worked as an AME minister, educator, and Union Army chaplain. His arrival prompted arguments over citizenship from senators who had represented a slaveholding nation only years earlier. The Senate ultimately seated him. His term lasted about a year. Revels advocated equal schooling and opposed blanket punishment of former Confederates, a position shaped by his emphasis on education and reconciliation. He later led Alcorn University, an institution created for Black students.
+- Daily story sources:
+  - https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Revels.htm
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Black-Americans-in-Congress/
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Reconstruction was the country's best chance to build democracy after slavery, and one of its clearest examples of political abandonment. Between 1865 and 1877, formerly enslaved people reunited families, built schools, negotiated labor, voted, held office, bought land when they could, founded churches, demanded protection, and helped rewrite state constitutions. White supremacists answered with terror, and federal commitment weakened. This page matters because Reconstruction was not a failure of Black citizenship. It was a struggle over whether the United States would defend Black freedom after emancipation. The answer changed the next century of American life.
+- Primary or authoritative sources:
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/
+  - https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/
+  - https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538
+- Supporting secondary sources:
+  - https://constitutioncenter.org/the-constitution/amendments/amendment-xiii
+  - https://www.facinghistory.org/resource-library/reconstruction-era-fragility-democracy
+- Verified quotation source: Short Du Bois quotation traced to Black Reconstruction in America and used as interpretive framing.
+- Sensitive or disputed claims reviewed: Periodization, federal withdrawal, Black Codes, land redistribution limits, white supremacist violence, Lost Cause memory, and constitutional-amendment chronology reviewed.
+- Material corrections made: Expanded scheduled fallback beyond promise-and-abandonment summary into Black agency, federal policy, land, violence, public education, amendments, and memory politics.
+- External links included on the page:
+  - U.S. House of Representatives: Reconstruction and Black Political Activism (https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Fifteenth-Amendment/Reconstruction/)
+  - Library of Congress: Reconstruction and Rights (https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/civil-war-and-reconstruction-1861-1877/reconstruction-and-rights/)
+  - Smithsonian Institution: Make Good the Promises: Reconstruction and Its Legacies (https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538)
+  - National Constitution Center: Reconstruction Amendments (https://constitutioncenter.org/the-constitution/amendments/amendment-xiii)
+  - Facing History & Ourselves: The Reconstruction Era and the Fragility of Democracy (https://www.facinghistory.org/resource-library/reconstruction-era-fragility-democracy)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, chronology and backlash claim review.
+
+### 2026-09-28 - Miles Davis
+
+- Entry title: Duke Ellington
+- Slug: `duke-ellington`
+- Daily date: 2026-09-28
+- Daily story researched: 2026-09-05
+- Daily story claims: Miles Davis died on September 28, 1991, after a career built on leaving successful sounds behind. His trumpet could be spare and intimate, then surrounded by amplified instruments, studio editing, and rhythms that unsettled jazz categories. Davis learned in East St. Louis, studied briefly at Juilliard, and entered New York's bebop world. Recordings including Birth of the Cool, Kind of Blue, and Bitches Brew became landmarks, but each represented collaboration with musicians whose contributions mattered to the result. His innovations existed beside difficult truths, including addiction, violence toward women, and a public persona shaped by racism in the music business. Serious attention does not require turning either the art or the harm into a footnote.
+- Daily story sources:
+  - https://americanhistory.si.edu/collections/object/nmah_606847
+  - https://www.britannica.com/biography/Miles-Davis
+- Date researched: 2026-08-14
+- Writer/research status: batch-7-complete
+- Material factual claims: Duke Ellington did not make jazz respectable by making it less Black. He expanded its forms, colors, audiences, and ambitions while keeping the orchestra rooted in the individual voices of Black musicians. Born in Washington, D.C., Ellington became a pianist, composer, bandleader, arranger, and cultural diplomat whose work moved from dance halls and radio broadcasts to suites, film scores, sacred concerts, and global tours. The easy version says he made jazz elegant. The deeper story is that he treated Black sound as a whole world: sophisticated, experimental, commercial, spiritual, funny, disciplined, and impossible to shrink.
+- Primary or authoritative sources:
+  - https://www.loc.gov/item/today-in-history/april-29/
+  - https://americanhistory.si.edu/documentsgallery/exhibitions/ellington_strayhorn_2.html
+- Supporting secondary sources:
+  - https://npg.si.edu/object/npg_NPG.92.58
+  - https://blogs.loc.gov/nls-music-notes/2018/05/american-composers-from-a-z-e-part-1-ellington-duke/
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Cotton Club segregation, Billy Strayhorn collaboration, composition counts, Carnegie Hall reception, cultural diplomacy framing, and Presidential Medal timeline reviewed.
+- Material corrections made: Expanded legacy daily framing from global jazz icon into a fuller account of orchestra, collaboration, segregation, extended composition, and cultural diplomacy.
+- External links included on the page:
+  - Library of Congress: Today in History: Duke Ellington (https://www.loc.gov/item/today-in-history/april-29/)
+  - National Museum of American History: Duke Ellington and Billy Strayhorn: Jazz Composers (https://americanhistory.si.edu/documentsgallery/exhibitions/ellington_strayhorn_2.html)
+  - National Portrait Gallery: Duke Ellington (https://npg.si.edu/object/npg_NPG.92.58)
+  - Library of Congress Music Blog: American Composers and Musicians from A to Z: Ellington, Duke (https://blogs.loc.gov/nls-music-notes/2018/05/american-composers-from-a-z-e-part-1-ellington-duke/)
+- Final review status: Batch 7 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-09-29 - The National Urban League
+
+- Entry title: The Great Migration
+- Slug: `great-migration`
+- Daily date: 2026-09-29
+- Daily story researched: 2026-09-05
+- Daily story claims: On September 29, 1910, organizers formed the Committee on Urban Conditions Among Negroes in New York. Black migrants were arriving in northern cities where new opportunities came with job discrimination, exploitative housing, and unfamiliar institutions. The committee joined with two related groups in 1911, creating the organization later known as the National Urban League. Its interracial leadership researched conditions, helped migrants find work and housing, and pressed employers and public agencies to change. That service model could be cautious compared with mass protest, but it built durable local institutions and data about Black urban life. The League later expanded into civil-rights advocacy, workforce programs, and a nationwide affiliate network.
+- Daily story sources:
+  - https://www.britannica.com/topic/National-Urban-League
+  - https://www.loc.gov/pictures/collection/anedub/
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Great Migration was six million decisions, and each decision had a reason. Black Southerners left because Jim Crow was violent, wages were low, schools were underfunded, voting was blocked, and white power tried to make the future small. They moved toward Chicago, Detroit, New York, Philadelphia, Los Angeles, Oakland, Cleveland, and dozens of other places where jobs, relatives, newspapers, rail lines, and rumor pointed toward possibility. The move did not end racism. It changed its geography. This page matters because the Great Migration remade American cities, music, labor, housing, politics, family life, and Black imagination. It was not escape from history. It was one of the ways Black people made history move.
+- Primary or authoritative sources:
+  - https://www.archives.gov/research/african-americans/migrations/great-migration
+  - https://nmaahc.si.edu/explore/stories/great-migration
+  - https://www.loc.gov/classroom-materials/great-migration/
+- Supporting secondary sources:
+  - https://www.phillipscollection.org/collection/migration-series
+  - https://www.blackpast.org/african-american-history/great-migration-1915-1960/
+- Verified quotation source: No quotation included. Six-million framing and periodization cross-checked against institutional sources.
+- Sensitive or disputed claims reviewed: Migration counts, push-pull causes, housing discrimination, political effects, cultural effects, and reverse migration framing reviewed.
+- Material corrections made: Rebuilt legacy page beyond short migration summary into labor, housing, politics, culture, family, and agency.
+- External links included on the page:
+  - National Archives: The Great Migration (https://www.archives.gov/research/african-americans/migrations/great-migration)
+  - National Museum of African American History and Culture: The Great Migration (https://nmaahc.si.edu/explore/stories/great-migration)
+  - Library of Congress: The Great Migration (https://www.loc.gov/classroom-materials/great-migration/)
+  - The Phillips Collection: Jacob Lawrence: The Migration Series (https://www.phillipscollection.org/collection/migration-series)
+  - BlackPast: The Great Migration (https://www.blackpast.org/african-american-history/great-migration-1915-1960/)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, migration claim review.
+
+### 2026-09-30 - James Meredith and the Ole Miss Riot
+
+- Entry title: James Meredith
+- Slug: `james-meredith`
+- Daily date: 2026-09-30
+- Daily story researched: 2026-09-05
+- Daily story claims: On the night of September 30, 1962, James Meredith was inside the University of Mississippi while a white mob attacked the federal force protecting his court-ordered enrollment. Bricks, bottles, gunfire, and tear gas turned the campus into a battlefield. Mississippi officials had spent months defying federal courts. President John Kennedy federalized the National Guard and sent marshals, then troops. Two people were killed and hundreds were injured before the riot was controlled. Meredith registered the next morning and attended class while military protection remained. Calling his enrollment a peaceful milestone misses the state resistance and federal force required for one Black veteran to enter a public university.
+- Daily story sources:
+  - https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/integration-of-the-university-of-mississippi
+  - https://npg.si.edu/blog/september-30-1962-james-meredith-university-mississippi
+- Date researched: 2026-08-15
+- Writer/research status: batch-13-complete
+- Material factual claims: James Meredith did not integrate the University of Mississippi because he wanted a tidy milestone. He called it a war against white supremacy. An Air Force veteran from Mississippi, Meredith applied to Ole Miss in 1961, fought rejection and delay in court, and entered the campus in 1962 under federal protection after a deadly white riot. He later graduated, then launched the 1966 March Against Fear to challenge terror around Black voting and movement in Mississippi. Meredith matters because he was not simply escorted into history by the Kennedys or the NAACP. He was a strategist with his own ideas, his own conflicts with major civil rights organizations, and a stubborn belief that one person could force a state to reveal itself.
+- Primary or authoritative sources:
+  - https://www.jfklibrary.org/events-and-awards/kennedy-library-forums/past-forums/transcripts/james-meredith-and-the-integration-of-ole-miss
+  - https://www.jfklibrary.org/asset-viewer/archives/jfkwhcsf-0924-037
+  - https://olemiss.edu/who-we-are/past-present-and-future/
+- Supporting secondary sources:
+  - https://www.archives.gov/research/jfk/select-committee-report/part-2-king-findings.html
+  - https://npg.si.edu/blog/september-30-1962-james-meredith-university-mississippi
+- Verified quotation source: JFK Library forum transcript quotes Meredith's September 5, 1963 letter.
+- Sensitive or disputed claims reviewed: Riot casualty/injury counts, first student registration date, federal enforcement, Barnett resistance, March Against Fear shooting, Black Power context, and living-status date reviewed.
+- Material corrections made: Converted markdown-generated page into rich renderer and added Meredith's independence and later activism.
+- External links included on the page:
+  - JFK Library: James Meredith and the Integration of Ole Miss (https://www.jfklibrary.org/events-and-awards/kennedy-library-forums/past-forums/transcripts/james-meredith-and-the-integration-of-ole-miss)
+  - JFK Library: Mississippi Integration Situation, September 30, 1962 (https://www.jfklibrary.org/asset-viewer/archives/jfkwhcsf-0924-037)
+  - National Archives: Findings on MLK Assassination (https://www.archives.gov/research/jfk/select-committee-report/part-2-king-findings.html)
+  - University of Mississippi: Past, Present, and Future (https://olemiss.edu/who-we-are/past-present-and-future/)
+  - National Portrait Gallery: September 30, 1962: James Meredith and the University of Mississippi (https://npg.si.edu/blog/september-30-1962-james-meredith-university-mississippi)
+- Final review status: Batch 13 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, education-integration claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-01 - Colin Powell and the Joint Chiefs
+
+- Entry title: The Buffalo Soldiers
+- Slug: `buffalo-soldiers`
+- Daily date: 2026-10-01
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 1, 1989, Colin Powell became chair of the Joint Chiefs of Staff, the first Black officer to hold the nation's highest military post. His appointment came within a military that had been formally desegregated only four decades earlier. Powell was the son of Jamaican immigrants and entered the Army through ROTC at City College of New York. He served two tours in Vietnam and rose through command and national-security positions before President George H.W. Bush selected him as chair. He advised during the invasion of Panama and the Gulf War, then later served as secretary of state. His public legacy also includes his 2003 presentation supporting war in Iraq, claims he later acknowledged were based on deeply flawed intelligence.
+- Daily story sources:
+  - https://www.jcs.mil/About/The-Joint-Staff/Chairman/General-Colin-L-Powell/
+  - https://history.state.gov/departmenthistory/people/powell-colin-luther
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Buffalo Soldiers wore the uniform of a country that still argued over whether Black citizenship was real. Formed after the Civil War, Black cavalry and infantry regiments served in the West, guarded mail routes, built roads, protected national parks, fought in U.S. wars, and lived under discrimination inside the Army and outside it. Their history carries pride and contradiction at the same time. Military service gave some Black men wages, status, travel, and a claim on citizenship. It also placed them inside U.S. expansion that harmed Native nations. This page matters because Black military history deserves honesty. The Buffalo Soldiers were disciplined soldiers and full human beings, not symbols that can be used to avoid the harder story of empire, race, labor, and belonging.
+- Primary or authoritative sources:
+  - https://www.nps.gov/subjects/buffalosoldiers/index.htm
+  - https://www.nps.gov/foda/learn/historyculture/buffalo-soldiers.htm
+  - https://www.army.mil/article/177403/buffalo_soldiers
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/buffalo-soldiers
+  - https://www.thenmusa.org/biographies/buffalo-soldiers/
+- Verified quotation source: No quotation included. Nickname origin treated as attributed and debated rather than certain.
+- Sensitive or disputed claims reviewed: Nickname origin, Native dispossession, Spanish-American War service, national park service, Houston rebellion, and military reorganization reviewed.
+- Material corrections made: Expanded scheduled fallback into a morally complex account of service, racism, western expansion, citizenship, and memory.
+- External links included on the page:
+  - National Park Service: Buffalo Soldiers (https://www.nps.gov/subjects/buffalosoldiers/index.htm)
+  - National Park Service: Buffalo Soldiers at Fort Davis (https://www.nps.gov/foda/learn/historyculture/buffalo-soldiers.htm)
+  - National Museum of African American History and Culture: Buffalo Soldiers (https://nmaahc.si.edu/explore/stories/buffalo-soldiers)
+  - National Museum of the United States Army: Buffalo Soldiers (https://www.thenmusa.org/biographies/buffalo-soldiers/)
+  - U.S. Army: Buffalo Soldiers (https://www.army.mil/article/177403/buffalo_soldiers)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, military-service complexity review.
+
+### 2026-10-02 - Justice Thurgood Marshall
+
+- Entry title: Thurgood Marshall
+- Slug: `thurgood-marshall`
+- Daily date: 2026-10-02
+- Daily story researched: 2026-09-05
+- Daily story claims: Thurgood Marshall took the judicial oath on October 2, 1967, becoming the first Black justice of the United States Supreme Court. He arrived with more direct experience fighting state-enforced racial inequality than any justice before him. As a lawyer, Marshall had traveled through hostile courtrooms, built cases with local plaintiffs, and helped overturn school segregation in Brown v. Board. He later served as a federal appeals judge and solicitor general. On the Court, Marshall consistently defended civil rights, criminal due process, reproductive freedom, and limits on the death penalty. As the Court moved in a more conservative direction, he often wrote dissents meant to preserve a constitutional argument for the future.
+- Daily story sources:
+  - https://www.supremecourt.gov/about/biographies.aspx
+  - https://www.loc.gov/exhibitions/civil-rights-act/civil-rights-era.html
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: Thurgood Marshall is often introduced as the first Black Supreme Court justice, but that milestone came after decades of dangerous, disciplined legal work. Before he joined the Court, Marshall was the NAACP lawyer who helped turn segregated schools, exclusionary universities, unfair trials, and racial barriers into constitutional test cases. He argued Brown v. Board of Education, led the NAACP Legal Defense Fund, and understood that court victories required clients, local communities, records, strategy, and courage. His story matters because he did not simply enter one of the nation's most powerful institutions. He helped change what Black people could demand from the Constitution before he ever wore the robe.
+- Primary or authoritative sources:
+  - https://www.supremecourt.gov/about/biographies.aspx
+  - https://www.naacpldf.org/about-us/history/thurgood-marshall/
+  - https://www.loc.gov/collections/thurgood-marshall-papers/about-this-collection/
+- Supporting secondary sources:
+  - https://www.oyez.org/justices/thurgood_marshall
+  - https://www.archives.gov/milestone-documents/brown-v-board-of-education
+- Verified quotation source: No quotation included. Legal career and appointments verified through Court, LDF, LOC, Oyez, and National Archives.
+- Sensitive or disputed claims reviewed: First-justice claim, Brown strategy, Houston influence, Chambers v. Florida, Solicitor General role, and death-penalty jurisprudence reviewed.
+- Material corrections made: Rebuilt shallow legacy page into fuller legal-career account beyond first-Black-justice framing.
+- External links included on the page:
+  - Supreme Court of the United States: Biographies of the Justices (https://www.supremecourt.gov/about/biographies.aspx)
+  - NAACP Legal Defense Fund: Thurgood Marshall (https://www.naacpldf.org/about-us/history/thurgood-marshall/)
+  - Oyez: Thurgood Marshall (https://www.oyez.org/justices/thurgood_marshall)
+  - Library of Congress: Thurgood Marshall Papers (https://www.loc.gov/collections/thurgood-marshall-papers/about-this-collection/)
+  - National Archives: Brown v. Board of Education (https://www.archives.gov/milestone-documents/brown-v-board-of-education)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, legal first/career claim review.
+
+### 2026-10-03 - Frank Robinson Becomes a Manager
+
+- Entry title: Frank Robinson
+- Slug: `frank-robinson`
+- Daily date: 2026-10-03
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 3, 1974, the Cleveland Indians named Frank Robinson player-manager, making him the first Black manager in modern Major League Baseball. Integration had changed the field decades earlier, but authority in the dugout remained overwhelmingly white. Robinson had already built a Hall of Fame playing career and was the only player to win Most Valuable Player awards in both leagues. He entered management while still expected to hit, lead, handle the press, and carry the meaning of a racial first. In his first game as manager, Robinson placed himself second in the lineup and hit a home run. He later managed four franchises and worked in Major League Baseball's front office, widening a path that remained narrower than player access.
+- Daily story sources:
+  - https://baseballhall.org/hall-of-famers/robinson-frank
+  - https://baseballhall.org/discover/frank-robinson-made-history-as-manager
+- Date researched: 2026-08-15
+- Writer/research status: batch-11-complete
+- Material factual claims: Frank Robinson had already built a Hall of Fame playing career before Major League Baseball allowed him to manage. That delay is the story. He was Rookie of the Year, a 14-time All-Star, a Triple Crown winner, a World Series MVP, and the only player to win Most Valuable Player awards in both leagues. Yet the sport that celebrated his competitive fire took far longer to admit that Black baseball intelligence belonged in the dugout with authority. In 1975, Cleveland named Robinson player-manager, making him the first Black manager in Major League history. Robinson matters because integration on the field was not the end of baseball's color line. Decision-making power, hiring power, front-office power, and the right to be judged as a strategist were separate fights.
+- Primary or authoritative sources:
+  - https://baseballhall.org/hall-of-famers/robinson-frank
+  - https://baseballhall.org/discover/frank-robinson-made-history-as-manager
+- Supporting secondary sources:
+  - https://baseballhall.org/discover/robinson-left-mark-on-and-off-the-field
+  - https://www.mlb.com/news/frank-robinson-homered-in-first-game-as-manager
+  - https://sabr.org/bioproj/person/Frank-Robinson/
+- Verified quotation source: MLB remembrance of Frank Robinson.
+- Sensitive or disputed claims reviewed: First Black MLB manager claim, player-manager date, MVP and Triple Crown claims, trade context, management record, Hall of Fame induction, and death date reviewed.
+- Material corrections made: Expanded scheduled fallback into a full account of Robinson as Hall of Fame player, leadership figure, first Black manager, and later MLB executive voice.
+- External links included on the page:
+  - National Baseball Hall of Fame: Frank Robinson (https://baseballhall.org/hall-of-famers/robinson-frank)
+  - National Baseball Hall of Fame: Frank Robinson Made History as Manager (https://baseballhall.org/discover/frank-robinson-made-history-as-manager)
+  - National Baseball Hall of Fame: Robinson Left Mark On and Off the Field (https://baseballhall.org/discover/robinson-left-mark-on-and-off-the-field)
+  - MLB: Frank Robinson Homered in First Game as Manager (https://www.mlb.com/news/frank-robinson-homered-in-first-game-as-manager)
+  - Society for American Baseball Research: Frank Robinson (https://sabr.org/bioproj/person/Frank-Robinson/)
+- Final review status: Batch 11 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, sports-first claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-04 - The New Orleans Tribune
+
+- Entry title: The Black Press
+- Slug: `black-press`
+- Daily date: 2026-10-04
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 4, 1864, the New Orleans Tribune moved from three issues a week to daily publication. Its Black editors used French and English to argue that emancipation without equal citizenship would leave freedom unfinished. Dr. Louis Charles Roudanez founded the paper in a city with a large community of free people of color and newly emancipated residents. The Tribune demanded voting rights, integrated public schools, fair labor, and equal treatment before the law. The paper reported on Reconstruction while helping shape it. Financial pressure and political violence made survival difficult, and publication ended in 1870. Its short life still demonstrated that Black journalism was an instrument of policy, organizing, and public memory.
+- Daily story sources:
+  - https://www.loc.gov/item/sn83016555/
+  - https://chroniclingamerica.loc.gov/lccn/sn83016555/
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The Black press began from a simple refusal: Black people would not let others tell the whole story for them. Beginning with Freedom's Journal in 1827, Black newspapers reported weddings, deaths, church news, lynchings, lawsuits, elections, migration routes, jobs, beauty culture, war service, school fights, and the arguments a community needed to have with itself. They corrected white newspapers that ignored Black life or distorted it. They also built businesses, audiences, political campaigns, and networks across distance. This page matters because journalism is not only information. For Black communities, the press has often been protection, memory, warning system, organizing tool, and proof that a people could speak in public under their own names.
+- Primary or authoritative sources:
+  - https://www.loc.gov/collections/african-american-newspapers-1827-to-1998/about-this-collection/
+  - https://www.loc.gov/item/sn83030140/
+  - https://nmaahc.si.edu/explore/stories/power-black-press
+- Supporting secondary sources:
+  - https://www.pbs.org/blackpress/
+  - https://www.pbs.org/blackpress/news_bios/defender.html
+- Verified quotation source: Freedom's Journal motto verified through Library of Congress collection record and first-issue context.
+- Sensitive or disputed claims reviewed: First-newspaper claim, anti-lynching retaliation, Chicago Defender migration influence, Double V campaign, and media-bias framing reviewed.
+- Material corrections made: Rebuilt legacy page beyond general media praise into a fuller account of ownership, archives, migration, anti-lynching journalism, ordinary life, and narrative power.
+- External links included on the page:
+  - Library of Congress: African American Newspapers, 1827 to 1998 (https://www.loc.gov/collections/african-american-newspapers-1827-to-1998/about-this-collection/)
+  - Library of Congress: Freedom's Journal (https://www.loc.gov/item/sn83030140/)
+  - National Museum of African American History and Culture: The Power of the Black Press (https://nmaahc.si.edu/explore/stories/power-black-press)
+  - PBS: The Black Press: Soldiers Without Swords (https://www.pbs.org/blackpress/)
+  - PBS: The Chicago Defender (https://www.pbs.org/blackpress/news_bios/defender.html)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quote.
+
+### 2026-10-05 - Yvonne Brathwaite Burke
+
+- Entry title: Black Women in Politics
+- Slug: `black-women-in-politics`
+- Daily date: 2026-10-05
+- Daily story researched: 2026-09-05
+- Daily story claims: Yvonne Brathwaite Burke was born in Los Angeles on October 5, 1932. She entered law and politics when Black women were expected to support campaigns more often than lead them or hold the office themselves. Burke served in the California Assembly, chaired the 1972 Democratic National Convention, and won election to Congress that year. She represented Los Angeles communities through debates over transit, employment, child care, and federal spending. In 1973, Burke became the first sitting member of Congress to give birth and receive maternity leave. The milestone exposed how public institutions had been designed around officeholders whose caregiving and pregnancies remained out of view.
+- Daily story sources:
+  - https://history.house.gov/People/Listing/B/BURKE,-Yvonne-Brathwaite-(B001102)/
+  - https://www.britannica.com/biography/Yvonne-Brathwaite-Burke
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Black women built American democracy while being repeatedly told to wait their turn. They organized against slavery, documented lynching, built clubs, marched for suffrage, registered voters under terror, challenged party credentials, ran for office, wrote legislation, and governed communities before institutions fully admitted them. The story is not only a march from exclusion to representation. It is a history of labor that made representation possible. From Frances Ellen Watkins Harper, Mary Church Terrell, Ida B. Wells, and Fannie Lou Hamer to Shirley Chisholm, Barbara Jordan, Carol Moseley Braun, Kamala Harris, and many local leaders, Black women have treated politics as survival work, community work, and power work all at once.
+- Primary or authoritative sources:
+  - https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Permanent-Interest/Fight-Doubly-Hard/
+  - https://history.house.gov/historicalhighlight/detail/37113
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer
+  - https://history.house.gov/People/Detail/10918
+- Verified quotation source: U.S. House History historical highlight quoting Shirley Chisholm.
+- Sensitive or disputed claims reviewed: First claims, Nineteenth Amendment limits, voter suppression, Black women congressional history, and Harris vice-presidential firsts reviewed.
+- Material corrections made: Expanded legacy list into a deeper collective political history centered on grassroots work, elected office, and institutional power.
+- External links included on the page:
+  - U.S. House History, Art & Archives: To Fight Doubly Hard (https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Essays/Permanent-Interest/Fight-Doubly-Hard/)
+  - U.S. House History, Art & Archives: The First African-American Woman Elected to Congress (https://history.house.gov/historicalhighlight/detail/37113)
+  - National Women's History Museum: Fannie Lou Hamer (https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer)
+  - U.S. House History, Art & Archives: Shirley Chisholm biography (https://history.house.gov/People/Detail/10918)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style encyclopedia-only page, ledger record, internal links, 4 external links, depth validation, desktop/mobile browser check.
+
+### 2026-10-06 - Fannie Lou Hamer
+
+- Entry title: Fannie Lou Hamer
+- Slug: `fannie-lou-hamer`
+- Daily date: 2026-10-06
+- Daily story researched: 2026-09-05
+- Daily story claims: Fannie Lou Hamer was born in Montgomery County, Mississippi, on October 6, 1917, the youngest child in a sharecropping family. She understood political exclusion through work, debt, hunger, medical abuse, and a courthouse that tried to keep Black citizens away from the ballot. After attempting to register in 1962, Hamer lost her plantation job. She became a Student Nonviolent Coordinating Committee organizer, teaching neighbors the registration process and enduring arrest, threats, and a brutal jail beating. Hamer helped form the Mississippi Freedom Democratic Party and challenged the state's all-white delegation at the 1964 Democratic convention. She later built a cooperative farm, treating food and land as civil-rights issues alongside voting.
+- Daily story sources:
+  - https://snccdigital.org/people/fannie-lou-hamer/
+  - https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer
+- Date researched: 2026-08-14
+- Writer/research status: batch-10-complete
+- Material factual claims: Fannie Lou Hamer is remembered for saying she was sick and tired of being sick and tired. The line is true, but it can become a shortcut that hides the rest of her life. Hamer was a Mississippi sharecropper, timekeeper, singer, SNCC field secretary, voting-rights organizer, Mississippi Freedom Democratic Party leader, congressional candidate, anti-poverty organizer, and founder of Freedom Farm Cooperative. She survived eviction, gunfire, jailhouse beating, forced sterilization, and chronic pain, then kept organizing for the vote, food, land, healthcare, and dignity. Her page matters because Hamer did not separate democracy from hunger or the ballot from the body. She knew freedom had to reach the courthouse, the hospital, the table, and the field.
+- Primary or authoritative sources:
+  - https://snccdigital.org/people/fannie-lou-hamer/
+  - https://finding.mdah.ms.gov/manuscripts/t012
+  - https://nmaahc.si.edu/explore/stories/how-fannie-lou-hamer-challenged-nation
+- Supporting secondary sources:
+  - https://kinginstitute.stanford.edu/hamer-fannie-lou
+  - https://www.pbs.org/wgbh/americanexperience/features/freedomsummer-hamer/
+- Verified quotation source: National Women's History Museum biography attribution for "Nobody's free until everybody's free."
+- Sensitive or disputed claims reviewed: Forced sterilization, Winona jail beating and injuries, eviction, gunfire, voter-registration dates, MFDP role, Freedom Farm Cooperative, illness/death, and slogan attribution reviewed.
+- Material corrections made: Expanded legacy page beyond testimony and beating into labor, medical violence, singing, SNCC organizing, MFDP, Freedom Farm, and economic democracy.
+- External links included on the page:
+  - SNCC Digital Gateway: Fannie Lou Hamer (https://snccdigital.org/people/fannie-lou-hamer/)
+  - Stanford King Institute: Hamer, Fannie Lou (https://kinginstitute.stanford.edu/hamer-fannie-lou)
+  - National Museum of African American History and Culture: How Fannie Lou Hamer Challenged a Nation (https://nmaahc.si.edu/explore/stories/how-fannie-lou-hamer-challenged-nation)
+  - Mississippi Department of Archives and History: Fannie Lou Townsend Hamer Collection (https://finding.mdah.ms.gov/manuscripts/t012)
+  - PBS American Experience: Fannie Lou Hamer (https://www.pbs.org/wgbh/americanexperience/features/freedomsummer-hamer/)
+- Final review status: Batch 10 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified quotation, sensitive medical-violence review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-07 - Toni Morrison Wins the Nobel Prize
+
+- Entry title: Toni Morrison
+- Slug: `toni-morrison`
+- Daily date: 2026-10-07
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 7, 1993, Toni Morrison learned she had been awarded the Nobel Prize in Literature. She was the first Black woman to receive it, but the significance was larger than admission to a prestigious list. Morrison had worked as an editor, teacher, critic, and novelist. At Random House she helped publish Black writers and histories. In novels including Song of Solomon and Beloved, she made Black interior life the center rather than background or explanation. The Nobel committee praised writing with visionary force and poetic import. Morrison used the ceremony to speak about language as a living thing that can carry knowledge or be damaged by domination and careless use.
+- Daily story sources:
+  - https://www.nobelprize.org/prizes/literature/1993/press-release/
+  - https://www.loc.gov/item/n79043712/toni-morrison-1931-2019/
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: Toni Morrison changed American literature by refusing to treat Black life as a side subject or an explanation for someone else's gaze. She was a novelist, editor, professor, essayist, mother, and cultural worker who understood that language carries power. Her books entered memory, haunting, girlhood, slavery, beauty, migration, friendship, and community without asking permission to center Black interior life. Before the Nobel Prize, she was also an editor who helped bring Black writers and thinkers into print at one of the country's major publishing houses. This page matters because Morrison's achievement was not only that she wrote masterpieces. She changed who American literature could imagine as its center, its audience, and its measure of truth.
+- Primary or authoritative sources:
+  - https://www.nobelprize.org/prizes/literature/1993/morrison/biographical/
+  - https://findingaids.princeton.edu/catalog/C1491
+  - https://www.neh.gov/news/remembering-toni-morrison
+- Supporting secondary sources:
+  - https://sites.prh.com/toni-morrison
+  - https://www.loc.gov/item/n79061170/toni-morrison/
+- Verified quotation source: No quotation included in page body. Legacy quote from daily copy omitted because page did not need it and exact context was not required.
+- Sensitive or disputed claims reviewed: Nobel first claim, Pulitzer date, editor role, Margaret Garner relationship to Beloved, publication timeline, and censorship framing reviewed.
+- Material corrections made: Corrected daily-style implication that Beloved won both Pulitzer and Nobel by clarifying Beloved won the Pulitzer and Morrison later won the Nobel for her body of work.
+- External links included on the page:
+  - Nobel Prize: Toni Morrison Biographical (https://www.nobelprize.org/prizes/literature/1993/morrison/biographical/)
+  - National Endowment for the Humanities: Remembering Toni Morrison (https://www.neh.gov/news/remembering-toni-morrison)
+  - Princeton University Library: Toni Morrison Papers (https://findingaids.princeton.edu/catalog/C1491)
+  - Penguin Random House: Toni Morrison Author Website (https://sites.prh.com/toni-morrison)
+  - Library of Congress: Toni Morrison (https://www.loc.gov/item/n79061170/toni-morrison/)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, literary/publishing claim review.
+
+### 2026-10-08 - Jesse Jackson
+
+- Entry title: Modern Civil Rights Leaders
+- Slug: `modern-civil-rights`
+- Daily date: 2026-10-08
+- Daily story researched: 2026-09-05
+- Daily story claims: Jesse Jackson was born in Greenville, South Carolina, on October 8, 1941. His public career moved from lunch-counter activism and the Southern Christian Leadership Conference into economic boycotts, international diplomacy, and presidential campaigns. Jackson led Operation Breadbasket in Chicago, pressing corporations to hire Black workers and do business with Black-owned firms. He later founded Operation PUSH and built the Rainbow Coalition around a broad alliance of racial minorities, workers, farmers, peace activists, and other constituencies. His 1984 and 1988 campaigns expanded Black participation in presidential politics and influenced the Democratic platform, while controversies and criticism remained part of his record. The campaigns were organizing projects as much as candidate vehicles.
+- Daily story sources:
+  - https://kinginstitute.stanford.edu/jackson-jesse-louis
+  - https://www.britannica.com/biography/Jesse-Jackson
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Modern civil rights leadership is not one person at one podium. It is a network of organizers, lawyers, scholars, voters, survivors, local groups, digital strategists, clergy, students, families, and policy workers fighting over policing, voting, prisons, education, housing, health, and memory. Black Lives Matter, founded by Alicia Garza, Patrisse Cullors, and Opal Tometi after Trayvon Martin's killer was acquitted, became one visible language for a wider movement. Bryan Stevenson, Kimberle Crenshaw, Stacey Abrams, Darnella Frazier, and countless local organizers show different kinds of leadership. This page matters because civil rights is not a finished chapter. It is being argued, filmed, litigated, organized, funded, attacked, misunderstood, and remade in public.
+- Primary or authoritative sources:
+  - https://blacklivesmatter.com/herstory/
+  - https://eji.org/bryan-stevenson/
+  - https://www.aapf.org/about
+- Supporting secondary sources:
+  - https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/
+  - https://www.staceyabrams.com/about-stacey
+- Verified quotation source: Short quotation traced to Alicia Garza's 2013 post as reproduced and contextualized by Black Lives Matter herstory materials.
+- Sensitive or disputed claims reviewed: BLM founding, George Floyd protest scale phrasing, Darnella Frazier role, Derek Chauvin conviction, intersectionality, voting suppression language, nonprofit/accountability criticism, and current-history uncertainty reviewed.
+- Material corrections made: Replaced legacy page with careful current-history framing, removed generic movement quote, and treated modern civil rights as networked rather than single-hero leadership.
+- External links included on the page:
+  - Black Lives Matter: Herstory (https://blacklivesmatter.com/herstory/)
+  - Pew Research Center: Support for Black Lives Matter Amid Protests (https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/)
+  - Equal Justice Initiative: Bryan Stevenson (https://eji.org/bryan-stevenson/)
+  - African American Policy Forum: About AAPF (https://www.aapf.org/about)
+  - Stacey Abrams: About Stacey Abrams (https://www.staceyabrams.com/about-stacey)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, current-history and disputed-strategy claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-09 - Benjamin Banneker
+
+- Entry title: Benjamin Banneker
+- Slug: `benjamin-banneker`
+- Daily date: 2026-10-09
+- Daily story researched: 2026-09-05
+- Daily story claims: Benjamin Banneker died on October 9, 1806, in the Maryland community where he had spent most of his life. A free Black farmer with limited formal schooling, he became known through astronomy, almanacs, surveying, and a direct challenge to Thomas Jefferson. Banneker learned mathematics and used borrowed scientific texts and instruments to calculate eclipses and planetary positions. His published almanacs included practical information and antislavery material, making scientific authority part of a public argument about Black capacity and freedom. In 1791, he sent Jefferson an almanac manuscript with a letter pointing to the contradiction between natural rights and slavery. Jefferson replied politely but did not accept Banneker's challenge to his racial beliefs or his own slaveholding.
+- Daily story sources:
+  - https://www.loc.gov/item/mcc.028/
+  - https://founders.archives.gov/documents/Jefferson/01-22-02-0049
+- Date researched: 2026-08-14
+- Writer/research status: batch-3-drafted
+- Material factual claims: Benjamin Banneker is often remembered as a self-taught Black astronomer who helped survey Washington, D.C. and challenged Thomas Jefferson. Both claims matter, but the fuller story is more precise and more interesting. Banneker was a free Black farmer, mathematician, almanac maker, and public intellectual in an early United States built around slavery. His calculations gave him authority in a world that claimed Black people lacked reason. His letter to Jefferson did not beg for recognition. It used astronomy, print, faith, and the language of the Revolution to expose the contradiction between liberty and human bondage.
+- Primary or authoritative sources:
+  - https://www.loc.gov/item/mcc.028/
+  - https://www.loc.gov/exhibits/jefferson/jeffrep.html
+- Supporting secondary sources:
+  - https://www.nps.gov/places/000/benjamin-banneker-park.htm
+  - https://www.nps.gov/places/sw-9-intermediate-boundary-stone-of-the-district-of-columbia.htm/index.htm
+- Verified quotation source: Banneker letter to Jefferson, August 19, 1791, public-domain text published with the correspondence.
+- Sensitive or disputed claims reviewed: Surveying role, almanac publications, Jefferson correspondence, and common inflated claims about designing Washington reviewed.
+- Material corrections made: Avoided overstating Banneker as designer of Washington, D.C.; framed verified surveying and almanac work as historically significant enough.
+- External links included on the page:
+  - National Park Service: Benjamin Banneker Park (https://www.nps.gov/places/000/benjamin-banneker-park.htm)
+  - Library of Congress: Jefferson to Benjamin Banneker, August 30, 1791 (https://www.loc.gov/item/mcc.028/)
+  - Library of Congress: Benjamin Banneker and Jefferson correspondence in exhibition context (https://www.loc.gov/exhibits/jefferson/jeffrep.html)
+  - National Park Service: Boundary Stone of the District of Columbia (https://www.nps.gov/places/sw-9-intermediate-boundary-stone-of-the-district-of-columbia.htm/index.htm)
+- Final review status: Batch 3 draft. Requires generation, validation, and browser review.
+
+### 2026-10-10 - Thelonious Monk
+
+- Entry title: Duke Ellington
+- Slug: `duke-ellington`
+- Daily date: 2026-10-10
+- Daily story researched: 2026-09-05
+- Daily story claims: Thelonious Monk was born in Rocky Mount, North Carolina, on October 10, 1917, and grew up in New York. At the piano, silence could be as deliberate as sound, and a familiar chord could land at an angle no one expected. Monk developed his music around Harlem jam sessions at Minton's Playhouse, where bebop took shape. His compositions were exacting, even when critics heard only eccentricity. Round Midnight, Straight, No Chaser, and Well, You Needn't became standards. A 1951 drug arrest cost Monk his New York cabaret card and limited where he could work for years. Pianist and patron Pannonica de Koenigswarter supported him, while musicians kept learning a body of work the broader public was slow to understand.
+- Daily story sources:
+  - https://americanhistory.si.edu/collections/object-groups/thelonious-monk
+  - https://www.britannica.com/biography/Thelonious-Monk
+- Date researched: 2026-08-14
+- Writer/research status: batch-7-complete
+- Material factual claims: Duke Ellington did not make jazz respectable by making it less Black. He expanded its forms, colors, audiences, and ambitions while keeping the orchestra rooted in the individual voices of Black musicians. Born in Washington, D.C., Ellington became a pianist, composer, bandleader, arranger, and cultural diplomat whose work moved from dance halls and radio broadcasts to suites, film scores, sacred concerts, and global tours. The easy version says he made jazz elegant. The deeper story is that he treated Black sound as a whole world: sophisticated, experimental, commercial, spiritual, funny, disciplined, and impossible to shrink.
+- Primary or authoritative sources:
+  - https://www.loc.gov/item/today-in-history/april-29/
+  - https://americanhistory.si.edu/documentsgallery/exhibitions/ellington_strayhorn_2.html
+- Supporting secondary sources:
+  - https://npg.si.edu/object/npg_NPG.92.58
+  - https://blogs.loc.gov/nls-music-notes/2018/05/american-composers-from-a-z-e-part-1-ellington-duke/
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Cotton Club segregation, Billy Strayhorn collaboration, composition counts, Carnegie Hall reception, cultural diplomacy framing, and Presidential Medal timeline reviewed.
+- Material corrections made: Expanded legacy daily framing from global jazz icon into a fuller account of orchestra, collaboration, segregation, extended composition, and cultural diplomacy.
+- External links included on the page:
+  - Library of Congress: Today in History: Duke Ellington (https://www.loc.gov/item/today-in-history/april-29/)
+  - National Museum of American History: Duke Ellington and Billy Strayhorn: Jazz Composers (https://americanhistory.si.edu/documentsgallery/exhibitions/ellington_strayhorn_2.html)
+  - National Portrait Gallery: Duke Ellington (https://npg.si.edu/object/npg_NPG.92.58)
+  - Library of Congress Music Blog: American Composers and Musicians from A to Z: Ellington, Duke (https://blogs.loc.gov/nls-music-notes/2018/05/american-composers-from-a-z-e-part-1-ellington-duke/)
+- Final review status: Batch 7 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-11 - Alexander Miles and Elevator Safety
+
+- Entry title: Black Tech Pioneers
+- Slug: `black-tech-pioneers`
+- Daily date: 2026-10-11
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 11, 1887, Alexander Miles received a United States patent for an elevator-door mechanism. Elevators already existed. His contribution addressed a dangerous weakness: open shaft doors and the human error involved in closing them by hand. Miles designed linked mechanisms that allowed doors to open and close as the car reached or left a floor. The patent did not create the modern elevator by itself, but it documented a practical improvement in a technology reshaping multistory cities. Little is firmly documented about parts of Miles's life, and celebratory summaries sometimes promote him as the sole inventor of automatic doors. The patent record supports the more accurate claim: he patented a specific and influential improvement.
+- Daily story sources:
+  - https://patents.google.com/patent/US371207A/en
+  - https://blackpast.org/african-american-history/miles-alexander-1838-1918/
+- Date researched: 2026-08-14
+- Writer/research status: batch-4-complete
+- Material factual claims: Black technology history is often told as a list of hidden names. That recovery matters, but it is only the first step. Black engineers, mathematicians, programmers, and inventors helped build the systems that made modern computing, aerospace, personal computers, groupware, and digital infrastructure possible. Katherine Johnson calculated trajectories. Clarence "Skip" Ellis became the first African American to earn a PhD in computer science. Mark Dean helped shape the IBM PC and high-speed computing. Their stories also reveal the gatekeeping around who was imagined as technical. The work was never only genius. It was access, mentorship, patents, labs, credit, and the right to ask questions in rooms that were not built for them.
+- Primary or authoritative sources:
+  - https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/
+  - https://www.ibm.com/history/mark-dean
+- Supporting secondary sources:
+  - https://blackhistory.mit.edu/archive/clarence-ellis-1975
+  - https://nsbe.org/about/
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: First-Black PhD and ACM Fellow claims for Clarence Ellis, IBM patent claims for Mark Dean, Katherine Johnson mission claims, and NSBE founding framing reviewed.
+- Material corrections made: Expanded legacy name-list framing into a collective technology history focused on infrastructure, access, credit, and institutions.
+- External links included on the page:
+  - NASA: Katherine Johnson biography (https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/)
+  - IBM: Mark Dean (https://www.ibm.com/history/mark-dean)
+  - MIT Black History: Clarence Ellis, 1975 (https://blackhistory.mit.edu/archive/clarence-ellis-1975)
+  - National Society of Black Engineers: NSBE mission and history (https://nsbe.org/about/)
+- Final review status: Batch 4 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-12 - Dick Gregory
+
+- Entry title: Modern Civil Rights Leaders
+- Slug: `modern-civil-rights`
+- Daily date: 2026-10-12
+- Daily story researched: 2026-09-05
+- Daily story claims: Dick Gregory was born in St. Louis on October 12, 1932. He entered national comedy by telling white nightclub audiences truths about race that were sharp enough to disturb them and funny enough that they stayed to listen. A 1961 engagement at Chicago's Playboy Club helped make Gregory a star. He refused the usual limits placed on Black entertainers, using first-person satire about segregation, poverty, policing, and liberal hypocrisy. Gregory moved increasingly into direct activism, joining civil-rights campaigns, opposing the Vietnam War, running symbolic political campaigns, and undertaking hunger strikes. His later promotion of conspiracy claims and unproven health ideas also requires scrutiny rather than automatic celebration.
+- Daily story sources:
+  - https://nmaahc.si.edu/explore/stories/dick-gregory
+  - https://www.loc.gov/item/2016650085/
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Modern civil rights leadership is not one person at one podium. It is a network of organizers, lawyers, scholars, voters, survivors, local groups, digital strategists, clergy, students, families, and policy workers fighting over policing, voting, prisons, education, housing, health, and memory. Black Lives Matter, founded by Alicia Garza, Patrisse Cullors, and Opal Tometi after Trayvon Martin's killer was acquitted, became one visible language for a wider movement. Bryan Stevenson, Kimberle Crenshaw, Stacey Abrams, Darnella Frazier, and countless local organizers show different kinds of leadership. This page matters because civil rights is not a finished chapter. It is being argued, filmed, litigated, organized, funded, attacked, misunderstood, and remade in public.
+- Primary or authoritative sources:
+  - https://blacklivesmatter.com/herstory/
+  - https://eji.org/bryan-stevenson/
+  - https://www.aapf.org/about
+- Supporting secondary sources:
+  - https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/
+  - https://www.staceyabrams.com/about-stacey
+- Verified quotation source: Short quotation traced to Alicia Garza's 2013 post as reproduced and contextualized by Black Lives Matter herstory materials.
+- Sensitive or disputed claims reviewed: BLM founding, George Floyd protest scale phrasing, Darnella Frazier role, Derek Chauvin conviction, intersectionality, voting suppression language, nonprofit/accountability criticism, and current-history uncertainty reviewed.
+- Material corrections made: Replaced legacy page with careful current-history framing, removed generic movement quote, and treated modern civil rights as networked rather than single-hero leadership.
+- External links included on the page:
+  - Black Lives Matter: Herstory (https://blacklivesmatter.com/herstory/)
+  - Pew Research Center: Support for Black Lives Matter Amid Protests (https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/)
+  - Equal Justice Initiative: Bryan Stevenson (https://eji.org/bryan-stevenson/)
+  - African American Policy Forum: About AAPF (https://www.aapf.org/about)
+  - Stacey Abrams: About Stacey Abrams (https://www.staceyabrams.com/about-stacey)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, current-history and disputed-strategy claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-13 - The Arrest and Trial of Angela Davis
+
+- Entry title: Angela Davis
+- Slug: `angela-davis`
+- Daily date: 2026-10-13
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 13, 1970, FBI agents arrested Angela Davis at a Manhattan motel after a nationwide search. Her face had circulated on wanted posters, and her case had already become a global argument about radical politics, policing, and guilt by association. Guns registered to Davis were used in a Marin County courthouse attack that killed four people. Prosecutors charged her with murder, kidnapping, and conspiracy under California law, arguing that she helped plan the attack. Davis denied involvement. Support committees organized internationally while Davis spent more than a year in jail. In June 1972, an all-white jury acquitted her on every count. The verdict did not settle debates over her politics, but it rejected the prosecution's criminal case.
+- Daily story sources:
+  - https://www.fbi.gov/history/famous-cases/angela-davis
+  - https://www.archives.gov/research/african-americans/individuals/angela-davis
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: Angela Davis became world-famous because the state tried to make her disappear into a criminal case. But her story did not begin with the FBI's Ten Most Wanted list, and it did not end with acquittal. Davis is a scholar, organizer, communist, feminist, and prison abolitionist whose life connects universities, surveillance, Black liberation politics, political imprisonment, and the modern critique of the prison-industrial complex. The famous trial matters because it showed how ideas, associations, and race could be turned into public fear. The longer story matters because Davis kept thinking and organizing after the spectacle moved on.
+- Primary or authoritative sources:
+  - https://archives.fbi.gov/archives/news/stories/2010/october/davis_101310
+  - https://campusdirectory.ucsc.edu/cd_detail?guid=G000122719
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/object/nmaahc_2010.55.1
+  - https://criticalresistance.org/mission-vision/history/
+- Verified quotation source: No quotation included. Common Davis quotations were omitted pending stronger quote-context verification.
+- Sensitive or disputed claims reviewed: Criminal charges, Ten Most Wanted listing, acquittal, Communist Party membership, UCLA dispute, and abolitionist framing reviewed against FBI, UCSC, NWHM, and Critical Resistance sources.
+- Material corrections made: Expanded the daily entry beyond the trial into scholarship, academic freedom, surveillance, and prison abolition.
+- External links included on the page:
+  - FBI Records: Angela Davis and the FBI Ten Most Wanted list (https://archives.fbi.gov/archives/news/stories/2010/october/davis_101310)
+  - UC Santa Cruz: Angela Davis campus directory biography (https://campusdirectory.ucsc.edu/cd_detail?guid=G000122719)
+  - National Museum of African American History and Culture: Angela Davis collection object (https://nmaahc.si.edu/object/nmaahc_2010.55.1)
+  - Critical Resistance: Critical Resistance history and abolition organizing (https://criticalresistance.org/mission-vision/history/)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
+
+### 2026-10-14 - Martin Luther King Jr. and the Nobel Peace Prize
+
+- Entry title: Modern Civil Rights Leaders
+- Slug: `modern-civil-rights`
+- Daily date: 2026-10-14
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 14, 1964, the Nobel Committee announced that Martin Luther King Jr. would receive its Peace Prize. He was thirty-five, and the Civil Rights Act had become law only months earlier. The award recognized nonviolent struggle against racial segregation, but King insisted the honor belonged to a movement. Organizers, students, domestic workers, clergy, lawyers, and families had created the campaigns that made his leadership internationally visible. King donated the prize money to civil-rights organizations. Over the next three years, he also challenged northern segregation, economic exploitation, and the Vietnam War, positions that cost him public support and complicated the safer image later attached to the Nobel laureate.
+- Daily story sources:
+  - https://www.nobelprize.org/prizes/peace/1964/king/facts/
+  - https://kinginstitute.stanford.edu/nobel-peace-prize
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Modern civil rights leadership is not one person at one podium. It is a network of organizers, lawyers, scholars, voters, survivors, local groups, digital strategists, clergy, students, families, and policy workers fighting over policing, voting, prisons, education, housing, health, and memory. Black Lives Matter, founded by Alicia Garza, Patrisse Cullors, and Opal Tometi after Trayvon Martin's killer was acquitted, became one visible language for a wider movement. Bryan Stevenson, Kimberle Crenshaw, Stacey Abrams, Darnella Frazier, and countless local organizers show different kinds of leadership. This page matters because civil rights is not a finished chapter. It is being argued, filmed, litigated, organized, funded, attacked, misunderstood, and remade in public.
+- Primary or authoritative sources:
+  - https://blacklivesmatter.com/herstory/
+  - https://eji.org/bryan-stevenson/
+  - https://www.aapf.org/about
+- Supporting secondary sources:
+  - https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/
+  - https://www.staceyabrams.com/about-stacey
+- Verified quotation source: Short quotation traced to Alicia Garza's 2013 post as reproduced and contextualized by Black Lives Matter herstory materials.
+- Sensitive or disputed claims reviewed: BLM founding, George Floyd protest scale phrasing, Darnella Frazier role, Derek Chauvin conviction, intersectionality, voting suppression language, nonprofit/accountability criticism, and current-history uncertainty reviewed.
+- Material corrections made: Replaced legacy page with careful current-history framing, removed generic movement quote, and treated modern civil rights as networked rather than single-hero leadership.
+- External links included on the page:
+  - Black Lives Matter: Herstory (https://blacklivesmatter.com/herstory/)
+  - Pew Research Center: Support for Black Lives Matter Amid Protests (https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/)
+  - Equal Justice Initiative: Bryan Stevenson (https://eji.org/bryan-stevenson/)
+  - African American Policy Forum: About AAPF (https://www.aapf.org/about)
+  - Stacey Abrams: About Stacey Abrams (https://www.staceyabrams.com/about-stacey)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, current-history and disputed-strategy claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-15 - The Founding of the Black Panther Party
+
+- Entry title: The Black Panther Party
+- Slug: `black-panther-party`
+- Daily date: 2026-10-15
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 15, 1966, Huey P. Newton and Bobby Seale organized the Black Panther Party for Self-Defense in Oakland. They began from a local problem: Black residents experienced aggressive policing while legal protection often seemed absent. The Panthers studied California gun law, monitored police encounters, and published a Ten-Point Program demanding employment, housing, education, and an end to police brutality. Chapters later ran breakfast programs, health clinics, political education, and other survival programs. The organization also carried weapons, used militant rhetoric, and experienced internal conflicts. Police violence, prosecutions, surveillance, and the FBI's COINTELPRO campaign intensified those pressures and helped fracture the party.
+- Daily story sources:
+  - https://www.archives.gov/research/african-americans/black-power/black-panthers
+  - https://www.loc.gov/collections/black-panther-party-newspaper/about-this-collection/
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The Black Panther Party is often remembered through the image of armed Black men in leather jackets. That image was real, but it is not enough. The Panthers built patrols against police brutality, political education classes, newspapers, free breakfast programs, health clinics, sickle cell testing, liberation schools, and coalitions with other oppressed communities. They also faced internal conflict, sexism, state repression, criminal charges, informants, and deadly police violence. This page matters because the Panthers understood power as both defense and care. A rifle could symbolize refusal, but breakfast before school, a clinic visit, or a newspaper in a neighbor's hand could also expose the state's failures.
+- Primary or authoritative sources:
+  - https://www.archives.gov/research/african-americans/black-power
+  - https://www.archives.gov/research/african-americans/black-power/black-panthers
+  - https://www.loc.gov/collections/black-panther-party-newspaper/about-this-collection/
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/collection/search?edan_q=Black%20Panther%20Party
+  - https://guides.lib.berkeley.edu/blackpantherparty
+- Verified quotation source: No quotation included. Ten-Point Program and survival-program claims summarized from institutional and archival sources.
+- Sensitive or disputed claims reviewed: Armed patrols, women's roles, sexism, COINTELPRO, Fred Hampton raid, survival programs, internal conflict, and dissolution framing reviewed.
+- Material corrections made: Expanded scheduled fallback beyond breakfast shorthand into self-defense, survival programs, media, gender, repression, and contested memory.
+- External links included on the page:
+  - National Archives: Black Power (https://www.archives.gov/research/african-americans/black-power)
+  - National Archives: Black Panthers (https://www.archives.gov/research/african-americans/black-power/black-panthers)
+  - Library of Congress: Black Panther Party Newspaper Collection (https://www.loc.gov/collections/black-panther-party-newspaper/about-this-collection/)
+  - National Museum of African American History and Culture: Black Panther Party Materials (https://nmaahc.si.edu/explore/collection/search?edan_q=Black%20Panther%20Party)
+  - UC Berkeley Library: Black Panther Party Research Guide (https://guides.lib.berkeley.edu/blackpantherparty)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, Panther history claim review.
+
+### 2026-10-16 - The Million Man March
+
+- Entry title: Modern Civil Rights Leaders
+- Slug: `modern-civil-rights`
+- Daily date: 2026-10-16
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 16, 1995, a vast crowd of Black men gathered on the National Mall for the Million Man March. The day mixed religious ceremony, political organizing, family commitments, voter registration, and arguments over who the event included or left out. Louis Farrakhan of the Nation of Islam called the march, while a wide range of churches and organizations mobilized participants. Speakers emphasized atonement, responsibility, and community repair amid mass incarceration, economic inequality, and public stereotypes about Black men. Attendance became a public controversy because official and organizer estimates differed sharply. Black women supported much of the organizing while some criticized male-centered language and the politics of Farrakhan. Those tensions belong inside the history.
+- Daily story sources:
+  - https://www.loc.gov/pictures/item/2015647152/
+  - https://americanhistory.si.edu/collections/object/nmah_1299716
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Modern civil rights leadership is not one person at one podium. It is a network of organizers, lawyers, scholars, voters, survivors, local groups, digital strategists, clergy, students, families, and policy workers fighting over policing, voting, prisons, education, housing, health, and memory. Black Lives Matter, founded by Alicia Garza, Patrisse Cullors, and Opal Tometi after Trayvon Martin's killer was acquitted, became one visible language for a wider movement. Bryan Stevenson, Kimberle Crenshaw, Stacey Abrams, Darnella Frazier, and countless local organizers show different kinds of leadership. This page matters because civil rights is not a finished chapter. It is being argued, filmed, litigated, organized, funded, attacked, misunderstood, and remade in public.
+- Primary or authoritative sources:
+  - https://blacklivesmatter.com/herstory/
+  - https://eji.org/bryan-stevenson/
+  - https://www.aapf.org/about
+- Supporting secondary sources:
+  - https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/
+  - https://www.staceyabrams.com/about-stacey
+- Verified quotation source: Short quotation traced to Alicia Garza's 2013 post as reproduced and contextualized by Black Lives Matter herstory materials.
+- Sensitive or disputed claims reviewed: BLM founding, George Floyd protest scale phrasing, Darnella Frazier role, Derek Chauvin conviction, intersectionality, voting suppression language, nonprofit/accountability criticism, and current-history uncertainty reviewed.
+- Material corrections made: Replaced legacy page with careful current-history framing, removed generic movement quote, and treated modern civil rights as networked rather than single-hero leadership.
+- External links included on the page:
+  - Black Lives Matter: Herstory (https://blacklivesmatter.com/herstory/)
+  - Pew Research Center: Support for Black Lives Matter Amid Protests (https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/)
+  - Equal Justice Initiative: Bryan Stevenson (https://eji.org/bryan-stevenson/)
+  - African American Policy Forum: About AAPF (https://www.aapf.org/about)
+  - Stacey Abrams: About Stacey Abrams (https://www.staceyabrams.com/about-stacey)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, current-history and disputed-strategy claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-17 - Jupiter Hammon
+
+- Entry title: Phillis Wheatley
+- Slug: `phillis-wheatley`
+- Daily date: 2026-10-17
+- Daily story researched: 2026-09-05
+- Daily story claims: Jupiter Hammon was born enslaved on Long Island on October 17, 1711. He learned to read and write within the household that claimed his labor, then became the first known African American to publish a literary work in British North America. His 1761 broadside, An Evening Thought, joined Christian verse with the fact of Black authorship in a print culture that denied Black intellectual equality. Hammon later wrote poems, prose, and an address directed to Black New Yorkers. His 1787 address urged moral discipline and gradual emancipation rather than revolt. Readers debate how to interpret that caution from a man who remained enslaved, wrote within evangelical conventions, and addressed audiences holding unequal power.
+- Daily story sources:
+  - https://www.loc.gov/item/90898125/
+  - https://www.poetryfoundation.org/poets/jupiter-hammon
+- Date researched: 2026-08-17
+- Writer/research status: batch-18-complete
+- Material factual claims: Phillis Wheatley published a book before the United States existed, and powerful men still demanded proof that she had written it. Kidnapped from West Africa as a child, enslaved in Boston, educated in the Wheatley household, and published in London in 1773, she became the first Black woman in America to publish a book of poetry. That achievement is astonishing, but the deeper story is not only triumph. Wheatley wrote inside enslavement, patronage, Christian and classical learning, Revolutionary politics, and a white reading public that treated Black intelligence as something to be examined. Her page matters because her poetry exposed the lie of Black inferiority while showing how expensive recognition could be when freedom itself was still denied.
+- Primary or authoritative sources:
+  - https://www.poetryfoundation.org/poets/phillis-wheatley
+  - https://www.loc.gov/item/2021667201/
+  - https://www.masshist.org/database/163
+- Supporting secondary sources:
+  - https://www.womenshistory.org/education-resources/biographies/phillis-wheatley
+  - https://bwht.org/phillis-wheatley/
+- Verified quotation source: Short quotation traced to Wheatley's published poem "On Being Brought from Africa to America" and kept under excerpt limits.
+- Sensitive or disputed claims reviewed: Birthplace uncertainty, first Black woman book-publication claim, attestation by Boston men, enslavement/manumission, marriage and poverty, and interpretation of religious language reviewed.
+- Material corrections made: Expanded scheduled fallback beyond first-book framing into Atlantic slavery, publication politics, attestation, patronage, poverty, and reading context.
+- External links included on the page:
+  - Poetry Foundation: Phillis Wheatley (https://www.poetryfoundation.org/poets/phillis-wheatley)
+  - Library of Congress: Phillis Wheatley Peters (https://www.loc.gov/item/2021667201/)
+  - Massachusetts Historical Society: Phillis Wheatley (https://www.masshist.org/database/163)
+  - National Women's History Museum: Phillis Wheatley (https://www.womenshistory.org/education-resources/biographies/phillis-wheatley)
+  - Boston Women's Heritage Trail: Phillis Wheatley (https://bwht.org/phillis-wheatley/)
+- Final review status: Batch 18 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, first-claim and slavery/patronage claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-18 - The Cost of the 1968 Olympic Salute
+
+- Entry title: 1968 Olympic Black Power Salute
+- Slug: `black-power-salute`
+- Daily date: 2026-10-18
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 18, 1968, Tommie Smith and John Carlos were suspended from the United States Olympic team and ordered out of the Olympic Village. Their offense was a silent gesture on the medal stand two nights earlier. Smith and Carlos had raised black-gloved fists during the anthem after winning gold and bronze in the 200 meters. Their clothing and posture referenced Black poverty, lynching, labor, and the Olympic Project for Human Rights. The punishment did not end with Mexico City. Both men faced threats, lost opportunities, and years of public hostility. Australian silver medalist Peter Norman, who wore the project's badge in solidarity, also paid a professional price.
+- Daily story sources:
+  - https://nmaahc.si.edu/explore/stories/1968-black-power-salute
+  - https://usopm.org/hall-of-fame/
+- Date researched: 2026-08-14
+- Writer/research status: batch-2-reviewed
+- Material factual claims: The 1968 Olympic podium protest is often remembered as a single frozen image: Tommie Smith and John Carlos, heads bowed, black-gloved fists raised. The photograph matters, but it can make the action look spontaneous or only symbolic. It was connected to months of organizing by the Olympic Project for Human Rights, to debates among Black athletes about boycotting the Games, and to a wider challenge against racism in sports and American public life. Smith and Carlos did not simply interrupt a medal ceremony. They used the most visible athletic stage in the world to insist that winning a medal did not cancel the conditions Black people faced at home.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/explore/stories/1968-black-power-salute
+  - https://www.si.edu/stories/olympic-history
+- Supporting secondary sources:
+  - https://www.smithsonianmag.com/smithsonian-institution/what-you-dont-know-about-olympian-tommie-smiths-silent-gesture-180960056/
+  - https://usopm.org/hall-of-fame/
+- Verified quotation source: No quotation included. The page relies on documented action and consequences rather than a potentially overused quotation.
+- Sensitive or disputed claims reviewed: IOC and USOC punishment, OPHR demands, Peter Norman solidarity, and post-protest retaliation reviewed against museum and Olympic sources.
+- Material corrections made: Expanded the legacy summary into a movement-connected account of OPHR organizing, athlete debate, podium symbolism, and backlash.
+- External links included on the page:
+  - National Museum of African American History and Culture: The 1968 Black Power Salute (https://nmaahc.si.edu/explore/stories/1968-black-power-salute)
+  - Smithsonian Institution: Olympic history: Tommie Smith and John Carlos (https://www.si.edu/stories/olympic-history)
+  - Smithsonian Magazine: What you do not know about Tommie Smith's silent gesture (https://www.smithsonianmag.com/smithsonian-institution/what-you-dont-know-about-olympian-tommie-smiths-silent-gesture-180960056/)
+  - U.S. Olympic and Paralympic Museum: Tommie Smith and John Carlos Hall of Fame recognition (https://usopm.org/hall-of-fame/)
+- Final review status: Batch 2 rich rebuild complete. Requires final whole-encyclopedia audit.
+
+### 2026-10-19 - The Campaign for Martin Luther King Jr. Day
+
+- Entry title: Modern Civil Rights Leaders
+- Slug: `modern-civil-rights`
+- Daily date: 2026-10-19
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 19, 1983, the United States Senate approved a federal holiday honoring Martin Luther King Jr. The vote came fifteen years after his assassination and after a sustained campaign that made remembrance a political demand. Representative John Conyers introduced holiday legislation days after King's death. Coretta Scott King, labor unions, churches, artists, and petition organizers kept the proposal alive through repeated congressional defeats. Stevie Wonder's Happy Birthday helped carry the campaign into popular culture. President Ronald Reagan signed the bill on November 2, and the first federal observance took place in 1986. Several states resisted or attached the holiday to Confederate commemorations before nationwide state recognition was achieved.
+- Daily story sources:
+  - https://www.congress.gov/bill/98th-congress/house-bill/3706
+  - https://www.reaganlibrary.gov/archives/speech/remarks-signing-bill-making-birthday-martin-luther-king-jr-national-holiday
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Modern civil rights leadership is not one person at one podium. It is a network of organizers, lawyers, scholars, voters, survivors, local groups, digital strategists, clergy, students, families, and policy workers fighting over policing, voting, prisons, education, housing, health, and memory. Black Lives Matter, founded by Alicia Garza, Patrisse Cullors, and Opal Tometi after Trayvon Martin's killer was acquitted, became one visible language for a wider movement. Bryan Stevenson, Kimberle Crenshaw, Stacey Abrams, Darnella Frazier, and countless local organizers show different kinds of leadership. This page matters because civil rights is not a finished chapter. It is being argued, filmed, litigated, organized, funded, attacked, misunderstood, and remade in public.
+- Primary or authoritative sources:
+  - https://blacklivesmatter.com/herstory/
+  - https://eji.org/bryan-stevenson/
+  - https://www.aapf.org/about
+- Supporting secondary sources:
+  - https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/
+  - https://www.staceyabrams.com/about-stacey
+- Verified quotation source: Short quotation traced to Alicia Garza's 2013 post as reproduced and contextualized by Black Lives Matter herstory materials.
+- Sensitive or disputed claims reviewed: BLM founding, George Floyd protest scale phrasing, Darnella Frazier role, Derek Chauvin conviction, intersectionality, voting suppression language, nonprofit/accountability criticism, and current-history uncertainty reviewed.
+- Material corrections made: Replaced legacy page with careful current-history framing, removed generic movement quote, and treated modern civil rights as networked rather than single-hero leadership.
+- External links included on the page:
+  - Black Lives Matter: Herstory (https://blacklivesmatter.com/herstory/)
+  - Pew Research Center: Support for Black Lives Matter Amid Protests (https://www.pewresearch.org/social-trends/2020/06/12/amid-protests-majorities-across-racial-and-ethnic-groups-express-support-for-the-black-lives-matter-movement/)
+  - Equal Justice Initiative: Bryan Stevenson (https://eji.org/bryan-stevenson/)
+  - African American Policy Forum: About AAPF (https://www.aapf.org/about)
+  - Stacey Abrams: About Stacey Abrams (https://www.staceyabrams.com/about-stacey)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, verified short quotation, current-history and disputed-strategy claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-20 - Jelly Roll Morton
+
+- Entry title: The Blues
+- Slug: `the-blues`
+- Daily date: 2026-10-20
+- Daily story researched: 2026-09-05
+- Daily story claims: Jelly Roll Morton said he was born on October 20, 1890, in New Orleans. Surviving records disagree about the year, a reminder that Black lives were often poorly documented and that Morton himself understood biography as part of performance. Born Ferdinand Joseph LaMothe, Morton worked in the city's clubs and traveled widely as a pianist, composer, arranger, and bandleader. His carefully structured recordings showed how collective improvisation and written arrangement could strengthen each other. Morton famously claimed to have invented jazz. No single person did. His boast should not erase the network of Black New Orleans musicians who made the music, nor should its exaggeration obscure his real compositional influence.
+- Daily story sources:
+  - https://www.loc.gov/collections/jelly-roll-morton-recordings-from-the-loc/about-this-collection/
+  - https://www.britannica.com/biography/Jelly-Roll-Morton
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The blues is not just sad music, and it is not just the raw material other genres borrowed from. It is a Black musical language shaped by work, migration, church, dance, desire, humor, grief, and invention. Emerging from African American life in the South after slavery, blues musicians turned everyday speech, bent notes, repeated lines, guitar figures, piano patterns, and personal testimony into an art form that changed the sound of the world. This page matters because the blues is often honored after being stripped for parts. Rock, jazz, R&B, soul, country, and hip-hop all carry its influence, but the people who built the form were often exploited, underpaid, copied, or remembered only as sources for someone else's greatness.
+- Primary or authoritative sources:
+  - https://music.si.edu/story/blues
+  - https://blogs.loc.gov/folklife/2020/06/black-lives-and-the-blues/
+  - https://nmaahc.si.edu/explore/exhibitions/musical-crossroads
+- Supporting secondary sources:
+  - https://visitmississippi.org/bluestrail/
+  - https://blues.org/blues-hall-of-fame/
+- Verified quotation source: No lyrics quoted. Song title mentioned only as historical recording title.
+- Sensitive or disputed claims reviewed: Origins, Mamie Smith commercial breakthrough, women's centrality, Great Migration/electric blues, genre influence, and exploitation claims reviewed.
+- Material corrections made: Rebuilt legacy page beyond source-of-everything shorthand into a fuller account of form, women performers, migration, ownership, exploitation, and living tradition.
+- External links included on the page:
+  - Smithsonian Music: The Blues (https://music.si.edu/story/blues)
+  - Library of Congress: Blues as Protest (https://blogs.loc.gov/folklife/2020/06/black-lives-and-the-blues/)
+  - National Museum of African American History and Culture: Musical Crossroads (https://nmaahc.si.edu/explore/exhibitions/musical-crossroads)
+  - Mississippi Blues Trail: Mississippi Blues Trail (https://visitmississippi.org/bluestrail/)
+  - The Blues Foundation: Blues Hall of Fame (https://blues.org/blues-hall-of-fame/)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no lyric quotation.
+
+### 2026-10-21 - Dizzy Gillespie
+
+- Entry title: Duke Ellington
+- Slug: `duke-ellington`
+- Daily date: 2026-10-21
+- Daily story researched: 2026-09-05
+- Daily story claims: John Birks Gillespie was born in Cheraw, South Carolina, on October 21, 1917. Nicknamed Dizzy, he became a trumpeter whose high-register precision, harmonic imagination, and comic stage presence helped make demanding new music inviting. In 1940s jam sessions and bands, Gillespie worked with Charlie Parker, Thelonious Monk, Kenny Clarke, and others developing bebop. The music used fast tempos and complex harmony, shifting jazz away from dance-band expectations toward concentrated listening. Gillespie also worked with Cuban percussionist Chano Pozo and arranger Mario Bauza, helping create Afro-Cuban jazz. That history is collaboration across the Black diaspora, not a U.S. musician simply discovering Latin rhythm.
+- Daily story sources:
+  - https://americanhistory.si.edu/collections/object/nmah_606839
+  - https://www.britannica.com/biography/Dizzy-Gillespie
+- Date researched: 2026-08-14
+- Writer/research status: batch-7-complete
+- Material factual claims: Duke Ellington did not make jazz respectable by making it less Black. He expanded its forms, colors, audiences, and ambitions while keeping the orchestra rooted in the individual voices of Black musicians. Born in Washington, D.C., Ellington became a pianist, composer, bandleader, arranger, and cultural diplomat whose work moved from dance halls and radio broadcasts to suites, film scores, sacred concerts, and global tours. The easy version says he made jazz elegant. The deeper story is that he treated Black sound as a whole world: sophisticated, experimental, commercial, spiritual, funny, disciplined, and impossible to shrink.
+- Primary or authoritative sources:
+  - https://www.loc.gov/item/today-in-history/april-29/
+  - https://americanhistory.si.edu/documentsgallery/exhibitions/ellington_strayhorn_2.html
+- Supporting secondary sources:
+  - https://npg.si.edu/object/npg_NPG.92.58
+  - https://blogs.loc.gov/nls-music-notes/2018/05/american-composers-from-a-z-e-part-1-ellington-duke/
+- Verified quotation source: No quotation included.
+- Sensitive or disputed claims reviewed: Cotton Club segregation, Billy Strayhorn collaboration, composition counts, Carnegie Hall reception, cultural diplomacy framing, and Presidential Medal timeline reviewed.
+- Material corrections made: Expanded legacy daily framing from global jazz icon into a fuller account of orchestra, collaboration, segregation, extended composition, and cultural diplomacy.
+- External links included on the page:
+  - Library of Congress: Today in History: Duke Ellington (https://www.loc.gov/item/today-in-history/april-29/)
+  - National Museum of American History: Duke Ellington and Billy Strayhorn: Jazz Composers (https://americanhistory.si.edu/documentsgallery/exhibitions/ellington_strayhorn_2.html)
+  - National Portrait Gallery: Duke Ellington (https://npg.si.edu/object/npg_NPG.92.58)
+  - Library of Congress Music Blog: American Composers and Musicians from A to Z: Ellington, Duke (https://blogs.loc.gov/nls-music-notes/2018/05/american-composers-from-a-z-e-part-1-ellington-duke/)
+- Final review status: Batch 7 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-22 - Clarence Norris and the Scottsboro Pardons
+
+- Entry title: The Scottsboro Boys
+- Slug: `scottsboro-boys`
+- Daily date: 2026-10-22
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 22, 1976, Alabama Governor George Wallace pardoned Clarence Norris, the last surviving defendant from the Scottsboro cases. Forty-five years had passed since nine Black teenagers were pulled from a train and falsely accused of rape. Norris had faced repeated trials, death sentences, prison, and parole before leaving Alabama. The prosecutions produced Supreme Court rulings on the right to adequate counsel and the exclusion of Black people from juries, but legal precedent did not return the defendants' lost years. The pardon recognized Norris individually without fully clearing every defendant. Alabama issued posthumous pardons to three others in 2013 after sustained historical and legal advocacy.
+- Daily story sources:
+  - https://www.oyez.org/cases/1900-1940/287us45
+  - https://encyclopediaofalabama.org/article/scottsboro-boys/
+- Date researched: 2026-08-17
+- Writer/research status: batch-23-complete
+- Material factual claims: The Scottsboro Boys were nine Black teenagers pulled into the machinery of Jim Crow justice after a fight on a freight train in Alabama in 1931. They were accused of raping two white women, rushed through trials, convicted by all-white juries, and threatened with death. Their case became international because it exposed how quickly Southern courts could turn accusation into sentence when the defendants were Black, young, poor, and unpopular. It also forced the U.S. Supreme Court to confront two basic questions: whether defendants facing death had the right to meaningful counsel, and whether Black people could be excluded from juries. This page matters because due process is not abstract. For these teenagers, procedure was the line between life and execution.
+- Primary or authoritative sources:
+  - https://docsteach.org/document/haywood-patterson-of-the-scottsboro-boys/
+  - https://www.oyez.org/cases/1900-1940/287us45
+  - https://www.oyez.org/cases/1900-1940/294us587
+- Supporting secondary sources:
+  - https://encyclopediaofalabama.org/article/scottsboro-boys/
+  - https://scottsboroboysmuseum.org/history/
+- Verified quotation source: No quotation included. Defendant names, case sequence, and rulings documented through National Archives and Oyez.
+- Sensitive or disputed claims reviewed: Rape accusation, Ruby Bates recantation, death sentences, all-white juries, defendant ages, and pardon history reviewed.
+- Material corrections made: Expanded scheduled fallback into full due-process, jury, movement, and defendant-life context.
+- External links included on the page:
+  - National Archives DocsTeach: Haywood Patterson of the Scottsboro Boys on trial (https://docsteach.org/document/haywood-patterson-of-the-scottsboro-boys/)
+  - Oyez: Powell v. Alabama (https://www.oyez.org/cases/1900-1940/287us45)
+  - Oyez: Norris v. Alabama (https://www.oyez.org/cases/1900-1940/294us587)
+  - Encyclopedia of Alabama: Scottsboro Boys (https://encyclopediaofalabama.org/article/scottsboro-boys/)
+  - Scottsboro Boys Museum and Cultural Center: History (https://scottsboroboysmuseum.org/history/)
+- Final review status: Batch 23 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, legal/sensitive claim review.
+
+### 2026-10-23 - An Appeal to the World
+
+- Entry title: W.E.B. Du Bois
+- Slug: `web-du-bois`
+- Daily date: 2026-10-23
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 23, 1947, the NAACP presented An Appeal to the World to the United Nations. The petition placed segregation, racial violence, political exclusion, and economic inequality before an international audience. W.E.B. Du Bois led the drafting, with contributions from lawyers and scholars including Rayford Logan and Milton Konvitz. The document used evidence from across the country to argue that treatment of Black Americans was a human-rights issue, not merely a domestic custom. The U.S. government resisted international scrutiny while the Cold War made racism a diplomatic liability. The petition did not receive the formal UN action its authors sought, but it helped connect civil rights with later human-rights campaigns.
+- Daily story sources:
+  - https://www.loc.gov/item/2013653532/
+  - https://credo.library.umass.edu/view/full/mums312-b111-i115
+- Date researched: 2026-08-18
+- Writer/research status: batch-24-complete
+- Material factual claims: W.E.B. Du Bois was not only a brilliant scholar who coined a phrase people still quote. He was an institution builder, sociologist, editor, historian, novelist, organizer, Pan-Africanist, and public fighter whose long life kept changing shape. He studied Black life with data before American sociology knew how much it needed him. He helped found the NAACP, edited The Crisis, challenged Booker T. Washington, wrote The Souls of Black Folk and Black Reconstruction, and connected Black freedom in the United States to anti-colonial struggles around the world. His page matters because Du Bois refused to treat Black people as a social problem. He treated racism, capitalism, empire, and democracy as the problem, and he spent nearly a century making the country answer for that difference.
+- Primary or authoritative sources:
+  - https://www.loc.gov/exhibits/naacp/prelude.html
+  - https://credo.library.umass.edu/view/collection/mums312
+  - https://duboiscenter.library.umass.edu/about-du-bois/
+- Supporting secondary sources:
+  - https://naacp.org/find-resources/history-explained/civil-rights-leaders/web-du-bois
+  - https://guides.library.harvard.edu/hua/dubois
+- Verified quotation source: The Souls of Black Folk wording verified through standard public-domain text and cross-checked against LOC/UMass Du Bois context.
+- Sensitive or disputed claims reviewed: First Harvard PhD claim, The Philadelphia Negro significance, NAACP role, The Crisis editorship, Washington debate framing, Black Reconstruction interpretation, indictment/acquittal, Ghana citizenship, and death-date context reviewed.
+- Material corrections made: Expanded scheduled fallback into full intellectual, institutional, and political biography; added complexity around elitism, Cold War repression, Pan-Africanism, and Reconstruction historiography.
+- External links included on the page:
+  - Library of Congress: NAACP: A Century in the Fight for Freedom, Prelude (https://www.loc.gov/exhibits/naacp/prelude.html)
+  - UMass Amherst Libraries: W.E.B. Du Bois Papers (https://credo.library.umass.edu/view/collection/mums312)
+  - W.E.B. Du Bois Center at UMass Amherst: About W.E.B. Du Bois (https://duboiscenter.library.umass.edu/about-du-bois/)
+  - NAACP: W.E.B. Du Bois (https://naacp.org/find-resources/history-explained/civil-rights-leaders/web-du-bois)
+  - Harvard University Archives: W.E.B. Du Bois, Harvard PhD 1895 (https://guides.library.harvard.edu/hua/dubois)
+- Final review status: Batch 24 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified quotation, scholar/activist claim review.
+
+### 2026-10-24 - Rosa Parks
+
+- Entry title: Rosa Parks
+- Slug: `rosa-parks`
+- Daily date: 2026-10-24
+- Daily story researched: 2026-09-05
+- Daily story claims: Rosa Parks died in Detroit on October 24, 2005. The tributes that followed often returned to one bus seat, but her life contained decades of organizing before and after Montgomery. Parks served as secretary of the Montgomery NAACP, investigated sexual violence against Black women, attended organizer training at Highlander Folk School, and belonged to a network already challenging bus segregation. Her arrest became a catalyst because that network was ready to act. After the boycott, economic retaliation and threats pushed Parks and her family to Detroit. She worked for Congressman John Conyers, supported political prisoners, opposed housing inequality and police abuse, and continued organizing into old age.
+- Daily story sources:
+  - https://www.loc.gov/collections/rosa-parks-papers/about-this-collection/
+  - https://www.nps.gov/people/rosa-parks.htm
+- Date researched: 2026-08-17
+- Writer/research status: batch-19-complete
+- Material factual claims: Rosa Parks was not a tired seamstress who accidentally started a movement. She was a trained organizer, NAACP secretary, investigator of racial violence, Highlander Folk School participant, and a woman who made a deliberate choice on a Montgomery bus on December 1, 1955. The tired myth is comforting because it makes movements look spontaneous and harmless. The real Parks is more powerful. She knew the law, knew the danger, and knew that Black Montgomery had networks ready to act. Her page matters because it restores strategy to a story too often reduced to politeness and fatigue.
+- Primary or authoritative sources:
+  - https://www.loc.gov/collections/rosa-parks-papers/about-this-collection/
+  - https://www.nps.gov/people/rosa-parks.htm
+  - https://www.archives.gov/education/lessons/rosa-parks
+- Supporting secondary sources:
+  - https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/the-bus-boycott/highlander-folk-school/
+  - https://www.troy.edu/student-life-resources/arts-culture/rosa-parks-museum/about/index.html
+- Verified quotation source: Short quotation traced to Rosa Parks accounts and cross-checked through institutional biographies.
+- Sensitive or disputed claims reviewed: Recy Taylor investigation, Highlander attendance, tired myth correction, job loss/threats, Detroit activism, and collective boycott role reviewed.
+- Material corrections made: Expanded scheduled fallback beyond bus refusal into NAACP work, sexual-violence investigation, organizer training, boycott infrastructure, and later Detroit activism.
+- External links included on the page:
+  - Library of Congress: Rosa Parks Papers (https://www.loc.gov/collections/rosa-parks-papers/about-this-collection/)
+  - National Park Service: Rosa Parks (https://www.nps.gov/people/rosa-parks.htm)
+  - National Archives: The Arrest Records of Rosa Parks (https://www.archives.gov/education/lessons/rosa-parks)
+  - Library of Congress: Highlander Folk School (https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/the-bus-boycott/highlander-folk-school/)
+  - Rosa Parks Museum: About Rosa Parks (https://www.troy.edu/student-life-resources/arts-culture/rosa-parks-museum/about/index.html)
+- Final review status: Batch 19 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, organizer-role and sensitive-violence claim review.
+
+### 2026-10-25 - Brigadier General Benjamin O. Davis Sr.
+
+- Entry title: The Buffalo Soldiers
+- Slug: `buffalo-soldiers`
+- Daily date: 2026-10-25
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 25, 1940, Benjamin O. Davis Sr. became the first Black general in the United States Army. The promotion recognized an officer who had served for more than forty years inside an institution that restricted Black soldiers' assignments and authority. Davis entered the Army during the Spanish-American War and served with Black units, including the 9th and 10th Cavalry. Military leaders repeatedly placed him in roles shaped by segregation and fears that Black officers might command white troops. As a general, Davis advised on policies affecting Black soldiers during World War II and inspected units across the country and abroad. His appointment did not desegregate the military; President Truman's executive order came in 1948.
+- Daily story sources:
+  - https://www.britannica.com/biography/Benjamin-O-Davis-Sr
+  - https://www.arlingtoncemetery.mil/Explore/Notable-Graves/Prominent-Military-Figures/Benjamin-O-Davis-Sr
+- Date researched: 2026-08-17
+- Writer/research status: batch-22-complete
+- Material factual claims: The Buffalo Soldiers wore the uniform of a country that still argued over whether Black citizenship was real. Formed after the Civil War, Black cavalry and infantry regiments served in the West, guarded mail routes, built roads, protected national parks, fought in U.S. wars, and lived under discrimination inside the Army and outside it. Their history carries pride and contradiction at the same time. Military service gave some Black men wages, status, travel, and a claim on citizenship. It also placed them inside U.S. expansion that harmed Native nations. This page matters because Black military history deserves honesty. The Buffalo Soldiers were disciplined soldiers and full human beings, not symbols that can be used to avoid the harder story of empire, race, labor, and belonging.
+- Primary or authoritative sources:
+  - https://www.nps.gov/subjects/buffalosoldiers/index.htm
+  - https://www.nps.gov/foda/learn/historyculture/buffalo-soldiers.htm
+  - https://www.army.mil/article/177403/buffalo_soldiers
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/buffalo-soldiers
+  - https://www.thenmusa.org/biographies/buffalo-soldiers/
+- Verified quotation source: No quotation included. Nickname origin treated as attributed and debated rather than certain.
+- Sensitive or disputed claims reviewed: Nickname origin, Native dispossession, Spanish-American War service, national park service, Houston rebellion, and military reorganization reviewed.
+- Material corrections made: Expanded scheduled fallback into a morally complex account of service, racism, western expansion, citizenship, and memory.
+- External links included on the page:
+  - National Park Service: Buffalo Soldiers (https://www.nps.gov/subjects/buffalosoldiers/index.htm)
+  - National Park Service: Buffalo Soldiers at Fort Davis (https://www.nps.gov/foda/learn/historyculture/buffalo-soldiers.htm)
+  - National Museum of African American History and Culture: Buffalo Soldiers (https://nmaahc.si.edu/explore/stories/buffalo-soldiers)
+  - National Museum of the United States Army: Buffalo Soldiers (https://www.thenmusa.org/biographies/buffalo-soldiers/)
+  - U.S. Army: Buffalo Soldiers (https://www.army.mil/article/177403/buffalo_soldiers)
+- Final review status: Batch 22 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, military-service complexity review.
+
+### 2026-10-26 - Mahalia Jackson
+
+- Entry title: The Black Church
+- Slug: `black-church`
+- Daily date: 2026-10-26
+- Daily story researched: 2026-09-05
+- Daily story claims: Mahalia Jackson was born in New Orleans on October 26, 1911. Her voice carried the improvisation, rhythmic drive, and spiritual intensity of Black church music into concert halls, records, radio, television, and civil-rights gatherings. After moving to Chicago, Jackson sang in storefront churches and worked domestic and service jobs while building a career. Her 1947 recording Move On Up a Little Higher became a major gospel success without requiring her to cross into secular repertoire. Jackson used her fame and money to support civil-rights work. At the 1963 March on Washington, she called from behind Martin Luther King Jr. for him to tell the audience about the dream, helping prompt the most remembered section of his speech.
+- Daily story sources:
+  - https://nmaahc.si.edu/mahalia-jackson
+  - https://www.loc.gov/item/ihas.200197461/
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The Black church has never been only Sunday morning. Across generations, Black congregations have held worship, education, burial societies, political meetings, music, mutual aid, childcare, fundraising, debate, grief, and strategy. That does not mean every Black person is Christian or every Black church has been liberating in the same way. The institution is powerful because it is human: full of faith, hierarchy, care, conflict, gendered labor, prophetic courage, respectability politics, and community survival. This page matters because Black freedom work needed places where people could gather without asking white institutions for permission. The Black church often became that room, not perfect, but strong enough to hold a people under pressure.
+- Primary or authoritative sources:
+  - https://www.pbs.org/weta/black-church/
+  - https://nmaahc.si.edu/explore/stories/black-church
+  - https://guides.loc.gov/religion-collections-libraries-archives/dc-smithsonian-national-museum-african-american-hist-culture
+- Supporting secondary sources:
+  - https://www.nps.gov/articles/000/inde-preamble-and-articles-of-association-for-the-free-african-society.htm
+  - https://www.pewresearch.org/religion/2021/02/16/faith-among-black-americans/
+- Verified quotation source: No quotation included. Institutional claims summarized from PBS, NMAAHC, LOC, NPS, and Pew sources.
+- Sensitive or disputed claims reviewed: Christianity and slavery, denominational variety, women's labor, queer exclusion, civil-rights infrastructure, and church-targeted violence reviewed.
+- Material corrections made: Expanded scheduled fallback beyond organizing shorthand into faith, institution-building, music, contradictions, and community infrastructure.
+- External links included on the page:
+  - PBS: The Black Church (https://www.pbs.org/weta/black-church/)
+  - National Museum of African American History and Culture: The Black Church (https://nmaahc.si.edu/explore/stories/black-church)
+  - Library of Congress: African American Religion Collections (https://guides.loc.gov/religion-collections-libraries-archives/dc-smithsonian-national-museum-african-american-hist-culture)
+  - National Park Service: Free African Society Articles of Association (https://www.nps.gov/articles/000/inde-preamble-and-articles-of-association-for-the-free-african-society.htm)
+  - Pew Research Center: Faith Among Black Americans (https://www.pewresearch.org/religion/2021/02/16/faith-among-black-americans/)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, Black church institution claim review.
+
+### 2026-10-27 - Ruby Dee
+
+- Entry title: The Black Arts Movement
+- Slug: `black-arts-movement`
+- Daily date: 2026-10-27
+- Daily story researched: 2026-09-05
+- Daily story claims: Ruby Dee was born in Cleveland on October 27, 1922, and grew up in Harlem. She became an actor whose quiet intensity could anchor a stage or film while refusing the industry's narrow expectations of Black women. Dee performed with the American Negro Theatre and appeared in works including A Raisin in the Sun, The Jackie Robinson Story, and later Do the Right Thing. She also wrote, adapted, and performed work grounded in Black family and political life. With Ossie Davis, Dee supported civil-rights organizations, spoke at movement events, opposed war, and maintained relationships across artistic and activist communities. Their public partnership was visible, but her craft and political voice were independently developed.
+- Daily story sources:
+  - https://nmaahc.si.edu/ruby-dee
+  - https://www.kennedy-center.org/artists/d/da-dn/ruby-dee/
+- Date researched: 2026-08-17
+- Writer/research status: batch-21-complete
+- Material factual claims: The Black Arts Movement treated culture as a place where power could be built. Poems, plays, murals, presses, journals, music, and theaters were not side projects to politics. They were tools for making Black audiences, Black language, Black anger, Black beauty, and Black imagination central. The movement emerged after the assassination of Malcolm X and grew alongside Black Power, but it was never one single organization or one single style. It included brilliance, institution-building, gender conflict, nationalism, experimentation, and argument. This page matters because art does not only decorate a movement. It teaches people what they can name, what they can refuse, and what futures they can rehearse before institutions are ready to permit them.
+- Primary or authoritative sources:
+  - https://www.poetryfoundation.org/collections/148936/an-introduction-to-the-black-arts-movement
+  - https://poets.org/text/brief-guide-black-arts-movement
+  - https://www.oxfordaasc.com/page/black-arts-movement
+- Supporting secondary sources:
+  - https://www.britannica.com/event/Black-Arts-movement
+  - https://nmaahc.si.edu/explore/exhibitions/afrofuturism
+- Verified quotation source: No quotation included. Movement claims summarized from literary and institutional sources.
+- Sensitive or disputed claims reviewed: Movement dates, Malcolm X relationship, Amiri Baraka role, gender/sexuality criticism, Black Power connection, and institutional legacy reviewed.
+- Material corrections made: Expanded scheduled fallback into a fuller account of institutions, aesthetics, politics, internal critique, and continuing influence.
+- External links included on the page:
+  - Poetry Foundation: Black Arts Movement (https://www.poetryfoundation.org/collections/148936/an-introduction-to-the-black-arts-movement)
+  - Academy of American Poets: A Brief Guide to the Black Arts Movement (https://poets.org/text/brief-guide-black-arts-movement)
+  - National Museum of African American History and Culture: Afrofuturism and Black Arts Context (https://nmaahc.si.edu/explore/exhibitions/afrofuturism)
+  - Encyclopaedia Britannica: Black Arts Movement (https://www.britannica.com/event/Black-Arts-movement)
+  - Oxford African American Studies Center: Black Arts Movement (https://www.oxfordaasc.com/page/black-arts-movement)
+- Final review status: Batch 21 complete pending final verification: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, Black Arts claim review.
+
+### 2026-10-28 - Lenny Wilkens
+
+- Entry title: Sports Integration Beyond Jackie Robinson
+- Slug: `sports-integration`
+- Daily date: 2026-10-28
+- Daily story researched: 2026-09-05
+- Daily story claims: Lenny Wilkens was born in Brooklyn on October 28, 1937. He became an elite NBA point guard, then built an even longer coaching career by reading people and possessions with the same patience. Wilkens was a nine-time All-Star and served as a player-coach in Seattle and Portland, a demanding dual role. In 1979, he coached the Seattle SuperSonics to the franchise's first NBA championship. By retirement, Wilkens had coached more NBA games and accumulated more wins than any coach before him. He was inducted into the Basketball Hall of Fame separately as both player and coach, while remaining known for steady leadership rather than theatrical authority.
+- Daily story sources:
+  - https://www.hoophall.com/hall-of-famers/lenny-wilkens/
+  - https://www.nba.com/news/history-nba-legend-lenny-wilkens
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Jackie Robinson's 1947 debut with the Brooklyn Dodgers matters, but sports integration was never one door opening once. The NFL had Black players early, then shut them out for years before Kenny Washington and Woody Strode returned in 1946. The NBA integrated in 1950 through Chuck Cooper, Nat Clifton, and Earl Lloyd. Althea Gibson broke tennis barriers. Charlie Sifford forced golf to confront its Caucasians-only clause. Each sport had its own gatekeepers, timelines, costs, and myths. This page matters because the simplified Jackie-only story can make integration look cleaner than it was. The fuller history is sport by sport, contract by contract, trip by trip, and insult by insult.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/explore/exhibitions/sports
+  - https://www.nfl.com/news/kenny-washington-belongs-in-the-hall-of-fame-0ap2000000341520
+  - https://www.nba.com/news/history-nba-legend-earl-lloyd
+- Supporting secondary sources:
+  - https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/
+  - https://www.pgatour.com/player/02091/charles-sifford
+- Verified quotation source: No quotation included. First-claim and integration chronology are summarized from institutional sports-history sources.
+- Sensitive or disputed claims reviewed: NFL informal exclusion, three NBA firsts, Gibson admission, O'Ree debut, PGA Caucasians-only clause, and leadership-versus-player-access distinction reviewed.
+- Material corrections made: Rebuilt legacy page beyond Jackie-only contrast into sport-specific timelines, legal/economic pressure, athlete costs, and unfinished leadership access.
+- External links included on the page:
+  - National Museum of African American History and Culture: Sports: Leveling the Playing Field (https://nmaahc.si.edu/explore/exhibitions/sports)
+  - NFL: Kenny Washington Belongs in the Hall of Fame (https://www.nfl.com/news/kenny-washington-belongs-in-the-hall-of-fame-0ap2000000341520)
+  - NBA History: NBA Pioneers (https://www.nba.com/news/history-nba-legend-earl-lloyd)
+  - International Tennis Hall of Fame: Althea Gibson (https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/)
+  - PGA Tour: Charles Sifford Player Profile (https://www.pgatour.com/player/02091/charles-sifford)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, sports-integration first-claim review.
+
+### 2026-10-29 - Alexander v. Holmes County Board of Education
+
+- Entry title: Brown v. Board of Education
+- Slug: `brown-v-board`
+- Daily date: 2026-10-29
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 29, 1969, the Supreme Court declared that Mississippi school districts had to end dual systems now. Fifteen years after Brown v. Board, many districts were still using delay and nominal choice to preserve schools divided by race. Black families and civil-rights lawyers challenged plans that placed the burden on individual students while leaving segregated structures intact. The federal government briefly sought more time, a position that alarmed advocates who had already waited through years of resistance. The unanimous Alexander decision said the standard was no longer moving toward a unitary system. Districts had an immediate duty to operate one. Enforcement remained difficult, and school segregation later persisted through housing, district boundaries, and policy choices beyond explicit racial assignment.
+- Daily story sources:
+  - https://supreme.justia.com/cases/federal/us/396/19/
+  - https://www.loc.gov/exhibits/brown/brown-aftermath.html
+- Date researched: 2026-08-14
+- Writer/research status: batch-5-complete
+- Material factual claims: Brown v. Board of Education is often remembered as the day school segregation ended. The harder truth is that the decision named a constitutional wrong, then left Black families to fight school boards, governors, mobs, and delay tactics for years. Brown was not one case, one father, or one courtroom victory. It was five cases, dozens of families, student walkouts, local organizing, social science evidence, careful legal strategy, and a Supreme Court trying to speak with one voice. Its promise was enormous. Its enforcement was uneven. The page matters because Brown shows both the power of law and the danger of mistaking a legal ruling for the end of a system.
+- Primary or authoritative sources:
+  - https://www.archives.gov/education/lessons/brown-v-board
+  - https://www.nps.gov/brvb/learn/historyculture/fivecases.htm
+- Supporting secondary sources:
+  - https://www.nps.gov/brvb/learn/historyculture/mythtruth.htm
+  - https://www.naacpldf.org/brown-vs-board/
+- Verified quotation source: Brown v. Board of Education opinion, quoted by the National Archives and National Park Service.
+- Sensitive or disputed claims reviewed: Five-case consolidation, Brown II enforcement language, retaliation, Prince Edward County school closings, and limits of school desegregation reviewed.
+- Material corrections made: Replaced a narrow legal milestone page with a deeper account of collective plaintiffs, strategy, enforcement, backlash, and continuing inequality.
+- External links included on the page:
+  - National Archives: Brown v. Board of Education (https://www.archives.gov/education/lessons/brown-v-board)
+  - National Park Service: The Five Cases (https://www.nps.gov/brvb/learn/historyculture/fivecases.htm)
+  - National Park Service: Myth or Truth: Brown v. Board (https://www.nps.gov/brvb/learn/historyculture/mythtruth.htm)
+  - NAACP Legal Defense Fund: Brown v. Board of Education (https://www.naacpldf.org/brown-vs-board/)
+- Final review status: Batch 5 complete: independently researched rich source, Claudette-style page, ledger record, internal links, 4 external links, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-30 - The Rumble in the Jungle
+
+- Entry title: Muhammad Ali
+- Slug: `muhammad-ali`
+- Daily date: 2026-10-30
+- Daily story researched: 2026-09-05
+- Daily story claims: Before dawn on October 30, 1974, Muhammad Ali entered a boxing ring in Kinshasa, Zaire, against heavyweight champion George Foreman. Many observers expected Foreman's power to overwhelm the older former champion. Ali leaned against the ropes, blocked and absorbed punches, talked to Foreman, and conserved energy in humid conditions. In the eighth round, he knocked Foreman down and reclaimed the heavyweight title stripped from him after he refused military induction. The event was also a spectacle financed by dictator Mobutu Sese Seko, who used international sport to promote his regime. The crowd's embrace of Ali expressed Black diasporic identification, but celebration should not erase the political setting.
+- Daily story sources:
+  - https://alicenter.org/boxing-timeline/
+  - https://www.britannica.com/event/Rumble-in-the-Jungle
+- Date researched: 2026-08-17
+- Writer/research status: batch-17-complete
+- Material factual claims: Muhammad Ali was not simply a champion who talked beautifully. He remade what a Black athlete could say in public and what the public could demand in return. Born Cassius Clay in Louisville, he won Olympic gold, became heavyweight champion, joined the Nation of Islam, changed his name, refused military induction during the Vietnam War, lost his boxing license and title, won at the Supreme Court, returned to the ring, and became a global figure of sport, faith, conscience, style, and contradiction. Ali could be funny, generous, cruel, brilliant, strategic, and wrong. His page matters because greatness here is not only speed and footwork. It is the price of self-definition when a country wants your body, your labor, your silence, and your old name.
+- Primary or authoritative sources:
+  - https://alicenter.org/meet-ali/
+  - https://www.oyez.org/cases/1970/783
+  - https://www.fjc.gov/history/cases/famous-federal-trials/us-v-cassius-clay-muhammad-alis-fight-against-vietnam-draft
+- Supporting secondary sources:
+  - https://nmaahc.si.edu/explore/stories/float-butterfly
+  - https://www.britannica.com/biography/Muhammad-Ali-boxer
+- Verified quotation source: Short anti-war quotation is widely reported from Ali's 1966 draft-era statements and cross-checked against institutional Ali materials; kept under excerpt limits.
+- Sensitive or disputed claims reviewed: Name change, Nation of Islam membership, Malcolm X break, conscientious-objector case, title stripping, Supreme Court reversal, Frazier insults, Parkinson's disease, and athlete-activism framing reviewed.
+- Material corrections made: Expanded scheduled fallback beyond name-change shorthand into faith, draft resistance, legal consequences, boxing return, contradictions, and later public memory.
+- External links included on the page:
+  - Muhammad Ali Center: Meet Muhammad Ali (https://alicenter.org/meet-ali/)
+  - Oyez: Clay v. United States (https://www.oyez.org/cases/1970/783)
+  - Federal Judicial Center: U.S. v. Cassius Clay: Muhammad Ali's Fight Against the Vietnam Draft (https://www.fjc.gov/history/cases/famous-federal-trials/us-v-cassius-clay-muhammad-alis-fight-against-vietnam-draft)
+  - NMAAHC: Float Like a Butterfly (https://nmaahc.si.edu/explore/stories/float-butterfly)
+  - Encyclopaedia Britannica: Muhammad Ali (https://www.britannica.com/biography/Muhammad-Ali-boxer)
+- Final review status: Batch 17 complete: independently researched rich source, Claudette-style generated page, ledger record, internal links, 5 external links, verified short quotation, religion/war/sports harm claim review, depth/similarity validation, desktop/mobile browser check.
+
+### 2026-10-31 - Earl Lloyd Integrates the NBA
+
+- Entry title: Sports Integration Beyond Jackie Robinson
+- Slug: `sports-integration`
+- Daily date: 2026-10-31
+- Daily story researched: 2026-09-05
+- Daily story claims: On October 31, 1950, Earl Lloyd entered a game for the Washington Capitols and became the first Black player to appear in the NBA. The distinction came partly from scheduling: three Black pioneers were entering the league that season through different doors. Chuck Cooper was the first Black player drafted. Nat Sweetwater Clifton was the first to sign an NBA contract. Lloyd's team played first, making him the first to take the court. Treating all three milestones carefully replaces a one-name integration story with a cohort. Lloyd faced segregated hotels, restaurants, and hostile crowds while traveling for work. He later won an NBA championship with Syracuse and became a coach and personnel executive.
+- Daily story sources:
+  - https://www.britannica.com/biography/Earl-Lloyd
+  - https://www.hoophall.com/hall-of-famers/earl-lloyd/
+- Date researched: 2026-08-17
+- Writer/research status: batch-20-complete
+- Material factual claims: Jackie Robinson's 1947 debut with the Brooklyn Dodgers matters, but sports integration was never one door opening once. The NFL had Black players early, then shut them out for years before Kenny Washington and Woody Strode returned in 1946. The NBA integrated in 1950 through Chuck Cooper, Nat Clifton, and Earl Lloyd. Althea Gibson broke tennis barriers. Charlie Sifford forced golf to confront its Caucasians-only clause. Each sport had its own gatekeepers, timelines, costs, and myths. This page matters because the simplified Jackie-only story can make integration look cleaner than it was. The fuller history is sport by sport, contract by contract, trip by trip, and insult by insult.
+- Primary or authoritative sources:
+  - https://nmaahc.si.edu/explore/exhibitions/sports
+  - https://www.nfl.com/news/kenny-washington-belongs-in-the-hall-of-fame-0ap2000000341520
+  - https://www.nba.com/news/history-nba-legend-earl-lloyd
+- Supporting secondary sources:
+  - https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/
+  - https://www.pgatour.com/player/02091/charles-sifford
+- Verified quotation source: No quotation included. First-claim and integration chronology are summarized from institutional sports-history sources.
+- Sensitive or disputed claims reviewed: NFL informal exclusion, three NBA firsts, Gibson admission, O'Ree debut, PGA Caucasians-only clause, and leadership-versus-player-access distinction reviewed.
+- Material corrections made: Rebuilt legacy page beyond Jackie-only contrast into sport-specific timelines, legal/economic pressure, athlete costs, and unfinished leadership access.
+- External links included on the page:
+  - National Museum of African American History and Culture: Sports: Leveling the Playing Field (https://nmaahc.si.edu/explore/exhibitions/sports)
+  - NFL: Kenny Washington Belongs in the Hall of Fame (https://www.nfl.com/news/kenny-washington-belongs-in-the-hall-of-fame-0ap2000000341520)
+  - NBA History: NBA Pioneers (https://www.nba.com/news/history-nba-legend-earl-lloyd)
+  - International Tennis Hall of Fame: Althea Gibson (https://www.tennisfame.com/hall-of-famers/inductees/althea-gibson/)
+  - PGA Tour: Charles Sifford Player Profile (https://www.pgatour.com/player/02091/charles-sifford)
+- Final review status: Batch 20 complete pending final verification: independently researched rich source, Claudette-style legacy-path page, ledger record, internal links, 5 external links, no unsupported quote, sports-integration first-claim review.
 
 ### 2026-04-19 - 1968 Olympic Black Power Salute
 

@@ -74,8 +74,7 @@ function run() {
 
     const html = fs.readFileSync(pagePath, 'utf8');
     const text = stripTags(html);
-    const daily = DAILY_COVERAGE.find(item => item.encyclopediaSlug === entry.encyclopediaSlug);
-    const dailyText = daily ? [daily.lede, daily.context, daily.turning, daily.whyItMatters, daily.answerText].filter(Boolean).join(' ') : '';
+    const dailies = DAILY_COVERAGE.filter(item => item.encyclopediaSlug === entry.encyclopediaSlug);
 
     [
       'Key Dates',
@@ -92,7 +91,8 @@ function run() {
     const storyWords = wordCount(story);
     if (storyWords < 600) errors.push(`${label}: Full Story is too shallow (${storyWords} words)`);
 
-    const totalWords = wordCount(extractBetween(html, '<div class="entry-hero">', '<div class="section-divider"><span>Explore More</span></div>'));
+    const substantiveHtml = extractBetween(html, '<div class="entry-hero">', '<div class="section-divider"><span>Explore More</span></div>');
+    const totalWords = wordCount(substantiveHtml);
     if (totalWords < 950) errors.push(`${label}: substantive page body is too short (${totalWords} words)`);
 
     const timelineCount = (html.match(/class="tl-item"/g) || []).length;
@@ -104,22 +104,24 @@ function run() {
     const unresolved = text.match(/\b(TODO|TBD|Lorem ipsum|Loading|undefined|null)\b|\{\{/i);
     if (unresolved) errors.push(`${label}: unresolved placeholder text found`);
 
-    if (dailyText) {
+    dailies.forEach(daily => {
+      const dailyLabel = `${label}, daily ${daily.fullDate}`;
+      const dailyText = [daily.lede, daily.context, daily.turning, daily.whyItMatters, daily.answerText].filter(Boolean).join(' ');
       const dailyNormalized = normalize(dailyText);
-      if (dailyNormalized && normalize(html).includes(dailyNormalized)) {
-        errors.push(`${label}: reuses combined daily text verbatim`);
+      if (dailyNormalized && normalize(substantiveHtml).includes(dailyNormalized)) {
+        errors.push(`${dailyLabel}: reuses combined daily text verbatim`);
       }
       ['lede', 'context', 'turning', 'whyItMatters', 'answerText'].forEach(field => {
         const dailyField = normalize(daily[field] || '');
         if (field === 'answerText' && dailyField.split(/\s+/).filter(Boolean).length < 6) return;
         if (field === 'answerText' && dailyField === normalize(entry.subject || '')) return;
-        if (dailyField && normalize(html).includes(dailyField)) {
-          errors.push(`${label}: reuses daily ${field} verbatim`);
+        if (dailyField && normalize(substantiveHtml).includes(dailyField)) {
+          errors.push(`${dailyLabel}: reuses daily ${field} verbatim`);
         }
       });
       const similarity = tokenSimilarity(dailyText, story);
-      if (similarity > 0.72) errors.push(`${label}: Full Story is too similar to daily content (${similarity.toFixed(2)})`);
-    }
+      if (similarity > 0.72) errors.push(`${dailyLabel}: Full Story is too similar to daily content (${similarity.toFixed(2)})`);
+    });
 
     if (!ledger.includes(`Slug: \`${entry.encyclopediaSlug}\``) || !ledger.includes(`Entry title: ${entry.subject}`)) {
       errors.push(`${label}: missing structured research ledger record`);
