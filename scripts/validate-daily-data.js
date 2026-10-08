@@ -8,7 +8,7 @@ const ALLOWED_TAGS = require('../content/config/tags.json');
 
 const ROOT = path.join(__dirname, '..');
 const COVERAGE_START = process.env.COVERAGE_START || '2026-02-01';
-const COVERAGE_END = process.env.COVERAGE_END || '2026-10-31';
+const COVERAGE_END = process.env.COVERAGE_END || '2026-12-31';
 const SOURCE_ONLY = process.argv.includes('--source-only');
 const APPROVED_REPEATED_SLUGS = new Set([
   'redlining',

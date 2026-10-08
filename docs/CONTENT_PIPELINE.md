@@ -7,15 +7,16 @@
 
 ---
 
-## Current Operating State — September 5, 2026
+## Current Operating State — October 8, 2026
 
 The site is currently maintained as a static application.
 
-- Daily quiz/story coverage validates from `2026-02-01` through `2026-10-31`.
+- Daily quiz/story coverage validates from `2026-02-01` through `2026-12-31`.
 - Legacy February-April entries remain in the `DATA` array in `index.html`.
 - Markdown-driven encyclopedia entries remain in `content/encyclopedia/` and are generated with `scripts/generate-pages.js`.
 - Scheduled May-September 7 daily entries live in `content/daily/2026-coverage.js`.
 - Scheduled September 8-October 31 daily entries live in `content/daily/2026-fall.js` and are composed into the coverage export.
+- Scheduled November 1-December 31 daily entries live in `content/daily/2026-year-end.js` and are composed into the coverage export.
 - `scripts/generate-daily-data.js` writes `generated/daily-data.js`, generated encyclopedia pages under `generated/pages/`, and `docs/RESEARCH_LEDGER.md`.
 - `scripts/generate-missing-legacy-pages.js` now fills the April legacy encyclopedia gaps that previously produced broken "Learn More" links.
 - `scripts/generate-encyclopedia-index.js` writes the public root `encyclopedia.html` and merges legacy, markdown, and scheduled daily entries.

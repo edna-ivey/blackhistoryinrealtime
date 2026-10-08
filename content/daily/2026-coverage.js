@@ -3,6 +3,7 @@
 // and generated/pages/*.html by scripts/generate-daily-data.js.
 
 const { FALL_2026_COVERAGE } = require('./2026-fall');
+const { YEAR_END_2026_COVERAGE } = require('./2026-year-end');
 
 const SOURCE_NOTE = 'Research ledger source URL for factual verification.';
 
@@ -2506,7 +2507,8 @@ const DAILY_COVERAGE = [
       'https://lawrencemigration.phillipscollection.org/artist/chronology'
     ]
   }),
-  ...FALL_2026_COVERAGE
+  ...FALL_2026_COVERAGE,
+  ...YEAR_END_2026_COVERAGE
 ];
 
 module.exports = {

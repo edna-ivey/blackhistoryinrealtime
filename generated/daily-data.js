@@ -4732,5 +4732,1671 @@ const FUTURE_DAILY = [
       "labor",
       "leadership"
     ]
+  },
+  {
+    "fullDate": "2026-11-01",
+    "category": "Labor & the Presidency",
+    "title": "The Labor Behind the White House",
+    "question": "What hidden workforce helped build the White House before its first occupants moved in on November 1, 1800?",
+    "options": [
+      "Enslaved and free Black laborers",
+      "Only European craftsmen",
+      "Federal soldiers",
+      "Paid members of Congress"
+    ],
+    "answer": 0,
+    "answerText": "Enslaved and free Black laborers",
+    "answerExplanation": "Enslaved people quarried stone, cut timber, molded bricks, and worked beside free Black and white laborers. Their names and wages survive unevenly in federal records.",
+    "subject": "Black Labor and the White House",
+    "dates": "First occupied November 1, 1800",
+    "encyclopediaSlug": "enslaved-labor",
+    "encyclopediaPath": "encyclopedia/enslaved-labor.html",
+    "story": "<p>President John Adams moved into the unfinished White House on November 1, 1800. The building already held another history: enslaved and free Black workers had helped turn stone, timber, and brick into the nation&#039;s executive residence.</p><p>Federal commissioners rented enslaved workers from local enslavers and recorded payments to the people who claimed ownership of them. Black stonecutters, carpenters, sawyers, and laborers worked alongside immigrants and white craftsmen.</p><p>The surviving payrolls name some workers but obscure many others. That imbalance is part of the story. The government preserved its expenses more reliably than the lives of the people whose labor made the building possible.</p>",
+    "whyItMatters": "The White House is both a democratic symbol and a workplace shaped by slavery. Holding those facts together makes public history more honest, not less patriotic.",
+    "igCaption": "November 1, 1800: the first president moved into the White House. Enslaved and free Black workers had already left their labor in its stone, timber, and brick.\n\n#BlackHistoryInRealTime #WhiteHouseHistory",
+    "tags": [
+      "enslavement",
+      "labor",
+      "government"
+    ]
+  },
+  {
+    "fullDate": "2026-11-02",
+    "category": "Law & Public Memory",
+    "title": "A Movement Won a Federal Holiday",
+    "question": "Which civil-rights leader's birthday became a federal holiday when President Reagan signed legislation on November 2, 1983?",
+    "options": [
+      "Martin Luther King Jr.",
+      "Medgar Evers",
+      "A. Philip Randolph",
+      "Bayard Rustin"
+    ],
+    "answer": 0,
+    "answerText": "Martin Luther King Jr.",
+    "answerExplanation": "The law followed years of organizing led by Coretta Scott King, labor unions, lawmakers, artists, and millions of petition signers. The first federal observance came in 1986.",
+    "subject": "The Martin Luther King Jr. Federal Holiday",
+    "dates": "Signed November 2, 1983",
+    "encyclopediaSlug": "modern-civil-rights",
+    "encyclopediaPath": "encyclopedia/modern-civil-rights.html",
+    "story": "<p>On November 2, 1983, President Ronald Reagan signed the law creating a federal holiday for Martin Luther King Jr. The ceremony looked official and inevitable. The victory had been neither.</p><p>Representative John Conyers introduced holiday legislation days after King&#039;s assassination. Coretta Scott King built national support, unions organized, and Stevie Wonder turned music into movement infrastructure. Opponents delayed the bill for fifteen years.</p><p>Congress finally passed the measure after a petition gathered millions of signatures and public pressure made continued resistance costly. The holiday was first observed federally in January 1986.</p>",
+    "whyItMatters": "Public memory is made through political struggle. The holiday reflects not only King's work, but the organizing required to make the nation acknowledge it.",
+    "igCaption": "November 2, 1983: the King holiday became law after fifteen years of organizing. Coretta Scott King, unions, artists, lawmakers, and millions of petition signers made remembrance a public demand.\n\n#BlackHistoryInRealTime #MLKDay",
+    "tags": [
+      "civil-rights",
+      "law",
+      "activism",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-11-03",
+    "category": "Politics & Representation",
+    "title": "A Senate Door Finally Opened",
+    "question": "Who became the first Black woman elected to the United States Senate on November 3, 1992?",
+    "options": [
+      "Carol Moseley Braun",
+      "Barbara Jordan",
+      "Shirley Chisholm",
+      "Kamala Harris"
+    ],
+    "answer": 0,
+    "answerText": "Carol Moseley Braun",
+    "answerExplanation": "Illinois voters elected Carol Moseley Braun during the 1992 election. She was also the first Black Democrat to serve in the Senate.",
+    "subject": "Carol Moseley Braun",
+    "dates": "Elected November 3, 1992",
+    "encyclopediaSlug": "black-women-in-politics",
+    "encyclopediaPath": "encyclopedia/black-women-in-politics.html",
+    "story": "<p>On November 3, 1992, Illinois voters elected Carol Moseley Braun to the United States Senate. No Black woman had served in that chamber in more than two centuries of its existence.</p><p>Moseley Braun had worked as a prosecutor, state legislator, and Cook County recorder. Her campaign grew from anger at the Senate Judiciary Committee&#039;s treatment of Anita Hill and challenged an incumbent in the Democratic primary.</p><p>In the Senate, she confronted the renewal of a Confederate emblem design patent and brought attention to institutional customs that treated white supremacy as heritage. She served one term, later becoming a U.S. ambassador.</p>",
+    "whyItMatters": "Representation does not erase institutional power, but it changes who can challenge the institution from inside. Her election exposed how long the Senate had excluded Black women altogether.",
+    "igCaption": "November 3, 1992: Carol Moseley Braun became the first Black woman elected to the U.S. Senate. The milestone arrived 203 years after the Senate first convened.\n\n#BlackHistoryInRealTime #CarolMoseleyBraun",
+    "tags": [
+      "politics",
+      "women",
+      "election",
+      "government"
+    ]
+  },
+  {
+    "fullDate": "2026-11-04",
+    "category": "Politics & Government",
+    "title": "Election Night in Grant Park",
+    "question": "Who became the first Black person elected president of the United States on November 4, 2008?",
+    "options": [
+      "Barack Obama",
+      "Colin Powell",
+      "Jesse Jackson",
+      "Douglas Wilder"
+    ],
+    "answer": 0,
+    "answerText": "Barack Obama",
+    "answerExplanation": "Barack Obama won 365 electoral votes and a majority of the popular vote. His victory did not end racism, but it broke a barrier built into the country's political imagination.",
+    "subject": "Barack Obama's 2008 Election",
+    "dates": "November 4, 2008",
+    "encyclopediaSlug": "barack-obama",
+    "encyclopediaPath": "encyclopedia/barack-obama.html",
+    "story": "<p>On November 4, 2008, voters elected Barack Obama the 44th president of the United States. In Chicago&#039;s Grant Park, families watched a barrier fall that many had not expected to see in their lifetimes.</p><p>Obama built a multiracial coalition during a financial crisis and won states across regions. Black voters participated at extraordinary levels, carrying memories of poll taxes, violence, and generations denied meaningful access to the ballot.</p><p>The result was historic without being magical. Racism did not disappear, and Obama governed within institutions shaped long before his election. The achievement and the backlash both belong in the record.</p>",
+    "whyItMatters": "The election expanded what political leadership could look like while testing the difference between symbolic change and structural change. Readers need both parts of that story.",
+    "igCaption": "November 4, 2008: Barack Obama became the first Black person elected president. The victory carried generations of voting-rights struggle into Grant Park, but no single election could finish that work.\n\n#BlackHistoryInRealTime #BarackObama",
+    "tags": [
+      "politics",
+      "election",
+      "government",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-11-05",
+    "category": "Music & Television",
+    "title": "A Quiet Voice Entered Prime Time",
+    "question": "Which musician became the first Black host of a nationally broadcast television variety program when his show debuted on November 5, 1956?",
+    "options": [
+      "Nat King Cole",
+      "Sammy Davis Jr.",
+      "Harry Belafonte",
+      "Louis Armstrong"
+    ],
+    "answer": 0,
+    "answerText": "Nat King Cole",
+    "answerExplanation": "The Nat King Cole Show showcased leading performers on NBC, but national advertisers would not provide stable sponsorship. The program ended after little more than a year.",
+    "subject": "The Nat King Cole Show",
+    "dates": "Debuted November 5, 1956",
+    "encyclopediaSlug": "black-arts-movement",
+    "encyclopediaPath": "generated/pages/black-arts-movement.html",
+    "story": "<p>The Nat King Cole Show debuted on NBC on November 5, 1956. Cole was already a major recording star, yet hosting a national television series placed him inside an industry that sold audiences while segregating whose face could represent them.</p><p>The program featured artists including Ella Fitzgerald, Harry Belafonte, and Mahalia Jackson. Viewers watched polished performances, but national advertisers feared backlash from white consumers and refused dependable sponsorship.</p><p>NBC supported the show for more than a year before it ended in December 1957. Cole later described Madison Avenue as afraid of the dark, naming the commercial racism behind the cancellation.</p>",
+    "whyItMatters": "Television integration required more than talent and ratings. Sponsors, affiliates, and advertisers held power over who could remain visible in American living rooms.",
+    "igCaption": "November 5, 1956: Nat King Cole began hosting a national television show. The performances were ready. The audience was ready. Advertisers were not willing to stand behind a Black host.\n\n#BlackHistoryInRealTime #NatKingCole",
+    "tags": [
+      "music",
+      "art",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-11-06",
+    "category": "International Law & Apartheid",
+    "title": "The United Nations Condemned Apartheid",
+    "question": "What system did the United Nations General Assembly condemn in Resolution 1761 on November 6, 1962?",
+    "options": [
+      "South African apartheid",
+      "Colonial rule in India",
+      "Segregation in the U.S. military",
+      "The Atlantic slave trade"
+    ],
+    "answer": 0,
+    "answerText": "South African apartheid",
+    "answerExplanation": "Resolution 1761 condemned South Africa's apartheid policies, urged member states to break military and economic ties, and created a special committee to monitor the system.",
+    "subject": "United Nations Resolution 1761",
+    "dates": "Adopted November 6, 1962",
+    "encyclopediaSlug": "modern-civil-rights",
+    "encyclopediaPath": "encyclopedia/modern-civil-rights.html",
+    "story": "<p>On November 6, 1962, the United Nations General Assembly adopted Resolution 1761 condemning apartheid in South Africa. The vote made racial rule an international political question, not simply a domestic policy.</p><p>Apartheid law classified people by race, controlled residence and movement, and denied South Africa&#039;s Black majority political power. The Sharpeville massacre and the government&#039;s repression had sharpened demands for international action.</p><p>The resolution called on governments to restrict trade, arms, and diplomatic relations and created a special committee. Many powerful states resisted binding sanctions, so pressure grew unevenly over the following decades.</p>",
+    "whyItMatters": "International condemnation did not dismantle apartheid by itself. It gave liberation movements another arena, helped build transnational campaigns, and exposed the distance between a human-rights principle and governments willing to enforce it.",
+    "igCaption": "November 6, 1962: the United Nations condemned South African apartheid and called for international pressure. The resolution named the system clearly, even as powerful governments resisted meaningful sanctions.\n\n#BlackHistoryInRealTime #AntiApartheid",
+    "tags": [
+      "law",
+      "politics",
+      "activism",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-11-07",
+    "category": "Cities & Government",
+    "title": "New York Chose David Dinkins",
+    "question": "Who was elected New York City's first Black mayor on November 7, 1989?",
+    "options": [
+      "David Dinkins",
+      "Carl Stokes",
+      "Maynard Jackson",
+      "Harold Washington"
+    ],
+    "answer": 0,
+    "answerText": "David Dinkins",
+    "answerExplanation": "David Dinkins won a close election over Rudolph Giuliani and led New York from 1990 through 1993, during a severe fiscal and social crisis.",
+    "subject": "David Dinkins",
+    "dates": "Elected November 7, 1989",
+    "encyclopediaSlug": "david-dinkins",
+    "encyclopediaPath": "generated/pages/david-dinkins.html",
+    "story": "<p>On November 7, 1989, New Yorkers elected David Dinkins as the city&#039;s first Black mayor. His language of a gorgeous mosaic met a city strained by inequality, racial conflict, crime, and fiscal pressure.</p><p>Dinkins had served in the Marine Corps, the state Assembly, and city government. His coalition joined Black and Latino voters with liberal white constituencies, but his narrow victory left little room for political error.</p><p>His administration expanded youth programs, negotiated agreements that helped keep the U.S. Open in New York, and faced the Crown Heights crisis. He lost a 1993 rematch to Rudolph Giuliani.</p>",
+    "whyItMatters": "Firsts inherit institutions, budgets, and conflicts they did not create. Dinkins's record deserves analysis beyond both the milestone and the political caricatures that followed it.",
+    "igCaption": "November 7, 1989: New York City elected David Dinkins as its first Black mayor. The milestone came with a city full of problems no single election could solve.\n\n#BlackHistoryInRealTime #DavidDinkins",
+    "tags": [
+      "politics",
+      "election",
+      "government",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-11-08",
+    "category": "Women & Government",
+    "title": "A Seat in Pennsylvania's House",
+    "question": "Who became the first Black woman elected to a state legislature when Pennsylvania voters chose her on November 8, 1938?",
+    "options": [
+      "Crystal Bird Fauset",
+      "Susie Monroe",
+      "Minnie Buckingham Harper",
+      "Bessie Buchanan"
+    ],
+    "answer": 0,
+    "answerText": "Crystal Bird Fauset",
+    "answerExplanation": "Crystal Bird Fauset won a Pennsylvania House seat representing Philadelphia. She later worked in federal civil defense and international affairs.",
+    "subject": "Crystal Bird Fauset",
+    "dates": "Elected November 8, 1938",
+    "encyclopediaSlug": "black-women-in-politics",
+    "encyclopediaPath": "encyclopedia/black-women-in-politics.html",
+    "story": "<p>On November 8, 1938, Philadelphia voters sent Crystal Bird Fauset to Pennsylvania&#039;s House of Representatives. She became the first Black woman elected to a state legislature in the United States.</p><p>Fauset was an educator and civic organizer who built relationships across women&#039;s clubs, Democratic politics, and interracial organizations. Her district included both Black and white working-class communities.</p><p>Her legislative service was brief, but her public career continued through federal civil-defense work and international organizing. She treated local representation and global antiracism as connected questions.</p>",
+    "whyItMatters": "Fauset entered electoral office decades before Black women gained sustained visibility in national politics. Her career shows how clubs, classrooms, and neighborhood networks built the road to office.",
+    "igCaption": "November 8, 1938: Crystal Bird Fauset became the first Black woman elected to a state legislature. Philadelphia voters opened a door that national political memory often overlooks.\n\n#BlackHistoryInRealTime #BlackWomenInPolitics",
+    "tags": [
+      "women",
+      "politics",
+      "election",
+      "government"
+    ]
+  },
+  {
+    "fullDate": "2026-11-09",
+    "category": "Film & Performance",
+    "title": "More Than a Hollywood First",
+    "question": "Which actor, born November 9, 1922, became the first Black woman nominated for the Academy Award for best actress?",
+    "options": [
+      "Dorothy Dandridge",
+      "Lena Horne",
+      "Ruby Dee",
+      "Juanita Moore"
+    ],
+    "answer": 0,
+    "answerText": "Dorothy Dandridge",
+    "answerExplanation": "Dorothy Dandridge received the nomination for Carmen Jones. Hollywood celebrated her beauty while denying her the range of roles routinely available to white stars.",
+    "subject": "Dorothy Dandridge",
+    "dates": "November 9, 1922 - September 8, 1965",
+    "encyclopediaSlug": "black-arts-movement",
+    "encyclopediaPath": "generated/pages/black-arts-movement.html",
+    "story": "<p>Dorothy Dandridge was born on November 9, 1922, and grew up performing with her sister before Hollywood learned to market her glamour. The industry wanted a star while maintaining rules that restricted what a Black leading woman could play.</p><p>Carmen Jones earned Dandridge an Academy Award nomination for best actress, the first for a Black woman. Hotels and clubs that booked her sometimes barred her from their pools, dining rooms, or front entrances.</p><p>The nomination did not produce a steady supply of complex roles. Financial exploitation, racism, and personal hardship narrowed her career even after she had proved her drawing power.</p>",
+    "whyItMatters": "Dandridge's life separates visibility from power. Being seen as exceptional did not give her control over scripts, contracts, or the structures determining whose talent could last.",
+    "igCaption": "November 9, 1922: Dorothy Dandridge was born. Hollywood made her a symbol of glamour, nominated her for best actress, and still denied her the range and protection white stars expected.\n\n#BlackHistoryInRealTime #DorothyDandridge",
+    "tags": [
+      "art",
+      "women",
+      "segregation"
+    ]
+  },
+  {
+    "fullDate": "2026-11-10",
+    "category": "Violence & Democracy",
+    "title": "The Coup America Forgot",
+    "question": "What North Carolina city experienced a white-supremacist massacre and overthrow of its elected government on November 10, 1898?",
+    "options": [
+      "Wilmington",
+      "Raleigh",
+      "Charlotte",
+      "Greensboro"
+    ],
+    "answer": 0,
+    "answerText": "Wilmington",
+    "answerExplanation": "Armed white supremacists killed Black residents, burned the Daily Record newspaper, and forced elected officials from office. It remains the only successful coup d'etat in U.S. history.",
+    "subject": "The Wilmington Massacre and Coup",
+    "dates": "November 10, 1898",
+    "encyclopediaSlug": "reconstruction",
+    "encyclopediaPath": "generated/pages/reconstruction.html",
+    "story": "<p>On November 10, 1898, armed white supremacists in Wilmington, North Carolina, attacked Black residents, burned a Black-owned newspaper, and overthrew a lawfully elected local government.</p><p>Wilmington had a Black majority and a multiracial Fusion government. Democratic organizers used newspapers, rallies, and paramilitary groups to frame Black citizenship as a threat and prepare white voters for violence.</p><p>After the massacre, attackers forced officials to resign and installed their own leaders. Black families fled, property changed hands, and North Carolina accelerated a statewide campaign of disfranchisement and segregation.</p>",
+    "whyItMatters": "Wilmington was not a riot between equal sides. It was a planned coup that used racial terror to destroy democratic power, then relied on public forgetting to protect the victors.",
+    "igCaption": "November 10, 1898: white supremacists attacked Wilmington, killed Black residents, burned a newspaper, and overthrew an elected government. It was a coup, not a riot.\n\n#BlackHistoryInRealTime #Wilmington1898",
+    "tags": [
+      "reconstruction",
+      "politics",
+      "journalism",
+      "resistance"
+    ]
+  },
+  {
+    "fullDate": "2026-11-11",
+    "category": "Resistance & Slavery",
+    "title": "The State Executed Nat Turner",
+    "question": "Which leader of an 1831 revolt against slavery was executed in Virginia on November 11?",
+    "options": [
+      "Nat Turner",
+      "Denmark Vesey",
+      "Gabriel Prosser",
+      "John Brown"
+    ],
+    "answer": 0,
+    "answerText": "Nat Turner",
+    "answerExplanation": "Nat Turner led an uprising in Southampton County, Virginia. The revolt and the indiscriminate white retaliation that followed exposed the violence holding slavery in place.",
+    "subject": "Nat Turner",
+    "dates": "Executed November 11, 1831",
+    "encyclopediaSlug": "nat-turner",
+    "encyclopediaPath": "generated/pages/nat-turner.html",
+    "story": "<p>Virginia executed Nat Turner on November 11, 1831, nearly three months after the revolt he led in Southampton County. The state intended the hanging to restore control. The fear behind it reshaped law across the South.</p><p>Turner and his followers killed about sixty white people during the uprising. White militias and mobs retaliated against Black communities, killing people who had no connection to the revolt and tightening surveillance.</p><p>Legislatures restricted Black preaching, assembly, literacy, and movement. The response showed that slaveholding societies understood information and independent religious authority as threats to the system.</p>",
+    "whyItMatters": "Turner's history requires moral clarity about both the killing and the institution being resisted. Slavery was maintained through organized violence long before the revolt challenged it.",
+    "igCaption": "November 11, 1831: Virginia executed Nat Turner. The revolt he led and the wider retaliation that followed exposed the fear, law, and organized violence required to sustain slavery.\n\n#BlackHistoryInRealTime #NatTurner",
+    "tags": [
+      "resistance",
+      "enslavement",
+      "law"
+    ]
+  },
+  {
+    "fullDate": "2026-11-12",
+    "category": "Education & Sisterhood",
+    "title": "Seven Teachers Built a Sorority",
+    "question": "Which historically Black sorority was founded by seven educators in Indianapolis on November 12, 1922?",
+    "options": [
+      "Sigma Gamma Rho",
+      "Alpha Kappa Alpha",
+      "Delta Sigma Theta",
+      "Zeta Phi Beta"
+    ],
+    "answer": 0,
+    "answerText": "Sigma Gamma Rho",
+    "answerExplanation": "Sigma Gamma Rho was founded at Butler University by seven young Black teachers. It was the only Divine Nine sorority founded at a predominantly white institution.",
+    "subject": "Sigma Gamma Rho Sorority",
+    "dates": "Founded November 12, 1922",
+    "encyclopediaSlug": "hbcus",
+    "encyclopediaPath": "encyclopedia/hbcus.html",
+    "story": "<p>Seven young Black educators founded Sigma Gamma Rho Sorority on November 12, 1922, in Indianapolis. They organized while studying and teaching in institutions where Black women often had to build their own systems of support.</p><p>The founders met at Butler University, making Sigma Gamma Rho the only one of the four historically Black sororities founded at a predominantly white institution. Teaching connected their professional lives to community service.</p><p>The organization expanded through collegiate and alumnae chapters, supporting education, health, and youth programs. Its growth joined a larger network of Black Greek-letter institutions that created leadership opportunities under segregation.</p>",
+    "whyItMatters": "Black sororities are not simply social clubs. They have functioned as durable civic infrastructure, translating fellowship into scholarships, service, political participation, and intergenerational support.",
+    "igCaption": "November 12, 1922: seven Black teachers founded Sigma Gamma Rho. Their sisterhood became civic infrastructure for education, service, and leadership.\n\n#BlackHistoryInRealTime #SigmaGammaRho",
+    "tags": [
+      "education",
+      "women",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-11-13",
+    "category": "Law & Transportation",
+    "title": "Bus Segregation Lost in Court",
+    "question": "What case ending Montgomery bus segregation was affirmed by the Supreme Court on November 13, 1956?",
+    "options": [
+      "Browder v. Gayle",
+      "Brown v. Board",
+      "Boynton v. Virginia",
+      "Morgan v. Virginia"
+    ],
+    "answer": 0,
+    "answerText": "Browder v. Gayle",
+    "answerExplanation": "The Court affirmed a ruling that Alabama bus-segregation laws were unconstitutional. The plaintiffs were Aurelia Browder, Susie McDonald, Claudette Colvin, and Mary Louise Smith.",
+    "subject": "Browder v. Gayle",
+    "dates": "Affirmed November 13, 1956",
+    "encyclopediaSlug": "rosa-parks",
+    "encyclopediaPath": "generated/pages/rosa-parks.html",
+    "story": "<p>On November 13, 1956, the Supreme Court affirmed the federal ruling that struck down bus segregation in Montgomery. The legal case was carried by four Black women whose names rarely receive equal space in the boycott story.</p><p>Aurelia Browder, Susie McDonald, Claudette Colvin, and Mary Louise Smith challenged Alabama&#039;s laws in federal court. Their case avoided the state-court route used against Rosa Parks and directly attacked segregation&#039;s constitutionality.</p><p>The ruling gave the boycott a legal victory, but implementation still required federal notice and local courage. Montgomery&#039;s buses integrated in December after more than a year of collective sacrifice.</p>",
+    "whyItMatters": "Movements need many forms of work at once: plaintiffs, lawyers, drivers, walkers, fundraisers, organizers, and people willing to remain in struggle after headlines move on.",
+    "igCaption": "November 13, 1956: the Supreme Court affirmed Browder v. Gayle. Aurelia Browder, Susie McDonald, Claudette Colvin, and Mary Louise Smith carried the legal case that ended Montgomery bus segregation.\n\n#BlackHistoryInRealTime #BrowderVGayle",
+    "tags": [
+      "civil-rights",
+      "law",
+      "segregation",
+      "women"
+    ]
+  },
+  {
+    "fullDate": "2026-11-14",
+    "category": "Education & Courage",
+    "title": "Ruby Bridges Entered First Grade",
+    "question": "Which six-year-old integrated William Frantz Elementary School on November 14, 1960?",
+    "options": [
+      "Ruby Bridges",
+      "Gail Etienne",
+      "Leona Tate",
+      "Tessie Prevost"
+    ],
+    "answer": 0,
+    "answerText": "Ruby Bridges",
+    "answerExplanation": "Federal marshals escorted Ruby Bridges through hostile crowds. Three other first graders, Gail Etienne, Leona Tate, and Tessie Prevost, integrated McDonogh 19 that same morning.",
+    "subject": "Ruby Bridges and the New Orleans Four",
+    "dates": "November 14, 1960",
+    "encyclopediaSlug": "ruby-bridges-integration",
+    "encyclopediaPath": "generated/pages/ruby-bridges-integration.html",
+    "story": "<p>On November 14, 1960, six-year-old Ruby Bridges entered William Frantz Elementary under federal protection. Across New Orleans, Gail Etienne, Leona Tate, and Tessie Prevost entered McDonogh 19.</p><p>White parents withdrew children, crowds shouted threats, and schools failed to protect the first graders from adult hatred. Barbara Henry taught Ruby alone while the McDonogh Three spent their year in an emptied school.</p><p>Norman Rockwell&#039;s later painting made Ruby&#039;s walk iconic, but the familiar image can narrow a four-child history into one symbol. The other girls and their families carried the same desegregation order into another building.</p>",
+    "whyItMatters": "School integration was not an abstract court principle. Children absorbed the isolation, danger, and expectations created when governments delayed obeying the Constitution.",
+    "igCaption": "November 14, 1960: Ruby Bridges, Gail Etienne, Leona Tate, and Tessie Prevost integrated two New Orleans schools. Four first graders carried a federal order through adult resistance.\n\n#BlackHistoryInRealTime #NewOrleansFour",
+    "tags": [
+      "education",
+      "youth",
+      "segregation",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-11-15",
+    "category": "Africa & Colonialism",
+    "title": "Europe Drew Lines Across Africa",
+    "question": "What conference opened on November 15, 1884, allowing European powers to set rules for colonizing Africa without African representation?",
+    "options": [
+      "The Berlin Conference",
+      "The Bandung Conference",
+      "The Pan-African Congress",
+      "The Congress of Vienna"
+    ],
+    "answer": 0,
+    "answerText": "The Berlin Conference",
+    "answerExplanation": "Representatives of European powers and the United States met in Berlin. No African delegates participated in decisions that accelerated colonial seizure and violence.",
+    "subject": "The Berlin Conference",
+    "dates": "Opened November 15, 1884",
+    "encyclopediaSlug": "web-du-bois",
+    "encyclopediaPath": "generated/pages/web-du-bois.html",
+    "story": "<p>The Berlin Conference opened on November 15, 1884. European governments gathered to regulate their competition for African territory, trade, and resources. Africans were not invited to decide the future of African lands.</p><p>The conference did not draw every later border in one sitting, but its rules accelerated conquest. Claims became legitimate among European powers when backed by effective occupation, encouraging military invasion and administrative control.</p><p>African states and communities resisted in different ways, from diplomacy to armed defense. Colonial borders later divided peoples, combined rivals, and reorganized economies around extraction for imperial markets.</p>",
+    "whyItMatters": "Modern African borders and economic relationships cannot be understood without colonial decisions made outside the continent. The conference also explains why Pan-African thinkers treated global Black freedom as interconnected.",
+    "igCaption": "November 15, 1884: European powers opened the Berlin Conference and negotiated rules for colonizing Africa. No African delegates were invited to decide the continent's future.\n\n#BlackHistoryInRealTime #AfricanHistory",
+    "tags": [
+      "politics",
+      "economics",
+      "resistance"
+    ]
+  },
+  {
+    "fullDate": "2026-11-16",
+    "category": "Music & Memory",
+    "title": "The Man Who Named the Blues",
+    "question": "Which composer, born November 16, 1873, published St. Louis Blues and called himself the Father of the Blues?",
+    "options": [
+      "W.C. Handy",
+      "Scott Joplin",
+      "Jelly Roll Morton",
+      "Ma Rainey"
+    ],
+    "answer": 0,
+    "answerText": "W.C. Handy",
+    "answerExplanation": "W.C. Handy did not invent the blues. He heard Black folk traditions, arranged them for publication, and helped carry the form into commercial music.",
+    "subject": "W.C. Handy",
+    "dates": "November 16, 1873 - March 28, 1958",
+    "encyclopediaSlug": "the-blues",
+    "encyclopediaPath": "encyclopedia/the-blues.html",
+    "story": "<p>W.C. Handy was born on November 16, 1873, in Florence, Alabama. He became a bandleader, composer, and publisher who helped move blues forms from local performance into sheet music and the commercial marketplace.</p><p>Handy listened to Black musicians whose names were rarely preserved by publishers. Pieces such as Memphis Blues and St. Louis Blues arranged those sounds for broader audiences without making him their sole creator.</p><p>His publishing business gave him unusual control in an industry that exploited Black composers. The title Father of the Blues brought fame, but it can also hide the collective tradition beneath his catalog.</p>",
+    "whyItMatters": "Handy's career teaches the difference between creating a culture and successfully publishing it. Music history needs both the credited composer and the communities whose sound made the composition possible.",
+    "igCaption": "November 16, 1873: W.C. Handy was born. He did not invent the blues, but he helped publish and circulate music rooted in Black communities whose creators often went unnamed.\n\n#BlackHistoryInRealTime #WChandy #TheBlues",
+    "tags": [
+      "music",
+      "art",
+      "journalism"
+    ]
+  },
+  {
+    "fullDate": "2026-11-17",
+    "category": "Education & Brotherhood",
+    "title": "A Fraternity Founded at Howard",
+    "question": "Which historically Black fraternity was founded at Howard University on November 17, 1911?",
+    "options": [
+      "Omega Psi Phi",
+      "Alpha Phi Alpha",
+      "Kappa Alpha Psi",
+      "Phi Beta Sigma"
+    ],
+    "answer": 0,
+    "answerText": "Omega Psi Phi",
+    "answerExplanation": "Three Howard students and faculty adviser Ernest Everett Just founded Omega Psi Phi. It was the first international fraternal organization founded at an HBCU.",
+    "subject": "Omega Psi Phi Fraternity",
+    "dates": "Founded November 17, 1911",
+    "encyclopediaSlug": "hbcus",
+    "encyclopediaPath": "encyclopedia/hbcus.html",
+    "story": "<p>Three Howard University students and faculty adviser Ernest Everett Just founded Omega Psi Phi on November 17, 1911. Their organization joined scholarship, friendship, perseverance, and uplift inside an institution built for Black education.</p><p>Edgar Amos Love, Oscar James Cooper, Frank Coleman, and Just organized in Howard&#039;s Science Hall. The fraternity expanded from campus life into professional, civic, and service networks across the country and abroad.</p><p>Black Greek-letter organizations created spaces for leadership when white institutions excluded Black students and professionals. Their rituals mattered, but so did scholarships, voting campaigns, mentoring, and durable alumni networks.</p>",
+    "whyItMatters": "The Divine Nine demonstrate how Black communities built institutions within institutions. Fellowship became a practical way to move resources, opportunity, and public service across generations.",
+    "igCaption": "November 17, 1911: four men at Howard University founded Omega Psi Phi. Brotherhood became a network for scholarship, service, leadership, and community power.\n\n#BlackHistoryInRealTime #OmegaPsiPhi",
+    "tags": [
+      "education",
+      "community",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-11-18",
+    "category": "Haiti & Revolution",
+    "title": "The Battle That Secured Haiti's Freedom",
+    "question": "What final major battle of the Haitian Revolution was fought on November 18, 1803?",
+    "options": [
+      "The Battle of Vertieres",
+      "The Battle of New Orleans",
+      "The Battle of Adwa",
+      "The Battle of Bunker Hill"
+    ],
+    "answer": 0,
+    "answerText": "The Battle of Vertieres",
+    "answerExplanation": "Haitian forces under Jean-Jacques Dessalines defeated the French army at Vertieres. France soon withdrew, and Haiti declared independence on January 1, 1804.",
+    "subject": "The Battle of Vertieres",
+    "dates": "November 18, 1803",
+    "encyclopediaSlug": "marcus-garvey",
+    "encyclopediaPath": "generated/pages/marcus-garvey.html",
+    "story": "<p>Haitian forces attacked the French position at Vertieres on November 18, 1803. The battle became the final major military confrontation of a revolution led by people who had been enslaved.</p><p>France had tried to restore full colonial control and slavery in Saint-Domingue. Haitian commanders, soldiers, laborers, and civilians sustained a struggle shaped by competing leaders, foreign wars, disease, and extraordinary brutality.</p><p>The French defeat cleared the way for independence on January 1, 1804. Haiti became the first independent Black republic and the only nation created through a successful revolt of enslaved people.</p>",
+    "whyItMatters": "Vertieres changed the Atlantic world. It shattered claims that slavery was permanent and forced empires, enslavers, and Black freedom movements to confront the political power of emancipation won from below.",
+    "igCaption": "November 18, 1803: Haitian forces defeated the French at Vertieres. Weeks later, Haiti declared independence, born from a revolution led by people who had been enslaved.\n\n#BlackHistoryInRealTime #HaitianRevolution",
+    "tags": [
+      "emancipation",
+      "resistance",
+      "politics"
+    ]
+  },
+  {
+    "fullDate": "2026-11-19",
+    "category": "Sports & Excellence",
+    "title": "Campanella Won His Second MVP",
+    "question": "Which Brooklyn Dodgers catcher was named National League MVP for the second time on November 19, 1953?",
+    "options": [
+      "Roy Campanella",
+      "Jackie Robinson",
+      "Don Newcombe",
+      "Monte Irvin"
+    ],
+    "answer": 0,
+    "answerText": "Roy Campanella",
+    "answerExplanation": "Roy Campanella won three National League MVP awards in 1951, 1953, and 1955. He starred behind the plate after beginning his professional career in the Negro leagues.",
+    "subject": "Roy Campanella",
+    "dates": "Named MVP November 19, 1953",
+    "encyclopediaSlug": "sports-integration",
+    "encyclopediaPath": "encyclopedia/sports-integration.html",
+    "story": "<p>Roy Campanella was named the National League&#039;s most valuable player on November 19, 1953. It was his second MVP award and another measure of how quickly Negro league talent transformed Major League Baseball.</p><p>Campanella began playing professionally as a teenager with the Baltimore Elite Giants because organized baseball excluded Black players. The Brooklyn Dodgers signed him after Jackie Robinson broke the modern major-league color line.</p><p>A powerful hitter and skilled catcher, Campanella won three MVP awards. A 1958 automobile crash left him paralyzed, ending his playing career, but not his work with the Dodgers or his influence on catchers.</p>",
+    "whyItMatters": "Integration stories often focus on the first person through the door. Campanella shows what followed: experienced Black professionals did not merely join the majors, they redefined excellence within them.",
+    "igCaption": "November 19, 1953: Roy Campanella won his second National League MVP award. Years in the Negro leagues had prepared him for a league that had refused to admit his talent.\n\n#BlackHistoryInRealTime #RoyCampanella",
+    "tags": [
+      "sports",
+      "segregation",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-11-20",
+    "category": "Invention & Safety",
+    "title": "A Pause Between Stop and Go",
+    "question": "Which inventor received a patent for a three-position traffic signal on November 20, 1923?",
+    "options": [
+      "Garrett Morgan",
+      "Granville Woods",
+      "Elijah McCoy",
+      "Lewis Latimer"
+    ],
+    "answer": 0,
+    "answerText": "Garrett Morgan",
+    "answerExplanation": "Garrett Morgan patented a signal with a third position that stopped traffic in all directions before movement changed, improving safety at busy intersections.",
+    "subject": "Garrett Morgan's Traffic Signal",
+    "dates": "Patent issued November 20, 1923",
+    "encyclopediaSlug": "garrett-morgan",
+    "encyclopediaPath": "encyclopedia/garrett-morgan.html",
+    "story": "<p>The U.S. Patent Office granted Garrett Morgan a patent for his traffic signal on November 20, 1923. His design added an all-stop interval between opposing flows of traffic.</p><p>Morgan was a Cleveland entrepreneur who had already developed sewing equipment and a breathing safety hood. He observed growing automobile congestion and designed a manually operated signal to reduce collisions during transitions.</p><p>Morgan did not invent every traffic light, but his three-position design was an important safety improvement. He later sold rights to General Electric while continuing to operate Black newspapers and businesses.</p>",
+    "whyItMatters": "Careful language makes innovation more impressive, not less. Morgan identified a practical danger, patented a specific solution, and built businesses despite racial barriers to credit and markets.",
+    "igCaption": "November 20, 1923: Garrett Morgan patented a traffic signal with a pause between directions. He improved an existing system by designing for the dangerous moment of transition.\n\n#BlackHistoryInRealTime #GarrettMorgan",
+    "tags": [
+      "invention",
+      "technology",
+      "economics"
+    ]
+  },
+  {
+    "fullDate": "2026-11-21",
+    "category": "Jazz & Innovation",
+    "title": "The Tenor Saxophone Found Its Voice",
+    "question": "Which jazz musician, born November 21, 1904, transformed the tenor saxophone into a leading solo instrument?",
+    "options": [
+      "Coleman Hawkins",
+      "Lester Young",
+      "Charlie Parker",
+      "Johnny Hodges"
+    ],
+    "answer": 0,
+    "answerText": "Coleman Hawkins",
+    "answerExplanation": "Coleman Hawkins gave the tenor saxophone new authority through a powerful tone and harmonically adventurous improvisation. His 1939 recording of Body and Soul became a landmark jazz performance.",
+    "subject": "Coleman Hawkins",
+    "dates": "November 21, 1904 - May 19, 1969",
+    "encyclopediaSlug": "black-arts-movement",
+    "encyclopediaPath": "generated/pages/black-arts-movement.html",
+    "story": "<p>Coleman Hawkins was born in St. Joseph, Missouri, on November 21, 1904. Before his career, the tenor saxophone often sat in the background. Hawkins made it a commanding improvising voice.</p><p>He joined Fletcher Henderson&#039;s orchestra in the 1920s, where his full sound and harmonic imagination influenced a generation of players. European tours broadened his audience and gave him room to work outside American segregation.</p><p>His 1939 recording of Body and Soul barely states the familiar melody before building a new performance through improvisation. Hawkins later welcomed bebop rather than treating younger musicians as a threat.</p>",
+    "whyItMatters": "Innovation can mean changing what listeners believe an instrument can do. Hawkins helped establish the tenor saxophone as a central language of jazz and kept learning as that language evolved.",
+    "igCaption": "November 21, 1904: Coleman Hawkins was born. He turned the tenor saxophone from an ensemble voice into one of jazz's most powerful instruments for improvisation.\n\n#BlackHistoryInRealTime #ColemanHawkins",
+    "tags": [
+      "music",
+      "art",
+      "great-migration"
+    ]
+  },
+  {
+    "fullDate": "2026-11-22",
+    "category": "Boxing & Public Life",
+    "title": "Twenty Years Old and Heavyweight Champion",
+    "question": "Who became boxing's youngest heavyweight champion by defeating Trevor Berbick on November 22, 1986?",
+    "options": [
+      "Mike Tyson",
+      "Floyd Patterson",
+      "Muhammad Ali",
+      "Joe Louis"
+    ],
+    "answer": 0,
+    "answerText": "Mike Tyson",
+    "answerExplanation": "Mike Tyson was 20 years and 145 days old when he won the WBC heavyweight title. His speed and punching power made him a global star, but the record is only one part of a difficult public life.",
+    "subject": "Mike Tyson's Heavyweight Championship",
+    "dates": "November 22, 1986",
+    "encyclopediaSlug": "sports-integration",
+    "encyclopediaPath": "encyclopedia/sports-integration.html",
+    "story": "<p>On November 22, 1986, Mike Tyson stopped Trevor Berbick in the second round and became boxing&#039;s youngest heavyweight champion. At twenty, the fighter from Brownsville seemed to compress years of ambition into five minutes and thirty-five seconds.</p><p>Trainer Cus D&#039;Amato and Kevin Rooney had shaped Tyson&#039;s defense, movement, and explosive combinations. He entered the fight unbeaten, carrying a sport&#039;s appetite for a dominant heavyweight and a media industry eager to sell menace.</p><p>Tyson unified the major titles, lost them to Buster Douglas, and later served a prison sentence after a rape conviction. Any honest account must hold the athletic achievement beside the violence and harm in his life beyond the ring.</p>",
+    "whyItMatters": "Sports records can become simple legends that erase the person around them. Tyson's November 22 milestone is real, but understanding his public history requires attention to talent, exploitation, celebrity, accountability, and the damage fame cannot excuse.",
+    "igCaption": "November 22, 1986: Mike Tyson became boxing's youngest heavyweight champion. The record belongs in sports history, alongside the harder history of celebrity, violence, accountability, and lives harmed beyond the ring.\n\n#BlackHistoryInRealTime #BoxingHistory",
+    "tags": [
+      "sports",
+      "leadership",
+      "economics"
+    ]
+  },
+  {
+    "fullDate": "2026-11-23",
+    "category": "Invention & Railroads",
+    "title": "A Safer Way to Couple Railcars",
+    "question": "Which inventor received a patent for an automatic railroad-car coupler on November 23, 1897?",
+    "options": [
+      "Andrew Jackson Beard",
+      "Elijah McCoy",
+      "Granville Woods",
+      "Jan Matzeliger"
+    ],
+    "answer": 0,
+    "answerText": "Andrew Jackson Beard",
+    "answerExplanation": "Andrew Beard's Jenny coupler joined railcars automatically, reducing the need for workers to stand between moving cars during a deadly industrial task.",
+    "subject": "Andrew Jackson Beard",
+    "dates": "Patent issued November 23, 1897",
+    "encyclopediaSlug": "black-tech-pioneers",
+    "encyclopediaPath": "encyclopedia/black-tech-pioneers.html",
+    "story": "<p>Andrew Jackson Beard received a patent for his railroad-car coupler on November 23, 1897. The invention addressed work that routinely crushed hands, limbs, and lives when workers stood between moving cars.</p><p>Born enslaved in Alabama, Beard became a farmer, mill owner, and inventor after emancipation. His coupler used interlocking horizontal jaws to connect cars with less direct human exposure.</p><p>Beard sold patent rights, an uncommon financial success for a Black inventor navigating discriminatory markets. His work belonged to a wider era of railroad innovation and labor-safety reform.</p>",
+    "whyItMatters": "Invention often begins with noticing who absorbs the danger in an ordinary system. Beard designed around workers' bodies, making industrial efficiency and safety part of the same problem.",
+    "igCaption": "November 23, 1897: Andrew Jackson Beard patented an automatic railcar coupler. His design reduced the need for workers to stand between moving cars during a deadly task.\n\n#BlackHistoryInRealTime #BlackInventors",
+    "tags": [
+      "invention",
+      "technology",
+      "labor"
+    ]
+  },
+  {
+    "fullDate": "2026-11-24",
+    "category": "Music & Composition",
+    "title": "Ragtime on the Written Page",
+    "question": "Which composer, traditionally dated as born November 24, 1868, wrote Maple Leaf Rag and the opera Treemonisha?",
+    "options": [
+      "Scott Joplin",
+      "James Reese Europe",
+      "Eubie Blake",
+      "W.C. Handy"
+    ],
+    "answer": 0,
+    "answerText": "Scott Joplin",
+    "answerExplanation": "Scott Joplin brought formal ambition and publishing success to ragtime. His exact birth date is uncertain, but November 24, 1868, is widely used.",
+    "subject": "Scott Joplin",
+    "dates": "Birth traditionally dated November 24, 1868",
+    "encyclopediaSlug": "duke-ellington",
+    "encyclopediaPath": "encyclopedia/duke-ellington.html",
+    "story": "<p>Scott Joplin&#039;s birth is traditionally dated November 24, 1868, though the historical record is not precise. His published rags made syncopated Black music legible to a sheet-music industry eager to sell it.</p><p>Joplin studied music, performed across the Midwest, and found commercial success with Maple Leaf Rag. He insisted ragtime deserved careful performance rather than the rushed novelty treatment common onstage.</p><p>His opera Treemonisha joined European operatic structure to Black rural life and a story about education. Joplin struggled to secure a full production during his lifetime.</p>",
+    "whyItMatters": "Joplin expands ragtime beyond entertainment. He was a composer thinking about form, ownership, respect, and what Black modern music could carry onto the concert stage.",
+    "igCaption": "November 24 is the traditional birth date of Scott Joplin. He wrote ragtime for the page, the parlor, and the opera stage, insisting the music deserved precision and ambition.\n\n#BlackHistoryInRealTime #ScottJoplin",
+    "tags": [
+      "music",
+      "art"
+    ]
+  },
+  {
+    "fullDate": "2026-11-25",
+    "category": "Caribbean & Independence",
+    "title": "Suriname Became Independent",
+    "question": "Which South American nation with deep African and Maroon history gained independence on November 25, 1975?",
+    "options": [
+      "Suriname",
+      "Guyana",
+      "Belize",
+      "Trinidad and Tobago"
+    ],
+    "answer": 0,
+    "answerText": "Suriname",
+    "answerExplanation": "Suriname ended Dutch colonial rule in 1975. Its population includes descendants of enslaved Africans and Maroon communities that resisted slavery and maintained autonomous cultures.",
+    "subject": "Suriname Independence",
+    "dates": "November 25, 1975",
+    "encyclopediaSlug": "marcus-garvey",
+    "encyclopediaPath": "generated/pages/marcus-garvey.html",
+    "story": "<p>Suriname became independent from the Netherlands on November 25, 1975. The new nation carried histories of Indigenous survival, Dutch plantation slavery, Asian indenture, African resistance, and Maroon self-government.</p><p>Enslaved Africans escaped coastal plantations and established communities in the interior. Maroon nations fought colonial forces and negotiated treaties recognizing forms of autonomy long before twentieth-century independence.</p><p>Independence came through negotiation, not a clean break from colonial consequences. Many Surinamese migrated to the Netherlands, while the new government faced inequality, political conflict, and dependence on extractive industries.</p>",
+    "whyItMatters": "Black history in the Americas is larger than the United States. Suriname makes visible the continent-wide struggle between plantation slavery, African cultural survival, Maroon sovereignty, and colonial rule.",
+    "igCaption": "November 25, 1975: Suriname became independent. Its history includes plantation slavery, African resistance, and Maroon communities that defended autonomy generations before nationhood.\n\n#BlackHistoryInRealTime #Suriname",
+    "tags": [
+      "emancipation",
+      "resistance",
+      "politics"
+    ]
+  },
+  {
+    "fullDate": "2026-11-26",
+    "category": "Abolition & Women",
+    "title": "Sojourner Truth's Long Freedom Work",
+    "question": "Which abolitionist and women's-rights speaker died on November 26, 1883?",
+    "options": [
+      "Sojourner Truth",
+      "Harriet Tubman",
+      "Frances E.W. Harper",
+      "Maria Stewart"
+    ],
+    "answer": 0,
+    "answerText": "Sojourner Truth",
+    "answerExplanation": "Born into slavery as Isabella Baumfree, Sojourner Truth escaped, won the return of her son in court, preached, organized, and challenged racism and sexism for decades.",
+    "subject": "Sojourner Truth",
+    "dates": "Died November 26, 1883",
+    "encyclopediaSlug": "sojourner-truth",
+    "encyclopediaPath": "generated/pages/sojourner-truth.html",
+    "story": "<p>Sojourner Truth died on November 26, 1883, after decades of public work. She had escaped slavery, recovered her son through the courts, renamed herself, and built a life as a traveling preacher and organizer.</p><p>Truth spoke for abolition, women&#039;s rights, temperance, and land for formerly enslaved people. Newspaper versions often altered her speech into a Southern dialect she did not grow up speaking, reshaping her public voice after the fact.</p><p>During the Civil War she recruited Black troops and later challenged streetcar segregation in Washington. She kept pressing beyond emancipation toward economic security and equal citizenship.</p>",
+    "whyItMatters": "Truth was not one speech or slogan. Her long career joined spiritual conviction to legal action, movement travel, family struggle, and demands that freedom include material independence.",
+    "igCaption": "November 26, 1883: Sojourner Truth died after a lifetime of preaching, organizing, courtroom struggle, and demands that emancipation mean full citizenship.\n\n#BlackHistoryInRealTime #SojournerTruth",
+    "tags": [
+      "abolition",
+      "women",
+      "religion",
+      "activism"
+    ]
+  },
+  {
+    "fullDate": "2026-11-27",
+    "category": "Music & Experimentation",
+    "title": "A Guitar Sound Without Borders",
+    "question": "Which guitarist, born November 27, 1942, transformed rock through feedback, distortion, and studio experimentation?",
+    "options": [
+      "Jimi Hendrix",
+      "Chuck Berry",
+      "Bo Diddley",
+      "Buddy Guy"
+    ],
+    "answer": 0,
+    "answerText": "Jimi Hendrix",
+    "answerExplanation": "Jimi Hendrix expanded the electric guitar's vocabulary in a brief recording career. His work drew from blues, R&B, rock, psychedelia, and his years playing the Chitlin' Circuit.",
+    "subject": "Jimi Hendrix",
+    "dates": "November 27, 1942 - September 18, 1970",
+    "encyclopediaSlug": "prince",
+    "encyclopediaPath": "generated/pages/prince.html",
+    "story": "<p>Jimi Hendrix was born on November 27, 1942, in Seattle. Before international fame, he learned his craft in military bands and behind R&amp;B performers on the Black touring circuit.</p><p>Hendrix treated amplifiers, pedals, feedback, and the recording studio as instruments. His sound drew directly from blues musicians while refusing the marketing boundaries separating Black music from rock.</p><p>British audiences embraced him before the U.S. industry knew how to position him. His career as a star lasted only a few years, but recordings and live performances permanently changed guitar technique and stagecraft.</p>",
+    "whyItMatters": "Hendrix challenges the habit of treating rock as white music influenced by Black roots. Black musicians were not outside the genre. They were central to its invention and reinvention.",
+    "igCaption": "November 27, 1942: Jimi Hendrix was born. He turned electricity, feedback, blues language, and studio technology into a new guitar vocabulary.\n\n#BlackHistoryInRealTime #JimiHendrix",
+    "tags": [
+      "music",
+      "art",
+      "technology"
+    ]
+  },
+  {
+    "fullDate": "2026-11-28",
+    "category": "Literature & Exile",
+    "title": "Richard Wright's Unfinished Argument",
+    "question": "Which author of Native Son and Black Boy died in Paris on November 28, 1960?",
+    "options": [
+      "Richard Wright",
+      "Ralph Ellison",
+      "James Baldwin",
+      "Chester Himes"
+    ],
+    "answer": 0,
+    "answerText": "Richard Wright",
+    "answerExplanation": "Richard Wright wrote about migration, poverty, racial violence, and power with a force that changed American literature. He spent his later years in France.",
+    "subject": "Richard Wright",
+    "dates": "Died November 28, 1960",
+    "encyclopediaSlug": "james-baldwin",
+    "encyclopediaPath": "encyclopedia/james-baldwin.html",
+    "story": "<p>Richard Wright died in Paris on November 28, 1960. His novels and memoirs had forced American readers to confront how segregation, poverty, migration, and violence shaped Black interior life.</p><p>Born in Mississippi, Wright moved through Memphis and Chicago before joining leftist literary circles. Native Son made him famous, while Black Boy turned hunger, family conflict, education, and racism into a fierce account of self-creation.</p><p>Wright left the Communist Party and later the United States. Younger writers, including James Baldwin, argued with his portrayals even as they worked on ground his books had opened.</p>",
+    "whyItMatters": "Literary influence includes disagreement. Wright made race and power unavoidable subjects, then gave later Black writers something large enough to challenge, revise, and carry forward.",
+    "igCaption": "November 28, 1960: Richard Wright died in Paris. His books made American readers face the systems shaping Black hunger, anger, migration, and possibility.\n\n#BlackHistoryInRealTime #RichardWright",
+    "tags": [
+      "literature",
+      "great-migration",
+      "resistance"
+    ]
+  },
+  {
+    "fullDate": "2026-11-29",
+    "category": "Politics & the Black Church",
+    "title": "Power from the Pulpit and Congress",
+    "question": "Which Harlem minister and congressman was born November 29, 1908?",
+    "options": [
+      "Adam Clayton Powell Jr.",
+      "Charles Rangel",
+      "Oscar De Priest",
+      "William Dawson"
+    ],
+    "answer": 0,
+    "answerText": "Adam Clayton Powell Jr.",
+    "answerExplanation": "Adam Clayton Powell Jr. represented Harlem and used committee power to advance education, labor, and civil-rights legislation, even as controversy surrounded his leadership.",
+    "subject": "Adam Clayton Powell Jr.",
+    "dates": "November 29, 1908 - April 4, 1972",
+    "encyclopediaSlug": "modern-civil-rights",
+    "encyclopediaPath": "encyclopedia/modern-civil-rights.html",
+    "story": "<p>Adam Clayton Powell Jr. was born on November 29, 1908, into Harlem&#039;s influential Abyssinian Baptist Church. He turned a pulpit, a newspaper, street protests, and congressional seniority into political power.</p><p>Powell organized boycotts against discriminatory employers before winning election to the City Council and Congress. As chair of the House Education and Labor Committee, he helped move major social legislation.</p><p>His flamboyant style, absences, and financial controversies generated investigations. The House excluded him in 1967, but the Supreme Court later ruled that it had acted unconstitutionally.</p>",
+    "whyItMatters": "Powell's career was consequential and contradictory. It shows how Black elected officials converted movement pressure into law while navigating institutions eager to police their legitimacy.",
+    "igCaption": "November 29, 1908: Adam Clayton Powell Jr. was born. From Harlem, he joined church leadership, street protest, newspaper power, and congressional authority.\n\n#BlackHistoryInRealTime #AdamClaytonPowell",
+    "tags": [
+      "politics",
+      "religion",
+      "civil-rights",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-11-30",
+    "category": "Photography & Film",
+    "title": "Gordon Parks Framed the Whole Life",
+    "question": "Which photographer and filmmaker, born November 30, 1912, became Life magazine's first Black staff photographer?",
+    "options": [
+      "Gordon Parks",
+      "James Van Der Zee",
+      "Roy DeCarava",
+      "Moneta Sleet Jr."
+    ],
+    "answer": 0,
+    "answerText": "Gordon Parks",
+    "answerExplanation": "Gordon Parks photographed fashion, poverty, segregation, crime, and family life. He later directed films including Shaft and The Learning Tree.",
+    "subject": "Gordon Parks",
+    "dates": "November 30, 1912 - March 7, 2006",
+    "encyclopediaSlug": "gordon-parks",
+    "encyclopediaPath": "encyclopedia/gordon-parks.html",
+    "story": "<p>Gordon Parks was born on November 30, 1912, in segregated Kansas. A camera became his way to make beauty, document power, earn a living, and insist that Black life could not be contained by one kind of image.</p><p>Parks photographed for the Farm Security Administration and Office of War Information before joining Life. His essays moved between poverty, policing, fashion, celebrities, families, and ordinary neighborhood life.</p><p>He also wrote novels, composed music, and directed films. The Learning Tree drew from his childhood, while Shaft placed a stylish Black detective at the center of a major studio action film.</p>",
+    "whyItMatters": "Parks understood representation as authorship. His subjects were not raw material for pity. He used image, sequence, and story to give them complexity and agency.",
+    "igCaption": "November 30, 1912: Gordon Parks was born. He photographed injustice without reducing Black people to suffering, then carried that authorship into novels, music, and film.\n\n#BlackHistoryInRealTime #GordonParks",
+    "tags": [
+      "art",
+      "journalism",
+      "great-migration"
+    ]
+  },
+  {
+    "fullDate": "2026-12-01",
+    "category": "Civil Rights & Transit",
+    "title": "Rosa Parks Stayed Seated",
+    "question": "Whose arrest on December 1, 1955, helped trigger the Montgomery Bus Boycott?",
+    "options": [
+      "Rosa Parks",
+      "Jo Ann Robinson",
+      "Claudette Colvin",
+      "Aurelia Browder"
+    ],
+    "answer": 0,
+    "answerText": "Rosa Parks",
+    "answerExplanation": "Police arrested Rosa Parks after she refused to surrender her seat to a white passenger. Organizers used the arrest to launch a boycott built on years of local work.",
+    "subject": "Rosa Parks and the Montgomery Bus Boycott",
+    "dates": "December 1, 1955",
+    "encyclopediaSlug": "rosa-parks",
+    "encyclopediaPath": "generated/pages/rosa-parks.html",
+    "story": "<p>On December 1, 1955, Rosa Parks refused a bus driver&#039;s order to surrender her seat and was arrested. She was not simply tired. She was a trained organizer making a choice inside a long local fight.</p><p>Other Black women, including Claudette Colvin, Mary Louise Smith, and Aurelia Browder, had already resisted Montgomery buses. Parks&#039;s standing in the community gave organizers a case around which they believed a mass campaign could hold.</p><p>The Women&#039;s Political Council circulated boycott leaflets overnight. Black residents then sustained carpools, walking networks, fundraising, and meetings for more than a year.</p>",
+    "whyItMatters": "The famous refusal mattered because organization surrounded it. Courage became leverage through communication, trust, legal work, and thousands of repeated daily decisions.",
+    "igCaption": "December 1, 1955: Rosa Parks stayed seated. By morning, organizers were turning one arrest into a citywide campaign built on years of preparation.\n\n#BlackHistoryInRealTime #RosaParks",
+    "tags": [
+      "civil-rights",
+      "women",
+      "segregation",
+      "protest"
+    ]
+  },
+  {
+    "fullDate": "2026-12-02",
+    "category": "Abolition & Armed Resistance",
+    "title": "John Brown Went to the Gallows",
+    "question": "Which abolitionist was executed on December 2, 1859, after attacking the federal arsenal at Harpers Ferry?",
+    "options": [
+      "John Brown",
+      "William Lloyd Garrison",
+      "Theodore Weld",
+      "Elijah Lovejoy"
+    ],
+    "answer": 0,
+    "answerText": "John Brown",
+    "answerExplanation": "Brown hoped the raid would help enslaved people launch a wider revolt. Five Black men joined his force, and Black abolitionists debated both his plan and his willingness to act.",
+    "subject": "John Brown and Harpers Ferry",
+    "dates": "Executed December 2, 1859",
+    "encyclopediaSlug": "underground-railroad",
+    "encyclopediaPath": "generated/pages/underground-railroad.html",
+    "story": "<p>Virginia executed John Brown on December 2, 1859, for the raid on Harpers Ferry. Brown had tried to seize federal weapons and spark a larger struggle against slavery.</p><p>His small force included five Black men: Dangerfield Newby, Lewis Leary, John Copeland, Shields Green, and Osborne Perry Anderson. Frederick Douglass opposed the plan as unwinnable, while still recognizing Brown&#039;s commitment.</p><p>The raid failed militarily, but the execution intensified sectional conflict. Brown became a martyr to many abolitionists and proof of northern conspiracy to many white Southerners.</p>",
+    "whyItMatters": "The story is not only about a white abolitionist. Black participants made distinct choices, Black leaders debated strategy, and slavery itself created the violence Brown sought to confront.",
+    "igCaption": "December 2, 1859: Virginia executed John Brown. Five Black men had joined his Harpers Ferry force, while Black abolitionists debated whether the plan could free anyone or only end in death.\n\n#BlackHistoryInRealTime #HarpersFerry",
+    "tags": [
+      "abolition",
+      "resistance",
+      "enslavement"
+    ]
+  },
+  {
+    "fullDate": "2026-12-03",
+    "category": "Journalism & Abolition",
+    "title": "The North Star Began Printing",
+    "question": "Which abolitionist newspaper published its first issue on December 3, 1847?",
+    "options": [
+      "The North Star",
+      "Freedom's Journal",
+      "The Crisis",
+      "Chicago Defender"
+    ],
+    "answer": 0,
+    "answerText": "The North Star",
+    "answerExplanation": "Frederick Douglass and Martin Delany founded The North Star in Rochester. The paper argued against slavery and for equal rights, including women's rights.",
+    "subject": "Frederick Douglass and The North Star",
+    "dates": "First issue December 3, 1847",
+    "encyclopediaSlug": "frederick-douglass",
+    "encyclopediaPath": "generated/pages/frederick-douglass.html",
+    "story": "<p>The first issue of The North Star appeared on December 3, 1847. Frederick Douglass and Martin Delany used the Rochester newspaper to make Black editorial judgment part of the abolitionist movement&#039;s public record.</p><p>Douglass had separated from white abolitionist mentors who doubted the value of his own paper. The North Star reported on slavery, politics, international affairs, and women&#039;s rights while publishing Black writers and movement debate.</p><p>The newspaper struggled financially and later merged with another abolitionist publication. Its motto declared that right had no sex and truth no color, linking struggles that some reformers wanted kept apart.</p>",
+    "whyItMatters": "Freedom requires the power to publish, frame events, and argue in one's own voice. The North Star made journalism a form of abolitionist institution-building.",
+    "igCaption": "December 3, 1847: Frederick Douglass and Martin Delany published the first North Star. Black editors would decide what counted as news, argument, and freedom.\n\n#BlackHistoryInRealTime #BlackPress",
+    "tags": [
+      "journalism",
+      "abolition",
+      "women"
+    ]
+  },
+  {
+    "fullDate": "2026-12-04",
+    "category": "Policing & Political Power",
+    "title": "The Raid That Killed Fred Hampton",
+    "question": "Which Chicago Black Panther leader was killed during a police raid on December 4, 1969?",
+    "options": [
+      "Fred Hampton",
+      "Bobby Hutton",
+      "Huey Newton",
+      "Mark Clark"
+    ],
+    "answer": 0,
+    "answerText": "Fred Hampton",
+    "answerExplanation": "Chicago police killed Fred Hampton and Mark Clark in a predawn raid. Evidence and later litigation contradicted the initial police account of a gun battle.",
+    "subject": "Fred Hampton",
+    "dates": "Killed December 4, 1969",
+    "encyclopediaSlug": "fred-hampton",
+    "encyclopediaPath": "generated/pages/fred-hampton.html",
+    "story": "<p>Before dawn on December 4, 1969, Chicago police raided an apartment and killed Black Panther leaders Fred Hampton and Mark Clark. Hampton was twenty-one years old and had been building a multiracial political coalition.</p><p>Hampton organized free breakfast programs, political education, and the Rainbow Coalition with Puerto Rican and white working-class groups. The FBI&#039;s COINTELPRO program targeted him and supplied intelligence connected to the raid.</p><p>Authorities initially described a fierce shootout. Physical evidence showed police fired nearly all the bullets. Years of litigation ended in a settlement for survivors and the families.</p>",
+    "whyItMatters": "Hampton's death shows how community programs, coalition politics, surveillance, and armed state power intersected. His age should never make the organizing he completed seem small.",
+    "igCaption": "December 4, 1969: police killed Fred Hampton and Mark Clark in Chicago. Hampton was twenty-one and building a coalition authorities considered dangerous.\n\n#BlackHistoryInRealTime #FredHampton",
+    "tags": [
+      "politics",
+      "community",
+      "protest",
+      "law"
+    ]
+  },
+  {
+    "fullDate": "2026-12-05",
+    "category": "Movement & Community",
+    "title": "Montgomery Started Walking",
+    "question": "What mass protest began on December 5, 1955, the day of Rosa Parks's trial?",
+    "options": [
+      "Montgomery Bus Boycott",
+      "Albany Movement",
+      "Birmingham Campaign",
+      "Freedom Rides"
+    ],
+    "answer": 0,
+    "answerText": "Montgomery Bus Boycott",
+    "answerExplanation": "Black residents withheld fares from segregated buses for 381 days. Women organizers, drivers, dispatchers, churches, and walkers kept the campaign functioning.",
+    "subject": "The Montgomery Bus Boycott",
+    "dates": "Began December 5, 1955",
+    "encyclopediaSlug": "rosa-parks",
+    "encyclopediaPath": "generated/pages/rosa-parks.html",
+    "story": "<p>On December 5, 1955, Montgomery&#039;s Black residents stayed off city buses. What began as a one-day protest became a 381-day campaign sustained through walking, carpools, churches, dispatch systems, and shared money.</p><p>The Women&#039;s Political Council had prepared to act against bus abuse. Jo Ann Robinson and others produced thousands of leaflets after Rosa Parks&#039;s arrest, while E.D. Nixon and local ministers helped form the Montgomery Improvement Association.</p><p>The boycott survived arrests, bombings, legal pressure, and daily exhaustion. Its court challenge, Browder v. Gayle, ultimately struck down bus segregation.</p>",
+    "whyItMatters": "The boycott was not one heroic refusal followed by a speech. It was an operating system built by ordinary people who made transportation, childcare, communication, and endurance political tools.",
+    "igCaption": "December 5, 1955: Montgomery started walking. For 381 days, a movement ran carpools, raised money, shared rides, faced violence, and withheld fares from segregation.\n\n#BlackHistoryInRealTime #MontgomeryBusBoycott",
+    "tags": [
+      "civil-rights",
+      "protest",
+      "community",
+      "women"
+    ]
+  },
+  {
+    "fullDate": "2026-12-06",
+    "category": "Emancipation & Law",
+    "title": "The Amendment Was Ratified",
+    "question": "Which constitutional amendment reached the required state ratifications on December 6, 1865?",
+    "options": [
+      "13th Amendment",
+      "14th Amendment",
+      "15th Amendment",
+      "19th Amendment"
+    ],
+    "answer": 0,
+    "answerText": "13th Amendment",
+    "answerExplanation": "The 13th Amendment abolished slavery except as punishment for crime. That exception became entangled with convict leasing and later systems of coerced prison labor.",
+    "subject": "The 13th Amendment",
+    "dates": "Ratified December 6, 1865",
+    "encyclopediaSlug": "13th-amendment",
+    "encyclopediaPath": "encyclopedia/13th-amendment.html",
+    "story": "<p>Georgia&#039;s ratification on December 6, 1865, gave the 13th Amendment enough states to become part of the Constitution. Slavery and involuntary servitude were prohibited, with one consequential exception.</p><p>The amendment allowed involuntary servitude as punishment for crime. Southern governments soon criminalized ordinary Black life through Black Codes and supplied prisoners to private employers through convict leasing.</p><p>Formal abolition changed the Constitution, but freedom still required land, wages, family security, education, and protection from violence. The amendment opened a legal era rather than completing emancipation.</p>",
+    "whyItMatters": "The text explains both a fundamental victory and a continuing danger. Reading the punishment clause prevents celebration from hiding how coerced labor survived through criminal law.",
+    "igCaption": "December 6, 1865: the 13th Amendment reached ratification. Slavery was abolished, except as punishment for crime, an exception with a long and consequential afterlife.\n\n#BlackHistoryInRealTime #13thAmendment",
+    "tags": [
+      "emancipation",
+      "law",
+      "enslavement"
+    ]
+  },
+  {
+    "fullDate": "2026-12-07",
+    "category": "Military Service & Courage",
+    "title": "Dorie Miller Took the Gun",
+    "question": "Which sailor became a hero during the attack on Pearl Harbor on December 7, 1941?",
+    "options": [
+      "Doris Miller",
+      "Benjamin O. Davis Jr.",
+      "Samuel Gravely",
+      "Jesse Brown"
+    ],
+    "answer": 0,
+    "answerText": "Doris Miller",
+    "answerExplanation": "Mess attendant Doris Miller carried wounded sailors and fired an antiaircraft gun despite having no formal gunnery training. He later received the Navy Cross.",
+    "subject": "Doris Dorie Miller",
+    "dates": "Pearl Harbor, December 7, 1941",
+    "encyclopediaSlug": "buffalo-soldiers",
+    "encyclopediaPath": "generated/pages/buffalo-soldiers.html",
+    "story": "<p>During the attack on Pearl Harbor on December 7, 1941, mess attendant Doris Miller moved wounded sailors and took control of an antiaircraft gun aboard the USS West Virginia.</p><p>The segregated Navy generally confined Black sailors to service work and had not trained Miller as a gunner. In the emergency, he acted beyond the job category racism had assigned him.</p><p>Miller received the Navy Cross, becoming its first Black recipient, but recognition did not end naval segregation. He died in 1943 when the USS Liscome Bay was sunk in the Pacific.</p>",
+    "whyItMatters": "Miller's courage exposed the contradiction of asking Black Americans to defend democracy while restricting their training, advancement, and citizenship at home.",
+    "igCaption": "December 7, 1941: Dorie Miller carried wounded sailors and fired a gun the segregated Navy had never trained him to use. Courage outran the job racism assigned him.\n\n#BlackHistoryInRealTime #DorieMiller",
+    "tags": [
+      "military",
+      "segregation",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-12-08",
+    "category": "Performance & Popular Culture",
+    "title": "A Performer Too Large for One Stage",
+    "question": "Which singer, dancer, actor, and Rat Pack member was born December 8, 1925?",
+    "options": [
+      "Sammy Davis Jr.",
+      "Harry Belafonte",
+      "Cab Calloway",
+      "Billy Eckstine"
+    ],
+    "answer": 0,
+    "answerText": "Sammy Davis Jr.",
+    "answerExplanation": "Sammy Davis Jr. began performing as a child and mastered singing, dancing, comedy, and impressions while confronting segregation in entertainment and public life.",
+    "subject": "Sammy Davis Jr.",
+    "dates": "December 8, 1925 - May 16, 1990",
+    "encyclopediaSlug": "black-arts-movement",
+    "encyclopediaPath": "generated/pages/black-arts-movement.html",
+    "story": "<p>Sammy Davis Jr. was born on December 8, 1925, and entered show business as a small child. By adulthood he could command a nightclub, recording studio, film set, and television stage.</p><p>Davis faced segregated hotels even when he headlined their casinos. His public profile, interracial marriage, conversion to Judaism, and friendships across political lines made him a frequent target and a complicated symbol.</p><p>He used celebrity to support civil-rights work, but some political choices alienated Black audiences. His career resists a neat arc of approval, respectability, or rebellion.</p>",
+    "whyItMatters": "Davis demonstrates the cost of becoming broadly marketable while the market remains racist. Virtuosity created access, but access did not grant freedom from scrutiny or compromise.",
+    "igCaption": "December 8, 1925: Sammy Davis Jr. was born. He mastered nearly every part of show business while performing in venues that could applaud him onstage and exclude him offstage.\n\n#BlackHistoryInRealTime #SammyDavisJr",
+    "tags": [
+      "music",
+      "art",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-12-09",
+    "category": "Africa & Independence",
+    "title": "Tanganyika Raised Its Flag",
+    "question": "Which East African country gained independence on December 9, 1961, and later united with Zanzibar to form Tanzania?",
+    "options": [
+      "Tanganyika",
+      "Kenya",
+      "Uganda",
+      "Ghana"
+    ],
+    "answer": 0,
+    "answerText": "Tanganyika",
+    "answerExplanation": "Tanganyika gained independence from Britain under Julius Nyerere. It joined Zanzibar in 1964, creating the United Republic of Tanzania.",
+    "subject": "Tanganyika Independence and Tanzania",
+    "dates": "December 9, 1961",
+    "encyclopediaSlug": "mansa-musa",
+    "encyclopediaPath": "encyclopedia/mansa-musa.html",
+    "story": "<p>Tanganyika became independent on December 9, 1961, after decades of German and British colonial rule. Julius Nyerere became prime minister of a new nation trying to build political unity across many communities.</p><p>The Tanganyika African National Union organized mass support while pursuing a negotiated transfer of power. Nyerere emphasized African nationalism, education, and Swahili as a shared public language.</p><p>Tanganyika united with Zanzibar in 1964 to form Tanzania. Later socialist policies expanded some public services while also producing coercion, economic difficulty, and debate over state power.</p>",
+    "whyItMatters": "African independence was not one event or one ideology. Tanzania's history shows the hard choices that followed formal sovereignty: language, development, unity, land, and the reach of government.",
+    "igCaption": "December 9, 1961: Tanganyika gained independence. Three years later it joined Zanzibar to form Tanzania, beginning a continuing argument about unity, development, and self-determination.\n\n#BlackHistoryInRealTime #Tanzania",
+    "tags": [
+      "politics",
+      "self-determination",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-12-10",
+    "category": "Diplomacy & Peace",
+    "title": "Ralph Bunche Accepted the Nobel",
+    "question": "Who became the first Black person awarded the Nobel Peace Prize at the ceremony on December 10, 1950?",
+    "options": [
+      "Ralph Bunche",
+      "Martin Luther King Jr.",
+      "Albert Luthuli",
+      "Desmond Tutu"
+    ],
+    "answer": 0,
+    "answerText": "Ralph Bunche",
+    "answerExplanation": "Diplomat Ralph Bunche received the prize for mediating armistice agreements after the 1948 Arab-Israeli war. He was a scholar of colonialism as well as a United Nations official.",
+    "subject": "Ralph Bunche",
+    "dates": "Nobel ceremony December 10, 1950",
+    "encyclopediaSlug": "modern-civil-rights",
+    "encyclopediaPath": "encyclopedia/modern-civil-rights.html",
+    "story": "<p>Ralph Bunche accepted the Nobel Peace Prize on December 10, 1950, becoming its first Black laureate. The award recognized his work mediating armistice agreements in the Middle East.</p><p>Bunche was a political scientist who studied colonialism and race before joining wartime government and the United Nations. His scholarship helped him see diplomacy through questions of empire and self-determination.</p><p>He accepted high-level international roles while the United States remained segregated. Bunche supported civil rights at home and decolonization abroad, though diplomacy required compromises open to criticism.</p>",
+    "whyItMatters": "His career connects Black intellectual history to the creation of postwar international institutions. Peace negotiations were not separate from race, empire, or who was permitted to represent global authority.",
+    "igCaption": "December 10, 1950: Ralph Bunche accepted the Nobel Peace Prize, the first awarded to a Black person. His diplomacy grew from scholarship on race, empire, and self-determination.\n\n#BlackHistoryInRealTime #RalphBunche",
+    "tags": [
+      "politics",
+      "education",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-12-11",
+    "category": "Music & Ownership",
+    "title": "The Voice Behind a Change Is Gonna Come",
+    "question": "Which singer and songwriter died on December 11, 1964, months before A Change Is Gonna Come became a civil-rights standard?",
+    "options": [
+      "Sam Cooke",
+      "Otis Redding",
+      "Marvin Gaye",
+      "Donny Hathaway"
+    ],
+    "answer": 0,
+    "answerText": "Sam Cooke",
+    "answerExplanation": "Sam Cooke moved from gospel to pop, wrote major hits, and pursued ownership through publishing and record businesses. The circumstances of his death remain debated.",
+    "subject": "Sam Cooke",
+    "dates": "Died December 11, 1964",
+    "encyclopediaSlug": "sam-cooke",
+    "encyclopediaPath": "generated/pages/sam-cooke.html",
+    "story": "<p>Sam Cooke died on December 11, 1964, at age thirty-three. His voice had moved from gospel quartets into pop stardom, and his business decisions were pushing toward greater Black control of music.</p><p>Cooke wrote and performed hits while establishing publishing and record ventures. He understood that ownership determined who kept earning after the applause ended.</p><p>A Change Is Gonna Come was released after his death and became inseparable from civil-rights memory. Official accounts ruled the shooting justifiable homicide, while conflicting testimony sustained questions that cannot be responsibly settled by speculation.</p>",
+    "whyItMatters": "Cooke's legacy is artistic and economic. He pursued control over songs, careers, and revenue in an industry built to profit from Black sound without sharing power.",
+    "igCaption": "December 11, 1964: Sam Cooke died at thirty-three. His voice carried gospel into pop, while his businesses pursued something the music industry resisted: Black ownership.\n\n#BlackHistoryInRealTime #SamCooke",
+    "tags": [
+      "music",
+      "economics",
+      "civil-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-12-12",
+    "category": "Reconstruction & Congress",
+    "title": "The First Black Member Took His Seat",
+    "question": "Who became the first Black person to serve in the U.S. House of Representatives on December 12, 1870?",
+    "options": [
+      "Joseph Rainey",
+      "Hiram Revels",
+      "Robert Smalls",
+      "John Roy Lynch"
+    ],
+    "answer": 0,
+    "answerText": "Joseph Rainey",
+    "answerExplanation": "Joseph Rainey represented South Carolina during Reconstruction. He defended civil rights, federal protection of Black voters, and public education.",
+    "subject": "Joseph Rainey",
+    "dates": "Seated December 12, 1870",
+    "encyclopediaSlug": "reconstruction",
+    "encyclopediaPath": "generated/pages/reconstruction.html",
+    "story": "<p>Joseph Rainey took his seat in the House of Representatives on December 12, 1870, becoming the first Black person to serve in that chamber. He entered Congress while white supremacist violence attacked Reconstruction governments.</p><p>Born enslaved in South Carolina, Rainey later worked as a barber and lived in Bermuda during the Civil War. After returning, he entered state politics as Black men gained voting rights.</p><p>In Congress, Rainey supported civil-rights enforcement and federal action against the Ku Klux Klan. He served longer than any other Black member of the Reconstruction era House.</p>",
+    "whyItMatters": "Black congressional service began immediately after emancipation, not in the modern civil-rights period. Its decline resulted from organized disfranchisement and violence, not lack of governing ability.",
+    "igCaption": "December 12, 1870: Joseph Rainey became the first Black member of the U.S. House. Reconstruction sent Black political leadership to Washington, and white supremacy organized to drive it out.\n\n#BlackHistoryInRealTime #JosephRainey",
+    "tags": [
+      "reconstruction",
+      "politics",
+      "government",
+      "voting-rights"
+    ]
+  },
+  {
+    "fullDate": "2026-12-13",
+    "category": "Organizing & Democracy",
+    "title": "Ella Baker Built Leadership Around Her",
+    "question": "Which organizer, born December 13, 1903, helped guide the creation of the Student Nonviolent Coordinating Committee?",
+    "options": [
+      "Ella Baker",
+      "Septima Clark",
+      "Dorothy Height",
+      "Diane Nash"
+    ],
+    "answer": 0,
+    "answerText": "Ella Baker",
+    "answerExplanation": "Ella Baker worked across the NAACP, SCLC, and SNCC. She emphasized group-centered leadership and trusted young organizers to build their own movement.",
+    "subject": "Ella Baker",
+    "dates": "December 13, 1903 - December 13, 1986",
+    "encyclopediaSlug": "ella-baker",
+    "encyclopediaPath": "generated/pages/ella-baker.html",
+    "story": "<p>Ella Baker was born on December 13, 1903, and died on her birthday eighty-three years later. Between those dates, she helped movements build leaders instead of waiting for one leader to save them.</p><p>Baker traveled for the NAACP, organized with the Southern Christian Leadership Conference, and convened student sit-in leaders in 1960. She encouraged them to form SNCC and preserve their independence.</p><p>Her group-centered approach challenged organizations built around charismatic men. Baker valued local knowledge, patient relationship-building, and people gaining confidence through action.</p>",
+    "whyItMatters": "Baker changes what leadership looks like. Her work reminds readers that strong movements distribute skill and authority rather than making everyone dependent on a single public figure.",
+    "igCaption": "December 13, 1903: Ella Baker was born. She built leadership around her, then trusted people to act without waiting for permission from a famous name.\n\n#BlackHistoryInRealTime #EllaBaker",
+    "tags": [
+      "activism",
+      "civil-rights",
+      "women",
+      "youth"
+    ]
+  },
+  {
+    "fullDate": "2026-12-14",
+    "category": "Law & Reconstruction",
+    "title": "A Lawyer for Black Citizenship",
+    "question": "Which Reconstruction-era lawyer and diplomat, born December 14, 1829, became Virginia's first Black member of Congress?",
+    "options": [
+      "John Mercer Langston",
+      "Joseph Rainey",
+      "Robert Brown Elliott",
+      "Blanche K. Bruce"
+    ],
+    "answer": 0,
+    "answerText": "John Mercer Langston",
+    "answerExplanation": "John Mercer Langston was an attorney, educator, diplomat, and congressman. He also helped establish Howard University's law department.",
+    "subject": "John Mercer Langston",
+    "dates": "December 14, 1829 - November 15, 1897",
+    "encyclopediaSlug": "reconstruction",
+    "encyclopediaPath": "generated/pages/reconstruction.html",
+    "story": "<p>John Mercer Langston was born free in Virginia on December 14, 1829. He became a lawyer, abolitionist, educator, diplomat, and congressman across a career that tested how much citizenship Reconstruction could make real.</p><p>After studying at Oberlin, Langston entered law and antislavery organizing in Ohio. He recruited Black troops during the Civil War and later led Howard University&#039;s law department.</p><p>Langston served diplomatically in Haiti and represented Virginia in Congress after a contested election. His career crossed local office, federal service, education, and international politics.</p>",
+    "whyItMatters": "Langston shows how Black institution-building and public service reinforced each other. Legal education was not only professional advancement; it trained people to contest the boundaries of citizenship.",
+    "igCaption": "December 14, 1829: John Mercer Langston was born. He carried abolition into law, education, diplomacy, and Congress, treating citizenship as work to be built.\n\n#BlackHistoryInRealTime #Reconstruction",
+    "tags": [
+      "law",
+      "education",
+      "reconstruction",
+      "politics"
+    ]
+  },
+  {
+    "fullDate": "2026-12-15",
+    "category": "Jazz & Modern Life",
+    "title": "Fats Waller Left the Piano Laughing",
+    "question": "Which pianist and composer of Ain't Misbehavin' died on December 15, 1943?",
+    "options": [
+      "Fats Waller",
+      "Duke Ellington",
+      "Count Basie",
+      "Art Tatum"
+    ],
+    "answer": 0,
+    "answerText": "Fats Waller",
+    "answerExplanation": "Thomas Fats Waller brought stride piano, comic timing, composition, and showmanship together. His songs became standards even when others received more credit or profit.",
+    "subject": "Fats Waller",
+    "dates": "Died December 15, 1943",
+    "encyclopediaSlug": "harlem-renaissance",
+    "encyclopediaPath": "encyclopedia/harlem-renaissance.html",
+    "story": "<p>Fats Waller died on December 15, 1943, aboard a train near Kansas City. At thirty-nine, he had already reshaped stride piano and written songs that moved easily between Harlem clubs, Broadway, records, and radio.</p><p>Waller studied with James P. Johnson and combined technical power with irreverent vocals and comic performance. Ain&#039;t Misbehavin&#039; and Honeysuckle Rose became standards.</p><p>Black composers often sold songs cheaply or lost credit in a predatory publishing business. Waller&#039;s humor made him commercially magnetic, but it sometimes distracted critics from the seriousness of his musicianship.</p>",
+    "whyItMatters": "Joy and virtuosity are not opposites. Waller's work demonstrates how humor, rhythm, composition, and instrumental discipline could all inhabit the same performance.",
+    "igCaption": "December 15, 1943: Fats Waller died at thirty-nine. He left stride piano, unforgettable songs, and proof that comic performance could carry serious musical command.\n\n#BlackHistoryInRealTime #FatsWaller",
+    "tags": [
+      "music",
+      "art",
+      "harlem-renaissance"
+    ]
+  },
+  {
+    "fullDate": "2026-12-16",
+    "category": "Diplomacy & Government",
+    "title": "Colin Powell Was Chosen for State",
+    "question": "Who was nominated on December 16, 2000, to become the first Black U.S. secretary of state?",
+    "options": [
+      "Colin Powell",
+      "Condoleezza Rice",
+      "Andrew Young",
+      "Ralph Bunche"
+    ],
+    "answer": 0,
+    "answerText": "Colin Powell",
+    "answerExplanation": "President-elect George W. Bush selected Colin Powell, a retired four-star general and former Joint Chiefs chair. The Senate confirmed him in January 2001.",
+    "subject": "Colin Powell",
+    "dates": "Nominated December 16, 2000",
+    "encyclopediaSlug": "buffalo-soldiers",
+    "encyclopediaPath": "generated/pages/buffalo-soldiers.html",
+    "story": "<p>President-elect George W. Bush nominated Colin Powell as secretary of state on December 16, 2000. Confirmation would make Powell the first Black person to lead the State Department.</p><p>The son of Jamaican immigrants, Powell rose through a military still changing after formal desegregation. He became national security adviser and the first Black chair of the Joint Chiefs of Staff.</p><p>As secretary, Powell presented claims about Iraqi weapons to the United Nations in 2003. The intelligence proved deeply flawed, and he later described the presentation as a lasting blot on his record.</p>",
+    "whyItMatters": "Historical firsts deserve full accounting. Powell broke institutional barriers, exercised enormous authority, and bore responsibility for consequential decisions made with that authority.",
+    "igCaption": "December 16, 2000: Colin Powell was nominated to become the first Black secretary of state. His record includes barriers broken, power exercised, and decisions that demand scrutiny.\n\n#BlackHistoryInRealTime #ColinPowell",
+    "tags": [
+      "military",
+      "government",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-12-17",
+    "category": "Abolition & Women's Rights",
+    "title": "Maria Stewart Refused Public Silence",
+    "question": "Which Black abolitionist and women's-rights lecturer died on December 17, 1879?",
+    "options": [
+      "Maria W. Stewart",
+      "Frances Ellen Watkins Harper",
+      "Charlotte Forten Grimke",
+      "Sarah Mapps Douglass"
+    ],
+    "answer": 0,
+    "answerText": "Maria W. Stewart",
+    "answerExplanation": "Maria W. Stewart was among the earliest American women to address mixed-gender audiences on political questions. She argued for abolition, education, Black self-determination, and women's equality.",
+    "subject": "Maria W. Stewart",
+    "dates": "1803 - December 17, 1879",
+    "encyclopediaSlug": "sojourner-truth",
+    "encyclopediaPath": "generated/pages/sojourner-truth.html",
+    "story": "<p>Maria W. Stewart died in Washington, D.C., on December 17, 1879. Nearly half a century earlier, she had entered Boston lecture halls and claimed a public political voice that custom denied to both Black people and women.</p><p>Born free but orphaned young, Stewart worked as a domestic servant and pursued education through Sabbath schools. After white executors took her husband&#039;s estate, she joined Boston&#039;s abolitionist networks and began publishing with William Lloyd Garrison.</p><p>Stewart spoke to audiences of women and men about slavery, racism, education, labor, and Black collective power. Hostility shortened her lecture career, but she continued teaching and later worked at Freedmen&#039;s Hospital.</p>",
+    "whyItMatters": "Stewart did more than appear first. She insisted that Black women had the authority to analyze public life, challenge Black men as well as white institutions, and speak for themselves.",
+    "igCaption": "December 17, 1879: Maria W. Stewart died. Decades earlier, she had stepped before mixed audiences and claimed a Black woman's right to speak about abolition, politics, education, and power.\n\n#BlackHistoryInRealTime #MariaStewart",
+    "tags": [
+      "abolition",
+      "women",
+      "education",
+      "activism"
+    ]
+  },
+  {
+    "fullDate": "2026-12-18",
+    "category": "Emancipation & Constitution",
+    "title": "Abolition Entered the Constitution",
+    "question": "What amendment was officially proclaimed part of the Constitution on December 18, 1865?",
+    "options": [
+      "13th Amendment",
+      "14th Amendment",
+      "15th Amendment",
+      "Emancipation Proclamation"
+    ],
+    "answer": 0,
+    "answerText": "13th Amendment",
+    "answerExplanation": "Secretary of State William Seward certified the 13th Amendment after the required ratifications. Its punishment exception remained embedded in the text.",
+    "subject": "The 13th Amendment Proclaimed",
+    "dates": "Proclaimed December 18, 1865",
+    "encyclopediaSlug": "13th-amendment",
+    "encyclopediaPath": "encyclopedia/13th-amendment.html",
+    "story": "<p>Secretary of State William Seward proclaimed the 13th Amendment part of the Constitution on December 18, 1865. The document announced national abolition weeks after Georgia supplied the final required ratification.</p><p>Millions had already pursued freedom through escape, military service, family reunification, and labor resistance. Constitutional language recognized a transformation Black people had actively forced during the Civil War.</p><p>The amendment&#039;s punishment clause allowed involuntary servitude after criminal conviction. Southern Black Codes, convict leasing, and prison labor turned that exception into a pathway for renewed coercion.</p>",
+    "whyItMatters": "December 18 marks official recognition, not the completion of freedom. The distance between constitutional text and lived liberty became one of Reconstruction's central struggles.",
+    "igCaption": "December 18, 1865: the 13th Amendment was officially proclaimed. Constitutional abolition arrived with a punishment exception that would shape coerced labor after slavery.\n\n#BlackHistoryInRealTime #13thAmendment",
+    "tags": [
+      "emancipation",
+      "law",
+      "enslavement"
+    ]
+  },
+  {
+    "fullDate": "2026-12-19",
+    "category": "History & Institution-Building",
+    "title": "Carter Woodson Made Black History a Field",
+    "question": "Which historian, born December 19, 1875, created Negro History Week and helped establish Black history as a scholarly field?",
+    "options": [
+      "Carter G. Woodson",
+      "W.E.B. Du Bois",
+      "John Hope Franklin",
+      "Charles Wesley"
+    ],
+    "answer": 0,
+    "answerText": "Carter G. Woodson",
+    "answerExplanation": "Carter G. Woodson founded the Association for the Study of Negro Life and History in 1915 and launched Negro History Week in 1926.",
+    "subject": "Carter G. Woodson",
+    "dates": "December 19, 1875 - April 3, 1950",
+    "encyclopediaSlug": "carter-woodson",
+    "encyclopediaPath": "encyclopedia/carter-woodson.html",
+    "story": "<p>Carter G. Woodson was born on December 19, 1875, to parents who had been enslaved. He entered formal schooling late, earned a doctorate from Harvard, and built institutions so Black history would not depend on occasional recognition.</p><p>Woodson founded an association, scholarly journal, publishing operation, and training network. He gathered records and supported teachers while universities treated Black life as marginal or unworthy of study.</p><p>Negro History Week began in 1926 and later expanded into Black History Month. Woodson&#039;s deeper aim was not one commemorative week, but a transformed understanding of history throughout the year.</p>",
+    "whyItMatters": "BHIRT stands inside Woodson's argument: Black history is a field requiring sources, institutions, correction, and daily attention, not seasonal trivia.",
+    "igCaption": "December 19, 1875: Carter G. Woodson was born. He did not simply create a celebration. He built the scholarly and publishing infrastructure for Black history to endure.\n\n#BlackHistoryInRealTime #CarterGWoodson",
+    "tags": [
+      "education",
+      "journalism",
+      "self-determination"
+    ]
+  },
+  {
+    "fullDate": "2026-12-20",
+    "category": "Civil Rights & Transit",
+    "title": "The Boycott Won Its Order",
+    "question": "What city received the federal order ending bus segregation on December 20, 1956?",
+    "options": [
+      "Montgomery",
+      "Birmingham",
+      "Atlanta",
+      "Jackson"
+    ],
+    "answer": 0,
+    "answerText": "Montgomery",
+    "answerExplanation": "The Supreme Court mandate reached Montgomery on December 20. The boycott ended, and integrated bus service began the next day amid continuing white violence.",
+    "subject": "The End of the Montgomery Bus Boycott",
+    "dates": "Federal order received December 20, 1956",
+    "encyclopediaSlug": "rosa-parks",
+    "encyclopediaPath": "generated/pages/rosa-parks.html",
+    "story": "<p>Montgomery officials received the federal order ending bus segregation on December 20, 1956. The document turned a Supreme Court victory into an instruction the city could no longer legally postpone.</p><p>Black residents had withheld fares for 381 days while sustaining carpools, walking long distances, and enduring arrests and bombings. Four women carried the constitutional challenge through Browder v. Gayle.</p><p>The Montgomery Improvement Association voted to end the boycott, and integrated service began the next morning. Snipers and bombers answered the victory with more violence.</p>",
+    "whyItMatters": "A court order can change law without instantly changing behavior. The boycott won because legal strategy and collective economic pressure reinforced one another.",
+    "igCaption": "December 20, 1956: Montgomery received the order ending bus segregation. The paper arrived after 381 days of walking, driving, organizing, litigating, and refusing to fund humiliation.\n\n#BlackHistoryInRealTime #MontgomeryBusBoycott",
+    "tags": [
+      "civil-rights",
+      "law",
+      "protest",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-12-21",
+    "category": "Baseball & Memory",
+    "title": "The Catcher the Major Leagues Never Saw",
+    "question": "Which Negro leagues slugger, born December 21, 1911, is regarded as one of baseball's greatest power hitters?",
+    "options": [
+      "Josh Gibson",
+      "Satchel Paige",
+      "Buck Leonard",
+      "Cool Papa Bell"
+    ],
+    "answer": 0,
+    "answerText": "Josh Gibson",
+    "answerExplanation": "Josh Gibson starred for the Homestead Grays and Pittsburgh Crawfords. Segregation kept him out of the major leagues during his lifetime.",
+    "subject": "Josh Gibson",
+    "dates": "December 21, 1911 - January 20, 1947",
+    "encyclopediaSlug": "sports-integration",
+    "encyclopediaPath": "encyclopedia/sports-integration.html",
+    "story": "<p>Josh Gibson was born on December 21, 1911, and became a feared catcher and power hitter in the Negro leagues. Baseball&#039;s color line kept his prime years outside the white major leagues.</p><p>Gibson played for the Homestead Grays and Pittsburgh Crawfords against elite Black and Latin American competition. Newspaper records document extraordinary production, even when barnstorming schedules make mythical totals difficult to verify.</p><p>He died in January 1947, months before Jackie Robinson entered the National League. Later statistical recognition has brought Negro league records into the major-league record book.</p>",
+    "whyItMatters": "Gibson's exclusion was not a question of ability. It was an institutional choice that distorted opportunity, salaries, statistics, and public memory across generations.",
+    "igCaption": "December 21, 1911: Josh Gibson was born. Baseball kept one of its greatest power hitters outside the major leagues, then spent decades treating exclusion as a gap in the record.\n\n#BlackHistoryInRealTime #JoshGibson",
+    "tags": [
+      "sports",
+      "segregation",
+      "great-migration"
+    ]
+  },
+  {
+    "fullDate": "2026-12-22",
+    "category": "Visual Art & New York",
+    "title": "Basquiat Built a Language from the City",
+    "question": "Which Brooklyn-born artist was born December 22, 1960?",
+    "options": [
+      "Jean-Michel Basquiat",
+      "Keith Haring",
+      "Kerry James Marshall",
+      "David Hammons"
+    ],
+    "answer": 0,
+    "answerText": "Jean-Michel Basquiat",
+    "answerExplanation": "Jean-Michel Basquiat combined text, anatomy, crowns, music, and Black historical figures in paintings that challenged who the art world valued.",
+    "subject": "Jean-Michel Basquiat",
+    "dates": "December 22, 1960 - August 12, 1988",
+    "encyclopediaSlug": "jean-michel-basquiat",
+    "encyclopediaPath": "encyclopedia/jean-michel-basquiat.html",
+    "story": "<p>Jean-Michel Basquiat was born in Brooklyn on December 22, 1960, to a Haitian father and Puerto Rican mother. New York streets, museums, jazz, anatomy books, and Black history all entered his visual vocabulary.</p><p>He first gained attention through SAMO texts before moving into galleries. His paintings layered words, diagrams, crowns, commodities, musicians, athletes, and references to colonialism and racism.</p><p>The art market elevated him rapidly while critics often exoticized his identity and youth. He died at twenty-seven, leaving work that resists the myth of an untrained primitive genius.</p>",
+    "whyItMatters": "Basquiat was a deliberate researcher and editor of images. His work asks who gets crowned, priced, remembered, and consumed inside both history and the art market.",
+    "igCaption": "December 22, 1960: Jean-Michel Basquiat was born. He turned city language, Black history, music, anatomy, and market power into paintings that still refuse easy reading.\n\n#BlackHistoryInRealTime #Basquiat",
+    "tags": [
+      "art",
+      "music",
+      "economics"
+    ]
+  },
+  {
+    "fullDate": "2026-12-23",
+    "category": "Business & Black Women",
+    "title": "Sarah Breedlove Built More Than Wealth",
+    "question": "Which entrepreneur was born Sarah Breedlove on December 23, 1867?",
+    "options": [
+      "Madam C.J. Walker",
+      "Annie Malone",
+      "Maggie Lena Walker",
+      "Elizabeth Keckley"
+    ],
+    "answer": 0,
+    "answerText": "Madam C.J. Walker",
+    "answerExplanation": "Madam C.J. Walker built a national hair-care company and sales network that created income and training opportunities for thousands of Black women.",
+    "subject": "Madam C.J. Walker",
+    "dates": "December 23, 1867 - May 25, 1919",
+    "encyclopediaSlug": "madam-cj-walker",
+    "encyclopediaPath": "encyclopedia/madam-cj-walker.html",
+    "story": "<p>Sarah Breedlove was born on December 23, 1867, to parents who had been enslaved. As Madam C.J. Walker, she built a beauty company, sales system, training network, and public platform.</p><p>Walker developed products for Black women&#039;s hair and scalp care while learning from a growing beauty industry that included entrepreneur Annie Malone. Her agents sold products door to door and gained paths to independent income.</p><p>She invested wealth in Black institutions, anti-lynching work, and political organizing. Claims that she was the first self-made woman millionaire are difficult to prove precisely, but her business scale and influence are well documented.</p>",
+    "whyItMatters": "Walker's importance is larger than a wealth ranking. She linked consumer products to training, employment, philanthropy, and a national network of Black women in business.",
+    "igCaption": "December 23, 1867: Sarah Breedlove was born. As Madam C.J. Walker, she built a company that sold products and expanded Black women's access to training, income, and public power.\n\n#BlackHistoryInRealTime #MadamCJWalker",
+    "tags": [
+      "women",
+      "economics",
+      "invention",
+      "leadership"
+    ]
+  },
+  {
+    "fullDate": "2026-12-24",
+    "category": "Health & Institution-Building",
+    "title": "A Hospital Black Patients Could Enter",
+    "question": "Which Savannah institution, chartered December 24, 1832, became one of the nation's oldest hospitals created to serve Black patients?",
+    "options": [
+      "Georgia Infirmary",
+      "Freedmen's Hospital",
+      "Provident Hospital",
+      "Lincoln Hospital"
+    ],
+    "answer": 0,
+    "answerText": "Georgia Infirmary",
+    "answerExplanation": "The Georgia Infirmary was chartered for the relief and protection of aged and afflicted Africans. Its paternalistic origins later gave way to Black medical leadership and community care.",
+    "subject": "The Georgia Infirmary",
+    "dates": "Chartered December 24, 1832",
+    "encyclopediaSlug": "helen-octavia-dickens",
+    "encyclopediaPath": "encyclopedia/helen-octavia-dickens.html",
+    "story": "<p>Georgia chartered the Savannah institution that became the Georgia Infirmary on December 24, 1832. It emerged from a slaveholding society that neglected Black health while describing care in paternalistic terms.</p><p>The infirmary initially served aged and ill enslaved and free Black people. After the Civil War, it became an important hospital and training site within Savannah&#039;s Black community.</p><p>Black physicians, nurses, patients, churches, and donors reshaped institutions created under unequal conditions. Hospitals like Georgia Infirmary filled gaps produced by segregated medicine.</p>",
+    "whyItMatters": "Black medical institutions were responses to exclusion, but they were also centers of expertise and community authority. Their history shows care becoming a form of institution-building.",
+    "igCaption": "December 24, 1832: Georgia chartered the institution that became Georgia Infirmary. Black medical workers and communities later made it a center of care within segregated health systems.\n\n#BlackHistoryInRealTime #BlackMedicalHistory",
+    "tags": [
+      "health",
+      "medicine",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-12-25",
+    "category": "Poetry & Enslavement",
+    "title": "Jupiter Hammon Published a Poem",
+    "question": "Who became the first known Black poet published in colonial America when his work appeared on December 25, 1760?",
+    "options": [
+      "Jupiter Hammon",
+      "Phillis Wheatley",
+      "Lucy Terry",
+      "George Moses Horton"
+    ],
+    "answer": 0,
+    "answerText": "Jupiter Hammon",
+    "answerExplanation": "Jupiter Hammon's broadside An Evening Thought was printed in New York. He remained enslaved throughout his life while producing poetry and prose.",
+    "subject": "Jupiter Hammon",
+    "dates": "First publication December 25, 1760",
+    "encyclopediaSlug": "phillis-wheatley",
+    "encyclopediaPath": "generated/pages/phillis-wheatley.html",
+    "story": "<p>Jupiter Hammon&#039;s An Evening Thought appeared as a broadside on December 25, 1760. It is the earliest known published poem by a Black writer in colonial North America.</p><p>Hammon was enslaved by the Lloyd family on Long Island and gained access to books and writing through their household and business. Literacy did not free him from legal ownership.</p><p>His religious writing used forms acceptable to white readers while revealing a Black intellectual life slavery claimed should not exist. Later prose addressed other Black New Yorkers directly.</p>",
+    "whyItMatters": "Publication is not the same as freedom. Hammon's work survived because an enslaved writer found a narrow route into print, leaving evidence of thought that the institution tried to contain.",
+    "igCaption": "December 25, 1760: Jupiter Hammon published An Evening Thought. His words entered print while he remained enslaved, preserving a Black intellectual life slavery could not erase.\n\n#BlackHistoryInRealTime #JupiterHammon",
+    "tags": [
+      "literature",
+      "enslavement",
+      "religion"
+    ]
+  },
+  {
+    "fullDate": "2026-12-26",
+    "category": "Culture & Community",
+    "title": "The First Kwanzaa Celebration",
+    "question": "What seven-day cultural observance was first celebrated beginning December 26, 1966?",
+    "options": [
+      "Kwanzaa",
+      "Juneteenth",
+      "Watch Night",
+      "African Liberation Day"
+    ],
+    "answer": 0,
+    "answerText": "Kwanzaa",
+    "answerExplanation": "Maulana Karenga created Kwanzaa during the Black freedom era around seven principles called the Nguzo Saba. It is cultural rather than tied to one religion.",
+    "subject": "Kwanzaa",
+    "dates": "First celebrated December 26, 1966",
+    "encyclopediaSlug": "black-arts-movement",
+    "encyclopediaPath": "generated/pages/black-arts-movement.html",
+    "story": "<p>The first Kwanzaa observance began on December 26, 1966, in Los Angeles. Maulana Karenga created the cultural holiday during an era of Black Power, institution-building, and debate over African identity in the diaspora.</p><p>The seven days center principles including unity, self-determination, collective work, cooperative economics, purpose, creativity, and faith. Families and communities adapt ceremonies around candles, art, food, and reflection.</p><p>Kwanzaa spread nationally through cultural centers, schools, churches, and family practice. Karenga&#039;s later criminal conviction for assault is also part of the history and should not be erased by the holiday&#039;s reach.</p>",
+    "whyItMatters": "Traditions can be intentionally made and then reshaped by the people who practice them. Kwanzaa became larger than its founder through decades of community use.",
+    "igCaption": "December 26, 1966: the first Kwanzaa observance began. A newly created tradition grew through families and communities into seven days of reflection on shared principles.\n\n#BlackHistoryInRealTime #Kwanzaa",
+    "tags": [
+      "community",
+      "self-determination",
+      "art"
+    ]
+  },
+  {
+    "fullDate": "2026-12-27",
+    "category": "Faith & Emancipation",
+    "title": "A Black Church Claimed Its Independence",
+    "question": "Which South Carolina church reorganized independently under Black leadership on December 27, 1862, in Union-occupied territory?",
+    "options": [
+      "First African Baptist Church of Beaufort",
+      "Emanuel AME Church",
+      "Abyssinian Baptist Church",
+      "Mother Bethel AME Church"
+    ],
+    "answer": 0,
+    "answerText": "First African Baptist Church of Beaufort",
+    "answerExplanation": "Black congregants in occupied Beaufort reorganized the church during the Civil War, reclaiming religious authority as slavery weakened along the South Carolina coast.",
+    "subject": "First African Baptist Church of Beaufort",
+    "dates": "Reorganized December 27, 1862",
+    "encyclopediaSlug": "black-church",
+    "encyclopediaPath": "generated/pages/black-church.html",
+    "story": "<p>On December 27, 1862, Black congregants in Union-occupied Beaufort, South Carolina, reorganized First African Baptist Church under independent Black leadership.</p><p>The Sea Islands became an early testing ground for wartime emancipation after enslavers fled advancing Union forces. Black residents pursued wages, land, education, family security, and control of worship.</p><p>Church independence meant more than changing clergy. Congregations became meeting places, schools, aid networks, and spaces where formerly enslaved people exercised authority before national emancipation took effect.</p>",
+    "whyItMatters": "Emancipation was built locally through institutions people could govern. Black churches offered spiritual life and practical infrastructure for freedom communities taking shape during war.",
+    "igCaption": "December 27, 1862: Black congregants in Beaufort reorganized a church under their own leadership. Religious independence became part of emancipation before the war had ended.\n\n#BlackHistoryInRealTime #BlackChurchHistory",
+    "tags": [
+      "religion",
+      "emancipation",
+      "community"
+    ]
+  },
+  {
+    "fullDate": "2026-12-28",
+    "category": "Jazz & Innovation",
+    "title": "Earl Hines Reimagined the Piano",
+    "question": "Which jazz pianist and bandleader, born December 28, 1903, developed the influential trumpet-style piano approach?",
+    "options": [
+      "Earl Hines",
+      "Art Tatum",
+      "Count Basie",
+      "Teddy Wilson"
+    ],
+    "answer": 0,
+    "answerText": "Earl Hines",
+    "answerExplanation": "Earl Fatha Hines used bright, horn-like right-hand lines and daring rhythm. His Chicago bands also employed musicians who helped shape bebop.",
+    "subject": "Earl Fatha Hines",
+    "dates": "December 28, 1903 - April 22, 1983",
+    "encyclopediaSlug": "duke-ellington",
+    "encyclopediaPath": "encyclopedia/duke-ellington.html",
+    "story": "<p>Earl Hines was born on December 28, 1903, near Pittsburgh. In Chicago, he developed a piano style whose strong, single-note lines could cut through an ensemble like a trumpet.</p><p>Hines recorded landmark duets with Louis Armstrong and led a major orchestra from the Grand Terrace Cafe. His bands trained and employed musicians moving toward the harmonic language of bebop.</p><p>Changing tastes pushed him from national attention, but a 1960s return introduced his solo invention to new audiences. Musicians had never stopped understanding his importance.</p>",
+    "whyItMatters": "Jazz innovation does not travel in a straight line from one famous genius to another. Hines connected early Chicago jazz, big bands, and modern piano through decades of experimentation.",
+    "igCaption": "December 28, 1903: Earl Hines was born. His piano could speak like a horn, drive a big band, and point younger musicians toward bebop.\n\n#BlackHistoryInRealTime #EarlHines",
+    "tags": [
+      "music",
+      "art",
+      "great-migration"
+    ]
+  },
+  {
+    "fullDate": "2026-12-29",
+    "category": "Africa & Historical Memory",
+    "title": "Cheikh Anta Diop Recentered Africa",
+    "question": "Which Senegalese scholar, born December 29, 1923, challenged histories that separated ancient Egypt from Black Africa?",
+    "options": [
+      "Cheikh Anta Diop",
+      "Leopold Senghor",
+      "Frantz Fanon",
+      "Alioune Diop"
+    ],
+    "answer": 0,
+    "answerText": "Cheikh Anta Diop",
+    "answerExplanation": "Cheikh Anta Diop worked across history, linguistics, anthropology, and physics. Some claims remain debated, but his demand to center African evidence changed scholarship and public thought.",
+    "subject": "Cheikh Anta Diop",
+    "dates": "December 29, 1923 - February 7, 1986",
+    "encyclopediaSlug": "mansa-musa",
+    "encyclopediaPath": "encyclopedia/mansa-musa.html",
+    "story": "<p>Cheikh Anta Diop was born in Senegal on December 29, 1923. He entered scholarship shaped by colonial assumptions and insisted that African history be studied from African evidence, languages, and intellectual questions.</p><p>Diop trained in France across physics, history, linguistics, and anthropology. He argued for deep cultural relationships across Africa and emphasized ancient Egypt&#039;s African context.</p><p>Scholars continue to debate parts of his linguistic and racial analysis. His larger intervention remains powerful: colonial knowledge had made Africa appear without history, and that framing required direct challenge.</p>",
+    "whyItMatters": "Responsible study can recognize influence without treating every proposition as settled. Diop changed the questions scholars and readers believed were legitimate to ask about Africa.",
+    "igCaption": "December 29, 1923: Cheikh Anta Diop was born. He challenged colonial scholarship to treat Africa as a producer of history, evidence, language, and intellectual authority.\n\n#BlackHistoryInRealTime #CheikhAntaDiop",
+    "tags": [
+      "education",
+      "literature",
+      "self-determination"
+    ]
+  },
+  {
+    "fullDate": "2026-12-30",
+    "category": "Music & Rhythm",
+    "title": "The Beat That Carried Bo Diddley's Name",
+    "question": "Which guitarist and songwriter, born December 30, 1928, popularized the rhythm known as the Bo Diddley beat?",
+    "options": [
+      "Bo Diddley",
+      "Chuck Berry",
+      "Muddy Waters",
+      "Howlin' Wolf"
+    ],
+    "answer": 0,
+    "answerText": "Bo Diddley",
+    "answerExplanation": "Bo Diddley built a signature rhythm from African diasporic patterns and shaped rock performers who often received more mainstream exposure than he did.",
+    "subject": "Bo Diddley",
+    "dates": "December 30, 1928 - June 2, 2008",
+    "encyclopediaSlug": "the-blues",
+    "encyclopediaPath": "encyclopedia/the-blues.html",
+    "story": "<p>Bo Diddley was born Ellas Bates on December 30, 1928. His rectangular guitars, amplified sound, and signature rhythm helped build rock and roll from Black blues and diasporic percussion.</p><p>After moving to Chicago, he recorded songs including Bo Diddley and I&#039;m a Man for Chess Records. The beat associated with his name echoed older clave patterns rather than appearing from nowhere.</p><p>White rock bands borrowed his sound and reached larger markets. Diddley spoke openly about contracts and royalties that left pioneering Black performers with less wealth than their influence suggested.</p>",
+    "whyItMatters": "Musical credit is not only about identifying influence. It also means asking who owned recordings, received royalties, entered the canon, and profited from the sound.",
+    "igCaption": "December 30, 1928: Bo Diddley was born. His beat traveled through rock music worldwide, while the industry paid many followers more than the Black innovator they followed.\n\n#BlackHistoryInRealTime #BoDiddley",
+    "tags": [
+      "music",
+      "art",
+      "economics"
+    ]
+  },
+  {
+    "fullDate": "2026-12-31",
+    "category": "Faith & Emancipation",
+    "title": "Freedom's Eve",
+    "question": "What tradition grew from Black communities gathering on December 31, 1862, to await the Emancipation Proclamation?",
+    "options": [
+      "Watch Night",
+      "Juneteenth",
+      "Kwanzaa",
+      "Pinkster"
+    ],
+    "answer": 0,
+    "answerText": "Watch Night",
+    "answerExplanation": "Black communities gathered in churches and homes on Freedom's Eve, waiting for the proclamation to take effect on January 1, 1863. Watch Night remains a New Year's Eve tradition.",
+    "subject": "Watch Night and Freedom's Eve",
+    "dates": "December 31, 1862",
+    "encyclopediaSlug": "black-church",
+    "encyclopediaPath": "generated/pages/black-church.html",
+    "story": "<p>On December 31, 1862, Black communities gathered in churches, homes, and meeting places to wait for the Emancipation Proclamation to take effect at midnight. They called the night Freedom&#039;s Eve.</p><p>The proclamation applied to enslaved people in areas still in rebellion and depended on Union military power. It did not free everyone at once, but it changed the war&#039;s legal purpose and authorized Black military enlistment.</p><p>Prayer, singing, testimony, and watchfulness joined older Methodist Watch Night practice to the specific anticipation of emancipation. Black churches preserved the tradition across generations.</p>",
+    "whyItMatters": "Freedom's Eve ends the calendar with uncertainty rather than a tidy finish. People gathered between promise and enforcement, knowing law could open a door while struggle still determined who passed through it.",
+    "igCaption": "December 31, 1862: Black communities gathered for Freedom's Eve, waiting for emancipation to take legal effect. Watch Night still carries that space between promise and freedom lived.\n\n#BlackHistoryInRealTime #WatchNight",
+    "tags": [
+      "emancipation",
+      "religion",
+      "community"
+    ]
   }
 ];
